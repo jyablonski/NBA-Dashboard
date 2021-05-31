@@ -180,25 +180,6 @@ get_Schedule <- function(){
   }
 }
 
-# get_transactions <- function(){
-#   url <- paste0('https://www.basketball-reference.com/leagues/NBA_2021_transactions.html')
-#   webpage <- read_html(url)
-#   
-#   new1 <- html_nodes(webpage, "div#content > ul > li") %>% 
-#     map_df(~{
-#       data_frame(
-#         Date = html_node(.x, "span") %>% html_text(trim = TRUE),
-#         Event = html_nodes(.x, "p") %>% html_text(trim = TRUE)
-#       )
-#     }) 
-#   new2 <- new1 %>%
-#     mutate(Date2 = as.Date(Date, tryFormats = '%B %d, %Y')) %>%
-#     filter(!str_detect(Event, 'G-League'),
-#            Date2 >= '2020-04-01') %>%
-#     select(Date, Event)
-#   return(new2)
-# }
-
 get_Contracts <- function(){
   url <- 'https://www.basketball-reference.com/contracts/players.html'
   webpage <- read_html(url)
