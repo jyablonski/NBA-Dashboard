@@ -1,0 +1,31 @@
+Team,Odds,over_under_wins,wins_needed,expected_win_pct
+Los Angeles Lakers,275,47.5,48,0.667
+Milwaukee Bucks,550,49.5,50,0.694
+Brooklyn Nets,600,45.5,46,0.639
+Los Angeles Clippers,650,46.5,47,0.653
+Boston Celtics,1400,44.5,45,0.625
+Miami Heat,1600,43.5,44,0.611
+Denver Nuggets,1800,44.5,45,0.625
+Golden State Warriors,2500,37.5,38,0.528
+Toronto Raptors,2500,42.5,43,0.597
+Philadelphia 76ers,2500,43.5,44,0.611
+Dallas Mavericks,2500,42.5,43,0.597
+Utah Jazz,4000,41.5,42,0.583
+Portland Trail Blazers,4000,40.5,41,0.569
+Phoenix Suns,4000,38.5,39,0.542
+Houston Rockets,5000,34.5,35,0.486
+New Orleans Pelicans,6500,36.5,37,0.514
+Atlanta Hawks,10000,34.5,35,0.486
+Indiana Pacers,10000,38.5,39,0.542
+Washington Wizards,10000,32.5,33,0.458
+Memphis Grizzlies,15000,31.5,32,0.444
+Minnesota Timberwolves,20000,29.5,30,0.417
+Oklahoma City Thunder,20000,22.5,23,0.319
+Orlando Magic,20000,31.5,32,0.444
+Chicago Bulls,25000,29.5,30,0.417
+Charlotte Hornets,25000,26.5,27,0.375
+Sacramento Kings,25000,28.5,29,0.403
+San Antonio Spurs,25000,28.5,29,0.403
+New York Knicks,50000,21.5,22,0.306
+Cleveland Cavaliers,50000,22.5,23,0.319
+Detroit Pistons,50000,23.5,24,0.333
