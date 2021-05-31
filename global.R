@@ -263,37 +263,6 @@ get_clean_foul_data <- function(df){
   
 }
 
-# get_advanced_stats <- function(){
-#   url <- 'https://www.basketball-reference.com/leagues/NBA_2021.html'
-#   webpage <- read_html(url)
-#   data <- webpage %>% 
-#     html_nodes(xpath = '//comment()') %>%
-#     html_text() %>%
-#     paste(collapse='') %>%
-#     read_html() %>% 
-#     html_node("#misc_stats") %>% 
-#     html_table()
-#   
-#   
-#   data2 <- data %>%
-#     janitor::row_to_names(row_number = 1) %>%
-#     select(Rk:Pace) %>%
-#     select(-Rk, -PW, -PL, -MOV, -SOS, -SRS) %>%
-#     mutate(Team = str_replace_all(Team, pattern = "\\*", replacement = ""),
-#            NRtg = str_replace_all(NRtg, pattern = "\\+", replacement = ""),
-#            ORtg = as.numeric(ORtg),
-#            DRtg = as.numeric(DRtg),
-#            NRtg = as.numeric(NRtg),
-#            Pace = as.numeric(Pace)) %>%
-#     left_join(acronyms) %>%
-#     select(-Team) %>%
-#     rename(Team = Team1, ORTG = ORtg, DRTG = DRtg, NRTG = NRtg) %>%
-#     select(Team, everything())
-#   
-#   data2 <- data2[-31,]
-#   return(data2)
-# }
-
 odds_cleanup <- function(df){
   game_ids <- gameLogs_Two %>%
     select(Team, Date, Outcome, PTS) %>%
