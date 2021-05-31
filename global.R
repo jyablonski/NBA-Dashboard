@@ -366,7 +366,6 @@ adv_stats <- read_csv('data/player_advanced_stats.csv')
 
 dbDisconnect(aws_connect)
 
-
 # pbp_data_new <- get_clean_foul_data(pbp_data)
 
 ###### Data Extraction Complete ######
