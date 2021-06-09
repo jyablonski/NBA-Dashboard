@@ -118,13 +118,13 @@ get_team_opponent_shooting_data <- function(){
 }
 
 get_odds <- function(){
-  if (isSeasonActive == TRUE & as.double(Sys.time() - file_info('data/odds.csv')$change_time, units = 'hours') > 8.0){
-    odds_df <- dbReadTable(aws_connect, "aws_odds_df")
-    write_csv(odds_df, 'data/odds.csv')
+  if (isSeasonActive == TRUE & as.double(Sys.time() - file_info('data/new_odds.csv')$change_time, units = 'hours') > 8.0){
+    odds_df <- dbReadTable(aws_connect, "aws_new_odds;")
+    write_csv(odds_df, 'data/new_odds.csv')
     return(odds_df)
   }
   else {
-    odds_df <- read_csv('data/odds.csv')
+    odds_df <- read_csv('data/new_odds.csv')
     return(odds_df)
   }
 }
@@ -242,48 +242,6 @@ get_clean_foul_data <- function(df){
   
   return(df)
   
-}
-
-odds_cleanup <- function(df){
-  game_ids <- gameLogs_Two %>%
-    select(Team, Date, Outcome, PTS) %>%
-    filter(Date >= '2021-01-20') %>%
-    group_by(Team, Date) %>%
-    mutate(team1_pts = sum(PTS)) %>%
-    ungroup() %>%
-    select(-PTS) %>%
-    left_join(full_team_names) %>%
-    distinct() %>%
-    rename(team1 = FullName, date = Date) %>%
-    select(team1, team1_pts, date, Outcome)
-  
-  game_ids2 <- gameLogs_Two %>%
-    select(Team, Date, Outcome, PTS) %>%
-    filter(Date >= '2021-01-20') %>%
-    group_by(Team, Date) %>%
-    mutate(team2_pts = sum(PTS)) %>%
-    ungroup() %>%
-    select(-PTS) %>%
-    left_join(full_team_names) %>%
-    distinct() %>%
-    rename(team2 = FullName, date = Date) %>%
-    select(team2, team2_pts, date)
-  
-  odds_df2 <- df %>%
-    mutate(team1 = replace(team1, team1 == 'Portland TrailBlazers', 'Portland Trail Blazers'),
-           team2 = replace(team2, team2 == 'Portland TrailBlazers', 'Portland Trail Blazers')) %>%
-    left_join(game_ids %>% select(team1, date, Outcome, team1_pts)) %>%
-    left_join(game_ids2 %>% select(team2, team2_pts, date)) %>%
-    rename(team1_outcome = Outcome) %>%
-    mutate(team2_outcome = case_when(team1_outcome == 'W' ~ 'L',
-                                     team1_outcome == 'L' ~ 'W',
-                                     TRUE ~ 'HELP'),
-           team2_outcome = na_if(team2_outcome, 'HELP')) %>%
-    select(team1, team1_outcome, team1_moneyline, team1_spread, team1_pts, team2, team2_outcome,
-           team2_moneyline, team2_spread, team2_pts, pts_bet, date) %>%
-    mutate(tot_pts = team1_pts + team2_pts)
-  
-  return(odds_df2)
 }
 
 get_ord_numbers <- function(df){
@@ -906,65 +864,100 @@ opponent_rank <- team_wins %>%
   mutate(Team = replace(Team, Team == 'LA Clippers', 'Los Angeles Clippers')) %>%
   rename(Opponent = Team)
 
-odds2 <- odds_cleanup(odds_df)
 
-rm(odds_df)
-
-
-games_tonight <- odds2 %>%
-  filter(date == todayDate) %>%
-  mutate(text = case_when(team1_moneyline < 0 ~ 'Favored',
-                          TRUE ~ 'Underdog')) %>%
-  rename(`Team 1` = team1, `Team 2` = team2, Date = date) 
-
-
-schedule_main <- schedule %>%
-  select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
-  rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
-         `Team 2` = home_team_name) %>%
-  mutate(Vs = replace_na(Vs, 'Vs'),
-         Date = as.Date(Date, format = '%a, %b %d, %Y'),
-         `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
-         `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
-         bb = substr(`Start Time (EST)`, 0, 4),
-         b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
-  filter(Date >= todayDate) %>%
-  arrange(Date, b) %>%
-  select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
-  left_join(team_rank, by = c(`Team 1` = 'Team')) %>%
-  left_join(opponent_rank, by = c(`Team 2` = 'Opponent')) %>%
-  mutate('Average Rank of Teams' = (Rank + opp_Rank) / 2) %>%
-  select(-Rank, -opp_Rank) %>%
-  left_join(games_tonight) %>%
-  mutate(team1_moneyline = replace(team1_moneyline, team1_moneyline == '-', '+100'),
-         team2_moneyline = replace(team2_moneyline, team2_moneyline == '-', '+100'),
-         team1_text =  case_when(Date == todayDate ~ paste0(`Team 1`, " (", team1_moneyline, ")"),
+get_schedule_clean <- function(df){
+    if (nrow(odds1) > 0) {
+      schedule_main <- df %>%
+        select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
+        rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
+               `Team 2` = home_team_name) %>%
+        mutate(Vs = replace_na(Vs, 'Vs'),
+               Date = as.Date(Date, format = '%a, %b %d, %Y'),
+               `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
+               `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
+               bb = substr(`Start Time (EST)`, 0, 4),
+               b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
+        filter(Date >= todayDate) %>%
+        arrange(Date, b) %>%
+        select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
+        left_join(team_rank, by = c(`Team 1` = 'Team')) %>%
+        left_join(opponent_rank, by = c(`Team 2` = 'Opponent')) %>%
+        mutate('Average Rank of Teams' = (Rank + opp_Rank) / 2) %>%
+        select(-Rank, -opp_Rank) %>%
+        left_join(odds1) %>%
+        left_join(odds2) %>%
+        mutate(team1 = case_when(Date == todayDate ~ new_team1,
                                  TRUE ~ `Team 1`),
-         team2_text = case_when(Date == todayDate ~ paste0(`Team 2`, " (", team2_moneyline, ")"),
-                                TRUE ~ `Team 2`)) %>%
-  select(Date, `Day of Week`, `Start Time (EST)`, `team1_text`, `Vs`, team2_text, `Average Rank of Teams`) %>%
-  rename(`Road Team` = team1_text, `Home Team` = team2_text) %>%
-  distinct()
+               team2 = case_when(Date == todayDate ~ new_team2,
+                                 TRUE ~ `Team 2`)) %>%
+        select(Date, `Day of Week`, `Start Time (EST)`, team1, `Vs`, team2, `Average Rank of Teams`) %>%
+        rename(`Road Team` = team1, `Home Team` = team2) %>%
+        distinct()
+      
+      return(schedule_main)
+    }
+    else {
+      schedule_main <- df %>%
+        select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
+        rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
+               `Team 2` = home_team_name) %>%
+        mutate(Vs = replace_na(Vs, 'Vs'),
+               Date = as.Date(Date, format = '%a, %b %d, %Y'),
+               `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
+               `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
+               bb = substr(`Start Time (EST)`, 0, 4),
+               b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
+        filter(Date >= todayDate) %>%
+        arrange(Date, b) %>%
+        select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
+        left_join(team_rank, by = c(`Team 1` = 'Team')) %>%
+        left_join(opponent_rank, by = c(`Team 2` = 'Opponent')) %>%
+        mutate('Average Rank of Teams' = (Rank + opp_Rank) / 2) %>%
+        select(-Rank, -opp_Rank)
+      
+      return(schedule_main)
+    }
+}
+  
 
-rm(games_tonight)
+odds1 <- odds_df %>%
+  filter(date == todayDate) %>%
+  select(team:moneyline) %>%
+  mutate(new_moneyline = case_when(moneyline > 0 ~ paste0('+', as.character(moneyline)),
+                                   TRUE ~ as.character(moneyline)),
+         new_team1 = paste0(team, ' (', new_moneyline, ')')) %>%
+  select(`Team 1` = team, new_team1)
 
-opponent_prac <- schedule %>%
-  select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
-  rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
-         `Team 2` = home_team_name) %>%
-  mutate(Vs = replace_na(Vs, 'Vs'),
-         Date = as.Date(Date, format = '%a, %b %d, %Y'),
-         `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
-         `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
-         bb = substr(`Start Time (EST)`, 0, 4),
-         b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
-  filter(Date >= todayDate) %>%
-  arrange(Date, b) %>%
-  select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
-  mutate(game_id = row_number()) %>%
-  mutate(opponent = `Team 1`,
-         opponent2 = `Team 2`) %>%
-  select(game_id, opponent, opponent2)
+
+odds2 <- odds_df %>%
+  select(team:moneyline) %>%
+  mutate(new_moneyline = case_when(moneyline > 0 ~ paste0('+', as.character(moneyline)),
+                                   TRUE ~ as.character(moneyline)),
+         new_team2 = paste0(team, ' (', new_moneyline, ')')) %>%
+  select(`Team 2` = team, new_team2)
+
+schedule_main <- get_schedule_clean(schedule)
+
+
+rm(odds1, odds2)
+
+# opponent_prac <- schedule %>%
+#   select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
+#   rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
+#          `Team 2` = home_team_name) %>%
+#   mutate(Vs = replace_na(Vs, 'Vs'),
+#          Date = as.Date(Date, format = '%a, %b %d, %Y'),
+#          `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
+#          `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
+#          bb = substr(`Start Time (EST)`, 0, 4),
+#          b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
+#   filter(Date >= todayDate) %>%
+#   arrange(Date, b) %>%
+#   select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
+#   mutate(game_id = row_number()) %>%
+#   mutate(opponent = `Team 1`,
+#          opponent2 = `Team 2`) %>%
+#   select(game_id, opponent, opponent2)
 
 # future_sos_breakdown <- schedule %>%
 #   select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
@@ -1912,7 +1905,7 @@ game_event_plot <- function(df){
   
 }
 
-rm(gameLogs_Yesterday, team_colors, pbp_data, most_recent_date)
+rm(gameLogs_Yesterday, team_colors, pbp_data)
 
 
 #######

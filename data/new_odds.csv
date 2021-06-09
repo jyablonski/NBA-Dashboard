@@ -1,0 +1,5 @@
+row_names,team,team_acc,opp,moneyline,spread,overunder,team_pts,game_id,date
+1,Atlanta Hawks,ATL,PHI,+225,+6.5,over,108,1,2021-06-08
+2,Philadelphia 76ers,PHI,ATL,-278,-6.5,under,113,1,2021-06-08
+3,Los Angeles Clippers,LAC,UTA,+128,+3,over,112,2,2021-06-08
+4,Utah Jazz,UTA,LAC,-155,-3,under,109,2,2021-06-08
