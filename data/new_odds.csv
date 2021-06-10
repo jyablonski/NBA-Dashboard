@@ -3,3 +3,11 @@ row_names,team,team_acc,opp,moneyline,spread,overunder,team_pts,game_id,date
 2,Philadelphia 76ers,PHI,ATL,-278,-6.5,under,113,1,2021-06-08
 3,Los Angeles Clippers,LAC,UTA,+128,+3,over,112,2,2021-06-08
 4,Utah Jazz,UTA,LAC,-155,-3,under,109,2,2021-06-08
+1,Denver Nuggets,DEN,PHX,+170,+5,over,113,1,2021-06-09
+2,Phoenix Suns,PHX,DEN,-210,-5,under,108,1,2021-06-09
+3,Brooklyn Nets,BKN,MIL,+128,+3,over,109,2,2021-06-09
+4,Milwaukee Bucks,MIL,BKN,-155,-3,under,112,2,2021-06-09
+1,Brooklyn Nets,BKN,MIL,+135,+3.5,over,112,1,2021-06-10
+2,Milwaukee Bucks,MIL,BKN,-162,-3.5,under,109,1,2021-06-10
+3,Los Angeles Clippers,LAC,UTA,+130,+3.5,over,110,2,2021-06-10
+4,Utah Jazz,UTA,LAC,-157,-3.5,under,110,2,2021-06-10

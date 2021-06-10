@@ -930,6 +930,7 @@ odds1 <- odds_df %>%
 
 
 odds2 <- odds_df %>%
+  filter(date == todayDate) %>%
   select(team:moneyline) %>%
   mutate(new_moneyline = case_when(moneyline > 0 ~ paste0('+', as.character(moneyline)),
                                    TRUE ~ as.character(moneyline)),
@@ -1058,7 +1059,7 @@ rm(odds1, odds2)
 
 
 
-rm(team_rank, opponent_rank, opponent_prac, schedule)
+rm(team_rank, opponent_rank, schedule)
 
 schedule_plot <- function(df){
   p <- df %>% 
