@@ -274,7 +274,6 @@ adv_stats <- read_csv('data/player_advanced_stats.csv')
 
 dbDisconnect(aws_connect)
 
-# pbp_data_new <- get_clean_foul_data(pbp_data)
 
 ###### Data Extraction Complete ######
 # Data Manipulation ----
@@ -353,11 +352,6 @@ gameLogs_Two <- gameLogs %>%
                                      abs(abc_penalty) / abc3 < 0.3 ~ MVPCalc_adj), 1),
          new_penalty = abc3 - new_MVPCalc_adj) %>%
   select(-team_gp_var, -abc3, -MVPCalc_adj, -games_missed_penalty, -pct_games_played)
-
-# bb <- gameLogs_Two %>%
-#   mutate(abc_penalty2 = abs(abc_penalty) / abc3) %>%
-#   select(Player, MVPCalc, MVPCalc_adj, abc_penalty, new_MVPCalc_adj, new_penalty, games_missed, abc_penalty2) %>%
-#   distinct()
 
 league_average_ts <- gameLogs_Two %>%
   filter(Type == 'Regular Season') %>%
@@ -939,127 +933,7 @@ odds2 <- odds_df %>%
 
 schedule_main <- get_schedule_clean(schedule)
 
-
-rm(odds1, odds2)
-
-# opponent_prac <- schedule %>%
-#   select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
-#   rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
-#          `Team 2` = home_team_name) %>%
-#   mutate(Vs = replace_na(Vs, 'Vs'),
-#          Date = as.Date(Date, format = '%a, %b %d, %Y'),
-#          `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
-#          `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
-#          bb = substr(`Start Time (EST)`, 0, 4),
-#          b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
-#   filter(Date >= todayDate) %>%
-#   arrange(Date, b) %>%
-#   select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
-#   mutate(game_id = row_number()) %>%
-#   mutate(opponent = `Team 1`,
-#          opponent2 = `Team 2`) %>%
-#   select(game_id, opponent, opponent2)
-
-# future_sos_breakdown <- schedule %>%
-#   select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
-#   rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
-#          `Team 2` = home_team_name) %>%
-#   mutate(Vs = replace_na(Vs, 'Vs'),
-#          Date = as.Date(Date, format = '%a, %b %d, %Y'),
-#          `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
-#          `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
-#          bb = substr(`Start Time (EST)`, 0, 4),
-#          b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
-#   filter(Date >= todayDate) %>%
-#   arrange(Date, b) %>%
-#   select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
-#   mutate(game_id = row_number()) %>%
-#   pivot_longer(cols = starts_with('Team'),
-#                names_to = 'Teambb',
-#                values_to = 'value') %>%
-#   select(-Teambb) %>%
-#   rename(Team = value) %>%
-#   select(Team, game_id) %>%
-#   left_join(opponent_prac) %>%
-#   pivot_longer(cols = starts_with('opponent'),
-#                names_to = 'team',
-#                values_to = 'valuebb') %>%
-#   filter(Team != valuebb) %>%
-#   select(-team) %>%
-#   rename(Opponent = valuebb) %>%
-#   left_join(team_rank) %>%
-#   left_join(opponent_rank) %>%
-#   group_by(Team) %>%
-#   mutate(avg_opp_rank = mean(opp_Rank),
-#          hmm = case_when(opp_Rank <= 10 ~ 'top10',
-#                          opp_Rank > 10 & opp_Rank <= 20 ~ 'mid10',
-#                          TRUE ~ 'bot10')) %>%
-#   group_by(Team, hmm) %>%
-#   count() %>%
-#   ungroup() %>%
-#   pivot_wider(names_from = hmm, values_from = n) %>%
-#   mutate(top10 = replace_na(top10, 0),
-#          mid10 = replace_na(mid10, 0),
-#          bot10 = replace_na(bot10, 0),
-#          top10_rank = get_ord_numbers(min_rank(-top10)),
-#          mid10_rank = get_ord_numbers(min_rank(-mid10)),
-#          bot10_rank = get_ord_numbers(min_rank(-bot10)))
-
-# schedule_plot_df <- schedule %>%
-#   select(date_game, game_start_time, visitor_team_name, visitor_pts, home_team_name) %>%
-#   rename(Date = date_game, `Start Time (EST)` = game_start_time, `Team 1` = visitor_team_name, Vs = visitor_pts,
-#          `Team 2` = home_team_name) %>%
-#   mutate(Vs = replace_na(Vs, 'Vs'),
-#          Date = as.Date(Date, format = '%a, %b %d, %Y'),
-#          `Day of Week` = wday(Date, label = TRUE, abbr = FALSE),
-#          `Start Time (EST)` = str_replace_all(`Start Time (EST)`, 'p', ' PM'),
-#          bb = substr(`Start Time (EST)`, 0, 4),
-#          b = parse_date_time(`Start Time (EST)`, '%I:%M %p')) %>%
-#   filter(Date >= todayDate) %>%
-#   arrange(Date, b) %>%
-#   select(Date, `Day of Week`, `Start Time (EST)`, `Team 1`, Vs, `Team 2`) %>%
-#   mutate(game_id = row_number()) %>%
-#   pivot_longer(cols = starts_with('Team'),
-#                names_to = 'Teambb',
-#                values_to = 'value') %>%
-#   select(-Teambb) %>%
-#   rename(Team = value) %>%
-#   select(Team, game_id) %>%
-#   left_join(opponent_prac) %>%
-#   pivot_longer(cols = starts_with('opponent'),
-#                names_to = 'team',
-#                values_to = 'valuebb') %>%
-#   filter(Team != valuebb) %>%
-#   select(-team) %>%
-#   rename(Opponent = valuebb) %>%
-#   left_join(team_rank) %>%
-#   left_join(opponent_rank) %>%
-#   group_by(Team) %>%
-#   mutate(avg_opp_rank = mean(opp_Rank),
-#          hmm = case_when(opp_Rank <= 10 ~ 'top10',
-#                          opp_Rank > 10 & opp_Rank <= 20 ~ 'mid10',
-#                          TRUE ~ 'bot10')) %>%
-#   left_join(team_rank) %>%
-#   mutate(differential = avg_opp_rank - Rank,
-#          differential = round(differential, 1),
-#          avg_opp_rank = round(avg_opp_rank, 1)) %>%
-#   select(-game_id, -Opponent, -hmm, -opp_Rank) %>%
-#   distinct() %>%
-#   ungroup() %>%
-#   arrange(avg_opp_rank) %>%
-#   mutate(remaining_sched_rank = row_number(),
-#          new_seed = get_ord_numbers(remaining_sched_rank),
-#          legend = case_when(differential > 0 ~ 'Easier Schedule',
-#                             TRUE ~ 'Harder Schedule'),
-#          Rank = get_ord_numbers(Rank),
-#          Team = fct_reorder(Team, avg_opp_rank)) %>%
-#   select(-remaining_sched_rank) %>%
-#   left_join(future_sos_breakdown) %>%
-#   left_join(acronyms)
-
-
-
-rm(team_rank, opponent_rank, schedule)
+rm(odds1, odds2, team_rank, opponent_rank, schedule)
 
 schedule_plot <- function(df){
   p <- df %>% 
@@ -1307,8 +1181,6 @@ contract_value <- contracts %>%
          player_missing_value = ((team_gp * Salary) - player_achieved_value),
          player_pct_missing = player_missing_value / (team_gp * Salary),
          player_pct_missing = round(player_pct_missing, 3))
-                    
-# teams are missing y% of the value of their contracts due to injury, COVID-related health absences, or DNPs.
 
 team_contract_value <- contract_value %>%
   select(Team, team_gp:team_pct_missing) %>%
@@ -1360,9 +1232,6 @@ rating_bans <- team_ratings %>%
 
 rm(team_ratings, contracts, GP)
 
-
-# you could look at SOS currently vs future SOS and factor that in
-# problem is we dont have future schedule yet.  
 over_under <- over_under %>%
   left_join(team_wins, by = c("Team" = "FullName")) %>%
   mutate(new_expected_winpct = round((over_under_wins / 72), 3),
@@ -1395,31 +1264,6 @@ vegas_plot <- function(df) {
     layout(hoverlabel = list(bgcolor = "white"))
 }
 
-# vegas_plot(over_under)
-
-# days_off <- gameLogs_Two %>%
-#   select(DaysRest, Outcome, Location, GameID, Date) %>%
-#   distinct() %>%
-#   group_by(DaysRest, Outcome) %>%
-#   count() %>%
-#   ungroup() %>%
-#   group_by(DaysRest) %>%
-#   mutate(pct_total = n / sum(n),
-#          pct_total = round(pct_total, 3))
-
-# max_player_date <- gameLogs_Two %>%
-#   select(Player, Date, Team) %>%
-#   group_by(Player) %>%
-#   filter(Date == max(Date)) %>%
-#   rename(right_team = Team)
-
-# need to iterate through gamelogs to find date of trade and gp since trade.  
-
-# png <- read_csv('data/playerpng.csv')
-# 
-# top_20pt_scorers <- top_20pt_scorers %>%
-#   left_join(png)
-
 opponent_shooting_bans <- opponent_shooting %>%
   select(nameTeam, pctFGOpponent, pctFG3Opponent, ftaOpponent, pctFGOpponentRank, pctFG3OpponentRank, ftaOpponentRank) %>%
   mutate(pctFG_real_text = get_ord_numbers(pctFGOpponentRank),
@@ -1451,7 +1295,6 @@ team_wins <- team_wins %>%
   left_join(east_seed)
 
 rm(west_seed, east_seed)
-
 
 opp_winpercent <- gameLogs_Two %>%
   filter(Type == 'Regular Season') %>%
@@ -1512,18 +1355,6 @@ advanced_standings <- team_opponents %>%
 
 rm(homeroad_standings, team_opponents, opp_winpercent)
 
-# pts_variance <- gameLogs_Two %>%
-#   select(Player, Team, Outcome, Date, GameID, GP, PTS) %>%
-#   group_by(Player) %>%
-#   mutate(avg_pts = round(mean(PTS), 1),
-#          pts_differential = PTS - avg_pts,
-#          pts_variance_game = pts_differential * pts_differential,
-#          pts_variance = mean(pts_variance_game),
-#          std_dev = round(sqrt(pts_variance), 2),
-#          pts_var_pct = round(std_dev / avg_pts, 3)) %>%
-#   ungroup()
-
-
 advanced_sos_plot <- function(df){
   p <- df %>%
     ggplot(aes(prop_gp_below500, Team, fill = avg_opp_winpercent >= 0.5)) +
@@ -1567,7 +1398,6 @@ team_png <- read_csv('data/team_png.csv')
 opp_png <- team_png %>%
   select(Opponent = Team, opp_logo = logo)
 
-### changed this on 5-19-21, check in the morning.
 team_avg_ppg <- gameLogs_Two %>%
   select(Team, GameID, Date, PTS, threePFGMade, threePAttempted, Location) %>%
   group_by(Team, GameID, Date) %>%
@@ -1589,7 +1419,6 @@ team_avg_ppg <- gameLogs_Two %>%
          max_opp_season_pts = max(opp_pts)) %>%
   ungroup() %>%
   filter(Date == max(Date)) %>%
-  ### old filter = max date went here.  
   arrange(desc(GameID)) %>%
   mutate(pts_color = case_when(pts == max_season_pts ~ 1, # best all season
                                pts != max_season_pts & pts_difference >= 10 ~ 2, # pretty good # very bad
@@ -1633,8 +1462,6 @@ gt_theme_538 <- function(data,...) {
       ),
       locations = cells_body(
         columns = everything(),
-        # This is a relatively sneaky way of changing the bottom border
-        # Regardless of data size
         rows = nrow(data$`_data`)
       )
     )  %>% 
@@ -1907,43 +1734,3 @@ game_event_plot <- function(df){
 }
 
 rm(gameLogs_Yesterday, team_colors, pbp_data)
-
-
-#######
-# problematic bc player could miss 2 months bc injury and then come back - no correlation between pre and post injury play.  
-# rolling_avg <- gameLogs_Two %>%
-#   filter(MVPCalc >= 30) %>%
-#   select(Player, Team, Opponent, MVPCalc_game, MVPCalc, PTS, game_ts_percent, Date) %>%
-#   group_by(Player) %>%
-#   mutate(ma_mvp = rollapplyr(MVPCalc_game, 10, mean, partial = TRUE),
-#          ma_pts = rollapplyr(PTS, 10, mean, partial = TRUE),
-#          ma_ts = rollapplyr(game_ts_percent, 10, mean, partial = TRUE)) %>%
-#   ungroup()
-# 
-# my_ma_function <- function(df){
-#   df1 <- df %>%
-#     filter(Player == 'Stephen Curry')
-#   
-#   p <- rolling_avg %>%
-#     ggplot(aes(Date, ma_mvp, group = Player)) +
-#     geom_point(size = 0.75, alpha = 0.4, aes(text = paste0(Player, ' (', Team, ')', '<br>',
-#                                                            'Vs. ', Opponent, ' on ', Date, '<br>',
-#                                                            'PTS: ', PTS, '<br>',
-#                                                            'TS%: ', game_ts_percent, '<br>',
-#                                                            '<br>',
-#                                                            'Moving Average Player Value Metric: ', round(ma_mvp, 1), '<br>',
-#                                                            'Season Average Player Value Metric: ', round(MVPCalc, 1)
-#                                                            ))) +
-#     geom_line(alpha = 0.6) +
-#     geom_line(aes(Date, ma_mvp, group = Player), data = df1, color = 'red', size = 1.1) +
-#     annotate("text", x = max(df$Date) - 30, y = max(df$ma_mvp + 3), label = paste0('Hightlighting ', df1$Player[1])) +
-#     labs(x = NULL,
-#          y = 'Player Value Metric',
-#          title = 'Player Value Metric 10-Game Moving Average')
-#   
-#   ggplotly(p, tooltip = c('text'))
-#   
-# }
-# # my_ma_function(rolling_avg)
-
-
