@@ -1589,7 +1589,7 @@ player_gt_table <- function(df){
 }
 # player_gt_table(top_15_yesterday)
 
-rm(acronyms, conferences, full_team_names, gameLogs_Two, last_10_wins, odds2, opponent_shooting, player_teams,
+rm(acronyms, conferences, full_team_names, gameLogs_Two, last_10_wins, opponent_shooting, player_teams,
    upcoming_games, yesterday, todayDate)
 
 # play by play stuff
@@ -1667,6 +1667,44 @@ pbp_event_df <- pbp_data %>%
   left_join(gameLog_gameids_yesterday_text) %>%
   mutate(my_title_span = paste0("<span style='color:", primary_color, "';>", nameTeam, "</span>", " (", Outcome, ")"))
 
+get_leading_times <- function(df){
+  try <- df %>%
+    select(Team, numberPeriod, timeQuarter, leading_team:new_time3) %>%
+    mutate(prev_time = lag(new_time3),
+           prev_time = replace_na(prev_time, 48.0),
+           time_difference = round(60 * (prev_time - new_time3)),
+           time_difference = replace_na(time_difference, 0))
+  last_record_team <- tail(try, 1)
+  
+  try <- try %>%
+    add_row(Team = last_record_team$Team, numberPeriod = last_record_team$numberPeriod, timeQuarter = as.character(0:00),
+            leading_team = last_record_team$leading_team, timeRemaining2 = 12, new_time = 0,
+            time_differential = timeRemaining2 - new_time, new_time3 = new_time, prev_time = last_record_team$new_time3, 
+            time_difference = round(60 * (prev_time - new_time3))) %>%
+    group_by(Team, leading_team) %>%
+    summarize(time = sum(time_difference)) %>%
+    ungroup() %>%
+    pivot_wider(names_from = leading_team,
+                names_glue = '{leading_team}_{.value}',
+                values_from = time) %>%
+    mutate(opp_leadtime = rev(Trailing_time),
+           opp_tiedtime = rev(Tied_time),
+           tot_leadtime = Leading_time + opp_leadtime,
+           tot_trailtime = rev(tot_leadtime),
+           tot_tiedtime = Tied_time + opp_tiedtime,
+           tot_time = tot_leadtime + tot_trailtime + tot_tiedtime,
+           pct_leadtime = round(tot_leadtime / tot_time, 3),
+           pct_tiedtime = round(tot_tiedtime / tot_time, 3)) %>%
+    left_join(team_colors) %>%
+    mutate(text = paste0("<span style='color:", primary_color, "';>", Team, '</span> led for ',
+                         pct_leadtime * 100, ' % of the Game'),
+           tied_text = paste0('The teams were tied for ', (pct_tiedtime * 100), '% of the Game')) %>%
+    select(text, tied_text)
+  
+  return(try)
+  
+}
+
 game_event_plot <- function(df){
   df_val <- tail(df, 1) %>%
     select(numberPeriod) %>%
@@ -1712,6 +1750,8 @@ game_event_plot <- function(df){
   
   team_names <- unique(df$my_title_span)
   
+  lead_times <- get_leading_times(df)
+  
   p <- df %>%
     ggplot(aes(new_time3, marginScore2)) +
     geom_point(aes(color = primary_color, text = paste0(timeQuarter, ' in the ', numberPeriod, ' Quarter', '<br>',
@@ -1723,6 +1763,10 @@ game_event_plot <- function(df){
     scale_x_reverse(breaks = get_breaks(df),
                     labels = get_labels(df)) +
     scale_color_identity() +
+    annotate(geom = "text", label = lead_times[1, 1]$text,
+             x = max(df$new_time3) * .8, y = min(df$marginScore2) * .65) +
+    annotate(geom = "text", label = lead_times[2, 1]$text,
+             x = max(df$new_time3) * .8, y = min(df$marginScore2) * .78) +
     labs(x = 'Quarter',
          y = 'Score Differential',
          title = paste0(team_names[2], ' vs ', team_names[1])) +
@@ -1733,44 +1777,6 @@ game_event_plot <- function(df){
   
 }
 
-rm(gameLogs_yesterday, team_colors, pbp_data)
-
-
-#### lead % time
-get_leading_times <- function(df){
-  try <- df %>%
-    select(Team, numberPeriod, timeQuarter, leading_team:new_time3) %>%
-    mutate(prev_time = lag(new_time3),
-           prev_time = replace_na(prev_time, 48.0),
-           time_difference = round(60 * (prev_time - new_time3)),
-           time_difference = replace_na(time_difference, 0))
-  last_record_team <- tail(try, 1)
-  
-  try <- try %>%
-    add_row(Team = last_record_team$Team, numberPeriod = last_record_team$numberPeriod, timeQuarter = as.character(0:00),
-            leading_team = last_record_team$leading_team, timeRemaining2 = 12, new_time = 0,
-            time_differential = timeRemaining2 - new_time, new_time3 = new_time, prev_time = last_record_team$new_time3, 
-            time_difference = round(60 * (prev_time - new_time3))) %>%
-    group_by(Team, leading_team) %>%
-    summarize(time = sum(time_difference)) %>%
-    ungroup() %>%
-    pivot_wider(names_from = leading_team,
-                names_glue = '{leading_team}_{.value}',
-                values_from = time) %>%
-    mutate(opp_leadtime = rev(Trailing_time),
-           opp_tiedtime = rev(Tied_time),
-           tot_leadtime = Leading_time + opp_leadtime,
-           tot_trailtime = rev(tot_leadtime),
-           tot_tiedtime = Tied_time + opp_tiedtime,
-           tot_time = tot_leadtime + tot_trailtime + tot_tiedtime,
-           pct_leadtime = round(tot_leadtime / tot_time, 3),
-           pct_tiedtime = round(tot_tiedtime / tot_time, 3)) %>%
-    select(Team, tot_leadtime:pct_tiedtime)
-  
-  return(try)
-
-}
-
-bby <- get_leading_times(pbp_event_df)
+rm(gameLogs_yesterday, pbp_data)
 
 
