@@ -11,3 +11,71 @@ row_names,team,team_acc,opp,moneyline,spread,overunder,team_pts,game_id,date
 2,Milwaukee Bucks,MIL,BKN,-162,-3.5,under,109,1,2021-06-10
 3,Los Angeles Clippers,LAC,UTA,+130,+3.5,over,110,2,2021-06-10
 4,Utah Jazz,UTA,LAC,-157,-3.5,under,110,2,2021-06-10
+1,Philadelphia 76ers,PHI,ATL,-122,-1.5,over,109,1,2021-06-11
+2,Atlanta Hawks,ATL,PHI,+104,+1.5,under,112,1,2021-06-11
+3,Phoenix Suns,PHX,DEN,+104,+2,over,112,2,2021-06-11
+4,Denver Nuggets,DEN,PHX,-124,-2,under,109,2,2021-06-11
+1,Utah Jazz,UTA,LAC,+170,+5,over,113,1,2021-06-12
+2,Los Angeles Clippers,LAC,UTA,-210,-5,under,108,1,2021-06-12
+3,Brooklyn Nets,BKN,MIL,-127,-2,over,110,2,2021-06-12
+4,Milwaukee Bucks,MIL,BKN,+107,+2,under,110,2,2021-06-12
+1,Brooklyn Nets,BKN,MIL,-136,-2.5,over,109,2,2021-06-13
+2,Milwaukee Bucks,MIL,BKN,+114,+2.5,under,113,2,2021-06-13
+3,Phoenix Suns,PHX,DEN,-141,-3,over,112,1,2021-06-13
+4,Denver Nuggets,DEN,PHX,+118,+3,under,109,1,2021-06-13
+1,Philadelphia 76ers,PHI,ATL,-159,-3.5,over,110,1,2021-06-14
+2,Atlanta Hawks,ATL,PHI,+132,+3.5,under,110,1,2021-06-14
+3,Utah Jazz,UTA,LAC,+170,+5,over,108,2,2021-06-14
+4,Los Angeles Clippers,LAC,UTA,-210,-5,under,113,2,2021-06-14
+1,Milwaukee Bucks,MIL,BKN,-177,-4,over,108,2,2021-06-15
+2,Brooklyn Nets,BKN,MIL,+145,+4,under,113,2,2021-06-15
+3,Atlanta Hawks,ATL,PHI,+195,+6,over,112,1,2021-06-15
+4,Philadelphia 76ers,PHI,ATL,-240,-6,under,109,1,2021-06-15
+1,Atlanta Hawks,ATL,PHI,+225,+7,over,109,1,2021-06-16
+2,Philadelphia 76ers,PHI,ATL,-275,-7,under,112,1,2021-06-16
+3,Los Angeles Clippers,LAC,UTA,+225,+7,over,109,2,2021-06-16
+4,Utah Jazz,UTA,LAC,-278,-7,under,112,2,2021-06-16
+1,Brooklyn Nets,BKN,MIL,+185,+6,over,112,2,2021-06-17
+2,Milwaukee Bucks,MIL,BKN,-235,-6,under,109,2,2021-06-17
+3,Philadelphia 76ers,PHI,ATL,-155,-3,over,112,1,2021-06-17
+4,Atlanta Hawks,ATL,PHI,+130,+3,under,109,1,2021-06-17
+1,Philadelphia 76ers,PHI,ATL,-162,-3.5,over,112,1,2021-06-18
+2,Atlanta Hawks,ATL,PHI,+133,+3.5,under,109,1,2021-06-18
+3,Utah Jazz,UTA,LAC,-125,-2,over,112,2,2021-06-18
+4,Los Angeles Clippers,LAC,UTA,+105,+2,under,109,2,2021-06-18
+1,Milwaukee Bucks,MIL,BKN,+102,+1.5,over,110,1,2021-06-19
+2,Brooklyn Nets,BKN,MIL,-122,-1.5,under,112,1,2021-06-19
+3,Los Angeles Clippers,LAC,PHX,+150,+4.5,over,110,2,2021-06-19
+4,Phoenix Suns,PHX,LAC,-182,-4.5,under,110,2,2021-06-19
+1,Los Angeles Clippers,LAC,PHX,+143,+4,over,110,2,2021-06-20
+2,Phoenix Suns,PHX,LAC,-175,-4,under,110,2,2021-06-20
+3,Atlanta Hawks,ATL,PHI,+215,+6.5,over,112,1,2021-06-20
+4,Philadelphia 76ers,PHI,ATL,-265,-6.5,under,109,1,2021-06-20
+1,Los Angeles Clippers,LAC,PHX,+195,+6,over,113,1,2021-06-21
+2,Phoenix Suns,PHX,LAC,-240,-6,under,109,1,2021-06-21
+3,Atlanta Hawks,ATL,MIL,+250,+7.5,over,108,2,2021-06-21
+4,Milwaukee Bucks,MIL,ATL,-305,-7.5,under,113,2,2021-06-21
+1,NA,NA,NA,+250,+7,over,115,2,2021-06-23
+2,NA,NA,NA,-335,-7,under,110,2,2021-06-23
+3,Phoenix Suns,PHX,LAC,-115,-1,NA,NA,1,2021-06-23
+4,Los Angeles Clippers,LAC,PHX,-107,+1,NA,NA,1,2021-06-23
+1,Phoenix Suns,PHX,LAC,-117,-1,over,110,1,2021-06-24
+2,Los Angeles Clippers,LAC,PHX,-103,+1,under,112,1,2021-06-24
+3,Atlanta Hawks,ATL,MIL,+280,+7.5,over,108,2,2021-06-24
+4,Milwaukee Bucks,MIL,ATL,-345,-7.5,under,113,2,2021-06-24
+1,Atlanta Hawks,ATL,MIL,+275,+8,over,112,2,2021-06-25
+2,Milwaukee Bucks,MIL,ATL,-345,-8,under,109,2,2021-06-25
+3,Phoenix Suns,PHX,LAC,-109,+0.5,over,112,1,2021-06-25
+4,Los Angeles Clippers,LAC,PHX,-109,-0.5,under,109,1,2021-06-25
+1,Phoenix Suns,PHX,LAC,-117,-1,over,112,1,2021-06-26
+2,Los Angeles Clippers,LAC,PHX,-103,+1,under,109,1,2021-06-26
+3,Milwaukee Bucks,MIL,ATL,-180,-4,over,112,2,2021-06-26
+4,Atlanta Hawks,ATL,MIL,+148,+4,under,109,2,2021-06-26
+1,Milwaukee Bucks,MIL,ATL,-195,-4.5,over,112,2,2021-06-27
+2,Atlanta Hawks,ATL,MIL,+160,+4.5,under,109,2,2021-06-27
+3,Los Angeles Clippers,LAC,PHX,+185,+5.5,over,112,1,2021-06-27
+4,Phoenix Suns,PHX,LAC,-225,-5.5,under,109,1,2021-06-27
+1,Los Angeles Clippers,LAC,PHX,+185,+5.5,over,112,1,2021-06-28
+2,Phoenix Suns,PHX,LAC,-225,-5.5,under,109,1,2021-06-28
+3,Milwaukee Bucks,MIL,ATL,-250,-6,over,112,2,2021-06-28
+4,Atlanta Hawks,ATL,MIL,+205,+6,under,109,2,2021-06-28

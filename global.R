@@ -143,7 +143,7 @@ get_player_advanced_stats <- function(){
 
 
 
-get_Schedule <- function(){
+get_schedule <- function(){
   if (isSeasonActive == TRUE & as.double(Sys.time() - file_info('data/schedule.csv')$change_time, units = 'hours') > 8.0){
     currentmonth <- tolower(format(Sys.Date(), "%B"))
     nextmonth <- tolower(format(Sys.Date() + 30, "%B"))
@@ -180,7 +180,7 @@ get_Schedule <- function(){
   }
 }
 
-get_Contracts <- function(){
+get_contracts <- function(){
   url <- 'https://www.basketball-reference.com/contracts/players.html'
   webpage <- read_html(url)
   col_names <- webpage %>%
@@ -262,7 +262,7 @@ injury_data <- get_injuries_data()
 gameLogs <- get_gamelogs_data()
 dataBREFTeamJoined <- read_csv('data/dataBREFTeamJoined.csv')
 team_ratings <- read_csv('data/team_ratings.csv')
-schedule <- get_Schedule()
+schedule <- get_schedule()
 transactions <- read_csv('data/transactions.csv')
 contracts <- read_csv('data/contracts.csv')
 pbp_data <- get_playbyplay_data()
@@ -383,7 +383,7 @@ player_teams <- gameLogs_Two %>%
 
 rm(gameLogs, team_gp_df, salary_Merge, adv_stats, GP_p)
 
-gameLogs_Yesterday <- gameLogs_Two %>%
+gameLogs_yesterday <- gameLogs_Two %>%
   filter(Date == max(Date))
 
 total_season_high <- gameLogs_Two %>%
@@ -404,7 +404,7 @@ player_season_high <- gameLogs_Two %>%
 
 player_png <- read_csv('data/player_png.csv')
 
-top_15_yesterday <- gameLogs_Yesterday %>%
+top_15_yesterday <- gameLogs_yesterday %>%
   select(Player, Team, PTS, game_ts_percent, Outcome, Salary) %>%
   top_n(15, PTS) %>%
   left_join(player_png) %>%
@@ -435,7 +435,7 @@ top_15_yesterday <- gameLogs_Yesterday %>%
 
 rm(player_season_high, player_png, total_season_high)
 
-team_Wins_Yesterday <- gameLogs_Yesterday %>%
+team_Wins_Yesterday <- gameLogs_yesterday %>%
   filter(Date == max(Date)) %>%
   group_by(Team, Opponent, Location, GameID, Outcome, Date) %>%
   summarise(Team_PTS_Scored = sum(PTS)) %>%
@@ -1595,7 +1595,7 @@ rm(acronyms, conferences, full_team_names, gameLogs_Two, last_10_wins, odds2, op
 # play by play stuff
 team_colors <- read_csv('data/team_colors.csv')
 
-gameLog_gameids_yesterday_text <- gameLogs_Yesterday %>%
+gameLog_gameids_yesterday_text <- gameLogs_yesterday %>%
   group_by(GameID) %>%
   select(GameID, FullName, Location) %>%
   distinct() %>%
@@ -1632,7 +1632,7 @@ pbp_event_df <- pbp_data %>%
   mutate(run = cumsum(abs(score_change))) %>%
   ungroup() %>%
   rename(GameID = idGame, Team = slugTeamPlayer1) %>%
-  left_join(gameLogs_Yesterday %>% select(GameID, Team, Outcome)) %>%
+  left_join(gameLogs_yesterday %>% select(GameID, Team, Outcome)) %>%
   distinct() %>%
   mutate(numberPeriod = get_ord_numbers(numberPeriod),
          numberPeriod = case_when(numberPeriod == '5th' ~ '1st OT',
@@ -1733,4 +1733,44 @@ game_event_plot <- function(df){
   
 }
 
-rm(gameLogs_Yesterday, team_colors, pbp_data)
+rm(gameLogs_yesterday, team_colors, pbp_data)
+
+
+#### lead % time
+get_leading_times <- function(df){
+  try <- df %>%
+    select(Team, numberPeriod, timeQuarter, leading_team:new_time3) %>%
+    mutate(prev_time = lag(new_time3),
+           prev_time = replace_na(prev_time, 48.0),
+           time_difference = round(60 * (prev_time - new_time3)),
+           time_difference = replace_na(time_difference, 0))
+  last_record_team <- tail(try, 1)
+  
+  try <- try %>%
+    add_row(Team = last_record_team$Team, numberPeriod = last_record_team$numberPeriod, timeQuarter = as.character(0:00),
+            leading_team = last_record_team$leading_team, timeRemaining2 = 12, new_time = 0,
+            time_differential = timeRemaining2 - new_time, new_time3 = new_time, prev_time = last_record_team$new_time3, 
+            time_difference = round(60 * (prev_time - new_time3))) %>%
+    group_by(Team, leading_team) %>%
+    summarize(time = sum(time_difference)) %>%
+    ungroup() %>%
+    pivot_wider(names_from = leading_team,
+                names_glue = '{leading_team}_{.value}',
+                values_from = time) %>%
+    mutate(opp_leadtime = rev(Trailing_time),
+           opp_tiedtime = rev(Tied_time),
+           tot_leadtime = Leading_time + opp_leadtime,
+           tot_trailtime = rev(tot_leadtime),
+           tot_tiedtime = Tied_time + opp_tiedtime,
+           tot_time = tot_leadtime + tot_trailtime + tot_tiedtime,
+           pct_leadtime = round(tot_leadtime / tot_time, 3),
+           pct_tiedtime = round(tot_tiedtime / tot_time, 3)) %>%
+    select(Team, tot_leadtime:pct_tiedtime)
+  
+  return(try)
+
+}
+
+bby <- get_leading_times(pbp_event_df)
+
+
