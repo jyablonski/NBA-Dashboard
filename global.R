@@ -1687,7 +1687,10 @@ get_leading_times <- function(df){
     pivot_wider(names_from = leading_team,
                 names_glue = '{leading_team}_{.value}',
                 values_from = time) %>%
-    mutate(opp_leadtime = rev(Trailing_time),
+    mutate(Leading_time = replace_na(Leading_time, 0),
+           Tied_time = replace_na(Tied_time, 0),
+           Trailing_time = replace_na(Trailing_time, 0),
+           opp_leadtime = rev(Trailing_time),
            opp_tiedtime = rev(Tied_time),
            tot_leadtime = Leading_time + opp_leadtime,
            tot_trailtime = rev(tot_leadtime),
@@ -1700,6 +1703,7 @@ get_leading_times <- function(df){
                          pct_leadtime * 100, ' % of the Game'),
            tied_text = paste0('The teams were tied for ', (pct_tiedtime * 100), '% of the Game')) %>%
     select(text, tied_text)
+  
   
   return(try)
   
@@ -1764,9 +1768,9 @@ game_event_plot <- function(df){
                     labels = get_labels(df)) +
     scale_color_identity() +
     annotate(geom = "text", label = lead_times[1, 1]$text,
-             x = max(df$new_time3) * .8, y = min(df$marginScore2) * .65) +
+             x = max(df$new_time3) * .8, y = max(df$marginScore2) * .8) +
     annotate(geom = "text", label = lead_times[2, 1]$text,
-             x = max(df$new_time3) * .8, y = min(df$marginScore2) * .78) +
+             x = max(df$new_time3) * .8, y = max(df$marginScore2) * .75) +
     labs(x = 'Quarter',
          y = 'Score Differential',
          title = paste0(team_names[2], ' vs ', team_names[1])) +
@@ -1777,6 +1781,6 @@ game_event_plot <- function(df){
   
 }
 
-rm(gameLogs_yesterday, pbp_data)
+# game_event_plot(pbp_event_df)
 
 
