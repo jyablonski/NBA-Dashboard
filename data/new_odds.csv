@@ -85,3 +85,5 @@ row_names,team,team_acc,opp,moneyline,spread,overunder,team_pts,game_id,date
 2,Los Angeles Clippers,LAC,PHX,-106,+1,under,109,1,2021-06-30
 3,Atlanta Hawks,ATL,MIL,+120,+2.5,over,112,2,2021-06-30
 4,Milwaukee Bucks,MIL,ATL,-143,-2.5,under,109,2,2021-06-30
+1,Atlanta Hawks,ATL,MIL,107,+2,over,112,1,2021-07-01
+2,Milwaukee Bucks,MIL,ATL,-129,-2,under,109,1,2021-07-01

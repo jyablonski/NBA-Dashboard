@@ -1752,9 +1752,19 @@ game_event_plot <- function(df){
     }
   }
   
+  lead_text <- function(df){
+    if (abs(min(df$marginScore2)) > abs(max(df$marginScore2))){
+      return (min(df$marginScore2) * .9) # if the score is mainly negative lets set y to be down at the bottom
+    }
+    else {
+      return (max(df$marginScore2) * .9) # if the score is mainly positive lets set y to be at the top.  
+    }
+  }
+  
   team_names <- unique(df$my_title_span)
   
   lead_times <- get_leading_times(df)
+  y_loc <- lead_text(df)
   
   p <- df %>%
     ggplot(aes(new_time3, marginScore2)) +
@@ -1768,10 +1778,10 @@ game_event_plot <- function(df){
                     labels = get_labels(df)) +
     scale_color_identity() +
     annotate(geom = "text", label = lead_times[1, 1]$text,
-             x = max(df$new_time3) * .8, y = max(df$marginScore2) * .8) +
+             x = 42, y = y_loc) + 
     annotate(geom = "text", label = lead_times[2, 1]$text,
-             x = max(df$new_time3) * .8, y = max(df$marginScore2) * .75) +
-    labs(x = 'Quarter',
+             x = 42, y = y_loc * .9) +
+    labs(x = NULL,
          y = 'Score Differential',
          title = paste0(team_names[2], ' vs ', team_names[1])) +
     theme(legend.position = 'none')
@@ -1780,7 +1790,4 @@ game_event_plot <- function(df){
     layout(hoverlabel = list(bgcolor = "white"))
   
 }
-
-# game_event_plot(pbp_event_df)
-
 
