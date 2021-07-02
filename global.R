@@ -1676,6 +1676,12 @@ get_leading_times <- function(df){
            time_difference = replace_na(time_difference, 0))
   last_record_team <- tail(try, 1)
   
+  mydf <- data.frame(Team = as.character(),
+                     Trailing_time = as.numeric(),
+                     Leading_time = as.numeric(),
+                     Tied_time = as.numeric())
+  
+  # there was never a tie.
   try <- try %>%
     add_row(Team = last_record_team$Team, numberPeriod = last_record_team$numberPeriod, timeQuarter = as.character(0:00),
             leading_team = last_record_team$leading_team, timeRemaining2 = 12, new_time = 0,
@@ -1686,7 +1692,10 @@ get_leading_times <- function(df){
     ungroup() %>%
     pivot_wider(names_from = leading_team,
                 names_glue = '{leading_team}_{.value}',
-                values_from = time) %>%
+                values_from = time)
+  
+  df2 <- mydf %>%
+    full_join(try) %>%
     mutate(Leading_time = replace_na(Leading_time, 0),
            Tied_time = replace_na(Tied_time, 0),
            Trailing_time = replace_na(Trailing_time, 0),
@@ -1705,7 +1714,7 @@ get_leading_times <- function(df){
     select(text, tied_text)
   
   
-  return(try)
+  return(df2)
   
 }
 
@@ -1777,10 +1786,10 @@ game_event_plot <- function(df){
     scale_x_reverse(breaks = get_breaks(df),
                     labels = get_labels(df)) +
     scale_color_identity() +
-    annotate(geom = "text", label = lead_times[1, 1]$text,
-             x = 42, y = y_loc) + 
-    annotate(geom = "text", label = lead_times[2, 1]$text,
-             x = 42, y = y_loc * .9) +
+    annotate(geom = "text", label = lead_times$text[1],
+             x = 46, y = y_loc) + 
+    annotate(geom = "text", label = lead_times$text[2],
+             x = 46, y = y_loc * .95) +
     labs(x = NULL,
          y = 'Score Differential',
          title = paste0(team_names[2], ' vs ', team_names[1])) +
@@ -1790,4 +1799,7 @@ game_event_plot <- function(df){
     layout(hoverlabel = list(bgcolor = "white"))
   
 }
+
+# df <- get_leading_times(pbp_event_df)
+# game_event_plot(pbp_event_df)
 

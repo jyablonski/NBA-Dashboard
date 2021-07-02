@@ -50,7 +50,7 @@ body_recent <- dashboardBody(
   fluidRow(
     box(
     box(
-      selectInput('select_game', h3("Select a Game from Yesterday"),
+      selectInput('select_game', h3("Select a Recent Game"),
                   choices = gameLog_gameids_yesterday_text %>% select(text) %>% pull()),
       width = 3),
     box(solidHeader = FALSE,

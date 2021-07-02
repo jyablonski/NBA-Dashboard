@@ -1,4 +1,4 @@
 game_id,date_game,game_start_time,visitor_team_name,visitor_pts,home_team_name,home_pts,box_score_text,overtimes,attendance,game_remarks
-202107010MIL,"Thu, Jul 1, 2021",8:30p,Atlanta Hawks,,Milwaukee Bucks,,,,,
+202107010MIL,"Thu, Jul 1, 2021",8:30p,Atlanta Hawks,112,Milwaukee Bucks,123,Box Score,,"16,389",
 202107030ATL,"Sat, Jul 3, 2021",8:30p,Milwaukee Bucks,,Atlanta Hawks,,,,,
 202107050MIL,"Mon, Jul 5, 2021",,Atlanta Hawks,,Milwaukee Bucks,,,,,
