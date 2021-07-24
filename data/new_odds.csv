@@ -89,3 +89,13 @@ row_names,team,team_acc,opp,moneyline,spread,overunder,team_pts,game_id,date
 2,Milwaukee Bucks,MIL,ATL,-129,-2,under,109,1,2021-07-01
 1,Milwaukee Bucks,MIL,ATL,100,+1.5,over,112,1,2021-07-02
 2,Atlanta Hawks,ATL,MIL,-120,-1.5,under,109,1,2021-07-02
+1,Milwaukee Bucks,MIL,PHX,195,+6,over,112,1,2021-07-04
+2,Phoenix Suns,PHX,MIL,-245,-6,under,109,1,2021-07-04
+1,Milwaukee Bucks,MIL,PHX,185,+5.5,over,112,1,2021-07-07
+2,Phoenix Suns,PHX,MIL,-225,-5.5,under,109,1,2021-07-07
+1,Phoenix Suns,PHX,MIL,145,+4,over,112,1,2021-07-09
+2,Milwaukee Bucks,MIL,PHX,-177,-4,under,109,1,2021-07-09
+1,Phoenix Suns,PHX,MIL,145,+4,over,112,1,2021-07-12
+2,Milwaukee Bucks,MIL,PHX,-177,-4,under,109,1,2021-07-12
+1,Phoenix Suns,NA,Milwaukee Bucks,175,+5,over,110,1,2021-07-18
+2,Milwaukee Bucks,NA,Phoenix Suns,-210,-5,under,110,1,2021-07-18

@@ -1,33 +1,25 @@
 Player,Team,Date,Status,Injury,Description
-Kris Dunn,ATL," Jun 6, 2021",Day To Day ,Non-COVID Illness,Dunn did not play in Sunday's playoff game (June 6) against the 76ers.
-Brandon Goodwin,ATL," May 17, 2021",Out For Season ,Illness,Goodwin will miss the rest of the season due to a respiratory condition.
-De'Andre Hunter,ATL," Jun 6, 2021",Day To Day ,Knee,Hunter did not play in Sunday's playoff game (June 6) against Philadelpia.
-Cam Reddish,ATL," Jun 5, 2021",Out ,Achilles,"Reddish is closing in on a return and starting to do full five-on-five full-court scrimmages, according Kevin Chouinard of the Hawks.com."
-Jaylen Brown,BOS," May 12, 2021",Out For Season ,Wrist,The Celtics announced that Brown had surgery and will return to basketball activities in approximately three months.
-Spencer Dinwiddie,BKN," Jan 19, 2021",Out For Season ,ACL,"Dinwiddie had a ACL reconstruction of his right knee, according to Brian Lewis of the New York Post. He will miss the rest of the season."
-Jeff Green,BKN," Jun 6, 2021",Out ,Foot,Green is out for Monday's (June 7) game against Milwaukee.
-James Harden,BKN," Jun 6, 2021",Out ,Hamstring,Harden is out for Monday's (June 7) game against Milwaukee.
-Matthew Dellavedova,CLE," May 1, 2021",Out For Season ,Neck,"Dellavedova is expected to miss the remainder of the season, according to Chris Fedor of Cleveland.com."
-Taurean Prince,CLE," Apr 22, 2021",Out For Season ,Ankle,The Cavaliers announced F Taurean Prince will undergo season ending ankle surgery.
-Dylan Windler,CLE," Apr 20, 2021",Out For Season ,Knee,The Cavaliers announced that Windler underwent surgery and is out indefinitely.
-J.J. Redick,DAL," Jun 5, 2021",Out ,Heel,The Mavericks have listed Redick as OUT for Sunday's playoff game (June 6) against the Clippers.
-Will Barton,DEN," Jun 6, 2021",Out ,Hamstring,Barton is out for Monday's (June 7) game against Phoenix.
-PJ Dozier,DEN," May 20, 2021",Out ,Adductor,Nuggets coach Michael Malone said there's no timetable for Dozier's return.
-Jamal Murray,DEN," Apr 13, 2021",Out For Season ,Knee,The Nuggets announced that Murray tore his left ACL. He will miss the rest of the season.
-Klay Thompson,GSW," Feb 26, 2021",Out For Season ,Right Achilles,"Thompson's recovery from a torn right Achilles tendon is right on schedule, according to Connor Letourneau of the San Francisco Chronicle. He's out of a walking boot and starting mobility exercises."
-James Wiseman,GSW," Apr 15, 2021",Out For Season ,Knee,The Warriors announced that Wiseman will miss the rest of the season.
-John Wall,HOU," Apr 26, 2021",Out For Season ,Hamstring,"Wall will miss the remainder of the season due to a hamstring injury, according to Shams Charania of The Athletic."
-T.J. Warren,IND," Mar 25, 2021",Out For Season ,Foot,"Warren underwent foot surgery and will miss the rest of the season, according to Scott Agness of the Fieldhouse Files."
-Serge Ibaka,LAC," Jun 6, 2021",Day To Day ,Back,Ibaka did not play in Sunday's playoff game (June 6) against the Mavericks.
-Victor Oladipo,MIA," May 22, 2021",Out For Season ,Knee,"Oladipo could be cleared for full contact in November, according to Adrian Wojnarowski of ESPN."
-Donte DiVincenzo,MIL," May 28, 2021",Out For Season ,Foot,"DiVincenzo suffered a tendon injury in his foot and will miss the rest of the playoffs, according to Shams Charania of The Athletic."
-Jarrett Culver,MIN," Apr 29, 2021",Out For Season ,Ankle,The Timberwolves announced Culver will undergo season-ending ankle surgery.
-Mitchell Robinson,NYK," Mar 28, 2021",Out ,Ankle,The Knicks announced that Robinson suffered a fractured foot and is out indefinitely.
-Markelle Fultz,ORL," Jan 6, 2021",Out For Season ,Knee,"Fultz will miss the rest of the season with a torn ACL in his left knee, according to Adrian Wojnarowski."
-Jonathan Isaac,ORL," Mar 5, 2021",Out For Season ,Knee,"Isaac is making progress with his rehab. He's started to ramp up his on-court work, according to Roy Parry of the Orlando Sentinel. He's not slated to return this season, but should be ready to go for the 2021-2022 season."
-Ty-Shon Alexander,PHX," Jun 4, 2021",Day To Day ,Non-COVID Illness,Alexander did not play in Thursday's game (June 3).
-Abdel Nader,PHX," Apr 26, 2021",Out ,Knee,"Nader underwent a procedure on his right knee and remains out indefinitely, according to Kellan Olson of ArizonaSports.com."
-Zach Collins,POR," Mar 5, 2021",Out For Season ,Ankle,"Collins is rehabbing after having surgery to repair a stress fracture in his ankle, according to a report from NBC Sports Northwest. If everything goes to plan, there's a chance he could return in time for the playoffs."
-Mike Conley,UTA," Jun 3, 2021",Day To Day ,Hamstring,The Jazz announced that Conley has a mild right hamstring strain.
-Deni Avdija,WAS," Apr 23, 2021",Out For Season ,Leg,The Wizards announced that Avdija has a right fibular hairline fracture and is expected to make a full recovery in 12 weeks.
-Thomas Bryant,WAS," Feb 2, 2021",Out For Season ,Left knee,The Wizards announced that Bryant had surgery to repair his left ACL. He's not expected to play again this season.
+Brandon Goodwin,ATL,"May 17, 2021",Out For Season ,Illness,Goodwin will miss the rest of the season due to a respiratory condition.
+De'Andre Hunter,ATL,"Jun 9, 2021",Out For Season ,Knee,The Hawks announced De'Andre Hunter will undergo season-ending meniscus surgery.
+Jaylen Brown,BOS,"May 12, 2021",Out For Season ,Wrist,The Celtics announced that Brown had surgery and will return to basketball activities in approximately three months.
+Coby White,CHI,"Jun 10, 2021",Out ,Shoulder,The Bulls announced that White has surgery on his left shoulder and will be re-evaluated in four months.
+Taurean Prince,CLE,"Apr 22, 2021",Out For Season ,Ankle,The Cavaliers announced F Taurean Prince will undergo season ending ankle surgery.
+Dylan Windler,CLE,"Apr 20, 2021",Out For Season ,Knee,The Cavaliers announced that Windler underwent surgery and is out indefinitely.
+Jamal Murray,DEN,"Apr 13, 2021",Out For Season ,Knee,The Nuggets announced that Murray tore his left ACL. He will miss the rest of the season.
+Klay Thompson,GSW,"Feb 26, 2021",Out For Season ,Right Achilles,"Thompson's recovery from a torn right Achilles tendon is right on schedule, according to Connor Letourneau of the San Francisco Chronicle. He's out of a walking boot and starting mobility exercises."
+James Wiseman,GSW,"Apr 15, 2021",Out For Season ,Knee,The Warriors announced that Wiseman will miss the rest of the season.
+John Wall,HOU,"Apr 26, 2021",Out For Season ,Hamstring,"Wall will miss the remainder of the season due to a hamstring injury, according to Shams Charania of The Athletic."
+T.J. Warren,IND,"Mar 25, 2021",Out For Season ,Foot,"Warren underwent foot surgery and will miss the rest of the season, according to Scott Agness of the Fieldhouse Files."
+Serge Ibaka,LAC,"Jun 11, 2021",Out For Season ,Back,The Clippers announced Serge Ibaka underwent season ending back surgery.
+Kawhi Leonard,LAC,"Jul 13, 2021",Out ,Knee,The Clippers announced Kawhi Leonard underwent surgery to repair a partial right ACL tear in his knee.
+Victor Oladipo,MIA,"May 22, 2021",Out For Season ,Knee,"Oladipo could be cleared for full contact in November, according to Adrian Wojnarowski of ESPN."
+Thanasis Antetokounmpo,MIL,"Jul 19, 2021",Out ,Health and Safety Protocols,Antetokounmpo is out for Tuesday's playoff game (July 20) against Phoenix.
+Donte DiVincenzo,MIL,"May 28, 2021",Out For Season ,Foot,"DiVincenzo suffered a tendon injury in his foot and will miss the rest of the playoffs, according to Shams Charania of The Athletic."
+Jarrett Culver,MIN,"Apr 29, 2021",Out For Season ,Ankle,The Timberwolves announced Culver will undergo season-ending ankle surgery.
+Markelle Fultz,ORL,"Jan 6, 2021",Out For Season ,Knee,"Fultz will miss the rest of the season with a torn ACL in his left knee, according to Adrian Wojnarowski."
+Jonathan Isaac,ORL,"Mar 5, 2021",Out For Season ,Knee,"Isaac is making progress with his rehab. He's started to ramp up his on-court work, according to Roy Parry of the Orlando Sentinel. He's not slated to return this season, but should be ready to go for the 2021-2022 season."
+Dario Saric,PHX,"Jul 7, 2021",Out For Season ,Knee,The Suns announced that Sario has a torn ACL in his right knee.
+Zach Collins,POR,"Jun 29, 2021",Out ,Ankle,The Blazers announced that Collins underwent a second surgery on his ankle.
+Pascal Siakam,TOR,"Jun 11, 2021",Out ,Shoulder,The Raptors announced Pascal Siakam underwent surgery to repair a torn labrum and his recovery is expected to last five months.
+Deni Avdija,WAS,"Apr 23, 2021",Out For Season ,Leg,The Wizards announced that Avdija has a right fibular hairline fracture and is expected to make a full recovery in 12 weeks.
+Thomas Bryant,WAS,"Feb 2, 2021",Out For Season ,Left knee,The Wizards announced that Bryant had surgery to repair his left ACL. He's not expected to play again this season.

@@ -24,7 +24,7 @@ library(RMySQL)
 library(gt)
 library(shinythemes)
 
-Sys.setenv (TZ="America/Los_Angeles")
+Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
 
 aws_connect <- dbConnect(drv = RMySQL::MySQL(), dbname = Sys.getenv('aws_db'),
@@ -35,7 +35,7 @@ aws_connect <- dbConnect(drv = RMySQL::MySQL(), dbname = Sys.getenv('aws_db'),
 today <- Sys.Date()
 todayDate <- Sys.Date()
 yesterday <- Sys.Date()-1
-isSeasonActive <- TRUE
+isSeasonActive <- FALSE
 today <-  format(today, format = "%B %d, %Y")
 updated_date <- strftime(Sys.time(), format = "%B %d, %Y - %I:%M %p %Z")
 
@@ -1787,9 +1787,9 @@ game_event_plot <- function(df){
                     labels = get_labels(df)) +
     scale_color_identity() +
     annotate(geom = "text", label = lead_times$text[1],
-             x = 46, y = y_loc) + 
+             x = 44, y = y_loc) + 
     annotate(geom = "text", label = lead_times$text[2],
-             x = 46, y = y_loc * .95) +
+             x = 44, y = y_loc * .95) +
     labs(x = NULL,
          y = 'Score Differential',
          title = paste0(team_names[2], ' vs ', team_names[1])) +
