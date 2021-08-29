@@ -8,8 +8,11 @@ body_about <- dashboardBody(
             "This dashboard shows up to date information about the 2020-2021 NBA Season.",
             tags$br(),
             h3("Data"),
-            HTML("Game log data is collected via the nbastatR package in R, which scrapes from the NBA's Stats API. Injury, Schedule, and
-          Transaction data is web scraped from basketball-reference.com.  Gambling odds are taken from mybookie.ag for that day's games."),
+            HTML("All NBA Game log, schedule, standings, and play-by-play data is webscraped from"),
+             tags$a(href = "https://www.basketball-reference.com", "Sports Reference"), " at 8:00 A.M. EST everyday.",
+            tags$br(),
+            tags$br(),
+             "Gambling odds are taken from",  tags$a(href = "https://sportsbook.draftkings.com/leagues/basketball/88670846?category=game-lines&subcategory=game", "Draftkings"), " for that day's games.",
             tags$br(),
             tags$br(),
             HTML("The Dashboard's data is automatically updated whenever this application is loaded by a user."),

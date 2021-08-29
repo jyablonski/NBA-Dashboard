@@ -9,3 +9,4 @@ rsconnect
 google-analytics.html
 archive.R
 *.html
+.Rproj.user

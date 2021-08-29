@@ -24,6 +24,7 @@ library(RMariaDB)
 library(gt)
 library(shinythemes)
 
+# call renv::restore() to build packages
 Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
 
