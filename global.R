@@ -1,4 +1,3 @@
-library(nbastatR)
 library(tidyverse)
 library(rvest)
 library(xml2)

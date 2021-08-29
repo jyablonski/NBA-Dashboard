@@ -7,7 +7,6 @@ Authors@R:
 Description: NBA Shiny Dashboard
 License: MIT + file LICENSE
 Imports: 
-    nbastatR,
     tidyverse,
     rvest,
     xml2,
