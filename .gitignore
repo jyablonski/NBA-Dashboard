@@ -11,3 +11,5 @@ google-analytics.html
 archive.R
 *.html
 .Rproj.user
+NBA-Dashboard.Rcheck
+NBA-Dashboard_*.tar.gz

@@ -5,7 +5,7 @@ Authors@R:
     c(person("Jacob", "Yablonski", role = c("cre", "aut"),
              email = 'jyablonski9@gmail.com'))
 Description: NBA Shiny Dashboard
-License: MIT + file LICENSE
+License: LGPL (>= 2.1)
 Imports: 
     tidyverse,
     rvest,

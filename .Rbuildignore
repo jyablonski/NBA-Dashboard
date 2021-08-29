@@ -2,3 +2,14 @@
 ^renv\.lock$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+dev_history.R
+^dev$
+$run_dev.*
+^LICENSE\.md$
+^README\.Rmd$
+^\.travis\.yml$
+^app\.R$
+^rsconnect$
+^\.github$
+^deploy$
