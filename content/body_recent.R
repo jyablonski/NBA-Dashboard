@@ -6,13 +6,13 @@ body_recent <- dashboardBody(
                    margin-right: 5px; margin-top: 1px; position: relative;"),
     tags$style(type = "text/css", ".legend .pos1 { background-color: #9362DA; }"),
     tags$style(type = "text/css", ".legend .pos2 { background-color: #3fb7d9; }"),
-    tags$style(type = "text/css", ".legend .pos3 { background-color: #B9564A; }"),
+    tags$style(type = "text/css", ".legend .pos3 { background-color: #e04848; }"),
     tags$style(type = "text/css", ".legend .pos4 { background-color: #4BD33A; }"),
     tags$style(type = "text/css", ".legend .pos5 { background-color: #FFFFFF; }"),
     #tags$style(type = "text/css", ".legend .pos6 { background-color: #FF0000; }"),
     tags$style(type = "text/css", ".legend .neg1 { background-color: #3fb7d9; }"),
     tags$style(type = "text/css", ".legend .neg2 { background-color: #FF0000; }"),
-    tags$style(type = "text/css", ".legend .neg3 { background-color: #B9564A; }"),
+    tags$style(type = "text/css", ".legend .neg3 { background-color: #e04848; }"),
     tags$style(type = "text/css", "@media (min-width: 768px) { .full-table { margin-top: -30px; } }")
   ),
   #fluidRow(

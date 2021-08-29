@@ -20,14 +20,14 @@ library(httr)
 library(stringi)
 library(ggtext)
 library(bslib)
-library(RMySQL)
+library(RMariaDB)
 library(gt)
 library(shinythemes)
 
 Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
 
-aws_connect <- dbConnect(drv = RMySQL::MySQL(), dbname = Sys.getenv('aws_db'),
+aws_connect <- dbConnect(drv = RMariaDB::MariaDB(), dbname = Sys.getenv('aws_db'),
                          host = Sys.getenv('aws_host'),
                          port = as.integer(Sys.getenv('aws_port')),
                          user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
@@ -1468,11 +1468,11 @@ gt_theme_538 <- function(data,...) {
     tab_options(
       column_labels.background.color = "white",
       table.border.top.width = px(3),
-      table.border.top.color = "transparent",
-      table.border.bottom.color = "transparent",
+      table.border.top.color = "#ffffff",
+      table.border.bottom.color = "#ffffff",
       table.border.bottom.width = px(3),
       column_labels.border.top.width = px(3),
-      column_labels.border.top.color = "transparent",
+      column_labels.border.top.color = "#ffffff",
       column_labels.border.bottom.width = px(3),
       column_labels.border.bottom.color = "black",
       data_row.padding = px(3),
@@ -1507,12 +1507,12 @@ team_gt_table <- function(df){
         columns = c(PTS),
         rows = pts_color == 2)) %>%
     tab_style(
-      style = cell_fill(color = "#B9564A"),
+      style = cell_fill(color = "#e04848"),
       locations = cells_body(
         columns = c(PTS),
         rows = pts_color == 3)) %>%
     tab_style(
-      style = cell_fill(color = "#B9564A"),
+      style = cell_fill(color = "#e04848"),
       locations = cells_body(
         columns = c(`Opponent PTS`),
         rows = opp_pts_color == 2)) %>%
@@ -1566,7 +1566,7 @@ player_gt_table <- function(df){
       )
     ) %>%
     tab_style(
-      style = cell_fill(color = "#B9564A"),
+      style = cell_fill(color = "#e04848"),
       locations = cells_body(
         columns = c(PTS),
         rows = pts_color == 3 # color rdef IF number > 80

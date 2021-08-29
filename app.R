@@ -8,7 +8,7 @@ source('content/body_schedule.R')
 
 ui <- fluidPage(
   theme = shinytheme("sandstone"),  #sandstone, cosmo, 
-  tags$head(includeHTML(("google-analytics.html")),
+  tags$head(# includeHTML(("google-analytics.html")),
             tags$style(HTML( ".selectize-input {background-color:#F0F0F0;
                       color:#000000;
                       border-color:#000000;
