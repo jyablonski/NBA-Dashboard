@@ -28,9 +28,9 @@ Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
 
 # aws_connect <- dbConnect(drv = RMariaDB::MariaDB(), dbname = Sys.getenv('aws_db'),
-#                          host = Sys.getenv('aws_host'),
-#                          port = as.integer(Sys.getenv('aws_port')),
-#                          user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
+                         # host = Sys.getenv('aws_host'),
+                         # port = as.integer(Sys.getenv('aws_port')),
+                         # user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
 
 today <- Sys.Date()
 todayDate <- Sys.Date()
