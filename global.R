@@ -27,10 +27,10 @@ library(shinythemes)
 Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
 
-aws_connect <- dbConnect(drv = RMariaDB::MariaDB(), dbname = Sys.getenv('aws_db'),
-                         host = Sys.getenv('aws_host'),
-                         port = as.integer(Sys.getenv('aws_port')),
-                         user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
+# aws_connect <- dbConnect(drv = RMariaDB::MariaDB(), dbname = Sys.getenv('aws_db'),
+#                          host = Sys.getenv('aws_host'),
+#                          port = as.integer(Sys.getenv('aws_port')),
+#                          user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
 
 today <- Sys.Date()
 todayDate <- Sys.Date()
@@ -272,7 +272,7 @@ odds_df <- get_odds() %>%
   mutate(date = as.Date(date))
 adv_stats <- read_csv('data/player_advanced_stats.csv')
 
-dbDisconnect(aws_connect)
+# dbDisconnect(aws_connect)
 
 
 ###### Data Extraction Complete ######

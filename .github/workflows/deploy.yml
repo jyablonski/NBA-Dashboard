@@ -68,11 +68,13 @@ jobs:
           AWS_USER: ${{ secrets.AWS_USER }}
           DBNAME: ${{ secrets.DBNAME }}
         run: |
-          echo aws_host="$AWS_HOST" >> .Renviron
-          echo aws_port="$AWS_PORT" >> .Renviron
-          echo aws_pw="$AWS_PW" >> .Renviron
-          echo aws_user="$AWS_USER" >> .Renviron
-          echo dbname="$DBNAME" >> .Renviron
+          touch ~/.Renviron
+          echo aws_host="$AWS_HOST" >> ~/.Renviron
+          echo aws_port="$AWS_PORT" >> ~/.Renviron
+          echo aws_pw="$AWS_PW" >> ~/.Renviron
+          echo aws_user="$AWS_USER" >> ~/.Renviron
+          echo dbname="$DBNAME" >> ~/.Renviron
+          ls ${{ github.workspace }}
         shell: bash
 
       - name: Check package

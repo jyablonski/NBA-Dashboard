@@ -10,6 +10,7 @@ body_about <- dashboardBody(
             h3("Data"),
             HTML("All NBA Game log, schedule, standings, and play-by-play data is webscraped from"),
              tags$a(href = "https://www.basketball-reference.com", "Sports Reference"), " at 8:00 A.M. EST everyday.",
+            Sys.getenv('dbname'),
             tags$br(),
             tags$br(),
              "Gambling odds are taken from",  tags$a(href = "https://sportsbook.draftkings.com/leagues/basketball/88670846?category=game-lines&subcategory=game", "Draftkings"), " for that day's games.",
