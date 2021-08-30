@@ -69,11 +69,11 @@ jobs:
           DBNAME: ${{ secrets.DBNAME }}
         run: |
           touch /home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
-          echo aws_host="$AWS_HOST" >> /home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
-          echo aws_port="$AWS_PORT" >> /home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
-          echo aws_pw="$AWS_PW" >> /home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
-          echo aws_user="$AWS_USER" >> /home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
-          echo dbname="$DBNAME" >> /home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
+          echo aws_host="$AWS_HOST" >> /home/runner/work/NBA-Dashboard/.Renviron
+          echo aws_port="$AWS_PORT" >> /home/runner/work/NBA-Dashboard/.Renviron
+          echo aws_pw="$AWS_PW" >> /home/runner/work/NBA-Dashboard/.Renviron
+          echo aws_user="$AWS_USER" >> /home/runner/work/NBA-Dashboard/.Renviron
+          echo dbname="$DBNAME" >> /home/runner/work/NBA-Dashboard/.Renviron
           ls ${{ github.workspace }}
         shell: bash
 
