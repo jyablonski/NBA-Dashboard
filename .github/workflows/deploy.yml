@@ -74,12 +74,6 @@ jobs:
           echo aws_pw="$AWS_PW" >> .Renviron
           echo aws_user="$AWS_USER" >> .Renviron
           echo dbname="$DBNAME" >> .Renviron
-          touch /.Renviron1
-          echo aws_host="$AWS_HOST" >> /.Renviron1
-          echo aws_port="$AWS_PORT" >> /.Renviron1
-          echo aws_pw="$AWS_PW" >> /.Renviron1
-          echo aws_user="$AWS_USER" >> /.Renviron1
-          echo dbname="$DBNAME" >> /.Renviron1
           ls ${{ github.workspace }}
         shell: bash
 
