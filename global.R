@@ -23,12 +23,6 @@ library(RMariaDB)
 library(gt)
 library(shinythemes)
 
-print(Sys.getenv('aws_port'))
-print(Sys.getenv('aws_db'))
-print(Sys.getenv('aws_user'))
-print(Sys.getenv('aws_pw'))
-print(Sys.getenv('aws_host'))
-
 # call renv::restore() to build packages
 Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####

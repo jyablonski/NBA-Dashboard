@@ -67,6 +67,7 @@ jobs:
           echo aws_pw="$AWS_PW" >> ~/.Renviron
           echo aws_user="$AWS_USER" >> ~/.Renviron
           echo dbname="$DBNAME" >> ~/.Renviron
+          dir
         shell: bash
 
       - name: Check package
