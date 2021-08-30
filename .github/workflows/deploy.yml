@@ -65,7 +65,7 @@ jobs:
           echo aws_host="$AWS_HOST" >> ~/.Renviron
           echo aws_port="$AWS_PORT" >> ~/.Renviron
           echo aws_pw="$AWS_PW" >> ~/.Renviron
-          echo aws_user="$AWS_USER"  >> ~/.Renviron
+          echo aws_user="$AWS_USER" >> ~/.Renviron
           echo dbname="$DBNAME" >> ~/.Renviron
         shell: bash
 
