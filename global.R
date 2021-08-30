@@ -272,7 +272,7 @@ odds_df <- get_odds() %>%
   mutate(date = as.Date(date))
 adv_stats <- read_csv('data/player_advanced_stats.csv')
 
-dbDisconnect(aws_connect)
+# dbDisconnect(aws_connect)
 
 
 ###### Data Extraction Complete ######
