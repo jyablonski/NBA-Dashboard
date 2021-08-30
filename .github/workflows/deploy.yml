@@ -68,6 +68,7 @@ jobs:
           AWS_USER: ${{ secrets.AWS_USER }}
           DBNAME: ${{ secrets.DBNAME }}
         run: |
+          touch home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
           echo aws_host="$AWS_HOST" >> home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
           echo aws_port="$AWS_PORT" >> home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
           echo aws_pw="$AWS_PW" >> home/runner/work/NBA-Dashboard/NBA-Dashboard/.Renviron
