@@ -74,16 +74,6 @@ jobs:
           echo aws_pw="$AWS_PW" >> .Renviron
           echo aws_user="$AWS_USER" >> .Renviron
           echo dbname="$DBNAME" >> .Renviron
-          touch file1
-          echo aws_host="$AWS_HOST" >> file1
-          ls -a ${{ github.workspace }}
-          cat .Renviron
-        shell: bash
-
-      - name: List files
-        run: |
-          ls -a ${{ github.workspace }}
-          cat .Renviron
         shell: bash
 
       - name: Check package
