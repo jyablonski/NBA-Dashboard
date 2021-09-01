@@ -74,20 +74,10 @@ jobs:
           echo aws_pw="$AWS_PW" >> .Renviron
           echo aws_user="$AWS_USER" >> .Renviron
           echo dbname="$DBNAME" >> .Renviron
-          ls ${{ github.workspace }}
+          ls -a ${{ github.workspace }}
           cat .Renviron
         shell: bash
 
-      - name: Create .env file2
-        uses: SpicyPizza/create-envfile@v1
-        with:
-          envkey_AWS_HOST: ${{ secrets.AWS_HOST }}
-          envkey_AWS_PORT: ${{ secrets.AWS_PORT }}
-          envkey_AWS_PW: ${{ secrets.AWS_PW }}
-          envkey_AWS_USER: ${{ secrets.AWS_USER }}
-          envkey_DBNAME: ${{ secrets.DBNAME }}
-          directory: ${{ github.workspace }}
-          file_name: .Renviron
 
       - name: Check package
         run: |
