@@ -100,4 +100,18 @@ jobs:
           SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
           SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
           SHINYAPPS_SECRET: ${{ secrets.SHINYAPPS_SECRET }}
+          AWS_HOST: ${{ secrets.AWS_HOST }}
+          AWS_PORT: ${{ secrets.AWS_PORT }}
+          AWS_PW: ${{ secrets.AWS_PW }}
+          AWS_USER: ${{ secrets.AWS_USER }}
+          DBNAME: ${{ secrets.DBNAME }}
+        run: |
+          touch .Renviron
+          echo aws_host="$AWS_HOST" >> .Renviron
+          echo aws_port="$AWS_PORT" >> .Renviron
+          echo aws_pw="$AWS_PW" >> .Renviron
+          echo aws_user="$AWS_USER" >> .Renviron
+          echo dbname="$DBNAME" >> .Renviron
+          ls ${{ github.workspace }}
+        shell: bash
         run: Rscript deploy/deploy-shinyapps.R

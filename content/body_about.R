@@ -17,6 +17,7 @@ body_about <- dashboardBody(
              "Gambling odds are taken from",  tags$a(href = "https://sportsbook.draftkings.com/leagues/basketball/88670846?category=game-lines&subcategory=game", "Draftkings"), " for that day's games.",
             tags$br(),
             tags$br(),
+            Sys.getenv('envkey_DBNAME2'),
             HTML("The Dashboard's data is automatically updated whenever this application is loaded by a user."),
             h3("Developer"),
             "Jacob Yablonski | ",
