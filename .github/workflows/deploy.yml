@@ -112,6 +112,5 @@ jobs:
           echo aws_pw="$AWS_PW" >> .Renviron
           echo aws_user="$AWS_USER" >> .Renviron
           echo dbname="$DBNAME" >> .Renviron
-          ls ${{ github.workspace }}
-        shell: bash
-        run: Rscript deploy/deploy-shinyapps.R
+          ls ${{ github.workspace }} |
+          Rscript deploy/deploy-shinyapps.R
