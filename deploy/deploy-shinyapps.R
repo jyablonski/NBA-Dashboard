@@ -7,7 +7,5 @@ rsconnect::setAccountInfo(
   Sys.getenv("SHINYAPPS_SECRET")
 )
 rsconnect::deployApp(
-  appName = "nbadashboard",
-  # exclude hidden files and renv directory (if present)
-  appFiles = setdiff(list.files(), "renv")
+  appName = "nbadashboard"
 )

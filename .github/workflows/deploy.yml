@@ -80,6 +80,11 @@ jobs:
           cat .Renviron
         shell: bash
 
+      - name: List files
+        run: |
+          ls -a ${{ github.workspace }}
+          cat .Renviron
+        shell: bash
 
       - name: Check package
         run: |
