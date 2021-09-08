@@ -244,6 +244,7 @@ get_clean_foul_data <- function(df){
   
 }
 
+# Helper Functions
 get_ord_numbers <- function(df){
   new_df <- case_when(df %in% c(11, 12, 13) ~ "th",
                       df %% 10 == 1 ~ 'st',
@@ -254,6 +255,31 @@ get_ord_numbers <- function(df){
   return(new_df2)
   
 }
+
+add_gameids <- function(df){
+  df2 <- df %>%
+    select(Date, Team, Opponent) %>%
+    distinct() %>%
+    group_by(Date, Team) %>%
+    mutate(oof = rev(Team)) %>%
+    ungroup() %>%
+    filter(Team == oof) %>%
+    mutate(mygame_id = row_number()) %>%
+    filter(mygame_id %% 2 == 1) %>%
+    select(-oof) %>%
+    pivot_longer(cols = Team:Opponent,
+                 names_to = "zzz",
+                 values_to = "Team") %>%
+    select(-zzz, Date, Team, GameID = mygame_id)
+  
+  df_final <- df %>%
+    left_join(df2)
+  return(df_final)
+}
+
+# df <- gameLogsYesterday %>% 
+  # select(-GameID) %>%
+  # add_gameids()
 
 
 # Loading in Data 
@@ -272,7 +298,7 @@ odds_df <- get_odds() %>%
   mutate(date = as.Date(date))
 adv_stats <- read_csv('data/player_advanced_stats.csv')
 
-# dbDisconnect(aws_connect)
+dbDisconnect(aws_connect)
 
 
 ###### Data Extraction Complete ######
