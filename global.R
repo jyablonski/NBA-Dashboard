@@ -67,7 +67,6 @@ theme_jacob <- function(..., base_size = 11) {
 }
 theme_set(theme_jacob())
 
-
 # data retrieval functions
 get_gamelogs_data <- function(){
   if (isSeasonActive == TRUE & as.double(Sys.time() - file_info('data/gameLogs.csv')$change_time, units = 'hours') > 8.0){
