@@ -3,6 +3,7 @@
 *.RData
 *.Ruserdata
 *.Rprofile
+*.Renviron
 google-analytics
 rsconnect
 *.Rproj
