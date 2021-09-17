@@ -5,7 +5,6 @@ source('content/body_team_plots.R')
 source('content/body_about.R')
 source('content/body_schedule.R')
 
-
 ui <- fluidPage(
   theme = shinytheme("sandstone"),  #sandstone, cosmo, 
   # tags$head(# includeHTML(("google-analytics.html")),
