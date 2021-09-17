@@ -8,14 +8,22 @@ source('content/body_schedule.R')
 
 ui <- fluidPage(
   theme = shinytheme("sandstone"),  #sandstone, cosmo, 
-  tags$head(# includeHTML(("google-analytics.html")),
-            tags$style(HTML( ".selectize-input {background-color:#F0F0F0;
+  # tags$head(# includeHTML(("google-analytics.html")),
+  #           tags$link(rel="icon", href="favicon.png")),
+  # titlePanel(
+  #   windowTitle = "2021-22 NBA Season Dashboard",
+  #   title = tags$head(tags$link(rel="icon", 
+  #                               href="pic1.ico", 
+  #                               type="image/x-icon")
+  #   )),
+  tags$head(tags$link(rel="icon", type = "image/x-icon", href="favicon.ico")),
+  tags$style(type = "text/css", ".selectize-input {background-color:#F0F0F0;
                       color:#000000;
                       border-color:#000000;
                       border-style:solid;
                       border-width:2px;
                       border-radius:5%;
-                      font-size:15px;}"))),
+                      font-size:15px;}"),
   tags$style(type = "text/css", ".container-fluid {padding-left: 0px; padding-right: 0px !important;}"),
   tags$style(type = "text/css", ".navbar {margin-bottom: 0px; padding-left: 15px;"),
   tags$style(type = "text/css", ".content {padding: 0px;}"),
