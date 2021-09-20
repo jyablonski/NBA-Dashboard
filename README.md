@@ -13,7 +13,7 @@
     * The Shiny Server connects to the SQL DB and displays current stats, player metrics, gambling odds, and upcoming schedule data.
     * Any ETL Script failure triggers an automatic email alert detailing the error(s).
 
-2. Links to Other Repos providing infrastructure for this Project
+2. Links to other Repos providing infrastructure for this Project
     * [Python ETL + Dockerfile](https://github.com/jyablonski/python_docker)
     * [Terraform](https://github.com/jyablonski/aws_terraform/tree/master/prod)
 
