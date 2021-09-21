@@ -64,14 +64,14 @@ jobs:
           AWS_PORT: ${{ secrets.AWS_PORT }}
           AWS_PW: ${{ secrets.AWS_PW }}
           AWS_USER: ${{ secrets.AWS_USER }}
-          DBNAME: ${{ secrets.DBNAME }}
+          AWS_DB: ${{ secrets.AWS_DB }}
         run: |
           touch .Renviron
           echo aws_host="$AWS_HOST" >> .Renviron
           echo aws_port="$AWS_PORT" >> .Renviron
           echo aws_pw="$AWS_PW" >> .Renviron
           echo aws_user="$AWS_USER" >> .Renviron
-          echo dbname="$DBNAME" >> .Renviron
+          echo aws_db="$AWS_DB" >> .Renviron
         shell: bash
 
       - name: Check package
