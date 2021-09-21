@@ -15,7 +15,7 @@ library(scales)
 library(stringi)
 library(ggtext)
 library(bslib)
-library(RMariaDB)
+library(DBI)
 library(gt)
 library(shinythemes)
 
@@ -23,7 +23,7 @@ library(shinythemes)
 Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
 
-aws_connect <- dbConnect(drv = RMariaDB::MariaDB(), dbname = Sys.getenv('aws_db'),
+aws_connect <- dbConnect(drv = RPostgres::Postgres(), dbname = Sys.getenv('aws_db'),
                          host = Sys.getenv('aws_host'),
                          port = as.integer(Sys.getenv('aws_port')),
                          user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
