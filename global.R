@@ -19,6 +19,7 @@ library(DBI)
 library(gt)
 library(shinythemes)
 
+print(Sys.getenv('aws_port'))
 # call renv::restore() to build packages
 Sys.setenv (TZ="America/Chicago")
 #### AWS CONNECTION #####
