@@ -26,14 +26,15 @@ Sys.setenv (TZ="America/Chicago")
 aws_connect <- dbConnect(drv = RPostgres::Postgres(), dbname = Sys.getenv('aws_db'),
                          host = Sys.getenv('aws_host'),
                          port = as.integer(Sys.getenv('aws_port')),
-                         user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'))
+                         user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'),
+                         options = "-c search_path=nba_prod")
 
 today <- Sys.Date()
 todayDate <- Sys.Date()
 yesterday <- Sys.Date()-1
 isSeasonActive <- FALSE
 today <-  format(today, format = "%B %d, %Y")
-updated_date <- strftime(Sys.time(), format = "%B %d, %Y - %I:%M %p %Z")
+updated_date <- strftime(Sys.time(), format = "%B %d, %Y - 6:00 AM CST")
 
 # custom theme
 theme_jacob <- function(..., base_size = 11) {
@@ -140,78 +141,14 @@ get_player_advanced_stats <- function(){
 
 get_schedule <- function(){
   if (isSeasonActive == TRUE & as.double(Sys.time() - file_info('data/schedule.csv')$change_time, units = 'hours') > 8.0){
-    currentmonth <- tolower(format(Sys.Date(), "%B"))
-    nextmonth <- tolower(format(Sys.Date() + 30, "%B"))
-    year <- 2021
-    url <- paste0("https://www.basketball-reference.com/leagues/NBA_", year, 
-                  "_games-", currentmonth, ".html")
-    webpage <- read_html(url)
-    col_names <- webpage %>% 
-      html_nodes("table#schedule > thead > tr > th") %>% 
-      html_attr("data-stat")    
-    col_names <- c("game_id", col_names)
-    dates <- webpage %>% 
-      html_nodes("table#schedule > tbody > tr > th") %>% 
-      html_text()
-    dates <- as.data.frame(dates) %>%
-      filter(dates != 'Playoffs')
-    game_id <- webpage %>% 
-      html_nodes("table#schedule > tbody > tr > th") %>%
-      html_attr("csk")
-    game_id <- game_id[!is.na(game_id)]
-    data <- webpage %>% 
-      html_nodes("table#schedule > tbody > tr > td") %>% 
-      html_text() %>%
-      matrix(ncol = length(col_names) - 2, byrow = TRUE)
-    month_df1 <- as.data.frame(cbind(game_id, dates, data), stringsAsFactors = FALSE)
-    names(month_df1) <- col_names
-    
-    write_csv(month_df1, 'data/schedule.csv')
-    return(month_df1)
+    df <- dbReadTable(aws_connect, "aws_schedule_table")
+    write_csv(df, 'data/schedule.csv')
+    return(df)
   }
   else {
     schedule <- read_csv('data/schedule.csv')
     return(schedule)
   }
-}
-
-get_contracts <- function(){
-  url <- 'https://www.basketball-reference.com/contracts/players.html'
-  webpage <- read_html(url)
-  col_names <- webpage %>%
-    html_table() %>%
-    as.data.frame() %>%
-    filter(Var.2 != 'Player',
-           Salary != 'Salary') %>%
-    select(Var.2, Var.3, Salary, Var.11) %>%
-    rename(Player = Var.2, Team = Var.3, Salary = Salary, Total_Salary_Owed = Var.11) %>%
-    mutate(Player = stri_trans_general(Player,  id = "Latin-ASCII"),
-           Total_Salary_Owed = case_when(Total_Salary_Owed == "" ~ '0',
-                                         TRUE ~ Total_Salary_Owed),
-           Player = replace(Player, Player == 'J.J. Redick', 'JJ Redick'),
-           Player = replace(Player, Player == 'T.J. Leaf', 'TJ Leaf'),
-           Player = replace(Player, Player == 'Marcus Morris', 'Marcus Morris Sr.'),
-           Player = replace(Player, Player == 'Danuel House', 'Danuel House Jr.'),
-           Player = replace(Player, Player == 'Robert Williams', 'Robert Williams III'),
-           Player = replace(Player, Player == 'Otto Porter', 'Otto Porter Jr.'),
-           Player = replace(Player, Player == 'Kevin Knox', 'Kevin Knox II'),
-           Player = replace(Player, Player == 'Lonnie Walker', 'Lonnie Walker IV'),
-           Player = replace(Player, Player == 'Sviatoslav Mykhailiuk', 'Svi Mykhailiuk'),
-           Player = replace(Player, Player == 'Harry Giles', 'Harry Giles III'),
-           Player = replace(Player, Player == 'Wesley Iwundu', 'Wes Iwundu'),
-           Player = replace(Player, Player == 'James Ennis', '	James Ennis III'),
-           Salary2 = gsub("\\$", "", Salary),
-           Salary3 = as.numeric(gsub("\\,", "", Salary2)),
-           Salary4 = gsub("\\$", "", Total_Salary_Owed),
-           Salary5 = as.numeric(gsub("\\,", "", Salary4)),
-           Team = replace(Team, Team == 'BRK', 'BKN'),
-           Team = replace(Team, Team == 'PHO', 'PHX'),
-           Team = replace(Team, Team == 'CHO', 'CHA')) %>%
-    select(Player, Team, Salary3, Salary5) %>%
-    group_by(Player) %>%
-    distinct() %>%
-    ungroup() %>%
-    rename(Salary = Salary3, `Total Salary Owed` = Salary5)
 }
 
 get_clean_foul_data <- function(df){
