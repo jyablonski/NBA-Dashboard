@@ -137,8 +137,6 @@ get_player_advanced_stats <- function(){
   }
 }
 
-
-
 get_schedule <- function(){
   if (isSeasonActive == TRUE & as.double(Sys.time() - file_info('data/schedule.csv')$change_time, units = 'hours') > 8.0){
     df <- dbReadTable(aws_connect, "aws_schedule_table")
