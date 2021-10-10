@@ -12,7 +12,7 @@ ui <- fluidPage(
   # titlePanel(
   #   windowTitle = "2021-22 NBA Season Dashboard",
   #   title = tags$head(tags$link(rel="icon", 
-  #                               href="pic1.ico", 
+  #                               href="favicon.ico", 
   #                               type="image/x-icon")
   #   )),
   tags$head(tags$link(rel="icon", type = "image/x-icon", href="favicon.ico")),

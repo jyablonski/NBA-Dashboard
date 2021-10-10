@@ -1,10 +1,10 @@
 body_schedule <- dashboardBody(
-  fluidRow(tags$a(href="https://www.espn.com/nba/schedule", "Click here for National TV Schedule"),
-           HTML(" | Moneyline Odds for today's games are in parentheses")),
+  fluidRow(HTML(" Moneyline Odds provided by "),
+            img(src = "draftkings.png", height = 70, width = 140), tags$a(href="https://www.espn.com/nba/schedule", "| Click here for National TV Schedule")),
   fluidRow(
     column(width = 12, DT::dataTableOutput("schedule_table")),
   ),
-  fluidRow(
+  fluidRow(tags$a(href="https://www.espn.com/nba/schedule", "Click here for National TV Schedule"),
     box(
       title = "Regular Season Game Type Analysis",
       status = "primary",
