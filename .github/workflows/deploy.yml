@@ -81,7 +81,6 @@ jobs:
         shell: Rscript {0}
 
       - name: Deploy to shinyapps.io
-        # continuous deployment only for pushes to the main / master branch
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         env:
           SHINYAPPS_ACCOUNT: ${{ secrets.SHINYAPPS_ACCOUNT }}
