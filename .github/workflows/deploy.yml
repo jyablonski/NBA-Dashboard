@@ -1,11 +1,25 @@
-on: [push, pull_request]
+on: [push]
 
 name: CI-CD
 
 jobs:
+  bumpversion:
+    name: Bumpversion
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Bump version and push tag
+        uses: jaumann/github-bumpversion-action@v0.0.7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tags: true
   CI-CD:
     runs-on: ${{ matrix.config.os }}
-
+    needs: bumpversion
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
     strategy:
@@ -87,18 +101,3 @@ jobs:
           SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
           SHINYAPPS_SECRET: ${{ secrets.SHINYAPPS_SECRET }}
         run: Rscript deploy/deploy-shinyapps.R
-  bumpversion:
-    name: Bumpversion
-    needs: CI-CD
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Bump version and push tag
-        uses: jaumann/github-bumpversion-action@v0.0.7
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          tags: true
