@@ -1,6 +1,6 @@
 Package: nbadashboard
 Title: nbadashboard
-Version: 1.0.1-dev0
+Version: 1.0.2
 Authors@R: 
     c(person("Jacob", "Yablonski", role = c("cre", "aut"),
              email = 'jyablonski9@gmail.com'))
