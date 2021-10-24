@@ -20,10 +20,6 @@ body_standings <- dashboardBody(
   fluidRow(),
   fluidRow(
     box(
-      fluidRow(
-        column(4, 
-               selectInput('select_ppg_choice', "Select a Plot",
-                           choices = c('Playoffs','Regular Season')))),
       title = "Player Scoring Efficiency",
       status = "primary",
       solidHeader = TRUE,

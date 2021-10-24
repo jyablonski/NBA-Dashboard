@@ -51,7 +51,7 @@ body_recent <- dashboardBody(
     box(
     box(
       selectInput('select_game', h3("Select a Recent Game"),
-                  choices = gameLog_gameids_yesterday_text %>% select(text) %>% pull()),
+                  choices = pbp_games_yesterday),
       width = 3),
     box(solidHeader = FALSE,
       collapsible = FALSE,

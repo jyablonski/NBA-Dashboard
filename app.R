@@ -85,69 +85,68 @@ server <- function(input, output, session) {
   
   selected_team_transactions <- reactive({
     transactions %>%
-      filter(str_detect(Event, input$select_team))
+      filter(str_detect(Transaction, input$select_team))
   })
   
   output$transactions_table <- DT::renderDataTable(selected_team_transactions())
   
-  output$schedule_table <- DT::renderDataTable(schedule_main, rownames = FALSE,
-                                               options = list(pageLength = 20))
+  output$schedule_table <- DT::renderDataTable(schedule, rownames = FALSE,
+                                               options = list(pageLength = 10))
 
-  output$recent_date <- renderValueBox({
-    valueBox(
-      value = format(recent_Bans$Date, format = "%B %d, %Y"), "Most Recent Game Date", icon = icon("calendar"), color = "purple"
-    )
-  })
-  
-  output$recent_games_played <- renderValueBox({
-    valueBox(
-      value = recent_Bans$`Number of Games`, "Games Played", icon = icon("list"), color = "purple"
-    )
-  })
-  
-  output$recent_home_wins <- renderValueBox({
-    valueBox(
-      value = recent_Bans$`Count_Home Wins`, "Home Wins", icon = icon("music note list"), color = "red"
-    )
-  })
-  
-  output$recent_road_wins <- renderValueBox({
-    valueBox(
-      value = recent_Bans$`Count_Road Wins`, "Road Wins", icon = icon("music note list"), color = "red"
-    )
-  })
+  # output$recent_date <- renderValueBox({
+  #   valueBox(
+  #     value = format(recent_Bans$Date, format = "%B %d, %Y"), "Most Recent Game Date", icon = icon("calendar"), color = "purple"
+  #   )
+  # })
+  # 
+  # output$recent_games_played <- renderValueBox({
+  #   valueBox(
+  #     value = recent_Bans$`Number of Games`, "Games Played", icon = icon("list"), color = "purple"
+  #   )
+  # })
+  # 
+  # output$recent_home_wins <- renderValueBox({
+  #   valueBox(
+  #     value = recent_Bans$`Count_Home Wins`, "Home Wins", icon = icon("music note list"), color = "red"
+  #   )
+  # })
+  # 
+  # output$recent_road_wins <- renderValueBox({
+  #   valueBox(
+  #     value = recent_Bans$`Count_Road Wins`, "Road Wins", icon = icon("music note list"), color = "red"
+  #   )
+  # })
 
-  output$top_15 <- render_gt(player_gt_table(top_15_yesterday))
+  output$top_15 <- render_gt(player_gt_table(recent_games_players))
     
                                        
-  output$recent_team_wins <- render_gt(team_gt_table(team_avg_ppg))
+  output$recent_team_wins <- render_gt(team_gt_table(recent_games_teams))
+  
+  # output$top20_plot_output <- renderPlotly({
+  #   if (input$select_ppg_choice == 'Regular Season') {
+  #     top20_plot(top_20pt_scorers) 
+  #   }
+  #   else {
+  #     top20_plot_playoffs(top_20pt_scorersp)
+  #   }
+  # })
   
   output$top20_plot_output <- renderPlotly({
-    if (input$select_ppg_choice == 'Regular Season') {
-      top20_plot(top_20pt_scorers) 
-    }
-    else {
-      top20_plot_playoffs(top_20pt_scorersp)
-    }
+    top20_plot(top_scorers)
   })
   
   output$schedule_plot_output <- renderPlotly({
     if (input$select_choice == 'Vegas Preseason Over/Under Odds') {
-      vegas_plot(over_under)
+      vegas_plot(preseason_odds)
     }
     else {
-      advanced_sos_plot(advanced_standings)
+      advanced_sos_plot(past_schedule_analysis)
     }
-  })
-  
-  selected_team_injury <- reactive({
-    injury_data %>%
-      filter(FullName == input$select_team)
   })
   
   selected_game_event <- reactive({
-    pbp_event_df %>%
-      filter(text == input$select_game)
+    pbp_data %>%
+      filter(game_description == input$select_game)
   })
   
   output$yesterday_event_output <- renderPlotly({
@@ -156,13 +155,13 @@ server <- function(input, output, session) {
   
   output$team_plot_output <- renderPlot({
 
-    team_ratings_plot(team_ratings_logo)
+    team_ratings_plot(team_ratings)
   })
   
   
   selected_team_ppg <- reactive({
-    team_ppg_scorers %>%
-      filter(FullName == input$select_team)
+    top_scorers %>%
+      filter(full_team == input$select_team)
   })
 
   output$team_ppg_plot_output <- renderPlotly({
@@ -170,20 +169,23 @@ server <- function(input, output, session) {
   })
   
   
-  selected_team <- reactive({
-    team_mov %>%
-      filter(FullName == input$select_team)
+  selected_team_mov <- reactive({
+    mov %>%
+      filter(full_team == input$select_team)
   })
+
+  
+  output$team_mov_output <- renderPlotly({
+    # df <- selected_team()
+    mov_plot(selected_team_mov())
+  })
+  
+  # i left off here
   
   
   selected_team_injury <- reactive({
-    injury_data %>%
-      filter(FullName == input$select_team)
-  })
-  
-  output$team_mov_output <- renderPlotly({
-    df <- selected_team()
-    mov_plot(df)
+    injuries %>%
+      filter(full_team == input$select_team)
   })
   
   output$injury_table <- DT::renderDataTable(selected_team_injury(), rownames = FALSE,
@@ -193,31 +195,33 @@ server <- function(input, output, session) {
                                                                 paging = FALSE))
   
   selected_team_bans <- reactive({
-    team_wins %>%
-      filter(FullName == input$select_team)
+    standings %>%
+      filter(team_full == input$select_team)
   })
   
   selected_team_rating_bans <- reactive({
-    rating_bans %>%
-      filter(FullName == input$select_team)
+    team_ratings_bans %>%
+      filter(team == input$select_team)
   })
   
   selected_team_defensive_rating_bans <- reactive({
-    opponent_shooting_bans %>%
-      filter(FullName == input$select_team)
+    opp_stats %>%
+      filter(team == input$select_team)
   })
   
-  selected_team_last_season <- reactive({
-    last_season_wins %>%
-      filter(FullName == input$select_team)
-  })
+  # selected_team_last_season <- reactive({
+  #   last_season_wins %>%
+  #     filter(FullName == input$select_team)
+  # })
+  # 
   
   output$regular_wins <- renderValueBox({
     regular_valuebox_function(selected_team_bans())
   })
   
   output$last_season_wins <- renderValueBox({
-    last_season_valuebox_function(selected_team_last_season())
+    # last_season_valuebox_function(selected_team_last_season())
+    regular_valuebox_function(selected_team_bans())
   })
   
   output$game_types_output <- renderPlotly({
@@ -225,11 +229,11 @@ server <- function(input, output, session) {
   })
   
   output$contract_value_output <- renderPlotly({
-    value_plot(contract_df)
+    value_plot(contracts_value)
   })
   
   output$team_contract_value_output <- renderPlotly({
-    team_contract_value_plot(team_contract_value)
+    team_contract_value_plot(team_contract_analysis)
   })
   
   output$team_ratings_rank <- renderValueBox({
@@ -248,20 +252,20 @@ server <- function(input, output, session) {
   
   output$bans_avg_pts <- renderValueBox({
     valueBox(
-      value = main_bans$league_avg, HTML(paste0("League Average Points Scored <br> <br> ",
-                                                         main_bans$pct_change, "% difference from Last Season")),
+      value = bans$avg_pts[1], HTML(paste0("League Average Points Scored <br> <br> ",
+                                                         bans$pct_change[1], "% difference from Last Season")),
       icon = icon("caret-up"), color = "blue"
     )
   })
   
   output$bans_date <- renderValueBox({
-    gp_valuebox_function(main_bans)
+    gp_valuebox_function(bans)
   })
   
   output$bans_homeroad <- renderValueBox({
     valueBox(
-      value = main_bans$record, HTML(paste0("League Wide Home - Road Win Record <br> <br> ",  
-                                                       main_bans$`Win Percentage Home`, "% - ", main_bans$`Win Percentage Road`,
+      value = bans$record[1], HTML(paste0("League Wide Home - Road Win Record <br> <br> ",  
+                                                       (bans$win_pct[1] * 100), "% - ", (bans$win_pct[2] * 100),
                           '% Win Percentage Splits')),
       icon = icon("chart-bar"), color = "blue"
     )

@@ -1,9 +1,0 @@
-game_id,date_game,game_start_time,visitor_team_name,visitor_pts,home_team_name,home_pts,box_score_text,overtimes,attendance,game_remarks
-202107010MIL,"Thu, Jul 1, 2021",8:30p,Atlanta Hawks,112,Milwaukee Bucks,123,Box Score,,"16,389",
-202107030ATL,"Sat, Jul 3, 2021",8:30p,Milwaukee Bucks,118,Atlanta Hawks,107,Box Score,,"16,620",
-202107060PHO,"Tue, Jul 6, 2021",9:00p,Milwaukee Bucks,105,Phoenix Suns,118,Box Score,,"16,557",
-202107080PHO,"Thu, Jul 8, 2021",9:00p,Milwaukee Bucks,108,Phoenix Suns,118,Box Score,,"16,583",
-202107110MIL,"Sun, Jul 11, 2021",8:00p,Phoenix Suns,100,Milwaukee Bucks,120,Box Score,,"16,637",
-202107140MIL,"Wed, Jul 14, 2021",9:00p,Phoenix Suns,103,Milwaukee Bucks,109,Box Score,,"16,911",
-202107170PHO,"Sat, Jul 17, 2021",9:00p,Milwaukee Bucks,123,Phoenix Suns,119,Box Score,,"16,562",
-202107200MIL,"Tue, Jul 20, 2021",9:00p,Phoenix Suns,98,Milwaukee Bucks,105,Box Score,,"17,397",
