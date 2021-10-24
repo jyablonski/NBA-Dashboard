@@ -1,10 +1,10 @@
 date,day,proper_time,avg_team_rank,start_time,home_team,away_team
-2021-10-24,Sunday   ,2021-10-24T04:00:00Z,12,4:00 PM,Brooklyn Nets,Charlotte Hornets
-2021-10-24,Sunday   ,2021-10-24T07:00:00Z,23,7:00 PM,Houston Rockets,Boston Celtics
-2021-10-24,Sunday   ,2021-10-24T07:00:00Z,20,7:00 PM,New York Knicks,Orlando Magic
-2021-10-24,Sunday   ,2021-10-24T07:00:00Z,15,7:00 PM,Oklahoma City Thunder,Philadelphia 76ers
-2021-10-24,Sunday   ,2021-10-24T09:00:00Z,18,9:00 PM,Sacramento Kings,Golden State Warriors
-2021-10-24,Sunday   ,2021-10-24T09:30:00Z,11,9:30 PM,Los Angeles Lakers,Memphis Grizzlies
+2021-10-24,Sunday   ,2021-10-24T04:00:00Z,12,4:00 PM,Brooklyn Nets (-380),Charlotte Hornets (290)
+2021-10-24,Sunday   ,2021-10-24T07:00:00Z,23,7:00 PM,Houston Rockets (180),Boston Celtics (-220)
+2021-10-24,Sunday   ,2021-10-24T07:00:00Z,20,7:00 PM,New York Knicks (-850),Orlando Magic (575)
+2021-10-24,Sunday   ,2021-10-24T07:00:00Z,15,7:00 PM,Oklahoma City Thunder (290),Philadelphia 76ers (-380)
+2021-10-24,Sunday   ,2021-10-24T09:00:00Z,18,9:00 PM,Sacramento Kings (130),Golden State Warriors (-150)
+2021-10-24,Sunday   ,2021-10-24T09:30:00Z,11,9:30 PM,Los Angeles Lakers (-250),Memphis Grizzlies (200)
 2021-10-25,Monday   ,2021-10-25T07:00:00Z,12,7:00 PM,Indiana Pacers,Milwaukee Bucks
 2021-10-25,Monday   ,2021-10-25T07:00:00Z,18,7:00 PM,Charlotte Hornets,Boston Celtics
 2021-10-25,Monday   ,2021-10-25T07:30:00Z,23,7:30 PM,Toronto Raptors,Chicago Bulls

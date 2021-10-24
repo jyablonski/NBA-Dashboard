@@ -762,18 +762,19 @@ get_leading_times <- function(df){
     ungroup() %>%
     pivot_wider(names_from = leading_team_text,
                 names_glue = '{leading_team_text}_{.value}',
-                values_from = time)
+                values_from = time) %>%
+    mutate(TIE_time = if("TIE_time" %in% colnames(.)) TIE_time else 0)
   
   df2 <- mydf %>%
     full_join(try) %>%
     mutate(Leading_time = replace_na(Leading_time, 0),
-           Tied_time = replace_na(Tied_time, 0),
+           TIE_time = replace_na(TIE_time, 0),
            Trailing_time = replace_na(Trailing_time, 0),
            opp_leadtime = rev(Trailing_time),
-           opp_tiedtime = rev(Tied_time),
+           opp_tiedtime = rev(TIE_time),
            tot_leadtime = Leading_time + opp_leadtime,
            tot_trailtime = rev(tot_leadtime),
-           tot_tiedtime = Tied_time + opp_tiedtime,
+           tot_tiedtime = TIE_time + opp_tiedtime,
            tot_time = tot_leadtime + tot_trailtime + tot_tiedtime,
            pct_leadtime = round(tot_leadtime / tot_time, 3),
            pct_tiedtime = round(tot_tiedtime / tot_time, 3)) %>%
@@ -863,7 +864,9 @@ game_event_plot <- function(df){
     annotate(geom = "text", label = lead_times$text[1],
              x = 44, y = y_loc) +
     annotate(geom = "text", label = lead_times$text[2],
-             x = 44, y = y_loc * .95) +
+             x = 44, y = y_loc * .92) +
+    annotate(geom = "text", label = lead_times$tied_text[1],
+             x = 42.35, y = y_loc * .86) +
     labs(x = NULL,
          y = 'Score Differential',
          title = paste0(df$away_fill[1], ' Vs. ', df$home_fill[1])) +

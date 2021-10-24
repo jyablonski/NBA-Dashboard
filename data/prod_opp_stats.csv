@@ -1,31 +1,31 @@
 team,scrape_date,fg_percent_opp,threep_percent_opp,threep_made_opp,ppg_opp,fg_percent_rank,three_percent_rank,three_pm_rank,ppg_opp_rank,conference
-Milwaukee Bucks,2021-10-23,0.489,0.478,16,120.5,24,28,25,23,East
-Toronto Raptors,2021-10-23,0.417,0.262,8,90.5,5,2,3,2,East
-Boston Celtics,2021-10-23,0.454,0.338,13.5,126.5,13,11,14,28,East
-Indiana Pacers,2021-10-23,0.473,0.464,16,129,21,27,27,30,East
-Miami Heat,2021-10-23,0.381,0.286,12,95,2,3,9,5,East
-Philadelphia 76ers,2021-10-23,0.442,0.368,12.5,105.5,10,16,11,9,East
-Brooklyn Nets,2021-10-23,0.464,0.383,15.5,118,19,21,24,21,East
-Orlando Magic,2021-10-23,0.5,0.44,18.5,122,26,26,29,25,East
-Charlotte Hornets,2021-10-23,0.489,0.333,13,117,25,9,12,20,East
-Washington Wizards,2021-10-23,0.423,0.324,11,108.5,6,7,8,13,East
-Chicago Bulls,2021-10-23,0.441,0.368,10.5,100,9,17,6,8,East
-New York Knicks,2021-10-23,0.405,0.38,19,115,4,20,30,17,East
-Detroit Pistons,2021-10-23,0.43,0.304,7,94,8,5,1,4,East
-Atlanta Hawks,2021-10-23,0.333,0.302,13,87,1,4,13,1,East
-Cleveland Cavaliers,2021-10-23,0.529,0.415,13.5,127.5,30,22,16,29,East
-Los Angeles Lakers,2021-10-23,0.464,0.338,12,118,20,12,10,22,West
-Los Angeles Clippers,2021-10-23,0.518,0.484,15,115,28,29,20,16,West
-Denver Nuggets,2021-10-23,0.444,0.328,10,97,11,8,5,6,West
-Houston Rockets,2021-10-23,0.427,0.37,15,107.5,7,19,21,12,West
-Oklahoma City Thunder,2021-10-23,0.473,0.365,15.5,115.5,22,15,23,18,West
-Utah Jazz,2021-10-23,0.384,0.211,7.5,93.5,3,1,2,3,West
-Dallas Mavericks,2021-10-23,0.479,0.429,15,113,23,24,22,14,West
-Portland Trail Blazers,2021-10-23,0.457,0.415,17,124,16,23,28,27,West
-Memphis Grizzlies,2021-10-23,0.505,0.368,14,121,27,18,17,24,West
-Phoenix Suns,2021-10-23,0.462,0.438,16,107.5,18,25,26,11,West
-San Antonio Spurs,2021-10-23,0.459,0.305,9,99.5,17,6,4,7,West
-Sacramento Kings,2021-10-23,0.448,0.364,14,115.5,12,14,18,19,West
-New Orleans Pelicans,2021-10-23,0.523,0.509,13.5,122.5,29,30,15,26,West
-Minnesota Timberwolves,2021-10-23,0.455,0.333,11,106,15,10,7,10,West
-Golden State Warriors,2021-10-23,0.455,0.354,14.5,113.5,14,13,19,15,West
+Milwaukee Bucks,2021-10-24,0.487,0.396,14,117.3,26,25,22,24,East
+Toronto Raptors,2021-10-24,0.417,0.291,10,94.7,6,5,5,4,East
+Boston Celtics,2021-10-24,0.454,0.338,13.5,126.5,16,10,18,30,East
+Indiana Pacers,2021-10-24,0.445,0.402,13.7,116.3,14,26,20,20,East
+Miami Heat,2021-10-24,0.387,0.272,11,98.5,3,2,9,8,East
+Philadelphia 76ers,2021-10-24,0.442,0.368,12.5,105.5,12,19,13,10,East
+Brooklyn Nets,2021-10-24,0.464,0.383,15.5,118,19,24,27,28,East
+Orlando Magic,2021-10-24,0.5,0.44,18.5,122,30,29,29,29,East
+Charlotte Hornets,2021-10-24,0.489,0.333,13,117,27,9,17,23,East
+Washington Wizards,2021-10-24,0.423,0.324,11,108.5,8,7,8,13,East
+Chicago Bulls,2021-10-24,0.423,0.306,8.7,94,7,6,2,3,East
+New York Knicks,2021-10-24,0.405,0.38,19,115,5,23,30,17,East
+Detroit Pistons,2021-10-24,0.424,0.367,9,95.5,9,18,3,5,East
+Atlanta Hawks,2021-10-24,0.374,0.282,10,94,1,4,6,2,East
+Cleveland Cavaliers,2021-10-24,0.479,0.374,12.3,116.7,23,21,12,22,East
+Los Angeles Lakers,2021-10-24,0.464,0.338,12,118,18,11,11,27,West
+Los Angeles Clippers,2021-10-24,0.491,0.448,15,117.5,29,30,24,26,West
+Denver Nuggets,2021-10-24,0.444,0.328,10,97,13,8,7,6,West
+Houston Rockets,2021-10-24,0.427,0.37,15,107.5,10,20,25,12,West
+Oklahoma City Thunder,2021-10-24,0.473,0.365,15.5,115.5,22,17,26,18,West
+Utah Jazz,2021-10-24,0.384,0.211,7.5,93.5,2,1,1,1,West
+Dallas Mavericks,2021-10-24,0.441,0.361,13,104,11,15,15,9,West
+Portland Trail Blazers,2021-10-24,0.47,0.377,13,114.5,21,22,14,16,West
+Memphis Grizzlies,2021-10-24,0.469,0.351,13.5,117.5,20,12,19,25,West
+Phoenix Suns,2021-10-24,0.49,0.431,17.7,116.3,28,28,28,21,West
+San Antonio Spurs,2021-10-24,0.482,0.351,11,106.7,25,13,10,11,West
+Sacramento Kings,2021-10-24,0.448,0.364,14,115.5,15,16,21,19,West
+New Orleans Pelicans,2021-10-24,0.481,0.429,13,113.7,24,27,16,15,West
+Minnesota Timberwolves,2021-10-24,0.401,0.274,10,97.5,4,3,4,7,West
+Golden State Warriors,2021-10-24,0.455,0.354,14.5,113.5,17,14,23,14,West

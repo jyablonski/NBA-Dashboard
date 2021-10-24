@@ -4,7 +4,7 @@ body_schedule <- dashboardBody(
   fluidRow(
     column(width = 12, DT::dataTableOutput("schedule_table")),
   ),
-  fluidRow(tags$a(href="https://www.espn.com/nba/schedule", "Click here for National TV Schedule"),
+  fluidRow(
     box(
       title = "Regular Season Game Type Analysis",
       status = "primary",
