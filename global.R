@@ -117,7 +117,7 @@ schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
 standings <- get_data('prod_standings') %>%
   group_by(conference) %>%
-  arrange(desc(wins)) %>%
+  arrange(desc(win_pct)) %>%
   mutate(rank = get_ord_numbers(row_number())) %>%
   ungroup()
 team_injures <- get_data('prod_team_injuries')
@@ -351,13 +351,13 @@ mov_plot <- function(df){
                                                             outcome, ' vs ', opponent, '<br>',
                                                             'Scoreline: ', pts_scored, ' - ', pts_scored_opp, '<br>',
                                                             'Margin of Victory: ', mov, '<br>',
-                                                            'Record: ', game_id))) +
+                                                            'Record: ', record))) +
     scale_y_continuous(breaks = c(-50, -45, -40, -35, -30, -25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50)) +
     scale_x_date(date_breaks = "1 month", date_labels = "%b %Y") +
     scale_fill_manual(values = cols) +
     labs(x = NULL,
          y = 'Margin of Victory',
-         title = paste0(df$full_team[1], ' Game Log History \n 2020-2021 NBA Season'),
+         title = paste0(df$full_team[1], ' Game Log History \n 2021-22 NBA Season'),
          fill = 'Outcome')
   
   
