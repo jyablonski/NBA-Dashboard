@@ -96,7 +96,18 @@ bans <- get_data('prod_bans') %>%
          pct_change = round((avg_pts - last_yr_ppg) / avg_pts, 3))
 gamelogs <- get_data('prod_gamelogs')
 mov <- get_data('prod_mov') %>%
-  mutate(date = as.Date(date))
+  mutate(date = as.Date(date),
+         win_int = case_when(outcome == 'W' ~ 1,
+                             TRUE ~ 0),
+         loss_int = case_when(outcome == 'L' ~ 1,
+                              TRUE ~ 0)) %>%
+  group_by(team) %>%
+  arrange(team, date) %>%
+  mutate(win_record = cumsum(win_int),
+         loss_record = cumsum(loss_int),
+         row_record = paste0(win_record, ' - ', loss_record)) %>%
+  ungroup() %>%
+  select(-win_int, -loss_int, -win_record, -loss_record)
 pbp_data <- get_data('prod_pbp') %>%
   mutate(leading_team_text = case_when(scoring_team == leading_team & leading_team != 'TIE' ~ 'Leading',
                                        scoring_team != leading_team & leading_team != 'TIE' ~ 'Trailing',
@@ -219,7 +230,7 @@ most_recent_date <- gamelogs %>%
   filter(date == max(date)) %>%
   distinct()
 
-
+league_average_ts <- bans$league_ts_percent[1]
 
 
 ######### Data Manipulation Complete ########
@@ -236,8 +247,8 @@ top20_plot <- function(df){
                                                                                    '<br>',
                                                                                    'Games Played: ', games_played))) +
     scale_y_continuous(labels = scales::percent) + 
-    geom_hline(aes(yintercept = mean(season_ts_percent)), alpha = 0.8, linetype = "dashed") +
-    annotate(geom = 'text', label = 'League Average TS%', x = max(df$season_avg_ppg) * .95, y = mean(df$season_ts_percent) * .99) +
+    geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
+    annotate(geom = 'text', label = 'League Average TS%', x = max(df$season_avg_ppg) * .95, y = league_average_ts * .95) +
     scale_fill_manual(values = c('light blue', 'orange')) +
     labs(title = 'Scoring Efficiency Tracker \n PPG vs TS% for all 20+ PPG Scorers',
          x = 'Average Points per Game',
@@ -252,29 +263,29 @@ top20_plot <- function(df){
 }
 # top20_plot(top_scorers)
 
-top20_plot_playoffs <- function(df){
-  p <- df %>%
-    ggplot(aes(avg_PTS, season_ts_percent, fill = Top5)) +
-    geom_point(size = 6, alpha = 0.7, pch = 21, color = 'black', aes(text = paste0(Player, ' (', Team, ')', '<br>',
-                                                                                   'Playoff PPG: ', round(avg_PTS, 1), '<br>',
-                                                                                   'Playoff TS%: ', round(season_ts_percent * 100, 1),
-                                                                                   '%', '<br>',
-                                                                                   'Playoff Games Played: ', GP_p))) +
-    scale_y_continuous(labels = scales::percent) + 
-    geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
-    annotate(geom = 'text', label = 'League Average TS%', x = max(df$avg_PTS) * .95, y = league_average_ts * .98) +
-    scale_fill_manual(values = c('light blue', 'orange')) +
-    labs(title = 'NBA Playoffs Scoring Efficiency Tracker \n PPG vs TS% for all 20+ PPG Scorers',
-         x = 'Average Points per Game',
-         y = 'True Shooting Percentage',
-         fill = NULL) +
-    theme(legend.background = element_rect(color = "black"))
-  
-  ggplotly(p, tooltip = c('text')) %>%
-    layout(hoverlabel = list(bgcolor = "white"),
-           legend = list(x = .78, y = 0.85))
-  
-}
+# top20_plot_playoffs <- function(df){
+#   p <- df %>%
+#     ggplot(aes(avg_PTS, season_ts_percent, fill = Top5)) +
+#     geom_point(size = 6, alpha = 0.7, pch = 21, color = 'black', aes(text = paste0(Player, ' (', Team, ')', '<br>',
+#                                                                                    'Playoff PPG: ', round(avg_PTS, 1), '<br>',
+#                                                                                    'Playoff TS%: ', round(season_ts_percent * 100, 1),
+#                                                                                    '%', '<br>',
+#                                                                                    'Playoff Games Played: ', GP_p))) +
+#     scale_y_continuous(labels = scales::percent) + 
+#     geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
+#     annotate(geom = 'text', label = 'League Average TS%', x = max(df$avg_PTS) * .95, y = league_average_ts * .95) +
+#     scale_fill_manual(values = c('light blue', 'orange')) +
+#     labs(title = 'NBA Playoffs Scoring Efficiency Tracker \n PPG vs TS% for all 20+ PPG Scorers',
+#          x = 'Average Points per Game',
+#          y = 'True Shooting Percentage',
+#          fill = NULL) +
+#     theme(legend.background = element_rect(color = "black"))
+#   
+#   ggplotly(p, tooltip = c('text')) %>%
+#     layout(hoverlabel = list(bgcolor = "white"),
+#            legend = list(x = .78, y = 0.85))
+#   
+# }
 # top20_plot_playoffs(top_20pt_scorersp)
 
 team_ppg_plot <- function(df){
@@ -288,8 +299,8 @@ team_ppg_plot <- function(df){
                                                                                    '<br>',
                                                                                    'Games Played: ', games_played))) +
     scale_y_continuous(labels = scales::percent) +
-    geom_hline(aes(yintercept = 0.58), alpha = 0.8, linetype = "dashed") +
-    annotate(geom = 'text', label = 'League Average TS%', x = max(df$season_avg_ppg) * .92, y = 0.55) + ### change this to the actual value  ###
+    geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
+    annotate(geom = 'text', label = 'League Average TS%', x = max(df$season_avg_ppg) * .92, y = league_average_ts * .95) + ### change this to the actual value  ###
     scale_fill_manual(values = c('light blue', 'orange')) +
     labs(title = 'Player Efficiency Tracker \n PPG vs TS%',
          x = 'Average Points per Game',
@@ -351,7 +362,7 @@ mov_plot <- function(df){
                                                             outcome, ' vs ', opponent, '<br>',
                                                             'Scoreline: ', pts_scored, ' - ', pts_scored_opp, '<br>',
                                                             'Margin of Victory: ', mov, '<br>',
-                                                            'Record: ', record))) +
+                                                            'Record: ', row_record))) +
     scale_y_continuous(breaks = c(-50, -45, -40, -35, -30, -25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50)) +
     scale_x_date(date_breaks = "1 month", date_labels = "%b %Y") +
     scale_fill_manual(values = cols) +
