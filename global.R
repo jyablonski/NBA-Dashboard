@@ -123,7 +123,7 @@ recent_games_players <- get_data('prod_recent_games_players') %>%
 recent_games_teams <- get_data('prod_recent_games_teams') %>%
   filter(outcome == 'W') %>%
   mutate(new_loc = 'Vs.') %>%
-  select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, mov)
+  select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, pts_color, mov)
 schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
 standings <- get_data('prod_standings') %>%
@@ -644,24 +644,24 @@ team_gt_table <- function(df){
                    fn = function(x) {
                      web_image(url = x, height = 45)
                    }) %>%
-    # cols_hide(columns = c(pts_color, opp_pts_color)) %>%
+    cols_hide(columns = c(pts_color)) %>%
     cols_label(team_logo = "", opp_logo = "", new_loc = "", pts_scored = "PTS SCORED",
                pts_scored_opp = 'OPP. PTS', mov = 'MARGIN OF VICTORY') %>%
-    # tab_style(
-    #   style = cell_fill(color = "#9362DA"),
-    #   locations = cells_body(
-    #     columns = c(pts),
-    #     rows = pts_color == 1)) %>%
-    # tab_style(
-    #   style = cell_fill(color = "#3fb7d9"),
-    #   locations = cells_body(
-    #     columns = c(PTS),
-    #     rows = pts_color == 2)) %>%
-    # tab_style(
-    #   style = cell_fill(color = "#e04848"),
-    #   locations = cells_body(
-    #     columns = c(PTS),
-    #     rows = pts_color == 3)) %>%
+    tab_style(
+      style = cell_fill(color = "#9362DA"),
+      locations = cells_body(
+        columns = c(pts_scored),
+        rows = pts_color == 1)) %>%
+    tab_style(
+      style = cell_fill(color = "#3fb7d9"),
+      locations = cells_body(
+        columns = c(pts_scored),
+        rows = pts_color == 2)) %>%
+    tab_style(
+      style = cell_fill(color = "#e04848"),
+      locations = cells_body(
+        columns = c(pts_scored),
+        rows = pts_color == 3)) %>%
     # tab_style(
     #   style = cell_fill(color = "#e04848"),
     #   locations = cells_body(

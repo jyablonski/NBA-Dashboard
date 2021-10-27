@@ -1,31 +1,31 @@
 team,team_acronym,w,l,ortg,drtg,nrtg,team_logo
-Milwaukee Bucks,MIL,3,1,110.9,110.7,0.2,logos/mil.png
-Toronto Raptors,TOR,1,3,102.5,101,1.5,logos/tor.png
-Boston Celtics,BOS,2,2,106.6,110,-3.4,logos/bos.png
-Indiana Pacers,IND,1,3,110,110.2,-0.2,logos/ind.png
 Miami Heat,MIA,2,1,108.2,92.7,15.5,logos/mia.png
-Philadelphia 76ers,PHI,2,1,116.4,107.2,9.2,logos/phi.png
-Brooklyn Nets,BKN,2,2,103.3,108.2,-4.9,logos/bkn.png
-Orlando Magic,ORL,1,3,99.6,115.3,-15.7,logos/orl.png
-Charlotte Hornets,CHA,3,1,114.5,110.5,4,logos/cha.png
-Washington Wizards,WAS,2,1,103.3,102.7,0.6,logos/was.png
-Chicago Bulls,CHI,4,0,108,97.9,10.1,logos/chi.png
-New York Knicks,NYK,2,1,110.8,103.7,7.1,logos/nyk.png
-Detroit Pistons,DET,0,3,90.5,103.4,-12.9,logos/det.png
+Utah Jazz,UTA,3,0,113.4,99.4,14,logos/uta.png
 Atlanta Hawks,ATL,2,1,110.3,97.6,12.7,logos/atl.png
-Cleveland Cavaliers,CLE,2,2,108.4,109.4,-1,logos/cle.png
-Los Angeles Lakers,LAL,1,2,107.9,112.3,-4.4,logos/lal.png
-Los Angeles Clippers,LAC,1,2,110.6,103.5,7.1,logos/lac.png
-Denver Nuggets,DEN,2,1,100.1,98.1,2,logos/den.png
-Houston Rockets,HOU,1,2,105.6,103.9,1.7,logos/hou.png
-Oklahoma City Thunder,OKC,0,3,94.4,116.7,-22.3,logos/okc.png
-Utah Jazz,UTA,2,0,109.4,94.3,15.1,logos/uta.png
-Dallas Mavericks,DAL,1,1,96.9,106.1,-9.2,logos/dal.png
-Portland Trail Blazers,POR,1,2,107.2,108.4,-1.2,logos/por.png
+Chicago Bulls,CHI,4,0,108,97.9,10.1,logos/chi.png
+New York Knicks,NYK,3,1,113.3,104.7,8.6,logos/nyk.png
+Los Angeles Clippers,LAC,1,2,110.5,103.4,7.1,logos/lac.png
+Golden State Warriors,GSW,4,0,112.3,105.3,7,logos/gsw.png
+Minnesota Timberwolves,MIN,2,1,103,97.8,5.2,logos/min.png
 Memphis Grizzlies,MEM,2,1,123.7,119,4.7,logos/mem.png
-Phoenix Suns,PHX,1,2,105.4,115.7,-10.3,logos/phx.png
-San Antonio Spurs,SAS,1,2,109.3,106,3.3,logos/sas.png
+Charlotte Hornets,CHA,3,1,114.5,110.5,4,logos/cha.png
+Philadelphia 76ers,PHI,2,2,114.5,110.8,3.7,logos/phi.png
+Toronto Raptors,TOR,1,3,102.5,101,1.5,logos/tor.png
+San Antonio Spurs,SAS,1,3,107.8,106.4,1.4,logos/sas.png
+Washington Wizards,WAS,2,1,103.3,102.7,0.6,logos/was.png
+Milwaukee Bucks,MIL,3,1,110.9,110.7,0.2,logos/mil.png
+Indiana Pacers,IND,1,3,110,110.2,-0.2,logos/ind.png
+Cleveland Cavaliers,CLE,2,2,108.4,109.4,-1,logos/cle.png
+Houston Rockets,HOU,1,3,105.1,106.4,-1.3,logos/hou.png
+Portland Trail Blazers,POR,1,2,107,108.3,-1.3,logos/por.png
+Denver Nuggets,DEN,2,2,102.4,104,-1.6,logos/den.png
+Los Angeles Lakers,LAL,2,2,107.7,110,-2.3,logos/lal.png
+Dallas Mavericks,DAL,2,1,102.6,105.3,-2.7,logos/dal.png
+Boston Celtics,BOS,2,2,106.6,110,-3.4,logos/bos.png
+Brooklyn Nets,BKN,2,2,103.3,108.2,-4.9,logos/bkn.png
 Sacramento Kings,SAC,1,2,108.4,114.2,-5.8,logos/sac.png
 New Orleans Pelicans,NOP,1,3,100.1,108.5,-8.4,logos/nop.png
-Minnesota Timberwolves,MIN,2,1,103,97.8,5.2,logos/min.png
-Golden State Warriors,GSW,3,0,113.2,106.5,6.7,logos/gsw.png
+Phoenix Suns,PHX,1,2,105.4,115.7,-10.3,logos/phx.png
+Detroit Pistons,DET,0,3,90.5,103.4,-12.9,logos/det.png
+Orlando Magic,ORL,1,3,99.6,115.3,-15.7,logos/orl.png
+Oklahoma City Thunder,OKC,0,4,96.1,114.9,-18.8,logos/okc.png

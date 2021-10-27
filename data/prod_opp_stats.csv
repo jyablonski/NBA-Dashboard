@@ -1,31 +1,31 @@
 team,scrape_date,fg_percent_opp,threep_percent_opp,threep_made_opp,ppg_opp,fg_percent_rank,three_percent_rank,three_pm_rank,ppg_opp_rank,conference
-Milwaukee Bucks,2021-10-26,0.477,0.394,14,115.3,26,28,22,22,East
-Toronto Raptors,2021-10-26,0.433,0.323,10.5,98.8,8,7,7,6,East
-Boston Celtics,2021-10-26,0.446,0.385,15,119.8,13,26,27,30,East
-Indiana Pacers,2021-10-26,0.454,0.388,13,117,17,27,16,26,East
-Miami Heat,2021-10-26,0.393,0.272,11.3,95.7,2,2,11,2,East
-Philadelphia 76ers,2021-10-26,0.453,0.333,11,104.7,16,11,9,10,East
-Brooklyn Nets,2021-10-26,0.434,0.333,12.5,109.3,9,10,14,15,East
-Orlando Magic,2021-10-26,0.458,0.352,14,113.8,20,18,23,20,East
-Charlotte Hornets,2021-10-26,0.478,0.331,13.5,117.3,27,9,19,27,East
-Washington Wizards,2021-10-26,0.424,0.311,10.7,107,6,5,8,12,East
-Chicago Bulls,2021-10-26,0.437,0.33,9.5,97.5,10,8,3,4,East
-New York Knicks,2021-10-26,0.406,0.35,16.7,113.3,4,15,29,19,East
-Detroit Pistons,2021-10-26,0.454,0.37,10,104.3,18,23,5,9,East
-Atlanta Hawks,2021-10-26,0.396,0.279,9.7,97.3,3,3,4,3,East
-Cleveland Cavaliers,2021-10-26,0.463,0.336,11.5,109.3,22,12,12,16,East
-Los Angeles Lakers,2021-10-26,0.459,0.349,12.3,118,21,14,13,28,West
-Los Angeles Clippers,2021-10-26,0.455,0.365,12.7,107,19,22,15,13,West
-Denver Nuggets,2021-10-26,0.451,0.314,9,97.7,15,6,2,5,West
-Houston Rockets,2021-10-26,0.432,0.352,15,107.3,7,17,26,14,West
-Oklahoma City Thunder,2021-10-26,0.471,0.381,16,115.3,25,24,28,23,West
-Utah Jazz,2021-10-26,0.384,0.211,7.5,93.5,1,1,1,1,West
-Dallas Mavericks,2021-10-26,0.441,0.361,13,104,11,21,17,8,West
-Portland Trail Blazers,2021-10-26,0.471,0.357,13.3,115,24,19,18,21,West
-Memphis Grizzlies,2021-10-26,0.489,0.402,14.3,118.7,29,29,24,29,West
-Phoenix Suns,2021-10-26,0.49,0.431,17.7,116.3,30,30,30,24,West
-San Antonio Spurs,2021-10-26,0.482,0.351,11,106.7,28,16,10,11,West
-Sacramento Kings,2021-10-26,0.446,0.36,13.7,116.7,12,20,21,25,West
-New Orleans Pelicans,2021-10-26,0.447,0.383,13.5,109.8,14,25,20,17,West
-Minnesota Timberwolves,2021-10-26,0.417,0.291,10,100.7,5,4,6,7,West
-Golden State Warriors,2021-10-26,0.466,0.344,14.7,111.3,23,13,25,18,West
+Miami Heat,2021-10-27,0.393,0.272,11.3,95.7,1,2,10,1,East
+Atlanta Hawks,2021-10-27,0.396,0.279,9.7,97.3,2,3,3,2,East
+New York Knicks,2021-10-27,0.414,0.337,15.5,109.8,3,14,29,18,East
+Minnesota Timberwolves,2021-10-27,0.417,0.291,10,100.7,4,4,6,6,West
+Utah Jazz,2021-10-27,0.421,0.253,8.3,99,5,1,1,5,West
+Washington Wizards,2021-10-27,0.424,0.311,10.7,107,6,5,9,11,East
+Toronto Raptors,2021-10-27,0.433,0.323,10.5,98.8,7,7,8,4,East
+Brooklyn Nets,2021-10-27,0.434,0.333,12.5,109.3,8,11,14,14,East
+Dallas Mavericks,2021-10-27,0.434,0.378,14,104.7,9,24,24,9,West
+Chicago Bulls,2021-10-27,0.437,0.33,9.5,97.5,10,8,2,3,East
+Houston Rockets,2021-10-27,0.44,0.333,14.3,109.5,11,12,25,16,West
+Sacramento Kings,2021-10-27,0.446,0.36,13.7,116.7,12,20,20,25,West
+Boston Celtics,2021-10-27,0.446,0.385,15,119.8,13,26,27,30,East
+New Orleans Pelicans,2021-10-27,0.447,0.383,13.5,109.8,14,25,19,17,West
+Los Angeles Clippers,2021-10-27,0.453,0.365,12.7,107,15,21,15,12,West
+Detroit Pistons,2021-10-27,0.454,0.37,10,104.3,16,22,5,8,East
+Indiana Pacers,2021-10-27,0.454,0.388,13,117,17,27,16,26,East
+Los Angeles Lakers,2021-10-27,0.455,0.352,12.5,118.8,18,17,13,29,West
+Golden State Warriors,2021-10-27,0.455,0.346,14,108,19,15,22,13,West
+Philadelphia 76ers,2021-10-27,0.457,0.36,12.3,106.5,20,19,12,10,East
+Orlando Magic,2021-10-27,0.458,0.352,14,113.8,21,16,21,21,East
+Cleveland Cavaliers,2021-10-27,0.463,0.336,11.5,109.3,22,13,11,15,East
+Denver Nuggets,2021-10-27,0.467,0.312,9.8,103.8,23,6,4,7,West
+Oklahoma City Thunder,2021-10-27,0.471,0.373,15.5,113,24,23,28,20,West
+Portland Trail Blazers,2021-10-27,0.471,0.357,13.3,115,25,18,17,22,West
+Milwaukee Bucks,2021-10-27,0.477,0.394,14,115.3,26,28,23,23,East
+Charlotte Hornets,2021-10-27,0.478,0.331,13.5,117.3,27,9,18,27,East
+San Antonio Spurs,2021-10-27,0.481,0.331,10.3,111.3,28,10,7,19,West
+Memphis Grizzlies,2021-10-27,0.489,0.402,14.3,118.7,29,29,26,28,West
+Phoenix Suns,2021-10-27,0.49,0.431,17.7,116.3,30,30,30,24,West
