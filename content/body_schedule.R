@@ -1,5 +1,5 @@
 body_schedule <- dashboardBody(
-  fluidRow(HTML(" Moneyline Odds provided by "),
+  fluidRow(HTML(" Moneyline Odds for Today's Games provided by "),
             img(src = "draftkings.png", height = 70, width = 140), tags$a(href="https://www.espn.com/nba/schedule", "| Click here for National TV Schedule")),
   fluidRow(
     column(width = 12, DT::dataTableOutput("schedule_table")),

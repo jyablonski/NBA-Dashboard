@@ -4,7 +4,8 @@
 
 ## Design Workflow
 
-![NBA Project Data Flow](https://user-images.githubusercontent.com/16946556/136297794-e4b4bc77-9980-446c-b5f2-917d2d76aa21.jpg)
+![nba_data_flow](https://user-images.githubusercontent.com/16946556/139352734-b3035eab-623f-476e-8622-6c87ec22dccb.jpg)
+
 
 
 1. This Personal Project consists of an [R Shiny Dashboard](https://jyablonski.shinyapps.io/nbadashboard) displaying recent NBA data, analyses, and trends, along with all of the processes behind the ELT Pipeline that supports it.

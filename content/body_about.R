@@ -19,7 +19,7 @@ body_about <- dashboardBody(
             tags$br(),
             h3("GitHub Links to Infrastructure for this Project:"),
             tags$br(),
-            tags$a(href = "https://github.com/jyablonski/python_docker", "Web Scrape Docker Image"),
+            tags$a(href = "https://github.com/jyablonski/python_docker", "Python Web Scrape Script"),
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/aws_terraform", "Terraform"),
             tags$br(),
