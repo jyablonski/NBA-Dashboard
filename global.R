@@ -66,7 +66,7 @@ theme_set(theme_jacob())
 
 # data retrieval function
 get_data <- function(table_name){
-  if (isSeasonActive == TRUE){ # & as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
+  if (isSeasonActive == TRUE & as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
     df <- dbReadTable(aws_connect, table_name)
     write_csv(df, paste0('data/', table_name, '.csv'))
     return(df)
@@ -415,15 +415,6 @@ regular_valuebox_function <- function(df){
     valueBox(value = paste0('No Data Available'), "Team Hasn't Played Yet", icon = icon("list"), color = "purple")
   }
 }
-
-# last_season_valuebox_function <- function(df){
-#   if (nrow(df) > 0){
-#     valueBox(value = paste0(df$`Wins`, '-', df$`Losses`), "Last Season's Win / Loss Record", icon = icon("list"), color = "purple")
-#   }
-#   else {
-#     valueBox(value = paste0('No Data Available'), "Team Hasn't Played Yet", icon = icon("list"), color = "purple")
-#   }
-# }
 
 game_types_plot <- function(df){
   p <- df %>%
@@ -891,4 +882,3 @@ game_event_plot <- function(df){
 
 # df <- get_leading_times(pbp_event_df)
 # game_event_plot(pbp_event_df)
-
