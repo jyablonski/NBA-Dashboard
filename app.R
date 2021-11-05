@@ -85,7 +85,8 @@ server <- function(input, output, session) {
   
   selected_team_transactions <- reactive({
     transactions %>%
-      filter(str_detect(Transaction, input$select_team))
+      filter(str_detect(Transaction, input$select_team)) %>%
+      arrange(desc(Date))
   })
   
   output$transactions_table <- DT::renderDataTable(selected_team_transactions())
@@ -93,43 +94,10 @@ server <- function(input, output, session) {
   output$schedule_table <- DT::renderDataTable(schedule, rownames = FALSE,
                                                options = list(pageLength = 10))
 
-  # output$recent_date <- renderValueBox({
-  #   valueBox(
-  #     value = format(recent_Bans$Date, format = "%B %d, %Y"), "Most Recent Game Date", icon = icon("calendar"), color = "purple"
-  #   )
-  # })
-  # 
-  # output$recent_games_played <- renderValueBox({
-  #   valueBox(
-  #     value = recent_Bans$`Number of Games`, "Games Played", icon = icon("list"), color = "purple"
-  #   )
-  # })
-  # 
-  # output$recent_home_wins <- renderValueBox({
-  #   valueBox(
-  #     value = recent_Bans$`Count_Home Wins`, "Home Wins", icon = icon("music note list"), color = "red"
-  #   )
-  # })
-  # 
-  # output$recent_road_wins <- renderValueBox({
-  #   valueBox(
-  #     value = recent_Bans$`Count_Road Wins`, "Road Wins", icon = icon("music note list"), color = "red"
-  #   )
-  # })
-
   output$top_15 <- render_gt(player_gt_table(recent_games_players))
     
                                        
   output$recent_team_wins <- render_gt(team_gt_table(recent_games_teams))
-  
-  # output$top20_plot_output <- renderPlotly({
-  #   if (input$select_ppg_choice == 'Regular Season') {
-  #     top20_plot(top_20pt_scorers) 
-  #   }
-  #   else {
-  #     top20_plot_playoffs(top_20pt_scorersp)
-  #   }
-  # })
   
   output$top20_plot_output <- renderPlotly({
     top20_plot(top_scorers)
@@ -185,7 +153,7 @@ server <- function(input, output, session) {
   
   selected_team_injury <- reactive({
     injuries %>%
-      filter(full_team == input$select_team)
+      filter(Team == input$select_team)
   })
   
   output$injury_table <- DT::renderDataTable(selected_team_injury(), rownames = FALSE,
@@ -208,12 +176,6 @@ server <- function(input, output, session) {
     opp_stats %>%
       filter(team == input$select_team)
   })
-  
-  # selected_team_last_season <- reactive({
-  #   last_season_wins %>%
-  #     filter(FullName == input$select_team)
-  # })
-  # 
   
   output$regular_wins <- renderValueBox({
     regular_valuebox_function(selected_team_bans())

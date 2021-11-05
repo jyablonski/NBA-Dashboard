@@ -4,7 +4,8 @@
 
 ## Design Workflow
 
-![nba_data_flow](https://user-images.githubusercontent.com/16946556/139352734-b3035eab-623f-476e-8622-6c87ec22dccb.jpg)
+![new data flow 11-4-21](https://user-images.githubusercontent.com/16946556/140436445-b16ea02e-4014-4e54-8e9f-b83621ddf431.jpg)
+
 
 
 

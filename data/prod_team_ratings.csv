@@ -1,29 +1,29 @@
 team,team_acronym,w,l,ortg,drtg,nrtg,team_logo
 Milwaukee Bucks,MIL,4,4,107.4,107,0.4,logos/mil.png
 Toronto Raptors,TOR,6,3,108.3,103.1,5.2,logos/tor.png
-Boston Celtics,BOS,3,5,105.2,108.5,-3.3,logos/bos.png
+Boston Celtics,BOS,4,5,105.2,106.4,-1.2,logos/bos.png
 Indiana Pacers,IND,3,6,108.7,109.1,-0.4,logos/ind.png
-Miami Heat,MIA,6,1,115.1,98.4,16.7,logos/mia.png
-Philadelphia 76ers,PHI,6,2,115.5,107.1,8.4,logos/phi.png
+Miami Heat,MIA,6,2,111.8,99.2,12.6,logos/mia.png
+Philadelphia 76ers,PHI,7,2,116,107.1,8.9,logos/phi.png
 Brooklyn Nets,BKN,5,3,105.6,104.5,1.1,logos/bkn.png
 Orlando Magic,ORL,2,7,103.6,112,-8.4,logos/orl.png
 Charlotte Hornets,CHA,5,4,111.9,112.1,-0.2,logos/cha.png
 Washington Wizards,WAS,5,3,108.5,107.4,1.1,logos/was.png
 Chicago Bulls,CHI,6,2,109.7,102.6,7.1,logos/chi.png
 New York Knicks,NYK,5,3,112.7,110,2.7,logos/nyk.png
-Detroit Pistons,DET,1,6,95.7,109.2,-13.5,logos/det.png
-Atlanta Hawks,ATL,4,4,109.9,109.9,0,logos/atl.png
-Cleveland Cavaliers,CLE,5,4,105.8,106.5,-0.7,logos/cle.png
-Los Angeles Lakers,LAL,5,3,108,107.3,0.7,logos/lal.png
+Detroit Pistons,DET,1,7,97.1,110.5,-13.4,logos/det.png
+Atlanta Hawks,ATL,4,5,109,111,-2,logos/atl.png
+Cleveland Cavaliers,CLE,5,4,105.8,106.4,-0.6,logos/cle.png
+Los Angeles Lakers,LAL,5,4,107.8,107.5,0.3,logos/lal.png
 Los Angeles Clippers,LAC,3,4,104.7,103.9,0.8,logos/lac.png
 Denver Nuggets,DEN,4,4,102.8,100.8,2,logos/den.png
-Houston Rockets,HOU,1,6,100.1,106.7,-6.6,logos/hou.png
-Oklahoma City Thunder,OKC,1,6,97.1,110.3,-13.2,logos/okc.png
-Utah Jazz,UTA,6,1,111.8,100,11.8,logos/uta.png
+Houston Rockets,HOU,1,7,100.9,108.1,-7.2,logos/hou.png
+Oklahoma City Thunder,OKC,2,6,98.5,109.7,-11.2,logos/okc.png
+Utah Jazz,UTA,7,1,112.9,100.2,12.7,logos/uta.png
 Dallas Mavericks,DAL,5,3,102.2,107.5,-5.3,logos/dal.png
 Portland Trail Blazers,POR,3,5,111.1,109.9,1.2,logos/por.png
 Memphis Grizzlies,MEM,5,3,110.6,112.9,-2.3,logos/mem.png
-Phoenix Suns,PHX,3,3,105.7,107.9,-2.2,logos/phx.png
+Phoenix Suns,PHX,4,3,107.5,107.6,-0.1,logos/phx.png
 San Antonio Spurs,SAS,2,6,106,106.4,-0.4,logos/sas.png
 Sacramento Kings,SAC,4,4,108.6,109.9,-1.3,logos/sac.png
 New Orleans Pelicans,NOP,1,8,104.1,112.2,-8.1,logos/nop.png

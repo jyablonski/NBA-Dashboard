@@ -34,9 +34,26 @@ body_team_plots <- dashboardBody(
       plotlyOutput("team_ppg_plot_output", height = "600px")
     )),
   fluidRow(
-    column(width = 6, h4("Injury Table"), DT::dataTableOutput("injury_table")),
-    column(width = 6, h4('Transactions Table'), DT::dataTableOutput("transactions_table"))
-  )
+    box(
+      title = "Team Injuries",
+      status = "primary",
+      solidHeader = TRUE,
+      collapsible = FALSE,
+      width = 6,
+      DT::dataTableOutput("injury_table")
+    ),
+    box(
+      title = "Team Transactions",
+      status = "primary",
+      solidHeader = TRUE,
+      collapsible = FALSE,
+      width = 6,
+      DT::dataTableOutput("transactions_table")
+    ))
 )
 
+#   fluidRow(
+# column(width = 6, h4("Injury Table"), DT::dataTableOutput("injury_table")),
+# column(width = 6, h4('Transactions Table'), DT::dataTableOutput("transactions_table"))
+# )
 

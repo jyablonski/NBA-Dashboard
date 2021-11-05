@@ -66,7 +66,7 @@ theme_set(theme_jacob())
 
 # data retrieval function
 get_data <- function(table_name){
-  if (isSeasonActive == TRUE & as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
+  if (isSeasonActive == TRUE){ #& as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
     df <- dbReadTable(aws_connect, table_name)
     write_csv(df, paste0('data/', table_name, '.csv'))
     return(df)
@@ -155,7 +155,7 @@ opp_stats <- get_data('prod_opp_stats') %>%
                               'Opponent 3P%: ', threep_percent_opp * 100, '%', ' (', threep_rank, ')', '<br>',
                               'Opponent PPG: ', ppg_opp, ' (', ppg_opp_rank, ')'))
 injuries <- get_data('prod_injuries') %>%
-  rename(team = team_acronym, full_team = team)
+  select(Player = player, -team_acronym, Team = team, Date = date, Status = status, Injury = injury, Description = description)
 
 team_ratings_bans <- team_ratings %>%
   arrange(desc(ortg)) %>%

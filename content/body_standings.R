@@ -13,8 +13,24 @@ body_standings <- dashboardBody(
         div("Last updated: ", updated_date),
         width = 12)),
   fluidRow(
-    column(width = 6, h4("Western Conference"), DT::dataTableOutput("west_standings_table")),
-    column(width = 6, h4("Eastern Conference"), DT::dataTableOutput("east_standings_table"))
+    box(
+      title = "West Standings",
+      status = "primary",
+      solidHeader = TRUE,
+      collapsible = FALSE,
+      width = 6,
+      DT::dataTableOutput("west_standings_table")
+    ),
+    box(
+      title = "East Standings",
+      status = "primary",
+      solidHeader = TRUE,
+      collapsible = FALSE,
+      width = 6,
+      DT::dataTableOutput("east_standings_table")
+    )
+    # column(width = 6, h4("Western Conference"), DT::dataTableOutput("west_standings_table")),
+    # column(width = 6, h4("Eastern Conference"), DT::dataTableOutput("east_standings_table"))
   ),
   fluidRow(),
   fluidRow(),
