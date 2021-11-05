@@ -5,11 +5,10 @@ Authors@R:
     c(person("Jacob", "Yablonski", role = c("cre", "aut"),
              email = 'jyablonski9@gmail.com'))
 Description: NBA Shiny Dashboard
+Depends: R (== 4.1.0)
 License: LGPL (>= 2.1)
 Imports: 
     tidyverse,
-    rvest,
-    xml2,
     stringr,
     lubridate,
     extrafont,
@@ -23,8 +22,6 @@ Imports:
     runner,
     fs,
     scales,
-    jsonlite,
-    httr,
     stringi,
     ggtext,
     bslib,
