@@ -1,31 +1,31 @@
 team,scrape_date,fg_percent_opp,threep_percent_opp,threep_made_opp,ppg_opp,fg_percent_rank,three_percent_rank,three_pm_rank,ppg_opp_rank,conference
-Milwaukee Bucks,2021-11-05,0.447,0.318,12,109,14,5,13,16,East
-Toronto Raptors,2021-11-05,0.446,0.343,11.7,100.2,13,16,10,4,East
-Boston Celtics,2021-11-05,0.433,0.331,12.2,110.6,7,10,16,23,East
-Indiana Pacers,2021-11-05,0.454,0.372,11.3,111.6,21,25,7,26,East
-Miami Heat,2021-11-05,0.397,0.317,13.4,98.4,1,4,24,1,East
-Philadelphia 76ers,2021-11-05,0.439,0.344,11,102.3,9,18,4,7,East
-Brooklyn Nets,2021-11-05,0.422,0.33,11.4,105,4,9,8,10,East
-Orlando Magic,2021-11-05,0.449,0.334,13,109.3,17,12,21,18,East
-Charlotte Hornets,2021-11-05,0.471,0.334,13.6,114.9,26,11,25,30,East
-Washington Wizards,2021-11-05,0.447,0.307,9.1,109.8,15,3,2,20,East
-Chicago Bulls,2021-11-05,0.438,0.358,10.9,101.3,8,23,3,5,East
-New York Knicks,2021-11-05,0.429,0.343,14.3,110.4,5,17,27,22,East
-Detroit Pistons,2021-11-05,0.489,0.427,12.5,108.6,30,30,18,13,East
-Atlanta Hawks,2021-11-05,0.453,0.344,13,108.8,20,19,22,14,East
-Cleveland Cavaliers,2021-11-05,0.453,0.329,11.2,104.9,19,8,6,9,East
-Los Angeles Lakers,2021-11-05,0.459,0.352,12.7,112,24,21,19,27,West
-Los Angeles Clippers,2021-11-05,0.433,0.351,12.1,104.7,6,20,14,8,West
-Denver Nuggets,2021-11-05,0.442,0.328,11.1,99.4,10,7,5,2,West
-Houston Rockets,2021-11-05,0.456,0.336,12.8,112.1,22,13,20,28,West
-Oklahoma City Thunder,2021-11-05,0.45,0.367,15.1,109.1,18,24,29,17,West
-Utah Jazz,2021-11-05,0.412,0.265,8.8,100.1,2,1,1,3,West
-Dallas Mavericks,2021-11-05,0.457,0.355,11.5,106.4,23,22,9,12,West
-Portland Trail Blazers,2021-11-05,0.464,0.385,15,109.8,25,28,28,19,West
-Memphis Grizzlies,2021-11-05,0.476,0.386,13.8,113.1,29,29,26,29,West
-Phoenix Suns,2021-11-05,0.448,0.385,15.1,108.9,16,27,30,15,West
-San Antonio Spurs,2021-11-05,0.474,0.339,11.9,110.3,28,15,12,21,West
-Sacramento Kings,2021-11-05,0.442,0.325,11.8,111.1,11,6,11,24,West
-New Orleans Pelicans,2021-11-05,0.472,0.38,12.1,111.2,27,26,15,25,West
-Minnesota Timberwolves,2021-11-05,0.443,0.337,13,106.3,12,14,23,11,West
-Golden State Warriors,2021-11-05,0.421,0.302,12.3,101.4,3,2,17,6,West
+Milwaukee Bucks,2021-11-06,0.444,0.31,11.8,109.4,13,4,11,22,East
+Toronto Raptors,2021-11-06,0.447,0.342,11.5,100.4,16,15,8,5,East
+Boston Celtics,2021-11-06,0.433,0.331,12.2,110.6,7,10,16,23,East
+Indiana Pacers,2021-11-06,0.457,0.38,11.9,111.4,23,26,13,25,East
+Miami Heat,2021-11-06,0.397,0.317,13.4,98.4,1,5,25,1,East
+Philadelphia 76ers,2021-11-06,0.439,0.344,11,102.3,10,16,4,8,East
+Brooklyn Nets,2021-11-06,0.417,0.329,11.3,103.3,4,9,7,9,East
+Orlando Magic,2021-11-06,0.448,0.333,12.3,108.6,17,12,17,16,East
+Charlotte Hornets,2021-11-06,0.478,0.352,14.4,117.4,27,21,27,30,East
+Washington Wizards,2021-11-06,0.436,0.294,8.8,107.2,8,2,1,13,East
+Chicago Bulls,2021-11-06,0.438,0.358,10.9,101.3,9,23,3,6,East
+New York Knicks,2021-11-06,0.427,0.347,14.4,109,6,18,26,19,East
+Detroit Pistons,2021-11-06,0.485,0.425,12.3,107.2,29,30,18,14,East
+Atlanta Hawks,2021-11-06,0.453,0.344,13,108.8,20,17,23,17,East
+Cleveland Cavaliers,2021-11-06,0.45,0.338,11.3,104.5,19,14,6,10,East
+Los Angeles Lakers,2021-11-06,0.458,0.352,12.7,112,24,20,19,26,West
+Los Angeles Clippers,2021-11-06,0.423,0.347,12.8,102.1,5,19,20,7,West
+Denver Nuggets,2021-11-06,0.442,0.328,11.1,99.4,12,8,5,2,West
+Houston Rockets,2021-11-06,0.456,0.336,12.8,112.1,21,13,21,27,West
+Oklahoma City Thunder,2021-11-06,0.45,0.367,15.1,109.1,18,24,29,20,West
+Utah Jazz,2021-11-06,0.412,0.265,8.8,100.1,2,1,2,4,West
+Dallas Mavericks,2021-11-06,0.457,0.355,11.5,106.4,22,22,9,12,West
+Portland Trail Blazers,2021-11-06,0.466,0.379,14.9,109.3,26,25,28,21,West
+Memphis Grizzlies,2021-11-06,0.487,0.387,13.3,113.3,30,29,24,29,West
+Phoenix Suns,2021-11-06,0.447,0.384,15.1,108.9,15,28,30,18,West
+San Antonio Spurs,2021-11-06,0.465,0.333,11.9,107.9,25,11,12,15,West
+Sacramento Kings,2021-11-06,0.444,0.324,11.7,111,14,6,10,24,West
+New Orleans Pelicans,2021-11-06,0.478,0.383,12.9,112.7,28,27,22,28,West
+Minnesota Timberwolves,2021-11-06,0.439,0.326,12.1,106,11,7,14,11,West
+Golden State Warriors,2021-11-06,0.413,0.295,12.1,99.4,3,3,15,3,West

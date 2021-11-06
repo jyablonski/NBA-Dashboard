@@ -94,7 +94,17 @@ get_ord_numbers <- function(df){
 bans <- get_data('prod_bans') %>%
   mutate(record = paste0(tot_wins[1], ' - ', tot_wins[2]),
          pct_change = round((avg_pts - last_yr_ppg) / avg_pts, 3))
+
+contracts_value <- get_data('prod_contract_value_analysis')
+
 gamelogs <- get_data('prod_gamelogs')
+
+game_types <- get_data('prod_game_types') %>%
+  mutate(pct_total = round(n / sum(n), 3))
+
+injuries <- get_data('prod_injuries') %>%
+  select(Player = player, -team_acronym, Team = team, Date = date, Status = status, Injury = injury, Description = description)
+
 mov <- get_data('prod_mov') %>%
   mutate(date = as.Date(date),
          win_int = case_when(outcome == 'W' ~ 1,
@@ -108,44 +118,7 @@ mov <- get_data('prod_mov') %>%
          row_record = paste0(win_record, ' - ', loss_record)) %>%
   ungroup() %>%
   select(-win_int, -loss_int, -win_record, -loss_record)
-pbp_data <- get_data('prod_pbp') %>%
-  mutate(leading_team_text = case_when(scoring_team == leading_team & leading_team != 'TIE' ~ 'Leading',
-                                       scoring_team != leading_team & leading_team != 'TIE' ~ 'Trailing',
-                                       TRUE ~ 'TIE'
-                                       )) %>%
-  distinct()
-recent_games_players <- get_data('prod_recent_games_players') %>%
-  arrange(desc(pts)) %>%
-  mutate(rank = row_number(),
-         player_new= map(player_new, ~gt::html(as.character(.x)))) %>%
-  select(Rank = rank, player_logo, Player = player_new, pts, `TS%` = game_ts_percent, Outcome = outcome, Salary = salary, pts_color, ts_color) %>%
-  as_tibble()
-recent_games_teams <- get_data('prod_recent_games_teams') %>%
-  filter(outcome == 'W') %>%
-  mutate(new_loc = 'Vs.') %>%
-  select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, pts_color, mov)
-schedule <- get_data('prod_schedule') %>%
-  select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
-standings <- get_data('prod_standings') %>%
-  group_by(conference) %>%
-  arrange(desc(win_pct)) %>%
-  mutate(rank = get_ord_numbers(row_number())) %>%
-  ungroup()
-team_injures <- get_data('prod_team_injuries')
-team_adv_stats <- get_data('prod_team_adv_stats')
-team_ratings <- get_data('prod_team_ratings')
-transactions <- get_data('prod_transactions') %>%
-  select(Date = date, Transaction = transaction)
-past_schedule_analysis <- get_data('prod_past_schedule_analysis') %>%
-  mutate(team = fct_reorder(team, pct_vs_below_500))
-team_contract_analysis <- get_data('prod_team_contracts_analysis') %>%
-  mutate(team = fct_reorder(team, team_pct_salary_earned))
-game_types <- get_data('prod_game_types') %>%
-  mutate(pct_total = round(n / sum(n), 3))
-contracts_value <- get_data('prod_contract_value_analysis')
-top_scorers <- get_data('prod_scorers')
-preseason_odds <- get_data('prod_preseason_odds') %>%
-  mutate(team = fct_reorder(team, wins_differential))
+
 opp_stats <- get_data('prod_opp_stats') %>%
   mutate(fg_rank = get_ord_numbers(fg_percent_rank),
          threep_rank = get_ord_numbers(three_percent_rank),
@@ -154,8 +127,52 @@ opp_stats <- get_data('prod_opp_stats') %>%
          rating_text = paste0('Opponent FG%: ', fg_percent_opp * 100, '%', ' (', fg_rank, ')', '<br>',
                               'Opponent 3P%: ', threep_percent_opp * 100, '%', ' (', threep_rank, ')', '<br>',
                               'Opponent PPG: ', ppg_opp, ' (', ppg_opp_rank, ')'))
-injuries <- get_data('prod_injuries') %>%
-  select(Player = player, -team_acronym, Team = team, Date = date, Status = status, Injury = injury, Description = description)
+
+past_schedule_analysis <- get_data('prod_past_schedule_analysis') %>%
+  mutate(team = fct_reorder(team, pct_vs_below_500))
+
+pbp_data <- get_data('prod_pbp') %>%
+  mutate(leading_team_text = case_when(scoring_team == leading_team & leading_team != 'TIE' ~ 'Leading',
+                                       scoring_team != leading_team & leading_team != 'TIE' ~ 'Trailing',
+                                       TRUE ~ 'TIE'
+                                       )) %>%
+  distinct() %>%
+  group_by(game_description) %>%
+  arrange(desc(time_remaining_final)) %>%
+  ungroup()
+
+preseason_odds <- get_data('prod_preseason_odds') %>%
+  mutate(team = fct_reorder(team, wins_differential))
+
+recent_games_players <- get_data('prod_recent_games_players') %>%
+  arrange(desc(pts)) %>%
+  mutate(rank = row_number(),
+         player_new= map(player_new, ~gt::html(as.character(.x)))) %>%
+  select(Rank = rank, player_logo, Player = player_new, pts, `TS%` = game_ts_percent, Outcome = outcome, Salary = salary, pts_color, ts_color) %>%
+  as_tibble()
+
+recent_games_teams <- get_data('prod_recent_games_teams') %>%
+  filter(outcome == 'W') %>%
+  mutate(new_loc = 'Vs.') %>%
+  select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, pts_color, mov)
+
+schedule <- get_data('prod_schedule') %>%
+  select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
+
+standings <- get_data('prod_standings') %>%
+  group_by(conference) %>%
+  arrange(desc(win_pct)) %>%
+  mutate(rank = get_ord_numbers(row_number())) %>%
+  ungroup()
+
+team_adv_stats <- get_data('prod_team_adv_stats')
+
+team_contract_analysis <- get_data('prod_team_contracts_analysis') %>%
+  mutate(team = fct_reorder(team, team_pct_salary_earned))
+
+team_injures <- get_data('prod_team_injuries')
+
+team_ratings <- get_data('prod_team_ratings')
 
 team_ratings_bans <- team_ratings %>%
   arrange(desc(ortg)) %>%
@@ -168,7 +185,11 @@ team_ratings_bans <- team_ratings %>%
                               'Defensive Rating: ', drtg, ' (', drtg_rank, ')', '<br>',
                               'Net Rating: ', nrtg, ' (', nrtg_rank, ')'))
 
- 
+top_scorers <- get_data('prod_scorers')
+
+transactions <- get_data('prod_transactions') %>%
+  select(Date = date, Transaction = transaction)
+
 dbDisconnect(aws_connect)
 
 ###### Data Extraction Complete ######
@@ -358,7 +379,7 @@ mov_plot <- function(df){
   cols <- c('W' = 'dark green', 'L' = 'red')
   p <- df %>%
     ggplot(aes(date, mov)) +
-    geom_col(alpha = 0.7, aes(fill = outcome, text = paste0(date, '<br>',
+    geom_col(alpha = 0.7, color = 'black', aes(fill = outcome, text = paste0(date, '<br>',
                                                             outcome, ' vs ', opponent, '<br>',
                                                             'Scoreline: ', pts_scored, ' - ', pts_scored_opp, '<br>',
                                                             'Margin of Victory: ', mov, '<br>',
@@ -419,7 +440,7 @@ regular_valuebox_function <- function(df){
 game_types_plot <- function(df){
   p <- df %>%
     ggplot(aes(game_type, pct_total)) +
-    geom_col(position = 'dodge', aes(text = paste0(game_type, 's account for ', round(pct_total * 100, 1), '% of all',
+    geom_col(position = 'dodge', color = 'black', aes(text = paste0(game_type, 's account for ', round(pct_total * 100, 1), '% of all',
                                                    ' games played.', '<br>', 'Number of Observations: ', n, '<br>', '<br>',
                                                    game_type, 's are defined as games that were decided by ', explanation))) +
     scale_y_continuous(labels = percent_format()) +
@@ -521,7 +542,7 @@ team_contract_value_plot <- function(df){
              label = paste0(round(mean(df$team_pct_salary_earned * 100), 2), '% (League Average)')) +
     labs(x = '% of Total Contract Value Earned',
          y = NULL,
-         title = 'Which Teams are missing the most Contract Value this Season from Injuries, COVID-related Absences, or DNPs?',
+         title = 'Which Teams are missing the most Contract Value this Season?',
          fill = 'Win %')
   
   ggplotly(p, tooltip = c('text')) %>%
@@ -609,7 +630,7 @@ gt_theme_538 <- function(data,...) {
     tab_options(
       column_labels.background.color = "white",
       table.border.top.width = px(3),
-      table.border.top.color = "#ffffff",
+       table.border.top.color = "#ffffff",
       table.border.bottom.color = "#ffffff",
       table.border.bottom.width = px(3),
       column_labels.border.top.width = px(3),
@@ -720,7 +741,7 @@ player_gt_table <- function(df){
         palette = c("white", "#19e661"),
         domain = NULL)) %>%
     tab_header(
-      title = md("Top Performers by **PTS** Scored"),
+      title = md("Top Performers by **Points** Scored"),
       subtitle = paste0("From ", length(pbp_games_yesterday), " Games Played on ", format(most_recent_date$date, "%A, %B %d"))) %>%
     opt_align_table_header(align = "center") %>%
     cols_align(
@@ -783,7 +804,7 @@ get_leading_times <- function(df){
     left_join(team_colors) %>%
     mutate(text = paste0("<span style='color:", scoring_team_color, "';>", scoring_team, '</span> led for ',
                          pct_leadtime * 100, ' % of the Game'),
-           tied_text = paste0('The teams were tied for ', (pct_tiedtime * 100), '% of the Game')) %>%
+           tied_text = paste0('The teams were tied for ', (pct_tiedtime * 100), ' % of the Game')) %>%
     select(text, tied_text)
   
   
@@ -864,18 +885,19 @@ game_event_plot <- function(df){
                     labels = get_labels(df)) +
     scale_color_identity() +
     annotate(geom = "text", label = lead_times$text[1],
-             x = 44, y = y_loc) +
+             x = 36, y = y_loc, hjust = 0) +
     annotate(geom = "text", label = lead_times$text[2],
-             x = 44, y = y_loc * .92) +
+             x = 36, y = y_loc * .92, hjust = 0) +
     annotate(geom = "text", label = lead_times$tied_text[1],
-             x = 42.35, y = y_loc * .86) +
+             x = 36, y = y_loc * .84, hjust = 0) +
     labs(x = NULL,
          y = 'Score Differential',
          title = paste0(df$away_fill[1], ' Vs. ', df$home_fill[1])) +
     theme(legend.position = 'none')
   
   ggplotly(p, tooltip = c('text')) %>%
-    layout(hoverlabel = list(bgcolor = "white"))
+    layout(hoverlabel = list(bgcolor = "white")) %>%
+    style(textposition = "left")
   
   
 }
