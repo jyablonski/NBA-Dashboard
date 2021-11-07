@@ -97,6 +97,9 @@ bans <- get_data('prod_bans') %>%
 
 contracts_value <- get_data('prod_contract_value_analysis')
 
+future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
+  mutate(team = fct_reorder(team, pct_games_left_above_500))
+
 gamelogs <- get_data('prod_gamelogs')
 
 game_types <- get_data('prod_game_types') %>%
@@ -131,7 +134,16 @@ opp_stats <- get_data('prod_opp_stats') %>%
 past_schedule_analysis <- get_data('prod_past_schedule_analysis') %>%
   mutate(team = fct_reorder(team, pct_vs_below_500))
 
+# this makes it so the game winning shot will show instead of 'end of 4th quarter' text on plot
+pbp_data_end <- get_data('prod_pbp') %>%
+  filter(time_remaining_final == 0.00) %>%
+  group_by(game_description) %>%
+  slice(1) %>%
+  ungroup()
+
 pbp_data <- get_data('prod_pbp') %>%
+  filter(time_remaining_final != 0.00) %>%
+  rbind(pbp_data_end) %>%
   mutate(leading_team_text = case_when(scoring_team == leading_team & leading_team != 'TIE' ~ 'Leading',
                                        scoring_team != leading_team & leading_team != 'TIE' ~ 'Trailing',
                                        TRUE ~ 'TIE'
@@ -595,7 +607,7 @@ advanced_sos_plot <- function(df){
     annotate(geom = "text", label = "<span style='color: #F8766D;'>  Faced Harder \n Competition</span>",
              x = max(df$pct_vs_below_500) * .95, y = 4) +
     annotate(geom = "text", label = "<span style='color: #00BFC4;'> Faced Easier \n Competition</span>",
-             x = max(df$pct_vs_below_500) * .995, y = 16) +
+             x = max(df$pct_vs_below_500) * .95, y = 16) +
     labs(x = '% of Games vs Below .500 Teams',
          y = NULL,
          title = paste0('Team Strength of Schedule for the 2021-22 NBA Season')) +
@@ -607,6 +619,37 @@ advanced_sos_plot <- function(df){
 }
 
 # advanced_sos_plot(past_schedule_analysis)
+
+future_schedule_analysis_plot <- function(df){
+  p <- df %>%
+    ggplot(aes(pct_games_left_above_500, team, fill = avg_win_pct_opp >= 0.5)) +
+    geom_col(aes(text = paste0(team, '<br>',
+                               'Average Opp. Win % for Remaining Games: ', (avg_win_pct_opp * 100), '%', '<br>',
+                               '<br>',
+                               'Road Games Left: ', road_games_left_count, ' (', (pct_games_left_road * 100), '%)', '<br>',
+                               'Home Games Left: ', home_games_left_count, ' (', (pct_games_left_home * 100), '%)', '<br>', 
+                               '<br>',
+                               '<br>',
+                               'Games Left vs Below .500 Teams: ', below_500_games_left_count, ' (', (pct_games_left_below_500 * 100), '%)', '<br>',
+                               'Games Left vs Above .500 Teams: ', above_500_games_left_count, ' (', (pct_games_left_above_500 * 100), '%)'))) +
+    scale_fill_manual(values = c('#00BFC4', '#F8766D')) +
+    scale_x_continuous(labels = percent_format()) +
+    annotate(geom = "text", label = "<span style='color: #F8766D;'>  Harder Upcoming \n Competition</span>",
+             x = max(df$pct_games_left_above_500) * .985, y = 16, size = 3) +
+    annotate(geom = "text", label = "<span style='color: #00BFC4;'> Easier Upcoming \n Competition</span>",
+             x = max(df$pct_games_left_above_500) * .985, y = 4, size = 3) +
+    labs(x = '% of Games Left vs Above .500 Teams',
+         y = NULL,
+         title = paste0('Future Strength of Schedule for the 2021-22 NBA Season')) +
+    theme_jacob() +
+    theme(legend.position = 'none')
+  
+  ggplotly(p, tooltip = c('text')) %>%
+    layout(hoverlabel = list(bgcolor = "white"))
+  
+}
+
+# future_schedule_analysis_plot(future_schedule_analysis)
 
 ### gt table functions
 gt_theme_538 <- function(data,...) {

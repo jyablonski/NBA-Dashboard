@@ -107,6 +107,9 @@ server <- function(input, output, session) {
     if (input$select_choice == 'Vegas Preseason Over/Under Odds') {
       vegas_plot(preseason_odds)
     }
+    else if (input$select_choice == 'Future Strength of Schedule') {
+      future_schedule_analysis_plot(future_schedule_analysis)
+    }
     else {
       advanced_sos_plot(past_schedule_analysis)
     }

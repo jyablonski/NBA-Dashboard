@@ -25,7 +25,8 @@ body_schedule <- dashboardBody(
       fluidRow(
         column(4, 
                selectInput('select_choice', "Select a Plot",
-                           choices = c('Strength of Schedule',
+                           choices = c('Strength of Schedule (as of Today)',
+                                       'Future Strength of Schedule',
                                        'Vegas Preseason Over/Under Odds'))
         )),
       title = "NBA Strength of Schedule Analysis",
