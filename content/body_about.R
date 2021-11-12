@@ -27,6 +27,8 @@ body_about <- dashboardBody(
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/nba_elt_dbt", "dbt"),
             tags$br(),
+            tags$a(href = "https://github.com/jyablonski/nba_elt_airflow", "Airflow Proof of Concept"),
+            tags$br(),
             h3("Developer"),
             "Jacob Yablonski | ",
             tags$a(href = "https://www.linkedin.com/in/jacobyablonski/", "LinkedIn"), "|",

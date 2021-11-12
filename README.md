@@ -21,7 +21,7 @@
 2. Links to other Repos providing infrastructure for this Project
     * [Python Dockerfile](https://github.com/jyablonski/python_docker)
     * [Terraform](https://github.com/jyablonski/aws_terraform/tree/master/prod)
-    * [DBT](https://github.com/jyablonski/nba_elt_dbt)
+    * [dbt](https://github.com/jyablonski/nba_elt_dbt)
     * [Airflow Proof of Concept](https://github.com/jyablonski/nba_elt_airflow)
 
 3. Main R Packages Used
