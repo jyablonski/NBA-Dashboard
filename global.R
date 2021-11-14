@@ -123,12 +123,8 @@ mov <- get_data('prod_mov') %>%
   select(-win_int, -loss_int, -win_record, -loss_record)
 
 opp_stats <- get_data('prod_opp_stats') %>%
-  mutate(fg_rank = get_ord_numbers(fg_percent_rank),
-         threep_rank = get_ord_numbers(three_percent_rank),
-         threepm_rank = get_ord_numbers(three_pm_rank),
-         ppg_opp_rank = get_ord_numbers(ppg_opp_rank),
-         rating_text = paste0('Opponent FG%: ', fg_percent_opp * 100, '%', ' (', fg_rank, ')', '<br>',
-                              'Opponent 3P%: ', threep_percent_opp * 100, '%', ' (', threep_rank, ')', '<br>',
+  mutate(rating_text = paste0('Opponent FG%: ', fg_percent_opp * 100, '%', ' (', fg_percent_rank, ')', '<br>',
+                              'Opponent 3P%: ', threep_percent_opp * 100, '%', ' (', three_percent_rank, ')', '<br>',
                               'Opponent PPG: ', ppg_opp, ' (', ppg_opp_rank, ')'))
 
 past_schedule_analysis <- get_data('prod_past_schedule_analysis') %>%
@@ -187,13 +183,7 @@ team_injures <- get_data('prod_team_injuries')
 team_ratings <- get_data('prod_team_ratings')
 
 team_ratings_bans <- team_ratings %>%
-  arrange(desc(ortg)) %>%
-  mutate(ortg_rank = get_ord_numbers(row_number())) %>%
-  arrange(drtg) %>%
-  mutate(drtg_rank = get_ord_numbers(row_number())) %>%
-  arrange(desc(nrtg)) %>%
-  mutate(nrtg_rank = get_ord_numbers(row_number()),
-         rating_text = paste0('Offensive Rating: ', ortg, ' (', ortg_rank, ')', '<br>',
+  mutate(rating_text = paste0('Offensive Rating: ', ortg, ' (', ortg_rank, ')', '<br>',
                               'Defensive Rating: ', drtg, ' (', drtg_rank, ')', '<br>',
                               'Net Rating: ', nrtg, ' (', nrtg_rank, ')'))
 
