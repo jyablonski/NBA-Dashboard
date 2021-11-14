@@ -1,0 +1,15 @@
+date,team,opponent,outcome,pts_scored,pts_scored_opp,mov,team_max_score,team_avg_score,pts_color,team_logo,opp_logo
+2021-11-13T00:00:00Z,CLE,BOS,W,91,89,2,126,103.5,3,https://stats.nba.com/media/img/teams/logos/CLE_logo.svg,https://stats.nba.com/media/img/teams/logos/BOS_logo.svg
+2021-11-13T00:00:00Z,BOS,CLE,L,89,91,-2,140,107.92307692307692,3,https://stats.nba.com/media/img/teams/logos/BOS_logo.svg,https://stats.nba.com/media/img/teams/logos/CLE_logo.svg
+2021-11-13T00:00:00Z,TOR,DET,L,121,127,-6,121,105.42857142857143,1,https://stats.nba.com/media/img/teams/logos/TOR_logo.svg,https://stats.nba.com/media/img/teams/logos/DET_logo.svg
+2021-11-13T00:00:00Z,PHI,IND,L,113,118,-5,122,109.85714285714286,0,https://stats.nba.com/media/img/teams/logos/PHI_logo.svg,https://stats.nba.com/media/img/teams/logos/IND_logo.svg
+2021-11-13T00:00:00Z,MIN,LAC,L,102,129,-27,124,104.58333333333333,0,https://stats.nba.com/media/img/teams/logos/MIN_logo.svg,https://stats.nba.com/media/img/teams/logos/LAC_logo.svg
+2021-11-13T00:00:00Z,NOP,MEM,W,112,101,11,117,102.14285714285714,0,https://stats.nba.com/media/img/teams/logos/NOP_logo.svg,https://stats.nba.com/media/img/teams/logos/MEM_logo.svg
+2021-11-13T00:00:00Z,UTA,MIA,L,105,111,-6,122,110.15384615384616,0,https://stats.nba.com/media/img/teams/logos/UTA_logo.svg,https://stats.nba.com/media/img/teams/logos/MIA_logo.svg
+2021-11-13T00:00:00Z,LAC,MIN,W,129,102,27,129,110.08333333333333,1,https://stats.nba.com/media/img/teams/logos/LAC_logo.svg,https://stats.nba.com/media/img/teams/logos/MIN_logo.svg
+2021-11-13T00:00:00Z,MEM,NOP,L,101,112,-11,132,107.84615384615384,0,https://stats.nba.com/media/img/teams/logos/MEM_logo.svg,https://stats.nba.com/media/img/teams/logos/NOP_logo.svg
+2021-11-13T00:00:00Z,WAS,ORL,W,104,92,12,135,108.66666666666667,0,https://stats.nba.com/media/img/teams/logos/WAS_logo.svg,https://stats.nba.com/media/img/teams/logos/ORL_logo.svg
+2021-11-13T00:00:00Z,IND,PHI,W,118,113,5,134,109.14285714285714,0,https://stats.nba.com/media/img/teams/logos/IND_logo.svg,https://stats.nba.com/media/img/teams/logos/PHI_logo.svg
+2021-11-13T00:00:00Z,DET,TOR,W,127,121,6,127,97.58333333333333,1,https://stats.nba.com/media/img/teams/logos/DET_logo.svg,https://stats.nba.com/media/img/teams/logos/TOR_logo.svg
+2021-11-13T00:00:00Z,MIA,UTA,W,111,105,6,137,110.61538461538461,0,https://stats.nba.com/media/img/teams/logos/MIA_logo.svg,https://stats.nba.com/media/img/teams/logos/UTA_logo.svg
+2021-11-13T00:00:00Z,ORL,WAS,L,92,104,-12,115,99.07692307692308,0,https://stats.nba.com/media/img/teams/logos/ORL_logo.svg,https://stats.nba.com/media/img/teams/logos/WAS_logo.svg
