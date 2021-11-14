@@ -2,7 +2,7 @@
 *.Rhistory
 *.RData
 *.Ruserdata
-*.Rprofile
+# *.Rprofile
 *.Renviron
 google-analytics
 rsconnect
