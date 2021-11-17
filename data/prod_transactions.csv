@@ -719,19 +719,19 @@ date,transaction
 2021-10-30,The Minnesota Timberwolves recalled Leandro Bolmaro from the Iowa Wolves of the G-League.
 2021-10-31,The Charlotte Hornets recalled J.T. Thor from the Greensboro Swarm of the G-League.
 2021-10-31,"The Charlotte Hornets recalled Vernon Carey, Jr. from the Greensboro Swarm of the G-League."
-2021-10-31,The Detroit Pistons assigned Isaiah Livers to the Bakersfield Jam of the G-League.
+2021-10-31,The Detroit Pistons assigned Isaiah Livers to the  of the G-League.
 2021-10-31,The Los Angeles Clippers recalled Brandon Boston from the Agua Caliente Clippers of the G-League.
 2021-11-01,The Brooklyn Nets assigned Cam Thomas to the Long Island Nets of the G-League.
 2021-11-01,The Brooklyn Nets assigned Day'Ron Sharpe to the Long Island Nets of the G-League.
-2021-11-01,The Detroit Pistons assigned Luka Garza to the Bakersfield Jam of the G-League.
-2021-11-01,The Detroit Pistons assigned Saben Lee to the Bakersfield Jam of the G-League.
+2021-11-01,The Detroit Pistons assigned Luka Garza to the  of the G-League.
+2021-11-01,The Detroit Pistons assigned Saben Lee to the  of the G-League.
 2021-11-01,The Los Angeles Lakers assigned Wayne Ellington to the South Bay Lakers of the G-League.
 2021-11-01,The Los Angeles Lakers recalled Wayne Ellington from the South Bay Lakers of the G-League.
 2021-11-02,The Charlotte Hornets assigned J.T. Thor to the Greensboro Swarm of the G-League.
 2021-11-02,"The Charlotte Hornets assigned Vernon Carey, Jr. to the Greensboro Swarm of the G-League."
-2021-11-02,The Detroit Pistons recalled Isaiah Livers from the Bakersfield Jam of the G-League.
-2021-11-02,The Detroit Pistons recalled Luka Garza from the Bakersfield Jam of the G-League.
-2021-11-02,The Detroit Pistons recalled Saben Lee from the Bakersfield Jam of the G-League.
+2021-11-02,The Detroit Pistons recalled Isaiah Livers from the  of the G-League.
+2021-11-02,The Detroit Pistons recalled Luka Garza from the  of the G-League.
+2021-11-02,The Detroit Pistons recalled Saben Lee from the  of the G-League.
 2021-11-02,The Golden State Warriors assigned Jonathan Kuminga to the Santa Cruz Warriors of the G-League.
 2021-11-02,The Golden State Warriors assigned Moses Moody to the Santa Cruz Warriors of the G-League.
 2021-11-02,The Los Angeles Clippers assigned Marcus Morris to the Agua Caliente Clippers of the G-League.
@@ -740,14 +740,16 @@ date,transaction
 2021-11-02,The Washington Wizards assigned Isaiah Todd to the Capital City Go-Go of the G-League.
 2021-11-03,The Golden State Warriors recalled Jonathan Kuminga from the Santa Cruz Warriors of the G-League.
 2021-11-03,The Golden State Warriors recalled Moses Moody from the Santa Cruz Warriors of the G-League.
+2021-11-03,The Sacramento Kings recalled Jahmi'us Ramsey from the Reno Bighorns of the G-League.
 2021-11-03,The San Antonio Spurs recalled Joshua Primo from the Austin Toros of the G-League.
 2021-11-04,The Atlanta Hawks assigned Jalen Johnson to the College Park Skyhawks of the G-League.
 2021-11-04,The Atlanta Hawks recalled Jalen Johnson from the College Park Skyhawks of the G-League.
+2021-11-04,The Sacramento Kings assigned Jahmi'us Ramsey to the Reno Bighorns of the G-League.
 2021-11-04,The San Antonio Spurs assigned Joshua Primo to the Austin Toros of the G-League.
 2021-11-05,The Atlanta Hawks assigned Jalen Johnson to the College Park Skyhawks of the G-League.
-2021-11-05,The Detroit Pistons assigned Isaiah Livers to the Bakersfield Jam of the G-League.
-2021-11-05,The Detroit Pistons assigned Luka Garza to the Bakersfield Jam of the G-League.
-2021-11-05,The Detroit Pistons assigned Saben Lee to the Bakersfield Jam of the G-League.
+2021-11-05,The Detroit Pistons assigned Isaiah Livers to the  of the G-League.
+2021-11-05,The Detroit Pistons assigned Luka Garza to the  of the G-League.
+2021-11-05,The Detroit Pistons assigned Saben Lee to the  of the G-League.
 2021-11-06,The Golden State Warriors assigned Jonathan Kuminga to the Santa Cruz Warriors of the G-League.
 2021-11-06,The Los Angeles Clippers recalled Keon Johnson from the Agua Caliente Clippers of the G-League.
 2021-11-06,The Minnesota Timberwolves assigned Leandro Bolmaro to the Iowa Wolves of the G-League.
@@ -760,3 +762,55 @@ date,transaction
 2021-11-07,The Oklahoma City Thunder recalled Isaiah Roby from the Oklahoma City Blue of the G-League.
 2021-11-07,The Oklahoma City Thunder recalled Tre Mann from the Oklahoma City Blue of the G-League.
 2021-11-07,The Oklahoma City Thunder recalled Vit Krejci from the Oklahoma City Blue of the G-League.
+2021-11-07,The Sacramento Kings recalled Jahmi'us Ramsey from the Reno Bighorns of the G-League.
+2021-11-08,The Brooklyn Nets assigned Nicolas Claxton to the Long Island Nets of the G-League.
+2021-11-08,The Brooklyn Nets recalled Cam Thomas from the Long Island Nets of the G-League.
+2021-11-08,The Brooklyn Nets recalled Day'Ron Sharpe from the Long Island Nets of the G-League.
+2021-11-08,The Los Angeles Clippers assigned Keon Johnson to the Agua Caliente Clippers of the G-League.
+2021-11-08,The Memphis Grizzlies assigned Dillon Brooks to the Memphis Hustle of the G-League.
+2021-11-08,The Memphis Grizzlies assigned Sam Merrill to the Memphis Hustle of the G-League.
+2021-11-08,The Memphis Grizzlies assigned Santi Aldama to the Memphis Hustle of the G-League.
+2021-11-08,The Memphis Grizzlies recalled Dillon Brooks from the Memphis Hustle of the G-League.
+2021-11-08,The Memphis Grizzlies recalled Jarrett Culver from the Memphis Hustle of the G-League.
+2021-11-08,The Memphis Grizzlies recalled Sam Merrill from the Memphis Hustle of the G-League.
+2021-11-08,The Memphis Grizzlies recalled Santi Aldama from the Memphis Hustle of the G-League.
+2021-11-09,The Minnesota Timberwolves recalled Leandro Bolmaro from the Iowa Wolves of the G-League.
+2021-11-09,The Toronto Raptors assigned Isaac Bonga to the Raptors 905 of the G-League.
+2021-11-09,The Utah Jazz recalled Udoka Azubuike from the Idaho Stampede of the G-League.
+2021-11-10,"The Los Angeles Clippers assigned B.J. Boston, Jr. to the Agua Caliente Clippers of the G-League."
+2021-11-10,The New Orleans Pelicans assigned Didi Louzada to the  of the G-League.
+2021-11-10,The San Antonio Spurs recalled Joshua Primo from the Austin Toros of the G-League.
+2021-11-11,The Boston Celtics assigned Bruno Fernando to the  of the G-League.
+2021-11-11,The Los Angeles Clippers assigned Serge Ibaka to the Agua Caliente Clippers of the G-League.
+2021-11-11,The Oklahoma City Thunder assigned Isaiah Roby to the Oklahoma City Blue of the G-League.
+2021-11-11,The Oklahoma City Thunder assigned Theo Maledon to the Oklahoma City Blue of the G-League.
+2021-11-11,The Oklahoma City Thunder assigned Vit Krejci to the Oklahoma City Blue of the G-League.
+2021-11-12,The Charlotte Hornets assigned James Bouknight to the Greensboro Swarm of the G-League.
+2021-11-12,The Charlotte Hornets assigned Kai Jones to the Greensboro Swarm of the G-League.
+2021-11-12,The Detroit Pistons recalled Luka Garza from the  of the G-League.
+2021-11-12,The Memphis Grizzlies assigned Jarrett Culver to the Memphis Hustle of the G-League.
+2021-11-12,The Memphis Grizzlies assigned Sam Merrill to the Memphis Hustle of the G-League.
+2021-11-12,The Memphis Grizzlies assigned Santi Aldama to the Memphis Hustle of the G-League.
+2021-11-12,The Memphis Grizzlies recalled Jarrett Culver from the Memphis Hustle of the G-League.
+2021-11-12,The Memphis Grizzlies recalled Sam Merrill from the Memphis Hustle of the G-League.
+2021-11-12,The Memphis Grizzlies recalled Santi Aldama from the Memphis Hustle of the G-League.
+2021-11-12,The Oklahoma City Thunder recalled Isaiah Roby from the Oklahoma City Blue of the G-League.
+2021-11-12,The Oklahoma City Thunder recalled Theo Maledon from the Oklahoma City Blue of the G-League.
+2021-11-12,The Oklahoma City Thunder recalled Vit Krejci from the Oklahoma City Blue of the G-League.
+2021-11-12,The Toronto Raptors assigned Dalano Banton to the Raptors 905 of the G-League.
+2021-11-13,The Atlanta Hawks recalled Jalen Johnson from the College Park Skyhawks of the G-League.
+2021-11-13,"The Charlotte Hornets recalled Vernon Carey, Jr. from the Greensboro Swarm of the G-League."
+2021-11-13,The Dallas Mavericks assigned Josh Green to the Texas Legends of the G-League.
+2021-11-13,The Dallas Mavericks assigned Moses Brown to the Texas Legends of the G-League.
+2021-11-13,The San Antonio Spurs assigned Joshua Primo to the Austin Toros of the G-League.
+2021-11-13,The Toronto Raptors recalled Dalano Banton from the Raptors 905 of the G-League.
+2021-11-13,The Toronto Raptors recalled Isaac Bonga from the Raptors 905 of the G-League.
+2021-11-14,The Charlotte Hornets recalled James Bouknight from the Greensboro Swarm of the G-League.
+2021-11-14,The Charlotte Hornets recalled Kai Jones from the Greensboro Swarm of the G-League.
+2021-11-14,The New Orleans Pelicans recalled Didi Louzada from the  of the G-League.
+2021-11-14,The Oklahoma City Thunder assigned Theo Maledon to the Oklahoma City Blue of the G-League.
+2021-11-14,The Oklahoma City Thunder assigned Tre Mann to the Oklahoma City Blue of the G-League.
+2021-11-14,The Oklahoma City Thunder assigned Vit Krejci to the Oklahoma City Blue of the G-League.
+2021-11-14,The Oklahoma City Thunder recalled Theo Maledon from the Oklahoma City Blue of the G-League.
+2021-11-14,The Oklahoma City Thunder recalled Tre Mann from the Oklahoma City Blue of the G-League.
+2021-11-14,The Oklahoma City Thunder recalled Vit Krejci from the Oklahoma City Blue of the G-League.
