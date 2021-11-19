@@ -1,4 +1,7 @@
 date,team,opponent,outcome,pts_scored,pts_scored_opp,mov,team_max_score,team_avg_score,pts_color,opp_pts_color,team_logo,opp_logo,new_loc
-2021-11-16T00:00:00Z,UTA,PHI,W,120,85,35,122,110.9,0,3,https://stats.nba.com/media/img/teams/logos/UTA_logo.svg,https://stats.nba.com/media/img/teams/logos/PHI_logo.svg,Vs.
-2021-11-16T00:00:00Z,GSW,BKN,W,117,99,18,127,115.2,0,0,https://stats.nba.com/media/img/teams/logos/GSW_logo.svg,https://stats.nba.com/media/img/teams/logos/BKN_logo.svg,Vs.
-2021-11-16T00:00:00Z,LAC,SAS,W,106,92,14,129,108.4,0,3,https://stats.nba.com/media/img/teams/logos/LAC_logo.svg,https://stats.nba.com/media/img/teams/logos/SAS_logo.svg,Vs.
+2021-11-18T00:00:00Z,UTA,TOR,W,119,103,16,122,111.4,0,0,https://stats.nba.com/media/img/teams/logos/UTA_logo.svg,https://stats.nba.com/media/img/teams/logos/TOR_logo.svg,Vs.
+2021-11-18T00:00:00Z,MIA,WAS,W,112,97,15,137,110.4,0,0,https://stats.nba.com/media/img/teams/logos/MIA_logo.svg,https://stats.nba.com/media/img/teams/logos/WAS_logo.svg,Vs.
+2021-11-18T00:00:00Z,GSW,CLE,W,104,89,15,127,114.5,3,3,https://stats.nba.com/media/img/teams/logos/GSW_logo.svg,https://stats.nba.com/media/img/teams/logos/CLE_logo.svg,Vs.
+2021-11-18T00:00:00Z,MEM,LAC,W,120,108,12,136,110.5,0,0,https://stats.nba.com/media/img/teams/logos/MEM_logo.svg,https://stats.nba.com/media/img/teams/logos/LAC_logo.svg,Vs.
+2021-11-18T00:00:00Z,PHI,DEN,W,103,89,14,122,107.9,0,3,https://stats.nba.com/media/img/teams/logos/PHI_logo.svg,https://stats.nba.com/media/img/teams/logos/DEN_logo.svg,Vs.
+2021-11-18T00:00:00Z,MIN,SAS,W,115,90,25,124,104.9,2,3,https://stats.nba.com/media/img/teams/logos/MIN_logo.svg,https://stats.nba.com/media/img/teams/logos/SAS_logo.svg,Vs.

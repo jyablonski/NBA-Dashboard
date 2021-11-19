@@ -158,7 +158,7 @@ recent_games_players <- get_data('prod_recent_games_players') %>%
   arrange(desc(pts)) %>%
   mutate(rank = row_number(),
          player_new= map(player_new, ~gt::html(as.character(.x)))) %>%
-  select(Rank = rank, player_logo, Player = player_new, pts, `TS%` = game_ts_percent, Outcome = outcome, Salary = salary, pts_color, ts_color) %>%
+  select(Rank = rank, player_logo, Player = player_new, pts, `TS%` = game_ts_percent, `+/-` = plusminus, Outcome = outcome, Salary = salary, pts_color, ts_color) %>%
   as_tibble()
 
 recent_games_teams <- get_data('prod_recent_games_teams') %>%
@@ -509,21 +509,21 @@ value_plot <- function(df){
 gp_valuebox_function <- function(df){
   if (df$upcoming_games[1] == 1){
     valueBox(
-      value = df$upcoming_game_date[1], HTML(paste0("Next Gameday Date <br> <br> ", df$upcoming_games[1],
+      value = format(df$upcoming_game_date[1], '%A, %B %d'), HTML(paste0("Next Gameday Date <br> <br> ", df$upcoming_games[1],
                                         " Upcoming Game")),
       icon = icon("calendar"), color = "blue"
     )
   }
   else if (df$upcoming_games[1] == 0){
     valueBox(
-      value = Sys.Date(), HTML(paste0("No Upcoming Games")),
+      value = format(Sys.Date(), '%A, %B %d'), HTML(paste0("No Upcoming Games")),
       icon = icon("calendar"), color = "blue"
     )
   }
     
   else {
     valueBox(
-      value = df$upcoming_game_date[1], HTML(paste0("Next Gameday Date <br> <br> ", df$upcoming_games[1],
+      value = format(df$upcoming_game_date[1], '%A, %B %d'), HTML(paste0("Next Gameday Date <br> <br> ", df$upcoming_games[1],
                                         " Upcoming Games | See Schedule")),
       icon = icon("calendar"), color = "blue"
     )
