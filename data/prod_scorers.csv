@@ -1,460 +1,467 @@
 player,team,full_team,type,season_avg_ppg,season_ts_percent,player_mvp_calc_avg,games_played,mvp_rank,ppg_rank,top5_candidates,top20_scorers
-Stephen Curry,GSW,Golden State Warriors,Regular Season,29.5,0.647,48.2,15,1,1,Top 5 MVP Candidate,Top 20 Scorers
-Nikola Jokic,DEN,Denver Nuggets,Regular Season,26.4,0.668,46.6,14,2,6,Top 5 MVP Candidate,Top 20 Scorers
-Giannis Antetokounmpo,MIL,Milwaukee Bucks,Regular Season,28,0.59,45.4,14,3,3,Top 5 MVP Candidate,Top 20 Scorers
-Jimmy Butler,MIA,Miami Heat,Regular Season,24.8,0.634,40.5,13,4,12,Top 5 MVP Candidate,Top 20 Scorers
-Kevin Durant,BKN,Brooklyn Nets,Regular Season,28.6,0.668,39.5,16,5,2,Top 5 MVP Candidate,Top 20 Scorers
-DeMar DeRozan,CHI,Chicago Bulls,Regular Season,26.6,0.597,39.4,15,6,5,Other,Top 20 Scorers
-LeBron James,LAL,Los Angeles Lakers,Regular Season,24.8,0.564,39.4,6,7,13,Other,Top 20 Scorers
-Paul George,LAC,Los Angeles Clippers,Regular Season,26.9,0.566,38.6,15,8,4,Other,Top 20 Scorers
-Ja Morant,MEM,Memphis Grizzlies,Regular Season,26,0.583,37.2,15,9,8,Other,Top 20 Scorers
-Donovan Mitchell,UTA,Utah Jazz,Regular Season,24.3,0.551,36.8,14,10,15,Other,Top 20 Scorers
-Trae Young,ATL,Atlanta Hawks,Regular Season,25.1,0.565,36.7,16,11,10,Other,Top 20 Scorers
-Chris Paul,PHX,Phoenix Suns,Regular Season,14.1,0.569,36.5,14,12,92,Other,Other
-Dejounte Murray,SAS,San Antonio Spurs,Regular Season,18.1,0.497,35.6,15,13,47,Other,Other
-Devin Booker,PHX,Phoenix Suns,Regular Season,23,0.54,35.6,14,14,21,Other,Other
-LaMelo Ball,CHA,Charlotte Hornets,Regular Season,18.8,0.528,35.6,16,15,45,Other,Other
-Joel Embiid,PHI,Philadelphia 76ers,Regular Season,21.4,0.561,35.3,9,16,25,Other,Other
-Luka Doncic,DAL,Dallas Mavericks,Regular Season,24.9,0.52,35.3,13,17,11,Other,Top 20 Scorers
-James Harden,BKN,Brooklyn Nets,Regular Season,20.3,0.615,35.1,16,18,31,Other,Other
-Miles Bridges,CHA,Charlotte Hornets,Regular Season,21.3,0.557,34.6,16,19,26,Other,Other
-Jaylen Brown,BOS,Boston Celtics,Regular Season,25.6,0.603,34.5,8,20,9,Other,Top 20 Scorers
-Anthony Davis,LAL,Los Angeles Lakers,Regular Season,23.8,0.567,34.5,16,21,18,Other,Top 20 Scorers
-Jayson Tatum,BOS,Boston Celtics,Regular Season,24.2,0.496,34.4,15,22,16,Other,Top 20 Scorers
-Damian Lillard,POR,Portland Trail Blazers,Regular Season,20.4,0.491,34,15,23,30,Other,Other
-Malcolm Brogdon,IND,Indiana Pacers,Regular Season,22.2,0.545,34,11,24,23,Other,Other
-Fred VanVleet,TOR,Toronto Raptors,Regular Season,19.7,0.562,33.9,15,25,39,Other,Other
-Karl-Anthony Towns,MIN,Minnesota Timberwolves,Regular Season,23.2,0.642,33.4,15,26,20,Other,Top 20 Scorers
-Zach LaVine,CHI,Chicago Bulls,Regular Season,26.2,0.609,33.2,15,27,7,Other,Top 20 Scorers
-Talen Horton-Tucker,LAL,Los Angeles Lakers,Regular Season,23.3,0.622,33,3,28,19,Other,Top 20 Scorers
-Bradley Beal,WAS,Washington Wizards,Regular Season,23.8,0.519,32.8,12,29,17,Other,Top 20 Scorers
-D'Angelo Russell,MIN,Minnesota Timberwolves,Regular Season,18.1,0.499,30.9,13,30,48,Other,Other
-Tyler Herro,MIA,Miami Heat,Regular Season,21.7,0.559,30.4,15,31,24,Other,Other
-Bam Adebayo,MIA,Miami Heat,Regular Season,19.7,0.583,30.2,13,32,38,Other,Other
-Anthony Edwards,MIN,Minnesota Timberwolves,Regular Season,22.5,0.519,30.1,15,33,22,Other,Other
-Tobias Harris,PHI,Philadelphia 76ers,Regular Season,19.9,0.573,30.1,10,34,35,Other,Other
-Cole Anthony,ORL,Orlando Magic,Regular Season,19.9,0.559,30,15,35,36,Other,Other
-Russell Westbrook,LAL,Los Angeles Lakers,Regular Season,19.4,0.5,30,16,36,40,Other,Other
-Nikola Vucevic,CHI,Chicago Bulls,Regular Season,13.6,0.454,29.9,11,37,100,Other,Other
-CJ McCollum,POR,Portland Trail Blazers,Regular Season,20.5,0.53,29.8,16,38,28,Other,Other
-De'Aaron Fox,SAC,Sacramento Kings,Regular Season,20.3,0.492,29.7,15,39,32,Other,Other
-Will Barton,DEN,Denver Nuggets,Regular Season,16.6,0.576,29.6,13,40,64,Other,Other
-Montrezl Harrell,WAS,Washington Wizards,Regular Season,17.5,0.702,29.1,15,41,55,Other,Other
-OG Anunoby,TOR,Toronto Raptors,Regular Season,20.1,0.532,28.7,15,42,33,Other,Other
-Domantas Sabonis,IND,Indiana Pacers,Regular Season,18.3,0.632,28.6,16,43,46,Other,Other
-Rudy Gobert,UTA,Utah Jazz,Regular Season,14.9,0.731,28.5,15,44,83,Other,Other
-Tyrese Maxey,PHI,Philadelphia 76ers,Regular Season,17.8,0.609,28.3,16,45,52,Other,Other
-Dillon Brooks,MEM,Memphis Grizzlies,Regular Season,19.3,0.564,28.3,4,46,43,Other,Other
-Julius Randle,NYK,New York Knicks,Regular Season,19.8,0.518,28.2,15,47,37,Other,Other
-Khris Middleton,MIL,Milwaukee Bucks,Regular Season,19.4,0.527,28.1,7,48,42,Other,Other
-Rudy Gay,UTA,Utah Jazz,Regular Season,20,1.126,28,1,49,34,Other,Other
-Shai Gilgeous-Alexander,OKC,Oklahoma City Thunder,Regular Season,21.1,0.536,28,14,50,27,Other,Other
-Brandon Ingram,NOP,New Orleans Pelicans,Regular Season,24.3,0.538,28,9,51,14,Other,Top 20 Scorers
-Lonzo Ball,CHI,Chicago Bulls,Regular Season,13.2,0.567,27.7,15,52,106,Other,Other
-Jalen Brunson,DAL,Dallas Mavericks,Regular Season,15.3,0.581,27.4,14,53,76,Other,Other
-John Collins,ATL,Atlanta Hawks,Regular Season,17.1,0.644,27.3,16,54,57,Other,Other
-Jonas Valanciunas,NOP,New Orleans Pelicans,Regular Season,19,0.602,27.1,16,55,44,Other,Other
-Kristaps Porzingis,DAL,Dallas Mavericks,Regular Season,19.4,0.539,27.1,9,56,41,Other,Other
-Kyle Lowry,MIA,Miami Heat,Regular Season,12.4,0.553,27.1,14,57,116,Other,Other
-Darius Garland,CLE,Cleveland Cavaliers,Regular Season,17.8,0.588,26.8,15,58,51,Other,Other
-Reggie Jackson,LAC,Los Angeles Clippers,Regular Season,18.1,0.503,26.5,15,59,49,Other,Other
-Caris LeVert,IND,Indiana Pacers,Regular Season,16.6,0.464,26.4,8,60,63,Other,Other
-Al Horford,BOS,Boston Celtics,Regular Season,13.1,0.555,26.3,12,61,107,Other,Other
-Ricky Rubio,CLE,Cleveland Cavaliers,Regular Season,15,0.516,26.2,17,62,82,Other,Other
-Harrison Barnes,SAC,Sacramento Kings,Regular Season,20.4,0.649,26.1,15,63,29,Other,Other
-Mike Conley,UTA,Utah Jazz,Regular Season,13.2,0.627,26,13,64,105,Other,Other
-Draymond Green,GSW,Golden State Warriors,Regular Season,8.1,0.599,25.7,15,65,183,Other,Other
-Evan Mobley,CLE,Cleveland Cavaliers,Regular Season,14.6,0.555,25.7,15,66,84,Other,Other
-Spencer Dinwiddie,WAS,Washington Wizards,Regular Season,15.7,0.54,25.7,13,67,70,Other,Other
-Dennis Schroder,BOS,Boston Celtics,Regular Season,17,0.547,25.4,15,68,60,Other,Other
-Gary Trent,TOR,Toronto Raptors,Regular Season,17.1,0.556,25.3,16,69,58,Other,Other
-Deandre Ayton,PHX,Phoenix Suns,Regular Season,15.8,0.628,24.9,8,70,69,Other,Other
-Tyrese Haliburton,SAC,Sacramento Kings,Regular Season,12.9,0.546,24.7,13,71,108,Other,Other
-Myles Turner,IND,Indiana Pacers,Regular Season,13.4,0.658,24.6,16,72,103,Other,Other
-Marcus Smart,BOS,Boston Celtics,Regular Season,9.5,0.46,24.4,14,73,159,Other,Other
-Jordan Poole,GSW,Golden State Warriors,Regular Season,16.5,0.539,24.2,15,74,65,Other,Other
-Jaren Jackson,MEM,Memphis Grizzlies,Regular Season,14.3,0.516,23.8,15,75,90,Other,Other
-Jrue Holiday,MIL,Milwaukee Bucks,Regular Season,13.6,0.465,23.8,9,76,99,Other,Other
-Andrew Wiggins,GSW,Golden State Warriors,Regular Season,17.7,0.581,23.8,15,77,53,Other,Other
-Scottie Barnes,TOR,Toronto Raptors,Regular Season,15.9,0.55,23.7,14,78,67,Other,Other
-Mikal Bridges,PHX,Phoenix Suns,Regular Season,13.7,0.615,23.7,14,79,98,Other,Other
-Derrick Rose,NYK,New York Knicks,Regular Season,12.7,0.57,23.7,15,80,112,Other,Other
-Seth Curry,PHI,Philadelphia 76ers,Regular Season,15.7,0.653,23.3,15,81,71,Other,Other
-Devonte' Graham,NOP,New Orleans Pelicans,Regular Season,15.3,0.529,23.3,16,82,77,Other,Other
-Gordon Hayward,CHA,Charlotte Hornets,Regular Season,17.6,0.584,23.3,16,83,54,Other,Other
-Monte Morris,DEN,Denver Nuggets,Regular Season,11.3,0.513,23.3,15,84,131,Other,Other
-Robert Williams,BOS,Boston Celtics,Regular Season,10,0.729,23.2,13,85,149,Other,Other
-Jarrett Allen,CLE,Cleveland Cavaliers,Regular Season,14.2,0.694,23,14,86,91,Other,Other
-Bojan Bogdanovic,UTA,Utah Jazz,Regular Season,17,0.59,22.9,15,87,61,Other,Other
-Pascal Siakam,TOR,Toronto Raptors,Regular Season,14.4,0.508,22.8,5,88,87,Other,Other
-Aaron Gordon,DEN,Denver Nuggets,Regular Season,12.3,0.56,22.7,15,89,119,Other,Other
-Buddy Hield,SAC,Sacramento Kings,Regular Season,17,0.577,22.7,15,90,59,Other,Other
-Jusuf Nurkic,POR,Portland Trail Blazers,Regular Season,11.1,0.617,22.1,16,91,132,Other,Other
-Norman Powell,POR,Portland Trail Blazers,Regular Season,16.8,0.624,22.1,14,92,62,Other,Other
-Wendell Carter,ORL,Orlando Magic,Regular Season,13.5,0.607,22.1,15,93,102,Other,Other
-Richaun Holmes,SAC,Sacramento Kings,Regular Season,14.3,0.719,21.9,15,94,88,Other,Other
-Terry Rozier,CHA,Charlotte Hornets,Regular Season,15.5,0.484,21.7,11,95,74,Other,Other
-Kyle Kuzma,WAS,Washington Wizards,Regular Season,14.1,0.518,21.6,15,96,94,Other,Other
-Grayson Allen,MIL,Milwaukee Bucks,Regular Season,15.3,0.633,21.5,15,97,78,Other,Other
-Alex Caruso,CHI,Chicago Bulls,Regular Season,7.8,0.556,21.3,15,98,191,Other,Other
-Jordan Clarkson,UTA,Utah Jazz,Regular Season,15.2,0.476,21.2,15,99,79,Other,Other
-Keldon Johnson,SAS,San Antonio Spurs,Regular Season,15.4,0.523,21.1,15,100,75,Other,Other
-LaMarcus Aldridge,BKN,Brooklyn Nets,Regular Season,12.8,0.635,20.9,15,101,111,Other,Other
-Clint Capela,ATL,Atlanta Hawks,Regular Season,10.9,0.567,20.9,16,102,137,Other,Other
-Nickeil Alexander-Walker,NOP,New Orleans Pelicans,Regular Season,15.6,0.481,20.8,16,103,73,Other,Other
-Mohamed Bamba,ORL,Orlando Magic,Regular Season,11.4,0.55,20.8,15,104,129,Other,Other
-Jerami Grant,DET,Detroit Pistons,Regular Season,18,0.521,20.8,13,105,50,Other,Other
-Devin Vassell,SAS,San Antonio Spurs,Regular Season,12.5,0.582,20.7,15,106,113,Other,Other
-Lauri Markkanen,CLE,Cleveland Cavaliers,Regular Season,12.9,0.483,20.5,8,107,109,Other,Other
-Tim Hardaway,DAL,Dallas Mavericks,Regular Season,15.1,0.548,20.4,14,108,81,Other,Other
-Christian Wood,HOU,Houston Rockets,Regular Season,15.9,0.508,20.4,15,109,68,Other,Other
-Chris Duarte,IND,Indiana Pacers,Regular Season,14.3,0.531,20.3,14,110,89,Other,Other
-Carmelo Anthony,LAL,Los Angeles Lakers,Regular Season,15.2,0.606,20.2,16,111,80,Other,Other
-Desmond Bane,MEM,Memphis Grizzlies,Regular Season,14.4,0.557,20,15,112,85,Other,Other
-Michael Porter,DEN,Denver Nuggets,Regular Season,9.9,0.416,19.9,9,113,151,Other,Other
-Terance Mann,LAC,Los Angeles Clippers,Regular Season,9.7,0.552,19.8,14,114,155,Other,Other
-Frank Kaminsky,PHX,Phoenix Suns,Regular Season,10.6,0.635,19.7,9,115,145,Other,Other
-Luke Kennard,LAC,Los Angeles Clippers,Regular Season,10.5,0.619,19.6,15,116,146,Other,Other
-Jakob Poeltl,SAS,San Antonio Spurs,Regular Season,12.4,0.622,19.5,8,117,117,Other,Other
-Derrick White,SAS,San Antonio Spurs,Regular Season,10.9,0.495,19.4,15,118,136,Other,Other
-Nicolas Batum,LAC,Los Angeles Clippers,Regular Season,9.6,0.679,19.3,13,119,156,Other,Other
-Franz Wagner,ORL,Orlando Magic,Regular Season,13.6,0.545,19.1,15,120,101,Other,Other
-Luguentz Dort,OKC,Oklahoma City Thunder,Regular Season,17.2,0.577,19.1,13,121,56,Other,Other
-Saddiq Bey,DET,Detroit Pistons,Regular Season,14.1,0.475,19.1,14,122,93,Other,Other
-Patty Mills,BKN,Brooklyn Nets,Regular Season,10.9,0.592,19,16,123,135,Other,Other
-Jae Crowder,PHX,Phoenix Suns,Regular Season,8.9,0.496,19,14,124,168,Other,Other
-Patrick Beverley,MIN,Minnesota Timberwolves,Regular Season,8.3,0.558,19,13,125,179,Other,Other
-Duncan Robinson,MIA,Miami Heat,Regular Season,10.9,0.507,18.9,16,126,134,Other,Other
-Bobby Portis,MIL,Milwaukee Bucks,Regular Season,13.8,0.526,18.8,10,127,96,Other,Other
-Andre Drummond,PHI,Philadelphia 76ers,Regular Season,7.3,0.489,18.7,15,128,210,Other,Other
-RJ Barrett,NYK,New York Knicks,Regular Season,15.6,0.499,18.7,15,129,72,Other,Other
-Royce O'Neale,UTA,Utah Jazz,Regular Season,7.7,0.62,18.7,15,130,197,Other,Other
-Shake Milton,PHI,Philadelphia 76ers,Regular Season,12.4,0.538,18.7,12,131,115,Other,Other
-Kelly Olynyk,DET,Detroit Pistons,Regular Season,12.5,0.551,18.7,10,132,114,Other,Other
-Brook Lopez,MIL,Milwaukee Bucks,Regular Season,8,0.444,18.5,1,133,187,Other,Other
-Georges Niang,PHI,Philadelphia 76ers,Regular Season,11.6,0.594,18.4,16,134,124,Other,Other
-T.J. McConnell,IND,Indiana Pacers,Regular Season,9.6,0.542,18.3,16,135,157,Other,Other
-Eric Bledsoe,LAC,Los Angeles Clippers,Regular Season,10.5,0.495,18.3,15,136,147,Other,Other
-Sekou Doumbouya,LAL,Los Angeles Lakers,Regular Season,7,0.717,18,2,137,223,Other,Other
-Cade Cunningham,DET,Detroit Pistons,Regular Season,13.7,0.446,17.9,9,138,97,Other,Other
-Thaddeus Young,SAS,San Antonio Spurs,Regular Season,8.1,0.576,17.8,12,139,182,Other,Other
-De'Anthony Melton,MEM,Memphis Grizzlies,Regular Season,9.9,0.502,17.8,15,140,152,Other,Other
-Davion Mitchell,SAC,Sacramento Kings,Regular Season,9.4,0.468,17.7,15,141,161,Other,Other
-Josh Giddey,OKC,Oklahoma City Thunder,Regular Season,9.4,0.432,17.6,14,142,160,Other,Other
-Josh Hart,NOP,New Orleans Pelicans,Regular Season,11.4,0.6,17.6,12,143,127,Other,Other
-Furkan Korkmaz,PHI,Philadelphia 76ers,Regular Season,10.9,0.519,17.5,15,144,138,Other,Other
-George Hill,MIL,Milwaukee Bucks,Regular Season,7.7,0.541,17.5,14,145,194,Other,Other
-Andre Iguodala,GSW,Golden State Warriors,Regular Season,3.8,0.493,17.5,12,146,315,Other,Other
-Lonnie Walker,SAS,San Antonio Spurs,Regular Season,10.7,0.478,17.5,15,147,142,Other,Other
-Kelly Oubre,CHA,Charlotte Hornets,Regular Season,13.9,0.558,17.3,16,148,95,Other,Other
-Nemanja Bjelica,GSW,Golden State Warriors,Regular Season,6.9,0.601,17.2,15,149,229,Other,Other
-Bogdan Bogdanovic,ATL,Atlanta Hawks,Regular Season,12.3,0.567,17.1,15,150,118,Other,Other
-Mason Plumlee,CHA,Charlotte Hornets,Regular Season,6.8,0.547,17.1,16,151,234,Other,Other
-Collin Sexton,CLE,Cleveland Cavaliers,Regular Season,16,0.526,16.9,11,152,66,Other,Other
-Steven Adams,MEM,Memphis Grizzlies,Regular Season,7.7,0.559,16.7,15,153,196,Other,Other
-Damion Lee,GSW,Golden State Warriors,Regular Season,10.6,0.576,16.6,12,154,143,Other,Other
-Nerlens Noel,NYK,New York Knicks,Regular Season,4.8,0.848,16.5,4,155,290,Other,Other
-Matisse Thybulle,PHI,Philadelphia 76ers,Regular Season,5.1,0.563,16.4,9,156,279,Other,Other
-Kevin Love,CLE,Cleveland Cavaliers,Regular Season,10.8,0.506,16.4,9,157,139,Other,Other
-Alec Burks,NYK,New York Knicks,Regular Season,8.8,0.55,16.3,15,158,170,Other,Other
-JaVale McGee,PHX,Phoenix Suns,Regular Season,9.8,0.666,16.2,14,159,154,Other,Other
-Isaiah Hartenstein,LAC,Los Angeles Clippers,Regular Season,7.6,0.663,16.2,14,160,198,Other,Other
-Kevin Porter,HOU,Houston Rockets,Regular Season,12.9,0.467,16.2,14,161,110,Other,Other
-Anfernee Simons,POR,Portland Trail Blazers,Regular Season,11.6,0.576,16.1,16,162,122,Other,Other
-Ivica Zubac,LAC,Los Angeles Clippers,Regular Season,9.9,0.672,16,15,163,150,Other,Other
-Eric Gordon,HOU,Houston Rockets,Regular Season,13.3,0.615,16,12,164,104,Other,Other
-Chimezie Metu,SAC,Sacramento Kings,Regular Season,8.7,0.535,15.9,6,165,175,Other,Other
-Evan Fournier,NYK,New York Knicks,Regular Season,12.2,0.525,15.9,15,166,121,Other,Other
-Pat Connaughton,MIL,Milwaukee Bucks,Regular Season,11.5,0.622,15.9,15,167,126,Other,Other
-Immanuel Quickley,NYK,New York Knicks,Regular Season,8.1,0.544,15.6,15,168,181,Other,Other
-Daniel Gafford,WAS,Washington Wizards,Regular Season,8.8,0.664,15.5,12,169,169,Other,Other
-Cedi Osman,CLE,Cleveland Cavaliers,Regular Season,11,0.631,15.3,15,170,133,Other,Other
-Kentavious Caldwell-Pope,WAS,Washington Wizards,Regular Season,9.1,0.51,15.3,15,171,164,Other,Other
-P.J. Tucker,MIA,Miami Heat,Regular Season,7.1,0.663,15.2,16,172,217,Other,Other
-Danny Green,PHI,Philadelphia 76ers,Regular Season,7.5,0.651,15.2,11,173,200,Other,Other
-Bruce Brown,BKN,Brooklyn Nets,Regular Season,7.9,0.525,15.2,15,174,189,Other,Other
-Obi Toppin,NYK,New York Knicks,Regular Season,7.8,0.612,15.1,15,175,193,Other,Other
-Joe Ingles,UTA,Utah Jazz,Regular Season,7.4,0.599,15.1,15,176,205,Other,Other
-Joe Harris,BKN,Brooklyn Nets,Regular Season,11.3,0.624,15.1,14,177,130,Other,Other
-Precious Achiuwa,TOR,Toronto Raptors,Regular Season,7.5,0.384,15,13,178,201,Other,Other
-Jalen Suggs,ORL,Orlando Magic,Regular Season,11.4,0.426,15,14,179,128,Other,Other
-Cody Martin,CHA,Charlotte Hornets,Regular Season,7.5,0.544,14.9,16,180,202,Other,Other
-Deni Avdija,WAS,Washington Wizards,Regular Season,6,0.536,14.8,15,181,250,Other,Other
-Kemba Walker,NYK,New York Knicks,Regular Season,12.2,0.564,14.7,14,182,120,Other,Other
-Hassan Whiteside,UTA,Utah Jazz,Regular Season,7.2,0.625,14.7,15,183,213,Other,Other
-Gary Payton,GSW,Golden State Warriors,Regular Season,6.1,0.744,14.6,15,184,245,Other,Other
-Blake Griffin,BKN,Brooklyn Nets,Regular Season,5.7,0.397,14.5,15,185,260,Other,Other
-P.J. Washington,CHA,Charlotte Hornets,Regular Season,9.9,0.573,14.5,7,186,153,Other,Other
-Cameron Payne,PHX,Phoenix Suns,Regular Season,8.7,0.487,14.4,9,187,173,Other,Other
-Maxi Kleber,DAL,Dallas Mavericks,Regular Season,7.2,0.722,14.4,6,188,216,Other,Other
-Derrick Jones,CHI,Chicago Bulls,Regular Season,6.5,0.701,14.1,11,189,239,Other,Other
-Darius Bazley,OKC,Oklahoma City Thunder,Regular Season,10.6,0.483,14.1,14,190,144,Other,Other
-Otto Porter,GSW,Golden State Warriors,Regular Season,6,0.604,14.1,14,191,251,Other,Other
-Malik Monk,LAL,Los Angeles Lakers,Regular Season,8.8,0.551,13.8,16,192,172,Other,Other
-Robert Covington,POR,Portland Trail Blazers,Regular Season,7,0.593,13.8,16,193,224,Other,Other
-Jae'Sean Tate,HOU,Houston Rockets,Regular Season,11.5,0.562,13.8,15,194,125,Other,Other
-Kyle Anderson,MEM,Memphis Grizzlies,Regular Season,8.7,0.526,13.7,15,195,174,Other,Other
-Larry Nance,POR,Portland Trail Blazers,Regular Season,6.9,0.64,13.5,16,196,227,Other,Other
-Cam Reddish,ATL,Atlanta Hawks,Regular Season,11.6,0.535,13.3,16,197,123,Other,Other
-Brandon Clarke,MEM,Memphis Grizzlies,Regular Season,7.1,0.585,13.3,12,198,218,Other,Other
-Mitchell Robinson,NYK,New York Knicks,Regular Season,7.2,0.784,13.2,14,199,211,Other,Other
-Khem Birch,TOR,Toronto Raptors,Regular Season,6.7,0.555,13.2,13,200,235,Other,Other
-Kevin Huerter,ATL,Atlanta Hawks,Regular Season,8.9,0.546,13.1,15,201,167,Other,Other
-Dorian Finney-Smith,DAL,Dallas Mavericks,Regular Season,8.2,0.504,13.1,14,202,180,Other,Other
-Raul Neto,WAS,Washington Wizards,Regular Season,7.4,0.529,13,14,203,207,Other,Other
-Justin Holiday,IND,Indiana Pacers,Regular Season,9.3,0.542,13,16,204,162,Other,Other
-Herb Jones,NOP,New Orleans Pelicans,Regular Season,6.8,0.578,12.9,13,205,233,Other,Other
-Nassir Little,POR,Portland Trail Blazers,Regular Season,7.8,0.584,12.9,16,206,192,Other,Other
-Mike Muscala,OKC,Oklahoma City Thunder,Regular Season,8.5,0.673,12.4,11,207,178,Other,Other
-Josh Richardson,BOS,Boston Celtics,Regular Season,8.6,0.568,12.4,12,208,177,Other,Other
-Drew Eubanks,SAS,San Antonio Spurs,Regular Season,6.8,0.622,12.2,15,209,232,Other,Other
-Max Strus,MIA,Miami Heat,Regular Season,6.9,0.575,12.2,11,210,228,Other,Other
-Alperen Sengun,HOU,Houston Rockets,Regular Season,8.7,0.561,12.2,14,211,176,Other,Other
-Kevon Looney,GSW,Golden State Warriors,Regular Season,5.3,0.557,12.2,15,212,272,Other,Other
-Isaiah Stewart,DET,Detroit Pistons,Regular Season,7.9,0.57,12.1,14,213,188,Other,Other
-De'Andre Hunter,ATL,Atlanta Hawks,Regular Season,10.8,0.516,11.9,11,214,140,Other,Other
-Bones Hyland,DEN,Denver Nuggets,Regular Season,7.9,0.515,11.9,12,215,190,Other,Other
-Dewayne Dedmon,MIA,Miami Heat,Regular Season,5.3,0.626,11.8,16,216,271,Other,Other
-Jaden McDaniels,MIN,Minnesota Timberwolves,Regular Season,6.1,0.482,11.8,15,217,246,Other,Other
-Cory Joseph,DET,Detroit Pistons,Regular Season,7.2,0.565,11.7,14,218,212,Other,Other
-Goran Dragic,TOR,Toronto Raptors,Regular Season,8,0.521,11.7,5,219,186,Other,Other
-Alex Len,SAC,Sacramento Kings,Regular Season,6.6,0.66,11.7,8,220,236,Other,Other
-Tyus Jones,MEM,Memphis Grizzlies,Regular Season,6.1,0.634,11.7,15,221,248,Other,Other
-Dwight Powell,DAL,Dallas Mavericks,Regular Season,7.2,0.637,11.6,14,222,214,Other,Other
-Naz Reid,MIN,Minnesota Timberwolves,Regular Season,9.1,0.585,11.6,13,223,166,Other,Other
-Markieff Morris,MIA,Miami Heat,Regular Season,7.7,0.533,11.6,10,224,195,Other,Other
-Jarred Vanderbilt,MIN,Minnesota Timberwolves,Regular Season,5,0.576,11.5,15,225,281,Other,Other
-Cameron Johnson,PHX,Phoenix Suns,Regular Season,7.1,0.488,11.5,14,226,220,Other,Other
-Zeke Nnaji,DEN,Denver Nuggets,Regular Season,7.4,0.672,11.3,5,227,206,Other,Other
-Taj Gibson,NYK,New York Knicks,Regular Season,3.5,0.538,11.3,10,228,328,Other,Other
-Isaac Okoro,CLE,Cleveland Cavaliers,Regular Season,7.1,0.421,11.3,10,229,221,Other,Other
-Malik Beasley,MIN,Minnesota Timberwolves,Regular Season,9.1,0.44,11.3,15,230,165,Other,Other
-Patrick Williams,CHI,Chicago Bulls,Regular Season,6.6,0.666,11.2,5,231,237,Other,Other
-Jay Huff,LAL,Los Angeles Lakers,Regular Season,0,0,11,1,232,445,Other,Other
-Jordan Nwora,MIL,Milwaukee Bucks,Regular Season,8,0.496,10.9,15,233,185,Other,Other
-Austin Reaves,LAL,Los Angeles Lakers,Regular Season,6.1,0.616,10.7,10,234,249,Other,Other
-Killian Hayes,DET,Detroit Pistons,Regular Season,5.8,0.425,10.7,13,235,257,Other,Other
-Caleb Martin,MIA,Miami Heat,Regular Season,5.5,0.509,10.6,13,236,266,Other,Other
-Josh Jackson,DET,Detroit Pistons,Regular Season,8.8,0.519,10.4,13,237,171,Other,Other
-Jalen Green,HOU,Houston Rockets,Regular Season,14.4,0.482,10.4,15,238,86,Other,Other
-Frank Ntilikina,DAL,Dallas Mavericks,Regular Season,5.6,0.557,10.3,13,239,264,Other,Other
-Rajon Rondo,LAL,Los Angeles Lakers,Regular Season,3.9,0.391,10.3,11,240,314,Other,Other
-Doug McDermott,SAS,San Antonio Spurs,Regular Season,10.3,0.57,10.2,12,241,148,Other,Other
-Javonte Green,CHI,Chicago Bulls,Regular Season,5.5,0.583,10,15,242,268,Other,Other
-Elfrid Payton,PHX,Phoenix Suns,Regular Season,6.8,0.539,10,5,243,231,Other,Other
-Kenyon Martin,HOU,Houston Rockets,Regular Season,6.4,0.652,9.9,14,244,242,Other,Other
-Jeff Green,DEN,Denver Nuggets,Regular Season,7.5,0.527,9.8,15,245,203,Other,Other
-Danilo Gallinari,ATL,Atlanta Hawks,Regular Season,7,0.499,9.8,13,246,225,Other,Other
-Landry Shamet,PHX,Phoenix Suns,Regular Season,7.5,0.57,9.8,13,247,204,Other,Other
-Jeremy Lamb,IND,Indiana Pacers,Regular Season,6.9,0.566,9.8,12,248,230,Other,Other
-Dean Wade,CLE,Cleveland Cavaliers,Regular Season,5,0.517,9.7,14,249,280,Other,Other
-Kelan Martin,IND,Indiana Pacers,Regular Season,6.6,0.515,9.6,9,250,238,Other,Other
-Ty Jerome,OKC,Oklahoma City Thunder,Regular Season,5,0.436,9.5,11,251,283,Other,Other
-Dwight Howard,LAL,Los Angeles Lakers,Regular Season,4.5,0.638,9.5,14,252,296,Other,Other
-Aaron Holiday,WAS,Washington Wizards,Regular Season,6,0.513,9.3,15,253,252,Other,Other
-Terrence Ross,ORL,Orlando Magic,Regular Season,10.7,0.508,9.2,15,254,141,Other,Other
-Svi Mykhailiuk,TOR,Toronto Raptors,Regular Season,7.2,0.623,9.2,16,255,215,Other,Other
-Grant Williams,BOS,Boston Celtics,Regular Season,7.3,0.677,9.1,15,256,209,Other,Other
-Chris Boucher,TOR,Toronto Raptors,Regular Season,5.2,0.433,9,15,257,273,Other,Other
-Garrison Mathews,HOU,Houston Rockets,Regular Season,7,0.595,9,2,258,226,Other,Other
-Trey Lyles,DET,Detroit Pistons,Regular Season,7,0.518,8.9,14,259,222,Other,Other
-Jalen McDaniels,CHA,Charlotte Hornets,Regular Season,5.4,0.692,8.9,14,260,270,Other,Other
-Tony Bradley,CHI,Chicago Bulls,Regular Season,3.1,0.488,8.9,12,261,335,Other,Other
-DeAndre' Bembry,BKN,Brooklyn Nets,Regular Season,4.5,0.609,8.9,15,262,297,Other,Other
-Kenrich Williams,OKC,Oklahoma City Thunder,Regular Season,6.3,0.49,8.9,14,263,244,Other,Other
-Jeremiah Robinson-Earl,OKC,Oklahoma City Thunder,Regular Season,5.9,0.535,8.8,14,264,255,Other,Other
-Juan Toscano-Anderson,GSW,Golden State Warriors,Regular Season,4,0.617,8.8,14,265,311,Other,Other
-DeAndre Jordan,LAL,Los Angeles Lakers,Regular Season,4.8,0.752,8.6,14,266,293,Other,Other
-Nicolas Claxton,BKN,Brooklyn Nets,Regular Season,6.5,0.543,8.5,4,267,240,Other,Other
-Lou Williams,ATL,Atlanta Hawks,Regular Season,5.6,0.456,8.5,11,268,263,Other,Other
-Reggie Bullock,DAL,Dallas Mavericks,Regular Season,6.3,0.482,8.4,14,269,243,Other,Other
-Wayne Ellington,LAL,Los Angeles Lakers,Regular Season,7.3,0.548,8.4,8,270,208,Other,Other
-Derrick Favors,OKC,Oklahoma City Thunder,Regular Season,5.8,0.528,8.3,12,271,256,Other,Other
-Torrey Craig,IND,Indiana Pacers,Regular Season,5.6,0.596,8.3,16,272,261,Other,Other
-Josh Okogie,MIN,Minnesota Timberwolves,Regular Season,2.8,0.407,8.3,11,273,351,Other,Other
-Delon Wright,ATL,Atlanta Hawks,Regular Season,2.5,0.456,8.1,14,274,364,Other,Other
-Dalano Banton,TOR,Toronto Raptors,Regular Season,5.1,0.58,8.1,16,275,277,Other,Other
-Corey Kispert,WAS,Washington Wizards,Regular Season,3.6,0.514,8,14,276,320,Other,Other
-PJ Dozier,DEN,Denver Nuggets,Regular Season,5.5,0.471,8,15,277,267,Other,Other
-Charles Bassey,PHI,Philadelphia 76ers,Regular Season,3,0.648,8,7,278,339,Other,Other
-Daniel Theis,HOU,Houston Rockets,Regular Season,9.2,0.626,8,13,279,163,Other,Other
-Kessler Edwards,BKN,Brooklyn Nets,Regular Season,8,0.667,8,1,280,184,Other,Other
-Maurice Harkless,SAC,Sacramento Kings,Regular Season,4.2,0.488,8,12,281,306,Other,Other
-Dennis Smith,POR,Portland Trail Blazers,Regular Season,3.3,0.524,7.9,7,282,333,Other,Other
-Ish Smith,CHA,Charlotte Hornets,Regular Season,4.8,0.396,7.8,13,283,292,Other,Other
-Damian Jones,SAC,Sacramento Kings,Regular Season,2.3,1.125,7.8,4,284,378,Other,Other
-Tristan Thompson,SAC,Sacramento Kings,Regular Season,4.9,0.526,7.8,10,285,286,Other,Other
-Gabe Vincent,MIA,Miami Heat,Regular Season,4.1,0.512,7.7,14,286,309,Other,Other
-Cody Zeller,POR,Portland Trail Blazers,Regular Season,5.7,0.7,7.6,16,287,259,Other,Other
-Tyler Cook,CHI,Chicago Bulls,Regular Season,6,0.773,7.5,1,288,254,Other,Other
-Frank Jackson,DET,Detroit Pistons,Regular Season,7.6,0.505,7.5,14,289,199,Other,Other
-Jaxson Hayes,NOP,New Orleans Pelicans,Regular Season,5.8,0.587,7.4,15,290,258,Other,Other
-Davis Bertans,WAS,Washington Wizards,Regular Season,6.1,0.523,7.4,7,291,247,Other,Other
-R.J. Hampton,ORL,Orlando Magic,Regular Season,7.1,0.515,7.3,15,292,219,Other,Other
-Thanasis Antetokounmpo,MIL,Milwaukee Bucks,Regular Season,4.3,0.521,7.3,13,293,301,Other,Other
-Garrett Temple,NOP,New Orleans Pelicans,Regular Season,6.4,0.563,7.3,14,294,241,Other,Other
-Jarrett Culver,MEM,Memphis Grizzlies,Regular Season,4.3,0.707,7.3,3,295,303,Other,Other
-Keita Bates-Diop,SAS,San Antonio Spurs,Regular Season,3,0.504,7.2,11,296,340,Other,Other
-Paul Millsap,BKN,Brooklyn Nets,Regular Season,3,0.489,7.1,12,297,337,Other,Other
-Gorgui Dieng,ATL,Atlanta Hawks,Regular Season,2.3,0.469,7,15,298,375,Other,Other
-Ayo Dosunmu,CHI,Chicago Bulls,Regular Season,5.5,0.5,7,14,299,265,Other,Other
-Solomon Hill,ATL,Atlanta Hawks,Regular Season,0.9,0.273,7,7,300,417,Other,Other
-Usman Garuba,HOU,Houston Rockets,Regular Season,1.7,0.429,7,7,301,389,Other,Other
-Aleksej Pokusevski,OKC,Oklahoma City Thunder,Regular Season,4.8,0.406,7,14,302,291,Other,Other
-Trey Burke,DAL,Dallas Mavericks,Regular Season,5.2,0.626,7,5,303,274,Other,Other
-Jevon Carter,BKN,Brooklyn Nets,Regular Season,2.8,0.37,6.8,16,304,355,Other,Other
-Marvin Bagley,SAC,Sacramento Kings,Regular Season,3.7,0.344,6.7,3,305,318,Other,Other
-David Nwaba,HOU,Houston Rockets,Regular Season,4.1,0.492,6.5,14,306,308,Other,Other
-Eric Paschall,UTA,Utah Jazz,Regular Season,4.3,0.546,6.4,15,307,304,Other,Other
-Paul Reed,PHI,Philadelphia 76ers,Regular Season,2.8,0.531,6.4,12,308,353,Other,Other
-Kent Bazemore,LAL,Los Angeles Lakers,Regular Season,4.6,0.43,6.3,15,309,295,Other,Other
-Chuma Okeke,ORL,Orlando Magic,Regular Season,6,0.46,6.3,9,310,253,Other,Other
-Boban Marjanovic,DAL,Dallas Mavericks,Regular Season,5,0.66,6.1,7,311,282,Other,Other
-Isaiah Roby,OKC,Oklahoma City Thunder,Regular Season,4.9,0.594,6.1,7,312,285,Other,Other
-Jonathan Kuminga,GSW,Golden State Warriors,Regular Season,3.3,0.468,6.1,9,313,332,Other,Other
-Hamidou Diallo,DET,Detroit Pistons,Regular Season,4.4,0.561,6,8,314,298,Other,Other
-Xavier Tillman,MEM,Memphis Grizzlies,Regular Season,3.6,0.525,6,11,315,323,Other,Other
-Bol Bol,DEN,Denver Nuggets,Regular Season,3,0.558,6,5,316,341,Other,Other
-Dylan Windler,CLE,Cleveland Cavaliers,Regular Season,3.4,0.615,6,13,317,329,Other,Other
-Tre Mann,OKC,Oklahoma City Thunder,Regular Season,5.2,0.525,6,10,318,275,Other,Other
-James Johnson,BKN,Brooklyn Nets,Regular Season,0.8,0.205,5.9,8,319,419,Other,Other
-Tre Jones,SAS,San Antonio Spurs,Regular Season,3.3,0.547,5.9,13,320,334,Other,Other
-Eugene Omoruyi,DAL,Dallas Mavericks,Regular Season,3.5,0.608,5.8,2,321,326,Other,Other
-Jabari Parker,BOS,Boston Celtics,Regular Season,5.6,0.67,5.8,5,322,262,Other,Other
-Armoni Brooks,HOU,Houston Rockets,Regular Season,2.9,0.407,5.7,11,323,347,Other,Other
-Terence Davis,SAC,Sacramento Kings,Regular Season,4,0.357,5.7,10,324,312,Other,Other
-Ziaire Williams,MEM,Memphis Grizzlies,Regular Season,4.9,0.439,5.6,13,325,287,Other,Other
-Rodney Hood,MIL,Milwaukee Bucks,Regular Season,3.8,0.547,5.6,9,326,316,Other,Other
-JaMychal Green,DEN,Denver Nuggets,Regular Season,5.2,0.564,5.5,15,327,276,Other,Other
-Jay Scrubb,LAC,Los Angeles Clippers,Regular Season,4.4,0.583,5.5,5,328,300,Other,Other
-Josh Christopher,HOU,Houston Rockets,Regular Season,2.5,0.383,5.5,10,329,361,Other,Other
-Danuel House,HOU,Houston Rockets,Regular Season,3.6,0.358,5.4,8,330,325,Other,Other
-Trey Murphy,NOP,New Orleans Pelicans,Regular Season,4.9,0.451,5.4,16,331,288,Other,Other
-Marcus Morris,LAC,Los Angeles Clippers,Regular Season,9.5,0.503,5.3,2,332,158,Other,Other
-Ed Davis,CLE,Cleveland Cavaliers,Regular Season,2.6,0.658,5.2,5,333,360,Other,Other
-Brad Wanamaker,IND,Indiana Pacers,Regular Season,2.7,0.371,5.2,7,334,357,Other,Other
-Aaron Wiggins,OKC,Oklahoma City Thunder,Regular Season,3,0.563,5.2,3,335,343,Other,Other
-Brandon Boston,LAC,Los Angeles Clippers,Regular Season,3.3,0.45,5.2,6,336,330,Other,Other
-Goga Bitadze,IND,Indiana Pacers,Regular Season,2.5,0.464,5.1,11,337,367,Other,Other
-Justise Winslow,LAC,Los Angeles Clippers,Regular Season,2.5,0.37,5.1,11,338,365,Other,Other
-John Konchar,MEM,Memphis Grizzlies,Regular Season,2.4,0.436,5.1,13,339,370,Other,Other
-Romeo Langford,BOS,Boston Celtics,Regular Season,4.6,0.52,5.1,11,340,294,Other,Other
-Jock Landale,SAS,San Antonio Spurs,Regular Season,2.8,0.87,5,4,341,352,Other,Other
-Luka Garza,DET,Detroit Pistons,Regular Season,3.7,0.574,4.9,7,342,317,Other,Other
-Malachi Flynn,TOR,Toronto Raptors,Regular Season,2,0.421,4.9,10,343,384,Other,Other
-Moritz Wagner,ORL,Orlando Magic,Regular Season,4.3,0.56,4.9,14,344,305,Other,Other
-Abdel Nader,PHX,Phoenix Suns,Regular Season,2.6,0.441,4.8,13,345,359,Other,Other
-Rodney McGruder,DET,Detroit Pistons,Regular Season,2,0.504,4.8,7,346,383,Other,Other
-Isaiah Todd,WAS,Washington Wizards,Regular Season,2.3,0.595,4.8,3,347,374,Other,Other
-Avery Bradley,LAL,Los Angeles Lakers,Regular Season,5.4,0.513,4.6,15,348,269,Other,Other
-Bryn Forbes,SAS,San Antonio Spurs,Regular Season,5.1,0.537,4.5,15,349,278,Other,Other
-Nick Richards,CHA,Charlotte Hornets,Regular Season,3.7,0.686,4.5,12,350,319,Other,Other
-Sterling Brown,DAL,Dallas Mavericks,Regular Season,1.9,0.312,4.5,12,351,387,Other,Other
-Justin Robinson,MIL,Milwaukee Bucks,Regular Season,3.6,0.479,4.5,12,352,321,Other,Other
-Sam Merrill,MEM,Memphis Grizzlies,Regular Season,4.2,0.485,4.5,6,353,307,Other,Other
-Jalen Smith,PHX,Phoenix Suns,Regular Season,3,0.483,4.5,3,354,344,Other,Other
-Jordan McLaughlin,MIN,Minnesota Timberwolves,Regular Season,1.7,0.337,4.4,12,355,390,Other,Other
-Saben Lee,DET,Detroit Pistons,Regular Season,2,0.396,4.3,5,356,386,Other,Other
-Santi Aldama,MEM,Memphis Grizzlies,Regular Season,2.8,0.399,4.2,6,357,348,Other,Other
-Amir Coffey,LAC,Los Angeles Clippers,Regular Season,2.8,0.491,4.1,11,358,349,Other,Other
-Anthony Gill,WAS,Washington Wizards,Regular Season,1,0.5,4.1,4,359,411,Other,Other
-Facundo Campazzo,DEN,Denver Nuggets,Regular Season,3.6,0.496,4,14,360,324,Other,Other
-Willie Cauley-Stein,DAL,Dallas Mavericks,Regular Season,1.1,0.4,3.9,14,361,409,Other,Other
-Lamar Stevens,CLE,Cleveland Cavaliers,Regular Season,1.9,0.321,3.9,9,362,388,Other,Other
-Udonis Haslem,MIA,Miami Heat,Regular Season,1.5,0.5,3.8,4,363,401,Other,Other
-Gabriel Deck,OKC,Oklahoma City Thunder,Regular Season,2.8,0.698,3.8,4,364,354,Other,Other
-Serge Ibaka,LAC,Los Angeles Clippers,Regular Season,0,0,3.8,2,365,442,Other,Other
-Jaylen Nowell,MIN,Minnesota Timberwolves,Regular Season,1.7,0.333,3.8,6,366,391,Other,Other
-Semi Ojeleye,MIL,Milwaukee Bucks,Regular Season,3.3,0.365,3.7,10,367,331,Other,Other
-Jahmi'us Ramsey,SAC,Sacramento Kings,Regular Season,2.3,0.509,3.7,3,368,371,Other,Other
-Justin Champagnie,TOR,Toronto Raptors,Regular Season,1,0.51,3.7,6,369,413,Other,Other
-Austin Rivers,DEN,Denver Nuggets,Regular Season,2.8,0.348,3.6,13,370,350,Other,Other
-Greg Brown,POR,Portland Trail Blazers,Regular Season,2.3,0.385,3.5,6,371,376,Other,Other
-Taurean Prince,MIN,Minnesota Timberwolves,Regular Season,3.5,0.446,3.5,13,372,327,Other,Other
-Petr Cornelie,DEN,Denver Nuggets,Regular Season,0,0,3.5,2,373,441,Other,Other
-Trendon Watford,POR,Portland Trail Blazers,Regular Season,2,0.5,3.5,1,374,385,Other,Other
-Tomas Satoransky,NOP,New Orleans Pelicans,Regular Season,2.5,0.363,3.5,11,375,366,Other,Other
-Troy Brown,CHI,Chicago Bulls,Regular Season,3.1,0.551,3.4,11,376,336,Other,Other
-Isaiah Jackson,IND,Indiana Pacers,Regular Season,1.5,0.521,3.3,2,377,400,Other,Other
-Jose Alvarado,NOP,New Orleans Pelicans,Regular Season,2.5,0.625,3.3,2,378,362,Other,Other
-Isaiah Joe,PHI,Philadelphia 76ers,Regular Season,2.4,0.374,3.2,9,379,368,Other,Other
-Josh Green,DAL,Dallas Mavericks,Regular Season,0.9,0.333,3.2,7,380,418,Other,Other
-Tony Snell,POR,Portland Trail Blazers,Regular Season,1.5,0.577,3,10,381,399,Other,Other
-Day'Ron Sharpe,BKN,Brooklyn Nets,Regular Season,2.4,0.539,3,7,382,369,Other,Other
-Isaac Bonga,TOR,Toronto Raptors,Regular Season,0.7,1,2.8,3,383,424,Other,Other
-Killian Tillie,MEM,Memphis Grizzlies,Regular Season,0,0,2.8,4,384,435,Other,Other
-D.J. Augustin,HOU,Houston Rockets,Regular Season,3.6,0.596,2.8,13,385,322,Other,Other
-Trent Forrest,UTA,Utah Jazz,Regular Season,1.3,0.615,2.8,9,386,404,Other,Other
-Naji Marshall,NOP,New Orleans Pelicans,Regular Season,3,0.401,2.8,11,387,346,Other,Other
-Jared Butler,UTA,Utah Jazz,Regular Season,1.4,0.33,2.7,12,388,402,Other,Other
-Jalen Johnson,ATL,Atlanta Hawks,Regular Season,2.3,0.643,2.7,6,389,377,Other,Other
-Denzel Valentine,CLE,Cleveland Cavaliers,Regular Season,2.2,0.375,2.6,11,390,380,Other,Other
-Timothe Luwawu-Cabarrot,ATL,Atlanta Hawks,Regular Season,1.7,0.493,2.6,9,391,392,Other,Other
-Moses Moody,GSW,Golden State Warriors,Regular Season,1.6,0.398,2.6,12,392,398,Other,Other
-Chandler Hutchison,PHX,Phoenix Suns,Regular Season,2,1,2.5,1,393,382,Other,Other
-Chris Chiozza,GSW,Golden State Warriors,Regular Season,1.2,0.375,2.5,5,394,408,Other,Other
-Alize Johnson,CHI,Chicago Bulls,Regular Season,2.7,0.637,2.4,10,395,356,Other,Other
-Cameron Thomas,BKN,Brooklyn Nets,Regular Season,1.3,0.251,2.4,9,396,407,Other,Other
-RJ Nembhard,CLE,Cleveland Cavaliers,Regular Season,1,1,2.3,2,397,412,Other,Other
-Aaron Nesmith,BOS,Boston Celtics,Regular Season,2.3,0.356,2.2,12,398,372,Other,Other
-Moses Brown,DAL,Dallas Mavericks,Regular Season,1,0.647,2.2,6,399,414,Other,Other
-Skylar Mays,ATL,Atlanta Hawks,Regular Season,2.3,0.972,2.2,6,400,379,Other,Other
-Payton Pritchard,BOS,Boston Celtics,Regular Season,1.7,0.306,2.1,13,401,393,Other,Other
-Joel Ayayi,WAS,Washington Wizards,Regular Season,0,NA,2,3,402,437,Other,Other
-Oshae Brissett,IND,Indiana Pacers,Regular Season,3.9,0.481,2,8,403,313,Other,Other
-Kira Lewis,NOP,New Orleans Pelicans,Regular Season,4.3,0.371,2,13,404,302,Other,Other
-JaQuori McLaughlin,DAL,Dallas Mavericks,Regular Season,0,NA,2,1,405,438,Other,Other
-Omer Yurtseven,MIA,Miami Heat,Regular Season,1.7,0.603,1.9,11,406,394,Other,Other
-Markus Howard,DEN,Denver Nuggets,Regular Season,0.5,0.214,1.9,6,407,427,Other,Other
-Sandro Mamukelashvili,MIL,Milwaukee Bucks,Regular Season,2.7,0.582,1.8,7,408,358,Other,Other
-Jamorko Pickett,DET,Detroit Pistons,Regular Season,1,1.5,1.8,3,409,416,Other,Other
-Ben McLemore,POR,Portland Trail Blazers,Regular Season,4.8,0.598,1.8,4,410,289,Other,Other
-Joshua Primo,SAS,San Antonio Spurs,Regular Season,1.7,1.25,1.8,3,411,395,Other,Other
-Mychal Mulder,ORL,Orlando Magic,Regular Season,0.8,0.214,1.8,4,412,420,Other,Other
-Theo Maledon,OKC,Oklahoma City Thunder,Regular Season,2.2,0.28,1.8,9,413,381,Other,Other
-Robin Lopez,ORL,Orlando Magic,Regular Season,4.4,0.666,1.6,5,414,299,Other,Other
-Enes Kanter,BOS,Boston Celtics,Regular Season,2.3,0.393,1.6,4,415,373,Other,Other
-Willy Hernangomez,NOP,New Orleans Pelicans,Regular Season,4,0.84,1.5,2,416,310,Other,Other
-KZ Okpala,MIA,Miami Heat,Regular Season,1.4,0.346,1.5,8,417,403,Other,Other
-Jericho Sims,NYK,New York Knicks,Regular Season,0.6,0.798,1.4,5,418,425,Other,Other
-Tacko Fall,CLE,Cleveland Cavaliers,Regular Season,0.4,0.399,1.4,7,419,430,Other,Other
-Sharife Cooper,ATL,Atlanta Hawks,Regular Season,0.5,0.25,1.4,4,420,426,Other,Other
-Duane Washington,IND,Indiana Pacers,Regular Season,2.5,0.833,1.3,2,421,363,Other,Other
-Marcus Garrett,MIA,Miami Heat,Regular Season,0,0,1.1,4,422,443,Other,Other
-DeJon Jarreau,IND,Indiana Pacers,Regular Season,0,NA,1,1,423,444,Other,Other
-Ignas Brazdeikis,ORL,Orlando Magic,Regular Season,1.7,0.333,0.9,7,424,396,Other,Other
-Nathan Knight,MIN,Minnesota Timberwolves,Regular Season,0.8,1.136,0.8,5,425,421,Other,Other
-Quentin Grimes,NYK,New York Knicks,Regular Season,3,0.75,0.8,3,426,345,Other,Other
-Vit Krejci,OKC,Oklahoma City Thunder,Regular Season,0.7,0.347,0.5,3,427,422,Other,Other
-Vernon Carey,CHA,Charlotte Hornets,Regular Season,0,0,0.5,1,428,446,Other,Other
-CJ Elleby,POR,Portland Trail Blazers,Regular Season,1.3,0.346,0.4,7,429,406,Other,Other
-Marcos Louzada Silva,NOP,New Orleans Pelicans,Regular Season,0,0,0.3,2,430,447,Other,Other
-Juan Hernangomez,BOS,Boston Celtics,Regular Season,1.1,0.457,0.2,7,431,410,Other,Other
-Jake Layman,MIN,Minnesota Timberwolves,Regular Season,1.3,0.357,0.1,4,432,405,Other,Other
-Brodric Thomas,BOS,Boston Celtics,Regular Season,0,NA,0,1,433,448,Other,Other
-Joe Wieskamp,SAS,San Antonio Spurs,Regular Season,3,1.5,0,1,434,342,Other,Other
-Keon Johnson,LAC,Los Angeles Clippers,Regular Season,0,NA,0,1,435,449,Other,Other
-Udoka Azubuike,UTA,Utah Jazz,Regular Season,0.5,1,-0.1,4,436,429,Other,Other
-Georgios Kalaitzakis,MIL,Milwaukee Bucks,Regular Season,1.6,0.344,-0.1,5,437,397,Other,Other
-Gary Harris,ORL,Orlando Magic,Regular Season,5,0.401,-0.2,10,438,284,Other,Other
-Elijah Hughes,UTA,Utah Jazz,Regular Season,0.5,0.347,-0.4,4,439,428,Other,Other
-Leandro Bolmaro,MIN,Minnesota Timberwolves,Regular Season,1,0.396,-0.5,5,440,415,Other,Other
-Miye Oni,UTA,Utah Jazz,Regular Season,0.3,0.41,-0.6,7,441,432,Other,Other
-Matt Thomas,CHI,Chicago Bulls,Regular Season,0.4,0.143,-0.6,5,442,431,Other,Other
-Malik Fitts,UTA,Utah Jazz,Regular Season,0,NA,-0.7,3,443,450,Other,Other
-Kevin Pangos,CLE,Cleveland Cavaliers,Regular Season,0.7,0.515,-0.8,6,444,423,Other,Other
-Miles McBride,NYK,New York Knicks,Regular Season,0,0,-0.8,5,445,451,Other,Other
-Yves Pons,MEM,Memphis Grizzlies,Regular Season,0,0,-1,1,446,452,Other,Other
-Wayne Selden,NYK,New York Knicks,Regular Season,0,NA,-1,1,447,453,Other,Other
-Bruno Fernando,BOS,Boston Celtics,Regular Season,0,NA,-1,4,448,454,Other,Other
-JT Thor,CHA,Charlotte Hornets,Regular Season,0,NA,-1.3,2,449,455,Other,Other
-James Bouknight,CHA,Charlotte Hornets,Regular Season,0,0,-1.3,6,450,456,Other,Other
-McKinley Wright,MIN,Minnesota Timberwolves,Regular Season,3,1.5,-1.5,1,451,338,Other,Other
-David Johnson,TOR,Toronto Raptors,Regular Season,0,NA,-1.5,1,452,434,Other,Other
-Kai Jones,CHA,Charlotte Hornets,Regular Season,0,NA,-1.8,5,453,458,Other,Other
-Kevin Knox,NYK,New York Knicks,Regular Season,0.3,0.568,-2,3,454,433,Other,Other
-Jeff Dowtin,GSW,Golden State Warriors,Regular Season,0,0,-2.5,1,455,459,Other,Other
-Sam Dekker,TOR,Toronto Raptors,Regular Season,0,NA,-2.5,1,456,436,Other,Other
-Aaron Henry,PHI,Philadelphia 76ers,Regular Season,0,0,-3,1,457,439,Other,Other
-Jaden Springer,PHI,Philadelphia 76ers,Regular Season,0,NA,-3,1,458,440,Other,Other
-Coby White,CHI,Chicago Bulls,Regular Season,0,0,-3.3,2,459,457,Other,Other
+Giannis Antetokounmpo,MIL,Milwaukee Bucks,Regular Season,27.2,0.59,48.2,18,1,3,Top 5 MVP Candidate,Top 20 Scorers
+Stephen Curry,GSW,Golden State Warriors,Regular Season,28.2,0.644,47.4,17,2,1,Top 5 MVP Candidate,Top 20 Scorers
+Nikola Jokic,DEN,Denver Nuggets,Regular Season,26.4,0.668,46.6,14,3,5,Top 5 MVP Candidate,Top 20 Scorers
+Kevin Durant,BKN,Brooklyn Nets,Regular Season,28.1,0.657,40.3,18,4,2,Top 5 MVP Candidate,Top 20 Scorers
+Trae Young,ATL,Atlanta Hawks,Regular Season,25.3,0.574,38.4,19,5,9,Top 5 MVP Candidate,Top 20 Scorers
+DeMar DeRozan,CHI,Chicago Bulls,Regular Season,25.8,0.581,38,19,6,7,Other,Top 20 Scorers
+Jimmy Butler,MIA,Miami Heat,Regular Season,23.9,0.625,37.8,16,7,14,Other,Top 20 Scorers
+Paul George,LAC,Los Angeles Clippers,Regular Season,26.5,0.547,37.6,18,8,4,Other,Top 20 Scorers
+James Harden,BKN,Brooklyn Nets,Regular Season,20.7,0.604,37.3,19,9,27,Other,Other
+LaMelo Ball,CHA,Charlotte Hornets,Regular Season,19.9,0.532,36.6,20,10,35,Other,Other
+Damian Lillard,POR,Portland Trail Blazers,Regular Season,22.3,0.532,36.2,18,11,21,Other,Other
+Dejounte Murray,SAS,San Antonio Spurs,Regular Season,18.4,0.494,36.2,17,12,46,Other,Other
+Jayson Tatum,BOS,Boston Celtics,Regular Season,25.2,0.513,35.9,19,13,10,Other,Top 20 Scorers
+Luka Doncic,DAL,Dallas Mavericks,Regular Season,25,0.523,35.9,14,14,11,Other,Top 20 Scorers
+LeBron James,LAL,Los Angeles Lakers,Regular Season,24.6,0.585,35.8,9,15,12,Other,Top 20 Scorers
+Anthony Davis,LAL,Los Angeles Lakers,Regular Season,24.3,0.569,35.8,19,16,13,Other,Top 20 Scorers
+Ja Morant,MEM,Memphis Grizzlies,Regular Season,25.3,0.564,35.6,18,17,8,Other,Top 20 Scorers
+Donovan Mitchell,UTA,Utah Jazz,Regular Season,23.4,0.537,35.4,17,18,16,Other,Top 20 Scorers
+Chris Paul,PHX,Phoenix Suns,Regular Season,14.1,0.581,35.4,18,19,88,Other,Other
+Joel Embiid,PHI,Philadelphia 76ers,Regular Season,21.4,0.561,35.3,9,20,24,Other,Other
+Karl-Anthony Towns,MIN,Minnesota Timberwolves,Regular Season,22.7,0.627,34.6,18,21,20,Other,Top 20 Scorers
+Devin Booker,PHX,Phoenix Suns,Regular Season,23.1,0.555,33.9,18,22,18,Other,Top 20 Scorers
+Fred VanVleet,TOR,Toronto Raptors,Regular Season,19.4,0.56,33.8,18,23,39,Other,Other
+Malcolm Brogdon,IND,Indiana Pacers,Regular Season,21.3,0.575,33.5,15,24,25,Other,Other
+Anthony Edwards,MIN,Minnesota Timberwolves,Regular Season,22.8,0.539,32.9,18,25,19,Other,Top 20 Scorers
+Miles Bridges,CHA,Charlotte Hornets,Regular Season,20.3,0.54,32.9,20,26,32,Other,Other
+D'Angelo Russell,MIN,Minnesota Timberwolves,Regular Season,18.4,0.509,32.6,16,27,47,Other,Other
+Jaylen Brown,BOS,Boston Celtics,Regular Season,23.7,0.589,32.1,10,28,15,Other,Top 20 Scorers
+Zach LaVine,CHI,Chicago Bulls,Regular Season,26.1,0.598,31.9,19,29,6,Other,Top 20 Scorers
+Russell Westbrook,LAL,Los Angeles Lakers,Regular Season,20,0.51,31.3,20,30,34,Other,Other
+Bradley Beal,WAS,Washington Wizards,Regular Season,23.1,0.517,31.1,15,31,17,Other,Top 20 Scorers
+Rudy Gobert,UTA,Utah Jazz,Regular Season,15.7,0.744,30.3,18,32,70,Other,Other
+Tobias Harris,PHI,Philadelphia 76ers,Regular Season,20.6,0.576,30.1,11,33,28,Other,Other
+CJ McCollum,POR,Portland Trail Blazers,Regular Season,20.6,0.533,29.9,19,34,29,Other,Other
+Nikola Vucevic,CHI,Chicago Bulls,Regular Season,13.7,0.452,29.6,12,35,96,Other,Other
+Cole Anthony,ORL,Orlando Magic,Regular Season,19.6,0.551,29.6,16,36,37,Other,Other
+Tyrese Maxey,PHI,Philadelphia 76ers,Regular Season,18.7,0.593,29.4,19,37,45,Other,Other
+Tyler Herro,MIA,Miami Heat,Regular Season,21.8,0.562,29.4,18,38,23,Other,Other
+Julius Randle,NYK,New York Knicks,Regular Season,20.4,0.527,29.2,18,39,31,Other,Other
+Kristaps Porzingis,DAL,Dallas Mavericks,Regular Season,21.1,0.58,28.7,12,40,26,Other,Other
+OG Anunoby,TOR,Toronto Raptors,Regular Season,20.1,0.532,28.7,15,41,33,Other,Other
+Domantas Sabonis,IND,Indiana Pacers,Regular Season,17.8,0.633,28.6,20,42,51,Other,Other
+Montrezl Harrell,WAS,Washington Wizards,Regular Season,17.2,0.697,28.5,18,43,55,Other,Other
+Bam Adebayo,MIA,Miami Heat,Regular Season,19,0.581,28,16,44,44,Other,Other
+Darius Garland,CLE,Cleveland Cavaliers,Regular Season,18.2,0.559,27.9,17,45,50,Other,Other
+Jrue Holiday,MIL,Milwaukee Bucks,Regular Season,14.1,0.486,27.8,13,46,89,Other,Other
+John Collins,ATL,Atlanta Hawks,Regular Season,16.6,0.641,27.6,19,47,63,Other,Other
+Khris Middleton,MIL,Milwaukee Bucks,Regular Season,17.1,0.527,27.5,11,48,58,Other,Other
+De'Aaron Fox,SAC,Sacramento Kings,Regular Season,19.9,0.503,27.2,19,49,36,Other,Other
+Will Barton,DEN,Denver Nuggets,Regular Season,16.3,0.56,27.2,16,50,64,Other,Other
+Jalen Brunson,DAL,Dallas Mavericks,Regular Season,15.1,0.573,26.8,17,51,76,Other,Other
+Dillon Brooks,MEM,Memphis Grizzlies,Regular Season,19.4,0.552,26.8,5,52,38,Other,Other
+Andrew Wiggins,GSW,Golden State Warriors,Regular Season,19.1,0.594,26.8,18,53,41,Other,Other
+Shai Gilgeous-Alexander,OKC,Oklahoma City Thunder,Regular Season,20.4,0.52,26.6,16,54,30,Other,Other
+Jordan Poole,GSW,Golden State Warriors,Regular Season,18.3,0.58,26.6,18,55,48,Other,Other
+Jonas Valanciunas,NOP,New Orleans Pelicans,Regular Season,19.2,0.595,26.5,20,56,40,Other,Other
+Marcus Smart,BOS,Boston Celtics,Regular Season,10.5,0.498,26.5,18,57,141,Other,Other
+Draymond Green,GSW,Golden State Warriors,Regular Season,7.9,0.604,26.4,17,58,195,Other,Other
+Kyle Lowry,MIA,Miami Heat,Regular Season,11.9,0.54,26.4,17,59,121,Other,Other
+Brandon Ingram,NOP,New Orleans Pelicans,Regular Season,21.8,0.522,26.1,13,60,22,Other,Other
+Dennis Schroder,BOS,Boston Celtics,Regular Season,17.5,0.555,25.9,19,61,53,Other,Other
+Al Horford,BOS,Boston Celtics,Regular Season,12.8,0.562,25.9,16,62,106,Other,Other
+Reggie Jackson,LAC,Los Angeles Clippers,Regular Season,18.3,0.511,25.9,18,63,49,Other,Other
+Mike Conley,UTA,Utah Jazz,Regular Season,14.1,0.652,25.9,16,64,90,Other,Other
+Pascal Siakam,TOR,Toronto Raptors,Regular Season,17.8,0.582,25.8,8,65,52,Other,Other
+Ricky Rubio,CLE,Cleveland Cavaliers,Regular Season,15.1,0.503,25.7,19,66,74,Other,Other
+Evan Mobley,CLE,Cleveland Cavaliers,Regular Season,14.6,0.555,25.7,15,67,84,Other,Other
+Lonzo Ball,CHI,Chicago Bulls,Regular Season,12.4,0.553,25.3,19,68,113,Other,Other
+Deandre Ayton,PHX,Phoenix Suns,Regular Season,16,0.64,25.3,12,69,66,Other,Other
+Gary Trent,TOR,Toronto Raptors,Regular Season,17.5,0.556,25.2,19,70,54,Other,Other
+Myles Turner,IND,Indiana Pacers,Regular Season,12.7,0.644,24.8,20,71,108,Other,Other
+Spencer Dinwiddie,WAS,Washington Wizards,Regular Season,14.9,0.535,24,16,72,79,Other,Other
+Mikal Bridges,PHX,Phoenix Suns,Regular Season,13.1,0.636,23.9,18,73,101,Other,Other
+Terry Rozier,CHA,Charlotte Hornets,Regular Season,16.7,0.511,23.8,15,74,62,Other,Other
+Gordon Hayward,CHA,Charlotte Hornets,Regular Season,16.8,0.576,23.8,20,75,61,Other,Other
+Jusuf Nurkic,POR,Portland Trail Blazers,Regular Season,11.7,0.632,23.7,19,76,126,Other,Other
+Jarrett Allen,CLE,Cleveland Cavaliers,Regular Season,15.3,0.692,23.7,16,77,72,Other,Other
+Harrison Barnes,SAC,Sacramento Kings,Regular Season,19,0.635,23.6,19,78,42,Other,Other
+Caris LeVert,IND,Indiana Pacers,Regular Season,13.8,0.46,23.5,12,79,93,Other,Other
+Bobby Portis,MIL,Milwaukee Bucks,Regular Season,15.7,0.596,23.4,14,80,69,Other,Other
+Robert Williams,BOS,Boston Celtics,Regular Season,9.4,0.732,23.4,14,81,161,Other,Other
+Scottie Barnes,TOR,Toronto Raptors,Regular Season,14.8,0.527,23.4,17,82,82,Other,Other
+Jaren Jackson,MEM,Memphis Grizzlies,Regular Season,14.9,0.534,23.3,18,83,78,Other,Other
+Clint Capela,ATL,Atlanta Hawks,Regular Season,11.3,0.583,23.3,19,84,131,Other,Other
+Tyrese Haliburton,SAC,Sacramento Kings,Regular Season,11.7,0.53,23.1,17,85,125,Other,Other
+Norman Powell,POR,Portland Trail Blazers,Regular Season,17,0.627,23,17,86,60,Other,Other
+Devonte' Graham,NOP,New Orleans Pelicans,Regular Season,15.1,0.528,23,17,87,75,Other,Other
+Derrick Rose,NYK,New York Knicks,Regular Season,12,0.544,22.9,17,88,120,Other,Other
+Bojan Bogdanovic,UTA,Utah Jazz,Regular Season,17.1,0.606,22.6,18,89,56,Other,Other
+Aaron Gordon,DEN,Denver Nuggets,Regular Season,13.3,0.583,22.6,18,90,99,Other,Other
+Jerami Grant,DET,Detroit Pistons,Regular Season,19,0.524,22.6,17,91,43,Other,Other
+Jordan Clarkson,UTA,Utah Jazz,Regular Season,15.2,0.49,22.5,18,92,73,Other,Other
+Seth Curry,PHI,Philadelphia 76ers,Regular Season,15.9,0.638,22.4,17,93,67,Other,Other
+LaMarcus Aldridge,BKN,Brooklyn Nets,Regular Season,13.6,0.622,22.1,18,94,97,Other,Other
+Grayson Allen,MIL,Milwaukee Bucks,Regular Season,14.4,0.621,21.6,19,95,87,Other,Other
+Patty Mills,BKN,Brooklyn Nets,Regular Season,12.5,0.648,21.3,19,96,112,Other,Other
+Buddy Hield,SAC,Sacramento Kings,Regular Season,17.1,0.575,21.1,19,97,57,Other,Other
+Monte Morris,DEN,Denver Nuggets,Regular Season,11.2,0.517,21,18,98,132,Other,Other
+Lauri Markkanen,CLE,Cleveland Cavaliers,Regular Season,13.9,0.497,20.9,10,99,92,Other,Other
+Alex Caruso,CHI,Chicago Bulls,Regular Season,7.9,0.542,20.8,18,100,193,Other,Other
+Richaun Holmes,SAC,Sacramento Kings,Regular Season,14.4,0.732,20.7,18,101,86,Other,Other
+Desmond Bane,MEM,Memphis Grizzlies,Regular Season,15.8,0.59,20.7,18,102,68,Other,Other
+Patrick Beverley,MIN,Minnesota Timberwolves,Regular Season,8.1,0.563,20.3,16,103,186,Other,Other
+Christian Wood,HOU,Houston Rockets,Regular Season,15.4,0.513,20,18,104,71,Other,Other
+Michael Porter,DEN,Denver Nuggets,Regular Season,9.9,0.416,19.9,9,105,153,Other,Other
+Tim Hardaway,DAL,Dallas Mavericks,Regular Season,14.7,0.509,19.9,17,106,83,Other,Other
+Keldon Johnson,SAS,San Antonio Spurs,Regular Season,14.9,0.523,19.7,17,107,80,Other,Other
+Derrick White,SAS,San Antonio Spurs,Regular Season,11.1,0.486,19.7,17,108,134,Other,Other
+Frank Kaminsky,PHX,Phoenix Suns,Regular Season,10.6,0.635,19.7,9,109,140,Other,Other
+Kyle Kuzma,WAS,Washington Wizards,Regular Season,13.1,0.514,19.6,18,110,102,Other,Other
+Carmelo Anthony,LAL,Los Angeles Lakers,Regular Season,15,0.602,19.6,20,111,77,Other,Other
+Devin Vassell,SAS,San Antonio Spurs,Regular Season,12.2,0.579,19.4,17,112,116,Other,Other
+Talen Horton-Tucker,LAL,Los Angeles Lakers,Regular Season,12.6,0.463,19.3,7,113,110,Other,Other
+Jakob Poeltl,SAS,San Antonio Spurs,Regular Season,12.9,0.614,19.3,10,114,104,Other,Other
+Nickeil Alexander-Walker,NOP,New Orleans Pelicans,Regular Season,14.5,0.479,19.3,20,115,85,Other,Other
+Wendell Carter,ORL,Orlando Magic,Regular Season,12.3,0.597,19.2,19,116,115,Other,Other
+Josh Hart,NOP,New Orleans Pelicans,Regular Season,12,0.613,19.1,16,117,119,Other,Other
+RJ Barrett,NYK,New York Knicks,Regular Season,14.8,0.488,18.9,18,118,81,Other,Other
+Chris Duarte,IND,Indiana Pacers,Regular Season,13.3,0.512,18.8,18,119,98,Other,Other
+Cade Cunningham,DET,Detroit Pistons,Regular Season,13.1,0.438,18.8,13,120,100,Other,Other
+Kelly Olynyk,DET,Detroit Pistons,Regular Season,12.5,0.551,18.7,10,121,111,Other,Other
+Mohamed Bamba,ORL,Orlando Magic,Regular Season,11.1,0.545,18.7,19,122,133,Other,Other
+Royce O'Neale,UTA,Utah Jazz,Regular Season,7.7,0.587,18.6,18,123,201,Other,Other
+Bogdan Bogdanovic,ATL,Atlanta Hawks,Regular Season,12.3,0.566,18.5,18,124,114,Other,Other
+Brook Lopez,MIL,Milwaukee Bucks,Regular Season,8,0.444,18.5,1,125,189,Other,Other
+Luguentz Dort,OKC,Oklahoma City Thunder,Regular Season,17.1,0.556,18.5,17,126,59,Other,Other
+T.J. McConnell,IND,Indiana Pacers,Regular Season,9,0.536,18.4,20,127,169,Other,Other
+Andre Drummond,PHI,Philadelphia 76ers,Regular Season,6.9,0.477,18.3,18,128,227,Other,Other
+Nicolas Batum,LAC,Los Angeles Clippers,Regular Season,9.8,0.682,18.2,14,129,155,Other,Other
+Jae Crowder,PHX,Phoenix Suns,Regular Season,8.7,0.511,18.2,18,130,176,Other,Other
+Luke Kennard,LAC,Los Angeles Clippers,Regular Season,9.9,0.586,18.1,18,131,151,Other,Other
+Georges Niang,PHI,Philadelphia 76ers,Regular Season,11.7,0.576,18.1,19,132,124,Other,Other
+Shake Milton,PHI,Philadelphia 76ers,Regular Season,12,0.542,18,15,133,118,Other,Other
+Sekou Doumbouya,LAL,Los Angeles Lakers,Regular Season,7,0.717,18,2,134,221,Other,Other
+Terance Mann,LAC,Los Angeles Clippers,Regular Season,9.5,0.567,17.9,17,135,160,Other,Other
+Josh Giddey,OKC,Oklahoma City Thunder,Regular Season,10.8,0.465,17.9,18,136,137,Other,Other
+Saddiq Bey,DET,Detroit Pistons,Regular Season,13.7,0.467,17.8,18,137,95,Other,Other
+De'Anthony Melton,MEM,Memphis Grizzlies,Regular Season,9.9,0.502,17.8,15,138,152,Other,Other
+Willy Hernangomez,NOP,New Orleans Pelicans,Regular Season,9.2,0.763,17.6,5,139,165,Other,Other
+Alec Burks,NYK,New York Knicks,Regular Season,9.8,0.595,17.6,18,140,156,Other,Other
+Andre Iguodala,GSW,Golden State Warriors,Regular Season,3.8,0.493,17.5,12,141,319,Other,Other
+George Hill,MIL,Milwaukee Bucks,Regular Season,7.6,0.564,17.5,18,142,204,Other,Other
+Duncan Robinson,MIA,Miami Heat,Regular Season,11,0.516,17.4,19,143,135,Other,Other
+Rudy Gay,UTA,Utah Jazz,Regular Season,10,0.72,17.4,4,144,149,Other,Other
+JaVale McGee,PHX,Phoenix Suns,Regular Season,10.4,0.677,17.3,18,145,143,Other,Other
+Lonnie Walker,SAS,San Antonio Spurs,Regular Season,10.4,0.47,17,17,146,142,Other,Other
+Kelly Oubre,CHA,Charlotte Hornets,Regular Season,13.7,0.546,16.9,20,147,94,Other,Other
+Collin Sexton,CLE,Cleveland Cavaliers,Regular Season,16,0.526,16.9,11,148,65,Other,Other
+Kevin Porter,HOU,Houston Rockets,Regular Season,12.9,0.468,16.9,15,149,105,Other,Other
+Pat Connaughton,MIL,Milwaukee Bucks,Regular Season,11.6,0.631,16.7,19,150,128,Other,Other
+Franz Wagner,ORL,Orlando Magic,Regular Season,12.6,0.526,16.7,19,151,109,Other,Other
+Kevin Love,CLE,Cleveland Cavaliers,Regular Season,10.8,0.523,16.6,11,152,139,Other,Other
+Cody Martin,CHA,Charlotte Hornets,Regular Season,7.9,0.571,16.6,20,153,194,Other,Other
+Evan Fournier,NYK,New York Knicks,Regular Season,12.8,0.548,16.6,18,154,107,Other,Other
+Precious Achiuwa,TOR,Toronto Raptors,Regular Season,8.3,0.435,16.6,16,155,185,Other,Other
+Matisse Thybulle,PHI,Philadelphia 76ers,Regular Season,6.4,0.635,16.4,12,156,246,Other,Other
+Eric Bledsoe,LAC,Los Angeles Clippers,Regular Season,9.3,0.48,16.4,18,157,164,Other,Other
+Cedi Osman,CLE,Cleveland Cavaliers,Regular Season,11.8,0.645,16.3,16,158,122,Other,Other
+Mason Plumlee,CHA,Charlotte Hornets,Regular Season,6.8,0.558,16.2,20,159,230,Other,Other
+Furkan Korkmaz,PHI,Philadelphia 76ers,Regular Season,10.2,0.504,16.2,18,160,147,Other,Other
+Anfernee Simons,POR,Portland Trail Blazers,Regular Season,11.6,0.573,16.1,18,161,127,Other,Other
+Thaddeus Young,SAS,San Antonio Spurs,Regular Season,7.6,0.581,16.1,14,162,202,Other,Other
+Danny Green,PHI,Philadelphia 76ers,Regular Season,7.8,0.676,16,12,163,196,Other,Other
+Ivica Zubac,LAC,Los Angeles Clippers,Regular Season,10.2,0.692,16,18,164,148,Other,Other
+Isaiah Hartenstein,LAC,Los Angeles Clippers,Regular Season,7.2,0.652,15.9,17,165,216,Other,Other
+Cameron Payne,PHX,Phoenix Suns,Regular Season,9.6,0.5,15.8,13,166,159,Other,Other
+Maxi Kleber,DAL,Dallas Mavericks,Regular Season,7,0.629,15.8,8,167,220,Other,Other
+Immanuel Quickley,NYK,New York Knicks,Regular Season,8.9,0.567,15.7,18,168,173,Other,Other
+Davion Mitchell,SAC,Sacramento Kings,Regular Season,9.1,0.445,15.5,19,169,168,Other,Other
+Kevin Huerter,ATL,Atlanta Hawks,Regular Season,9.6,0.575,15.5,18,170,158,Other,Other
+Jarred Vanderbilt,MIN,Minnesota Timberwolves,Regular Season,5.8,0.595,15.4,18,171,264,Other,Other
+Gary Payton,GSW,Golden State Warriors,Regular Season,6.4,0.757,15.3,17,172,247,Other,Other
+Nerlens Noel,NYK,New York Knicks,Regular Season,4.4,0.618,15.2,7,173,305,Other,Other
+Steven Adams,MEM,Memphis Grizzlies,Regular Season,7,0.551,15.2,18,174,222,Other,Other
+Obi Toppin,NYK,New York Knicks,Regular Season,8.1,0.618,15.1,18,175,188,Other,Other
+Joe Harris,BKN,Brooklyn Nets,Regular Season,11.3,0.624,15.1,14,176,130,Other,Other
+Nemanja Bjelica,GSW,Golden State Warriors,Regular Season,6.7,0.586,15,18,177,235,Other,Other
+Kemba Walker,NYK,New York Knicks,Regular Season,11.4,0.551,14.9,17,178,129,Other,Other
+Jalen Suggs,ORL,Orlando Magic,Regular Season,12.1,0.433,14.8,18,179,117,Other,Other
+Kentavious Caldwell-Pope,WAS,Washington Wizards,Regular Season,9.9,0.542,14.8,18,180,154,Other,Other
+Deni Avdija,WAS,Washington Wizards,Regular Season,5.9,0.521,14.8,18,181,256,Other,Other
+Joe Ingles,UTA,Utah Jazz,Regular Season,6.9,0.581,14.7,18,182,224,Other,Other
+Justin Holiday,IND,Indiana Pacers,Regular Season,10,0.559,14.7,20,183,150,Other,Other
+Eric Gordon,HOU,Houston Rockets,Regular Season,12.9,0.579,14.6,15,184,103,Other,Other
+Malik Monk,LAL,Los Angeles Lakers,Regular Season,9.2,0.557,14.4,20,185,167,Other,Other
+Hassan Whiteside,UTA,Utah Jazz,Regular Season,7.3,0.63,14.3,18,186,212,Other,Other
+Khem Birch,TOR,Toronto Raptors,Regular Season,6.9,0.55,14.3,15,187,223,Other,Other
+Bruce Brown,BKN,Brooklyn Nets,Regular Season,7.8,0.524,14.3,16,188,197,Other,Other
+Otto Porter,GSW,Golden State Warriors,Regular Season,6.9,0.649,14.3,16,189,228,Other,Other
+Blake Griffin,BKN,Brooklyn Nets,Regular Season,5.5,0.4,14.3,17,190,274,Other,Other
+Robert Covington,POR,Portland Trail Blazers,Regular Season,6.7,0.597,14.3,19,191,232,Other,Other
+Alperen Sengun,HOU,Houston Rockets,Regular Season,9,0.572,14.2,17,192,170,Other,Other
+Chimezie Metu,SAC,Sacramento Kings,Regular Season,8.6,0.495,14.2,8,193,177,Other,Other
+Kevon Looney,GSW,Golden State Warriors,Regular Season,5.3,0.531,14,18,194,279,Other,Other
+P.J. Tucker,MIA,Miami Heat,Regular Season,6.9,0.669,13.9,19,195,225,Other,Other
+Cam Reddish,ATL,Atlanta Hawks,Regular Season,11.8,0.542,13.8,19,196,123,Other,Other
+Dorian Finney-Smith,DAL,Dallas Mavericks,Regular Season,8.9,0.52,13.8,17,197,172,Other,Other
+Cameron Johnson,PHX,Phoenix Suns,Regular Season,8.4,0.53,13.8,18,198,183,Other,Other
+Malik Beasley,MIN,Minnesota Timberwolves,Regular Season,10.3,0.47,13.6,18,199,146,Other,Other
+Larry Nance,POR,Portland Trail Blazers,Regular Season,6.5,0.618,13.5,19,200,243,Other,Other
+Mitchell Robinson,NYK,New York Knicks,Regular Season,7.1,0.782,13.5,15,201,218,Other,Other
+Herb Jones,NOP,New Orleans Pelicans,Regular Season,5.9,0.531,13.4,17,202,260,Other,Other
+Josh Richardson,BOS,Boston Celtics,Regular Season,8.9,0.562,13.4,14,203,171,Other,Other
+Nassir Little,POR,Portland Trail Blazers,Regular Season,8.6,0.615,13.4,19,204,178,Other,Other
+Darius Bazley,OKC,Oklahoma City Thunder,Regular Season,9.3,0.44,13.4,18,205,163,Other,Other
+Derrick Jones,CHI,Chicago Bulls,Regular Season,6.9,0.677,13.3,15,206,226,Other,Other
+Damion Lee,GSW,Golden State Warriors,Regular Season,8.9,0.553,13,15,207,174,Other,Other
+Brandon Clarke,MEM,Memphis Grizzlies,Regular Season,7.6,0.619,12.9,15,208,205,Other,Other
+Mike Muscala,OKC,Oklahoma City Thunder,Regular Season,8.7,0.637,12.9,14,209,175,Other,Other
+P.J. Washington,CHA,Charlotte Hornets,Regular Season,8.6,0.555,12.9,8,210,179,Other,Other
+Daniel Gafford,WAS,Washington Wizards,Regular Season,8.5,0.655,12.8,15,211,181,Other,Other
+Jaden McDaniels,MIN,Minnesota Timberwolves,Regular Season,6.2,0.494,12.3,18,212,248,Other,Other
+Jae'Sean Tate,HOU,Houston Rockets,Regular Season,10.9,0.538,12.3,18,213,136,Other,Other
+Cory Joseph,DET,Detroit Pistons,Regular Season,6.8,0.554,12.3,18,214,229,Other,Other
+Kyle Anderson,MEM,Memphis Grizzlies,Regular Season,8.4,0.533,12.3,18,215,184,Other,Other
+Danilo Gallinari,ATL,Atlanta Hawks,Regular Season,8,0.556,12.3,16,216,190,Other,Other
+Raul Neto,WAS,Washington Wizards,Regular Season,7.5,0.538,12.1,17,217,207,Other,Other
+Isaac Okoro,CLE,Cleveland Cavaliers,Regular Season,7.6,0.44,12,12,218,203,Other,Other
+De'Andre Hunter,ATL,Atlanta Hawks,Regular Season,10.8,0.516,11.9,11,219,138,Other,Other
+Jeremy Lamb,IND,Indiana Pacers,Regular Season,7.7,0.615,11.8,15,220,199,Other,Other
+Goran Dragic,TOR,Toronto Raptors,Regular Season,8,0.521,11.7,5,221,191,Other,Other
+Alex Len,SAC,Sacramento Kings,Regular Season,6.7,0.625,11.6,11,222,233,Other,Other
+Markieff Morris,MIA,Miami Heat,Regular Season,7.7,0.533,11.6,10,223,198,Other,Other
+Garrison Mathews,HOU,Houston Rockets,Regular Season,7.4,0.567,11.5,5,224,209,Other,Other
+Max Strus,MIA,Miami Heat,Regular Season,6.5,0.557,11.5,12,225,244,Other,Other
+Landry Shamet,PHX,Phoenix Suns,Regular Season,7.1,0.549,11.4,17,226,219,Other,Other
+Juan Toscano-Anderson,GSW,Golden State Warriors,Regular Season,4.3,0.6,11.4,17,227,308,Other,Other
+Taj Gibson,NYK,New York Knicks,Regular Season,3.5,0.538,11.3,10,228,334,Other,Other
+Ty Jerome,OKC,Oklahoma City Thunder,Regular Season,6.7,0.508,11.3,15,229,234,Other,Other
+Naz Reid,MIN,Minnesota Timberwolves,Regular Season,8.1,0.559,11.3,16,230,187,Other,Other
+Patrick Williams,CHI,Chicago Bulls,Regular Season,6.6,0.666,11.2,5,231,241,Other,Other
+Dewayne Dedmon,MIA,Miami Heat,Regular Season,5.3,0.654,11.2,19,232,280,Other,Other
+Jordan Nwora,MIL,Milwaukee Bucks,Regular Season,8,0.501,11.2,17,233,192,Other,Other
+Isaiah Stewart,DET,Detroit Pistons,Regular Season,7.3,0.566,11.2,16,234,211,Other,Other
+Drew Eubanks,SAS,San Antonio Spurs,Regular Season,6.6,0.617,11.1,17,235,240,Other,Other
+Tyus Jones,MEM,Memphis Grizzlies,Regular Season,5.9,0.614,11.1,18,236,261,Other,Other
+Caleb Martin,MIA,Miami Heat,Regular Season,5.1,0.504,11.1,16,237,288,Other,Other
+Jay Huff,LAL,Los Angeles Lakers,Regular Season,0,0,11,1,238,462,Other,Other
+Zeke Nnaji,DEN,Denver Nuggets,Regular Season,7.5,0.671,11,6,239,208,Other,Other
+Kenrich Williams,OKC,Oklahoma City Thunder,Regular Season,6.6,0.507,10.8,18,240,239,Other,Other
+Austin Reaves,LAL,Los Angeles Lakers,Regular Season,6.1,0.616,10.7,10,241,251,Other,Other
+Jeff Green,DEN,Denver Nuggets,Regular Season,9.2,0.554,10.7,18,242,166,Other,Other
+Kenyon Martin,HOU,Houston Rockets,Regular Season,6.7,0.617,10.7,17,243,236,Other,Other
+Frank Ntilikina,DAL,Dallas Mavericks,Regular Season,5.3,0.498,10.6,15,244,278,Other,Other
+Grant Williams,BOS,Boston Celtics,Regular Season,7.3,0.667,10.6,19,245,213,Other,Other
+Jeremiah Robinson-Earl,OKC,Oklahoma City Thunder,Regular Season,7.2,0.552,10.5,18,246,215,Other,Other
+DeAndre' Bembry,BKN,Brooklyn Nets,Regular Season,5.1,0.578,10.5,18,247,284,Other,Other
+Javonte Green,CHI,Chicago Bulls,Regular Season,5.5,0.599,10.4,19,248,273,Other,Other
+Bones Hyland,DEN,Denver Nuggets,Regular Season,7.2,0.499,10.4,14,249,217,Other,Other
+Dwight Powell,DAL,Dallas Mavericks,Regular Season,6.6,0.628,10.3,17,250,238,Other,Other
+James Johnson,BKN,Brooklyn Nets,Regular Season,3.5,0.43,10.3,11,251,335,Other,Other
+Doug McDermott,SAS,San Antonio Spurs,Regular Season,10.3,0.57,10.2,12,252,145,Other,Other
+Killian Hayes,DET,Detroit Pistons,Regular Season,5.6,0.423,10,14,253,270,Other,Other
+Yuta Watanabe,TOR,Toronto Raptors,Regular Season,3,0.315,10,1,254,351,Other,Other
+Kelan Martin,IND,Indiana Pacers,Regular Season,6.7,0.483,10,13,255,237,Other,Other
+Elfrid Payton,PHX,Phoenix Suns,Regular Season,6,0.537,10,6,256,253,Other,Other
+Chris Boucher,TOR,Toronto Raptors,Regular Season,5.7,0.455,9.9,18,257,265,Other,Other
+Frank Jackson,DET,Detroit Pistons,Regular Season,9.3,0.534,9.9,18,258,162,Other,Other
+R.J. Hampton,ORL,Orlando Magic,Regular Season,7.7,0.517,9.8,19,259,200,Other,Other
+Torrey Craig,IND,Indiana Pacers,Regular Season,6.1,0.598,9.8,20,260,250,Other,Other
+Jalen Green,HOU,Houston Rockets,Regular Season,14,0.498,9.7,18,261,91,Other,Other
+Svi Mykhailiuk,TOR,Toronto Raptors,Regular Season,7.3,0.612,9.6,19,262,214,Other,Other
+Gabe Vincent,MIA,Miami Heat,Regular Season,4.5,0.518,9.5,16,263,303,Other,Other
+Trey Lyles,DET,Detroit Pistons,Regular Season,7.4,0.522,9.5,18,264,210,Other,Other
+Josh Jackson,DET,Detroit Pistons,Regular Season,8.4,0.517,9.4,16,265,182,Other,Other
+Lou Williams,ATL,Atlanta Hawks,Regular Season,6.1,0.49,9.3,14,266,249,Other,Other
+Damian Jones,SAC,Sacramento Kings,Regular Season,3.4,0.703,9.3,7,267,336,Other,Other
+Dean Wade,CLE,Cleveland Cavaliers,Regular Season,4.8,0.516,9.2,16,268,295,Other,Other
+Dwight Howard,LAL,Los Angeles Lakers,Regular Season,5.1,0.72,9,18,269,289,Other,Other
+Aaron Holiday,WAS,Washington Wizards,Regular Season,5.7,0.492,8.9,18,270,266,Other,Other
+DeAndre Jordan,LAL,Los Angeles Lakers,Regular Season,4.9,0.697,8.8,17,271,293,Other,Other
+Terrence Ross,ORL,Orlando Magic,Regular Season,10.4,0.51,8.8,18,272,144,Other,Other
+Rajon Rondo,LAL,Los Angeles Lakers,Regular Season,3.3,0.358,8.7,13,273,338,Other,Other
+Hamidou Diallo,DET,Detroit Pistons,Regular Season,6.5,0.636,8.6,12,274,242,Other,Other
+Nicolas Claxton,BKN,Brooklyn Nets,Regular Season,6.5,0.543,8.5,4,275,245,Other,Other
+Chuma Okeke,ORL,Orlando Magic,Regular Season,7.5,0.503,8.5,13,276,206,Other,Other
+Jalen McDaniels,CHA,Charlotte Hornets,Regular Season,5.1,0.67,8.4,18,277,285,Other,Other
+Marvin Bagley,SAC,Sacramento Kings,Regular Season,4.8,0.444,8.3,6,278,297,Other,Other
+Josh Okogie,MIN,Minnesota Timberwolves,Regular Season,2.8,0.407,8.3,11,279,361,Other,Other
+Dalano Banton,TOR,Toronto Raptors,Regular Season,5.1,0.58,8.2,19,280,287,Other,Other
+Delon Wright,ATL,Atlanta Hawks,Regular Season,2.6,0.462,8.2,17,281,367,Other,Other
+Maurice Harkless,SAC,Sacramento Kings,Regular Season,4.3,0.486,8.1,15,282,309,Other,Other
+Tony Bradley,CHI,Chicago Bulls,Regular Season,3.6,0.556,8,16,283,329,Other,Other
+Wayne Ellington,LAL,Los Angeles Lakers,Regular Season,6.7,0.557,7.9,12,284,231,Other,Other
+Reggie Bullock,DAL,Dallas Mavericks,Regular Season,5.9,0.464,7.9,16,285,259,Other,Other
+Armoni Brooks,HOU,Houston Rockets,Regular Season,4.3,0.522,7.9,14,286,310,Other,Other
+Dennis Smith,POR,Portland Trail Blazers,Regular Season,2.9,0.451,7.8,9,287,359,Other,Other
+PJ Dozier,DEN,Denver Nuggets,Regular Season,5.4,0.463,7.8,18,288,276,Other,Other
+Corey Kispert,WAS,Washington Wizards,Regular Season,3.5,0.481,7.6,17,289,331,Other,Other
+Cody Zeller,POR,Portland Trail Blazers,Regular Season,4.9,0.654,7.5,19,290,292,Other,Other
+Tyler Cook,CHI,Chicago Bulls,Regular Season,6,0.773,7.5,1,291,252,Other,Other
+Derrick Favors,OKC,Oklahoma City Thunder,Regular Season,6,0.522,7.4,15,292,254,Other,Other
+Enes Kanter,BOS,Boston Celtics,Regular Season,4.4,0.55,7.4,8,293,306,Other,Other
+Paul Millsap,BKN,Brooklyn Nets,Regular Season,2.9,0.447,7.3,14,294,358,Other,Other
+Keita Bates-Diop,SAS,San Antonio Spurs,Regular Season,3.2,0.503,7.2,13,295,342,Other,Other
+Isaiah Roby,OKC,Oklahoma City Thunder,Regular Season,5.2,0.564,7.2,9,296,283,Other,Other
+Saben Lee,DET,Detroit Pistons,Regular Season,3.1,0.386,7.1,7,297,347,Other,Other
+Jabari Parker,BOS,Boston Celtics,Regular Season,5.3,0.646,7.1,6,298,281,Other,Other
+Aleksej Pokusevski,OKC,Oklahoma City Thunder,Regular Season,4.7,0.406,7.1,18,299,298,Other,Other
+Ish Smith,CHA,Charlotte Hornets,Regular Season,4.4,0.4,7.1,15,300,307,Other,Other
+Usman Garuba,HOU,Houston Rockets,Regular Season,1.7,0.429,7,7,301,404,Other,Other
+Trey Burke,DAL,Dallas Mavericks,Regular Season,5.4,0.538,6.9,8,302,277,Other,Other
+Robin Lopez,ORL,Orlando Magic,Regular Season,5.9,0.616,6.9,7,303,255,Other,Other
+Ayo Dosunmu,CHI,Chicago Bulls,Regular Season,5.9,0.536,6.9,18,304,257,Other,Other
+Jevon Carter,BKN,Brooklyn Nets,Regular Season,3.3,0.421,6.9,19,305,339,Other,Other
+Jaxson Hayes,NOP,New Orleans Pelicans,Regular Season,5.6,0.566,6.9,17,306,271,Other,Other
+Tristan Thompson,SAC,Sacramento Kings,Regular Season,4.7,0.522,6.8,13,307,299,Other,Other
+David Nwaba,HOU,Houston Rockets,Regular Season,4.1,0.494,6.7,15,308,314,Other,Other
+Danuel House,HOU,Houston Rockets,Regular Season,4.5,0.469,6.6,11,309,304,Other,Other
+Moritz Wagner,ORL,Orlando Magic,Regular Season,5.6,0.619,6.6,18,310,269,Other,Other
+Romeo Langford,BOS,Boston Celtics,Regular Season,4.9,0.514,6.6,15,311,291,Other,Other
+Daniel Theis,HOU,Houston Rockets,Regular Season,8.6,0.577,6.5,15,312,180,Other,Other
+Xavier Tillman,MEM,Memphis Grizzlies,Regular Season,4,0.48,6.4,12,313,315,Other,Other
+Kent Bazemore,LAL,Los Angeles Lakers,Regular Season,4.6,0.437,6.4,16,314,300,Other,Other
+Terence Davis,SAC,Sacramento Kings,Regular Season,4.5,0.386,6.3,11,315,302,Other,Other
+Goga Bitadze,IND,Indiana Pacers,Regular Season,3,0.392,6.2,14,316,352,Other,Other
+Aaron Wiggins,OKC,Oklahoma City Thunder,Regular Season,3,0.547,6.1,7,317,353,Other,Other
+Solomon Hill,ATL,Atlanta Hawks,Regular Season,0.8,0.25,6.1,8,318,427,Other,Other
+Trey Murphy,NOP,New Orleans Pelicans,Regular Season,4.8,0.509,6.1,20,319,296,Other,Other
+Davis Bertans,WAS,Washington Wizards,Regular Season,5.8,0.45,6.1,8,320,262,Other,Other
+Charles Bassey,PHI,Philadelphia 76ers,Regular Season,2.9,0.688,6.1,10,321,360,Other,Other
+Josh Christopher,HOU,Houston Rockets,Regular Season,3,0.45,6.1,11,322,356,Other,Other
+JaMychal Green,DEN,Denver Nuggets,Regular Season,5.7,0.543,6.1,18,323,268,Other,Other
+Rodney Hood,MIL,Milwaukee Bucks,Regular Season,3.4,0.487,6,12,324,337,Other,Other
+Tre Mann,OKC,Oklahoma City Thunder,Regular Season,5.2,0.525,6,10,325,282,Other,Other
+Kira Lewis,NOP,New Orleans Pelicans,Regular Season,5.6,0.41,5.9,17,326,272,Other,Other
+Jarrett Culver,MEM,Memphis Grizzlies,Regular Season,4.3,0.644,5.9,4,327,311,Other,Other
+Amir Coffey,LAC,Los Angeles Clippers,Regular Season,3.1,0.53,5.9,14,328,344,Other,Other
+Eugene Omoruyi,DAL,Dallas Mavericks,Regular Season,3.5,0.608,5.8,2,329,330,Other,Other
+Garrett Temple,NOP,New Orleans Pelicans,Regular Season,5.7,0.532,5.7,18,330,267,Other,Other
+Anthony Gill,WAS,Washington Wizards,Regular Season,2.4,0.75,5.7,5,331,372,Other,Other
+Thanasis Antetokounmpo,MIL,Milwaukee Bucks,Regular Season,3.8,0.488,5.7,16,332,324,Other,Other
+Marcus Morris,LAC,Los Angeles Clippers,Regular Season,9.7,0.463,5.7,3,333,157,Other,Other
+Brad Wanamaker,IND,Indiana Pacers,Regular Season,3.5,0.442,5.6,10,334,332,Other,Other
+Avery Bradley,LAL,Los Angeles Lakers,Regular Season,5.4,0.516,5.6,19,335,275,Other,Other
+Eric Paschall,UTA,Utah Jazz,Regular Season,3.8,0.529,5.6,17,336,321,Other,Other
+Gorgui Dieng,ATL,Atlanta Hawks,Regular Season,2,0.458,5.6,18,337,388,Other,Other
+Facundo Campazzo,DEN,Denver Nuggets,Regular Season,4.8,0.557,5.6,17,338,294,Other,Other
+Paul Reed,PHI,Philadelphia 76ers,Regular Season,2.6,0.514,5.5,14,339,365,Other,Other
+Dylan Windler,CLE,Cleveland Cavaliers,Regular Season,3.1,0.598,5.5,14,340,346,Other,Other
+Tre Jones,SAS,San Antonio Spurs,Regular Season,3.5,0.57,5.5,15,341,333,Other,Other
+Naji Marshall,NOP,New Orleans Pelicans,Regular Season,3.9,0.438,5.4,14,342,318,Other,Other
+Ziaire Williams,MEM,Memphis Grizzlies,Regular Season,5.1,0.433,5.3,16,343,286,Other,Other
+Boban Marjanovic,DAL,Dallas Mavericks,Regular Season,4.6,0.674,5.3,9,344,301,Other,Other
+Bryn Forbes,SAS,San Antonio Spurs,Regular Season,5.9,0.585,5.2,17,345,258,Other,Other
+Malachi Flynn,TOR,Toronto Raptors,Regular Season,2.2,0.47,5.2,13,346,382,Other,Other
+Sterling Brown,DAL,Dallas Mavericks,Regular Season,2.3,0.391,5.1,15,347,374,Other,Other
+Jose Alvarado,NOP,New Orleans Pelicans,Regular Season,1.4,0.389,5.1,5,348,412,Other,Other
+Nick Richards,CHA,Charlotte Hornets,Regular Season,3.6,0.678,5,15,349,328,Other,Other
+Jonathan Kuminga,GSW,Golden State Warriors,Regular Season,3.1,0.433,4.9,12,350,345,Other,Other
+Austin Rivers,DEN,Denver Nuggets,Regular Season,3.9,0.44,4.8,16,351,317,Other,Other
+Isaiah Todd,WAS,Washington Wizards,Regular Season,2.3,0.595,4.8,3,352,378,Other,Other
+Willie Cauley-Stein,DAL,Dallas Mavericks,Regular Season,1.8,0.502,4.8,17,353,396,Other,Other
+John Konchar,MEM,Memphis Grizzlies,Regular Season,2.3,0.416,4.7,16,354,376,Other,Other
+Jock Landale,SAS,San Antonio Spurs,Regular Season,2.6,0.781,4.7,5,355,366,Other,Other
+Abdel Nader,PHX,Phoenix Suns,Regular Season,2.4,0.431,4.6,14,356,373,Other,Other
+Mychal Mulder,ORL,Orlando Magic,Regular Season,5,0.45,4.6,7,357,290,Other,Other
+Sam Merrill,MEM,Memphis Grizzlies,Regular Season,4.2,0.485,4.5,6,358,313,Other,Other
+Devon Dotson,CHI,Chicago Bulls,Regular Season,2,0.333,4.5,1,359,386,Other,Other
+Santi Aldama,MEM,Memphis Grizzlies,Regular Season,2.7,0.391,4.5,7,360,362,Other,Other
+Cameron Thomas,BKN,Brooklyn Nets,Regular Season,3,0.392,4.4,12,361,348,Other,Other
+Jay Scrubb,LAC,Los Angeles Clippers,Regular Season,3.7,0.553,4.4,6,362,326,Other,Other
+Coby White,CHI,Chicago Bulls,Regular Season,3.8,0.304,4.3,6,363,322,Other,Other
+Brandon Boston,LAC,Los Angeles Clippers,Regular Season,2.9,0.431,4.3,7,364,357,Other,Other
+Justise Winslow,LAC,Los Angeles Clippers,Regular Season,2.2,0.37,4.2,13,365,380,Other,Other
+Bol Bol,DEN,Denver Nuggets,Regular Season,2.1,0.486,4.2,7,366,384,Other,Other
+Chris Chiozza,GSW,Golden State Warriors,Regular Season,3.3,0.563,4.2,7,367,341,Other,Other
+Rodney McGruder,DET,Detroit Pistons,Regular Season,1.8,0.504,4.1,8,368,400,Other,Other
+Jalen Smith,PHX,Phoenix Suns,Regular Season,2.6,0.533,4.1,5,369,368,Other,Other
+Jordan McLaughlin,MIN,Minnesota Timberwolves,Regular Season,1.9,0.388,4.1,15,370,392,Other,Other
+Isaiah Joe,PHI,Philadelphia 76ers,Regular Season,3.7,0.481,4,12,371,327,Other,Other
+Taurean Prince,MIN,Minnesota Timberwolves,Regular Season,3.7,0.445,4,16,372,325,Other,Other
+Greg Brown,POR,Portland Trail Blazers,Regular Season,2.3,0.417,3.9,7,373,375,Other,Other
+Luka Garza,DET,Detroit Pistons,Regular Season,4.2,0.545,3.9,10,374,312,Other,Other
+Lamar Stevens,CLE,Cleveland Cavaliers,Regular Season,1.9,0.321,3.9,9,375,393,Other,Other
+Jaylen Nowell,MIN,Minnesota Timberwolves,Regular Season,1.8,0.306,3.8,8,376,394,Other,Other
+Justin Robinson,MIL,Milwaukee Bucks,Regular Season,3,0.415,3.8,16,377,349,Other,Other
+Troy Brown,CHI,Chicago Bulls,Regular Season,3.3,0.491,3.8,12,378,340,Other,Other
+Ed Davis,CLE,Cleveland Cavaliers,Regular Season,2.2,0.658,3.8,6,379,383,Other,Other
+Udonis Haslem,MIA,Miami Heat,Regular Season,1.5,0.5,3.8,4,380,406,Other,Other
+Ignas Brazdeikis,ORL,Orlando Magic,Regular Season,1.8,0.322,3.7,9,381,399,Other,Other
+Josh Green,DAL,Dallas Mavericks,Regular Season,0.8,0.333,3.7,8,382,428,Other,Other
+D.J. Augustin,HOU,Houston Rockets,Regular Season,3.8,0.581,3.5,16,383,323,Other,Other
+Kessler Edwards,BKN,Brooklyn Nets,Regular Season,4,0.667,3.5,2,384,316,Other,Other
+Trendon Watford,POR,Portland Trail Blazers,Regular Season,2,0.5,3.5,1,385,389,Other,Other
+Gabriel Deck,OKC,Oklahoma City Thunder,Regular Season,2.2,0.698,3.5,5,386,381,Other,Other
+Serge Ibaka,LAC,Los Angeles Clippers,Regular Season,1.8,0.21,3.3,4,387,398,Other,Other
+Isaiah Jackson,IND,Indiana Pacers,Regular Season,1,0.255,3.2,3,388,422,Other,Other
+Day'Ron Sharpe,BKN,Brooklyn Nets,Regular Season,2.6,0.547,3.1,8,389,369,Other,Other
+Tomas Satoransky,NOP,New Orleans Pelicans,Regular Season,2.7,0.365,3.1,15,390,363,Other,Other
+Jahmi'us Ramsey,SAC,Sacramento Kings,Regular Season,1.4,0.394,3,5,391,411,Other,Other
+Nathan Knight,MIN,Minnesota Timberwolves,Regular Season,1.7,0.92,2.9,7,392,403,Other,Other
+Semi Ojeleye,MIL,Milwaukee Bucks,Regular Season,3,0.335,2.9,11,393,354,Other,Other
+Justin Champagnie,TOR,Toronto Raptors,Regular Season,0.9,0.436,2.9,7,394,426,Other,Other
+Isaac Bonga,TOR,Toronto Raptors,Regular Season,0.7,1,2.8,3,395,430,Other,Other
+Trent Forrest,UTA,Utah Jazz,Regular Season,1.2,0.651,2.8,12,396,416,Other,Other
+Markus Howard,DEN,Denver Nuggets,Regular Season,1.5,0.304,2.8,8,397,407,Other,Other
+Denzel Valentine,CLE,Cleveland Cavaliers,Regular Season,2,0.364,2.7,12,398,385,Other,Other
+Jared Butler,UTA,Utah Jazz,Regular Season,1.4,0.33,2.7,12,399,408,Other,Other
+Oshae Brissett,IND,Indiana Pacers,Regular Season,3.1,0.445,2.4,11,400,343,Other,Other
+RJ Nembhard,CLE,Cleveland Cavaliers,Regular Season,1,1,2.3,2,401,419,Other,Other
+Gary Harris,ORL,Orlando Magic,Regular Season,5.8,0.418,2.3,13,402,263,Other,Other
+Moses Brown,DAL,Dallas Mavericks,Regular Season,1,0.647,2.2,6,403,425,Other,Other
+Moses Moody,GSW,Golden State Warriors,Regular Season,1.6,0.428,2.2,14,404,405,Other,Other
+JaQuori McLaughlin,DAL,Dallas Mavericks,Regular Season,0,NA,2,1,405,454,Other,Other
+Joel Ayayi,WAS,Washington Wizards,Regular Season,0,NA,2,3,406,447,Other,Other
+Robert Woodard,SAC,Sacramento Kings,Regular Season,0,NA,2,1,407,465,Other,Other
+Ish Wainright,PHX,Phoenix Suns,Regular Season,1,0.333,2,2,408,424,Other,Other
+Payton Pritchard,BOS,Boston Celtics,Regular Season,1.8,0.331,1.9,17,409,397,Other,Other
+Jalen Johnson,ATL,Atlanta Hawks,Regular Season,2,0.643,1.9,7,410,390,Other,Other
+Killian Tillie,MEM,Memphis Grizzlies,Regular Season,0.6,0.136,1.9,5,411,434,Other,Other
+Omer Yurtseven,MIA,Miami Heat,Regular Season,1.7,0.603,1.9,11,412,402,Other,Other
+Theo Maledon,OKC,Oklahoma City Thunder,Regular Season,2.6,0.321,1.9,10,413,364,Other,Other
+Tony Snell,POR,Portland Trail Blazers,Regular Season,1.2,0.417,1.9,13,414,414,Other,Other
+Timothe Luwawu-Cabarrot,ATL,Atlanta Hawks,Regular Season,1.3,0.454,1.9,12,415,413,Other,Other
+Jamorko Pickett,DET,Detroit Pistons,Regular Season,1,1.5,1.8,3,416,418,Other,Other
+Joshua Primo,SAS,San Antonio Spurs,Regular Season,1.7,1.25,1.8,3,417,401,Other,Other
+Sandro Mamukelashvili,MIL,Milwaukee Bucks,Regular Season,2.4,0.548,1.8,8,418,371,Other,Other
+Chandler Hutchison,PHX,Phoenix Suns,Regular Season,0.7,1,1.7,3,419,432,Other,Other
+Alize Johnson,CHI,Chicago Bulls,Regular Season,2.3,0.608,1.6,12,420,379,Other,Other
+KZ Okpala,MIA,Miami Heat,Regular Season,1.4,0.346,1.5,8,421,410,Other,Other
+Skylar Mays,ATL,Atlanta Hawks,Regular Season,2,0.972,1.5,7,422,387,Other,Other
+Ben McLemore,POR,Portland Trail Blazers,Regular Season,3.8,0.598,1.4,5,423,320,Other,Other
+Tacko Fall,CLE,Cleveland Cavaliers,Regular Season,0.4,0.399,1.4,7,424,439,Other,Other
+Petr Cornelie,DEN,Denver Nuggets,Regular Season,0,0,1.4,4,425,456,Other,Other
+Duane Washington,IND,Indiana Pacers,Regular Season,2.5,0.833,1.3,2,426,370,Other,Other
+Jericho Sims,NYK,New York Knicks,Regular Season,0.5,0.798,1.2,6,427,435,Other,Other
+Quentin Grimes,NYK,New York Knicks,Regular Season,1.8,0.75,1.2,5,428,395,Other,Other
+Aaron Nesmith,BOS,Boston Celtics,Regular Season,2.3,0.386,1.1,16,429,377,Other,Other
+Marcus Garrett,MIA,Miami Heat,Regular Season,0,0,1.1,4,430,464,Other,Other
+Marko Simonovic,CHI,Chicago Bulls,Regular Season,1,0.266,1,1,431,420,Other,Other
+DeJon Jarreau,IND,Indiana Pacers,Regular Season,0,NA,1,1,432,457,Other,Other
+Vlatko Cancar,DEN,Denver Nuggets,Regular Season,1,0.568,1,1,433,421,Other,Other
+Juan Hernangomez,BOS,Boston Celtics,Regular Season,1,0.34,0.8,11,434,423,Other,Other
+CJ Elleby,POR,Portland Trail Blazers,Regular Season,1.1,0.346,0.6,8,435,417,Other,Other
+Sharife Cooper,ATL,Atlanta Hawks,Regular Season,0.4,0.25,0.6,5,436,438,Other,Other
+Leandro Bolmaro,MIN,Minnesota Timberwolves,Regular Season,1.4,0.536,0.6,7,437,409,Other,Other
+Vernon Carey,CHA,Charlotte Hornets,Regular Season,0,0,0.5,1,438,460,Other,Other
+Vit Krejci,OKC,Oklahoma City Thunder,Regular Season,0.7,0.347,0.5,3,439,433,Other,Other
+Matt Thomas,CHI,Chicago Bulls,Regular Season,1.2,0.25,0.4,6,440,415,Other,Other
+Jake Layman,MIN,Minnesota Timberwolves,Regular Season,0.8,0.278,0.3,6,441,429,Other,Other
+Marcos Louzada Silva,NOP,New Orleans Pelicans,Regular Season,0,0,0.3,2,442,461,Other,Other
+Joe Wieskamp,SAS,San Antonio Spurs,Regular Season,3,1.5,0,1,443,350,Other,Other
+Keon Johnson,LAC,Los Angeles Clippers,Regular Season,0,NA,0,1,444,463,Other,Other
+Udoka Azubuike,UTA,Utah Jazz,Regular Season,0.5,1,-0.1,4,445,437,Other,Other
+Elijah Hughes,UTA,Utah Jazz,Regular Season,0.5,0.347,-0.4,4,446,436,Other,Other
+Miye Oni,UTA,Utah Jazz,Regular Season,0.3,0.41,-0.6,8,447,440,Other,Other
+Malik Fitts,UTA,Utah Jazz,Regular Season,0,NA,-0.7,3,448,455,Other,Other
+Georgios Kalaitzakis,MIL,Milwaukee Bucks,Regular Season,1.9,0.481,-0.7,7,449,391,Other,Other
+Kevin Pangos,CLE,Cleveland Cavaliers,Regular Season,0.7,0.515,-0.8,6,450,431,Other,Other
+Miles McBride,NYK,New York Knicks,Regular Season,0,0,-0.8,5,451,466,Other,Other
+Yves Pons,MEM,Memphis Grizzlies,Regular Season,0,0,-1,1,452,442,Other,Other
+Wayne Selden,NYK,New York Knicks,Regular Season,0,NA,-1,1,453,443,Other,Other
+James Bouknight,CHA,Charlotte Hornets,Regular Season,0,0,-1.3,6,454,444,Other,Other
+Bruno Fernando,BOS,Boston Celtics,Regular Season,0,NA,-1.3,7,455,445,Other,Other
+JT Thor,CHA,Charlotte Hornets,Regular Season,0,NA,-1.3,2,456,446,Other,Other
+McKinley Wright,MIN,Minnesota Timberwolves,Regular Season,3,1.5,-1.5,1,457,355,Other,Other
+David Johnson,TOR,Toronto Raptors,Regular Season,0,NA,-1.5,1,458,448,Other,Other
+Kai Jones,CHA,Charlotte Hornets,Regular Season,0,NA,-1.8,5,459,449,Other,Other
+Kevin Knox,NYK,New York Knicks,Regular Season,0.3,0.568,-2,3,460,441,Other,Other
+Brodric Thomas,BOS,Boston Celtics,Regular Season,0,NA,-2.3,2,461,450,Other,Other
+Sam Hauser,BOS,Boston Celtics,Regular Season,0,0,-2.3,2,462,451,Other,Other
+Sam Dekker,TOR,Toronto Raptors,Regular Season,0,NA,-2.5,1,463,452,Other,Other
+Jeff Dowtin,GSW,Golden State Warriors,Regular Season,0,0,-2.5,1,464,453,Other,Other
+Aaron Henry,PHI,Philadelphia 76ers,Regular Season,0,0,-3,1,465,458,Other,Other
+Jaden Springer,PHI,Philadelphia 76ers,Regular Season,0,NA,-3,1,466,459,Other,Other

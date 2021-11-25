@@ -1,77 +1,64 @@
 player,team_acronym,team,date,status,injury,description,team_active_injuries,scrape_date
-Brook Lopez,MIL,Milwaukee Bucks,"Thu, Nov 18, 2021",Day To Day,Back,Lopez did not play in Wednesday's game (Nov. 17) against the Lakers.,2,2021-11-19
-Donte DiVincenzo,MIL,Milwaukee Bucks,"Mon, Oct 25, 2021",Out,Foot,"DiVincenzo is still without a timetable to return from a foot injury suffered last season, according to head coach Mike Budenholzer.",2,2021-11-19
-Yuta Watanabe,TOR,Toronto Raptors,"Tue, Nov 16, 2021",Out,Calf,Watanabe has not played due to a left calf strain this season and no timetable has been announced for his return.,3,2021-11-19
-OG Anunoby,TOR,Toronto Raptors,"Thu, Nov 18, 2021",Out,Hip,"Raptors coach Nick Nurse said it ""could be a awhile"" until Anunoby returns.",3,2021-11-19
-Precious Achiuwa,TOR,Toronto Raptors,"Thu, Nov 18, 2021",Out,Shoulder,Achiuwa is out for Thursday's (Nov. 18) game against Utah.,3,2021-11-19
-Robert Williams,BOS,Boston Celtics,"Thu, Nov 18, 2021",Day To Day,Knee,Williams III is questionable for Friday's (Nov. 19) game against the Lakers.,2,2021-11-19
-Jaylen Brown,BOS,Boston Celtics,"Thu, Nov 18, 2021",Day To Day,Leg,Brown is questionable for Friday's (Nov. 19) game against the Lakers.,2,2021-11-19
-T.J. Warren,IND,Indiana Pacers,"Mon, Nov 8, 2021",Out,Foot,"There's optimism that Warren will be able to play in late December or January, according to Shams Charania of The Athletic.",2,2021-11-19
-Chris Duarte,IND,Indiana Pacers,"Thu, Nov 18, 2021",Day To Day,Ankle,Duarte is listed as QUESTIONABLE for Friday's (Nov. 19) game.,2,2021-11-19
-Victor Oladipo,MIA,Miami Heat,"Thu, Sep 23, 2021",Out,Right Knee,"Oladipo has yet to be cleared for full-court work, according to David Aldridge of The Athletic.",3,2021-11-19
-Markieff Morris,MIA,Miami Heat,"Thu, Nov 18, 2021",Out,Neck,Morris is out for Thursday's (Nov. 18) game against Washington.,3,2021-11-19
-Tyler Herro,MIA,Miami Heat,"Thu, Nov 18, 2021",Out,Wrist,Herro is OUT for Thursday's (Nov. 18) game against Washington.,3,2021-11-19
-Matisse Thybulle,PHI,Philadelphia 76ers,"Wed, Nov 17, 2021",Out,Health and Safety Protocols,Thybulle is out for Thursday's (Nov. 18) game against Denver.,5,2021-11-19
-Ben Simmons,PHI,Philadelphia 76ers,"Thu, Oct 21, 2021",Out,Back,"Simmons is not expected to play for an undetermined period of time, according to Shams Charania of The Athletic.",5,2021-11-19
-Grant Riller,PHI,Philadelphia 76ers,"Wed, Oct 20, 2021",Out,Knee,Riller is expected to require several weeks of recovery after undergoing surgery on his left knee.,5,2021-11-19
-Danny Green,PHI,Philadelphia 76ers,"Wed, Nov 17, 2021",Out,Hamstring,Green is out for Thursday's (Nov. 18) game against Denver.,5,2021-11-19
-Joel Embiid,PHI,Philadelphia 76ers,"Wed, Nov 17, 2021",Out,Health and safety protocols,Embiid is out for Thursday's (Nov. 18) game against Denver.,5,2021-11-19
-Paul Millsap,BKN,Brooklyn Nets,"Thu, Nov 18, 2021",Out,Personal,Millsap is out for Friday's (Nov. 19) game against Orlando.,4,2021-11-19
-Kyrie Irving,BKN,Brooklyn Nets,"Sat, Oct 23, 2021",Out,Not With Team,Irving is not with the Nets and there's currently no timetable for when he may return to the team.,4,2021-11-19
-Joe Harris,BKN,Brooklyn Nets,"Thu, Nov 18, 2021",Out,Ankle,Harris is out for Friday's (Nov. 19) game against Orlando.,4,2021-11-19
-Nicolas Claxton,BKN,Brooklyn Nets,"Wed, Nov 17, 2021",Out,Illness,Nets coach Steve Nash said there's still no timetable for Claxton's return.,4,2021-11-19
-Jalen Suggs,ORL,Orlando Magic,"Thu, Nov 18, 2021",Day To Day,Quad,Suggs is questionable for Friday's (Nov. 19) game against Brooklyn.,5,2021-11-19
-E'Twaun Moore,ORL,Orlando Magic,"Tue, Nov 16, 2021",Out,Knee,Moore has not played this season and no timetable has been announced for his return.,5,2021-11-19
-Jonathan Isaac,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Isaac is making progress with his rehab but is still without a timetable to return, according to David Aldridge of The Athletic.",5,2021-11-19
-Markelle Fultz,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Fultz is still without a timetable to return from ACL surgery, according to head coach Jamahl Mosley.",5,2021-11-19
-Michael Carter-Williams,ORL,Orlando Magic,"Fri, Oct 29, 2021",Out,Left Ankle,Carter-Williams had surgery on his left ankle back in late August and no timetable has been announced for his return.,5,2021-11-19
-P.J. Washington,CHA,Charlotte Hornets,"Thu, Nov 18, 2021",Out,Elbow,Washington is out for Friday's (Nov. 19) game against Indiana.,1,2021-11-19
-Rui Hachimura,WAS,Washington Wizards,"Fri, Oct 29, 2021",Out,Not With Team,Hachimura is listed as OUT until further notice.,6,2021-11-19
-Daniel Gafford,WAS,Washington Wizards,"Thu, Nov 18, 2021",Out,Thumb,Gafford is listed as OUT for Thursday's (Nov. 18) game.,6,2021-11-19
-Spencer Dinwiddie,WAS,Washington Wizards,"Thu, Nov 18, 2021",Out,Rest,Dinwiddie is out for Thursday's (Nov. 18) game against Miami.,6,2021-11-19
-Thomas Bryant,WAS,Washington Wizards,"Mon, Oct 25, 2021",Out,Left Knee,"Bryant is without a timeline to return to action following ACL surgery in February, according to Shams Charania of The Athletic.",6,2021-11-19
-Dāvis Bertāns,WAS,Washington Wizards,"Mon, Nov 15, 2021",Out,Ankle,"Bertans remains at least a week away from returning to game action, according to Josh Robbins of The Athletic.",6,2021-11-19
-Daniel Gafford,WAS,Washington Wizards,"Thu, Nov 18, 2021",Day To Day,Thumb,Gafford is questionable for Thursday's (Nov. 18) game against Miami.,6,2021-11-19
-Patrick Williams,CHI,Chicago Bulls,"Fri, Oct 29, 2021",Out,Left Wrist,"Williams is expected to miss the rest of the regular season with a dislocated wrist, according to Adrian Wojnarowski of ESPN.",4,2021-11-19
-Nikola Vučević,CHI,Chicago Bulls,"Thu, Nov 11, 2021",Out,Health and safety protocols,Vucevic is in the NBA's COVID-19 health and safety protocols and is expected to miss multiple games.,4,2021-11-19
-Javonte Green,CHI,Chicago Bulls,"Thu, Nov 18, 2021",Day To Day,Ankle,Green is probable for Friday's (Nov. 19) game against Denver.,4,2021-11-19
-Alex Caruso,CHI,Chicago Bulls,"Thu, Nov 18, 2021",Day To Day,Wrist,Caruso is probable for Friday's (Nov. 19) game against Denver.,4,2021-11-19
-Nerlens Noel,NYK,New York Knicks,"Thu, Nov 18, 2021",Day To Day,Knee,Noel did not play in Wednesday's game (Nov. 17) against the Magic.,1,2021-11-19
-Kelly Olynyk,DET,Detroit Pistons,"Fri, Nov 12, 2021",Out,Knee,The Pistons announced that Olynyk suffered a grade-2 MCL sprain in his left knee and will miss at least six weeks.,2,2021-11-19
-Isaiah Livers,DET,Detroit Pistons,"Thu, Nov 18, 2021",Day To Day,Conditioning,Livers did not play in Wednesday's game against the Pacers.,2,2021-11-19
-Onyeka Okongwu,ATL,Atlanta Hawks,"Wed, Jul 21, 2021",Out,Shoulder,The Hawks announced that Okongwu will miss about six months after undergoing surgery on his right shoulder.,2,2021-11-19
-De'Andre Hunter,ATL,Atlanta Hawks,"Sun, Nov 14, 2021",Out,Wrist,The Hawks announced that Hunter had surgery on his right wrist and is expected to return in approximately 8 weeks.,2,2021-11-19
-Lamar Stevens,CLE,Cleveland Cavaliers,"Thu, Nov 18, 2021",Out,Ankle,Stevens is out for Thursday's (Nov. 18) game against Golden State.,6,2021-11-19
-Collin Sexton,CLE,Cleveland Cavaliers,"Mon, Nov 8, 2021",Out,Knee,"Sexton suffered a torn meniscus in his left knee and is expected to have an extended absence, according to Adrian Wojnarowski of ESPN.",6,2021-11-19
-Cedi Osman,CLE,Cleveland Cavaliers,"Thu, Nov 18, 2021",Out,Back,Osman is listed as OUT for Thursday's (Nov. 18) game.,6,2021-11-19
-Evan Mobley,CLE,Cleveland Cavaliers,"Tue, Nov 16, 2021",Out,Elbow,The Cavs announced that Mobley will miss the next 2-4 weeks with a right elbow sprain.,6,2021-11-19
-Lauri Markkanen,CLE,Cleveland Cavaliers,"Thu, Nov 18, 2021",Out,Health and Safety Protocols,Markkanen is out for Thursday's (Nov. 18) game against Golden State.,6,2021-11-19
-Jarrett Allen,CLE,Cleveland Cavaliers,"Thu, Nov 18, 2021",Out,Illness,Allen is out for Thursday's (Nov. 18) game against Golden State.,6,2021-11-19
-Austin Reaves,LAL,Los Angeles Lakers,"Thu, Nov 11, 2021",Out,Hamstring,The Lakers announced that Reaves will be out for at least two weeks with a strained hamstring.,5,2021-11-19
-Kendrick Nunn,LAL,Los Angeles Lakers,"Tue, Nov 16, 2021",Out,Knee,The Lakers announced that Nunn is still dealing with a right knee bone bruise and there is no timetable for his return.,5,2021-11-19
-LeBron James,LAL,Los Angeles Lakers,"Thu, Nov 18, 2021",Day To Day,Abdominal,James is questionable for Friday's (Nov. 19) game against Boston.,5,2021-11-19
-Anthony Davis,LAL,Los Angeles Lakers,"Thu, Nov 18, 2021",Day To Day,Thigh,Davis is probable for Friday's (Nov. 19) game against Boston.,5,2021-11-19
-Trevor Ariza,LAL,Los Angeles Lakers,"Wed, Oct 6, 2021",Out,Ankle,The Lakers announced F Trevor Ariza underwent surgery on his right ankle and will be re-evaluated in eight weeks.,5,2021-11-19
-Justise Winslow,LAC,Los Angeles Clippers,"Wed, Nov 17, 2021",Out,Personal,Winslow is out for Thursday's (Nov. 18) game against Memphis.,6,2021-11-19
-Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",6,2021-11-19
-Marcus Morris,LAC,Los Angeles Clippers,"Wed, Nov 17, 2021",Out,Rest,Morris Sr. is out for Thursday's (Nov. 18) game against Memphis.,6,2021-11-19
-Kawhi Leonard,LAC,Los Angeles Clippers,"Tue, Sep 28, 2021",Out,Right Knee,Leonard underwent surgery in July on his right ACL and there remains no timetable for his return this season.,6,2021-11-19
-Keon Johnson,LAC,Los Angeles Clippers,"Wed, Nov 17, 2021",Out,Ankle,Johnson is out for Thursday's (Nov. 18) game against Memphis.,6,2021-11-19
-Nicolas Batum,LAC,Los Angeles Clippers,"Thu, Nov 18, 2021",Out,Achilles,Batum is OUT for Thursday's (Nov. 18) game against Memphis.,6,2021-11-19
-Michael Porter,DEN,Denver Nuggets,"Tue, Nov 9, 2021",Out,Back,Nuggets coach Mike Malone said Porter Jr. is out for the foreseeable future.,3,2021-11-19
-Zeke Nnaji,DEN,Denver Nuggets,"Wed, Nov 17, 2021",Out,Ankle,Nnaji is out for Thursday's (Nov. 18) game against Philadelphia.,3,2021-11-19
-Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,3,2021-11-19
-Kevin Porter,HOU,Houston Rockets,"Thu, Nov 18, 2021",Day To Day,Thigh,Porter Jr. did not play in Wednesday's game (Nov. 17) against the Thunder.,1,2021-11-19
-Maxi Kleber,DAL,Dallas Mavericks,"Thu, Nov 18, 2021",Out,Back,Kleber is out for Friday's (Nov. 19) game against Phoenix.,2,2021-11-19
-Luka Dončić,DAL,Dallas Mavericks,"Thu, Nov 18, 2021",Day To Day,Knee/Ankle,Doncic is doubtful for Friday's (Nov. 19) game against Phoenix.,2,2021-11-19
-Dario Šarić,PHX,Phoenix Suns,"Wed, Jul 7, 2021",Out,Knee,The Suns announced that Sario has a torn ACL in his right knee.,2,2021-11-19
-Frank Kaminsky,PHX,Phoenix Suns,"Thu, Nov 18, 2021",Out,Knee,Kaminsky is listed as OUT for Friday's (Nov. 19) game.,2,2021-11-19
-Jock Landale,SAS,San Antonio Spurs,"Wed, Nov 17, 2021",Out,Health Protocols,Landale is out for Thursday's (Nov. 18) game against Minnesota.,2,2021-11-19
-Zach Collins,SAS,San Antonio Spurs,"Sat, Oct 2, 2021",Out,Ankle,"Spurs coach Gregg Popovich said the timetable for Collins to return is ""after Christmas.""",2,2021-11-19
-Zion Williamson,NOP,New Orleans Pelicans,"Mon, Nov 1, 2021",Out,Foot,Pelicans coach Willie Green said Williamson will miss at least 2-3 more weeks before being cleared to practice.,2,2021-11-19
-Daulton Hommes,NOP,New Orleans Pelicans,"Thu, Nov 18, 2021",Day To Day,Leg,Hommes did not play in Wednesday's game (Nov. 17) against the Heat.,2,2021-11-19
-Naz Reid,MIN,Minnesota Timberwolves,"Thu, Nov 18, 2021",Out,Foot,Reid is listed as OUT for Thursday's (Nov. 18) game.,2,2021-11-19
-Josh Okogie,MIN,Minnesota Timberwolves,"Thu, Nov 18, 2021",Out,Back,Okogie is OUT for Thursday's (Nov. 18) game against San Antonio.,2,2021-11-19
-James Wiseman,GSW,Golden State Warriors,"Mon, Nov 1, 2021",Out,Knee,"The Warriors announced that Wiseman has been cleared to participate in full team practices, but a timetable for his return to game action has not been determined.",3,2021-11-19
-Klay Thompson,GSW,Golden State Warriors,"Thu, Oct 14, 2021",Out,Right Achilles,"Thompson is expected to return to practice with a month, according to Shams Charania of The Athletic.",3,2021-11-19
-Andre Iguodala,GSW,Golden State Warriors,"Wed, Nov 17, 2021",Out,Rest,Iguodala is out for Thursday's (Nov. 18) game against Cleveland.,3,2021-11-19
+De'Andre Hunter,ATL,Atlanta Hawks,"Sun, Nov 14, 2021",Out,Wrist,The Hawks announced that Hunter had surgery on his right wrist and is expected to return in approximately 8 weeks.,2,2021-11-25
+Onyeka Okongwu,ATL,Atlanta Hawks,"Wed, Jul 21, 2021",Out,Shoulder,The Hawks announced that Okongwu will miss about six months after undergoing surgery on his right shoulder.,2,2021-11-25
+Josh Richardson,BOS,Boston Celtics,"Wed, Nov 24, 2021",Out,Illness,The Celtics have listed Richardson as OUT for Wednesday's game (Nov. 24) against the Nets.,2,2021-11-25
+Robert Williams,BOS,Boston Celtics,"Wed, Nov 24, 2021",Out,Illness,Williams is listed as OUT for Wednesday's (Nov. 24) game.,2,2021-11-25
+Bruce Brown,BKN,Brooklyn Nets,"Tue, Nov 23, 2021",Out,Hamstring,The Nets have listed Brown as OUT for Wednesday's game (Nov. 24) against the Celtics.,5,2021-11-25
+Nicolas Claxton,BKN,Brooklyn Nets,"Sun, Nov 21, 2021",Out,Illness,Nets coach Steve Nash said Claxton could need another two weeks to recover.,5,2021-11-25
+David Duke,BKN,Brooklyn Nets,"Tue, Nov 23, 2021",Out,Hip,The Nets have listed Duke Jr. as OUT for Wednesday's game (Nov. 24) against the Celtics.,5,2021-11-25
+Joe Harris,BKN,Brooklyn Nets,"Tue, Nov 23, 2021",Out,Ankle,The Nets have listed Harris as OUT for Wednesday's game (Nov. 24) against the Celtics.,5,2021-11-25
+Kyrie Irving,BKN,Brooklyn Nets,"Sat, Oct 23, 2021",Out,Not With Team,Irving is not with the Nets and there's currently no timetable for when he may return to the team.,5,2021-11-25
+Patrick Williams,CHI,Chicago Bulls,"Fri, Oct 29, 2021",Out,Left Wrist,"Williams is expected to miss the rest of the regular season with a dislocated wrist, according to Adrian Wojnarowski of ESPN.",1,2021-11-25
+Evan Mobley,CLE,Cleveland Cavaliers,"Tue, Nov 16, 2021",Out,Elbow,The Cavs announced that Mobley will miss the next 2-4 weeks with a right elbow sprain.,3,2021-11-25
+Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",3,2021-11-25
+Lamar Stevens,CLE,Cleveland Cavaliers,"Tue, Nov 23, 2021",Out,Ankle,The Cavs have listed Stevens as OUT for Wednesday's game (Nov. 24) against the Suns.,3,2021-11-25
+Reggie Bullock,DAL,Dallas Mavericks,"Wed, Nov 24, 2021",Day To Day,Illness,Bullock did not play in Tuesday's game (Nov. 23).,2,2021-11-25
+Frank Ntilikina,DAL,Dallas Mavericks,"Wed, Nov 24, 2021",Day To Day,Calf,Ntilikina did not play in Tuesday's game (Nov. 23).,2,2021-11-25
+PJ Dozier,DEN,Denver Nuggets,"Wed, Nov 24, 2021",Out Indefinitely,ACL,The Nuggets announced F PJ Dozier has a torn anterior cruciate ligament in his left knee and is out indefinitely.,5,2021-11-25
+Bones Hyland,DEN,Denver Nuggets,"Wed, Nov 24, 2021",Day To Day,Ankle,Hyland did not play in Tuesday's game (Nov. 23).,5,2021-11-25
+Nikola Jokić,DEN,Denver Nuggets,"Wed, Nov 24, 2021",Day To Day,Wrist,Jokic did not play in Tuesday's game (Nov. 23).,5,2021-11-25
+Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,5,2021-11-25
+Michael Porter,DEN,Denver Nuggets,"Tue, Nov 9, 2021",Out,Back,Nuggets coach Mike Malone said Porter Jr. is out for the foreseeable future.,5,2021-11-25
+Killian Hayes,DET,Detroit Pistons,"Mon, Nov 22, 2021",Out,Thumb,"Hayes will miss at least the next two games, according to Keith Langlois of Pistons.com.",2,2021-11-25
+Kelly Olynyk,DET,Detroit Pistons,"Fri, Nov 12, 2021",Out,Knee,The Pistons announced that Olynyk suffered a grade-2 MCL sprain in his left knee and will miss at least six weeks.,2,2021-11-25
+Andre Iguodala,GSW,Golden State Warriors,"Tue, Nov 23, 2021",Out,Knee,The Warriors have listed Iguodala as OUT for Wednesday's game (Nov. 24) against the 76ers.,3,2021-11-25
+Klay Thompson,GSW,Golden State Warriors,"Sun, Nov 21, 2021",Out,Right Achilles,"Thompson has been cleared to be a full participant in all Warriors practices, according to Shams Charania of The Athletic.",3,2021-11-25
+James Wiseman,GSW,Golden State Warriors,"Mon, Nov 1, 2021",Out,Knee,"The Warriors announced that Wiseman has been cleared to participate in full team practices, but a timetable for his return to game action has not been determined.",3,2021-11-25
+T.J. Warren,IND,Indiana Pacers,"Mon, Nov 8, 2021",Out,Foot,"There's optimism that Warren will be able to play in late December or January, according to Shams Charania of The Athletic.",1,2021-11-25
+Nicolas Batum,LAC,Los Angeles Clippers,"Sun, Nov 21, 2021",Out,Health and Safety Protocols,The Clippers announced that Batum is expected to be out a while as he goes through the league's health and safety protocols.,3,2021-11-25
+Kawhi Leonard,LAC,Los Angeles Clippers,"Tue, Sep 28, 2021",Out,Right Knee,Leonard underwent surgery in July on his right ACL and there remains no timetable for his return this season.,3,2021-11-25
+Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",3,2021-11-25
+Trevor Ariza,LAL,Los Angeles Lakers,"Wed, Oct 6, 2021",Out,Ankle,The Lakers announced F Trevor Ariza underwent surgery on his right ankle and will be re-evaluated in eight weeks.,3,2021-11-25
+Kendrick Nunn,LAL,Los Angeles Lakers,"Tue, Nov 16, 2021",Out,Knee,The Lakers announced that Nunn is still dealing with a right knee bone bruise and there is no timetable for his return.,3,2021-11-25
+Austin Reaves,LAL,Los Angeles Lakers,"Wed, Nov 24, 2021",Out,Hamstring,Reaves is listed as OUT for Wednesday's (Nov. 24) game.,3,2021-11-25
+De'Anthony Melton,MEM,Memphis Grizzlies,"Tue, Nov 23, 2021",Out,Groin,The Grizzlies have listed Melton as OUT for Wednesday's game (Nov. 24) against the Raptors.,2,2021-11-25
+Sam Merrill,MEM,Memphis Grizzlies,"Tue, Nov 23, 2021",Out,Ankle,The Grizzlies have listed Merrill as OUT for Wednesday's game (Nov. 24) against the Raptors.,2,2021-11-25
+Marcus Garrett,MIA,Miami Heat,"Wed, Nov 24, 2021",Day To Day,Wrist,Garrett did not play in Tuesday's game (Nov. 23).,3,2021-11-25
+Markieff Morris,MIA,Miami Heat,"Wed, Nov 24, 2021",Out,Neck,"Morris is not expected to be available until at least the team returns from its road trip on Nov. 29, according to Ira Winderman of the South Florida Sun Sentinel.",3,2021-11-25
+Victor Oladipo,MIA,Miami Heat,"Thu, Sep 23, 2021",Out,Right Knee,"Oladipo has yet to be cleared for full-court work, according to David Aldridge of The Athletic.",3,2021-11-25
+Donte DiVincenzo,MIL,Milwaukee Bucks,"Mon, Oct 25, 2021",Out,Foot,"DiVincenzo is still without a timetable to return from a foot injury suffered last season, according to head coach Mike Budenholzer.",3,2021-11-25
+Brook Lopez,MIL,Milwaukee Bucks,"Wed, Nov 24, 2021",Out,Back,Lopez has not played since the Bucks' first game of the season and no timetable has been announced for his return.,3,2021-11-25
+Semi Ojeleye,MIL,Milwaukee Bucks,"Tue, Nov 23, 2021",Out,Calf,The Bucks have listed Ojeleye as OUT for Wednesday's game (Nov. 24) against the Pistons.,3,2021-11-25
+Daulton Hommes,NOP,New Orleans Pelicans,"Tue, Nov 23, 2021",Out,Leg,The Pelicans have listed Hommes as OUT for Wednesday's game (Nov. 24) against the Wizards.,2,2021-11-25
+Zion Williamson,NOP,New Orleans Pelicans,"Mon, Nov 1, 2021",Out,Foot,Pelicans coach Willie Green said Williamson will miss at least 2-3 more weeks before being cleared to practice.,2,2021-11-25
+Taj Gibson,NYK,New York Knicks,"Wed, Nov 24, 2021",Day To Day,Groin,Gibson did not play in Tuesday's game (Nov. 23).,3,2021-11-25
+Mitchell Robinson,NYK,New York Knicks,"Wed, Nov 24, 2021",Day To Day,Concussion Protocol,Robinson did not play in Tuesday's game (Nov. 23).,3,2021-11-25
+Derrick Rose,NYK,New York Knicks,"Wed, Nov 24, 2021",Day To Day,Ankle,Rose did not play in Tuesday's game (Nov. 23).,3,2021-11-25
+Shai Gilgeous-Alexander,OKC,Oklahoma City Thunder,"Tue, Nov 23, 2021",Out,Ankle,The Thunder have listed Gilgeous-Alexander as OUT for Wednesday's game (Nov. 24) against the Jazz.,1,2021-11-25
+Cole Anthony,ORL,Orlando Magic,"Tue, Nov 23, 2021",Day To Day,Ankle,Anthony did not play in Monday's game (Nov. 22).,5,2021-11-25
+Michael Carter-Williams,ORL,Orlando Magic,"Fri, Oct 29, 2021",Out,Left Ankle,Carter-Williams had surgery on his left ankle back in late August and no timetable has been announced for his return.,5,2021-11-25
+Markelle Fultz,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Fultz is still without a timetable to return from ACL surgery, according to head coach Jamahl Mosley.",5,2021-11-25
+Jonathan Isaac,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Isaac is making progress with his rehab but is still without a timetable to return, according to David Aldridge of The Athletic.",5,2021-11-25
+E'Twaun Moore,ORL,Orlando Magic,"Tue, Nov 16, 2021",Out,Knee,Moore has not played this season and no timetable has been announced for his return.,5,2021-11-25
+Joel Embiid,PHI,Philadelphia 76ers,"Tue, Nov 23, 2021",Out,Health and Safety Protocols,The 76ers have listed Embiid as OUT for Wednesday's game (Nov. 24) against the Warriors.,3,2021-11-25
+Tobias Harris,PHI,Philadelphia 76ers,"Wed, Nov 24, 2021",Out,Hip,The 76ers have listed Harris as OUT for Wednesday's game (Nov. 24) against the Warriors.,3,2021-11-25
+Ben Simmons,PHI,Philadelphia 76ers,"Thu, Oct 21, 2021",Out,Back,"Simmons is not expected to play for an undetermined period of time, according to Shams Charania of The Athletic.",3,2021-11-25
+Frank Kaminsky,PHX,Phoenix Suns,"Sun, Nov 21, 2021",Out,Knee,The Suns announced that Kaminsky is out indefinitely with a stress reaction in his right knee.,3,2021-11-25
+Abdel Nader,PHX,Phoenix Suns,"Wed, Nov 24, 2021",Out,Knee,The Suns have listed Nader as OUT for Wednesday's game (Nov. 24) against the Cavs.,3,2021-11-25
+Dario Šarić,PHX,Phoenix Suns,"Wed, Jul 7, 2021",Out,Knee,The Suns announced that Sario has a torn ACL in his right knee.,3,2021-11-25
+Anfernee Simons,POR,Portland Trail Blazers,"Wed, Nov 24, 2021",Out,Illness,Simons is listed as OUT for Wednesday's (Nov. 24) game.,1,2021-11-25
+Zach Collins,SAS,San Antonio Spurs,"Sat, Oct 2, 2021",Out,Ankle,"Spurs coach Gregg Popovich said the timetable for Collins to return is ""after Christmas.""",2,2021-11-25
+Doug McDermott,SAS,San Antonio Spurs,"Tue, Nov 23, 2021",Day To Day,Knee,The Spurs have listed McDermott as QUESTIONABLE for Wednesday's game (Nov. 24) against the Hawks.,2,2021-11-25
+OG Anunoby,TOR,Toronto Raptors,"Wed, Nov 24, 2021",Out,Hip,The Raptors have listed Anunoby as OUT for Wednesday's game (Nov. 24) against the Grizzlies.,1,2021-11-25
+Thomas Bryant,WAS,Washington Wizards,"Mon, Oct 25, 2021",Out,Left Knee,"Bryant is without a timeline to return to action following ACL surgery in February, according to Shams Charania of The Athletic.",2,2021-11-25
+Rui Hachimura,WAS,Washington Wizards,"Fri, Oct 29, 2021",Out,Not With Team,Hachimura is listed as OUT until further notice.,2,2021-11-25

@@ -201,35 +201,6 @@ pbp_games_yesterday <- pbp_data %>%
   distinct() %>%
   pull()
 
-contracts_value <- contracts_value %>%
-  distinct() %>%
-  group_by(player) %>%
-  mutate(salary_rank = case_when(salary >= 30000000 ~ "$30+ M",
-                                 salary >= 25000000 & salary < 30000000 ~ "$25-30 M",
-                                 salary >= 20000000 & salary < 25000000 ~ "$20-25 M",
-                                 salary >= 15000000 & salary < 20000000 ~ "$15-20 M",
-                                 salary >= 10000000 & salary < 15000000 ~ "$10-15 M",
-                                 salary >= 5000000  & salary < 10000000 ~ "$5-10 M",
-                                 TRUE ~ "< $5 M")) %>%
-  group_by(salary_rank) %>%
-  mutate(rankingish = round(percent_rank(player_mvp_calc_avg), 3),
-         pvm_rank = round(mean(player_mvp_calc_avg), 4),
-         percentile_rank = rankingish * 100) %>%
-  ungroup() %>%
-  mutate(total = n()) %>%
-  group_by(salary_rank) %>%
-  mutate(count = n()) %>%
-  ungroup() %>%
-  mutate(salary_pct_total = round((count / total), 3),
-         salary_rank = fct_reorder(salary_rank, count),
-         color_var = case_when(percentile_rank >= 60 & salary >= 30000000 ~ 'Superstars',
-                               percentile_rank >= 90 ~ 'Great Value',
-                               percentile_rank < 90 & percentile_rank >= 20 ~ 'Normal',
-                               TRUE ~ 'Bad Value'))
-
-##
-
-
 east_standings <- standings %>%
   filter(conference == 'Eastern') %>%
   select(Seed = rank, Team = team, Wins = wins, Losses = losses, `Active Injuries` = active_injuries, `Last 10 Games` = last_10) 
