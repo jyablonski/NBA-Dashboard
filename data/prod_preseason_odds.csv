@@ -1,31 +1,31 @@
 team,team_full,conference,predicted_wins,predicted_losses,projected_wins,projected_losses,championship_odds,wins_differential,predicted_stats,projected_stats,over_under
 GSW,Golden State Warriors,Western,48.5,33.5,73,9,1100,24.5,48.5 - 33.5,73 - 9,Over
-PHX,Phoenix Suns,Western,51.5,30.5,68,14,1400,16.5,51.5 - 30.5,68 - 14,Over
+PHX,Phoenix Suns,Western,51.5,30.5,69,13,1400,17.5,51.5 - 30.5,69 - 13,Over
 BKN,Brooklyn Nets,Eastern,56.5,25.5,60,22,230,3.5,56.5 - 25.5,60 - 22,Over
-UTA,Utah Jazz,Western,52.5,29.5,55,27,1400,2.5,52.5 - 29.5,55 - 27,Over
-CHI,Chicago Bulls,Eastern,42.5,39.5,52,30,12500,9.5,42.5 - 39.5,52 - 30,Over
+CHI,Chicago Bulls,Eastern,42.5,39.5,53,29,12500,10.5,42.5 - 39.5,53 - 29,Over
+UTA,Utah Jazz,Western,52.5,29.5,52,30,1400,-0.5,52.5 - 29.5,52 - 30,Under
 MIA,Miami Heat,Eastern,48.5,33.5,52,30,3500,3.5,48.5 - 33.5,52 - 30,Over
-WAS,Washington Wizards,Eastern,33.5,48.5,50,32,15000,16.5,33.5 - 48.5,50 - 32,Over
-CHA,Charlotte Hornets,Eastern,38.5,43.5,49,33,10000,10.5,38.5 - 43.5,49 - 33,Over
+WAS,Washington Wizards,Eastern,33.5,48.5,52,30,15000,18.5,33.5 - 48.5,52 - 30,Over
+CHA,Charlotte Hornets,Eastern,38.5,43.5,51,31,10000,12.5,38.5 - 43.5,51 - 31,Over
+MIL,Milwaukee Bucks,Eastern,54.5,27.5,49,33,850,-5.5,54.5 - 27.5,49 - 33,Under
 DAL,Dallas Mavericks,Western,48.5,33.5,48,34,2800,-0.5,48.5 - 33.5,48 - 34,Under
-MIL,Milwaukee Bucks,Eastern,54.5,27.5,47,35,850,-7.5,54.5 - 27.5,47 - 35,Under
-LAC,Los Angeles Clippers,Western,45.5,36.5,46,36,1600,0.5,45.5 - 36.5,46 - 36,Over
-NYK,New York Knicks,Eastern,41.5,40.5,46,36,8000,4.5,41.5 - 40.5,46 - 36,Over
-POR,Portland Trail Blazers,Western,44.5,37.5,43,39,5000,-1.5,44.5 - 37.5,43 - 39,Under
+LAC,Los Angeles Clippers,Western,45.5,36.5,47,35,1600,1.5,45.5 - 36.5,47 - 35,Over
+ATL,Atlanta Hawks,Eastern,47.5,34.5,45,37,3500,-2.5,47.5 - 34.5,45 - 37,Under
 PHI,Philadelphia 76ers,Eastern,50.5,31.5,43,39,1600,-7.5,50.5 - 31.5,43 - 39,Under
-BOS,Boston Celtics,Eastern,45.5,36.5,43,39,4000,-2.5,45.5 - 36.5,43 - 39,Under
-ATL,Atlanta Hawks,Eastern,47.5,34.5,43,39,3500,-4.5,47.5 - 34.5,43 - 39,Under
-LAL,Los Angeles Lakers,Western,52.5,29.5,41,41,425,-11.5,52.5 - 29.5,41 - 41,Under
-MIN,Minnesota Timberwolves,Western,35.5,46.5,41,41,25000,5.5,35.5 - 46.5,41 - 41,Over
-MEM,Memphis Grizzlies,Western,41.5,40.5,41,41,10000,-0.5,41.5 - 40.5,41 - 41,Under
-DEN,Denver Nuggets,Western,47.5,34.5,41,41,2200,-6.5,47.5 - 34.5,41 - 41,Under
-TOR,Toronto Raptors,Eastern,35.5,46.5,39,43,10000,3.5,35.5 - 46.5,39 - 43,Over
+NYK,New York Knicks,Eastern,41.5,40.5,43,39,8000,1.5,41.5 - 40.5,43 - 39,Over
+POR,Portland Trail Blazers,Western,44.5,37.5,41,41,5000,-3.5,44.5 - 37.5,41 - 41,Under
+BOS,Boston Celtics,Eastern,45.5,36.5,41,41,4000,-4.5,45.5 - 36.5,41 - 41,Under
+LAL,Los Angeles Lakers,Western,52.5,29.5,39,43,425,-13.5,52.5 - 29.5,39 - 43,Under
+DEN,Denver Nuggets,Western,47.5,34.5,39,43,2200,-8.5,47.5 - 34.5,39 - 43,Under
 CLE,Cleveland Cavaliers,Eastern,26.5,55.5,39,43,50000,12.5,26.5 - 55.5,39 - 43,Over
-IND,Indiana Pacers,Eastern,42.5,39.5,33,49,10000,-9.5,42.5 - 39.5,33 - 49,Under
-SAC,Sacramento Kings,Western,36.5,45.5,30,52,25000,-6.5,36.5 - 45.5,30 - 52,Under
-OKC,Oklahoma City Thunder,Western,23.5,58.5,27,55,50000,3.5,23.5 - 58.5,27 - 55,Over
-SAS,San Antonio Spurs,Western,28.5,53.5,19,63,25000,-9.5,28.5 - 53.5,19 - 63,Under
-DET,Detroit Pistons,Eastern,24.5,57.5,18,64,50000,-6.5,24.5 - 57.5,18 - 64,Under
-ORL,Orlando Magic,Eastern,22.5,59.5,17,65,50000,-5.5,22.5 - 59.5,17 - 65,Under
-NOP,New Orleans Pelicans,Western,39.5,42.5,16,66,8000,-23.5,39.5 - 42.5,16 - 66,Under
+MEM,Memphis Grizzlies,Western,41.5,40.5,39,43,10000,-2.5,41.5 - 40.5,39 - 43,Under
+MIN,Minnesota Timberwolves,Western,35.5,46.5,39,43,25000,3.5,35.5 - 46.5,39 - 43,Over
+TOR,Toronto Raptors,Eastern,35.5,46.5,37,45,10000,1.5,35.5 - 46.5,37 - 45,Over
+IND,Indiana Pacers,Eastern,42.5,39.5,35,47,10000,-7.5,42.5 - 39.5,35 - 47,Under
+SAC,Sacramento Kings,Western,36.5,45.5,33,49,25000,-3.5,36.5 - 45.5,33 - 49,Under
+OKC,Oklahoma City Thunder,Western,23.5,58.5,26,56,50000,2.5,23.5 - 58.5,26 - 56,Over
+SAS,San Antonio Spurs,Western,28.5,53.5,23,59,25000,-5.5,28.5 - 53.5,23 - 59,Under
+NOP,New Orleans Pelicans,Western,39.5,42.5,20,62,8000,-19.5,39.5 - 42.5,20 - 62,Under
+DET,Detroit Pistons,Eastern,24.5,57.5,17,65,50000,-7.5,24.5 - 57.5,17 - 65,Under
+ORL,Orlando Magic,Eastern,22.5,59.5,16,66,50000,-6.5,22.5 - 59.5,16 - 66,Under
 HOU,Houston Rockets,Western,27.5,54.5,9,73,50000,-18.5,27.5 - 54.5,9 - 73,Under

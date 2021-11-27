@@ -67,6 +67,7 @@ theme_set(theme_jacob())
 # data retrieval function
 get_data <- function(table_name){
   if (isSeasonActive == TRUE){ #& as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
+    # this csv gets fucked up with pbp data timestamp values (10:51) character -> numeric transformation.  heads up
     df <- dbReadTable(aws_connect, table_name)
     write_csv(df, paste0('data/', table_name, '.csv'))
     return(df)
