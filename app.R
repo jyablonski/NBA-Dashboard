@@ -149,7 +149,7 @@ server <- function(input, output, session) {
     
                                        
   output$recent_team_wins <- render_gt(team_gt_table(recent_games_teams))
-  
+
 
   ################
   #              #

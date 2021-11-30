@@ -88,11 +88,11 @@ jobs:
           echo aws_db="$AWS_DB" >> .Renviron
         shell: bash
 
-      - name: Check package
-        run: |
-          options(crayon.enabled = TRUE) # enable colorful R CMD check output
-          rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
-        shell: Rscript {0}
+      # - name: Check package
+      #   run: |
+      #     options(crayon.enabled = TRUE) # enable colorful R CMD check output
+      #     rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
+      #   shell: Rscript {0}
 
       - name: Deploy to shinyapps.io
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
