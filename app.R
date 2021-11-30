@@ -128,7 +128,6 @@ server <- function(input, output, session) {
     team_ratings_plot(team_ratings)
   })
   
-
   
   ################
   #              #
