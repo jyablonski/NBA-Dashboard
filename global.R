@@ -243,7 +243,7 @@ top20_plot <- function(df){
                                                                                    'Games Played: ', games_played))) +
     scale_y_continuous(labels = scales::percent) + 
     geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
-    annotate(geom = 'text', label = 'League Average TS%', x = max(df$season_avg_ppg) * .95, y = league_average_ts * .95) +
+    annotate(geom = 'text', label = 'League Average TS%', x = max(df$season_avg_ppg) * .95, y = league_average_ts * .98) +
     scale_fill_manual(values = c('light blue', 'orange')) +
     labs(title = 'Scoring Efficiency Tracker \n PPG vs TS% for all 20+ PPG Scorers',
          x = 'Average Points per Game',
