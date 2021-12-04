@@ -96,7 +96,7 @@ bans <- get_data('prod_bans') %>%
   mutate(record = paste0(tot_wins[1], ' - ', tot_wins[2]),
          pct_change = round((avg_pts - last_yr_ppg) / avg_pts, 3))
 
-contracts_value <- get_data('prod_contract_value_analysis')
+contracts_value <- get_data('prod_contract_value_analysis') 
 
 future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
   mutate(team = fct_reorder(team, pct_games_left_above_500))
@@ -459,6 +459,7 @@ value_plot <- function(df){
                                  'Salary: $', formatC(salary, format = 'f', big.mark = ",", digits = 0), '<br>',
                                  'Player Value Metric: ', player_mvp_calc_avg, '<br>',
                                  'Games Played: ', games_played, '<br>',
+                                 'Games Missed: ', games_missed, ' (Player Value Penalized ', pct_penalized * 100, '%)', '<br>',
                                  # 'Games Missed: ', games_missed, '<br>',
                                  player, ' is in the top ', percentile_rank, '% Percentile for all players in this Salary Group (',
                                  salary_rank, ')')),
