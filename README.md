@@ -23,7 +23,7 @@
 * Links to other Repos providing infrastructure for this Project
 
 	* [Python Web Scrape Script](https://github.com/jyablonski/python_docker)
-	* [Terraform](https://github.com/jyablonski/aws_terraform/tree/master/prod)
+	* [Terraform](https://github.com/jyablonski/aws_terraform/)
 	* [dbt](https://github.com/jyablonski/nba_elt_dbt)
 	* [Airflow Proof of Concept](https://github.com/jyablonski/nba_elt_airflow)
 		* Ideally I would use this for workflow orchestration, but I cannot host a stable version of Airflow for free to my knowledge.
