@@ -22,7 +22,7 @@
   
 * Links to other Repos providing infrastructure for this Project
 
-	* [Python Web Scrape Script](https://github.com/jyablonski/python_docker)
+	* [Python Web Scrape](https://github.com/jyablonski/python_docker)
 	* [Terraform](https://github.com/jyablonski/aws_terraform/)
 	* [dbt](https://github.com/jyablonski/nba_elt_dbt)
 	* [Airflow Proof of Concept](https://github.com/jyablonski/nba_elt_airflow)
