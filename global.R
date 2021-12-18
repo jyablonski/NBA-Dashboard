@@ -176,6 +176,10 @@ standings <- get_data('prod_standings') %>%
 
 team_adv_stats <- get_data('prod_team_adv_stats')
 
+team_blown_leads <- get_data('prod_team_blown_leads') %>%
+  mutate(net_comebacks = as.numeric(net_comebacks),
+         team = fct_reorder(team, net_comebacks))
+
 team_contract_analysis <- get_data('prod_team_contracts_analysis') %>%
   mutate(team = fct_reorder(team, team_pct_salary_earned))
 
@@ -571,7 +575,7 @@ advanced_sos_plot <- function(df){
              x = max(df$pct_vs_below_500) * .95, y = 4) +
     annotate(geom = "text", label = "<span style='color: #00BFC4;'> Faced Easier \n Competition</span>",
              x = max(df$pct_vs_below_500) * .95, y = 16) +
-    labs(x = '% of Games vs Below .500 Teams',
+    labs(x = '% of Games Played vs Below .500 Teams',
          y = NULL,
          title = paste0('Team Strength of Schedule for the 2021-22 NBA Season')) +
     theme_jacob() +
@@ -613,6 +617,26 @@ future_schedule_analysis_plot <- function(df){
 }
 
 # future_schedule_analysis_plot(future_schedule_analysis)
+
+blown_leads_plot <- function(df){
+  p <- df %>%
+    ggplot(aes(net_comebacks, team, fill = net_comebacks <= 0)) +
+    geom_col(aes(text = paste0(team, '<br>',
+                               '# of 10 pt Deficit Comebacks: ', team_comebacks_10pt, ' (', comeback_rank, ')', '<br>',
+                               '# of 10 pt Blown Leads: ', blown_leads_10pt, ' (', blown_lead_rank, ')', '<br>',
+                               'Net Comebacks: ', net_comebacks, ' (', net_rank, ')')), show.legend = FALSE) +
+    scale_fill_manual(values = c('#00BFC4', '#F8766D')) +
+    labs(x = 'Net Comebacks',
+         y = NULL,
+         title = 'Team Comebacks & Blown Leads Analysis') +
+    theme_jacob() +
+    theme(legend.position = 'none')
+  
+  ggplotly(p, tooltip = c('text')) %>%
+    layout(hoverlabel = list(bgcolor = "white"))
+}
+
+# blown_leads_plot(team_blown_leads)
 
 ### gt table functions
 gt_theme_538 <- function(data,...) {
@@ -888,7 +912,7 @@ game_event_plot <- function(df){
     ggplot(aes(time_remaining_final, margin_score)) +
     geom_point(aes(color = scoring_team_color, text = paste0(time_quarter, ' in the ', quarter, '<br>',
                                                              play, '<br>',
-                                                             leading_team, ' ', score_home, '-', score_away)),
+                                                             leading_team, ' Leading ', score_home, '-', score_away)),
                show.legend = FALSE) +
     geom_line(alpha = 0.4) +
     geom_hline(yintercept = 0, alpha = 0.5) +

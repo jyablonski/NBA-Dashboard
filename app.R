@@ -260,6 +260,9 @@ server <- function(input, output, session) {
     else if (input$select_choice == 'Future Strength of Schedule') {
       future_schedule_analysis_plot(future_schedule_analysis)
     }
+    else if (input$select_choice == 'Team Comebacks Analysis') {
+      blown_leads_plot(team_blown_leads)
+    }
     else {
       advanced_sos_plot(past_schedule_analysis)
     }
