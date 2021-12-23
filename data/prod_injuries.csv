@@ -1,132 +1,170 @@
 player,team_acronym,team,date,status,injury,description,team_active_injuries,scrape_date
-Bobby Portis,MIL,Milwaukee Bucks,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Bucks placed Portis in the league's health and safety protocols.,8,2021-12-18
-Semi Ojeleye,MIL,Milwaukee Bucks,"Tue, Nov 23, 2021",Out,Calf,"Bucks coach Mike Budenholzer said Ojeleye is ""going to miss some time.""",8,2021-12-18
-Khris Middleton,MIL,Milwaukee Bucks,"Fri, Dec 17, 2021",Out,Knee,The Bucks have listed Middleton as OUT for Friday's game (Dec. 17) against the Pelicans.,8,2021-12-18
-Wesley Matthews,MIL,Milwaukee Bucks,"Sat, Dec 11, 2021",Out,Health and Safety Protocols,The Bucks put Matthews in the league's health and safety protocols.,8,2021-12-18
-Brook Lopez,MIL,Milwaukee Bucks,"Thu, Dec 2, 2021",Out,Back,The Bucks announced that Lopez had back surgery and is out indefinitely.,8,2021-12-18
-Donte DiVincenzo,MIL,Milwaukee Bucks,"Sun, Nov 14, 2021",Out,Health and safety protocols,The Bucks placed DiVincenzo in the league's health and safety protocols.,8,2021-12-18
-Thanasis Antetokounmpo,MIL,Milwaukee Bucks,"Fri, Dec 17, 2021",Out,Lower Leg,The Bucks have listed Antetokounmpo as OUT for Friday's game (Dec. 17) against the Pelicans.,8,2021-12-18
-Giannis Antetokounmpo,MIL,Milwaukee Bucks,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Bucks placed Antetokounmpo in the league's health and safety protocols.,8,2021-12-18
-David Johnson,TOR,Toronto Raptors,"Wed, Dec 15, 2021",Day To Day,Calf,Johnson did not play in Tuesday's game (Dec. 14) against the Nets.,5,2021-12-18
-Goran Dragić,TOR,Toronto Raptors,"Tue, Nov 30, 2021",Out,Personal,The Raptors announced that Dragic is dealing with a personal matter and there is no timetable for his return.,5,2021-12-18
-Khem Birch,TOR,Toronto Raptors,"Thu, Dec 16, 2021",Day To Day,Knee,Birch is questionable for Saturday's (Dec. 18) game against Golden State.,5,2021-12-18
-OG Anunoby,TOR,Toronto Raptors,"Thu, Dec 16, 2021",Day To Day,Hip,Anunoby is questionable for Saturday's (Dec. 18) game against Golden State.,5,2021-12-18
-Precious Achiuwa,TOR,Toronto Raptors,"Thu, Dec 16, 2021",Day To Day,Health and Safety Protocols,Achiuwa is questionable for Saturday's (Dec. 18) game against Golden State.,5,2021-12-18
-Grant Williams,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Celtics placed Williams in the league's health and safety protocols.,5,2021-12-18
-Dennis Schröder,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Illness,Schroder is listed as OUT for Friday's (Dec. 17) game.,5,2021-12-18
-Jabari Parker,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Celtics placed Parker in the league's health and safety protocols.,5,2021-12-18
-Al Horford,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Celtics placed Horford in the league's health and safety protocols.,5,2021-12-18
-Sam Hauser,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health Protocols,Hauser is listed as OUT for Friday's (Dec. 17) game.,5,2021-12-18
-T.J. Warren,IND,Indiana Pacers,"Mon, Nov 8, 2021",Out,Foot,"There's optimism that Warren will be able to play in late December or January, according to Shams Charania of The Athletic.",2,2021-12-18
-T.J. McConnell,IND,Indiana Pacers,"Thu, Dec 2, 2021",Out,Wrist,Pacers head coach Rick Carlisle said McConnell will be out a while with a sore right wrist.,2,2021-12-18
-Victor Oladipo,MIA,Miami Heat,"Thu, Sep 23, 2021",Out,Right Knee,"Oladipo has yet to be cleared for full-court work, according to David Aldridge of The Athletic.",6,2021-12-18
-Markieff Morris,MIA,Miami Heat,"Wed, Nov 24, 2021",Out,Neck,"Morris is not expected to be available until at least the team returns from its road trip on Nov. 29, according to Ira Winderman of the South Florida Sun Sentinel.",6,2021-12-18
-Caleb Martin,MIA,Miami Heat,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Heat placed Martin in the league's health and safety protocols.,6,2021-12-18
-Tyler Herro,MIA,Miami Heat,"Fri, Dec 17, 2021",Out,Quad,The Heat have listed Herro as OUT for Friday's game (Dec. 17) against the Magic.,6,2021-12-18
-Jimmy Butler,MIA,Miami Heat,"Thu, Dec 16, 2021",Out,Tailbone,The Heat have listed Butler as OUT for Friday's game (Dec. 17) against the Magic.,6,2021-12-18
-Bam Adebayo,MIA,Miami Heat,"Tue, Dec 7, 2021",Out,Thumb,The Heat announced Adebayo had surgery on his thumb. He's expected to miss the next 4-6 weeks of action.,6,2021-12-18
-Ben Simmons,PHI,Philadelphia 76ers,"Thu, Oct 21, 2021",Out,Back,"Simmons is not expected to play for an undetermined period of time, according to Shams Charania of The Athletic.",4,2021-12-18
-Grant Riller,PHI,Philadelphia 76ers,"Thu, Dec 2, 2021",Out,Shoulder,"Riller is scheduled to be re-evaluated next week, according to Justin Grasso of SI.com.",4,2021-12-18
-Georges Niang,PHI,Philadelphia 76ers,"Wed, Dec 15, 2021",Out,Health and safety protocols,The 76ers placed Niang in the league's health and safety protocols.,4,2021-12-18
-Furkan Korkmaz,PHI,Philadelphia 76ers,"Fri, Dec 17, 2021",Day To Day,Illness,Korkmaz did not play in Thursday's game (Dec. 16).,4,2021-12-18
-Paul Millsap,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Millsap in the league's health and safety protocols.,13,2021-12-18
-Patty Mills,BKN,Brooklyn Nets,"Fri, Dec 17, 2021",Out,Rest,Mills is listed as OUT for Saturday's (Dec. 18) game.,13,2021-12-18
-James Johnson,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Johnson in the league's health and safety protocols.,13,2021-12-18
-Kyrie Irving,BKN,Brooklyn Nets,"Sat, Oct 23, 2021",Out,Not With Team,Irving is not with the Nets and there's currently no timetable for when he may return to the team.,13,2021-12-18
-Joe Harris,BKN,Brooklyn Nets,"Mon, Nov 29, 2021",Out,Ankle,Nets coach Steve Nash said Harris will have ankle surgery and is out indefinitely.,13,2021-12-18
-James Harden,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health Protocols,The Nets placed Harden in the league's health and safety protocols.,13,2021-12-18
-Kevin Durant,BKN,Brooklyn Nets,"Fri, Dec 17, 2021",Out,Ankle,Durant is listed as OUT for Saturday's (Dec. 18) game.,13,2021-12-18
-David Duke,BKN,Brooklyn Nets,"Fri, Dec 17, 2021",Day To Day,Hip,Duke is listed as PROBABLE for Saturday's (Dec. 18) game.,13,2021-12-18
-Nicolas Claxton,BKN,Brooklyn Nets,"Fri, Dec 17, 2021",Day To Day,Wrist,Claxton is listed as QUESTIONABLE for Saturday's (Dec. 18) game.,13,2021-12-18
-Jevon Carter,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Carter in the league's health and safety protocols.,13,2021-12-18
-Bruce Brown,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health Protocols,The Nets placed Brown in the league's health and safety protocols.,13,2021-12-18
-DeAndre' Bembry,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Bembry in the league's health and safety protocols.,13,2021-12-18
-LaMarcus Aldridge,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Aldridge in the league's health and safety protocols.,13,2021-12-18
-Jalen Suggs,ORL,Orlando Magic,"Tue, Nov 30, 2021",Out,Thumb,"Suggs is dealing with a fractured thumb and will be out an indefinite period of time, according to Shams Charania of The Athletic.",11,2021-12-18
-Terrence Ross,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Magic placed Ross in the league's health and safety protocols.,11,2021-12-18
-E'Twaun Moore,ORL,Orlando Magic,"Tue, Nov 16, 2021",Out,Knee,Moore has not played this season and no timetable has been announced for his return.,11,2021-12-18
-Jonathan Isaac,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Isaac is making progress with his rehab but is still without a timetable to return, according to David Aldridge of The Athletic.",11,2021-12-18
-R.J. Hampton,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Magic placed Hampton in the league's health and safety protocols.,11,2021-12-18
-Markelle Fultz,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Fultz is still without a timetable to return from ACL surgery, according to head coach Jamahl Mosley.",11,2021-12-18
-Michael Carter-Williams,ORL,Orlando Magic,"Fri, Oct 29, 2021",Out,Left Ankle,Carter-Williams had surgery on his left ankle back in late August and no timetable has been announced for his return.,11,2021-12-18
-Wendell Carter,ORL,Orlando Magic,"Fri, Dec 17, 2021",Day To Day,Knee,Carter left Friday's (Dec. 17) game and did not return.,11,2021-12-18
-Ignas Brazdeikis,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Magic placed Brazdeikis in the league's health and safety protocols.,11,2021-12-18
-Mohamed Bamba,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Ankle,The Magic have listed Bamba as OUT for Friday's game (Dec. 17) against the Heat.,11,2021-12-18
-Cole Anthony,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Ankle,The Magic have listed Anthony as OUT for Friday's game (Dec. 17) against the Heat.,11,2021-12-18
-Rui Hachimura,WAS,Washington Wizards,"Fri, Oct 29, 2021",Out,Not With Team,Hachimura is listed as OUT until further notice.,2,2021-12-18
-Thomas Bryant,WAS,Washington Wizards,"Mon, Oct 25, 2021",Out,Left Knee,"Bryant is without a timeline to return to action following ACL surgery in February, according to Shams Charania of The Athletic.",2,2021-12-18
-Patrick Williams,CHI,Chicago Bulls,"Fri, Oct 29, 2021",Out,Left Wrist,"Williams is expected to miss the rest of the regular season with a dislocated wrist, according to Adrian Wojnarowski of ESPN.",8,2021-12-18
-Matt Thomas,CHI,Chicago Bulls,"Wed, Dec 8, 2021",Out,Health and safety protocols,The Bulls placed Thomas in the league's COVID-19 health and safety protocols.,8,2021-12-18
-Zach LaVine,CHI,Chicago Bulls,"Sun, Dec 12, 2021",Out,Health and safety protocols,The Bulls placed LaVine in the league's health and safety protocols.,8,2021-12-18
-Derrick Jones,CHI,Chicago Bulls,"Thu, Dec 9, 2021",Out,Health and safety protocols,The Bulls placed Jones Jr. in the league's COVID-19 health and safety protocols.,8,2021-12-18
-Stanley Johnson,CHI,Chicago Bulls,"Sat, Dec 11, 2021",Out,Health and safety protocols,The Bulls placed Johnson in the league's health and safety protocols.,8,2021-12-18
-Alize Johnson,CHI,Chicago Bulls,"Mon, Dec 13, 2021",Out,Health and safety protocols,The Bulls placed Johnson in the league's health and safety protocols.,8,2021-12-18
-Ayo Dosunmu,CHI,Chicago Bulls,"Sat, Dec 11, 2021",Out,Health and safety protocols,The Bulls placed Dosunmu in the league's health and safety protocols.,8,2021-12-18
-Troy Brown,CHI,Chicago Bulls,"Sun, Dec 12, 2021",Out,Health and safety protocols,The Bulls placed Brown Jr. in the league's health and safety protocols.,8,2021-12-18
-Obi Toppin,NYK,New York Knicks,"Sat, Dec 11, 2021",Out,Health and Safety Protocols,The Knicks put Toppin in the league's health and safety protocols.,4,2021-12-18
-Kevin Knox,NYK,New York Knicks,"Thu, Dec 16, 2021",Out,Health and safety protocols,The Knicks placed Knox II in the league's health and safety protocols.,4,2021-12-18
-Quentin Grimes,NYK,New York Knicks,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Knicks put Grimes in the league's health and safety protocols.,4,2021-12-18
-RJ Barrett,NYK,New York Knicks,"Sun, Dec 12, 2021",Out,Health and safety protocols,The Knicks put Barrett in the league's health and safety protocols.,4,2021-12-18
-Kelly Olynyk,DET,Detroit Pistons,"Fri, Nov 12, 2021",Out,Knee,The Pistons announced that Olynyk suffered a grade-2 MCL sprain in his left knee and will miss at least six weeks.,2,2021-12-18
-Jerami Grant,DET,Detroit Pistons,"Sun, Dec 12, 2021",Out,Thumb,The Pistons announced that Grant will be re-evaluated in six weeks.,2,2021-12-18
-De'Andre Hunter,ATL,Atlanta Hawks,"Sun, Nov 14, 2021",Out,Wrist,The Hawks announced that Hunter had surgery on his right wrist and is expected to return in approximately 8 weeks.,3,2021-12-18
-Solomon Hill,ATL,Atlanta Hawks,"Wed, Dec 8, 2021",Out For Season,Hamstring,The Hawks announced that Hill will miss the rest of the season with a right hamstring tendon tear.,3,2021-12-18
-Bogdan Bogdanović,ATL,Atlanta Hawks,"Tue, Dec 7, 2021",Out,Ankle,"Bogdanovic will miss at least two more weeks, according to Mike Conti of the Atlanta Hawks Radio Network.",3,2021-12-18
-Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",3,2021-12-18
-Isaac Okoro,CLE,Cleveland Cavaliers,"Thu, Dec 16, 2021",Out,Health and safety protocols,The Cavaliers placed Okoro in the league's health and safety protocols.,3,2021-12-18
-Evan Mobley,CLE,Cleveland Cavaliers,"Fri, Dec 17, 2021",Day To Day,Hip,Mobley is listed as QUETIONABLE for Saturday's (Dec. 18) game.,3,2021-12-18
-Kendrick Nunn,LAL,Los Angeles Lakers,"Mon, Dec 6, 2021",Out,Knee,Lakers coach Frank Vogel said Nunn will not return in the next three weeks.,6,2021-12-18
-Malik Monk,LAL,Los Angeles Lakers,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Lakers placed Monk in the league's health and safety protocols.,6,2021-12-18
-Dwight Howard,LAL,Los Angeles Lakers,"Tue, Dec 14, 2021",Out,Health and safety protocols,The Lakers placed Howard in the league's health and safety protocols.,6,2021-12-18
-Talen Horton-Tucker,LAL,Los Angeles Lakers,"Wed, Dec 15, 2021",Out,Health and safety protocols,The Lakers placed Horton-Tucker in the league's health and safety protocols.,6,2021-12-18
-Avery Bradley,LAL,Los Angeles Lakers,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Lakers placed Bradley in the league's health and safety protocols.,6,2021-12-18
-Trevor Ariza,LAL,Los Angeles Lakers,"Fri, Dec 17, 2021",Out,Ankle,The Lakers have listed Ariza as OUT for Friday's game (Dec. 17) against the Timberwolves.,6,2021-12-18
-Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",5,2021-12-18
-Kawhi Leonard,LAC,Los Angeles Clippers,"Tue, Sep 28, 2021",Out,Right Knee,Leonard underwent surgery in July on his right ACL and there remains no timetable for his return this season.,5,2021-12-18
-Serge Ibaka,LAC,Los Angeles Clippers,"Fri, Dec 17, 2021",Out,Personal,Ibaka is listed as OUT for Saturday's (Dec. 18) game.,5,2021-12-18
-Paul George,LAC,Los Angeles Clippers,"Fri, Dec 17, 2021",Day To Day,Elbow,George is listed as QUESTIONABLE for Saturday's (Dec. 18) game.,5,2021-12-18
-Nicolas Batum,LAC,Los Angeles Clippers,"Fri, Dec 17, 2021",Day To Day,Ankle,Batum is listed as QUESTIONABLE for Saturday's (Dec. 18) game.,5,2021-12-18
-Michael Porter,DEN,Denver Nuggets,"Mon, Nov 29, 2021",Out For Season,Back,"Porter Jr. is expected to miss the rest of the season due to back surgery, according to Shams Charania of The Athletic.",5,2021-12-18
-Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,5,2021-12-18
-Markus Howard,DEN,Denver Nuggets,"Thu, Dec 16, 2021",Out,Knee,The Nuggets have listed Howard as OUT for Friday's game (Dec. 17) against the Hawks.,5,2021-12-18
-JaMychal Green,DEN,Denver Nuggets,"Thu, Dec 16, 2021",Out,Ankle,The Nuggets have listed Green as OUT for Friday's game (Dec. 17) against the Hawks.,5,2021-12-18
-PJ Dozier,DEN,Denver Nuggets,"Wed, Nov 24, 2021",Out,ACL,The Nuggets announced F PJ Dozier has a torn anterior cruciate ligament in his left knee and is out indefinitely.,5,2021-12-18
-Christian Wood,HOU,Houston Rockets,"Fri, Dec 17, 2021",Day To Day,Knee,Wood is listed as QUESTIONABLE for Saturday's (Dec. 18) game.,6,2021-12-18
-Kevin Porter,HOU,Houston Rockets,"Fri, Dec 17, 2021",Day To Day,Thigh,Porter Jr. did not play in Thursday's game (Dec. 16).,6,2021-12-18
-Danuel House,HOU,Houston Rockets,"Fri, Dec 17, 2021",Day To Day,Ankle,House Jr. did not play in Thursday's game (Dec. 16).,6,2021-12-18
-Jalen Green,HOU,Houston Rockets,"Fri, Dec 3, 2021",Out,Hamstring,"Green will be evaluated week-by-week, according to Jonathan Feigen of the Houston Chronicle.",6,2021-12-18
-Eric Gordon,HOU,Houston Rockets,"Tue, Dec 14, 2021",Out,Groin,Gordon is listed as OUT for Wednesday's (Dec. 15) game.,6,2021-12-18
-Armoni Brooks,HOU,Houston Rockets,"Fri, Dec 17, 2021",Day To Day,Ankle,Brooks is listed as QUESTIONABLE for Saturday's (Dec. 18) game.,6,2021-12-18
-Luguentz Dort,OKC,Oklahoma City Thunder,"Thu, Dec 16, 2021",Day To Day,Ankle,Dort did not play in Wednesday's (Dec. 15) game against New Orleans.,1,2021-12-18
-Udoka Azubuike,UTA,Utah Jazz,"Sat, Nov 27, 2021",Out,Ankle,The Jazz announced Azubuike is dealing with a right ankle injury. There is no timetable for his return.,1,2021-12-18
-Luka Dončić,DAL,Dallas Mavericks,"Sun, Dec 12, 2021",Out,Ankle,"Doncic is expected to miss multiple games, according to NBA correspondent Marc Stein",3,2021-12-18
-Willie Cauley-Stein,DAL,Dallas Mavericks,"Thu, Dec 16, 2021",Day To Day,Personal,Cauley-Stein did not play in Wednesday's game (Dec. 15) against the Lakers.,3,2021-12-18
-Sterling Brown,DAL,Dallas Mavericks,"Thu, Dec 16, 2021",Day To Day,Foot,Brown did not play in Wednesday's game (Dec. 15) against the Lakers.,3,2021-12-18
-Cody Zeller,POR,Portland Trail Blazers,"Sun, Dec 12, 2021",Out,Knee,The Trail Blazers announced that Zeller will be re-evaluated in one week.,4,2021-12-18
-Tony Snell,POR,Portland Trail Blazers,"Fri, Dec 17, 2021",Out,Personal,The Trail Blazers have listed Snell as OUT for Friday's game (Dec. 17) against the Hornets.,4,2021-12-18
-Dennis Smith,POR,Portland Trail Blazers,"Fri, Dec 17, 2021",Out,Knee,The Trail Blazers have listed Smith Jr. as OUT for Friday's game (Dec. 17) against the Hornets.,4,2021-12-18
-CJ McCollum,POR,Portland Trail Blazers,"Wed, Dec 15, 2021",Out,Lung,The Trail Blazers announced that McCollum will be reevaluated next week.,4,2021-12-18
-Ziaire Williams,MEM,Memphis Grizzlies,"Fri, Dec 17, 2021",Out,Ankle,The Grizzlies have listed Williams as OUT for Friday's game (Dec. 17) against the Kings.,5,2021-12-18
-Ja Morant,MEM,Memphis Grizzlies,"Wed, Dec 8, 2021",Out,Health and safety protocols,The Grizzlies announced that Morant is in the league's COVID-19 health and safety protocols.,5,2021-12-18
-Sam Merrill,MEM,Memphis Grizzlies,"Tue, Nov 23, 2021",Out,Ankle,"Merrill is expected to remain out for a few weeks, according to Meghan Triplett of Grind City Media.",5,2021-12-18
-Brandon Clarke,MEM,Memphis Grizzlies,"Fri, Dec 17, 2021",Out,Knee,The Grizzlies have listed Clarke as OUT for Friday's game (Dec. 17) against the Kings.,5,2021-12-18
-Santi Aldama,MEM,Memphis Grizzlies,"Fri, Dec 17, 2021",Out,Calf,The Grizzlies have listed Aldama as OUT for Friday's game (Dec. 17) against the Kings.,5,2021-12-18
-Dario Šarić,PHX,Phoenix Suns,"Wed, Jul 7, 2021",Out,Knee,The Suns announced that Sario has a torn ACL in his right knee.,3,2021-12-18
-Frank Kaminsky,PHX,Phoenix Suns,"Sun, Nov 21, 2021",Out,Knee,The Suns announced that Kaminsky is out indefinitely with a stress reaction in his right knee.,3,2021-12-18
-Devin Booker,PHX,Phoenix Suns,"Wed, Dec 1, 2021",Out,Hamstring,"Booker is expected to miss a few games with a left hamstring injury, according to Adrian Wojnarowski of ESPN.",3,2021-12-18
-Zach Collins,SAS,San Antonio Spurs,"Sat, Oct 2, 2021",Out,Ankle,"Spurs coach Gregg Popovich said the timetable for Collins to return is ""after Christmas.""",1,2021-12-18
-Davion Mitchell,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings have listed Mitchell as OUT for Friday's game (Dec. 17) against the Grizzlies.,7,2021-12-18
-Alex Len,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings placed Len in the league's health and safety protocols.,7,2021-12-18
-Louis King,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings placed King in the league's health and safety protocols.,7,2021-12-18
-Richaun Holmes,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Eye,The Kings have listed Holmes as OUT for Friday's game (Dec. 17) against the Grizzlies.,7,2021-12-18
-De'Aaron Fox,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings have listed Fox as OUT for Friday's game (Dec. 17) against the Grizzlies.,7,2021-12-18
-Terence Davis,SAC,Sacramento Kings,"Wed, Dec 15, 2021",Out,Health Protocols,The Kings placed Davis II in the league's health and safety protocols.,7,2021-12-18
-Marvin Bagley,SAC,Sacramento Kings,"Wed, Dec 15, 2021",Out,Health and safety protocols,The Kings placed Bagley III in the league's health and safety protocols.,7,2021-12-18
-Zion Williamson,NOP,New Orleans Pelicans,"Sat, Dec 11, 2021",Out,Foot,The Pelicans announced that Williamson suffered a setback in his recovery from a foot injury. There is no timetable for his return.,3,2021-12-18
-Kira Lewis,NOP,New Orleans Pelicans,"Thu, Dec 9, 2021",Out For Season,Knee,The Pelicans announced that Lewis Jr. suffered a torn ACL and a grade 2 MCL sprain.,3,2021-12-18
-Daulton Hommes,NOP,New Orleans Pelicans,"Sat, Nov 27, 2021",Out,Fibula,Hommes is dealing with a right fibular stress fracture and there is no timetable for his return.,3,2021-12-18
-Taurean Prince,MIN,Minnesota Timberwolves,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Timberwolves placed Prince in the league's health and safety protocols.,2,2021-12-18
-Anthony Edwards,MIN,Minnesota Timberwolves,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Timberwolves placed Edwards in the league's health and safety protocols.,2,2021-12-18
-James Wiseman,GSW,Golden State Warriors,"Mon, Nov 1, 2021",Out,Knee,"The Warriors announced that Wiseman has been cleared to participate in full team practices, but a timetable for his return to game action has not been determined.",3,2021-12-18
-Klay Thompson,GSW,Golden State Warriors,"Sun, Nov 21, 2021",Out,Right Achilles,"Thompson has been cleared to be a full participant in all Warriors practices, according to Shams Charania of The Athletic.",3,2021-12-18
-Jordan Poole,GSW,Golden State Warriors,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Warriors placed Poole in the league's health and safety protocols.,3,2021-12-18
+Jerami Grant,DET,Detroit Pistons,"Sun, Dec 12, 2021",Out,Thumb,The Pistons announced that Grant will be re-evaluated in six weeks.,5,2021-12-23
+Clint Capela,ATL,Atlanta Hawks,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Hawks placed Capela in the league's health and safety protocols.,7,2021-12-23
+Danilo Gallinari,ATL,Atlanta Hawks,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Hawks placed Gallinari in the league's health and safety protocols.,7,2021-12-23
+Solomon Hill,ATL,Atlanta Hawks,"Wed, Dec 8, 2021",Out For Season,Hamstring,The Hawks announced that Hill will miss the rest of the season with a right hamstring tendon tear.,7,2021-12-23
+De'Andre Hunter,ATL,Atlanta Hawks,"Sun, Nov 14, 2021",Out,Wrist,The Hawks announced that Hunter had surgery on his right wrist and is expected to return in approximately 8 weeks.,7,2021-12-23
+Timothé Luwawu-Cabarrot,ATL,Atlanta Hawks,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Hawks put Luwawu-Cabarrot in the league's health and safety protocols.,7,2021-12-23
+Lou Williams,ATL,Atlanta Hawks,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Hawks put Williams in the league's health and safety protocols.,7,2021-12-23
+Trae Young,ATL,Atlanta Hawks,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Hawks placed Young in the league's health and safety protocols.,7,2021-12-23
+Sam Hauser,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health Protocols,The Celtics placed Hauser in the league's health and safety protocols.,6,2021-12-23
+Al Horford,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Celtics placed Horford in the league's health and safety protocols.,6,2021-12-23
+Jabari Parker,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Celtics placed Parker in the league's health and safety protocols.,6,2021-12-23
+Josh Richardson,BOS,Boston Celtics,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Celtics placed Richardson in the league's health and safety protocols.,6,2021-12-23
+Brodric Thomas,BOS,Boston Celtics,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Celtics placed Thomas in the league's health and safety protocols.,6,2021-12-23
+Grant Williams,BOS,Boston Celtics,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Celtics placed Williams in the league's health and safety protocols.,6,2021-12-23
+LaMarcus Aldridge,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Aldridge in the league's health and safety protocols.,12,2021-12-23
+DeAndre' Bembry,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Bembry in the league's health and safety protocols.,12,2021-12-23
+Bruce Brown,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health Protocols,The Nets placed Brown in the league's health and safety protocols.,12,2021-12-23
+Jevon Carter,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Carter in the league's health and safety protocols.,12,2021-12-23
+Nicolas Claxton,BKN,Brooklyn Nets,"Sun, Dec 19, 2021",Day To Day,Wrist,Claxton did not play in Saturday's (Dec. 18) game against Orlando.,12,2021-12-23
+Kevin Durant,BKN,Brooklyn Nets,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Nets placed Durant in the league's health and safety protocols.,12,2021-12-23
+James Harden,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health Protocols,The Nets placed Harden in the league's health and safety protocols.,12,2021-12-23
+Joe Harris,BKN,Brooklyn Nets,"Mon, Nov 29, 2021",Out,Ankle,Nets coach Steve Nash said Harris will have ankle surgery and is out indefinitely.,12,2021-12-23
+Kyrie Irving,BKN,Brooklyn Nets,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Nets placed Irving in the league's health and safety protocols.,12,2021-12-23
+James Johnson,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Johnson in the league's health and safety protocols.,12,2021-12-23
+Paul Millsap,BKN,Brooklyn Nets,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Nets placed Millsap in the league's health and safety protocols.,12,2021-12-23
+Day'Ron Sharpe,BKN,Brooklyn Nets,"Sat, Dec 18, 2021",Out,Health and Safety Protocols,The Nets placed Sharpe in the league's health and safety protocols.,12,2021-12-23
+Cody Martin,CHA,Charlotte Hornets,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Hornets placed Martin in the league's health and safety protocols.,1,2021-12-23
+Troy Brown,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Day To Day,Health and Safety Protocols,Brown Jr. remains in the league's health and safety protocols.,10,2021-12-23
+Alex Caruso,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Out,Foot,Caruso left Monday's (Dec. 20) game against Houston and will be re-evaluated in 7-10 days with a foot sprain.,10,2021-12-23
+Ayo Dosunmu,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Day To Day,Health and safety protocols,Dosunmu remains in the league's health and safety protocols.,10,2021-12-23
+Devon Dotson,CHI,Chicago Bulls,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Bulls placed Dotson in the league's health and safety protocols.,10,2021-12-23
+Alize Johnson,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Day To Day,Health and Safety Protocols,Johnson remains in the league's health and safety protocols.,10,2021-12-23
+Stanley Johnson,CHI,Chicago Bulls,"Sat, Dec 11, 2021",Out,Health and safety protocols,The Bulls placed Johnson in the league's health and safety protocols.,10,2021-12-23
+Derrick Jones,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Day To Day,Hamstring,Jones Jr. did not play in Monday's (Dec. 20) game against Houston.,10,2021-12-23
+Zach LaVine,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Day To Day,Health and safety protocols,LaVine remains in the league's health and safety protocols.,10,2021-12-23
+Matt Thomas,CHI,Chicago Bulls,"Wed, Dec 22, 2021",Day To Day,Health and Safety Protocols,Thomas remains in the league's health and safety protocols.,10,2021-12-23
+Patrick Williams,CHI,Chicago Bulls,"Fri, Oct 29, 2021",Out,Left Wrist,"Williams is expected to miss the rest of the regular season with a dislocated wrist, according to Adrian Wojnarowski of ESPN.",10,2021-12-23
+Jarrett Allen,CLE,Cleveland Cavaliers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Cavaliers placed Allen in the league's health and safety protocols.,8,2021-12-23
+Ed Davis,CLE,Cleveland Cavaliers,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Cavs placed Davis in the league's health and safety protocols.,8,2021-12-23
+Evan Mobley,CLE,Cleveland Cavaliers,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Cavaliers placed Mobley in the league's health and safety protocols.,8,2021-12-23
+RJ Nembhard,CLE,Cleveland Cavaliers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Cavaliers placed Nembhard Jr. in the league's health and safety protocols.,8,2021-12-23
+Isaac Okoro,CLE,Cleveland Cavaliers,"Thu, Dec 16, 2021",Out,Health and safety protocols,The Cavaliers placed Okoro in the league's health and safety protocols.,8,2021-12-23
+Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",8,2021-12-23
+Lamar Stevens,CLE,Cleveland Cavaliers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Cavaliers placed Stevens in the league's health and safety protocols.,8,2021-12-23
+Dylan Windler,CLE,Cleveland Cavaliers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Cavaliers placed Windler in the league's health and safety protocols.,8,2021-12-23
+Reggie Bullock,DAL,Dallas Mavericks,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Mavericks placed Bullock in the league's health and safety protocols.,8,2021-12-23
+Trey Burke,DAL,Dallas Mavericks,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Mavericks placed Burke in the league's health and safety protocols.,8,2021-12-23
+Willie Cauley-Stein,DAL,Dallas Mavericks,"Mon, Dec 20, 2021",Out,Personal,Cauley-Stein has not played since Nov. 27 and no timetable has been announced for his return.,8,2021-12-23
+Luka Dončić,DAL,Dallas Mavericks,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Mavericks placed Doncic in the league's health and safety protocols.,8,2021-12-23
+Josh Green,DAL,Dallas Mavericks,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Mavericks placed Green in the league's health and safety protocols.,8,2021-12-23
+Tim Hardaway,DAL,Dallas Mavericks,"Tue, Dec 21, 2021",Out,Health Protocols,The Mavericks placed Hardaway Jr. in the league's health and safety protocols.,8,2021-12-23
+Maxi Kleber,DAL,Dallas Mavericks,"Tue, Dec 21, 2021",Out,Health Protocols,The Mavericks placed Kleber in the league's health and safety protocol.,8,2021-12-23
+Kristaps Porziņģis,DAL,Dallas Mavericks,"Wed, Dec 22, 2021",Day To Day,Toe,Porzingis is questionable for Thursday's (Dec. 23) game against Milwaukee.,8,2021-12-23
+PJ Dozier,DEN,Denver Nuggets,"Wed, Nov 24, 2021",Out,ACL,The Nuggets announced F PJ Dozier has a torn anterior cruciate ligament in his left knee and is out indefinitely.,4,2021-12-23
+Markus Howard,DEN,Denver Nuggets,"Wed, Dec 22, 2021",Out,Knee,Howard is out for Wednesday's (Dec. 22) game against Oklahoma City.,4,2021-12-23
+Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,4,2021-12-23
+Michael Porter,DEN,Denver Nuggets,"Mon, Nov 29, 2021",Out For Season,Back,"Porter Jr. is expected to miss the rest of the season due to back surgery, according to Shams Charania of The Athletic.",4,2021-12-23
+Cade Cunningham,DET,Detroit Pistons,"Wed, Dec 22, 2021",Out,Health Protocols,Cunningham is listed as OUT for Thursday's (Dec. 23) game.,5,2021-12-23
+Killian Hayes,DET,Detroit Pistons,"Wed, Dec 22, 2021",Day To Day,Illness,Hayes did not play in Tuesday's (Dec. 21) game.,5,2021-12-23
+Frank Jackson,DET,Detroit Pistons,"Wed, Dec 22, 2021",Day To Day,Ankle,Jackosn is listed as QUESTIONABLE for Thursday's (Dec. 23) game.,5,2021-12-23
+Kelly Olynyk,DET,Detroit Pistons,"Fri, Nov 12, 2021",Out,Knee,The Pistons announced that Olynyk suffered a grade-2 MCL sprain in his left knee and will miss at least six weeks.,5,2021-12-23
+Andre Iguodala,GSW,Golden State Warriors,"Wed, Dec 22, 2021",Out,Knee,Iguodala is listed as OUT for Thursday's (Dec. 23) game.,5,2021-12-23
+Jordan Poole,GSW,Golden State Warriors,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Warriors placed Poole in the league's health and safety protocols.,5,2021-12-23
+Klay Thompson,GSW,Golden State Warriors,"Sun, Nov 21, 2021",Out,Right Achilles,"Thompson has been cleared to be a full participant in all Warriors practices, according to Shams Charania of The Athletic.",5,2021-12-23
+Andrew Wiggins,GSW,Golden State Warriors,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Warriors placed Wiggins in the league's health and safety protocol.,5,2021-12-23
+James Wiseman,GSW,Golden State Warriors,"Mon, Nov 1, 2021",Out,Knee,"The Warriors announced that Wiseman has been cleared to participate in full team practices, but a timetable for his return to game action has not been determined.",5,2021-12-23
+Jalen Green,HOU,Houston Rockets,"Fri, Dec 3, 2021",Out,Hamstring,"Green will be evaluated week-by-week, according to Jonathan Feigen of the Houston Chronicle.",2,2021-12-23
+Kevin Porter,HOU,Houston Rockets,"Wed, Dec 22, 2021",Out,Thigh,Porter Jr. is out for Wednesday's (Dec. 22) game against Milwaukee.,2,2021-12-23
+T.J. McConnell,IND,Indiana Pacers,"Thu, Dec 2, 2021",Out,Wrist,Pacers head coach Rick Carlisle said McConnell will be out a while with a sore right wrist.,2,2021-12-23
+T.J. Warren,IND,Indiana Pacers,"Mon, Nov 8, 2021",Out,Foot,"There's optimism that Warren will be able to play in late December or January, according to Shams Charania of The Athletic.",2,2021-12-23
+Isaiah Hartenstein,LAC,Los Angeles Clippers,"Tue, Dec 21, 2021",Out,Ankle,Hartenstein is listed as OUT for Wednesday's (Dec. 22) game.,6,2021-12-23
+Reggie Jackson,LAC,Los Angeles Clippers,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Clippers placed Jackson in the league's health and safety protocols.,6,2021-12-23
+Luke Kennard,LAC,Los Angeles Clippers,"Wed, Dec 22, 2021",Out,Hip,Kennard is out for Wednesday's (Dec. 22) game against Sacramento.,6,2021-12-23
+Kawhi Leonard,LAC,Los Angeles Clippers,"Tue, Sep 28, 2021",Out,Right Knee,Leonard underwent surgery in July on his right ACL and there remains no timetable for his return this season.,6,2021-12-23
+Marcus Morris,LAC,Los Angeles Clippers,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Clippers placed Morris Sr. in the league's health and safety protocols.,6,2021-12-23
+Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",6,2021-12-23
+Kent Bazemore,LAL,Los Angeles Lakers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Lakers placed Bazemore in the league's health and safety protocol.,6,2021-12-23
+Avery Bradley,LAL,Los Angeles Lakers,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Lakers placed Bradley in the league's health and safety protocols.,6,2021-12-23
+Anthony Davis,LAL,Los Angeles Lakers,"Sat, Dec 18, 2021",Out,Knee,"Davis is dealing with a sprained MCL in his left knee and will be re-evaluated in four weeks, according to Shams Charania of The Athletic.",6,2021-12-23
+Malik Monk,LAL,Los Angeles Lakers,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Lakers placed Monk in the league's health and safety protocols.,6,2021-12-23
+Kendrick Nunn,LAL,Los Angeles Lakers,"Mon, Dec 6, 2021",Out,Knee,Lakers coach Frank Vogel said Nunn will not return in the next three weeks.,6,2021-12-23
+Austin Reaves,LAL,Los Angeles Lakers,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Lakers placed Reaves in the league's health and safety protocols.,6,2021-12-23
+Santi Aldama,MEM,Memphis Grizzlies,"Tue, Dec 21, 2021",Day To Day,Calf,Aldama did not play in Monday's game (Dec. 20).,5,2021-12-23
+Brandon Clarke,MEM,Memphis Grizzlies,"Tue, Dec 21, 2021",Day To Day,Knee,Clarke did not play in Monday's game (Dec. 20).,5,2021-12-23
+Tyus Jones,MEM,Memphis Grizzlies,"Tue, Dec 21, 2021",Day To Day,Finger,Jones did not play in Monday's game (Dec. 20).,5,2021-12-23
+Sam Merrill,MEM,Memphis Grizzlies,"Tue, Nov 23, 2021",Out,Ankle,"Merrill is expected to remain out for a few weeks, according to Meghan Triplett of Grind City Media.",5,2021-12-23
+Ziaire Williams,MEM,Memphis Grizzlies,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Grizzlies placed Williams in the league's health and safety protocols.,5,2021-12-23
+Bam Adebayo,MIA,Miami Heat,"Tue, Dec 7, 2021",Out,Thumb,The Heat announced Adebayo had surgery on his thumb. He's expected to miss the next 4-6 weeks of action.,6,2021-12-23
+Jimmy Butler,MIA,Miami Heat,"Wed, Dec 22, 2021",Out,Tailbone,Butler is out for Thursday's (Dec. 23) game against Detroit.,6,2021-12-23
+Caleb Martin,MIA,Miami Heat,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Heat placed Martin in the league's health and safety protocols.,6,2021-12-23
+Markieff Morris,MIA,Miami Heat,"Wed, Nov 24, 2021",Out,Neck,"Morris is not expected to be available until at least the team returns from its road trip on Nov. 29, according to Ira Winderman of the South Florida Sun Sentinel.",6,2021-12-23
+Victor Oladipo,MIA,Miami Heat,"Thu, Sep 23, 2021",Out,Right Knee,"Oladipo has yet to be cleared for full-court work, according to David Aldridge of The Athletic.",6,2021-12-23
+P.J. Tucker,MIA,Miami Heat,"Wed, Dec 22, 2021",Out,Leg,Tucker did not play in Tuesday's game (Dec. 21) against the Pacers.,6,2021-12-23
+Giannis Antetokounmpo,MIL,Milwaukee Bucks,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Bucks placed Antetokounmpo in the league's health and safety protocols.,6,2021-12-23
+Donte DiVincenzo,MIL,Milwaukee Bucks,"Sun, Nov 14, 2021",Out,Health and safety protocols,The Bucks placed DiVincenzo in the league's health and safety protocols.,6,2021-12-23
+Brook Lopez,MIL,Milwaukee Bucks,"Thu, Dec 2, 2021",Out,Back,The Bucks announced that Lopez had back surgery and is out indefinitely.,6,2021-12-23
+Sandro Mamukelashvili,MIL,Milwaukee Bucks,"Wed, Dec 22, 2021",Out,Illness,Mamukelashvili is listed as OUT for Wednesday's (Dec. 22) game.,6,2021-12-23
+Wesley Matthews,MIL,Milwaukee Bucks,"Sat, Dec 11, 2021",Out,Health and Safety Protocols,The Bucks put Matthews in the league's health and safety protocols.,6,2021-12-23
+Bobby Portis,MIL,Milwaukee Bucks,"Thu, Dec 16, 2021",Out,Health and Safety Protocols,The Bucks placed Portis in the league's health and safety protocols.,6,2021-12-23
+Patrick Beverley,MIN,Minnesota Timberwolves,"Mon, Dec 20, 2021",Out,Health and safety protocols,The Timberwolves placed Beverley in the league's health and safety protocols.,7,2021-12-23
+Anthony Edwards,MIN,Minnesota Timberwolves,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Timberwolves placed Edwards in the league's health and safety protocols.,7,2021-12-23
+Jaylen Nowell,MIN,Minnesota Timberwolves,"Wed, Dec 22, 2021",Day To Day,Thumb,Nowell is listed as QUESTIONABLE for Thursday's (Dec. 23) game.,7,2021-12-23
+Josh Okogie,MIN,Minnesota Timberwolves,"Sun, Dec 19, 2021",Out,Health and safety protocols,The Timberwolves placed G Josh Okogie in health and safety protocols.,7,2021-12-23
+Taurean Prince,MIN,Minnesota Timberwolves,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Timberwolves placed Prince in the league's health and safety protocols.,7,2021-12-23
+Naz Reid,MIN,Minnesota Timberwolves,"Wed, Dec 22, 2021",Day To Day,Calf,Reid is listed as QUESTIONABLE for Thursday's (Dec. 23) game.,7,2021-12-23
+Jarred Vanderbilt,MIN,Minnesota Timberwolves,"Mon, Dec 20, 2021",Out,Health and safety protocols,The Timberwolves placed Vanderbilt in the league's health and safety protocols.,7,2021-12-23
+Daulton Hommes,NOP,New Orleans Pelicans,"Sat, Nov 27, 2021",Out,Fibula,Hommes is dealing with a right fibular stress fracture and there is no timetable for his return.,4,2021-12-23
+Kira Lewis,NOP,New Orleans Pelicans,"Thu, Dec 9, 2021",Out For Season,Knee,The Pelicans announced that Lewis Jr. suffered a torn ACL and a grade 2 MCL sprain.,4,2021-12-23
+Jonas Valančiūnas,NOP,New Orleans Pelicans,"Wed, Dec 22, 2021",Out,Illness,Valanciunas is listed as OUT for Thursday's (Dec. 23) game.,4,2021-12-23
+Zion Williamson,NOP,New Orleans Pelicans,"Sat, Dec 11, 2021",Out,Foot,The Pelicans announced that Williamson suffered a setback in his recovery from a foot injury. There is no timetable for his return.,4,2021-12-23
+RJ Barrett,NYK,New York Knicks,"Sun, Dec 12, 2021",Out,Health and safety protocols,The Knicks put Barrett in the league's health and safety protocols.,7,2021-12-23
+Quentin Grimes,NYK,New York Knicks,"Tue, Dec 14, 2021",Out,Health and Safety Protocols,The Knicks put Grimes in the league's health and safety protocols.,7,2021-12-23
+Kevin Knox,NYK,New York Knicks,"Thu, Dec 16, 2021",Out,Health and safety protocols,The Knicks placed Knox II in the league's health and safety protocols.,7,2021-12-23
+Miles McBride,NYK,New York Knicks,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Knicks placed McBride in the league's health and safety protocols.,7,2021-12-23
+Nerlens Noel,NYK,New York Knicks,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Knicks placed Noel in the league's health and safety protocols.,7,2021-12-23
+Immanuel Quickley,NYK,New York Knicks,"Sat, Dec 18, 2021",Out,Health and Safety Protocols,The Knicks put Quickley in the league's health and safety protocols.,7,2021-12-23
+Derrick Rose,NYK,New York Knicks,"Wed, Dec 22, 2021",Out,Ankle,"Rose underwent ankle surgery and will miss at least the next 8 weeks, according to Shams Charania of The Athletic.",7,2021-12-23
+Mike Muscala,OKC,Oklahoma City Thunder,"Tue, Dec 21, 2021",Out,Rest,The Thunder have listed Muscala as OUT for Wednesday's game (Dec. 22) against the Nuggets.,1,2021-12-23
+Cole Anthony,ORL,Orlando Magic,"Wed, Dec 22, 2021",Out,Ankle,Anthony is OUT for Wednesday's (Dec. 22) game against Atlanta.,13,2021-12-23
+Mohamed Bamba,ORL,Orlando Magic,"Sat, Dec 18, 2021",Out,Ankle,The Orlando Magic placed Bamba in the league's health and safety protocols.,13,2021-12-23
+Ignas Brazdeikis,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Magic placed Brazdeikis in the league's health and safety protocols.,13,2021-12-23
+Wendell Carter,ORL,Orlando Magic,"Wed, Dec 22, 2021",Out,Knee,Carter Jr. is OUT for Wednesday's (Dec. 22) game against Atlanta.,13,2021-12-23
+Michael Carter-Williams,ORL,Orlando Magic,"Fri, Oct 29, 2021",Out,Left Ankle,Carter-Williams had surgery on his left ankle back in late August and no timetable has been announced for his return.,13,2021-12-23
+Markelle Fultz,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Fultz is still without a timetable to return from ACL surgery, according to head coach Jamahl Mosley.",13,2021-12-23
+R.J. Hampton,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Magic placed Hampton in the league's health and safety protocols.,13,2021-12-23
+Jonathan Isaac,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Isaac is making progress with his rehab but is still without a timetable to return, according to David Aldridge of The Athletic.",13,2021-12-23
+E'Twaun Moore,ORL,Orlando Magic,"Tue, Nov 16, 2021",Out,Knee,Moore has not played this season and no timetable has been announced for his return.,13,2021-12-23
+Mychal Mulder,ORL,Orlando Magic,"Wed, Dec 22, 2021",Out,Health and safety protocols,The Magic placed Mulder in the league's health and safety protocols.,13,2021-12-23
+Terrence Ross,ORL,Orlando Magic,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Magic placed Ross in the league's health and safety protocols.,13,2021-12-23
+Jalen Suggs,ORL,Orlando Magic,"Tue, Nov 30, 2021",Out,Thumb,"Suggs is dealing with a fractured thumb and will be out an indefinite period of time, according to Shams Charania of The Athletic.",13,2021-12-23
+Moritz Wagner,ORL,Orlando Magic,"Sat, Dec 18, 2021",Out,Health and Safety Protocols,The Magic placed Brazdeikis in the league's health and safety protocols.,13,2021-12-23
+Andre Drummond,PHI,Philadelphia 76ers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The 76ers placed Drummond in the league's health and safety protocols.,6,2021-12-23
+Danny Green,PHI,Philadelphia 76ers,"Wed, Dec 22, 2021",Out,Health Protocols,Green is listed as OUT for Thursday's (Dec. 23) game.,6,2021-12-23
+Furkan Korkmaz,PHI,Philadelphia 76ers,"Tue, Dec 21, 2021",Day To Day,Illness,Korkmaz did not play in Monday's game (Dec. 20).,6,2021-12-23
+Shake Milton,PHI,Philadelphia 76ers,"Sun, Dec 19, 2021",Out,Health and safety protocols,The 76ers placed Milton in the league's health and safety protocols.,6,2021-12-23
+Georges Niang,PHI,Philadelphia 76ers,"Wed, Dec 15, 2021",Out,Health and safety protocols,The 76ers placed Niang in the league's health and safety protocols.,6,2021-12-23
+Ben Simmons,PHI,Philadelphia 76ers,"Thu, Oct 21, 2021",Out,Back,"Simmons is not expected to play for an undetermined period of time, according to Shams Charania of The Athletic.",6,2021-12-23
+Frank Kaminsky,PHX,Phoenix Suns,"Sun, Nov 21, 2021",Out,Knee,The Suns announced that Kaminsky is out indefinitely with a stress reaction in his right knee.,3,2021-12-23
+Abdel Nader,PHX,Phoenix Suns,"Mon, Dec 20, 2021",Out,Knee,Nader is listed as OUT for Tuesday's (Dec. 21) game.,3,2021-12-23
+Dario Šarić,PHX,Phoenix Suns,"Wed, Jul 7, 2021",Out,Knee,The Suns announced that Sario has a torn ACL in his right knee.,3,2021-12-23
+Nassir Little,POR,Portland Trail Blazers,"Wed, Dec 22, 2021",Day To Day,Illness,Little did not play in Tuesday's game (Dec. 21) against the Pelicans.,3,2021-12-23
+CJ McCollum,POR,Portland Trail Blazers,"Wed, Dec 15, 2021",Out,Lung,The Trail Blazers announced that McCollum will be reevaluated next week.,3,2021-12-23
+Cody Zeller,POR,Portland Trail Blazers,"Sun, Dec 12, 2021",Out,Knee,The Trail Blazers announced that Zeller will be re-evaluated in one week.,3,2021-12-23
+Marvin Bagley,SAC,Sacramento Kings,"Wed, Dec 15, 2021",Out,Health and safety protocols,The Kings placed Bagley III in the league's health and safety protocols.,7,2021-12-23
+Terence Davis,SAC,Sacramento Kings,"Wed, Dec 15, 2021",Out,Health Protocols,The Kings placed Davis II in the league's health and safety protocols.,7,2021-12-23
+De'Aaron Fox,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings placed Fox in the league's health and safety protocols.,7,2021-12-23
+Louis King,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings placed King in the league's health and safety protocols.,7,2021-12-23
+Alex Len,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings placed Len in the league's health and safety protocols.,7,2021-12-23
+Davion Mitchell,SAC,Sacramento Kings,"Fri, Dec 17, 2021",Out,Health and Safety Protocols,The Kings placed Mitchell in the league's health and safety protocols.,7,2021-12-23
+Neemias Queta,SAC,Sacramento Kings,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Kings placed Queta in the league's health and safety protocols.,7,2021-12-23
+Zach Collins,SAS,San Antonio Spurs,"Sat, Oct 2, 2021",Out,Ankle,"Spurs coach Gregg Popovich said the timetable for Collins to return is ""after Christmas.""",1,2021-12-23
+Precious Achiuwa,TOR,Toronto Raptors,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Raptors placed Achiuwa in the league's health and safety protocols.,12,2021-12-23
+OG Anunoby,TOR,Toronto Raptors,"Sat, Dec 18, 2021",Out,Health and safety protocols,The Raptors placed Anunoby in the league's health and safety protocols.,12,2021-12-23
+Dalano Banton,TOR,Toronto Raptors,"Sat, Dec 18, 2021",Out,Health and Safety Protocols,The Raptors placed Banton in the league's health and safety protocols.,12,2021-12-23
+Scottie Barnes,TOR,Toronto Raptors,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Raptors placed Barnes in the league's health and safety protocols.,12,2021-12-23
+Khem Birch,TOR,Toronto Raptors,"Wed, Dec 22, 2021",Day To Day,Knee,Birch did not play in Saturday's (Dec. 18) game against Golden State.,12,2021-12-23
+Justin Champagnie,TOR,Toronto Raptors,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Raptors placed Champagnie in the league's health and safety protocols.,12,2021-12-23
+Goran Dragić,TOR,Toronto Raptors,"Tue, Nov 30, 2021",Out,Personal,The Raptors announced that Dragic is dealing with a personal matter and there is no timetable for his return.,12,2021-12-23
+Malachi Flynn,TOR,Toronto Raptors,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Raptors placed Flynn in the league's health and safety protocols.,12,2021-12-23
+David Johnson,TOR,Toronto Raptors,"Wed, Dec 22, 2021",Day To Day,Calf,Johnson did not play in Saturday's (Dec. 18) game against Golden State.,12,2021-12-23
+Pascal Siakam,TOR,Toronto Raptors,"Mon, Dec 20, 2021",Out,Health and safety protocols,The Raptors placed Siakam in the league's health and safety protocols.,12,2021-12-23
+Gary Trent,TOR,Toronto Raptors,"Mon, Dec 20, 2021",Out,Health and safety protocols,The Raptors placed Trent Jr. in the league's health and safety protocols.,12,2021-12-23
+Fred VanVleet,TOR,Toronto Raptors,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Raptors placed VanVleet in the league's health and safety protocols.,12,2021-12-23
+Udoka Azubuike,UTA,Utah Jazz,"Sat, Nov 27, 2021",Out,Ankle,The Jazz announced Azubuike is dealing with a right ankle injury. There is no timetable for his return.,3,2021-12-23
+Malik Fitts,UTA,Utah Jazz,"Tue, Dec 21, 2021",Day To Day,Shoulder,Fitts did not play in Monday's game (Dec. 20).,3,2021-12-23
+Miye Oni,UTA,Utah Jazz,"Tue, Dec 21, 2021",Day To Day,Ankle,Oni did not play in Monday's game (Dec. 20).,3,2021-12-23
+Thomas Bryant,WAS,Washington Wizards,"Mon, Oct 25, 2021",Out,Left Knee,"Bryant is without a timeline to return to action following ACL surgery in February, according to Shams Charania of The Athletic.",3,2021-12-23
+Kentavious Caldwell-Pope,WAS,Washington Wizards,"Tue, Dec 21, 2021",Out,Health and Safety Protocols,The Wizards placed Caldwell-Pope in the league's health and safety protocols.,3,2021-12-23
+Rui Hachimura,WAS,Washington Wizards,"Wed, Dec 22, 2021",Day To Day,Conditioning,Hachimura is listed as QUESTIONABLE for Thursday's (Dec. 23) game.,3,2021-12-23
