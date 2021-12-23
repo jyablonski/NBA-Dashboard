@@ -12,14 +12,14 @@
 1. NBA Data is web scraped in Python on a Cron Schedule ran via ECS Fargate, and data is subsequently stored to source tables in a PostgreSQL Database.
 2. dbt Cloud executes data transformations in SQL on a Cron Schedule following the ECS Task, and also performs automated schema testing, quality checks, and data validation assertions primarily via [dbt_expectations](https://github.com/calogica/dbt-expectations).
 3. The Shiny Server is built & deployed to [shinyapps](https://www.shinyapps.io) and queries from the transformed SQL tables to display current stats, player metrics, gambling odds, and upcoming schedule data.
+   * Any ELT Script failure or dbt Cloud Error / testing failure triggers an automatic email alert detailing the error(s).
+   * **100%** of AWS Infrastructure is constructed via Terraform with the primary services being an ECR Repository, an RDS PostgreSQL DB, and an ECS Task to run the ELT Script, as well as all of the supporting architecture needed for those services (IAM Roles, Lifecycle Policies, Cloudwatch Logs, Security Groups, CIDR Block whitelisting, VPC/Subnets etc).
+   * GitHub Actions are utilized to build CI/CD Workflows for:
+   	*  Automated testing with Pytest & deployment to [Coveralls](https://coveralls.io/) for code coverage
+   	*  The Web Scrape Script to construct the Docker Image & push to the private ECR Repository
+   	*  The Shiny Server code to construct the Shiny Application & push to [shinyapps.io](https://www.shinyapps.io/).
 
-* Any ELT Script failure or dbt Cloud Error / testing failure triggers an automatic email alert detailing the error(s).
-* **100%** of AWS Infrastructure is constructed via Terraform with the primary services being an ECR Repository, an RDS PostgreSQL DB, and an ECS Task to run the ELT Script, as well as all of the supporting architecture needed for those services (IAM Roles, Lifecycle Policies, Cloudwatch Logs, Security Groups, CIDR Block whitelisting, VPC/Subnets etc).
-* GitHub Actions are utilized to build CI/CD Workflows for:
-	*  Automated testing with Pytest & deployment to [Coveralls](https://coveralls.io/) for code coverage
-	*  The Web Scrape Script to construct the Docker Image & push to the private ECR Repository
-	*  The Shiny Server code to construct the Shiny Application & push to [shinyapps.io](https://www.shinyapps.io/).
-      * dbt Cloud offers a free CI Service that uses webhooks to trigger a [temporary build](https://docs.getdbt.com/docs/dbt-cloud/using-dbt-cloud/cloud-enabling-continuous-integration) of the project on any Pull Request to the Project Repo to check for errors that might have been introduced in the proposed changes before they're applied to the Production branch.
+    * dbt Cloud offers a free CI Service that uses webhooks to trigger a [temporary build](https://docs.getdbt.com/docs/dbt-cloud/using-dbt-cloud/cloud-enabling-continuous-integration) of the project on any Pull Request to the Project Repo to check for errors that might have been introduced in the proposed changes before they're applied to the Production branch.
 
   
 * Links to other Repos providing infrastructure for this Project
