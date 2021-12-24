@@ -23,7 +23,7 @@ body_about <- dashboardBody(
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/aws_terraform", "Terraform"),
             tags$br(),
-            tags$a(href = "https://github.com/jyablonski/NBA-Dashboard", "Shiny"),
+            tags$a(href = "https://github.com/jyablonski/NBA-Dashboard", "Shiny Server"),
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/nba_elt_dbt", "dbt"),
             tags$br(),
