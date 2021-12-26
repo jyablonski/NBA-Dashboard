@@ -3,13 +3,13 @@ body_about <- dashboardBody(
     fluidRow(
       column(
         box(
-          title = div("About This Project", style = "padding-left: 20px", class = "h2"),
+          title = div("About this Project", style = "padding-left: 20px", class = "h2"),
           column(
             "This dashboard shows up to date information about the 2021-2022 NBA Season.",
             tags$br(),
             tags$br(),
             h3("Data"),
-            HTML("All NBA Game log, schedule, standings, and play-by-play data is webscraped from"),
+            HTML("All NBA Game log, schedule, standings, and play-by-play data is webscraped daily from"),
              tags$a(href = "https://www.basketball-reference.com", "Basketball Reference"),
             tags$br(),
              "Gambling odds are taken from",  tags$a(href = "https://sportsbook.draftkings.com/leagues/basketball/88670846?category=game-lines&subcategory=game", "Draftkings"), " for that day's games.",
@@ -19,7 +19,7 @@ body_about <- dashboardBody(
             tags$br(),
             h3("GitHub Links to Infrastructure for this Project:"),
             tags$br(),
-            tags$a(href = "https://github.com/jyablonski/python_docker", "Python Web Scrape Script"),
+            tags$a(href = "https://github.com/jyablonski/python_docker", "Python Web Scrape"),
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/aws_terraform", "Terraform"),
             tags$br(),
