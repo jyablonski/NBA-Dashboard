@@ -183,8 +183,6 @@ team_blown_leads <- get_data('prod_team_blown_leads') %>%
 team_contract_analysis <- get_data('prod_team_contracts_analysis') %>%
   mutate(team = fct_reorder(team, team_pct_salary_earned))
 
-team_injures <- get_data('prod_team_injuries')
-
 team_ratings <- get_data('prod_team_ratings')
 
 team_ratings_bans <- team_ratings %>%
@@ -208,11 +206,13 @@ pbp_games_yesterday <- pbp_data %>%
 
 east_standings <- standings %>%
   filter(conference == 'Eastern') %>%
-  select(Seed = rank, Team = team, Wins = wins, Losses = losses, `Active Injuries` = active_injuries, `Last 10 Games` = last_10) 
+  select(Seed = rank, Team = team, Wins = wins, Losses = losses, `Active Injuries` = active_injuries,
+         `Active Health & Safety Protocols` = active_protocols, `Last 10 Games` = last_10) 
 
 west_standings <- standings %>%
   filter(conference == 'Western') %>%
-  select(Seed = rank, Team = team, Wins = wins, Losses = losses, `Active Injuries` = active_injuries, `Last 10 Games` = last_10) 
+  select(Seed = rank, Team = team, Wins = wins, Losses = losses, `Active Injuries` = active_injuries,
+         `Active Health & Safety Protocols` = active_protocols, `Last 10 Games` = last_10) 
 
 upcoming_games_count <- schedule %>%
   filter(Date >= Sys.Date()) %>%
