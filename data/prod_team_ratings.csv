@@ -1,31 +1,31 @@
 team,team_acronym,w,l,ortg,drtg,nrtg,team_logo,nrtg_rank,drtg_rank,ortg_rank
-Golden State Warriors,GSW,27,6,112.7,102.2,10.5,logos/gsw.png,1st,1st,4th
-Utah Jazz,UTA,23,9,117.5,107.1,10.4,logos/uta.png,2nd,6th,1st
-Phoenix Suns,PHX,26,6,111.2,103.9,7.3,logos/phx.png,3rd,2nd,6th
-Cleveland Cavaliers,CLE,19,13,109.6,104.1,5.5,logos/cle.png,4th,3rd,16th
-Miami Heat,MIA,20,13,111.5,107.7,3.8,logos/mia.png,5th,8th,5th
-Brooklyn Nets,BKN,22,9,110.3,106.8,3.5,logos/bkn.png,6th,5th,13th
-Milwaukee Bucks,MIL,22,13,111.1,107.7,3.4,logos/mil.png,7th,7th,8th
-Chicago Bulls,CHI,19,10,111.2,108.1,3.1,logos/chi.png,8th,9th,7th
-Memphis Grizzlies,MEM,19,14,111.1,109.2,1.9,logos/mem.png,9th,14th,9th
-Toronto Raptors,TOR,14,15,110.6,109.4,1.2,logos/tor.png,10th,15th,10th
-Boston Celtics,BOS,16,17,109.5,108.4,1.1,logos/bos.png,11th,10th,17th
-Indiana Pacers,IND,14,19,110.6,109.6,1,logos/ind.png,12th,17th,12th
-San Antonio Spurs,SAS,13,18,110.6,109.7,0.9,logos/sas.png,13th,18th,11th
-Atlanta Hawks,ATL,15,17,113.1,112.2,0.9,logos/atl.png,14th,25th,2nd
-Los Angeles Clippers,LAC,17,15,106.6,105.8,0.8,logos/lac.png,15th,4th,25th
-Dallas Mavericks,DAL,15,17,108.6,108.9,-0.3,logos/dal.png,16th,12th,22nd
-Denver Nuggets,DEN,15,16,109.3,109.8,-0.5,logos/den.png,17th,19th,18th
-Minnesota Timberwolves,MIN,15,17,108.5,109.1,-0.6,logos/min.png,18th,13th,23rd
-New York Knicks,NYK,15,18,110,110.8,-0.8,logos/nyk.png,19th,22nd,14th
-Philadelphia 76ers,PHI,16,16,109.2,110.1,-0.9,logos/phi.png,20th,20th,19th
-Charlotte Hornets,CHA,17,17,113,114.9,-1.9,logos/cha.png,21st,30th,3rd
-Washington Wizards,WAS,17,15,108.6,110.9,-2.3,logos/was.png,22nd,23rd,21st
-Los Angeles Lakers,LAL,16,18,106.2,108.5,-2.3,logos/lal.png,23rd,11th,27th
-Portland Trail Blazers,POR,13,19,110,113,-3,logos/por.png,24th,28th,15th
-Sacramento Kings,SAC,13,20,109,112.8,-3.8,logos/sac.png,25th,27th,20th
-New Orleans Pelicans,NOP,12,21,107.5,112.2,-4.7,logos/nop.png,26th,24th,24th
-Houston Rockets,HOU,10,23,106.2,113.5,-7.3,logos/hou.png,27th,29th,26th
-Oklahoma City Thunder,OKC,11,20,101.4,109.5,-8.1,logos/okc.png,28th,16th,30th
-Detroit Pistons,DET,5,26,101.5,110.6,-9.1,logos/det.png,29th,21st,29th
-Orlando Magic,ORL,7,26,103.1,112.6,-9.5,logos/orl.png,30th,26th,28th
+Golden State Warriors,GSW,30,10,111,102.4,8.6,logos/gsw.png,1st,1st,11th
+Utah Jazz,UTA,28,13,117.2,108.9,8.3,logos/uta.png,2nd,13th,1st
+Phoenix Suns,PHX,31,9,111.9,104.8,7.1,logos/phx.png,3rd,2nd,8th
+Cleveland Cavaliers,CLE,23,18,110.6,105.7,4.9,logos/cle.png,4th,3rd,14th
+Chicago Bulls,CHI,27,11,113,108.5,4.5,logos/chi.png,5th,11th,4th
+Miami Heat,MIA,25,15,112.7,108.3,4.4,logos/mia.png,6th,8th,5th
+Memphis Grizzlies,MEM,29,14,112.6,108.3,4.3,logos/mem.png,7th,7th,6th
+Milwaukee Bucks,MIL,26,17,112.1,108.4,3.7,logos/mil.png,8th,9th,7th
+Dallas Mavericks,DAL,22,18,109.9,107.4,2.5,logos/dal.png,9th,5th,16th
+Brooklyn Nets,BKN,25,14,110.8,108.5,2.3,logos/bkn.png,10th,10th,13th
+Philadelphia 76ers,PHI,23,16,111,109.1,1.9,logos/phi.png,11th,15th,12th
+Boston Celtics,BOS,20,21,109.1,107.5,1.6,logos/bos.png,12th,6th,20th
+Toronto Raptors,TOR,20,18,111.7,110.2,1.5,logos/tor.png,13th,20th,9th
+Minnesota Timberwolves,MIN,20,21,109.6,108.8,0.8,logos/min.png,14th,12th,19th
+Denver Nuggets,DEN,20,19,109,109,0,logos/den.png,15th,14th,21st
+Indiana Pacers,IND,15,26,110.3,110.3,0,logos/ind.png,16th,21st,15th
+San Antonio Spurs,SAS,15,25,109.6,110,-0.4,logos/sas.png,17th,19th,18th
+Los Angeles Lakers,LAL,21,20,108.8,109.3,-0.5,logos/lal.png,18th,16th,22nd
+Los Angeles Clippers,LAC,21,21,106.1,106.7,-0.6,logos/lac.png,19th,4th,27th
+Atlanta Hawks,ATL,17,22,113.8,114.4,-0.6,logos/atl.png,20th,28th,2nd
+Charlotte Hornets,CHA,22,19,113.1,113.8,-0.7,logos/cha.png,21st,27th,3rd
+New York Knicks,NYK,20,21,108.8,109.7,-0.9,logos/nyk.png,22nd,17th,23rd
+Washington Wizards,WAS,21,20,109.8,111.9,-2.1,logos/was.png,23rd,23rd,17th
+Portland Trail Blazers,POR,16,24,111.1,114.9,-3.8,logos/por.png,24th,29th,10th
+Sacramento Kings,SAC,16,27,108.8,113.4,-4.6,logos/sac.png,25th,26th,24th
+New Orleans Pelicans,NOP,15,26,108.3,113.2,-4.9,logos/nop.png,26th,25th,25th
+Oklahoma City Thunder,OKC,13,27,101.9,109.7,-7.8,logos/okc.png,27th,18th,29th
+Houston Rockets,HOU,11,31,106.4,115.3,-8.9,logos/hou.png,28th,30th,26th
+Orlando Magic,ORL,7,34,103.1,112.5,-9.4,logos/orl.png,29th,24th,28th
+Detroit Pistons,DET,9,31,101.4,111.5,-10.1,logos/det.png,30th,22nd,30th

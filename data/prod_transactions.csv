@@ -1,4 +1,5 @@
 date,transaction
+2021-01-06,The New York Knicks signed Ryan Arcidiacono to a 10-day contract.
 2021-07-29,The Los Angeles Clippers traded cash and a 2026 2nd round draft pick to the Orlando Magic for Jason Preston. 2026 2nd-rd pick is DET own
 2021-07-30,The Charlotte Hornets traded a 2022 1st round draft pick to the New York Knicks for Kai Jones. 2022 conditional 1st-rd pick is CHO own
 2021-07-30,The Houston Rockets traded a 2022 1st round draft pick and a 2023 1st round draft pick to the Oklahoma City Thunder for Alperen Şengün. 2022 conditional 1st-rd pick is DET own 2023 conditional 1st-rd pick is WAS own
@@ -445,6 +446,7 @@ date,transaction
 2021-10-09,The New Orleans Pelicans signed Malcolm Hill.
 2021-10-09,The New Orleans Pelicans waived Jared Harper.
 2021-10-09,The New Orleans Pelicans waived Zylan Cheatham.
+2021-10-09,The San Antonio Spurs waived Jaylen Morris.
 2021-10-10,The Brooklyn Nets signed Bryce Brown.
 2021-10-10,The Brooklyn Nets signed Josh Gray.
 2021-10-10,The Brooklyn Nets waived Edmond Sumner.
@@ -1056,6 +1058,7 @@ date,transaction
 2021-12-15,"The Philadelphia 76ers recalled Paul Reed, Jr. from the Delaware 87ers of the G-League."
 2021-12-16,The Atlanta Hawks recalled Onyeka Okongwu from the College Park Skyhawks of the G-League.
 2021-12-16,The Brooklyn Nets signed Langston Galloway to a 10-day contract.
+2021-12-16,The Chicago Bulls waived Alize Johnson.
 2021-12-16,The Indiana Pacers recalled Goga Bitadze from the Fort Wayne Mad Ants of the G-League.
 2021-12-16,The Oklahoma City Thunder assigned Aleksej Pokusevski to the Oklahoma City Blue of the G-League.
 2021-12-16,The Oklahoma City Thunder assigned Tre Mann to the Oklahoma City Blue of the G-League.
@@ -1089,7 +1092,10 @@ date,transaction
 2021-12-18,The Oklahoma City Thunder recalled Aleksej Pokusevski from the Oklahoma City Blue of the G-League.
 2021-12-18,The Oklahoma City Thunder recalled Tre Mann from the Oklahoma City Blue of the G-League.
 2021-12-18,The Oklahoma City Thunder recalled Ty Jerome from the Oklahoma City Blue of the G-League.
+2021-12-18,The Philadelphia 76ers recalled Charles Bassey from the Delaware 87ers of the G-League.
+2021-12-18,The Utah Jazz assigned Elijah Hughes to the Salt Lake City Stars of the G-League.
 2021-12-19,The Denver Nuggets signed Davon Reed to a 10-day contract.
+2021-12-19,The Philadelphia 76ers recalled Paul Reed from the Delaware 87ers of the G-League.
 2021-12-19,The Philadelphia 76ers signed Myles Powell to a two-way contract.
 2021-12-19,The Philadelphia 76ers waived Grant Riller.
 2021-12-19,The Washington Wizards assigned Isaiah Todd to the Capital City Go-Go of the G-League.
@@ -1121,6 +1127,8 @@ date,transaction
 2021-12-22,The Chicago Bulls signed Mac McClung to a 10-day contract.
 2021-12-22,The Cleveland Cavaliers signed Tre Scott to a 10-day contract.
 2021-12-22,The Dallas Mavericks signed George King to a 10-day contract.
+2021-12-22,The Detroit Pistons recalled Isaiah Livers from the  of the G-League.
+2021-12-22,The Los Angeles Clippers recalled Keon Johnson from the Agua Caliente Clippers of the G-League.
 2021-12-22,The Miami Heat signed Zylan Cheatham to a 10-day contract.
 2021-12-22,The Philadelphia 76ers signed Tyler Johnson to a 10-day contract.
 2021-12-22,The Sacramento Kings signed Ade Murkey to a 10-day contract.
@@ -1130,6 +1138,9 @@ date,transaction
 2021-12-22,The Toronto Raptors signed Tremont Waters to a 10-day contract.
 2021-12-22,The Washington Wizards signed Jordan Schakel to a 10-day contract.
 2021-12-23,The Atlanta Hawks signed Wes Iwundu to a 10-day contract.
+2021-12-23,The Charlotte Hornets recalled J.T. Thor from the Greensboro Swarm of the G-League.
+2021-12-23,The Charlotte Hornets recalled Kai Jones from the Greensboro Swarm of the G-League.
+2021-12-23,"The Charlotte Hornets recalled Vernon Carey, Jr. from the Greensboro Swarm of the G-League."
 2021-12-23,The Dallas Mavericks signed Brandon Knight to a 10-day contract.
 2021-12-23,The Dallas Mavericks signed Carlik Jones to a 10-day contract.
 2021-12-23,The Dallas Mavericks signed Charlie Brown Jr. to a 10-day contract.
@@ -1137,3 +1148,167 @@ date,transaction
 2021-12-23,The Golden State Warriors signed Quinndary Weatherspoon to a 10-day contract.
 2021-12-23,The Milwaukee Bucks signed Javin DeLaurier to a 10-day contract.
 2021-12-23,The New York Knicks signed Danuel House Jr. to a 10-day contract.
+2021-12-23,The Utah Jazz recalled Elijah Hughes from the Salt Lake City Stars of the G-League.
+2021-12-23,The Washington Wizards recalled Isaiah Todd from the Capital City Go-Go of the G-League.
+2021-12-24,The Los Angeles Lakers signed Darren Collison to a 10-day contract.
+2021-12-24,The Los Angeles Lakers signed Stanley Johnson to a 10-day contract.
+2021-12-24,The Toronto Raptors signed Daniel Oturu to a 10-day contract.
+2021-12-25,The Atlanta Hawks signed Cat Barber to a 10-day contract.
+2021-12-25,The Atlanta Hawks signed Malik Ellison to a 10-day contract.
+2021-12-25,The Boston Celtics signed Al-Farouq Aminu to a 10-day contract.
+2021-12-25,The Boston Celtics signed Norvel Pelle to a 10-day contract.
+2021-12-25,The Detroit Pistons signed Cassius Stanley to a 10-day contract.
+2021-12-25,The Detroit Pistons signed Derrick Walton to a 10-day contract.
+2021-12-25,The Memphis Grizzlies signed Shaq Buchanan to a 10-day contract.
+2021-12-25,The Memphis Grizzlies signed Tyrell Terry to a 10-day contract.
+2021-12-26,The Chicago Bulls signed Alfonzo McKinnie.
+2021-12-26,The Dallas Mavericks waived Eugene Omoruyi.
+2021-12-26,The Detroit Pistons signed Deividas Sirvydis to a 10-day contract.
+2021-12-26,The Los Angeles Clippers signed Xavier Moon to a 10-day contract.
+2021-12-26,The New Orleans Pelicans signed Anthony Tolliver to a 10-day contract.
+2021-12-26,The New Orleans Pelicans signed Justin James to a 10-day contract.
+2021-12-26,The Portland Trail Blazers signed Brandon Williams to a 10-day contract.
+2021-12-26,The Portland Trail Blazers signed Cameron McGriff to a 10-day contract.
+2021-12-26,The Portland Trail Blazers signed Jarron Cumberland to a 10-day contract.
+2021-12-26,The San Antonio Spurs recalled Joshua Primo from the Austin Toros of the G-League.
+2021-12-27,The Atlanta Hawks signed Chaundee Brown Jr. to a 10-day contract.
+2021-12-27,The Brooklyn Nets signed Langston Galloway to a 2nd 10-day contract.
+2021-12-27,The Indiana Pacers signed Keifer Sykes.
+2021-12-27,The Indiana Pacers waived Brad Wanamaker.
+2021-12-27,The Memphis Grizzlies signed Xavier Sneed to a 10-day contract.
+2021-12-27,The Minnesota Timberwolves signed Greg Monroe to a 10-day contract.
+2021-12-27,The New Orleans Pelicans waived Anthony Tolliver. contract voided due to positive COVID-19 test
+2021-12-27,The Oklahoma City Thunder signed Olivier Sarr to a 10-day contract.
+2021-12-27,The Oklahoma City Thunder signed Rob Edwards to a 10-day contract.
+2021-12-27,The Oklahoma City Thunder signed Scotty Hopson to a 10-day contract.
+2021-12-27,The Orlando Magic signed Admiral Schofield to a 2nd 10-day contract.
+2021-12-27,The Orlando Magic signed Hassani Gravett to a 2nd 10-day contract.
+2021-12-27,The Phoenix Suns signed Emanuel Terry to a 10-day contract.
+2021-12-27,The Washington Wizards signed Jordan Goodwin to a 10-day contract.
+2021-12-28,The Atlanta Hawks signed Justin Tillman to a 10-day contract.
+2021-12-28,The Detroit Pistons signed Justin Robinson to a 10-day contract.
+2021-12-28,The Detroit Pistons signed Trayvon Palmer to a 10-day contract.
+2021-12-28,The Houston Rockets signed DeJon Jarreau to a 10-day contract.
+2021-12-28,The New Orleans Pelicans signed Feron Hunt to a 10-day contract.
+2021-12-28,The Portland Trail Blazers signed Reggie Perry to a 10-day contract.
+2021-12-28,The Washington Wizards signed Alize Johnson to a 10-day contract.
+2021-12-28,The Washington Wizards signed Craig Sword to a 10-day contract.
+2021-12-29,The Atlanta Hawks signed Cameron Oliver to a 10-day contract.
+2021-12-29,The Atlanta Hawks signed Chris Clemons to a 10-day contract.
+2021-12-29,The Brooklyn Nets signed Shaquille Harrison to a 2nd 10-day contract.
+2021-12-29,The Cleveland Cavaliers signed Malik Newman to a 10-day contract.
+2021-12-29,The Dallas Mavericks signed Isaiah Thomas to a 10-day contract.
+2021-12-29,The Detroit Pistons signed Micah Potter to a 10-day contract.
+2021-12-29,The Los Angeles Clippers signed James Ennis to a 10-day contract.
+2021-12-29,The Oklahoma City Thunder signed Jaylen Hoard to a 10-day contract.
+2021-12-29,The Washington Wizards signed Brad Wanamaker to a 10-day contract.
+2021-12-30,The Chicago Bulls signed Jordan Bell to a 10-day contract.
+2021-12-30,The Denver Nuggets signed Davon Reed to a 10-day contract.
+2021-12-30,The Indiana Pacers signed Nate Hinton to a 10-day contract.
+2021-12-30,The Memphis Grizzlies signed Dakota Mathias to a 10-day contract.
+2021-12-30,The Miami Heat signed Aric Holman to a 10-day contract.
+2021-12-30,The Miami Heat signed Haywood Highsmith to a 10-day contract.
+2021-12-30,The Miami Heat signed Kyle Guy to a 10-day contract.
+2021-12-30,The Phoenix Suns signed M.J. Walker to a 10-day contract.
+2021-12-30,The Washington Wizards signed Jaime Echenique to a 10-day contract.
+2021-12-31,The Cleveland Cavaliers signed Brandon Goodwin to a 10-day contract.
+2021-12-31,The Dallas Mavericks signed Marquese Chriss to a 10-day contract.
+2021-12-31,The Dallas Mavericks signed Theo Pinson to a 10-day contract.
+2021-12-31,The Denver Nuggets signed Rayjon Tucker to a 10-day contract.
+2021-12-31,The Detroit Pistons signed Jaysean Paige to a 10-day contract.
+2021-12-31,The Indiana Pacers signed Ahmad Caver to a 10-day contract.
+2021-12-31,The Los Angeles Clippers signed Wenyen Gabriel to a 10-day contract.
+2021-12-31,The Miami Heat signed Chris Silva to a 10-day contract.
+2021-12-31,The Miami Heat signed Mario Chalmers to a 10-day contract.
+2021-12-31,The Miami Heat signed Nik Stauskas to a 10-day contract.
+2021-12-31,The New York Knicks signed Damyean Dotson to a 10-day contract.
+2021-12-31,The New York Knicks signed Matt Mooney to a 10-day contract.
+2021-12-31,The Orlando Magic signed Freddie Gillespie to a 2nd 10-day contract.
+2021-12-31,The Orlando Magic signed Tim Frazier to a 2nd 10-day contract.
+2021-12-31,The Phoenix Suns signed Paris Bass to a 10-day contract.
+2022-01-01,The Chicago Bulls signed Mac McClung to a 2nd 10-day contract.
+2022-01-01,The Denver Nuggets signed Carlik Jones to a 10-day contract.
+2022-01-01,The Indiana Pacers signed Justin Anderson to a 10-day contract.
+2022-01-01,The Indiana Pacers signed Lance Stephenson to a 10-day contract.
+2022-01-01,The Memphis Grizzlies converted Killian Tillie from a two-way contract to a regular contract.
+2022-01-01,The Memphis Grizzlies signed DaQuan Jeffries to a 10-day contract.
+2022-01-01,The Memphis Grizzlies signed Tyrell Terry to a two-way contract.
+2022-01-01,The Memphis Grizzlies waived Sam Merrill.
+2022-01-01,The Phoenix Suns signed Bismack Biyombo to a 10-day contract.
+2022-01-01,The San Antonio Spurs signed Jaylen Morris to a 10-day contract.
+2022-01-01,The Washington Wizards signed Tremont Waters to a 10-day contract.
+2022-01-02,The Detroit Pistons assigned Trayvon Palmer to the  of the G-League.
+2022-01-02,The Golden State Warriors waived Jeff Dowtin.
+2022-01-03,"In a 3-team trade, the Cleveland Cavaliers traded Denzel Valentine to the New York Knicks; the Los Angeles Lakers traded Rajon Rondo to the Cleveland Cavaliers; the Los Angeles Lakers traded Brad Newley and Wang Zhelin to the New York Knicks; and  the New York Knicks traded Louis Labeyrie to the Los Angeles Lakers. Cleveland also received a trade exception Los Angeles also received a trade exception"
+2022-01-03,The Atlanta Hawks assigned Justin Tillman to the College Park Skyhawks of the G-League.
+2022-01-03,The Golden State Warriors signed Quinndary Weatherspoon to a two-way contract.
+2022-01-03,The Memphis Grizzlies signed Jon Teske to a 10-day contract.
+2022-01-03,The Milwaukee Bucks signed Luke Kornet to a 10-day contract.
+2022-01-03,The New York Knicks signed Ryan Arcidiacono to a 10-day contract. contract voided
+2022-01-03,The New York Knicks waived Wayne Selden.
+2022-01-03,The Philadelphia 76ers signed Charlie Brown to a 10-day contract.
+2022-01-03,The Sacramento Kings assigned Robert Woodard to the Reno Bighorns of the G-League.
+2022-01-04,The Chicago Bulls assigned Mac McClung to the Windy City Bulls of the G-League.
+2022-01-04,The Cleveland Cavaliers assigned Malik Newman to the Canton Charge of the G-League.
+2022-01-04,The Detroit Pistons assigned Kelly Olynyk to the  of the G-League.
+2022-01-04,The Detroit Pistons recalled Kelly Olynyk from the  of the G-League.
+2022-01-04,The Los Angeles Clippers signed Xavier Moon to a 2nd 10-day contract.
+2022-01-04,The Oklahoma City Thunder traded cash to the Utah Jazz for Miye Oni. Utah also received a trade exception
+2022-01-04,The Oklahoma City Thunder waived Gabriel Deck.
+2022-01-04,The Phoenix Suns signed Justin Jackson to a 10-day contract.
+2022-01-04,The Phoenix Suns waived Chandler Hutchison.
+2022-01-04,The Washington Wizards assigned Craig Sword to the Capital City Go-Go of the G-League.
+2022-01-04,The Washington Wizards assigned Isaiah Todd to the Capital City Go-Go of the G-League.
+2022-01-04,The Washington Wizards assigned Jordan Goodwin to the Capital City Go-Go of the G-League.
+2022-01-05,The New York Knicks waived Denzel Valentine.
+2022-01-05,The Philadelphia 76ers signed Braxton Key to a 10-day contract.
+2022-01-05,The Toronto Raptors assigned Isaac Bonga to the Raptors 905 of the G-League.
+2022-01-05,The Washington Wizards recalled Craig Sword from the Capital City Go-Go of the G-League.
+2022-01-05,The Washington Wizards recalled Isaiah Todd from the Capital City Go-Go of the G-League.
+2022-01-05,The Washington Wizards recalled Jordan Goodwin from the Capital City Go-Go of the G-League.
+2022-01-06,The Indiana Pacers assigned Nate Hinton to the Fort Wayne Mad Ants of the G-League.
+2022-01-06,The Indiana Pacers waived Kelan Martin.
+2022-01-06,The Los Angeles Lakers signed Stanley Johnson to a 2nd 10-day contract.
+2022-01-06,The Milwaukee Bucks waived DeMarcus Cousins.
+2022-01-06,The Oklahoma City Thunder assigned Jaylen Hoard to the Oklahoma City Blue of the G-League.
+2022-01-06,The Orlando Magic signed Admiral Schofield to a two-way contract.
+2022-01-06,The Orlando Magic waived Mychal Mulder.
+2022-01-06,The Sacramento Kings assigned Jahmi'us Ramsey to the Stockton Kings of the G-League.
+2022-01-06,The San Antonio Spurs signed Anthony Lamb to a 10-day contract.
+2022-01-06,The San Antonio Spurs signed Tyler Johnson to a 10-day contract.
+2022-01-06,The Utah Jazz signed Danuel House to a 10-day contract.
+2022-01-06,The Washington Wizards signed Greg Monroe to a 10-day contract.
+2022-01-06,The Washington Wizards waived Alize Johnson.
+2022-01-06,The Washington Wizards waived Craig Sword.
+2022-01-07,The Boston Celtics waived Jabari Parker.
+2022-01-07,The Golden State Warriors assigned Moses Moody to the Santa Cruz Warriors of the G-League.
+2022-01-07,The Milwaukee Bucks signed Jeff Dowtin to a 10-day contract.
+2022-01-07,The Milwaukee Bucks signed Langston Galloway to a 10-day contract.
+2022-01-07,The New Orleans Pelicans waived Gary Clark.
+2022-01-07,The Oklahoma City Thunder waived Miye Oni.
+2022-01-07,The Sacramento Kings recalled Jahmi'us Ramsey from the Stockton Kings of the G-League.
+2022-01-07,The Sacramento Kings recalled Robert Woodard II from the Stockton Kings of the G-League.
+2022-01-07,The Toronto Raptors signed D.J. Wilson to a 2nd 10-day contract.
+2022-01-07,The Utah Jazz signed Norvel Pelle to a 10-day contract.
+2022-01-07,The Washington Wizards assigned Jaime Echenique to the Capital City Go-Go of the G-League.
+2022-01-08,The Detroit Pistons signed Cassius Stanley to a 2nd 10-day contract.
+2022-01-09,The Boston Celtics assigned Aaron Nesmith to the  of the G-League.
+2022-01-09,The Boston Celtics assigned Bruno Fernando to the  of the G-League.
+2022-01-09,The Cleveland Cavaliers signed Brandon Goodwin to a two-way contract.
+2022-01-09,The Cleveland Cavaliers waived Tacko Fall.
+2022-01-09,The Denver Nuggets signed Davon Reed to a two-way contract.
+2022-01-09,The Denver Nuggets waived Petr Cornelie.
+2022-01-09,The New Orleans Pelicans signed Gary Clark to a two-way contract.
+2022-01-09,The New Orleans Pelicans waived Jared Harper.
+2022-01-09,The Oklahoma City Thunder signed Olivier Sarr to a 2nd 10-day contract.
+2022-01-10,The Dallas Mavericks signed Marquese Chriss to a 10-day contract.
+2022-01-10,The Dallas Mavericks signed Theo Pinson to a two-way contract.
+2022-01-10,The Dallas Mavericks waived JaQuori McLaughlin.
+2022-01-10,The Denver Nuggets signed James Ennis to a 10-day contract.
+2022-01-10,The Denver Nuggets traded Bol Bol to the Detroit Pistons for Rodney McGruder and a 2022 2nd round draft pick. Denver also received a trade exception 2022 2nd-rd pick is BRK own
+2022-01-10,The Golden State Warriors assigned Jonathan Kuminga to the Santa Cruz Warriors of the G-League.
+2022-01-10,The Miami Heat signed Chris Silva to a 2nd 10-day contract.
+2022-01-10,The Miami Heat signed Kyle Guy to a 2nd 10-day contract.
+2022-01-10,The Toronto Raptors assigned Dalano Banton to the Raptors 905 of the G-League.
+2022-01-10,The Toronto Raptors assigned Malachi Flynn to the Raptors 905 of the G-League.
+2022-01-10,The Utah Jazz signed Denzel Valentine to a 10-day contract.

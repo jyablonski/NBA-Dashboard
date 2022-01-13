@@ -3,9 +3,10 @@ body_standings <- dashboardBody(
     box(h4(paste0("Key Figures & Standings as of ", today)),
         fluidRow(
           column(
-            valueBoxOutput("bans_homeroad", width = 4),
-            valueBoxOutput("bans_avg_pts", width = 4),
-            valueBoxOutput("bans_date", width = 4),
+            valueBoxOutput("bans_homeroad", width = 3),
+            valueBoxOutput("bans_avg_pts", width = 3),
+            valueBoxOutput("bans_active_protocols", width = 3),
+            valueBoxOutput("bans_date", width = 3),
             width = 12,
             style = "margin-left: -20px"
           )
