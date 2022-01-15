@@ -93,7 +93,7 @@ get_ord_numbers <- function(df){
 # Loading in Data 
 bans <- get_data('prod_bans') %>%
   mutate(record = paste0(tot_wins[1], ' - ', tot_wins[2]),
-         pct_change = round((avg_pts - last_yr_ppg) / avg_pts, 3),                      # time comes in UTC format
+         pct_change = round((avg_pts - last_yr_ppg) / avg_pts, 3) * 100,                      # time comes in UTC format
          last_updated_at = strftime(last_updated_at, format = '%B %d, %Y - %I:%M %p CST')) # this formats into CST for me
 
 contracts_value <- get_data('prod_contract_value_analysis') 

@@ -88,8 +88,8 @@ server <- function(input, output, session) {
   
   output$bans_active_protocols <- renderValueBox({
     valueBox(
-      value = bans$sum_active_protocols[1], HTML(paste0(" <br> <br> ",
-                                            "Active Players in COVID Protocols")),
+      value = bans$sum_active_protocols[1], HTML(paste0("Active Players in COVID Protocols <br> <br>",
+                                            bans$protocols_text[1], "")),
       icon = icon("caret-up"), color = "blue"
     )
   })
