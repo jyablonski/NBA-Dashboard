@@ -12,9 +12,13 @@ body_about <- dashboardBody(
             HTML("All NBA Game log, schedule, standings, and play-by-play data is webscraped daily from"),
              tags$a(href = "https://www.basketball-reference.com", "Basketball Reference"),
             tags$br(),
+            tags$br(),
              "Gambling odds are taken from",  tags$a(href = "https://sportsbook.draftkings.com/leagues/basketball/88670846?category=game-lines&subcategory=game", "Draftkings"), " for that day's games.",
             tags$br(),
-            HTML("The Dashboard automatically updates whenever this application is loaded by a user."),
+            tags$br(),
+            HTML("Reddit Comments are scraped from the top ~27 most active posts from the previous day, while
+                 Twitter Tweets are randomly collected and only include a subset of total volume due to scraping limitations.
+                 NLTK is used to apply sentiment analysis upon this text data as it's collected using the VADER Lexicon."),
             tags$br(),
             tags$br(),
             h3("GitHub Links to Infrastructure for this Project:"),
