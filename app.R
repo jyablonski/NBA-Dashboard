@@ -2,8 +2,9 @@ source('global.R')
 source('content/body_standings.R')
 source('content/body_recent.R')
 source('content/body_team_plots.R')
-source('content/body_about.R')
 source('content/body_schedule.R')
+source('content/body_social_media_analysis.R')
+source('content/body_about.R')
 
 ui <- fluidPage(
   theme = shinytheme("sandstone"),  #sandstone, cosmo, 
@@ -58,6 +59,10 @@ ui <- fluidPage(
                                                 header = dashboardHeader(disable = TRUE),
                                                 sidebar = dashboardSidebar(disable = TRUE),
                                                 body = body_schedule)),
+             tabPanel("Social Media Analysis", dashboardPage(title = "Social Media Analysis",
+                                                header = dashboardHeader(disable = TRUE),
+                                                sidebar = dashboardSidebar(disable = TRUE),
+                                                body = body_social_media_analysis)),
              tabPanel("About", dashboardPage(title = "About",
                                              header = dashboardHeader(disable = TRUE),
                                              sidebar = dashboardSidebar(disable = TRUE),
@@ -276,6 +281,32 @@ server <- function(input, output, session) {
     }
   })
   
+  ###############################
+  #                             #
+  #    SOCIAL MEDIA ANALYSIS    #   
+  #                             #   
+  ###############################
+  
+  output$reddit_table <- DT::renderDataTable(reddit_data, rownames = FALSE,
+                                               options = list(pageLength = 25))
+  
+  output$twitter_table <- DT::renderDataTable(twitter_data, rownames = FALSE,
+                                               options = list(pageLength = 25))
+  
+  selected_social_media <- reactive({
+    if (input$select_social_media == 'Reddit Comments') {
+      reddit_data
+    }
+    else {
+      twitter_data
+    }
+  })
+
+  
+
+  output$social_media_table <- DT::renderDataTable(selected_social_media(), rownames = FALSE,
+                                                  options = list(pageLength = 25),
+                                                  escape = FALSE)
   
   
   ################

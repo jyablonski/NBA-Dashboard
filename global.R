@@ -101,7 +101,10 @@ contracts_value <- get_data('prod_contract_value_analysis')
 future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
   mutate(team = fct_reorder(team, pct_games_left_above_500))
 
-gamelogs <- get_data('prod_gamelogs')
+most_recent_date <- get_data('prod_gamelogs') %>%
+  select(date) %>%
+  filter(date == max(date)) %>%
+  distinct()
 
 game_types <- get_data('prod_game_types') %>%
   mutate(pct_total = round(n / sum(n), 3))
@@ -165,6 +168,12 @@ recent_games_players <- get_data('prod_recent_games_players') %>%
 recent_games_teams <- get_data('prod_recent_games_teams') %>%
   select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, pts_color, opp_pts_color, mov)
 
+reddit_data <- get_data('prod_reddit_comments') %>%
+  rename(`Scrape Date` = scrape_date, User = author, Comment = comment, Flair = flair, Score = score,
+         `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
+  mutate(Score = as.numeric(Score),
+         URL = paste0("<a href='",URL,"'>",URL,"</a>"))
+
 schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
 
@@ -195,6 +204,11 @@ top_scorers <- get_data('prod_scorers')
 transactions <- get_data('prod_transactions') %>%
   select(Date = date, Transaction = transaction)
 
+twitter_data <- get_data('prod_twitter_comments') %>%
+  rename(`Scrape Date` = scrape_date, User = username, Tweet = tweet, Likes = likes_count, Retweets = retweets_count,
+         Replies = replies_count, `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
+  mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>"))
+
 dbDisconnect(aws_connect)
 
 ###### Data Extraction Complete ######
@@ -222,12 +236,6 @@ upcoming_games_count <- schedule %>%
   
 bans <- bans %>%
   mutate(upcoming_games = upcoming_games_count)
-
-
-most_recent_date <- gamelogs %>%
-  select(date) %>%
-  filter(date == max(date)) %>%
-  distinct()
 
 league_average_ts <- bans$league_ts_percent[1]
 updated_date <- bans$last_updated_at[1]

@@ -1,596 +1,596 @@
 player,salary_rank,team,games_played,player_mvp_calc_avg,salary,team_games_played,games_missed,pvm_rank,rankingish,percentile_rank,color_var,adj_penalty_final,pct_penalized
-Giannis Antetokounmpo,$30+ M,MIL,35,47.2,39344970,44,9,31.62,1,100,Superstars,1,0
-Nikola Jokic,$30+ M,DEN,35,45.1,30510423,40,5,31.62,0.964,96.4,Superstars,1,0
-Kevin Durant,$30+ M,BKN,35,42.9,40918900,41,6,31.62,0.929,92.9,Superstars,1,0
-Stephen Curry,$30+ M,GSW,39,41.5,45780966,42,3,31.62,0.893,89.3,Superstars,1,0
-LeBron James,$30+ M,LAL,30,40.2,41180544,42,12,31.62,0.857,85.7,Superstars,0.92,0.08
-James Harden,$30+ M,BKN,36,39.8,43848000,41,5,31.62,0.821,82.1,Superstars,1,0
-Trae Young,$5-10 M,ATL,37,39.8,8326471,41,4,15.58,1,100,Great Value,1,0
-Joel Embiid,$30+ M,PHI,30,39.29,31579390,41,11,31.62,0.786,78.6,Superstars,0.94,0.06
-Dejounte Murray,$15-20 M,SAS,37,38.1,15428571,42,5,21.93,1,100,Great Value,1,0
-Donovan Mitchell,$25-30 M,UTA,38,37.1,28103550,42,4,29.5,1,100,Great Value,1,0
-DeMar DeRozan,$25-30 M,CHI,37,37,26000000,40,3,29.5,0.875,87.5,Normal,1,0
-Fred VanVleet,$15-20 M,TOR,36,37,19675926,39,3,21.93,0.967,96.7,Great Value,1,0
-Jayson Tatum,$25-30 M,BOS,39,36.1,28103550,43,4,29.5,0.75,75,Normal,1,0
-Karl-Anthony Towns,$30+ M,MIN,35,35.9,31610000,42,7,31.62,0.75,75,Superstars,1,0
-Chris Paul,$30+ M,PHX,41,35,30800000,41,0,31.62,0.714,71.4,Superstars,1,0
-LaMelo Ball,$5-10 M,CHA,37,34.3,8231760,43,6,15.58,0.987,98.7,Great Value,1,0
-Devin Booker,$30+ M,PHX,34,34.2,31610000,41,7,31.62,0.679,67.9,Superstars,1,0
-Ja Morant,$5-10 M,MEM,32,33.95,9603360,45,13,15.58,0.974,97.4,Great Value,0.92,0.08
-Darius Garland,$5-10 M,CLE,37,33.6,7040880,43,6,15.58,0.961,96.1,Great Value,1,0
-Jrue Holiday,$30+ M,MIL,33,33.5,30133333,44,11,31.62,0.643,64.3,Superstars,0.96,0.04
-Luka Doncic,$10-15 M,DAL,27,32.25,10174391,42,15,17.79,1,100,Great Value,0.86,0.14
-Rudy Gobert,$30+ M,UTA,37,32.2,35344828,42,5,31.62,0.571,57.1,Superstars,1,0
-Bradley Beal,$30+ M,WAS,34,32.2,34502130,42,8,31.62,0.571,57.1,Superstars,1,0
-Anthony Edwards,$10-15 M,MIN,36,32.2,10245480,42,6,17.79,0.971,97.1,Great Value,1,0
-D'Angelo Russell,$30+ M,MIN,32,32.16,30013500,42,10,31.62,0.536,53.6,Superstars,0.96,0.04
-Zach LaVine,$15-20 M,CHI,38,32,19500000,40,2,21.93,0.933,93.3,Great Value,1,0
-Damian Lillard,$30+ M,POR,29,31.37,39344900,41,12,31.62,0.5,50,Superstars,0.92,0.08
-Shai Gilgeous-Alexander,$5-10 M,OKC,36,30.9,5495532,41,5,15.58,0.948,94.8,Great Value,1,0
-Domantas Sabonis,$15-20 M,IND,42,30.9,18562500,43,1,21.93,0.9,90,Great Value,1,0
-Russell Westbrook,$30+ M,LAL,42,30.8,44211146,42,0,31.62,0.464,46.4,Normal,1,0
-Brandon Ingram,$25-30 M,NOP,33,30.58,29467800,42,9,29.5,0.625,62.5,Normal,0.98,0.02
-Pascal Siakam,$30+ M,TOR,26,30.51,31320000,39,13,31.62,0.429,42.9,Normal,0.9,0.1
-Miles Bridges,$5-10 M,CHA,41,30.4,5421493,43,2,15.58,0.935,93.5,Great Value,1,0
-Nikola Vucevic,$20-25 M,CHI,33,30.2,24000000,40,7,23.28,1,100,Great Value,1,0
-Anthony Davis,$30+ M,LAL,27,29.93,35361360,42,15,31.62,0.393,39.3,Normal,0.86,0.14
-Jimmy Butler,$30+ M,MIA,24,29.92,36016200,42,18,31.62,0.357,35.7,Normal,0.8,0.2
-Paul George,$30+ M,LAC,26,29.82,39344970,43,17,31.62,0.321,32.1,Normal,0.84,0.16
-Jaylen Brown,$20-25 M,BOS,29,29.16,24830357,43,14,23.28,0.917,91.7,Great Value,0.9,0.1
-Jarrett Allen,$20-25 M,CLE,36,29,20000000,43,7,23.28,0.833,83.3,Normal,1,0
-Kyle Lowry,$25-30 M,MIA,38,28.4,26984128,42,4,29.5,0.5,50,Normal,1,0
-Khris Middleton,$30+ M,MIL,32,28.11,35500000,44,12,31.62,0.286,28.6,Normal,0.94,0.06
-Tyler Herro,< $5 M,MIA,36,27.9,4004280,42,6,6.84,1,100,Great Value,1,0
-De'Aaron Fox,$25-30 M,SAC,41,27.8,28103550,45,4,29.5,0.375,37.5,Normal,1,0
-Julius Randle,$15-20 M,NYK,40,27.8,19800000,42,2,21.93,0.867,86.7,Normal,1,0
-Tobias Harris,$30+ M,PHI,32,27.64,36000000,41,9,31.62,0.25,25,Normal,0.98,0.02
-Mike Conley,$20-25 M,UTA,37,27.6,21000000,42,5,23.28,0.75,75,Normal,1,0
-Ricky Rubio,$15-20 M,CLE,34,27.2,17809524,43,9,21.93,0.833,83.3,Normal,1,0
-Jonas Valanciunas,$10-15 M,NOP,39,27.1,14000000,42,3,17.79,0.943,94.3,Great Value,1,0
-Jalen Brunson,< $5 M,DAL,41,26.9,1802057,42,1,6.84,0.997,99.7,Great Value,1,0
-Evan Mobley,$5-10 M,CLE,35,26.9,8075160,43,8,15.58,0.922,92.2,Great Value,1,0
-Terry Rozier,$15-20 M,CHA,34,26.8,17905263,43,9,21.93,0.8,80,Normal,1,0
-Andrew Wiggins,$30+ M,GSW,38,26.7,31579390,42,4,31.62,0.214,21.4,Normal,1,0
-Jaren Jackson,$5-10 M,MEM,44,26.7,9180560,45,1,15.58,0.909,90.9,Great Value,1,0
-Kristaps Porzingis,$30+ M,DAL,26,26.46,31650600,42,16,31.62,0.179,17.9,Bad Value,0.84,0.16
-Lonzo Ball,$15-20 M,CHI,35,26.4,18604651,40,5,21.93,0.767,76.7,Normal,1,0
-John Collins,$20-25 M,ATL,36,26.4,23000000,41,5,23.28,0.667,66.7,Normal,1,0
-Tyrese Maxey,< $5 M,PHI,34,26.2,2602920,41,7,6.84,0.995,99.5,Great Value,1,0
-Tyrese Haliburton,< $5 M,SAC,43,26.1,4023600,45,2,6.84,0.992,99.2,Great Value,1,0
-Cole Anthony,< $5 M,ORL,29,25.92,3449400,43,14,6.84,0.99,99,Great Value,0.9,0.1
-Draymond Green,$20-25 M,GSW,34,25.9,24026712,42,8,23.28,0.583,58.3,Normal,1,0
-Malcolm Brogdon,$20-25 M,IND,27,25.89,21700000,43,16,23.28,0.5,50,Normal,0.86,0.14
-Desmond Bane,< $5 M,MEM,44,25.6,2033160,45,1,6.84,0.987,98.7,Great Value,1,0
-Gary Trent,$15-20 M,TOR,33,25.6,16000000,39,6,21.93,0.7,70,Normal,1,0
-Derrick White,$15-20 M,SAS,37,25.6,15178571,42,5,21.93,0.7,70,Normal,1,0
-Gordon Hayward,$25-30 M,CHA,42,25.1,29900000,43,1,29.5,0.25,25,Normal,1,0
-Scottie Barnes,$5-10 M,TOR,33,25,7280520,39,6,15.58,0.896,89.6,Normal,1,0
-Jordan Poole,< $5 M,GSW,36,24.9,2161440,42,6,6.84,0.985,98.5,Great Value,1,0
-Caris LeVert,$15-20 M,IND,30,24.84,17500000,43,13,21.93,0.667,66.7,Normal,0.92,0.08
-Bobby Portis,< $5 M,MIL,35,24.8,4347600,44,9,6.84,0.982,98.2,Great Value,1,0
-Seth Curry,$5-10 M,PHI,37,24.8,8186047,41,4,15.58,0.883,88.3,Normal,1,0
-Clint Capela,$15-20 M,ATL,36,24.6,17103448,41,5,21.93,0.633,63.3,Normal,1,0
-Marcus Smart,$10-15 M,BOS,38,24.4,14339285,43,5,17.79,0.914,91.4,Great Value,1,0
-Will Barton,$15-20 M,DEN,35,24,15384615,40,5,21.93,0.6,60,Normal,1,0
-Deandre Ayton,$10-15 M,PHX,27,23.67,12632950,41,14,17.79,0.886,88.6,Normal,0.88,0.12
-OG Anunoby,$15-20 M,TOR,24,23.65,16071429,39,15,21.93,0.567,56.7,Normal,0.86,0.14
-CJ McCollum,$30+ M,POR,24,23.62,30864198,41,17,31.62,0.143,14.3,Bad Value,0.82,0.18
-Dennis Schroder,$5-10 M,BOS,36,23,5890000,43,7,15.58,0.87,87,Normal,1,0
-Christian Wood,$10-15 M,HOU,41,22.9,13666667,44,3,17.79,0.857,85.7,Normal,1,0
-Jakob Poeltl,$5-10 M,SAS,35,22.9,8750000,42,7,15.58,0.857,85.7,Normal,1,0
-Kyrie Irving,$30+ M,BKN,3,22.88,34916200,41,38,31.62,0.107,10.7,Bad Value,0.75,0.25
-Myles Turner,$15-20 M,IND,42,22.8,18000000,43,1,21.93,0.533,53.3,Normal,1,0
-Montrezl Harrell,$5-10 M,WAS,35,22.8,9720900,42,7,15.58,0.844,84.4,Normal,1,0
-Devonte' Graham,$10-15 M,NOP,39,22.7,11000000,42,3,17.79,0.829,82.9,Normal,1,0
-Bojan Bogdanovic,$15-20 M,UTA,41,22.7,18700000,42,1,21.93,0.5,50,Normal,1,0
-Al Horford,$25-30 M,BOS,34,22.6,27000000,43,9,29.5,0.125,12.5,Bad Value,1,0
-Kyle Kuzma,$10-15 M,WAS,40,22.5,13000000,42,2,17.79,0.8,80,Normal,1,0
-Lauri Markkanen,$15-20 M,CLE,34,22.4,15690909,43,9,21.93,0.467,46.7,Normal,1,0
-Jusuf Nurkic,$10-15 M,POR,38,22.4,12000000,41,3,17.79,0.771,77.1,Normal,1,0
-Spencer Dinwiddie,$15-20 M,WAS,33,22.34,17142857,42,9,21.93,0.433,43.3,Normal,0.98,0.02
-Monte Morris,$5-10 M,DEN,37,22.2,8333333,40,3,15.58,0.831,83.1,Normal,1,0
-Robert Williams,< $5 M,BOS,34,22,3661976,43,9,6.84,0.98,98,Great Value,1,0
-Mikal Bridges,$5-10 M,PHX,41,21.9,5557725,41,0,15.58,0.818,81.8,Normal,1,0
-Tim Hardaway,$20-25 M,DAL,36,21.9,21306816,42,6,23.28,0.417,41.7,Normal,1,0
-Jordan Clarkson,$10-15 M,UTA,41,21.9,12420000,42,1,17.79,0.714,71.4,Normal,1,0
-Reggie Jackson,$10-15 M,LAC,39,21.9,10384500,43,4,17.79,0.714,71.4,Normal,1,0
-Norman Powell,$15-20 M,POR,34,21.8,15517242,41,7,21.93,0.4,40,Normal,1,0
-Cade Cunningham,$10-15 M,DET,32,21.66,10050120,41,9,17.79,0.686,68.6,Normal,0.98,0.02
-Kelly Oubre,$10-15 M,CHA,40,21.6,12000000,43,3,17.79,0.657,65.7,Normal,1,0
-Aaron Gordon,$15-20 M,DEN,37,21.6,16409091,40,3,21.93,0.367,36.7,Normal,1,0
-Josh Hart,$10-15 M,NOP,33,21.46,12000000,42,9,17.79,0.629,62.9,Normal,0.98,0.02
-Patty Mills,$5-10 M,BKN,40,21.4,5890000,41,1,15.58,0.805,80.5,Normal,1,0
-Kevin Love,$30+ M,CLE,35,21.4,31300000,43,8,31.62,0.071,7.1,Bad Value,1,0
-Franz Wagner,$5-10 M,ORL,43,21,5007840,43,0,15.58,0.792,79.2,Normal,1,0
-Wendell Carter,$5-10 M,ORL,37,20.9,6920027,43,6,15.58,0.779,77.9,Normal,1,0
-Bam Adebayo,$25-30 M,MIA,18,20.85,28103550,42,24,29.5,0,0,Bad Value,0.75,0.25
-RJ Barrett,$5-10 M,NYK,35,20.4,8623920,42,7,15.58,0.766,76.6,Normal,1,0
-Patrick Beverley,$10-15 M,MIN,29,20.34,14320988,42,13,17.79,0.6,60,Normal,0.9,0.1
-Dillon Brooks,$10-15 M,MEM,21,20.25,12200000,45,24,17.79,0.571,57.1,Normal,0.75,0.25
-Alec Burks,$5-10 M,NYK,41,20.2,9536000,42,1,15.58,0.753,75.3,Normal,1,0
-Keldon Johnson,< $5 M,SAS,38,20.2,2145720,42,4,6.84,0.977,97.7,Great Value,1,0
-Josh Giddey,$5-10 M,OKC,36,20.1,5988000,41,5,15.58,0.74,74,Normal,1,0
-Harrison Barnes,$20-25 M,SAC,40,19.9,20284091,45,5,23.28,0.333,33.3,Normal,1,0
-Jerami Grant,$20-25 M,DET,24,19.6,20000000,41,17,23.28,0.25,25,Normal,0.82,0.18
-Buddy Hield,$20-25 M,SAC,45,19.3,22477273,45,0,23.28,0.167,16.7,Bad Value,1,0
-Cameron Johnson,< $5 M,PHX,39,19.1,4437000,41,2,6.84,0.972,97.2,Great Value,1,0
-Malik Monk,< $5 M,LAL,37,19.1,1789256,42,5,6.84,0.972,97.2,Great Value,1,0
-Carmelo Anthony,< $5 M,LAL,41,19,2641691,42,1,6.84,0.97,97,Great Value,1,0
-De'Anthony Melton,$5-10 M,MEM,36,19,8437500,45,9,15.58,0.727,72.7,Normal,1,0
-LaMarcus Aldridge,< $5 M,BKN,29,18.95,2641691,41,12,6.84,0.967,96.7,Great Value,0.92,0.08
-Dorian Finney-Smith,< $5 M,DAL,41,18.6,4000000,42,1,6.84,0.965,96.5,Great Value,1,0
-Saddiq Bey,< $5 M,DET,41,18.5,2824320,41,0,6.84,0.96,96,Great Value,1,0
-Anfernee Simons,< $5 M,POR,35,18.5,3938818,41,6,6.84,0.96,96,Great Value,1,0
-Jae Crowder,$5-10 M,PHX,35,18.5,9720900,41,6,15.58,0.714,71.4,Normal,1,0
-Alex Caruso,$5-10 M,CHI,26,18.48,8604651,40,14,15.58,0.701,70.1,Normal,0.88,0.12
-Luguentz Dort,< $5 M,OKC,37,18.4,1782621,41,4,6.84,0.952,95.2,Great Value,1,0
-Chris Duarte,< $5 M,IND,35,18.4,3749520,43,8,6.84,0.952,95.2,Great Value,1,0
-Grayson Allen,< $5 M,MIL,37,18.4,4054695,44,7,6.84,0.952,95.2,Great Value,1,0
-Steven Adams,$15-20 M,MEM,41,18.4,17073171,45,4,21.93,0.333,33.3,Normal,1,0
-Herbert Jones,< $5 M,NOP,9,18.3,1000000,42,33,6.84,0.95,95,Great Value,0.75,0.25
-Jarred Vanderbilt,< $5 M,MIN,37,18.2,4259259,42,5,6.84,0.947,94.7,Great Value,1,0
-Derrick Rose,$10-15 M,NYK,26,18.06,13445120,42,16,17.79,0.543,54.3,Normal,0.84,0.16
-Eric Gordon,$15-20 M,HOU,37,18,18218818,44,7,21.93,0.3,30,Normal,1,0
-Jae'Sean Tate,< $5 M,HOU,42,17.8,1517981,44,2,6.84,0.945,94.5,Great Value,1,0
-Royce O'Neale,$5-10 M,UTA,39,17.6,8678571,42,3,15.58,0.688,68.8,Normal,1,0
-Kevin Huerter,< $5 M,ATL,34,17.6,4253357,41,7,6.84,0.94,94,Great Value,1,0
-Devin Vassell,< $5 M,SAS,34,17.6,4235160,42,8,6.84,0.94,94,Great Value,1,0
-Eric Bledsoe,$15-20 M,LAC,43,17.5,18125000,43,0,21.93,0.267,26.7,Normal,1,0
-Evan Fournier,$15-20 M,NYK,40,17.4,18139535,42,2,21.93,0.233,23.3,Normal,1,0
-Luke Kennard,$10-15 M,LAC,35,17.3,12727273,43,8,17.79,0.514,51.4,Normal,1,0
-Otto Porter,< $5 M,GSW,36,17.3,2389641,42,6,6.84,0.935,93.5,Great Value,1,0
-Tyus Jones,$5-10 M,MEM,44,17.3,7522200,45,1,15.58,0.675,67.5,Normal,1,0
-Immanuel Quickley,< $5 M,NYK,38,17.3,2210640,42,4,6.84,0.935,93.5,Great Value,1,0
-Cody Martin,< $5 M,CHA,38,17.2,1782621,43,5,6.84,0.932,93.2,Great Value,1,0
-Pat Connaughton,$5-10 M,MIL,41,17,5333333,44,3,15.58,0.662,66.2,Normal,1,0
-Lonnie Walker,< $5 M,SAS,38,16.8,4447896,42,4,6.84,0.927,92.7,Great Value,1,0
-Nickeil Alexander-Walker,< $5 M,NOP,39,16.8,3261480,42,3,6.84,0.927,92.7,Great Value,1,0
-Duncan Robinson,$15-20 M,MIA,39,16.8,15560000,42,3,21.93,0.2,20,Normal,1,0
-Cameron Payne,$5-10 M,PHX,36,16.8,6500000,41,5,15.58,0.649,64.9,Normal,1,0
-Mohamed Bamba,$5-10 M,ORL,32,16.51,7568742,43,11,15.58,0.636,63.6,Normal,0.96,0.04
-George Hill,< $5 M,MIL,34,16.46,4000000,44,10,6.84,0.925,92.5,Great Value,0.98,0.02
-Cedi Osman,$5-10 M,CLE,31,16.45,8050000,43,12,15.58,0.623,62.3,Normal,0.94,0.06
-P.J. Tucker,$5-10 M,MIA,36,16.4,7000000,42,6,15.58,0.61,61,Normal,1,0
-Terance Mann,< $5 M,LAC,42,16.3,1782621,43,1,6.84,0.922,92.2,Great Value,1,0
-Joe Ingles,$10-15 M,UTA,37,16.2,14000000,42,5,17.79,0.486,48.6,Normal,1,0
-Andre Drummond,< $5 M,PHI,36,16.1,2401537,41,5,6.84,0.92,92,Great Value,1,0
-Daniel Gafford,< $5 M,WAS,39,16,1782621,42,3,6.84,0.917,91.7,Great Value,1,0
-Bogdan Bogdanovic,$15-20 M,ATL,28,15.93,18000000,41,13,21.93,0.167,16.7,Bad Value,0.9,0.1
-Kentavious Caldwell-Pope,$10-15 M,WAS,39,15.9,13038862,42,3,17.79,0.457,45.7,Normal,1,0
-JaVale McGee,$5-10 M,PHX,37,15.8,5000000,41,4,15.58,0.597,59.7,Normal,1,0
-P.J. Washington,< $5 M,CHA,26,15.79,4215120,43,17,6.84,0.915,91.5,Great Value,0.84,0.16
-Kevin Porter,< $5 M,HOU,28,15.74,2130240,44,16,6.84,0.912,91.2,Great Value,0.86,0.14
-Hamidou Diallo,$5-10 M,DET,34,15.7,5200000,41,7,15.58,0.584,58.4,Normal,1,0
-Kyle Anderson,$5-10 M,MEM,37,15.6,9937150,45,8,15.58,0.571,57.1,Normal,1,0
-Max Strus,< $5 M,MIA,31,15.51,1669178,42,11,6.84,0.91,91,Great Value,0.94,0.06
-Mason Plumlee,$5-10 M,CHA,34,15.5,8137500,43,9,15.58,0.558,55.8,Normal,1,0
-Mitchell Robinson,< $5 M,NYK,38,15.4,1802057,42,4,6.84,0.907,90.7,Great Value,1,0
-Malik Beasley,$10-15 M,MIN,42,15.4,14391964,42,0,17.79,0.429,42.9,Normal,1,0
-Hassan Whiteside,< $5 M,UTA,36,15.2,2401537,42,6,6.84,0.905,90.5,Great Value,1,0
-Gabe Vincent,< $5 M,MIA,34,15.1,1669178,42,8,6.84,0.902,90.2,Great Value,1,0
-Ivica Zubac,$5-10 M,LAC,39,15.1,7518518,43,4,15.58,0.545,54.5,Normal,1,0
-Shake Milton,< $5 M,PHI,27,15.05,1846738,41,14,6.84,0.899,89.9,Normal,0.88,0.12
-Brandon Clarke,< $5 M,MEM,31,15.03,2726880,45,14,6.84,0.897,89.7,Normal,0.9,0.1
-Bismack Biyombo,< $5 M,PHX,4,15,1000000,41,37,6.84,0.894,89.4,Normal,0.75,0.25
-Caleb Martin,< $5 M,MIA,32,14.98,1000000,42,10,6.84,0.892,89.2,Normal,0.96,0.04
-Isaiah Hartenstein,< $5 M,LAC,29,14.94,3430810,43,14,6.84,0.889,88.9,Normal,0.9,0.1
-Michael Porter,$5-10 M,DEN,9,14.93,5258735,40,31,15.58,0.532,53.2,Normal,0.75,0.25
-Gary Payton,< $5 M,GSW,40,14.9,1939350,42,2,6.84,0.887,88.7,Normal,1,0
-Josh Richardson,$10-15 M,BOS,31,14.85,11600000,43,12,17.79,0.4,40,Normal,0.94,0.06
-Richaun Holmes,$10-15 M,SAC,27,14.84,10384500,45,18,17.79,0.371,37.1,Normal,0.82,0.18
-Marcus Morris,$15-20 M,LAC,22,14.82,15627907,43,21,21.93,0.133,13.3,Bad Value,0.76,0.24
-Kemba Walker,$5-10 M,NYK,24,14.8,8729020,42,18,15.58,0.519,51.9,Normal,0.8,0.2
-Frank Kaminsky,< $5 M,PHX,9,14.78,2089448,41,32,6.84,0.884,88.4,Normal,0.75,0.25
-Precious Achiuwa,< $5 M,TOR,30,14.7,2711280,39,9,6.84,0.879,87.9,Normal,0.98,0.02
-Georges Niang,< $5 M,PHI,37,14.7,3300000,41,4,6.84,0.879,87.9,Normal,1,0
-Furkan Korkmaz,< $5 M,PHI,37,14.6,4629630,41,4,6.84,0.877,87.7,Normal,1,0
-Justin Holiday,$5-10 M,IND,37,14.5,6006420,43,6,15.58,0.506,50.6,Normal,1,0
-Robert Covington,$10-15 M,POR,38,14.5,12975471,41,3,17.79,0.343,34.3,Normal,1,0
-Nassir Little,< $5 M,POR,36,14.5,2316240,41,5,6.84,0.874,87.4,Normal,1,0
-Kevon Looney,$5-10 M,GSW,42,14.4,5178572,42,0,15.58,0.494,49.4,Normal,1,0
-Derrick Walton,< $5 M,DET,3,14.4,1000000,41,38,6.84,0.872,87.2,Normal,0.75,0.25
-Chris Boucher,$5-10 M,TOR,37,14.3,7009615,39,2,15.58,0.481,48.1,Normal,1,0
-Gary Harris,$20-25 M,ORL,36,14.3,20482143,43,7,23.28,0.083,8.3,Bad Value,1,0
-Davion Mitchell,< $5 M,SAC,39,14.2,4603320,45,6,6.84,0.869,86.9,Normal,1,0
-Nic Claxton,< $5 M,BKN,9,14.18,1000000,41,32,6.84,0.867,86.7,Normal,0.75,0.25
-Klay Thompson,$30+ M,GSW,3,14.03,37980720,42,39,31.62,0.036,3.6,Bad Value,0.75,0.25
-Kelly Olynyk,$10-15 M,DET,10,14.03,12195122,41,31,17.79,0.314,31.4,Normal,0.75,0.25
-Alperen Sengun,< $5 M,HOU,36,13.9,3214680,44,8,6.84,0.864,86.4,Normal,1,0
-Brook Lopez,$10-15 M,MIL,1,13.88,13302325,44,43,17.79,0.286,28.6,Normal,0.75,0.25
-Deni Avdija,< $5 M,WAS,42,13.8,4692840,42,0,6.84,0.862,86.2,Normal,1,0
-Herb Jones,< $5 M,NOP,30,13.71,1700000,42,12,6.84,0.859,85.9,Normal,0.92,0.08
-Larry Nance,$10-15 M,POR,37,13.7,10690909,41,4,17.79,0.257,25.7,Normal,1,0
-T.J. McConnell,$5-10 M,IND,24,13.68,7500000,43,19,15.58,0.468,46.8,Normal,0.8,0.2
-Talen Horton-Tucker,$5-10 M,LAL,26,13.61,9500000,42,16,15.58,0.455,45.5,Normal,0.84,0.16
-Danilo Gallinari,$20-25 M,ATL,32,13.52,20475000,41,9,23.28,0,0,Bad Value,0.98,0.02
-Sekou Doumbouya,< $5 M,LAL,2,13.5,1000000,42,40,6.84,0.857,85.7,Normal,0.75,0.25
-Jeff Green,< $5 M,DEN,37,13.4,4500000,40,3,6.84,0.854,85.4,Normal,1,0
-Terrence Ross,$10-15 M,ORL,35,13.2,12500000,43,8,17.79,0.229,22.9,Normal,1,0
-Kenrich Williams,< $5 M,OKC,36,13.2,2000000,41,5,6.84,0.852,85.2,Normal,1,0
-Matisse Thybulle,< $5 M,PHI,32,13.13,2840160,41,9,6.84,0.847,84.7,Normal,0.98,0.02
-Omer Yurtseven,< $5 M,MIA,33,13.13,1489065,42,9,6.84,0.847,84.7,Normal,0.98,0.02
-Rudy Gay,$5-10 M,UTA,25,13.12,5890000,42,17,15.58,0.442,44.2,Normal,0.82,0.18
-Cam Reddish,< $5 M,ATL,34,13.1,4670160,41,7,6.84,0.844,84.4,Normal,1,0
-Chimezie Metu,< $5 M,SAC,29,13.07,1762796,45,16,6.84,0.842,84.2,Normal,0.86,0.14
-Facundo Campazzo,< $5 M,DEN,39,13,3804150,40,1,6.84,0.839,83.9,Normal,1,0
-Danny Green,$10-15 M,PHI,29,12.97,10000000,41,12,17.79,0.2,20,Normal,0.92,0.08
-Isaac Okoro,$5-10 M,CLE,28,12.85,6720720,43,15,15.58,0.429,42.9,Normal,0.88,0.12
-Obi Toppin,$5-10 M,NYK,37,12.8,5105160,42,5,15.58,0.403,40.3,Normal,1,0
-Coby White,$5-10 M,CHI,22,12.8,5837760,40,18,15.58,0.403,40.3,Normal,0.8,0.2
-Mike Muscala,< $5 M,OKC,34,12.8,3500000,41,7,6.84,0.837,83.7,Normal,1,0
-Andre Iguodala,< $5 M,GSW,23,12.79,2641691,42,19,6.84,0.834,83.4,Normal,0.78,0.22
-Bruce Brown,< $5 M,BKN,32,12.74,4736102,41,9,6.84,0.832,83.2,Normal,0.98,0.02
-Trey Lyles,< $5 M,DET,38,12.7,2500000,41,3,6.84,0.827,82.7,Normal,1,0
-Landry Shamet,< $5 M,PHX,37,12.7,3768342,41,4,6.84,0.827,82.7,Normal,1,0
-Collin Sexton,$5-10 M,CLE,11,12.68,6349671,43,32,15.58,0.39,39,Normal,0.75,0.25
-Nemanja Bjelica,< $5 M,GSW,42,12.6,2089448,42,0,6.84,0.822,82.2,Normal,1,0
-Cameron Oliver,< $5 M,ATL,2,12.6,1000000,41,39,6.84,0.822,82.2,Normal,0.75,0.25
-Blake Griffin,$30+ M,BKN,32,12.54,32405817,41,9,31.62,0,0,Bad Value,0.98,0.02
-Darius Bazley,< $5 M,OKC,36,12.5,2513040,41,5,6.84,0.819,81.9,Normal,1,0
-Dewayne Dedmon,$5-10 M,MIA,35,12.4,5256308,42,7,15.58,0.377,37.7,Normal,1,0
-Raul Neto,< $5 M,WAS,36,12.3,2089448,42,6,6.84,0.812,81.2,Normal,1,0
-Jaden McDaniels,< $5 M,MIN,39,12.3,2063280,42,3,6.84,0.812,81.2,Normal,1,0
-DeMarcus Cousins,< $5 M,MIL,17,12.3,2004047,44,27,6.84,0.812,81.2,Normal,0.75,0.25
-Maxi Kleber,$5-10 M,DAL,27,12.3,8750000,42,15,15.58,0.364,36.4,Normal,0.86,0.14
-Damion Lee,< $5 M,GSW,31,12.22,1910860,42,11,6.84,0.809,80.9,Normal,0.94,0.06
-Jordan Nwora,< $5 M,MIL,34,12.15,1517981,44,10,6.84,0.807,80.7,Normal,0.98,0.02
-Cory Joseph,$5-10 M,DET,30,11.94,7310000,41,11,15.58,0.351,35.1,Normal,0.94,0.06
-Javonte Green,< $5 M,CHI,29,11.94,1669178,40,11,6.84,0.804,80.4,Normal,0.94,0.06
-Nicolas Batum,$10-15 M,LAC,24,11.92,12213507,43,19,17.79,0.171,17.1,Bad Value,0.8,0.2
-Jalen Suggs,$5-10 M,ORL,22,11.86,6593040,43,21,15.58,0.338,33.8,Normal,0.76,0.24
-DeAndre' Bembry,< $5 M,BKN,37,11.7,1939350,41,4,6.84,0.802,80.2,Normal,1,0
-Garrison Mathews,< $5 M,HOU,27,11.68,1093598,44,17,6.84,0.799,79.9,Normal,0.84,0.16
-Jalen McDaniels,< $5 M,CHA,36,11.6,1782621,43,7,6.84,0.794,79.4,Normal,1,0
-Kenyon Martin,< $5 M,HOU,41,11.6,1517981,44,3,6.84,0.794,79.4,Normal,1,0
-Dwight Powell,$10-15 M,DAL,42,11.6,11000000,42,0,17.79,0.143,14.3,Bad Value,1,0
-Reggie Bullock,$5-10 M,DAL,35,11.5,9536000,42,7,15.58,0.325,32.5,Normal,1,0
-Isaiah Stewart,< $5 M,DET,33,11.5,3277080,41,8,6.84,0.789,78.9,Normal,1,0
-Naz Reid,< $5 M,MIN,39,11.5,1782621,42,3,6.84,0.789,78.9,Normal,1,0
-Wes Iwundu,< $5 M,ATL,2,11.48,1000000,41,39,6.84,0.786,78.6,Normal,0.75,0.25
-Grant Williams,< $5 M,BOS,38,11.4,2617800,43,5,6.84,0.784,78.4,Normal,1,0
-Doug McDermott,$10-15 M,SAS,27,11.35,13750000,42,15,17.79,0.114,11.4,Bad Value,0.86,0.14
-Onyeka Okongwu,$5-10 M,ATL,9,11.33,6104280,41,32,15.58,0.312,31.2,Normal,0.75,0.25
-Joe Harris,$15-20 M,BKN,14,11.33,17357143,41,27,21.93,0.1,10,Bad Value,0.75,0.25
-Brandon Goodwin,< $5 M,CLE,5,11.33,1000000,43,38,6.84,0.781,78.1,Normal,0.75,0.25
-Brandon Knight,< $5 M,DAL,3,11.1,1000000,42,39,6.84,0.779,77.9,Normal,0.75,0.25
-Terence Davis,< $5 M,SAC,26,11.04,4000000,45,19,6.84,0.774,77.4,Normal,0.8,0.2
-Bones Hyland,< $5 M,DEN,30,11.04,2096880,40,10,6.84,0.774,77.4,Normal,0.96,0.04
-Marvin Bagley,< $5 M,SAC,25,11,1000000,45,20,6.84,0.771,77.1,Normal,0.78,0.22
-Bryn Forbes,< $5 M,SAS,40,10.9,4500000,42,2,6.84,0.769,76.9,Normal,1,0
-Frank Jackson,< $5 M,DET,33,10.8,3000000,41,8,6.84,0.766,76.6,Normal,1,0
-John Konchar,< $5 M,MEM,37,10.7,2197674,45,8,6.84,0.761,76.1,Normal,1,0
-Juan Toscano-Anderson,< $5 M,GSW,40,10.7,1701593,42,2,6.84,0.761,76.1,Normal,1,0
-Ty Jerome,< $5 M,OKC,32,10.68,2412840,41,9,6.84,0.759,75.9,Normal,0.98,0.02
-Dwight Howard,< $5 M,LAL,32,10.66,2641691,42,10,6.84,0.756,75.6,Normal,0.96,0.04
-Derrick Jones,$5-10 M,CHI,31,10.58,9720900,40,9,15.58,0.286,28.6,Normal,0.98,0.02
-Khem Birch,$5-10 M,TOR,23,10.58,6350000,39,16,15.58,0.286,28.6,Normal,0.84,0.16
-Killian Hayes,$5-10 M,DET,31,10.56,5572680,41,10,15.58,0.273,27.3,Normal,0.96,0.04
-Jeremy Lamb,$10-15 M,IND,29,10.44,10500000,43,14,17.79,0.086,8.6,Bad Value,0.9,0.1
-Delon Wright,$5-10 M,ATL,36,10.4,8526316,41,5,15.58,0.26,26,Normal,1,0
-Chuma Okeke,< $5 M,ORL,32,10.37,3277080,43,11,6.84,0.754,75.4,Normal,0.96,0.04
-Greg Monroe,< $5 M,WAS,5,10.28,1000000,42,37,6.84,0.751,75.1,Normal,0.75,0.25
-Jalen Green,$5-10 M,HOU,29,10.21,8992200,44,15,15.58,0.247,24.7,Normal,0.88,0.12
-Avery Bradley,< $5 M,LAL,34,10.1,2641691,42,8,6.84,0.749,74.9,Normal,1,0
-Jaylen Nowell,< $5 M,MIN,27,10.06,1782621,42,15,6.84,0.746,74.6,Normal,0.86,0.14
-Wesley Matthews,< $5 M,MIL,16,10.05,1958501,44,28,6.84,0.744,74.4,Normal,0.75,0.25
-Armoni Brooks,< $5 M,HOU,33,9.98,1489065,44,11,6.84,0.741,74.1,Normal,0.96,0.04
-Thaddeus Young,$10-15 M,SAS,23,9.67,14190000,42,19,17.79,0.057,5.7,Bad Value,0.78,0.22
-Keita Bates-Diop,< $5 M,SAS,34,9.6,1729217,42,8,6.84,0.739,73.9,Normal,1,0
-Josh Jackson,$5-10 M,DET,32,9.51,5005350,41,9,15.58,0.234,23.4,Normal,0.98,0.02
-Xavier Tillman,< $5 M,MEM,33,9.49,1517981,45,12,6.84,0.736,73.6,Normal,0.94,0.06
-Amir Coffey,< $5 M,LAC,30,9.48,1000000,43,13,6.84,0.734,73.4,Normal,0.92,0.08
-De'Andre Hunter,$5-10 M,ATL,13,9.45,7775400,41,28,15.58,0.221,22.1,Normal,0.75,0.25
-Willy Hernangomez,< $5 M,NOP,22,9.42,2327220,42,20,6.84,0.731,73.1,Normal,0.76,0.24
-Jalen Smith,< $5 M,PHX,20,9.38,4458000,41,21,6.84,0.729,72.9,Normal,0.75,0.25
-Lance Stephenson,< $5 M,IND,13,9.3,138019,43,30,6.84,0.724,72.4,Normal,0.75,0.25
-Cam Thomas,< $5 M,BKN,7,9.3,1000000,41,34,6.84,0.724,72.4,Normal,0.75,0.25
-James Johnson,< $5 M,BKN,29,9.29,2641691,41,12,6.84,0.721,72.1,Normal,0.92,0.08
-Keifer Sykes,< $5 M,IND,9,9.23,1000000,43,34,6.84,0.719,71.9,Normal,0.75,0.25
-David Nwaba,< $5 M,HOU,33,9.22,4650000,44,11,6.84,0.716,71.6,Normal,0.96,0.04
-D.J. Wilson,< $5 M,TOR,3,9.15,102831,39,36,6.84,0.709,70.9,Normal,0.75,0.25
-Kyle Guy,< $5 M,MIA,6,9.15,1000000,42,36,6.84,0.709,70.9,Normal,0.75,0.25
-Malcolm Hill,< $5 M,ATL,3,9.15,53176,41,38,6.84,0.709,70.9,Normal,0.75,0.25
-Austin Reaves,< $5 M,LAL,23,9.13,925258,42,19,6.84,0.706,70.6,Normal,0.78,0.22
-Aaron Holiday,< $5 M,WAS,33,9.11,3980551,42,9,6.84,0.704,70.4,Normal,0.98,0.02
-Corey Kispert,< $5 M,WAS,37,9.1,3383640,42,5,6.84,0.701,70.1,Normal,1,0
-David Duke,< $5 M,BKN,12,9,1000000,41,29,6.84,0.696,69.6,Normal,0.75,0.25
-Jeremiah Robinson-Earl,< $5 M,OKC,37,9,2000000,41,4,6.84,0.696,69.6,Normal,1,0
-Robin Lopez,$5-10 M,ORL,19,9,5000000,43,24,15.58,0.208,20.8,Normal,0.75,0.25
-Dennis Smith,< $5 M,POR,23,8.96,1789256,41,18,6.84,0.693,69.3,Normal,0.8,0.2
-Kessler Edwards,< $5 M,BKN,10,8.93,1000000,41,31,6.84,0.691,69.1,Normal,0.75,0.25
-Nicolas Claxton,< $5 M,BKN,11,8.85,1782621,41,30,6.84,0.688,68.8,Normal,0.75,0.25
-Saben Lee,< $5 M,DET,22,8.81,1489065,41,19,6.84,0.686,68.6,Normal,0.78,0.22
-Goran Dragic,$15-20 M,TOR,5,8.78,19440000,39,34,21.93,0.067,6.7,Bad Value,0.75,0.25
-Alex Len,< $5 M,SAC,29,8.77,3731707,45,16,6.84,0.683,68.3,Normal,0.86,0.14
-Frank Ntilikina,< $5 M,DAL,32,8.74,1789256,42,10,6.84,0.681,68.1,Normal,0.96,0.04
-Josh Christopher,< $5 M,HOU,36,8.7,2259240,44,8,6.84,0.676,67.6,Normal,1,0
-Markieff Morris,< $5 M,MIA,10,8.7,2641691,42,32,6.84,0.676,67.6,Normal,0.75,0.25
-Oshae Brissett,< $5 M,IND,32,8.64,1701593,43,11,6.84,0.673,67.3,Normal,0.96,0.04
-Trey Burke,< $5 M,DAL,20,8.63,3333333,42,22,6.84,0.671,67.1,Normal,0.75,0.25
-Jaxson Hayes,$5-10 M,NOP,30,8.56,5348280,42,12,15.58,0.195,19.5,Bad Value,0.92,0.08
-Aaron Wiggins,< $5 M,OKC,23,8.56,1000000,41,18,6.84,0.668,66.8,Normal,0.8,0.2
-R.J. Hampton,< $5 M,ORL,39,8.5,2303040,43,4,6.84,0.663,66.3,Normal,1,0
-Tre Jones,< $5 M,SAS,35,8.5,1517981,42,7,6.84,0.663,66.3,Normal,1,0
-Stanley Johnson,< $5 M,LAL,8,8.48,1000000,42,34,6.84,0.661,66.1,Normal,0.75,0.25
-Patrick Williams,$5-10 M,CHI,5,8.4,7422000,40,35,15.58,0.182,18.2,Bad Value,0.75,0.25
-Moritz Wagner,< $5 M,ORL,33,8.33,1729217,43,10,6.84,0.658,65.8,Normal,0.98,0.02
-Ayo Dosunmu,< $5 M,CHI,36,8.3,925258,40,4,6.84,0.656,65.6,Normal,1,0
-Tre Mann,< $5 M,OKC,28,8.28,2901240,41,13,6.84,0.653,65.3,Normal,0.9,0.1
-Hassani Gravett,< $5 M,ORL,8,8.25,52274,43,35,6.84,0.646,64.6,Normal,0.75,0.25
-Nik Stauskas,< $5 M,MIA,2,8.25,1000000,42,40,6.84,0.646,64.6,Normal,0.75,0.25
-Brandon Williams,< $5 M,POR,2,8.25,1000000,41,39,6.84,0.646,64.6,Normal,0.75,0.25
-Tony Bradley,< $5 M,CHI,28,8.19,1789256,40,12,6.84,0.643,64.3,Normal,0.92,0.08
-Svi Mykhailiuk,< $5 M,TOR,37,8.1,1729217,39,2,6.84,0.636,63.6,Normal,1,0
-Dean Wade,< $5 M,CLE,30,8.1,1782621,43,13,6.84,0.636,63.6,Normal,0.92,0.08
-Drew Eubanks,< $5 M,SAS,37,8.1,1762796,42,5,6.84,0.636,63.6,Normal,1,0
-Cameron McGriff,< $5 M,POR,3,8.03,1000000,41,38,6.84,0.633,63.3,Normal,0.75,0.25
-JaMychal Green,$5-10 M,DEN,35,8,8292683,40,5,15.58,0.169,16.9,Bad Value,1,0
-Taj Gibson,< $5 M,NYK,25,7.95,4910000,42,17,6.84,0.631,63.1,Normal,0.82,0.18
-Nerlens Noel,$5-10 M,NYK,18,7.95,8800000,42,24,15.58,0.156,15.6,Bad Value,0.75,0.25
-Ish Smith,< $5 M,CHA,28,7.92,4500000,43,15,6.84,0.628,62.8,Normal,0.88,0.12
-Tristan Thompson,$5-10 M,SAC,30,7.92,9720900,45,15,15.58,0.143,14.3,Bad Value,0.88,0.12
-Jonathan Kuminga,$5-10 M,GSW,30,7.91,5466360,42,12,15.58,0.13,13,Bad Value,0.92,0.08
-Torrey Craig,< $5 M,IND,38,7.9,4878049,43,5,6.84,0.626,62.6,Normal,1,0
-Justin Anderson,< $5 M,IND,6,7.8,111457,43,37,6.84,0.621,62.1,Normal,0.75,0.25
-Aleksej Pokusevski,< $5 M,OKC,36,7.8,3113160,41,5,6.84,0.621,62.1,Normal,1,0
-Austin Rivers,< $5 M,DEN,30,7.78,2401537,40,10,6.84,0.618,61.8,Normal,0.96,0.04
-Serge Ibaka,$5-10 M,LAC,24,7.76,9742000,43,19,15.58,0.117,11.7,Bad Value,0.8,0.2
-Wayne Ellington,< $5 M,LAL,29,7.74,2641691,42,13,6.84,0.616,61.6,Normal,0.9,0.1
-Sterling Brown,< $5 M,DAL,34,7.7,3000000,42,8,6.84,0.613,61.3,Normal,1,0
-Romeo Langford,< $5 M,BOS,33,7.64,3804360,43,10,6.84,0.611,61.1,Normal,0.98,0.02
-Ben McLemore,< $5 M,POR,24,7.63,2389641,41,17,6.84,0.608,60.8,Normal,0.82,0.18
-Enes Kanter,< $5 M,BOS,11,7.58,1000000,43,32,6.84,0.606,60.6,Normal,0.75,0.25
-Lou Williams,$5-10 M,ATL,27,7.57,5000000,41,14,15.58,0.104,10.4,Bad Value,0.88,0.12
-Zeke Nnaji,< $5 M,DEN,24,7.56,2498760,40,16,6.84,0.603,60.3,Normal,0.84,0.16
-Payton Pritchard,< $5 M,BOS,33,7.55,2137440,43,10,6.84,0.601,60.1,Normal,0.98,0.02
-Garrett Temple,< $5 M,NOP,40,7.4,4910000,42,2,6.84,0.595,59.5,Normal,1,0
-Josh Green,< $5 M,DAL,27,7.4,2957520,42,15,6.84,0.595,59.5,Normal,0.86,0.14
-Duane Washington,< $5 M,IND,12,7.35,1000000,43,31,6.84,0.593,59.3,Normal,0.75,0.25
-Troy Brown,$5-10 M,CHI,29,7.33,5170564,40,11,15.58,0.091,9.1,Bad Value,0.94,0.06
-Brandon Boston,< $5 M,LAC,26,7.31,925258,43,17,6.84,0.59,59,Normal,0.84,0.16
-Marquese Chriss,< $5 M,DAL,12,7.28,111457,42,30,6.84,0.588,58.8,Normal,0.75,0.25
-Cody Zeller,< $5 M,POR,27,7.22,2389641,41,14,6.84,0.583,58.3,Normal,0.88,0.12
-Kelan Martin,< $5 M,IND,27,7.22,1701593,43,16,6.84,0.583,58.3,Normal,0.86,0.14
-Davis Bertans,$15-20 M,WAS,29,7.2,16000000,42,13,21.93,0.033,3.3,Bad Value,0.9,0.1
-Lamar Stevens,< $5 M,CLE,29,7.2,1517981,43,14,6.84,0.58,58,Normal,0.9,0.1
-Derrick Favors,$5-10 M,OKC,30,6.96,9720900,41,11,15.58,0.078,7.8,Bad Value,0.94,0.06
-Donte DiVincenzo,< $5 M,MIL,5,6.9,4675830,44,39,6.84,0.578,57.8,Normal,0.75,0.25
-DeAndre Jordan,$10-15 M,LAL,28,6.86,10517224,42,14,17.79,0.029,2.9,Bad Value,0.88,0.12
-Davon Reed,< $5 M,DEN,15,6.83,94304,40,25,6.84,0.575,57.5,Normal,0.75,0.25
-Cameron Thomas,< $5 M,BKN,23,6.8,2036280,41,18,6.84,0.573,57.3,Normal,0.8,0.2
-Malik Newman,< $5 M,CLE,1,6.75,1000000,43,42,6.84,0.565,56.5,Normal,0.75,0.25
-Isaiah Thomas,< $5 M,DAL,5,6.75,135680,42,37,6.84,0.565,56.5,Normal,0.75,0.25
-Yuta Watanabe,< $5 M,TOR,16,6.75,1762769,39,23,6.84,0.565,56.5,Normal,0.75,0.25
-Daniel Theis,$5-10 M,HOU,26,6.72,8372093,44,18,15.58,0.065,6.5,Bad Value,0.82,0.18
-Devontae Cacok,< $5 M,SAS,7,6.68,1000000,42,35,6.84,0.56,56,Normal,0.75,0.25
-Rajon Rondo,< $5 M,CLE,21,6.68,2641691,43,22,6.84,0.56,56,Normal,0.75,0.25
-Xavier Moon,< $5 M,LAC,6,6.6,1000000,43,37,6.84,0.558,55.8,Normal,0.75,0.25
-Isaiah Roby,< $5 M,OKC,18,6.53,1782621,41,23,6.84,0.555,55.5,Normal,0.75,0.25
-Justise Winslow,< $5 M,LAC,31,6.49,3902439,43,12,6.84,0.553,55.3,Normal,0.94,0.06
-Jock Landale,< $5 M,SAS,24,6.48,925258,42,18,6.84,0.55,55,Normal,0.8,0.2
-Jarrett Culver,$5-10 M,MEM,18,6.45,6395160,45,27,15.58,0.052,5.2,Bad Value,0.75,0.25
-Damian Jones,< $5 M,SAC,25,6.4,1977011,45,20,6.84,0.543,54.3,Normal,0.78,0.22
-Ziaire Williams,< $5 M,MEM,26,6.4,4373160,45,19,6.84,0.543,54.3,Normal,0.8,0.2
-Killian Tillie,< $5 M,MEM,27,6.4,1000000,45,18,6.84,0.543,54.3,Normal,0.82,0.18
-Paul Millsap,< $5 M,BKN,24,6.15,2641691,41,17,6.84,0.54,54,Normal,0.82,0.18
-D.J. Augustin,$5-10 M,HOU,33,6.14,7000000,44,11,15.58,0.039,3.9,Bad Value,0.96,0.04
-Gorgui Dieng,< $5 M,ATL,30,6.11,4000000,41,11,6.84,0.538,53.8,Normal,0.94,0.06
-Rodney Hood,< $5 M,MIL,33,6.05,2239544,44,11,6.84,0.535,53.5,Normal,0.96,0.04
-Cassius Stanley,< $5 M,DET,6,6,1000000,41,35,6.84,0.533,53.3,Normal,0.75,0.25
-Dalano Banton,< $5 M,TOR,33,5.9,925258,39,6,6.84,0.53,53,Normal,1,0
-Timothe Luwawu-Cabarrot,< $5 M,ATL,28,5.85,1939350,41,13,6.84,0.523,52.3,Normal,0.9,0.1
-Day'Ron Sharpe,< $5 M,BKN,16,5.85,2009040,41,25,6.84,0.523,52.3,Normal,0.75,0.25
-PJ Dozier,< $5 M,DEN,18,5.85,1000000,40,22,6.84,0.523,52.3,Normal,0.75,0.25
-Eric Paschall,< $5 M,UTA,29,5.76,1782621,42,13,6.84,0.52,52,Normal,0.9,0.1
-Luka Garza,< $5 M,DET,26,5.68,925258,41,15,6.84,0.518,51.8,Normal,0.86,0.14
-Taurean Prince,$15-20 M,MIN,31,5.64,15057692,42,11,21.93,0,0,Bad Value,0.94,0.06
-Chaundee Brown,< $5 M,ATL,5,5.63,1000000,41,36,6.84,0.515,51.5,Normal,0.75,0.25
-Elfrid Payton,< $5 M,PHX,22,5.62,2239544,41,19,6.84,0.513,51.3,Normal,0.78,0.22
-B.J. Johnson,< $5 M,ORL,4,5.55,94304,43,39,6.84,0.51,51,Normal,0.75,0.25
-Kira Lewis,< $5 M,NOP,24,5.52,3822240,42,18,6.84,0.508,50.8,Normal,0.8,0.2
-Trey Murphy,< $5 M,NOP,35,5.5,1000000,42,7,6.84,0.505,50.5,Normal,1,0
-Trevor Ariza,< $5 M,LAL,8,5.4,2641691,42,34,6.84,0.5,50,Normal,0.75,0.25
-Enes Freedom,< $5 M,BOS,15,5.4,2641691,43,28,6.84,0.5,50,Normal,0.75,0.25
-Josh Okogie,< $5 M,MIN,27,5.33,4087904,42,15,6.84,0.495,49.5,Normal,0.86,0.14
-Joshua Primo,< $5 M,SAS,19,5.33,3946800,42,23,6.84,0.495,49.5,Normal,0.75,0.25
-Quentin Grimes,< $5 M,NYK,23,5.3,2168760,42,19,6.84,0.492,49.2,Normal,0.78,0.22
-Maurice Harkless,< $5 M,SAC,29,5.25,4347600,45,16,6.84,0.487,48.7,Normal,0.86,0.14
-James Ennis,< $5 M,DEN,5,5.25,126528,40,35,6.84,0.487,48.7,Normal,0.75,0.25
-Brad Wanamaker,< $5 M,WAS,23,5.23,1729217,42,19,6.84,0.485,48.5,Normal,0.78,0.22
-Vlatko Cancar,< $5 M,DEN,14,5.18,1782621,40,26,6.84,0.48,48,Normal,0.75,0.25
-Louis King,< $5 M,SAC,5,5.18,1000000,45,40,6.84,0.48,48,Normal,0.75,0.25
-Nick Richards,< $5 M,CHA,31,5.17,1517981,43,12,6.84,0.477,47.7,Normal,0.94,0.06
-Jevon Carter,< $5 M,BKN,33,5.1,3833333,41,8,6.84,0.475,47.5,Normal,1,0
-Isaiah Joe,< $5 M,PHI,26,5.07,1517981,41,15,6.84,0.472,47.2,Normal,0.86,0.14
-Kent Bazemore,< $5 M,LAL,24,5.04,2401537,42,18,6.84,0.47,47,Normal,0.8,0.2
-Danuel House,< $5 M,UTA,20,5.03,1387498,42,22,6.84,0.465,46.5,Normal,0.75,0.25
-Jose Alvarado,< $5 M,NOP,15,5.03,1000000,42,27,6.84,0.465,46.5,Normal,0.75,0.25
-Tyler Johnson,< $5 M,SAS,6,4.95,128709,42,36,6.84,0.462,46.2,Normal,0.75,0.25
-Tre Scott,< $5 M,CLE,2,4.88,53176,43,41,6.84,0.455,45.5,Normal,0.75,0.25
-Santi Aldama,< $5 M,MEM,23,4.88,1994520,45,22,6.84,0.455,45.5,Normal,0.75,0.25
-KZ Okpala,< $5 M,MIA,21,4.88,1782621,42,21,6.84,0.455,45.5,Normal,0.75,0.25
-Jared Harper,< $5 M,NOP,2,4.73,1000000,42,40,6.84,0.45,45,Normal,0.75,0.25
-Nathan Knight,< $5 M,MIN,21,4.73,1000000,42,21,6.84,0.45,45,Normal,0.75,0.25
-Trevelin Queen,< $5 M,HOU,8,4.65,1000000,44,36,6.84,0.442,44.2,Normal,0.75,0.25
-Boban Marjanovic,< $5 M,DAL,16,4.65,3500000,42,26,6.84,0.442,44.2,Normal,0.75,0.25
-Tyler Cook,< $5 M,CHI,9,4.65,1000000,40,31,6.84,0.442,44.2,Normal,0.75,0.25
-Tomas Satoransky,$10-15 M,NOP,31,4.61,10000000,42,11,17.79,0,0,Bad Value,0.94,0.06
-Charles Bassey,< $5 M,PHI,19,4.58,925258,41,22,6.84,0.435,43.5,Normal,0.75,0.25
-Jordan McLaughlin,< $5 M,MIN,28,4.58,1669178,42,14,6.84,0.435,43.5,Normal,0.88,0.12
-Daishen Nix,< $5 M,HOU,8,4.58,1000000,44,36,6.84,0.435,43.5,Normal,0.75,0.25
-Justin Champagnie,< $5 M,TOR,22,4.51,1000000,39,17,6.84,0.432,43.2,Normal,0.82,0.18
-Anthony Gill,< $5 M,WAS,16,4.5,1517981,42,26,6.84,0.427,42.7,Normal,0.75,0.25
-Miles McBride,< $5 M,NYK,17,4.5,925258,42,25,6.84,0.427,42.7,Normal,0.75,0.25
-Jabari Parker,< $5 M,BOS,12,4.43,2239544,43,31,6.84,0.422,42.2,Normal,0.75,0.25
-Usman Garuba,< $5 M,HOU,15,4.43,2353320,44,29,6.84,0.422,42.2,Normal,0.75,0.25
-Skylar Mays,< $5 M,ATL,17,4.35,1000000,41,24,6.84,0.415,41.5,Normal,0.75,0.25
-Rayjon Tucker,< $5 M,DEN,3,4.35,95930,40,37,6.84,0.415,41.5,Normal,0.75,0.25
-Keon Johnson,< $5 M,LAC,15,4.35,2553120,43,28,6.84,0.415,41.5,Normal,0.75,0.25
-Matt Thomas,< $5 M,CHI,18,4.28,1669178,40,22,6.84,0.41,41,Normal,0.75,0.25
-Tremont Waters,< $5 M,WAS,3,4.28,1000000,42,39,6.84,0.41,41,Normal,0.75,0.25
-Udonis Haslem,< $5 M,MIA,8,4.2,2641691,42,34,6.84,0.407,40.7,Normal,0.75,0.25
-Reggie Perry,< $5 M,POR,2,4.13,1000000,41,39,6.84,0.399,39.9,Normal,0.75,0.25
-Luke Kornet,< $5 M,MIL,3,4.13,102831,44,41,6.84,0.399,39.9,Normal,0.75,0.25
-JT Thor,< $5 M,CHA,10,4.13,1250000,43,33,6.84,0.399,39.9,Normal,0.75,0.25
-Justin Jackson,< $5 M,PHX,4,4.05,1000000,41,37,6.84,0.397,39.7,Normal,0.75,0.25
-Dylan Windler,< $5 M,CLE,27,4.04,2239200,43,16,6.84,0.394,39.4,Normal,0.86,0.14
-Solomon Hill,< $5 M,ATL,13,3.98,2389641,41,28,6.84,0.392,39.2,Normal,0.75,0.25
-Freddie Gillespie,< $5 M,ORL,9,3.9,85578,43,34,6.84,0.387,38.7,Normal,0.75,0.25
-Admiral Schofield,< $5 M,ORL,11,3.9,84128,43,32,6.84,0.387,38.7,Normal,0.75,0.25
-Thanasis Antetokounmpo,< $5 M,MIL,28,3.87,1729217,44,16,6.84,0.384,38.4,Normal,0.86,0.14
-Malachi Flynn,< $5 M,TOR,27,3.86,2048040,39,12,6.84,0.382,38.2,Normal,0.92,0.08
-Goga Bitadze,< $5 M,IND,23,3.82,3098400,43,20,6.84,0.379,37.9,Normal,0.78,0.22
-Thomas Bryant,$5-10 M,WAS,1,3.75,8730159,42,41,15.58,0.026,2.6,Bad Value,0.75,0.25
-Paul Reed,< $5 M,PHI,20,3.75,1517981,41,21,6.84,0.374,37.4,Normal,0.75,0.25
-Tim Frazier,< $5 M,ORL,10,3.75,128709,43,33,6.84,0.374,37.4,Normal,0.75,0.25
-Moses Brown,< $5 M,DAL,25,3.69,1701593,42,17,6.84,0.372,37.2,Normal,0.82,0.18
-Shaquille Harrison,< $5 M,BKN,2,3.6,101088,41,39,6.84,0.364,36.4,Normal,0.75,0.25
-Markus Howard,< $5 M,DEN,17,3.6,1000000,40,23,6.84,0.364,36.4,Normal,0.75,0.25
-Craig Sword,< $5 M,WAS,3,3.6,1000000,42,39,6.84,0.364,36.4,Normal,0.75,0.25
-Aaron Nesmith,< $5 M,BOS,30,3.59,3631200,43,13,6.84,0.362,36.2,Normal,0.92,0.08
-Juancho Hernangomez,< $5 M,BOS,3,3.53,1000000,43,40,6.84,0.352,35.2,Normal,0.75,0.25
-Marcus Garrett,< $5 M,MIA,12,3.53,1000000,42,30,6.84,0.352,35.2,Normal,0.75,0.25
-RJ Nembhard,< $5 M,CLE,6,3.53,1000000,43,37,6.84,0.352,35.2,Normal,0.75,0.25
-Willie Cauley-Stein,< $5 M,DAL,18,3.53,4200000,42,24,6.84,0.352,35.2,Normal,0.75,0.25
-Alfonzo McKinnie,< $5 M,CHI,9,3.45,101088,40,31,6.84,0.347,34.7,Normal,0.75,0.25
-Abdel Nader,< $5 M,PHX,14,3.45,2000000,41,27,6.84,0.347,34.7,Normal,0.75,0.25
-Javin DeLaurier,< $5 M,MIL,1,3.38,1000000,44,43,6.84,0.337,33.7,Normal,0.75,0.25
-Damyean Dotson,< $5 M,NYK,2,3.38,102831,42,40,6.84,0.337,33.7,Normal,0.75,0.25
-Jeff Dowtin,< $5 M,MIL,4,3.38,1000000,44,40,6.84,0.337,33.7,Normal,0.75,0.25
-Sam Merrill,< $5 M,MEM,6,3.38,1517981,45,39,6.84,0.337,33.7,Normal,0.75,0.25
-Naji Marshall,< $5 M,NOP,22,3.34,1517981,42,20,6.84,0.334,33.4,Normal,0.76,0.24
-Jay Scrubb,< $5 M,LAC,14,3.15,1000000,43,29,6.84,0.329,32.9,Normal,0.75,0.25
-Chris Chiozza,< $5 M,GSW,21,3.15,1000000,42,21,6.84,0.329,32.9,Normal,0.75,0.25
-CJ Elleby,< $5 M,POR,22,3.12,1517981,41,19,6.84,0.327,32.7,Normal,0.78,0.22
-Theo Pinson,< $5 M,DAL,11,3.08,97696,42,31,6.84,0.317,31.7,Normal,0.75,0.25
-Trendon Watford,< $5 M,POR,15,3.08,1000000,41,26,6.84,0.317,31.7,Normal,0.75,0.25
-Devon Dotson,< $5 M,CHI,12,3.08,1000000,40,28,6.84,0.317,31.7,Normal,0.75,0.25
-Bol Bol,< $5 M,DEN,13,3.08,2161152,40,27,6.84,0.317,31.7,Normal,0.75,0.25
-Denzel Valentine,< $5 M,UTA,23,3.04,1789256,42,19,6.84,0.312,31.2,Normal,0.78,0.22
-Sandro Mamukelashvili,< $5 M,MIL,23,3.04,1000000,44,21,6.84,0.312,31.2,Normal,0.76,0.24
-Rodney McGruder,< $5 M,DET,17,3,1939350,41,24,6.84,0.302,30.2,Normal,0.75,0.25
-Langston Galloway,< $5 M,MIL,7,3,1000000,44,37,6.84,0.302,30.2,Normal,0.75,0.25
-Paris Bass,< $5 M,PHX,2,3,1000000,41,39,6.84,0.302,30.2,Normal,0.75,0.25
-Joe Wieskamp,< $5 M,SAS,12,3,1000000,42,30,6.84,0.302,30.2,Normal,0.75,0.25
-Theo Maledon,< $5 M,OKC,21,2.96,2000000,41,20,6.84,0.299,29.9,Normal,0.76,0.24
-Gary Clark,< $5 M,NOP,11,2.93,3382007,42,31,6.84,0.291,29.1,Normal,0.75,0.25
-Isaiah Todd,< $5 M,WAS,9,2.93,1500000,42,33,6.84,0.291,29.1,Normal,0.75,0.25
-James Bouknight,< $5 M,CHA,18,2.93,4154400,43,25,6.84,0.291,29.1,Normal,0.75,0.25
-Moses Moody,< $5 M,GSW,25,2.87,3562080,42,17,6.84,0.289,28.9,Normal,0.82,0.18
-Wenyen Gabriel,< $5 M,LAC,7,2.85,99380,43,36,6.84,0.279,27.9,Normal,0.75,0.25
-Paul Watson,< $5 M,OKC,9,2.85,1000000,41,32,6.84,0.279,27.9,Normal,0.75,0.25
-Cat Barber,< $5 M,ATL,2,2.85,1000000,41,39,6.84,0.279,27.9,Normal,0.75,0.25
-Eugene Omoruyi,< $5 M,DAL,4,2.85,1000000,42,38,6.84,0.279,27.9,Normal,0.75,0.25
-Ed Davis,< $5 M,CLE,12,2.78,2641691,43,31,6.84,0.276,27.6,Normal,0.75,0.25
-Trent Forrest,< $5 M,UTA,31,2.73,1000000,42,11,6.84,0.274,27.4,Normal,0.94,0.06
-Chris Silva,< $5 M,MIA,7,2.7,95930,42,35,6.84,0.269,26.9,Normal,0.75,0.25
-Neemias Queta,< $5 M,SAC,6,2.7,1000000,45,39,6.84,0.269,26.9,Normal,0.75,0.25
-Javonte Smart,< $5 M,MIL,13,2.63,1000000,44,31,6.84,0.261,26.1,Normal,0.75,0.25
-Ish Wainright,< $5 M,PHX,17,2.63,1000000,41,24,6.84,0.261,26.1,Normal,0.75,0.25
-Isaiah Jackson,< $5 M,IND,11,2.63,2451120,43,32,6.84,0.261,26.1,Normal,0.75,0.25
-Kevin Pangos,< $5 M,CLE,20,2.55,1669178,43,23,6.84,0.256,25.6,Normal,0.75,0.25
-Jay Huff,< $5 M,LAL,4,2.55,1000000,42,38,6.84,0.256,25.6,Normal,0.75,0.25
-Jared Butler,< $5 M,UTA,20,2.48,925258,42,22,6.84,0.244,24.4,Normal,0.75,0.25
-M.J. Walker,< $5 M,PHX,2,2.48,1000000,41,39,6.84,0.244,24.4,Normal,0.75,0.25
-Olivier Sarr,< $5 M,OKC,2,2.48,1000000,41,39,6.84,0.244,24.4,Normal,0.75,0.25
-Tacko Fall,< $5 M,CLE,11,2.48,1000000,43,32,6.84,0.244,24.4,Normal,0.75,0.25
-Tony Snell,< $5 M,POR,29,2.48,2389641,41,12,6.84,0.244,24.4,Normal,0.92,0.08
-Gabriel Deck,< $5 M,OKC,7,2.4,3670000,41,34,6.84,0.236,23.6,Normal,0.75,0.25
-Jahmi'us Ramsey,< $5 M,SAC,15,2.4,1517981,45,30,6.84,0.236,23.6,Normal,0.75,0.25
-Jarron Cumberland,< $5 M,POR,3,2.4,1000000,41,38,6.84,0.236,23.6,Normal,0.75,0.25
-Justin Robinson,< $5 M,DET,25,2.35,94304,41,16,6.84,0.234,23.4,Normal,0.84,0.16
-Emmanuel Mudiay,< $5 M,SAC,2,2.25,111457,45,43,6.84,0.221,22.1,Normal,0.75,0.25
-Jericho Sims,< $5 M,NYK,13,2.25,1000000,42,29,6.84,0.221,22.1,Normal,0.75,0.25
-Jordan Bell,< $5 M,CHI,1,2.25,1000000,40,39,6.84,0.221,22.1,Normal,0.75,0.25
-Ahmad Caver,< $5 M,IND,1,2.25,1000000,43,42,6.84,0.221,22.1,Normal,0.75,0.25
-Anthony Lamb,< $5 M,SAS,2,2.25,1000000,42,40,6.84,0.221,22.1,Normal,0.75,0.25
-Kevin Knox,$5-10 M,NYK,13,2.18,5845978,42,29,15.58,0.013,1.3,Bad Value,0.75,0.25
-Jake Layman,< $5 M,MIN,18,2.1,3940184,42,24,6.84,0.214,21.4,Normal,0.75,0.25
-Marko Simonovic,< $5 M,CHI,8,2.1,925258,40,32,6.84,0.214,21.4,Normal,0.75,0.25
-Jaylen Morris,< $5 M,SAS,3,2.1,1489065,42,39,6.84,0.214,21.4,Normal,0.75,0.25
-Rui Hachimura,< $5 M,WAS,3,2.03,4916160,42,39,6.84,0.209,20.9,Normal,0.75,0.25
-Mychal Mulder,< $5 M,ORL,15,2.03,1000000,43,28,6.84,0.209,20.9,Normal,0.75,0.25
-Haywood Highsmith,< $5 M,MIA,4,1.8,1000000,42,38,6.84,0.204,20.4,Normal,0.75,0.25
-Charlie Brown,< $5 M,PHI,7,1.8,1000000,41,34,6.84,0.204,20.4,Normal,0.75,0.25
-Mason Jones,< $5 M,LAL,2,1.73,1000000,42,40,6.84,0.198,19.8,Bad Value,0.75,0.25
-Terry Taylor,< $5 M,IND,2,1.73,1000000,43,41,6.84,0.198,19.8,Bad Value,0.75,0.25
-Semi Ojeleye,< $5 M,MIL,17,1.65,1789256,44,27,6.84,0.196,19.6,Bad Value,0.75,0.25
-Jalen Johnson,< $5 M,ATL,11,1.58,2659560,41,30,6.84,0.186,18.6,Bad Value,0.75,0.25
-Greg Brown,< $5 M,POR,16,1.58,1000000,41,25,6.84,0.186,18.6,Bad Value,0.75,0.25
-Petr Cornelie,< $5 M,DEN,13,1.58,1000000,40,27,6.84,0.186,18.6,Bad Value,0.75,0.25
-Ignas Brazdeikis,< $5 M,ORL,16,1.58,1000000,43,27,6.84,0.186,18.6,Bad Value,0.75,0.25
-Sam Hauser,< $5 M,BOS,7,1.5,1000000,43,36,6.84,0.178,17.8,Bad Value,0.75,0.25
-Shaq Buchanan,< $5 M,MEM,2,1.5,1000000,45,43,6.84,0.178,17.8,Bad Value,0.75,0.25
-Moses Wright,< $5 M,LAC,1,1.5,53176,43,42,6.84,0.178,17.8,Bad Value,0.75,0.25
-Myles Powell,< $5 M,PHI,7,1.43,1000000,41,34,6.84,0.176,17.6,Bad Value,0.75,0.25
-Jordan Schakel,< $5 M,WAS,2,1.35,53176,42,40,6.84,0.171,17.1,Bad Value,0.75,0.25
-Chandler Hutchison,< $5 M,PHX,6,1.35,1000000,41,35,6.84,0.171,17.1,Bad Value,0.75,0.25
-Isaac Bonga,< $5 M,TOR,12,1.28,1729217,39,27,6.84,0.168,16.8,Bad Value,0.75,0.25
-Leandro Bolmaro,< $5 M,MIN,23,1.25,2353320,42,19,6.84,0.166,16.6,Bad Value,0.78,0.22
-Brodric Thomas,< $5 M,BOS,7,1.2,1000000,43,36,6.84,0.156,15.6,Bad Value,0.75,0.25
-Robert Woodard,< $5 M,SAC,8,1.2,1517981,45,37,6.84,0.156,15.6,Bad Value,0.75,0.25
-Joel Ayayi,< $5 M,WAS,7,1.2,1000000,42,35,6.84,0.156,15.6,Bad Value,0.75,0.25
-Elijah Hughes,< $5 M,UTA,10,1.2,1517981,42,32,6.84,0.156,15.6,Bad Value,0.75,0.25
-Dakota Mathias,< $5 M,MEM,5,1.13,1000000,45,40,6.84,0.148,14.8,Bad Value,0.75,0.25
-Quinndary Weatherspoon,< $5 M,GSW,3,1.13,1000000,42,39,6.84,0.148,14.8,Bad Value,0.75,0.25
-Isaiah Livers,< $5 M,DET,1,1.13,1057260,41,40,6.84,0.148,14.8,Bad Value,0.75,0.25
-Scottie Lewis,< $5 M,CHA,2,0.98,1000000,43,41,6.84,0.143,14.3,Bad Value,0.75,0.25
-Alize Johnson,< $5 M,WAS,19,0.98,1729217,42,23,6.84,0.143,14.3,Bad Value,0.75,0.25
-Daniel Oturu,< $5 M,TOR,3,0.9,1000000,39,36,6.84,0.141,14.1,Bad Value,0.75,0.25
-Jon Teske,< $5 M,MEM,3,0.75,1000000,45,42,6.84,0.131,13.1,Bad Value,0.75,0.25
-DeJon Jarreau,< $5 M,IND,1,0.75,1000000,43,42,6.84,0.131,13.1,Bad Value,0.75,0.25
-DaQuan Jeffries,< $5 M,MEM,3,0.75,1000000,45,42,6.84,0.131,13.1,Bad Value,0.75,0.25
-Cassius Winston,< $5 M,WAS,2,0.75,1000000,42,40,6.84,0.131,13.1,Bad Value,0.75,0.25
-Darren Collison,< $5 M,LAL,3,0.6,1000000,42,39,6.84,0.126,12.6,Bad Value,0.75,0.25
-Jaden Springer,< $5 M,PHI,2,0.6,2023800,41,39,6.84,0.126,12.6,Bad Value,0.75,0.25
-Udoka Azubuike,< $5 M,UTA,6,0.53,2075880,42,36,6.84,0.123,12.3,Bad Value,0.75,0.25
-Yves Pons,< $5 M,MEM,6,0.45,1000000,45,39,6.84,0.121,12.1,Bad Value,0.75,0.25
-Braxton Key,< $5 M,PHI,2,0.38,1000000,41,39,6.84,0.106,10.6,Bad Value,0.75,0.25
-Vit Krejci,< $5 M,OKC,3,0.38,925258,41,38,6.84,0.106,10.6,Bad Value,0.75,0.25
-Lindell Wigginton,< $5 M,MIL,1,0.38,1000000,44,43,6.84,0.106,10.6,Bad Value,0.75,0.25
-Tyrell Terry,< $5 M,MEM,2,0.38,1000000,45,43,6.84,0.106,10.6,Bad Value,0.75,0.25
-Deividas Sirvydis,< $5 M,DET,3,0.38,1000000,41,38,6.84,0.106,10.6,Bad Value,0.75,0.25
-Jemerrio Jones,< $5 M,LAL,2,0.38,85578,42,40,6.84,0.106,10.6,Bad Value,0.75,0.25
-Juan Hernangomez,$5-10 M,BOS,15,0.3,7012440,43,28,15.58,0,0,Bad Value,0.75,0.25
-Nate Hinton,< $5 M,IND,2,0.23,1000000,43,41,6.84,0.098,9.8,Bad Value,0.75,0.25
-Marcos Louzada Silva,< $5 M,NOP,2,0.23,1000000,42,40,6.84,0.098,9.8,Bad Value,0.75,0.25
-Cheick Diallo,< $5 M,DET,3,0.23,1000000,41,38,6.84,0.098,9.8,Bad Value,0.75,0.25
-Wayne Selden,< $5 M,NYK,3,0.15,1729217,42,39,6.84,0.095,9.5,Bad Value,0.75,0.25
-Carlik Jones,< $5 M,DEN,5,0.08,1000000,40,35,6.84,0.093,9.3,Bad Value,0.75,0.25
-Scotty Hopson,< $5 M,OKC,1,0,1000000,41,40,6.84,0.085,8.5,Bad Value,0.75,0.25
-Vernon Carey,< $5 M,CHA,2,0,1517981,43,41,6.84,0.085,8.5,Bad Value,0.75,0.25
-Mamadi Diakite,< $5 M,OKC,1,0,1000000,41,40,6.84,0.085,8.5,Bad Value,0.75,0.25
-Kai Jones,< $5 M,CHA,12,-0.08,2770560,43,31,6.84,0.083,8.3,Bad Value,0.75,0.25
-Bruno Fernando,< $5 M,BOS,14,-0.15,1782621,43,29,6.84,0.08,8,Bad Value,0.75,0.25
-Aleem Ford,< $5 M,ORL,4,-0.23,52274,43,39,6.84,0.073,7.3,Bad Value,0.75,0.25
-Micah Potter,< $5 M,DET,3,-0.23,1000000,41,38,6.84,0.073,7.3,Bad Value,0.75,0.25
-Miye Oni,< $5 M,UTA,16,-0.23,1782621,42,26,6.84,0.073,7.3,Bad Value,0.75,0.25
-JaQuori McLaughlin,< $5 M,DAL,4,-0.3,1000000,42,38,6.84,0.07,7,Bad Value,0.75,0.25
-Jaime Echenique,< $5 M,WAS,1,-0.38,1000000,42,41,6.84,0.053,5.3,Bad Value,0.75,0.25
-Norvel Pelle,< $5 M,UTA,3,-0.38,1000000,42,39,6.84,0.053,5.3,Bad Value,0.75,0.25
-Ade Murkey,< $5 M,SAC,1,-0.38,53176,45,44,6.84,0.053,5.3,Bad Value,0.75,0.25
-David Johnson,< $5 M,TOR,2,-0.38,1000000,39,37,6.84,0.053,5.3,Bad Value,0.75,0.25
-Mac McClung,< $5 M,CHI,1,-0.38,53176,40,39,6.84,0.053,5.3,Bad Value,0.75,0.25
-Joe Johnson,< $5 M,BOS,1,-0.38,151821,43,42,6.84,0.053,5.3,Bad Value,0.75,0.25
-Sharife Cooper,< $5 M,ATL,10,-0.38,1000000,41,31,6.84,0.053,5.3,Bad Value,0.75,0.25
-Georgios Kalaitzakis,< $5 M,MIL,9,-0.53,462629,44,35,6.84,0.05,5,Bad Value,0.75,0.25
-Jamorko Pickett,< $5 M,DET,6,-0.6,1000000,41,35,6.84,0.048,4.8,Bad Value,0.75,0.25
-Malik Fitts,< $5 M,UTA,7,-0.68,1000000,42,35,6.84,0.045,4.5,Bad Value,0.75,0.25
-Xavier Sneed,< $5 M,MEM,2,-0.75,1000000,45,43,6.84,0.04,4,Bad Value,0.75,0.25
-Jaylen Hoard,< $5 M,OKC,1,-0.75,1000000,41,40,6.84,0.04,4,Bad Value,0.75,0.25
-Aaron Henry,< $5 M,PHI,6,-0.83,1000000,41,35,6.84,0.038,3.8,Bad Value,0.75,0.25
-Keljin Blevins,< $5 M,POR,4,-1.05,1000000,41,37,6.84,0.035,3.5,Bad Value,0.75,0.25
-McKinley Wright,< $5 M,MIN,1,-1.13,1000000,42,41,6.84,0.03,3,Bad Value,0.75,0.25
-Wesley Iwundu,< $5 M,ATL,1,-1.13,1000000,41,40,6.84,0.03,3,Bad Value,0.75,0.25
-Jordan Goodwin,< $5 M,WAS,2,-1.35,1000000,42,40,6.84,0.025,2.5,Bad Value,0.75,0.25
-Emanuel Terry,< $5 M,PHX,3,-1.35,1000000,41,38,6.84,0.025,2.5,Bad Value,0.75,0.25
-Rob Edwards,< $5 M,OKC,2,-1.5,1000000,41,39,6.84,0.02,2,Bad Value,0.75,0.25
-Matt Mooney,< $5 M,NYK,1,-1.5,85578,42,41,6.84,0.02,2,Bad Value,0.75,0.25
-C.J. Miles,< $5 M,BOS,1,-1.88,149248,43,42,6.84,0.013,1.3,Bad Value,0.75,0.25
-Sam Dekker,< $5 M,TOR,1,-1.88,350000,39,38,6.84,0.013,1.3,Bad Value,0.75,0.25
-Tyler Hall,< $5 M,NYK,1,-1.88,1000000,42,41,6.84,0.013,1.3,Bad Value,0.75,0.25
-George King,< $5 M,DAL,4,-2.18,85578,42,38,6.84,0.01,1,Bad Value,0.75,0.25
-Arnoldas Kulboka,< $5 M,CHA,1,-3,1000000,43,42,6.84,0.005,0.5,Bad Value,0.75,0.25
-Juwan Morgan,< $5 M,TOR,1,-3,95930,39,38,6.84,0.005,0.5,Bad Value,0.75,0.25
-Jaysean Paige,< $5 M,DET,1,-3.38,1000000,41,40,6.84,0.003,0.3,Bad Value,0.75,0.25
-Zylan Cheatham,< $5 M,UTA,1,-4.88,85578,42,41,6.84,0,0,Bad Value,0.75,0.25
+Nikola Jokic,$30+ M,DEN,39,46.6,30510423,44,5,31.77,1,100,Superstars,1,0
+Giannis Antetokounmpo,$30+ M,MIL,39,46.4,39344970,48,9,31.77,0.964,96.4,Superstars,1,0
+Kevin Durant,$30+ M,BKN,36,42.4,40918900,45,9,31.77,0.929,92.9,Superstars,1,0
+Stephen Curry,$30+ M,GSW,42,41.9,45780966,46,4,31.77,0.893,89.3,Superstars,1,0
+Joel Embiid,$30+ M,PHI,34,40.99,31579390,45,11,31.77,0.857,85.7,Superstars,0.96,0.04
+LeBron James,$30+ M,LAL,34,40.23,41180544,46,12,31.77,0.821,82.1,Superstars,0.94,0.06
+Trae Young,$5-10 M,ATL,41,40.2,8326471,45,4,15.68,1,100,Great Value,1,0
+James Harden,$30+ M,BKN,40,40.2,43848000,45,5,31.77,0.786,78.6,Superstars,1,0
+Dejounte Murray,$15-20 M,SAS,41,38.4,15428571,46,5,22,1,100,Great Value,1,0
+Donovan Mitchell,$25-30 M,UTA,40,37,28103550,46,6,29.56,0.875,87.5,Normal,1,0
+DeMar DeRozan,$25-30 M,CHI,41,37,26000000,44,3,29.56,0.875,87.5,Normal,1,0
+Fred VanVleet,$15-20 M,TOR,40,36.8,19675926,43,3,22,0.967,96.7,Great Value,1,0
+Jayson Tatum,$25-30 M,BOS,43,35.7,28103550,47,4,29.56,0.75,75,Normal,1,0
+Devin Booker,$30+ M,PHX,37,35.6,31610000,44,7,31.77,0.714,71.4,Superstars,1,0
+Chris Paul,$30+ M,PHX,44,35.6,30800000,44,0,31.77,0.714,71.4,Superstars,1,0
+Karl-Anthony Towns,$30+ M,MIN,38,35.5,31610000,45,7,31.77,0.679,67.9,Superstars,1,0
+Ja Morant,$5-10 M,MEM,35,35.16,9603360,48,13,15.68,0.987,98.7,Great Value,0.94,0.06
+Darius Garland,$5-10 M,CLE,40,34.4,7040880,46,6,15.68,0.974,97.4,Great Value,1,0
+Luka Doncic,$10-15 M,DAL,31,34.06,10174391,46,15,17.83,1,100,Great Value,0.88,0.12
+LaMelo Ball,$5-10 M,CHA,39,33.9,8231760,46,7,15.68,0.961,96.1,Great Value,1,0
+Rudy Gobert,$30+ M,UTA,41,32.7,35344828,46,5,31.77,0.643,64.3,Superstars,1,0
+D'Angelo Russell,$30+ M,MIN,35,32.24,30013500,45,10,31.77,0.607,60.7,Superstars,0.98,0.02
+Bradley Beal,$30+ M,WAS,37,32.2,34502130,46,9,31.77,0.571,57.1,Superstars,1,0
+Zach LaVine,$15-20 M,CHI,38,32,19500000,44,6,22,0.933,93.3,Great Value,1,0
+Jrue Holiday,$30+ M,MIL,35,31.77,30133333,48,13,31.77,0.536,53.6,Superstars,0.94,0.06
+Miles Bridges,$5-10 M,CHA,44,31.6,5421493,46,2,15.68,0.948,94.8,Great Value,1,0
+Pascal Siakam,$30+ M,TOR,30,31.56,31320000,43,13,31.77,0.5,50,Superstars,0.92,0.08
+Anthony Edwards,$10-15 M,MIN,39,31.4,10245480,45,6,17.83,0.971,97.1,Great Value,1,0
+Brandon Ingram,$25-30 M,NOP,36,31.2,29467800,45,9,29.56,0.625,62.5,Normal,1,0
+Domantas Sabonis,$15-20 M,IND,44,31.2,18562500,46,2,22,0.9,90,Great Value,1,0
+Shai Gilgeous-Alexander,$5-10 M,OKC,40,31,5495532,45,5,15.68,0.935,93.5,Great Value,1,0
+Nikola Vucevic,$20-25 M,CHI,37,30.3,24000000,44,7,22.72,1,100,Great Value,1,0
+Russell Westbrook,$30+ M,LAL,46,30,44211146,46,0,31.77,0.464,46.4,Normal,1,0
+Khris Middleton,$30+ M,MIL,36,29.47,35500000,48,12,31.77,0.429,42.9,Normal,0.96,0.04
+Jimmy Butler,$30+ M,MIA,28,29.44,36016200,46,18,31.77,0.393,39.3,Normal,0.82,0.18
+Damian Lillard,$30+ M,POR,29,29.33,39344900,45,16,31.77,0.357,35.7,Normal,0.86,0.14
+Jaylen Brown,$20-25 M,BOS,33,28.8,24830357,47,14,22.72,0.917,91.7,Great Value,0.9,0.1
+Terry Rozier,$15-20 M,CHA,37,28.6,17905263,46,9,22,0.867,86.7,Normal,1,0
+Tobias Harris,$30+ M,PHI,36,28.3,36000000,45,9,31.77,0.321,32.1,Normal,1,0
+Kyrie Irving,$30+ M,BKN,6,28.2,34916200,45,39,31.77,0.286,28.6,Normal,0.75,0.25
+Jarrett Allen,$20-25 M,CLE,39,28.2,20000000,46,7,22.72,0.833,83.3,Normal,1,0
+Kyle Lowry,$25-30 M,MIA,39,28.1,26984128,46,7,29.56,0.5,50,Normal,1,0
+Julius Randle,$15-20 M,NYK,44,27.9,19800000,46,2,22,0.833,83.3,Normal,1,0
+Anthony Davis,$30+ M,LAL,27,27.84,35361360,46,19,31.77,0.25,25,Normal,0.8,0.2
+De'Aaron Fox,$25-30 M,SAC,43,27.8,28103550,47,4,29.56,0.375,37.5,Normal,1,0
+Tyler Herro,< $5 M,MIA,38,27.8,4004280,46,8,6.8,1,100,Great Value,1,0
+Mike Conley,$20-25 M,UTA,41,27.4,21000000,46,5,22.72,0.75,75,Normal,1,0
+Paul George,$30+ M,LAC,26,26.98,39344970,47,21,31.77,0.214,21.4,Normal,0.76,0.24
+Jonas Valanciunas,$10-15 M,NOP,42,26.9,14000000,45,3,17.83,0.943,94.3,Great Value,1,0
+Jalen Brunson,< $5 M,DAL,45,26.7,1802057,46,1,6.8,0.997,99.7,Great Value,1,0
+Evan Mobley,$5-10 M,CLE,38,26.7,8075160,46,8,15.68,0.922,92.2,Great Value,1,0
+Jaren Jackson,$5-10 M,MEM,47,26.6,9180560,48,1,15.68,0.909,90.9,Great Value,1,0
+Kristaps Porzingis,$30+ M,DAL,30,26.49,31650600,46,16,31.77,0.179,17.9,Bad Value,0.86,0.14
+Andrew Wiggins,$30+ M,GSW,42,26.4,31579390,46,4,31.77,0.143,14.3,Bad Value,1,0
+Lonzo Ball,$15-20 M,CHI,35,26.4,18604651,44,9,22,0.8,80,Normal,1,0
+Tyrese Maxey,< $5 M,PHI,38,26.2,2602920,45,7,6.8,0.995,99.5,Great Value,1,0
+Tyrese Haliburton,< $5 M,SAC,43,26.1,4023600,47,4,6.8,0.992,99.2,Great Value,1,0
+John Collins,$20-25 M,ATL,40,26.1,23000000,45,5,22.72,0.667,66.7,Normal,1,0
+Derrick White,$15-20 M,SAS,41,26.1,15178571,46,5,22,0.767,76.7,Normal,1,0
+Desmond Bane,< $5 M,MEM,45,25.9,2033160,48,3,6.8,0.99,99,Great Value,1,0
+Ricky Rubio,$15-20 M,CLE,34,25.57,17809524,46,12,22,0.733,73.3,Normal,0.94,0.06
+Gary Trent,$15-20 M,TOR,34,25.4,16000000,43,9,22,0.7,70,Normal,1,0
+Gordon Hayward,$25-30 M,CHA,45,25.3,29900000,46,1,29.56,0.25,25,Normal,1,0
+Bobby Portis,< $5 M,MIL,39,24.8,4347600,48,9,6.8,0.987,98.7,Great Value,1,0
+Scottie Barnes,$5-10 M,TOR,36,24.8,7280520,43,7,15.68,0.896,89.6,Normal,1,0
+Malcolm Brogdon,$20-25 M,IND,28,24.68,21700000,46,18,22.72,0.583,58.3,Normal,0.82,0.18
+Caris LeVert,$15-20 M,IND,32,24.66,17500000,46,14,22,0.667,66.7,Normal,0.9,0.1
+Seth Curry,$5-10 M,PHI,40,24.6,8186047,45,5,15.68,0.883,88.3,Normal,1,0
+Clint Capela,$15-20 M,ATL,37,24.5,17103448,45,8,22,0.633,63.3,Normal,1,0
+Marcus Smart,$10-15 M,BOS,38,24.4,14339285,47,9,17.83,0.914,91.4,Great Value,1,0
+Draymond Green,$20-25 M,GSW,34,24.35,24026712,46,12,22.72,0.5,50,Normal,0.94,0.06
+Will Barton,$15-20 M,DEN,39,24.2,15384615,44,5,22,0.6,60,Normal,1,0
+Jusuf Nurkic,$10-15 M,POR,42,24.2,12000000,45,3,17.83,0.886,88.6,Normal,1,0
+Jordan Poole,< $5 M,GSW,40,24.1,2161440,46,6,6.8,0.985,98.5,Great Value,1,0
+Dennis Schroder,$5-10 M,BOS,40,24.1,5890000,47,7,15.68,0.87,87,Normal,1,0
+OG Anunoby,$15-20 M,TOR,28,24.02,16071429,43,15,22,0.567,56.7,Normal,0.88,0.12
+CJ McCollum,$30+ M,POR,27,23.62,30864198,45,18,31.77,0.107,10.7,Bad Value,0.82,0.18
+Christian Wood,$10-15 M,HOU,44,23.6,13666667,47,3,17.83,0.857,85.7,Normal,1,0
+Jakob Poeltl,$5-10 M,SAS,38,23.6,8750000,46,8,15.68,0.857,85.7,Normal,1,0
+Spencer Dinwiddie,$15-20 M,WAS,37,23.5,17142857,46,9,22,0.533,53.3,Normal,1,0
+Cole Anthony,< $5 M,ORL,33,23.4,3449400,47,14,6.8,0.982,98.2,Great Value,0.9,0.1
+Aaron Gordon,$15-20 M,DEN,41,23.1,16409091,44,3,22,0.5,50,Normal,1,0
+Montrezl Harrell,$5-10 M,WAS,39,23,9720900,46,7,15.68,0.844,84.4,Normal,1,0
+Bojan Bogdanovic,$15-20 M,UTA,45,23,18700000,46,1,22,0.467,46.7,Normal,1,0
+Reggie Jackson,$10-15 M,LAC,43,22.9,10384500,47,4,17.83,0.829,82.9,Normal,1,0
+Myles Turner,$15-20 M,IND,42,22.8,18000000,46,4,22,0.433,43.3,Normal,1,0
+Monte Morris,$5-10 M,DEN,41,22.7,8333333,44,3,15.68,0.831,83.1,Normal,1,0
+Deandre Ayton,$10-15 M,PHX,28,22.7,12632950,44,16,17.83,0.8,80,Normal,0.86,0.14
+Kyle Kuzma,$10-15 M,WAS,43,22.6,13000000,46,3,17.83,0.771,77.1,Normal,1,0
+Al Horford,$25-30 M,BOS,38,22.5,27000000,47,9,29.56,0.125,12.5,Bad Value,1,0
+Mikal Bridges,$5-10 M,PHX,44,22.4,5557725,44,0,15.68,0.818,81.8,Normal,1,0
+Lauri Markkanen,$15-20 M,CLE,37,22.4,15690909,46,9,22,0.4,40,Normal,1,0
+Josh Hart,$10-15 M,NOP,36,22,12000000,45,9,17.83,0.714,71.4,Normal,1,0
+Devonte' Graham,$10-15 M,NOP,42,22,11000000,45,3,17.83,0.714,71.4,Normal,1,0
+Jordan Clarkson,$10-15 M,UTA,45,21.9,12420000,46,1,17.83,0.686,68.6,Normal,1,0
+Kelly Oubre,$10-15 M,CHA,42,21.8,12000000,46,4,17.83,0.657,65.7,Normal,1,0
+Patty Mills,$5-10 M,BKN,44,21.6,5890000,45,1,15.68,0.805,80.5,Normal,1,0
+Bam Adebayo,$25-30 M,MIA,21,21.45,28103550,46,25,29.56,0,0,Bad Value,0.75,0.25
+Kevin Love,$30+ M,CLE,38,21.3,31300000,46,8,31.77,0.071,7.1,Bad Value,1,0
+Tim Hardaway,$20-25 M,DAL,40,21.2,21306816,46,6,22.72,0.417,41.7,Normal,1,0
+Wendell Carter,$5-10 M,ORL,38,21.2,6920027,47,9,15.68,0.792,79.2,Normal,1,0
+Robert Williams,< $5 M,BOS,36,21.12,3661976,47,11,6.8,0.98,98,Great Value,0.96,0.04
+Cade Cunningham,$10-15 M,DET,36,21.1,10050120,45,9,17.83,0.629,62.9,Normal,1,0
+Norman Powell,$15-20 M,POR,34,20.93,15517242,45,11,22,0.367,36.7,Normal,0.96,0.04
+Anfernee Simons,< $5 M,POR,39,20.8,3938818,45,6,6.8,0.977,97.7,Great Value,1,0
+Patrick Beverley,$10-15 M,MIN,32,20.52,14320988,45,13,17.83,0.6,60,Normal,0.92,0.08
+RJ Barrett,$5-10 M,NYK,39,20.4,8623920,46,7,15.68,0.779,77.9,Normal,1,0
+Dillon Brooks,$10-15 M,MEM,21,20.25,12200000,48,27,17.83,0.571,57.1,Normal,0.75,0.25
+Franz Wagner,$5-10 M,ORL,47,20.1,5007840,47,0,15.68,0.766,76.6,Normal,1,0
+Keldon Johnson,< $5 M,SAS,42,20,2145720,46,4,6.8,0.975,97.5,Great Value,1,0
+Chris Duarte,< $5 M,IND,38,19.9,3749520,46,8,6.8,0.972,97.2,Great Value,1,0
+Josh Giddey,$5-10 M,OKC,40,19.9,5988000,45,5,15.68,0.753,75.3,Normal,1,0
+Harrison Barnes,$20-25 M,SAC,42,19.6,20284091,47,5,22.72,0.333,33.3,Normal,1,0
+Alec Burks,$5-10 M,NYK,45,19.6,9536000,46,1,15.68,0.74,74,Normal,1,0
+LaMarcus Aldridge,< $5 M,BKN,32,19.6,2641691,45,13,6.8,0.97,97,Great Value,0.92,0.08
+Carmelo Anthony,< $5 M,LAL,43,19.3,2641691,46,3,6.8,0.967,96.7,Great Value,1,0
+Buddy Hield,$20-25 M,SAC,47,19.2,22477273,47,0,22.72,0.25,25,Normal,1,0
+De'Anthony Melton,$5-10 M,MEM,39,19.2,8437500,48,9,15.68,0.727,72.7,Normal,1,0
+Cameron Johnson,< $5 M,PHX,41,18.9,4437000,44,3,6.8,0.965,96.5,Great Value,1,0
+Jae Crowder,$5-10 M,PHX,38,18.8,9720900,44,6,15.68,0.714,71.4,Normal,1,0
+Malik Monk,< $5 M,LAL,41,18.7,1789256,46,5,6.8,0.962,96.2,Great Value,1,0
+Kevin Huerter,< $5 M,ATL,38,18.5,4253357,45,7,6.8,0.96,96,Great Value,1,0
+Steven Adams,$15-20 M,MEM,44,18.5,17073171,48,4,22,0.333,33.3,Normal,1,0
+Grayson Allen,< $5 M,MIL,41,18.4,4054695,48,7,6.8,0.957,95.7,Great Value,1,0
+Dorian Finney-Smith,< $5 M,DAL,45,18.3,4000000,46,1,6.8,0.955,95.5,Great Value,1,0
+Jerami Grant,$20-25 M,DET,24,18.16,20000000,45,21,22.72,0.167,16.7,Bad Value,0.76,0.24
+Alex Caruso,$5-10 M,CHI,28,18.15,8604651,44,16,15.68,0.701,70.1,Normal,0.86,0.14
+Saddiq Bey,< $5 M,DET,45,18.1,2824320,45,0,6.8,0.952,95.2,Great Value,1,0
+Eric Gordon,$15-20 M,HOU,40,18.1,18218818,47,7,22,0.3,30,Normal,1,0
+Devin Vassell,< $5 M,SAS,38,18,4235160,46,8,6.8,0.947,94.7,Great Value,1,0
+Herbert Jones,< $5 M,NOP,12,18,1000000,45,33,6.8,0.947,94.7,Great Value,0.75,0.25
+Jarred Vanderbilt,< $5 M,MIN,40,17.9,4259259,45,5,6.8,0.945,94.5,Great Value,1,0
+Otto Porter,< $5 M,GSW,39,17.8,2389641,46,7,6.8,0.942,94.2,Great Value,1,0
+Tyus Jones,$5-10 M,MEM,45,17.7,7522200,48,3,15.68,0.675,67.5,Normal,1,0
+Royce O'Neale,$5-10 M,UTA,43,17.7,8678571,46,3,15.68,0.675,67.5,Normal,1,0
+Jae'Sean Tate,< $5 M,HOU,45,17.5,1517981,47,2,6.8,0.937,93.7,Great Value,1,0
+Luguentz Dort,< $5 M,OKC,41,17.5,1782621,45,4,6.8,0.937,93.7,Great Value,1,0
+Cameron Payne,$5-10 M,PHX,39,17.4,6500000,44,5,15.68,0.662,66.2,Normal,1,0
+Eric Bledsoe,$15-20 M,LAC,47,17.3,18125000,47,0,22,0.267,26.7,Normal,1,0
+Cody Martin,< $5 M,CHA,41,17.2,1782621,46,5,6.8,0.935,93.5,Great Value,1,0
+Evan Fournier,$15-20 M,NYK,44,17.2,18139535,46,2,22,0.233,23.3,Normal,1,0
+Immanuel Quickley,< $5 M,NYK,42,17.1,2210640,46,4,6.8,0.932,93.2,Great Value,1,0
+George Hill,< $5 M,MIL,38,16.8,4000000,48,10,6.8,0.93,93,Great Value,1,0
+Derrick Rose,$10-15 M,NYK,26,16.77,13445120,46,20,17.83,0.543,54.3,Normal,0.78,0.22
+Kevin Porter,< $5 M,HOU,31,16.77,2130240,47,16,6.8,0.927,92.7,Great Value,0.86,0.14
+Duncan Robinson,$15-20 M,MIA,43,16.6,15560000,46,3,22,0.2,20,Normal,1,0
+Luke Kennard,$10-15 M,LAC,37,16.56,12727273,47,10,17.83,0.514,51.4,Normal,0.98,0.02
+Nickeil Alexander-Walker,< $5 M,NOP,42,16.3,3261480,45,3,6.8,0.925,92.5,Great Value,1,0
+Pat Connaughton,$5-10 M,MIL,45,16.3,5333333,48,3,15.68,0.649,64.9,Normal,1,0
+Brandon Clarke,< $5 M,MEM,34,16.28,2726880,48,14,6.8,0.922,92.2,Great Value,0.92,0.08
+Max Strus,< $5 M,MIA,35,16.22,1669178,46,11,6.8,0.92,92,Great Value,0.96,0.04
+Joe Ingles,$10-15 M,UTA,41,16.2,14000000,46,5,17.83,0.486,48.6,Normal,1,0
+Mohamed Bamba,$5-10 M,ORL,36,16.13,7568742,47,11,15.68,0.636,63.6,Normal,0.96,0.04
+Lonnie Walker,< $5 M,SAS,42,16.1,4447896,46,4,6.8,0.917,91.7,Great Value,1,0
+Caleb Martin,< $5 M,MIA,36,15.88,1000000,46,10,6.8,0.915,91.5,Great Value,0.98,0.02
+Malik Beasley,$10-15 M,MIN,45,15.8,14391964,45,0,17.83,0.429,42.9,Normal,1,0
+P.J. Tucker,$5-10 M,MIA,40,15.8,7000000,46,6,15.68,0.623,62.3,Normal,1,0
+Kentavious Caldwell-Pope,$10-15 M,WAS,43,15.8,13038862,46,3,17.83,0.429,42.9,Normal,1,0
+Gabe Vincent,< $5 M,MIA,37,15.8,1669178,46,9,6.8,0.912,91.2,Great Value,1,0
+Bismack Biyombo,< $5 M,PHX,7,15.75,1000000,44,37,6.8,0.91,91,Great Value,0.75,0.25
+Kyle Anderson,$5-10 M,MEM,38,15.7,9937150,48,10,15.68,0.597,59.7,Normal,1,0
+JaVale McGee,$5-10 M,PHX,40,15.7,5000000,44,4,15.68,0.597,59.7,Normal,1,0
+Kelly Olynyk,$10-15 M,DET,12,15.68,12195122,45,33,17.83,0.4,40,Normal,0.75,0.25
+Ivica Zubac,$5-10 M,LAC,43,15.6,7518518,47,4,15.68,0.584,58.4,Normal,1,0
+Terance Mann,< $5 M,LAC,46,15.6,1782621,47,1,6.8,0.907,90.7,Great Value,1,0
+P.J. Washington,< $5 M,CHA,29,15.54,4215120,46,17,6.8,0.905,90.5,Great Value,0.84,0.16
+Andre Drummond,< $5 M,PHI,40,15.5,2401537,45,5,6.8,0.899,89.9,Normal,1,0
+Robert Covington,$10-15 M,POR,42,15.5,12975471,45,3,17.83,0.371,37.1,Normal,1,0
+Mitchell Robinson,< $5 M,NYK,42,15.5,1802057,46,4,6.8,0.899,89.9,Normal,1,0
+Chris Boucher,$5-10 M,TOR,41,15.5,7009615,43,2,15.68,0.571,57.1,Normal,1,0
+Cedi Osman,$5-10 M,CLE,34,15.32,8050000,46,12,15.68,0.558,55.8,Normal,0.94,0.06
+Mason Plumlee,$5-10 M,CHA,37,15.3,8137500,46,9,15.68,0.545,54.5,Normal,1,0
+Daniel Gafford,< $5 M,WAS,43,15.3,1782621,46,3,6.8,0.897,89.7,Normal,1,0
+Klay Thompson,$30+ M,GSW,6,15.23,37980720,46,40,31.77,0.036,3.6,Bad Value,0.75,0.25
+Hamidou Diallo,$5-10 M,DET,38,15.1,5200000,45,7,15.68,0.519,51.9,Normal,1,0
+Justin Holiday,$5-10 M,IND,40,15.1,6006420,46,6,15.68,0.519,51.9,Normal,1,0
+Precious Achiuwa,< $5 M,TOR,34,15.1,2711280,43,9,6.8,0.894,89.4,Normal,1,0
+Marcus Morris,$15-20 M,LAC,25,15.08,15627907,47,22,22,0.167,16.7,Bad Value,0.75,0.25
+Michael Porter,$5-10 M,DEN,9,14.93,5258735,44,35,15.68,0.506,50.6,Normal,0.75,0.25
+Hassan Whiteside,< $5 M,UTA,36,14.9,2401537,46,10,6.8,0.892,89.2,Normal,0.98,0.02
+Bogdan Bogdanovic,$15-20 M,ATL,28,14.87,18000000,45,17,22,0.133,13.3,Bad Value,0.84,0.16
+Richaun Holmes,$10-15 M,SAC,29,14.84,10384500,47,18,17.83,0.343,34.3,Normal,0.82,0.18
+Kevon Looney,$5-10 M,GSW,46,14.8,5178572,46,0,15.68,0.494,49.4,Normal,1,0
+Davion Mitchell,< $5 M,SAC,41,14.8,4603320,47,6,6.8,0.887,88.7,Normal,1,0
+Nassir Little,< $5 M,POR,40,14.8,2316240,45,5,6.8,0.887,88.7,Normal,1,0
+Frank Kaminsky,< $5 M,PHX,9,14.78,2089448,44,35,6.8,0.884,88.4,Normal,0.75,0.25
+Furkan Korkmaz,< $5 M,PHI,41,14.6,4629630,45,4,6.8,0.882,88.2,Normal,1,0
+Isaiah Hartenstein,< $5 M,LAC,33,14.58,3430810,47,14,6.8,0.879,87.9,Normal,0.9,0.1
+Gary Payton,< $5 M,GSW,43,14.5,1939350,46,3,6.8,0.872,87.2,Normal,1,0
+Georges Niang,< $5 M,PHI,41,14.5,3300000,45,4,6.8,0.872,87.2,Normal,1,0
+Jeff Green,< $5 M,DEN,41,14.5,4500000,44,3,6.8,0.872,87.2,Normal,1,0
+Derrick Walton,< $5 M,DET,3,14.4,1000000,45,42,6.8,0.869,86.9,Normal,0.75,0.25
+Josh Richardson,$10-15 M,BOS,35,14.38,11600000,47,12,17.83,0.314,31.4,Normal,0.94,0.06
+Kemba Walker,$5-10 M,NYK,26,14.2,8729020,46,20,15.68,0.481,48.1,Normal,0.78,0.22
+Nic Claxton,< $5 M,BKN,9,14.18,1000000,45,36,6.8,0.867,86.7,Normal,0.75,0.25
+Danilo Gallinari,$20-25 M,ATL,35,14.11,20475000,45,10,22.72,0.083,8.3,Bad Value,0.98,0.02
+Shake Milton,< $5 M,PHI,27,14.02,1846738,45,18,6.8,0.864,86.4,Normal,0.82,0.18
+Brook Lopez,$10-15 M,MIL,1,13.88,13302325,48,47,17.83,0.286,28.6,Normal,0.75,0.25
+Coby White,$5-10 M,CHI,26,13.86,5837760,44,18,15.68,0.468,46.8,Normal,0.82,0.18
+Talen Horton-Tucker,$5-10 M,LAL,30,13.85,9500000,46,16,15.68,0.455,45.5,Normal,0.86,0.14
+Deni Avdija,< $5 M,WAS,46,13.8,4692840,46,0,6.8,0.862,86.2,Normal,1,0
+Larry Nance,$10-15 M,POR,37,13.7,10690909,45,8,17.83,0.257,25.7,Normal,1,0
+Onyeka Okongwu,$5-10 M,ATL,13,13.65,6104280,45,32,15.68,0.442,44.2,Normal,0.75,0.25
+Sekou Doumbouya,< $5 M,LAL,2,13.5,1000000,46,44,6.8,0.857,85.7,Normal,0.75,0.25
+Alperen Sengun,< $5 M,HOU,39,13.5,3214680,47,8,6.8,0.857,85.7,Normal,1,0
+Gary Harris,$20-25 M,ORL,40,13.2,20482143,47,7,22.72,0,0,Bad Value,1,0
+Cory Joseph,$5-10 M,DET,34,13.15,7310000,45,11,15.68,0.429,42.9,Normal,0.96,0.04
+Herb Jones,< $5 M,NOP,30,13.11,1700000,45,15,6.8,0.854,85.4,Normal,0.88,0.12
+Nicolas Batum,$10-15 M,LAC,27,13.03,12213507,47,20,17.83,0.229,22.9,Normal,0.78,0.22
+Trey Lyles,< $5 M,DET,42,13,2500000,45,3,6.8,0.849,84.9,Normal,1,0
+Kenrich Williams,< $5 M,OKC,37,13,2000000,45,8,6.8,0.849,84.9,Normal,1,0
+Rudy Gay,$5-10 M,UTA,28,12.96,5890000,46,18,15.68,0.416,41.6,Normal,0.82,0.18
+Chimezie Metu,< $5 M,SAC,31,12.9,1762796,47,16,6.8,0.847,84.7,Normal,0.86,0.14
+Isaac Okoro,$5-10 M,CLE,31,12.85,6720720,46,15,15.68,0.403,40.3,Normal,0.88,0.12
+Blake Griffin,$30+ M,BKN,35,12.84,32405817,45,10,31.77,0,0,Bad Value,0.98,0.02
+T.J. McConnell,$5-10 M,IND,24,12.83,7500000,46,22,15.68,0.39,39,Normal,0.75,0.25
+Omer Yurtseven,< $5 M,MIA,36,12.74,1489065,46,10,6.8,0.844,84.4,Normal,0.98,0.02
+Collin Sexton,$5-10 M,CLE,11,12.68,6349671,46,35,15.68,0.377,37.7,Normal,0.75,0.25
+Garrison Mathews,< $5 M,HOU,30,12.68,1093598,47,17,6.8,0.842,84.2,Normal,0.84,0.16
+Terence Davis,< $5 M,SAC,28,12.64,4000000,47,19,6.8,0.839,83.9,Normal,0.8,0.2
+Cameron Oliver,< $5 M,ATL,2,12.6,1000000,45,43,6.8,0.837,83.7,Normal,0.75,0.25
+Cam Reddish,< $5 M,ATL,34,12.58,4670160,45,11,6.8,0.834,83.4,Normal,0.96,0.04
+Dewayne Dedmon,$5-10 M,MIA,39,12.5,5256308,46,7,15.68,0.364,36.4,Normal,1,0
+Jalen Suggs,$5-10 M,ORL,26,12.46,6593040,47,21,15.68,0.351,35.1,Normal,0.76,0.24
+Landry Shamet,< $5 M,PHX,40,12.4,3768342,44,4,6.8,0.832,83.2,Normal,1,0
+Matisse Thybulle,< $5 M,PHI,32,12.33,2840160,45,13,6.8,0.829,82.9,Normal,0.92,0.08
+Terrence Ross,$10-15 M,ORL,39,12.3,12500000,47,8,17.83,0.2,20,Normal,1,0
+Jaden McDaniels,< $5 M,MIN,42,12.3,2063280,45,3,6.8,0.824,82.4,Normal,1,0
+Obi Toppin,$5-10 M,NYK,41,12.3,5105160,46,5,15.68,0.338,33.8,Normal,1,0
+DeMarcus Cousins,< $5 M,MIL,17,12.3,2004047,48,31,6.8,0.824,82.4,Normal,0.75,0.25
+Kenyon Martin,< $5 M,HOU,44,12.2,1517981,47,3,6.8,0.814,81.4,Normal,1,0
+Bruce Brown,< $5 M,BKN,36,12.2,4736102,45,9,6.8,0.814,81.4,Normal,1,0
+Darius Bazley,< $5 M,OKC,40,12.2,2513040,45,5,6.8,0.814,81.4,Normal,1,0
+Nemanja Bjelica,< $5 M,GSW,46,12.2,2089448,46,0,6.8,0.814,81.4,Normal,1,0
+Maxi Kleber,$5-10 M,DAL,31,12.14,8750000,46,15,15.68,0.325,32.5,Normal,0.88,0.12
+Danny Green,$10-15 M,PHI,29,12.13,10000000,45,16,17.83,0.171,17.1,Bad Value,0.86,0.14
+Facundo Campazzo,< $5 M,DEN,43,12.1,3804150,44,1,6.8,0.812,81.2,Normal,1,0
+Naz Reid,< $5 M,MIN,42,12,1782621,45,3,6.8,0.809,80.9,Normal,1,0
+Mike Muscala,< $5 M,OKC,38,11.9,3500000,45,7,6.8,0.807,80.7,Normal,1,0
+Andre Iguodala,< $5 M,GSW,25,11.86,2641691,46,21,6.8,0.804,80.4,Normal,0.76,0.24
+Bones Hyland,< $5 M,DEN,34,11.66,2096880,44,10,6.8,0.802,80.2,Normal,0.98,0.02
+Damion Lee,< $5 M,GSW,35,11.52,1910860,46,11,6.8,0.799,79.9,Normal,0.96,0.04
+Reggie Bullock,$5-10 M,DAL,38,11.5,9536000,46,8,15.68,0.312,31.2,Normal,1,0
+Raul Neto,< $5 M,WAS,39,11.5,2089448,46,7,6.8,0.796,79.6,Normal,1,0
+Wes Iwundu,< $5 M,ATL,2,11.48,1000000,45,43,6.8,0.794,79.4,Normal,0.75,0.25
+Doug McDermott,$10-15 M,SAS,31,11.44,13750000,46,15,17.83,0.143,14.3,Bad Value,0.88,0.12
+DeAndre' Bembry,< $5 M,BKN,39,11.4,1939350,45,6,6.8,0.789,78.9,Normal,1,0
+Grant Williams,< $5 M,BOS,42,11.4,2617800,47,5,6.8,0.789,78.9,Normal,1,0
+Joe Harris,$15-20 M,BKN,14,11.33,17357143,45,31,22,0.1,10,Bad Value,0.75,0.25
+Dwight Powell,$10-15 M,DAL,46,11.3,11000000,46,0,17.83,0.114,11.4,Bad Value,1,0
+Jalen McDaniels,< $5 M,CHA,39,11.2,1782621,46,7,6.8,0.784,78.4,Normal,1,0
+Isaiah Stewart,< $5 M,DET,37,11.2,3277080,45,8,6.8,0.784,78.4,Normal,1,0
+Javonte Green,< $5 M,CHI,29,11.18,1669178,44,15,6.8,0.781,78.1,Normal,0.88,0.12
+Brandon Knight,< $5 M,DAL,3,11.1,1000000,46,43,6.8,0.776,77.6,Normal,0.75,0.25
+Marvin Bagley,< $5 M,SAC,26,11.1,1000000,47,21,6.8,0.776,77.6,Normal,0.76,0.24
+Jordan Nwora,< $5 M,MIL,36,11.04,1517981,48,12,6.8,0.774,77.4,Normal,0.96,0.04
+Jaylen Nowell,< $5 M,MIN,30,11,1782621,45,15,6.8,0.771,77.1,Normal,0.88,0.12
+Chuma Okeke,< $5 M,ORL,36,10.94,3277080,47,11,6.8,0.769,76.9,Normal,0.96,0.04
+John Konchar,< $5 M,MEM,40,10.9,2197674,48,8,6.8,0.766,76.6,Normal,1,0
+De'Andre Hunter,$5-10 M,ATL,17,10.8,7775400,45,28,15.68,0.299,29.9,Normal,0.75,0.25
+Bryn Forbes,< $5 M,DEN,41,10.7,4500000,44,3,6.8,0.761,76.1,Normal,1,0
+Ayo Dosunmu,< $5 M,CHI,40,10.7,925258,44,4,6.8,0.761,76.1,Normal,1,0
+Amir Coffey,< $5 M,LAC,34,10.67,1000000,47,13,6.8,0.759,75.9,Normal,0.92,0.08
+Ty Jerome,< $5 M,OKC,36,10.6,2412840,45,9,6.8,0.756,75.6,Normal,1,0
+Delon Wright,$5-10 M,ATL,40,10.5,8526316,45,5,15.68,0.286,28.6,Normal,1,0
+Dwight Howard,< $5 M,LAL,36,10.49,2641691,46,10,6.8,0.754,75.4,Normal,0.98,0.02
+Juan Toscano-Anderson,< $5 M,GSW,44,10.4,1701593,46,2,6.8,0.751,75.1,Normal,1,0
+Jeremy Lamb,$10-15 M,IND,31,10.3,10500000,46,15,17.83,0.086,8.6,Bad Value,0.88,0.12
+Greg Monroe,< $5 M,WAS,5,10.28,1000000,46,41,6.8,0.749,74.9,Normal,0.75,0.25
+Frank Jackson,< $5 M,DET,33,10.15,3000000,45,12,6.8,0.746,74.6,Normal,0.94,0.06
+Kessler Edwards,< $5 M,BKN,14,10.13,1000000,45,31,6.8,0.744,74.4,Normal,0.75,0.25
+Armoni Brooks,< $5 M,HOU,36,10.08,1489065,47,11,6.8,0.741,74.1,Normal,0.96,0.04
+Derrick Jones,$5-10 M,CHI,31,9.94,9720900,44,13,15.68,0.26,26,Normal,0.92,0.08
+Jalen Green,$5-10 M,HOU,32,9.94,8992200,47,15,15.68,0.26,26,Normal,0.88,0.12
+Brandon Goodwin,< $5 M,CLE,8,9.9,1000000,46,38,6.8,0.739,73.9,Normal,0.75,0.25
+Killian Hayes,$5-10 M,DET,33,9.87,5572680,45,12,15.68,0.247,24.7,Normal,0.94,0.06
+Khem Birch,$5-10 M,TOR,23,9.83,6350000,43,20,15.68,0.234,23.4,Normal,0.78,0.22
+Avery Bradley,< $5 M,LAL,38,9.7,2641691,46,8,6.8,0.734,73.4,Normal,1,0
+Jeremiah Robinson-Earl,< $5 M,OKC,41,9.7,2000000,45,4,6.8,0.734,73.4,Normal,1,0
+Wesley Matthews,< $5 M,MIL,20,9.68,1958501,48,28,6.8,0.731,73.1,Normal,0.75,0.25
+Keita Bates-Diop,< $5 M,SAS,38,9.6,1729217,46,8,6.8,0.729,72.9,Normal,1,0
+Stanley Johnson,< $5 M,LAL,12,9.53,1000000,46,34,6.8,0.726,72.6,Normal,0.75,0.25
+Corey Kispert,< $5 M,WAS,41,9.4,3383640,46,5,6.8,0.724,72.4,Normal,1,0
+Willy Hernangomez,< $5 M,NOP,22,9.3,2327220,45,23,6.8,0.721,72.1,Normal,0.75,0.25
+Josh Jackson,$5-10 M,DET,36,9.3,5005350,45,9,15.68,0.221,22.1,Normal,1,0
+D.J. Wilson,< $5 M,TOR,3,9.15,102831,43,40,6.8,0.719,71.9,Normal,0.75,0.25
+Moritz Wagner,< $5 M,ORL,37,9.11,1729217,47,10,6.8,0.716,71.6,Normal,0.98,0.02
+Aaron Holiday,< $5 M,WAS,35,9.02,3980551,46,11,6.8,0.714,71.4,Normal,0.96,0.04
+Jalen Smith,< $5 M,PHX,22,8.93,4458000,44,22,6.8,0.709,70.9,Normal,0.75,0.25
+Xavier Tillman,< $5 M,MEM,36,8.93,1517981,48,12,6.8,0.709,70.9,Normal,0.96,0.04
+Keifer Sykes,< $5 M,IND,11,8.85,1000000,46,35,6.8,0.704,70.4,Normal,0.75,0.25
+Nicolas Claxton,< $5 M,BKN,11,8.85,1782621,45,34,6.8,0.704,70.4,Normal,0.75,0.25
+Thaddeus Young,$10-15 M,SAS,24,8.78,14190000,46,22,17.83,0.057,5.7,Bad Value,0.75,0.25
+Goran Dragic,$15-20 M,TOR,5,8.78,19440000,43,38,22,0.067,6.7,Bad Value,0.75,0.25
+Jaxson Hayes,$5-10 M,NOP,33,8.74,5348280,45,12,15.68,0.208,20.8,Normal,0.94,0.06
+Markieff Morris,< $5 M,MIA,10,8.7,2641691,46,36,6.8,0.698,69.8,Normal,0.75,0.25
+R.J. Hampton,< $5 M,ORL,42,8.7,2303040,47,5,6.8,0.698,69.8,Normal,1,0
+Oshae Brissett,< $5 M,IND,35,8.64,1701593,46,11,6.8,0.693,69.3,Normal,0.96,0.04
+David Nwaba,< $5 M,HOU,33,8.64,4650000,47,14,6.8,0.693,69.3,Normal,0.9,0.1
+Cam Thomas,< $5 M,BKN,11,8.63,1000000,45,34,6.8,0.691,69.1,Normal,0.75,0.25
+Torrey Craig,< $5 M,IND,41,8.6,4878049,46,5,6.8,0.688,68.8,Normal,1,0
+Austin Reaves,< $5 M,LAL,27,8.56,925258,46,19,6.8,0.686,68.6,Normal,0.8,0.2
+James Johnson,< $5 M,BKN,30,8.54,2641691,45,15,6.8,0.683,68.3,Normal,0.88,0.12
+Aaron Wiggins,< $5 M,OKC,27,8.53,1000000,45,18,6.8,0.678,67.8,Normal,0.82,0.18
+Dennis Smith,< $5 M,POR,27,8.53,1789256,45,18,6.8,0.678,67.8,Normal,0.82,0.18
+Josh Christopher,< $5 M,HOU,39,8.5,2259240,47,8,6.8,0.676,67.6,Normal,1,0
+Robin Lopez,$5-10 M,ORL,22,8.4,5000000,47,25,15.68,0.182,18.2,Bad Value,0.75,0.25
+Alex Len,< $5 M,SAC,30,8.4,3731707,47,17,6.8,0.673,67.3,Normal,0.84,0.16
+Patrick Williams,$5-10 M,CHI,5,8.4,7422000,44,39,15.68,0.182,18.2,Bad Value,0.75,0.25
+Lou Williams,$5-10 M,ATL,31,8.37,5000000,45,14,15.68,0.169,16.9,Bad Value,0.9,0.1
+Tony Bradley,< $5 M,CHI,31,8.28,1789256,44,13,6.8,0.671,67.1,Normal,0.92,0.08
+Hassani Gravett,< $5 M,ORL,8,8.25,52274,47,39,6.8,0.663,66.3,Normal,0.75,0.25
+Nik Stauskas,< $5 M,MIA,2,8.25,1000000,46,44,6.8,0.663,66.3,Normal,0.75,0.25
+Brandon Williams,< $5 M,POR,2,8.25,1000000,45,43,6.8,0.663,66.3,Normal,0.75,0.25
+Frank Ntilikina,< $5 M,DAL,36,8.23,1789256,46,10,6.8,0.661,66.1,Normal,0.98,0.02
+Tre Jones,< $5 M,SAS,37,8.1,1517981,46,9,6.8,0.656,65.6,Normal,1,0
+Lance Stephenson,< $5 M,IND,16,8.1,138019,46,30,6.8,0.656,65.6,Normal,0.75,0.25
+Saben Lee,< $5 M,DET,26,8.08,1489065,45,19,6.8,0.653,65.3,Normal,0.8,0.2
+Kyle Guy,< $5 M,MIA,8,8.03,1000000,46,38,6.8,0.648,64.8,Normal,0.75,0.25
+Cameron McGriff,< $5 M,POR,3,8.03,1000000,45,42,6.8,0.648,64.8,Normal,0.75,0.25
+JaMychal Green,$5-10 M,DEN,35,8,8292683,44,9,15.68,0.156,15.6,Bad Value,1,0
+Svi Mykhailiuk,< $5 M,TOR,38,8,1729217,43,5,6.8,0.646,64.6,Normal,1,0
+Jonathan Kuminga,$5-10 M,GSW,34,7.99,5466360,46,12,15.68,0.143,14.3,Bad Value,0.94,0.06
+Nerlens Noel,$5-10 M,NYK,18,7.95,8800000,46,28,15.68,0.13,13,Bad Value,0.75,0.25
+Drew Eubanks,< $5 M,SAS,41,7.9,1762796,46,5,6.8,0.641,64.1,Normal,1,0
+Taj Gibson,< $5 M,NYK,29,7.9,4910000,46,17,6.8,0.641,64.1,Normal,0.84,0.16
+Tre Mann,< $5 M,OKC,32,7.82,2901240,45,13,6.8,0.638,63.8,Normal,0.92,0.08
+Justin Anderson,< $5 M,IND,6,7.8,111457,46,40,6.8,0.631,63.1,Normal,0.75,0.25
+Trey Burke,< $5 M,DAL,22,7.8,3333333,46,24,6.8,0.631,63.1,Normal,0.75,0.25
+Aleksej Pokusevski,< $5 M,OKC,36,7.8,3113160,45,9,6.8,0.631,63.1,Normal,1,0
+Romeo Langford,< $5 M,BOS,36,7.78,3804360,47,11,6.8,0.628,62.8,Normal,0.96,0.04
+Serge Ibaka,$5-10 M,LAC,28,7.76,9742000,47,19,15.68,0.117,11.7,Bad Value,0.8,0.2
+David Duke,< $5 M,BKN,14,7.65,1000000,45,31,6.8,0.626,62.6,Normal,0.75,0.25
+Enes Kanter,< $5 M,BOS,11,7.58,1000000,47,36,6.8,0.623,62.3,Normal,0.75,0.25
+Tristan Thompson,$5-10 M,SAC,30,7.56,9720900,47,17,15.68,0.104,10.4,Bad Value,0.84,0.16
+Dean Wade,< $5 M,CLE,31,7.48,1782621,46,15,6.8,0.613,61.3,Normal,0.88,0.12
+Josh Green,< $5 M,DAL,31,7.48,2957520,46,15,6.8,0.613,61.3,Normal,0.88,0.12
+Ben McLemore,< $5 M,POR,28,7.48,2389641,45,17,6.8,0.613,61.3,Normal,0.84,0.16
+Brandon Boston,< $5 M,LAC,30,7.48,925258,47,17,6.8,0.613,61.3,Normal,0.84,0.16
+Day'Ron Sharpe,< $5 M,BKN,20,7.43,2009040,45,25,6.8,0.611,61.1,Normal,0.75,0.25
+Ish Smith,< $5 M,CHA,29,7.31,4500000,46,17,6.8,0.608,60.8,Normal,0.84,0.16
+Troy Brown,$5-10 M,CHI,33,7.3,5170564,44,11,15.68,0.091,9.1,Bad Value,0.96,0.04
+Payton Pritchard,< $5 M,BOS,37,7.15,2137440,47,10,6.8,0.603,60.3,Normal,0.98,0.02
+Sterling Brown,< $5 M,DAL,36,7.15,3000000,46,10,6.8,0.603,60.3,Normal,0.98,0.02
+Zeke Nnaji,< $5 M,DEN,28,7.14,2498760,44,16,6.8,0.601,60.1,Normal,0.86,0.14
+Ziaire Williams,< $5 M,MEM,29,7.13,4373160,48,19,6.8,0.598,59.8,Normal,0.82,0.18
+Austin Rivers,< $5 M,DEN,31,6.99,2401537,44,13,6.8,0.595,59.5,Normal,0.92,0.08
+Davon Reed,< $5 M,DEN,18,6.98,94304,44,26,6.8,0.593,59.3,Normal,0.75,0.25
+Donte DiVincenzo,< $5 M,MIL,9,6.9,4675830,48,39,6.8,0.59,59,Normal,0.75,0.25
+Wayne Ellington,< $5 M,LAL,30,6.88,2641691,46,16,6.8,0.588,58.8,Normal,0.86,0.14
+Marquese Chriss,< $5 M,DAL,13,6.75,111457,46,33,6.8,0.58,58,Normal,0.75,0.25
+Malik Newman,< $5 M,CLE,1,6.75,1000000,46,45,6.8,0.58,58,Normal,0.75,0.25
+Isaiah Thomas,< $5 M,DAL,5,6.75,135680,46,41,6.8,0.58,58,Normal,0.75,0.25
+Cody Zeller,< $5 M,POR,27,6.72,2389641,45,18,6.8,0.575,57.5,Normal,0.82,0.18
+Kelan Martin,< $5 M,IND,27,6.72,1701593,46,19,6.8,0.575,57.5,Normal,0.8,0.2
+Lamar Stevens,< $5 M,CLE,30,6.71,1517981,46,16,6.8,0.573,57.3,Normal,0.86,0.14
+Garrett Temple,< $5 M,NOP,43,6.7,4910000,45,2,6.8,0.57,57,Normal,1,0
+Davis Bertans,$15-20 M,WAS,31,6.69,16000000,46,15,22,0.033,3.3,Bad Value,0.88,0.12
+Rajon Rondo,< $5 M,CLE,21,6.68,2641691,46,25,6.8,0.56,56,Normal,0.75,0.25
+Rui Hachimura,< $5 M,WAS,7,6.68,4916160,46,39,6.8,0.56,56,Normal,0.75,0.25
+Devontae Cacok,< $5 M,SAS,7,6.68,1000000,46,39,6.8,0.56,56,Normal,0.75,0.25
+Duane Washington,< $5 M,IND,14,6.68,1000000,46,32,6.8,0.56,56,Normal,0.75,0.25
+Derrick Favors,$5-10 M,OKC,31,6.66,9720900,45,14,15.68,0.078,7.8,Bad Value,0.9,0.1
+DeAndre Jordan,$10-15 M,LAL,29,6.64,10517224,46,17,17.83,0.029,2.9,Bad Value,0.84,0.16
+Xavier Moon,< $5 M,LAC,6,6.6,1000000,47,41,6.8,0.558,55.8,Normal,0.75,0.25
+Isaiah Roby,< $5 M,OKC,18,6.53,1782621,45,27,6.8,0.553,55.3,Normal,0.75,0.25
+Jose Alvarado,< $5 M,NOP,18,6.53,1000000,45,27,6.8,0.553,55.3,Normal,0.75,0.25
+Jock Landale,< $5 M,SAS,28,6.4,925258,46,18,6.8,0.55,55,Normal,0.82,0.18
+Cameron Thomas,< $5 M,BKN,23,6.38,2036280,45,22,6.8,0.548,54.8,Normal,0.75,0.25
+Justise Winslow,< $5 M,LAC,32,6.34,3902439,47,15,6.8,0.545,54.5,Normal,0.88,0.12
+Jarrett Culver,$5-10 M,MEM,21,6.3,6395160,48,27,15.68,0.065,6.5,Bad Value,0.75,0.25
+Cassius Stanley,< $5 M,DET,7,6.3,1000000,45,38,6.8,0.543,54.3,Normal,0.75,0.25
+Daniel Theis,$5-10 M,HOU,26,6.23,8372093,47,21,15.68,0.052,5.2,Bad Value,0.76,0.24
+Damian Jones,< $5 M,SAC,27,6.16,1977011,47,20,6.8,0.538,53.8,Normal,0.78,0.22
+Quentin Grimes,< $5 M,NYK,27,6.16,2168760,46,19,6.8,0.538,53.8,Normal,0.8,0.2
+Killian Tillie,< $5 M,MEM,27,6.08,1000000,48,21,6.8,0.535,53.5,Normal,0.78,0.22
+Eric Paschall,< $5 M,UTA,32,6.03,1782621,46,14,6.8,0.533,53.3,Normal,0.9,0.1
+Thomas Bryant,$5-10 M,WAS,5,6,8730159,46,41,15.68,0.039,3.9,Bad Value,0.75,0.25
+Taurean Prince,$15-20 M,MIN,34,5.95,15057692,45,11,22,0,0,Bad Value,0.96,0.04
+Gorgui Dieng,< $5 M,ATL,32,5.89,4000000,45,13,6.8,0.53,53,Normal,0.92,0.08
+PJ Dozier,< $5 M,DEN,18,5.85,1000000,44,26,6.8,0.525,52.5,Normal,0.75,0.25
+Yuta Watanabe,< $5 M,TOR,18,5.85,1762769,43,25,6.8,0.525,52.5,Normal,0.75,0.25
+Dalano Banton,< $5 M,TOR,33,5.78,925258,43,10,6.8,0.523,52.3,Normal,0.98,0.02
+D.J. Augustin,$5-10 M,HOU,33,5.76,7000000,47,14,15.68,0.026,2.6,Bad Value,0.9,0.1
+Malcolm Hill,< $5 M,CHI,7,5.7,53176,44,37,6.8,0.518,51.8,Normal,0.75,0.25
+Paul Millsap,< $5 M,BKN,24,5.7,2641691,45,21,6.8,0.518,51.8,Normal,0.76,0.24
+Chaundee Brown,< $5 M,ATL,5,5.63,1000000,45,40,6.8,0.515,51.5,Normal,0.75,0.25
+Rodney Hood,< $5 M,MIL,34,5.61,2239544,48,14,6.8,0.513,51.3,Normal,0.92,0.08
+B.J. Johnson,< $5 M,ORL,4,5.55,94304,47,43,6.8,0.51,51,Normal,0.75,0.25
+Trey Murphy,< $5 M,NOP,36,5.5,1000000,45,9,6.8,0.508,50.8,Normal,1,0
+Goga Bitadze,< $5 M,IND,26,5.38,3098400,46,20,6.8,0.503,50.3,Normal,0.78,0.22
+Elfrid Payton,< $5 M,PHX,24,5.38,2239544,44,20,6.8,0.503,50.3,Normal,0.78,0.22
+Timothe Luwawu-Cabarrot,< $5 M,ATL,30,5.37,1939350,45,15,6.8,0.5,50,Normal,0.88,0.12
+Luka Garza,< $5 M,DET,27,5.33,925258,45,18,6.8,0.497,49.7,Normal,0.82,0.18
+Kira Lewis,< $5 M,NOP,24,5.24,3822240,45,21,6.8,0.495,49.5,Normal,0.76,0.24
+Maurice Harkless,< $5 M,SAC,30,5.21,4347600,47,17,6.8,0.492,49.2,Normal,0.84,0.16
+Trevor Ariza,< $5 M,LAL,12,5.18,2641691,46,34,6.8,0.482,48.2,Normal,0.75,0.25
+Louis King,< $5 M,SAC,5,5.18,1000000,47,42,6.8,0.482,48.2,Normal,0.75,0.25
+Rodney McGruder,< $5 M,DET,20,5.18,1939350,45,25,6.8,0.482,48.2,Normal,0.75,0.25
+Vlatko Cancar,< $5 M,DEN,14,5.18,1782621,44,30,6.8,0.482,48.2,Normal,0.75,0.25
+Joshua Primo,< $5 M,SAS,20,5.1,3946800,46,26,6.8,0.477,47.7,Normal,0.75,0.25
+Matt Thomas,< $5 M,CHI,22,5.1,1669178,44,22,6.8,0.477,47.7,Normal,0.75,0.25
+Josh Okogie,< $5 M,MIN,29,5.07,4087904,45,16,6.8,0.475,47.5,Normal,0.86,0.14
+Brad Wanamaker,< $5 M,WAS,23,5.03,1729217,46,23,6.8,0.472,47.2,Normal,0.75,0.25
+Isaiah Joe,< $5 M,PHI,30,5.02,1517981,45,15,6.8,0.47,47,Normal,0.88,0.12
+Tyler Johnson,< $5 M,SAS,6,4.95,128709,46,40,6.8,0.465,46.5,Normal,0.75,0.25
+Enes Freedom,< $5 M,BOS,19,4.95,2641691,47,28,6.8,0.465,46.5,Normal,0.75,0.25
+KZ Okpala,< $5 M,MIA,21,4.88,1782621,46,25,6.8,0.457,45.7,Normal,0.75,0.25
+Danuel House,< $5 M,UTA,21,4.88,1387498,46,25,6.8,0.457,45.7,Normal,0.75,0.25
+Tre Scott,< $5 M,CLE,2,4.88,53176,46,44,6.8,0.457,45.7,Normal,0.75,0.25
+James Ennis,< $5 M,DEN,7,4.8,126528,44,37,6.8,0.455,45.5,Normal,0.75,0.25
+Jared Harper,< $5 M,NOP,2,4.73,1000000,45,43,6.8,0.452,45.2,Normal,0.75,0.25
+Jevon Carter,< $5 M,BKN,34,4.7,3833333,45,11,6.8,0.45,45,Normal,0.96,0.04
+Boban Marjanovic,< $5 M,DAL,16,4.65,3500000,46,30,6.8,0.442,44.2,Normal,0.75,0.25
+Trevelin Queen,< $5 M,HOU,8,4.65,1000000,47,39,6.8,0.442,44.2,Normal,0.75,0.25
+Nathan Knight,< $5 M,MIN,22,4.65,1000000,45,23,6.8,0.442,44.2,Normal,0.75,0.25
+Dylan Windler,< $5 M,CLE,30,4.64,2239200,46,16,6.8,0.44,44,Normal,0.86,0.14
+Justin Champagnie,< $5 M,TOR,26,4.62,1000000,43,17,6.8,0.437,43.7,Normal,0.84,0.16
+Nick Richards,< $5 M,CHA,33,4.6,1517981,46,13,6.8,0.435,43.5,Normal,0.92,0.08
+Tyler Cook,< $5 M,CHI,10,4.58,1000000,44,34,6.8,0.43,43,Normal,0.75,0.25
+Daishen Nix,< $5 M,HOU,8,4.58,1000000,47,39,6.8,0.43,43,Normal,0.75,0.25
+Kent Bazemore,< $5 M,LAL,25,4.56,2401537,46,21,6.8,0.427,42.7,Normal,0.76,0.24
+Miles McBride,< $5 M,NYK,18,4.5,925258,46,28,6.8,0.425,42.5,Normal,0.75,0.25
+Santi Aldama,< $5 M,MEM,25,4.43,1994520,48,23,6.8,0.417,41.7,Normal,0.75,0.25
+Usman Garuba,< $5 M,HOU,15,4.43,2353320,47,32,6.8,0.417,41.7,Normal,0.75,0.25
+Jabari Parker,< $5 M,BOS,12,4.43,2239544,47,35,6.8,0.417,41.7,Normal,0.75,0.25
+Tomas Satoransky,$10-15 M,NOP,31,4.41,10000000,45,14,17.83,0,0,Bad Value,0.9,0.1
+Jordan McLaughlin,< $5 M,MIN,28,4.37,1669178,45,17,6.8,0.415,41.5,Normal,0.84,0.16
+Keon Johnson,< $5 M,LAC,15,4.35,2553120,47,32,6.8,0.407,40.7,Normal,0.75,0.25
+Rayjon Tucker,< $5 M,DEN,3,4.35,95930,44,41,6.8,0.407,40.7,Normal,0.75,0.25
+Skylar Mays,< $5 M,ATL,17,4.35,1000000,45,28,6.8,0.407,40.7,Normal,0.75,0.25
+Charles Bassey,< $5 M,PHI,21,4.28,925258,45,24,6.8,0.402,40.2,Normal,0.75,0.25
+Tremont Waters,< $5 M,WAS,3,4.28,1000000,46,43,6.8,0.402,40.2,Normal,0.75,0.25
+Udonis Haslem,< $5 M,MIA,8,4.2,2641691,46,38,6.8,0.399,39.9,Normal,0.75,0.25
+Reggie Perry,< $5 M,POR,2,4.13,1000000,45,43,6.8,0.389,38.9,Normal,0.75,0.25
+Luke Kornet,< $5 M,MIL,3,4.13,102831,48,45,6.8,0.389,38.9,Normal,0.75,0.25
+JT Thor,< $5 M,CHA,11,4.13,1250000,46,35,6.8,0.389,38.9,Normal,0.75,0.25
+Anthony Gill,< $5 M,WAS,17,4.13,1517981,46,29,6.8,0.389,38.9,Normal,0.75,0.25
+Justin Jackson,< $5 M,PHX,4,4.05,1000000,44,40,6.8,0.387,38.7,Normal,0.75,0.25
+Solomon Hill,< $5 M,ATL,13,3.98,2389641,45,32,6.8,0.384,38.4,Normal,0.75,0.25
+Freddie Gillespie,< $5 M,ORL,9,3.9,85578,47,38,6.8,0.382,38.2,Normal,0.75,0.25
+Tim Frazier,< $5 M,ORL,10,3.75,128709,47,37,6.8,0.379,37.9,Normal,0.75,0.25
+Isaiah Jackson,< $5 M,IND,13,3.68,2451120,46,33,6.8,0.377,37.7,Normal,0.75,0.25
+Aaron Nesmith,< $5 M,BOS,31,3.61,3631200,47,16,6.8,0.372,37.2,Normal,0.86,0.14
+Malachi Flynn,< $5 M,TOR,27,3.61,2048040,43,16,6.8,0.372,37.2,Normal,0.86,0.14
+Paul Reed,< $5 M,PHI,21,3.6,1517981,45,24,6.8,0.357,35.7,Normal,0.75,0.25
+Markus Howard,< $5 M,DEN,17,3.6,1000000,44,27,6.8,0.357,35.7,Normal,0.75,0.25
+Thanasis Antetokounmpo,< $5 M,MIL,28,3.6,1729217,48,20,6.8,0.357,35.7,Normal,0.8,0.2
+Shaquille Harrison,< $5 M,BKN,2,3.6,101088,45,43,6.8,0.357,35.7,Normal,0.75,0.25
+Craig Sword,< $5 M,WAS,3,3.6,1000000,46,43,6.8,0.357,35.7,Normal,0.75,0.25
+Admiral Schofield,< $5 M,ORL,15,3.6,84128,47,32,6.8,0.357,35.7,Normal,0.75,0.25
+RJ Nembhard,< $5 M,CLE,6,3.53,1000000,46,40,6.8,0.349,34.9,Normal,0.75,0.25
+Willie Cauley-Stein,< $5 M,DAL,18,3.53,4200000,46,28,6.8,0.349,34.9,Normal,0.75,0.25
+Marcus Garrett,< $5 M,MIA,12,3.53,1000000,46,34,6.8,0.349,34.9,Normal,0.75,0.25
+Abdel Nader,< $5 M,PHX,14,3.45,2000000,44,30,6.8,0.347,34.7,Normal,0.75,0.25
+CJ Elleby,< $5 M,POR,25,3.43,1517981,45,20,6.8,0.344,34.4,Normal,0.78,0.22
+Moses Brown,< $5 M,DAL,25,3.42,1701593,46,21,6.8,0.342,34.2,Normal,0.76,0.24
+Damyean Dotson,< $5 M,NYK,2,3.38,102831,46,44,6.8,0.332,33.2,Normal,0.75,0.25
+Jeff Dowtin,< $5 M,MIL,4,3.38,1000000,48,44,6.8,0.332,33.2,Normal,0.75,0.25
+Sam Merrill,< $5 M,MEM,6,3.38,1517981,48,42,6.8,0.332,33.2,Normal,0.75,0.25
+Javin DeLaurier,< $5 M,MIL,1,3.38,1000000,48,47,6.8,0.332,33.2,Normal,0.75,0.25
+Trent Forrest,< $5 M,UTA,35,3.36,1000000,46,11,6.8,0.329,32.9,Normal,0.96,0.04
+Naji Marshall,< $5 M,NOP,23,3.3,1517981,45,22,6.8,0.324,32.4,Normal,0.75,0.25
+Charlie Brown,< $5 M,PHI,11,3.3,1000000,45,34,6.8,0.324,32.4,Normal,0.75,0.25
+Jay Scrubb,< $5 M,LAC,14,3.15,1000000,47,33,6.8,0.322,32.2,Normal,0.75,0.25
+Devon Dotson,< $5 M,CHI,12,3.08,1000000,44,32,6.8,0.314,31.4,Normal,0.75,0.25
+Theo Pinson,< $5 M,DAL,11,3.08,97696,46,35,6.8,0.314,31.4,Normal,0.75,0.25
+Bol Bol,< $5 M,DEN,13,3.08,2161152,44,31,6.8,0.314,31.4,Normal,0.75,0.25
+James Bouknight,< $5 M,CHA,19,3,4154400,46,27,6.8,0.302,30.2,Normal,0.75,0.25
+Alfonzo McKinnie,< $5 M,CHI,12,3,101088,44,32,6.8,0.302,30.2,Normal,0.75,0.25
+Sandro Mamukelashvili,< $5 M,MIL,23,3,1000000,48,25,6.8,0.302,30.2,Normal,0.75,0.25
+Langston Galloway,< $5 M,MIL,7,3,1000000,48,41,6.8,0.302,30.2,Normal,0.75,0.25
+Paris Bass,< $5 M,PHX,2,3,1000000,44,42,6.8,0.302,30.2,Normal,0.75,0.25
+Isaiah Todd,< $5 M,WAS,9,2.93,1500000,46,37,6.8,0.296,29.6,Normal,0.75,0.25
+Theo Maledon,< $5 M,OKC,21,2.93,2000000,45,24,6.8,0.296,29.6,Normal,0.75,0.25
+Wenyen Gabriel,< $5 M,LAC,7,2.85,99380,47,40,6.8,0.281,28.1,Normal,0.75,0.25
+Cat Barber,< $5 M,ATL,2,2.85,1000000,45,43,6.8,0.281,28.1,Normal,0.75,0.25
+Eugene Omoruyi,< $5 M,DAL,4,2.85,1000000,46,42,6.8,0.281,28.1,Normal,0.75,0.25
+Paul Watson,< $5 M,OKC,9,2.85,1000000,45,36,6.8,0.281,28.1,Normal,0.75,0.25
+Denzel Valentine,< $5 M,UTA,24,2.85,1789256,46,22,6.8,0.281,28.1,Normal,0.75,0.25
+Ish Wainright,< $5 M,PHX,19,2.85,1000000,44,25,6.8,0.281,28.1,Normal,0.75,0.25
+Chris Chiozza,< $5 M,GSW,23,2.78,1000000,46,23,6.8,0.279,27.9,Normal,0.75,0.25
+Neemias Queta,< $5 M,SAC,6,2.7,1000000,47,41,6.8,0.274,27.4,Normal,0.75,0.25
+Trendon Watford,< $5 M,POR,19,2.7,1000000,45,26,6.8,0.274,27.4,Normal,0.75,0.25
+Moses Moody,< $5 M,GSW,26,2.65,3562080,46,20,6.8,0.271,27.1,Normal,0.78,0.22
+Gary Clark,< $5 M,NOP,13,2.63,3382007,45,32,6.8,0.264,26.4,Normal,0.75,0.25
+Javonte Smart,< $5 M,MIL,13,2.63,1000000,48,35,6.8,0.264,26.4,Normal,0.75,0.25
+Mamadi Diakite,< $5 M,OKC,5,2.63,1000000,45,40,6.8,0.264,26.4,Normal,0.75,0.25
+Jay Huff,< $5 M,LAL,4,2.55,1000000,46,42,6.8,0.259,25.9,Normal,0.75,0.25
+Ed Davis,< $5 M,CLE,13,2.55,2641691,46,33,6.8,0.259,25.9,Normal,0.75,0.25
+Olivier Sarr,< $5 M,OKC,2,2.48,1000000,45,43,6.8,0.241,24.1,Normal,0.75,0.25
+Tony Snell,< $5 M,POR,32,2.48,2389641,45,13,6.8,0.241,24.1,Normal,0.92,0.08
+Jared Butler,< $5 M,UTA,20,2.48,925258,46,26,6.8,0.241,24.1,Normal,0.75,0.25
+Kevin Pangos,< $5 M,CLE,21,2.48,1669178,46,25,6.8,0.241,24.1,Normal,0.75,0.25
+Tacko Fall,< $5 M,CLE,11,2.48,1000000,46,35,6.8,0.241,24.1,Normal,0.75,0.25
+Joe Wieskamp,< $5 M,SAS,14,2.48,1000000,46,32,6.8,0.241,24.1,Normal,0.75,0.25
+M.J. Walker,< $5 M,PHX,2,2.48,1000000,44,42,6.8,0.241,24.1,Normal,0.75,0.25
+Jahmi'us Ramsey,< $5 M,SAC,15,2.4,1517981,47,32,6.8,0.229,22.9,Normal,0.75,0.25
+Jarron Cumberland,< $5 M,POR,3,2.4,1000000,45,42,6.8,0.229,22.9,Normal,0.75,0.25
+Ignas Brazdeikis,< $5 M,ORL,20,2.4,1000000,47,27,6.8,0.229,22.9,Normal,0.75,0.25
+Gabriel Deck,< $5 M,OKC,7,2.4,3670000,45,38,6.8,0.229,22.9,Normal,0.75,0.25
+Chris Silva,< $5 M,MIA,8,2.4,95930,46,38,6.8,0.229,22.9,Normal,0.75,0.25
+Jericho Sims,< $5 M,NYK,14,2.33,1000000,46,32,6.8,0.226,22.6,Normal,0.75,0.25
+Emmanuel Mudiay,< $5 M,SAC,2,2.25,111457,47,45,6.8,0.216,21.6,Normal,0.75,0.25
+Jordan Bell,< $5 M,CHI,1,2.25,1000000,44,43,6.8,0.216,21.6,Normal,0.75,0.25
+Kevin Knox,$5-10 M,ATL,15,2.25,5845978,45,30,15.68,0.013,1.3,Bad Value,0.75,0.25
+Anthony Lamb,< $5 M,SAS,2,2.25,1000000,46,44,6.8,0.216,21.6,Normal,0.75,0.25
+Ahmad Caver,< $5 M,IND,1,2.25,1000000,46,45,6.8,0.216,21.6,Normal,0.75,0.25
+Justin Robinson,< $5 M,DET,25,2.18,94304,45,20,6.8,0.211,21.1,Normal,0.78,0.22
+Juancho Hernangomez,< $5 M,SAS,4,2.18,1000000,46,42,6.8,0.211,21.1,Normal,0.75,0.25
+Jaylen Morris,< $5 M,SAS,3,2.1,1489065,46,43,6.8,0.209,20.9,Normal,0.75,0.25
+Jake Layman,< $5 M,MIN,19,2.03,3940184,45,26,6.8,0.201,20.1,Normal,0.75,0.25
+Marko Simonovic,< $5 M,CHI,9,2.03,925258,44,35,6.8,0.201,20.1,Normal,0.75,0.25
+Mychal Mulder,< $5 M,ORL,15,2.03,1000000,47,32,6.8,0.201,20.1,Normal,0.75,0.25
+Haywood Highsmith,< $5 M,MIA,4,1.8,1000000,46,42,6.8,0.198,19.8,Bad Value,0.75,0.25
+Mason Jones,< $5 M,LAL,2,1.73,1000000,46,44,6.8,0.193,19.3,Bad Value,0.75,0.25
+Terry Taylor,< $5 M,IND,2,1.73,1000000,46,44,6.8,0.193,19.3,Bad Value,0.75,0.25
+Semi Ojeleye,< $5 M,MIL,17,1.65,1789256,48,31,6.8,0.191,19.1,Bad Value,0.75,0.25
+Petr Cornelie,< $5 M,DEN,13,1.58,1000000,44,31,6.8,0.186,18.6,Bad Value,0.75,0.25
+Jalen Johnson,< $5 M,ATL,11,1.58,2659560,45,34,6.8,0.186,18.6,Bad Value,0.75,0.25
+Moses Wright,< $5 M,LAC,1,1.5,53176,47,46,6.8,0.178,17.8,Bad Value,0.75,0.25
+Shaq Buchanan,< $5 M,MEM,2,1.5,1000000,48,46,6.8,0.178,17.8,Bad Value,0.75,0.25
+Sam Hauser,< $5 M,BOS,7,1.5,1000000,47,40,6.8,0.178,17.8,Bad Value,0.75,0.25
+Jordan Schakel,< $5 M,WAS,2,1.35,53176,46,44,6.8,0.173,17.3,Bad Value,0.75,0.25
+Chandler Hutchison,< $5 M,PHX,6,1.35,1000000,44,38,6.8,0.173,17.3,Bad Value,0.75,0.25
+Greg Brown,< $5 M,POR,18,1.28,1000000,45,27,6.8,0.168,16.8,Bad Value,0.75,0.25
+Isaac Bonga,< $5 M,TOR,12,1.28,1729217,43,31,6.8,0.168,16.8,Bad Value,0.75,0.25
+Leandro Bolmaro,< $5 M,MIN,24,1.22,2353320,45,21,6.8,0.166,16.6,Bad Value,0.76,0.24
+Robert Woodard,< $5 M,SAC,8,1.2,1517981,47,39,6.8,0.156,15.6,Bad Value,0.75,0.25
+Brodric Thomas,< $5 M,BOS,7,1.2,1000000,47,40,6.8,0.156,15.6,Bad Value,0.75,0.25
+Joel Ayayi,< $5 M,WAS,7,1.2,1000000,46,39,6.8,0.156,15.6,Bad Value,0.75,0.25
+Elijah Hughes,< $5 M,UTA,10,1.2,1517981,46,36,6.8,0.156,15.6,Bad Value,0.75,0.25
+Quinndary Weatherspoon,< $5 M,GSW,3,1.13,1000000,46,43,6.8,0.151,15.1,Bad Value,0.75,0.25
+Isaiah Livers,< $5 M,DET,1,1.13,1057260,45,44,6.8,0.151,15.1,Bad Value,0.75,0.25
+Alize Johnson,< $5 M,WAS,19,0.98,1729217,46,27,6.8,0.146,14.6,Bad Value,0.75,0.25
+Scottie Lewis,< $5 M,CHA,2,0.98,1000000,46,44,6.8,0.146,14.6,Bad Value,0.75,0.25
+Daniel Oturu,< $5 M,TOR,3,0.9,1000000,43,40,6.8,0.141,14.1,Bad Value,0.75,0.25
+Myles Powell,< $5 M,PHI,9,0.9,1000000,45,36,6.8,0.141,14.1,Bad Value,0.75,0.25
+Jon Teske,< $5 M,MEM,3,0.75,1000000,48,45,6.8,0.131,13.1,Bad Value,0.75,0.25
+DeJon Jarreau,< $5 M,IND,1,0.75,1000000,46,45,6.8,0.131,13.1,Bad Value,0.75,0.25
+Cassius Winston,< $5 M,WAS,2,0.75,1000000,46,44,6.8,0.131,13.1,Bad Value,0.75,0.25
+DaQuan Jeffries,< $5 M,MEM,3,0.75,1000000,48,45,6.8,0.131,13.1,Bad Value,0.75,0.25
+Jaden Springer,< $5 M,PHI,2,0.6,2023800,45,43,6.8,0.123,12.3,Bad Value,0.75,0.25
+Darren Collison,< $5 M,LAL,3,0.6,1000000,46,43,6.8,0.123,12.3,Bad Value,0.75,0.25
+Dakota Mathias,< $5 M,MEM,6,0.6,1000000,48,42,6.8,0.123,12.3,Bad Value,0.75,0.25
+Udoka Azubuike,< $5 M,UTA,7,0.45,2075880,46,39,6.8,0.118,11.8,Bad Value,0.75,0.25
+Yves Pons,< $5 M,MEM,6,0.45,1000000,48,42,6.8,0.118,11.8,Bad Value,0.75,0.25
+Vit Krejci,< $5 M,OKC,3,0.38,925258,45,42,6.8,0.101,10.1,Bad Value,0.75,0.25
+Tyrell Terry,< $5 M,MEM,2,0.38,1000000,48,46,6.8,0.101,10.1,Bad Value,0.75,0.25
+Braxton Key,< $5 M,PHI,2,0.38,1000000,45,43,6.8,0.101,10.1,Bad Value,0.75,0.25
+Jemerrio Jones,< $5 M,LAL,2,0.38,85578,46,44,6.8,0.101,10.1,Bad Value,0.75,0.25
+Deividas Sirvydis,< $5 M,DET,3,0.38,1000000,45,42,6.8,0.101,10.1,Bad Value,0.75,0.25
+Vernon Carey,< $5 M,CHA,3,0.38,1517981,46,43,6.8,0.101,10.1,Bad Value,0.75,0.25
+Lindell Wigginton,< $5 M,MIL,1,0.38,1000000,48,47,6.8,0.101,10.1,Bad Value,0.75,0.25
+Juan Hernangomez,$5-10 M,BOS,15,0.3,7012440,47,32,15.68,0,0,Bad Value,0.75,0.25
+Nate Hinton,< $5 M,IND,2,0.23,1000000,46,44,6.8,0.093,9.3,Bad Value,0.75,0.25
+Cheick Diallo,< $5 M,DET,3,0.23,1000000,45,42,6.8,0.093,9.3,Bad Value,0.75,0.25
+Marcos Louzada Silva,< $5 M,NOP,2,0.23,1000000,45,43,6.8,0.093,9.3,Bad Value,0.75,0.25
+Wayne Selden,< $5 M,NYK,3,0.15,1729217,46,43,6.8,0.09,9,Bad Value,0.75,0.25
+Carlik Jones,< $5 M,DEN,5,0.08,1000000,44,39,6.8,0.088,8.8,Bad Value,0.75,0.25
+Scotty Hopson,< $5 M,OKC,1,0,1000000,45,44,6.8,0.085,8.5,Bad Value,0.75,0.25
+Kai Jones,< $5 M,CHA,13,-0.08,2770560,46,33,6.8,0.083,8.3,Bad Value,0.75,0.25
+Bruno Fernando,< $5 M,BOS,14,-0.15,1782621,47,33,6.8,0.08,8,Bad Value,0.75,0.25
+Aleem Ford,< $5 M,ORL,4,-0.23,52274,47,43,6.8,0.07,7,Bad Value,0.75,0.25
+Micah Potter,< $5 M,DET,3,-0.23,1000000,45,42,6.8,0.07,7,Bad Value,0.75,0.25
+Miye Oni,< $5 M,UTA,16,-0.23,1782621,46,30,6.8,0.07,7,Bad Value,0.75,0.25
+McKinley Wright,< $5 M,MIN,2,-0.23,1000000,45,43,6.8,0.07,7,Bad Value,0.75,0.25
+JaQuori McLaughlin,< $5 M,DAL,4,-0.3,1000000,46,42,6.8,0.068,6.8,Bad Value,0.75,0.25
+Jaime Echenique,< $5 M,WAS,1,-0.38,1000000,46,45,6.8,0.05,5,Bad Value,0.75,0.25
+David Johnson,< $5 M,TOR,2,-0.38,1000000,43,41,6.8,0.05,5,Bad Value,0.75,0.25
+Ade Murkey,< $5 M,SAC,1,-0.38,53176,47,46,6.8,0.05,5,Bad Value,0.75,0.25
+Norvel Pelle,< $5 M,UTA,3,-0.38,1000000,46,43,6.8,0.05,5,Bad Value,0.75,0.25
+Sharife Cooper,< $5 M,ATL,10,-0.38,1000000,45,35,6.8,0.05,5,Bad Value,0.75,0.25
+Joe Johnson,< $5 M,BOS,1,-0.38,151821,47,46,6.8,0.05,5,Bad Value,0.75,0.25
+Mac McClung,< $5 M,CHI,1,-0.38,53176,44,43,6.8,0.05,5,Bad Value,0.75,0.25
+Georgios Kalaitzakis,< $5 M,MIL,9,-0.53,462629,48,39,6.8,0.048,4.8,Bad Value,0.75,0.25
+Jamorko Pickett,< $5 M,DET,6,-0.6,1000000,45,39,6.8,0.045,4.5,Bad Value,0.75,0.25
+Malik Fitts,< $5 M,UTA,7,-0.68,1000000,46,39,6.8,0.043,4.3,Bad Value,0.75,0.25
+Xavier Sneed,< $5 M,MEM,2,-0.75,1000000,48,46,6.8,0.038,3.8,Bad Value,0.75,0.25
+Jaylen Hoard,< $5 M,OKC,1,-0.75,1000000,45,44,6.8,0.038,3.8,Bad Value,0.75,0.25
+Aaron Henry,< $5 M,PHI,6,-0.83,1000000,45,39,6.8,0.035,3.5,Bad Value,0.75,0.25
+Wesley Iwundu,< $5 M,ATL,1,-1.13,1000000,45,44,6.8,0.033,3.3,Bad Value,0.75,0.25
+Jordan Goodwin,< $5 M,WAS,2,-1.35,1000000,46,44,6.8,0.028,2.8,Bad Value,0.75,0.25
+Emanuel Terry,< $5 M,PHX,3,-1.35,1000000,44,41,6.8,0.028,2.8,Bad Value,0.75,0.25
+Keljin Blevins,< $5 M,POR,6,-1.43,1000000,45,39,6.8,0.025,2.5,Bad Value,0.75,0.25
+Rob Edwards,< $5 M,OKC,2,-1.5,1000000,45,43,6.8,0.02,2,Bad Value,0.75,0.25
+Matt Mooney,< $5 M,NYK,1,-1.5,85578,46,45,6.8,0.02,2,Bad Value,0.75,0.25
+Sam Dekker,< $5 M,TOR,1,-1.88,350000,43,42,6.8,0.013,1.3,Bad Value,0.75,0.25
+Tyler Hall,< $5 M,NYK,1,-1.88,1000000,46,45,6.8,0.013,1.3,Bad Value,0.75,0.25
+C.J. Miles,< $5 M,BOS,1,-1.88,149248,47,46,6.8,0.013,1.3,Bad Value,0.75,0.25
+George King,< $5 M,DAL,4,-2.18,85578,46,42,6.8,0.01,1,Bad Value,0.75,0.25
+Arnoldas Kulboka,< $5 M,CHA,1,-3,1000000,46,45,6.8,0.005,0.5,Bad Value,0.75,0.25
+Juwan Morgan,< $5 M,TOR,1,-3,95930,43,42,6.8,0.005,0.5,Bad Value,0.75,0.25
+Jaysean Paige,< $5 M,DET,1,-3.38,1000000,45,44,6.8,0.003,0.3,Bad Value,0.75,0.25
+Zylan Cheatham,< $5 M,UTA,1,-4.88,85578,46,45,6.8,0,0,Bad Value,0.75,0.25
