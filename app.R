@@ -301,6 +301,22 @@ server <- function(input, output, session) {
       twitter_data
     }
   })
+  
+  output$bans_reddit <- renderValueBox({
+    valueBox(
+      value = social_media_bans$reddit_tot_comments[1], HTML(paste0("Total Reddit Comments Scraped <br> <br> ",
+                                           social_media_bans$reddit_pct_difference[1], "% difference from average")),
+      icon = icon("caret-up"), color = "blue"
+    )
+  })
+  
+  output$bans_twitter <- renderValueBox({
+    valueBox(
+      value = social_media_bans$twitter_tot_comments[1], HTML(paste0("Total Tweets Scraped <br> <br> ",
+                                           social_media_bans$twitter_pct_difference[1], "% difference from average")),
+      icon = icon("caret-up"), color = "blue"
+    )
+  })
 
   
 

@@ -16,7 +16,8 @@ body_about <- dashboardBody(
              "Gambling odds are taken from",  tags$a(href = "https://sportsbook.draftkings.com/leagues/basketball/88670846?category=game-lines&subcategory=game", "Draftkings"), " for that day's games.",
             tags$br(),
             tags$br(),
-            HTML("Reddit Comments are scraped from the top ~27 most active posts from the previous day, while
+            HTML("Reddit Comments are scraped from the top ~27 most active posts on "), 
+            tags$a(href = "https://www.reddit.com/r/nba/", "r/nba"), HTML("from the previous day, while
                  Twitter Tweets are randomly collected and only include a subset of total volume due to scraping limitations.
                  NLTK is used to apply sentiment analysis upon this text data as it's collected using the VADER Lexicon."),
             tags$br(),

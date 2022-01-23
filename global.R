@@ -169,13 +169,15 @@ recent_games_teams <- get_data('prod_recent_games_teams') %>%
   select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, pts_color, opp_pts_color, mov)
 
 reddit_data <- get_data('prod_reddit_comments') %>%
-  rename(`Scrape Date` = scrape_date, User = author, Comment = comment, Flair = flair, Score = score,
+  select(`Scrape Date` = scrape_date, User = author, Flair = flair, Comment = comment, Score = score,
          `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(Score = as.numeric(Score),
          URL = paste0("<a href='",URL,"'>",URL,"</a>"))
 
 schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
+
+social_media_bans <- get_data('prod_social_media_aggs')
 
 standings <- get_data('prod_standings') %>%
   group_by(conference) %>%
@@ -205,7 +207,7 @@ transactions <- get_data('prod_transactions') %>%
   select(Date = date, Transaction = transaction)
 
 twitter_data <- get_data('prod_twitter_comments') %>%
-  rename(`Scrape Date` = scrape_date, User = username, Tweet = tweet, Likes = likes_count, Retweets = retweets_count,
+  select(`Scrape Date` = scrape_date, User = username, Tweet = tweet, Likes = likes_count, Retweets = retweets_count,
          Replies = replies_count, `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>"))
 

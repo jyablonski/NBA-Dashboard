@@ -1,31 +1,31 @@
 team,scrape_date,fg_percent_opp,threep_percent_opp,threep_made_opp,ppg_opp,fg_percent_rank,three_percent_rank,three_pm_rank,ppg_opp_rank,conference
-Milwaukee Bucks,2022-01-22,0.436,0.334,13.8,107.8,3rd,5th,29th,13th,East
-Toronto Raptors,2022-01-22,0.456,0.358,12.4,105.9,18th,24th,17th,9th,East
-Boston Celtics,2022-01-22,0.442,0.348,12.3,105.9,6th,16th,16th,8th,East
-Indiana Pacers,2022-01-22,0.465,0.355,10.9,109,24th,22nd,3rd,17th,East
-Miami Heat,2022-01-22,0.443,0.352,13.7,104,9th,19th,28th,4th,East
-Philadelphia 76ers,2022-01-22,0.449,0.345,11.7,105.6,12th,13th,8th,7th,East
-Brooklyn Nets,2022-01-22,0.438,0.325,11.8,109.2,4th,1st,9th,18th,East
-Orlando Magic,2022-01-22,0.461,0.362,12.9,110.9,19th,26th,22nd,22nd,East
-Charlotte Hornets,2022-01-22,0.462,0.355,14.2,114.2,21st,21st,30th,29th,East
-Washington Wizards,2022-01-22,0.456,0.344,10.7,109.7,17th,12th,1st,19th,East
-Chicago Bulls,2022-01-22,0.461,0.357,11.3,108.5,20th,23rd,6th,16th,East
-New York Knicks,2022-01-22,0.44,0.347,13,104.6,5th,15th,23rd,6th,East
-Detroit Pistons,2022-01-22,0.473,0.367,12.2,111.5,29th,28th,15th,24th,East
-Atlanta Hawks,2022-01-22,0.469,0.362,13.3,112.2,27th,25th,25th,26th,East
-Cleveland Cavaliers,2022-01-22,0.443,0.342,11.4,102.8,8th,9th,7th,2nd,East
-Los Angeles Lakers,2022-01-22,0.451,0.343,12.8,112.7,14th,11th,20th,27th,West
-Los Angeles Clippers,2022-01-22,0.442,0.327,11.3,106.4,7th,3rd,5th,10th,West
-Denver Nuggets,2022-01-22,0.465,0.342,11.8,106.8,23rd,10th,11th,11th,West
-Houston Rockets,2022-01-22,0.469,0.346,13.3,116.3,26th,14th,24th,30th,West
-Oklahoma City Thunder,2022-01-22,0.445,0.351,13.6,108.1,10th,18th,27th,14th,West
-Utah Jazz,2022-01-22,0.448,0.341,11.8,107.4,11th,8th,12th,12th,West
-Dallas Mavericks,2022-01-22,0.452,0.338,10.8,102.8,15th,6th,2nd,3rd,West
-Portland Trail Blazers,2022-01-22,0.476,0.373,13.4,112.2,30th,30th,26th,25th,West
-Memphis Grizzlies,2022-01-22,0.452,0.362,12.7,108.5,16th,27th,18th,15th,West
-Phoenix Suns,2022-01-22,0.436,0.326,11.2,104.5,2nd,2nd,4th,5th,West
-San Antonio Spurs,2022-01-22,0.462,0.354,11.9,111,22nd,20th,14th,23rd,West
-Sacramento Kings,2022-01-22,0.469,0.351,11.8,114.1,28th,17th,10th,28th,West
-New Orleans Pelicans,2022-01-22,0.467,0.369,12.9,109.7,25th,29th,21st,20th,West
-Minnesota Timberwolves,2022-01-22,0.45,0.338,12.7,109.7,13th,7th,19th,21st,West
-Golden State Warriors,2022-01-22,0.428,0.329,11.9,102.1,1st,4th,13th,1st,West
+Milwaukee Bucks,2022-01-23,0.438,0.335,13.9,108.2,4th,5th,29th,14th,East
+Toronto Raptors,2022-01-23,0.456,0.358,12.4,105.9,18th,24th,17th,9th,East
+Boston Celtics,2022-01-23,0.442,0.348,12.3,105.9,6th,16th,16th,8th,East
+Indiana Pacers,2022-01-23,0.465,0.354,10.8,109.1,23rd,20th,2nd,17th,East
+Miami Heat,2022-01-23,0.443,0.352,13.7,104,9th,18th,28th,4th,East
+Philadelphia 76ers,2022-01-23,0.449,0.345,11.7,105.6,12th,13th,8th,7th,East
+Brooklyn Nets,2022-01-23,0.438,0.325,11.8,109.2,3rd,1st,10th,18th,East
+Orlando Magic,2022-01-23,0.461,0.362,12.9,110.9,20th,26th,22nd,22nd,East
+Charlotte Hornets,2022-01-23,0.462,0.355,14.2,114.2,21st,22nd,30th,28th,East
+Washington Wizards,2022-01-23,0.456,0.344,10.7,109.7,17th,12th,1st,19th,East
+Chicago Bulls,2022-01-23,0.461,0.357,11.3,108.5,19th,23rd,5th,16th,East
+New York Knicks,2022-01-23,0.44,0.347,13,104.6,5th,15th,23rd,6th,East
+Detroit Pistons,2022-01-23,0.473,0.367,12.2,111.5,29th,28th,15th,24th,East
+Atlanta Hawks,2022-01-23,0.469,0.362,13.3,112.2,26th,25th,25th,26th,East
+Cleveland Cavaliers,2022-01-23,0.442,0.341,11.4,102.5,8th,9th,7th,2nd,East
+Los Angeles Lakers,2022-01-23,0.451,0.343,12.8,112.7,14th,11th,20th,27th,West
+Los Angeles Clippers,2022-01-23,0.442,0.327,11.3,106.4,7th,3rd,6th,10th,West
+Denver Nuggets,2022-01-23,0.465,0.342,11.8,106.8,24th,10th,9th,11th,West
+Houston Rockets,2022-01-23,0.469,0.346,13.3,116.3,27th,14th,24th,30th,West
+Oklahoma City Thunder,2022-01-23,0.446,0.349,13.5,107.8,10th,17th,27th,13th,West
+Utah Jazz,2022-01-23,0.448,0.341,11.8,107.4,11th,8th,11th,12th,West
+Dallas Mavericks,2022-01-23,0.452,0.338,10.8,102.8,16th,6th,3rd,3rd,West
+Portland Trail Blazers,2022-01-23,0.476,0.373,13.4,112.2,30th,30th,26th,25th,West
+Memphis Grizzlies,2022-01-23,0.452,0.362,12.7,108.5,15th,27th,19th,15th,West
+Phoenix Suns,2022-01-23,0.436,0.327,11.2,104.5,2nd,2nd,4th,5th,West
+San Antonio Spurs,2022-01-23,0.462,0.354,11.9,111,22nd,19th,13th,23rd,West
+Sacramento Kings,2022-01-23,0.47,0.354,12,114.5,28th,21st,14th,29th,West
+New Orleans Pelicans,2022-01-23,0.467,0.369,12.9,109.7,25th,29th,21st,20th,West
+Minnesota Timberwolves,2022-01-23,0.45,0.338,12.7,109.7,13th,7th,18th,21st,West
+Golden State Warriors,2022-01-23,0.428,0.329,11.9,102.1,1st,4th,12th,1st,West
