@@ -3,8 +3,8 @@ name: Shinyapps CI CD
 on:
   push:
     branches:
-      - master
-      
+      - main
+
 jobs:
   # bumpversion:
   #   name: Bumpversion
