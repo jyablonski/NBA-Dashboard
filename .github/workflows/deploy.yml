@@ -1,25 +1,27 @@
-on: [push]
+name: Shinyapps CI CD
 
-name: CI-CD
-
+on:
+  push:
+    branches:
+      - master
+      
 jobs:
-  bumpversion:
-    name: Bumpversion
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Bump version and push tag
-        uses: jaumann/github-bumpversion-action@v0.0.7
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          tags: true
+  # bumpversion:
+  #   name: Bumpversion
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Bump version and push tag
+  #       uses: jaumann/github-bumpversion-action@v0.0.7
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #     - name: Push changes
+  #       uses: ad-m/github-push-action@master
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         tags: true
   CI-CD:
     runs-on: ${{ matrix.config.os }}
-    needs: bumpversion
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
     strategy:
