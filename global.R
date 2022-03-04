@@ -35,7 +35,7 @@ yesterday <- Sys.Date()-1
 isSeasonActive <- TRUE
 today <-  format(today, format = "%B %d, %Y")
 
-# custom theme
+# custom theme for plotly objects
 theme_jacob <- function(..., base_size = 11) {
   theme(panel.grid.minor = element_blank(),
         panel.grid.major =  element_line(color = "#d0d0d0"),
@@ -65,14 +65,14 @@ theme_set(theme_jacob())
 
 # data retrieval function
 get_data <- function(table_name){
-  if (isSeasonActive == TRUE){ #& as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
-    # this csv gets fucked up with pbp data timestamp values (10:51) character -> numeric transformation.  heads up
+  if (isSeasonActive == TRUE & as.double(Sys.time() - file_info(paste0('data/', table_name, '.csv'))$change_time, units = 'hours') > 8.0){
+    # this csv gets fucked up with pbp data timestamp values (10:51) character and turns it into (10:51:00).  force char
     df <- dbReadTable(aws_connect, table_name)
     write_csv(df, paste0('data/', table_name, '.csv'))
     return(df)
   }
   else {
-    df <- read_csv(paste0('data/', table_name, '.csv'))
+    df <- suppressWarnings(read_csv(paste0('data/', table_name, '.csv'), col_types = cols(time_quarter = col_character())))
     return(df)
   }
 }
@@ -175,7 +175,8 @@ reddit_data <- get_data('prod_reddit_comments') %>%
          URL = paste0("<a href='",URL,"'>",URL,"</a>"))
 
 schedule <- get_data('prod_schedule') %>%
-  select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team, `Road Team` = away_team, `Average Team Rank` = avg_team_rank)
+  select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team_odds, `Road Team` = away_team_odds, `Average Team Rank` = avg_team_rank,
+         home_team, away_team)
 
 social_media_bans <- get_data('prod_social_media_aggs')
 
@@ -213,6 +214,16 @@ twitter_data <- get_data('prod_twitter_comments') %>%
 
 dbDisconnect(aws_connect)
 
+aws_connect <- dbConnect(drv = RPostgres::Postgres(), dbname = Sys.getenv('aws_db'),
+                         host = Sys.getenv('aws_host'),
+                         port = as.integer(Sys.getenv('aws_port')),
+                         user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'),
+                         options = "-c search_path=ml_models")
+
+schedule_ml <- get_data('tonights_games_ml')
+
+dbDisconnect(aws_connect)
+
 ###### Data Extraction Complete ######
 # Data Manipulation ----
 pbp_games_yesterday <- pbp_data %>%
@@ -241,6 +252,38 @@ bans <- bans %>%
 
 league_average_ts <- bans$league_ts_percent[1]
 updated_date <- bans$last_updated_at[1]
+
+# basically - try to return data with ml predictions if it's there.
+# else return the schedule with odds no matter what
+get_schedule_tonight <- function(schedule_df, schedule_df_ml){
+  if ((nrow(schedule_df_ml) > 0) & (min(schedule_df$Date) == suppressWarnings(min(schedule_df_ml$proper_date)))){
+    
+    schedule_tonight <- schedule_df %>%
+      left_join(schedule_df_ml %>% select(home_team, Date = proper_date, home_team_predicted_win_pct, away_team_predicted_win_pct)) %>%
+      filter(Date == min(Date)) %>%
+      select(-home_team, -away_team) %>%
+      rename(`Home Predicted Win %` = home_team_predicted_win_pct, `Road Predicted Win %` = away_team_predicted_win_pct)
+    
+  }
+  else {
+    schedule_tonight <- schedule_df %>%
+      filter(Date == min(Date)) %>%
+      select(-home_team, -away_team)
+  }
+  
+  return(schedule_tonight)
+  
+}
+
+schedule_tonight <- get_schedule_tonight(schedule, schedule_ml)
+# bby2 <- get_schedule_tonight(schedule, schedule_ml_test)
+
+schedule <- schedule %>%
+  anti_join(schedule_tonight %>% select(Date)) %>%
+  select(-home_team, -away_team)
+
+# use this to test
+# schedule_tonight = data.frame()
 
 ######### Data Manipulation Complete ########
 # Graphs ----
@@ -418,10 +461,10 @@ schedule_plot <- function(df){
 regular_valuebox_function <- function(df){
   if (nrow(df) > 0){
     valueBox(value = paste0(df$wins, '-', df$losses), paste0("Win / Loss Record ",
-                                                                 "(" , df$rank, " in ", df$conference, " Conference)"), icon = icon("list"), color = "purple")
+                                                                 "(" , df$rank, " in ", df$conference, " Conference)"), icon = icon("list"), color = "blue")
   }
   else {
-    valueBox(value = paste0('No Data Available'), "Team Hasn't Played Yet", icon = icon("list"), color = "purple")
+    valueBox(value = paste0('No Data Available'), "Team Hasn't Played Yet", icon = icon("list"), color = "blue")
   }
 }
 

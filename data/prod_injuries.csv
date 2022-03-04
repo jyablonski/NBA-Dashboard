@@ -1,106 +1,110 @@
 player,team_acronym,team,date,status,injury,description,total_injuries,team_active_injuries,team_active_protocols,scrape_date
-Bogdan Bogdanović,ATL,Atlanta Hawks,"Sat, Jan 22, 2022",Out,Knee,The Hawks have listed Bogdanovic as OUT for Sunday's game (Jan. 23) against the Hornets.,3,3,0,2022-01-23
-Danilo Gallinari,ATL,Atlanta Hawks,"Sat, Jan 22, 2022",Day To Day,Achilles,The Hawks have listed Gallinari as QUESTIONABLE for Sunday's game (Jan. 23) against the Hornets.,3,3,0,2022-01-23
-Kevin Huerter,ATL,Atlanta Hawks,"Sat, Jan 22, 2022",Day To Day,Hip,The Hawks have listed Huerter as QUESTIONABLE for Sunday's game (Jan. 23) against the Hornets.,3,3,0,2022-01-23
-Bol Bol,BOS,Boston Celtics,"Tue, Jan 18, 2022",Out,Foot,"Bol is having surgery on his foot and will be sidelined 8-12 weeks, according to Shams Charania of The Athletic.",4,4,0,2022-01-23
-PJ Dozier,BOS,Boston Celtics,"Wed, Nov 24, 2021",Out,ACL,Dozier has a torn anterior cruciate ligament in his left knee and is out indefinitely.,4,4,0,2022-01-23
-Aaron Nesmith,BOS,Boston Celtics,"Sat, Jan 22, 2022",Day To Day,Ankle,The Celtics have listed Nesmith as PROBABLE for Sunday's game (Jan. 23) against the Wizards.,4,4,0,2022-01-23
-Marcus Smart,BOS,Boston Celtics,"Sat, Jan 22, 2022",Day To Day,Reconditioning,The Celtics have listed Smart as PROBABLE for Sunday's game (Jan. 23) against the Wizards.,4,4,0,2022-01-23
-Nic Claxton,BKN,Brooklyn Nets,"Sat, Jan 22, 2022",Day To Day,Hamstring,The Nets have listed Claxton as QUESTIONABLE for Sunday's game (Jan. 23) against the Wolves.,3,3,0,2022-01-23
-Kevin Durant,BKN,Brooklyn Nets,"Sun, Jan 16, 2022",Out,Knee,The Nets announced that Durant was diagnosed with a sprained MCL in his left knee and will return following a period of rehabilitation.,3,3,0,2022-01-23
-Joe Harris,BKN,Brooklyn Nets,"Mon, Nov 29, 2021",Out,Ankle,Nets coach Steve Nash said Harris will have ankle surgery and is out indefinitely.,3,3,0,2022-01-23
-Jalen McDaniels,CHA,Charlotte Hornets,"Sat, Jan 22, 2022",Out,Ankle,The Hornets are expecting McDaniels to miss some time. No timetable has been announced for his return.,1,1,0,2022-01-23
-Lonzo Ball,CHI,Chicago Bulls,"Thu, Jan 20, 2022",Out,Knee,The Bullls announced that Ball will undergo surgery on his left knee and is expected to return in 6-8 weeks.,6,6,0,2022-01-23
-Alex Caruso,CHI,Chicago Bulls,"Sat, Jan 22, 2022",Out,Wrist,The Bulls announced that Caruso will be re-evaluated in 6-8 weeks after he has surgery to repair his fractured right wrist.,6,6,0,2022-01-23
-Javonte Green,CHI,Chicago Bulls,"Sat, Jan 22, 2022",Day To Day,Adductor,The Bulls have listed Green as DOUBTFUL for Sunday's game (Jan. 23) against the Magic.,6,6,0,2022-01-23
-Derrick Jones,CHI,Chicago Bulls,"Thu, Jan 13, 2022",Out,Knee,"Jones Jr. has a bone bruise in his right knee and is expected to miss 4-6 weeks, according to Shams Charania of The Athletic.",6,6,0,2022-01-23
-Zach LaVine,CHI,Chicago Bulls,"Sat, Jan 22, 2022",Day To Day,Knee,The Bulls have listed LaVine as DOUBTFUL for Sunday's game (Jan. 23) against the Magic.,6,6,0,2022-01-23
-Patrick Williams,CHI,Chicago Bulls,"Fri, Oct 29, 2021",Out,Left Wrist,"Williams is expected to miss the rest of the regular season with a dislocated wrist, according to Adrian Wojnarowski of ESPN.",6,6,0,2022-01-23
-Rajon Rondo,CLE,Cleveland Cavaliers,"Fri, Jan 21, 2022",Day To Day,Hamstring,The Cavs have listed Rondo as QUESTIONABLE for Saturday's game (Jan. 22) against the Thunder.,4,4,0,2022-01-23
-Ricky Rubio,CLE,Cleveland Cavaliers,"Wed, Dec 29, 2021",Out For Season,Knee,"Rubio suffered a torn ACL in his left knee, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-01-23
-Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-01-23
-Lamar Stevens,CLE,Cleveland Cavaliers,"Fri, Jan 21, 2022",Day To Day,Knee,The Cavs have listed Stevens as PROBABLE for Saturday's game (Jan. 22) against the Thunder.,4,4,0,2022-01-23
-Sterling Brown,DAL,Dallas Mavericks,"Sat, Jan 22, 2022",Out,Foot,The Mavs have listed Brown as OUT for Sunday's game (Jan. 23) against the Grizzlies.,1,1,0,2022-01-23
-Vlatko Čančar,DEN,Denver Nuggets,"Fri, Jan 7, 2022",Out,Foot,The Nuggets announced that Cancar had surgery on his foot and will be re-evaluated in 12 weeks.,5,4,1,2022-01-23
-JaMychal Green,DEN,Denver Nuggets,"Sat, Jan 22, 2022",Day To Day,Health and Safety Protocols,The Nuggets have listed Green as QUESTIONABLE for Sunday's game (Jan. 23) against the Pistons.,5,4,1,2022-01-23
-Jeff Green,DEN,Denver Nuggets,"Sat, Jan 22, 2022",Day To Day,Quad,The Nuggets have listed Green as QUESTIONABLE for Sunday's game (Jan. 23) against the Pistons.,5,4,1,2022-01-23
-Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,5,4,1,2022-01-23
-Michael Porter,DEN,Denver Nuggets,"Mon, Nov 29, 2021",Out For Season,Back,"Porter Jr. is expected to miss the rest of the season due to back surgery, according to Shams Charania of The Athletic.",5,4,1,2022-01-23
-Luka Garza,DET,Detroit Pistons,"Fri, Jan 21, 2022",Out,Health and Safety Protocols,The Pistons have placed Garza in the league's health and safety protocols.,6,3,3,2022-01-23
-Jerami Grant,DET,Detroit Pistons,"Fri, Jan 21, 2022",Out,Health and Safety Protocols,The Pistons have placed Grant in the league's health and safety protocols.,6,3,3,2022-01-23
-Killian Hayes,DET,Detroit Pistons,"Sat, Jan 22, 2022",Day To Day,Hip,The Pistons have listed Hayes as QUESTIONABLE for Sunday's game (Jan. 23) against the Nuggets.,6,3,3,2022-01-23
-Frank Jackson,DET,Detroit Pistons,"Sat, Jan 22, 2022",Out,Reconditioning,The Pistons have listed Jackson as OUT for Sunday's game (Jan. 23) against the Nuggets.,6,3,3,2022-01-23
-Isaiah Livers,DET,Detroit Pistons,"Wed, Jan 12, 2022",Out,Foot,Livers has not played in a game since mid-December and no timetable has been announced for his return.,6,3,3,2022-01-23
-Kelly Olynyk,DET,Detroit Pistons,"Sat, Jan 22, 2022",Out,Health and Safety Protocols,The Pistons have placed Olynyk in the league's health and safety protocols.,6,3,3,2022-01-23
-Draymond Green,GSW,Golden State Warriors,"Sat, Jan 15, 2022",Out,Back,The Warriors announced that Green will be re-evaluated in two weeks.,3,3,0,2022-01-23
-Andre Iguodala,GSW,Golden State Warriors,"Sat, Jan 22, 2022",Out,Injury Management,The Warriors have listed Iguodala as OUT for Sunday's game (Jan. 23) against the Jazz.,3,3,0,2022-01-23
-James Wiseman,GSW,Golden State Warriors,"Mon, Nov 1, 2021",Out,Knee,"The Warriors announced that Wiseman has been cleared to participate in full team practices, but a timetable for his return to game action has not been determined.",3,3,0,2022-01-23
-Malcolm Brogdon,IND,Indiana Pacers,"Sat, Jan 22, 2022",Out,Achilles,The Pacers announced that Brogdon will be shutdown at least for 10 days.,6,5,1,2022-01-23
-Caris LeVert,IND,Indiana Pacers,"Sat, Jan 22, 2022",Out,Calf,LeVert is OUT for Saturday's (Jan. 22) game against Phoenix.,6,5,1,2022-01-23
-T.J. McConnell,IND,Indiana Pacers,"Thu, Dec 2, 2021",Out,Wrist,Pacers head coach Rick Carlisle said McConnell will be out a while with a sore right wrist.,6,5,1,2022-01-23
-Domantas Sabonis,IND,Indiana Pacers,"Fri, Jan 21, 2022",Out,Ankle,Sabonis is out for Saturday's (Jan. 22) game against Phoenix.,6,5,1,2022-01-23
-Myles Turner,IND,Indiana Pacers,"Tue, Jan 18, 2022",Out,Foot,The Pacers announced that Turner is dealing with a stress reaction in his left foot. He will be re-evaluated in two weeks.,6,5,1,2022-01-23
-T.J. Warren,IND,Indiana Pacers,"Sun, Jan 2, 2022",Out,Foot/Health and safety protocols,The Pacers placed Warren in the league's health and safety protocols.,6,5,1,2022-01-23
-Paul George,LAC,Los Angeles Clippers,"Tue, Jan 18, 2022",Out,Elbow,"George is going to be out a few more weeks as the team gives his right elbow more time to rest, according to Adrian Wojnarowski of ESPN.",3,3,0,2022-01-23
-Kawhi Leonard,LAC,Los Angeles Clippers,"Tue, Sep 28, 2021",Out,Right Knee,Leonard underwent surgery in July on his right ACL and there remains no timetable for his return this season.,3,3,0,2022-01-23
-Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",3,3,0,2022-01-23
-Anthony Davis,LAL,Los Angeles Lakers,"Sat, Jan 22, 2022",Day To Day,Knee,The Lakers have listed Davis as QUESTIONABLE for Sunday's game (Jan. 23) against the Heat.,4,3,1,2022-01-23
-Sekou Doumbouya,LAL,Los Angeles Lakers,"Tue, Jan 18, 2022",Out,Health and Safety Protocols,The Lakers placed Doumbouya in the league's health and safety protocols.,4,3,1,2022-01-23
-LeBron James,LAL,Los Angeles Lakers,"Sat, Jan 22, 2022",Day To Day,Abdomen,The Lakers have listed James as PROBABLE for Sunday's game (Jan. 23) against the Heat.,4,3,1,2022-01-23
-Kendrick Nunn,LAL,Los Angeles Lakers,"Mon, Dec 6, 2021",Out,Knee,Lakers coach Frank Vogel said Nunn will not return in the next three weeks.,4,3,1,2022-01-23
-Steven Adams,MEM,Memphis Grizzlies,"Sat, Jan 22, 2022",Day To Day,Ankle,The Grizzlies have listed Adams as QUESTIONABLE for Sunday's game (Jan. 23) against the Mavs.,6,3,3,2022-01-23
-Kyle Anderson,MEM,Memphis Grizzlies,"Tue, Jan 18, 2022",Out,Health Protocols,The Grizzlies placed Anderson in the league's health and safety protocols.,6,3,3,2022-01-23
-Desmond Bane,MEM,Memphis Grizzlies,"Tue, Jan 18, 2022",Out,Health Protocols,The Grizzlies placed Bane in the league's health and safety protocols.,6,3,3,2022-01-23
-Dillon Brooks,MEM,Memphis Grizzlies,"Sun, Jan 9, 2022",Out,Ankle,"Brooks is expected to miss 3-5 weeks with a left ankle sprain, according to Adrian Wojnarowski of ESPN.",6,3,3,2022-01-23
-Brandon Clarke,MEM,Memphis Grizzlies,"Sat, Jan 22, 2022",Day To Day,Back,The Grizzlies have listed Clarke as QUESTIONABLE for Sunday's game (Jan. 23) against the Mavs.,6,3,3,2022-01-23
-Tyus Jones,MEM,Memphis Grizzlies,"Wed, Jan 19, 2022",Out,Health and safety protocols,The Grizzlies placed Jones in the league's health and safety protocols.,6,3,3,2022-01-23
-Tyler Herro,MIA,Miami Heat,"Wed, Jan 19, 2022",Out,Health and Safety Protocols,The Heat placed Herro in the league's health and safety protocols.,6,5,1,2022-01-23
-Kyle Lowry,MIA,Miami Heat,"Sat, Jan 22, 2022",Out,Personal,The Heat have listed Lowry as OUT for Sunday's game (Jan. 23) against the Lakers.,6,5,1,2022-01-23
-Markieff Morris,MIA,Miami Heat,"Sat, Jan 22, 2022",Out,Reconditioning,The Heat have listed Morris as OUT for Sunday's game (Jan. 23) against the Lakers.,6,5,1,2022-01-23
-KZ Okpala,MIA,Miami Heat,"Sat, Jan 22, 2022",Out,Wrist,The Heat have listed Okpala as OUT for Sunday's game (Jan. 23) against the Lakers.,6,5,1,2022-01-23
-Victor Oladipo,MIA,Miami Heat,"Thu, Sep 23, 2021",Out,Right Knee,"Oladipo has yet to be cleared for full-court work, according to David Aldridge of The Athletic.",6,5,1,2022-01-23
-P.J. Tucker,MIA,Miami Heat,"Sat, Jan 22, 2022",Day To Day,Calf,The Heat have listed Tucker as QUESTIONABLE for Sunday's game (Jan. 23) against the Lakers.,6,5,1,2022-01-23
-Grayson Allen,MIL,Milwaukee Bucks,"Sat, Jan 22, 2022",Out,Hip,The Bucks have listed Allen as OUT for Saturday's game (Jan. 22) against the Kings.,3,3,0,2022-01-23
-Giannis Antetokounmpo,MIL,Milwaukee Bucks,"Sat, Jan 22, 2022",Out,Knee,The Bucks have listed Antetokounmpo as OUT for Saturday's game (Jan. 22) against the Kings.,3,3,0,2022-01-23
-Brook Lopez,MIL,Milwaukee Bucks,"Thu, Dec 2, 2021",Out,Back,The Bucks announced that Lopez had back surgery and is out indefinitely.,3,3,0,2022-01-23
-Patrick Beverley,MIN,Minnesota Timberwolves,"Sat, Jan 22, 2022",Day To Day,Ankle,The Wolves have listed Beverley as QUESTIONABLE for Sunday's game (Jan. 23) against the Nets.,3,2,1,2022-01-23
-Jordan McLaughlin,MIN,Minnesota Timberwolves,"Sat, Jan 15, 2022",Out,Health and Safety Protocols,The Wolves placed McLaughlin in the league's health and safety protocols.,3,2,1,2022-01-23
-Jordan McLaughlin,MIN,Minnesota Timberwolves,"Sat, Jan 22, 2022",Day To Day,Reconditioning,The Wolves have listed McLaughlin as QUESTIONABLE for Sunday's game (Jan. 23) against the Nets.,3,2,1,2022-01-23
-Kira Lewis,NOP,New Orleans Pelicans,"Thu, Dec 9, 2021",Out For Season,Knee,The Pelicans announced that Lewis Jr. suffered a torn ACL and a grade 2 MCL sprain.,2,2,0,2022-01-23
-Zion Williamson,NOP,New Orleans Pelicans,"Sat, Dec 11, 2021",Out,Foot,The Pelicans announced that Williamson suffered a setback in his recovery from a foot injury. There is no timetable for his return.,2,2,0,2022-01-23
-Ryan Arcidiacono,NYK,New York Knicks,"Sat, Jan 22, 2022",Out,Ankle,The Knicks have listed Arcidiacono as OUT for Sunday's game (Jan. 23) against the Clippers.,5,5,0,2022-01-23
-Nerlens Noel,NYK,New York Knicks,"Sat, Jan 22, 2022",Day To Day,Knee,The Knicks have listed Noel as QUESTIONABLE for Sunday's game (Jan. 23) against the Clippers.,5,5,0,2022-01-23
-Cam Reddish,NYK,New York Knicks,"Sat, Jan 22, 2022",Day To Day,Ankle,The Knicks have listed Reddish as PROBABLE for Sunday's game (Jan. 23) against the Clippers.,5,5,0,2022-01-23
-Derrick Rose,NYK,New York Knicks,"Wed, Dec 22, 2021",Out,Ankle,"Rose underwent ankle surgery and will miss at least the next 8 weeks, according to Shams Charania of The Athletic.",5,5,0,2022-01-23
-Kemba Walker,NYK,New York Knicks,"Sat, Jan 22, 2022",Day To Day,Knee,The Knicks have listed Walker as QUESTIONABLE for Sunday's game (Jan. 23) against the Clippers.,5,5,0,2022-01-23
-Vit Krejci,OKC,Oklahoma City Thunder,"Wed, Jan 19, 2022",Out,Ankle,Thunder coach Mark Daigneault said he doesn't expect Krejci isn't expected to return until late February.,1,1,0,2022-01-23
-Michael Carter-Williams,ORL,Orlando Magic,"Fri, Oct 29, 2021",Out,Left Ankle,Carter-Williams had surgery on his left ankle back in late August and no timetable has been announced for his return.,6,6,0,2022-01-23
-Markelle Fultz,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Fultz is still without a timetable to return from ACL surgery, according to head coach Jamahl Mosley.",6,6,0,2022-01-23
-R.J. Hampton,ORL,Orlando Magic,"Thu, Jan 20, 2022",Out,Knee,The Magic announced that Hampton suffered an MCL sprain and bone bruise in his left knee. The date for Hampton's return is unknown.,6,6,0,2022-01-23
-Jonathan Isaac,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Isaac is making progress with his rehab but is still without a timetable to return, according to David Aldridge of The Athletic.",6,6,0,2022-01-23
-E'Twaun Moore,ORL,Orlando Magic,"Tue, Nov 16, 2021",Out,Knee,Moore has not played this season and no timetable has been announced for his return.,6,6,0,2022-01-23
-Terrence Ross,ORL,Orlando Magic,"Sat, Jan 22, 2022",Day To Day,Knee,The Magic have listed Ross as QUESTIONABLE for Sunday's game (Jan. 23) against the Bulls.,6,6,0,2022-01-23
-Seth Curry,PHI,Philadelphia 76ers,"Sat, Jan 22, 2022",Out,Ankle,The 76ers have listed Curry as OUT for Sunday's game (Jan. 23) against the Spurs.,5,5,0,2022-01-23
-Danny Green,PHI,Philadelphia 76ers,"Sat, Jan 22, 2022",Out,Hip,The 76ers have listed Green as OUT for Sunday's game (Jan. 23) against the Spurs.,5,5,0,2022-01-23
-Shake Milton,PHI,Philadelphia 76ers,"Tue, Jan 18, 2022",Out,Back,"Milton is dealing with a back injury and the team is not expecting him back anytime soon, according to a report from Justin Grasso of Sports Illustrated.",5,5,0,2022-01-23
-Ben Simmons,PHI,Philadelphia 76ers,"Thu, Oct 21, 2021",Out,Back,"Simmons is not expected to play for an undetermined period of time, according to Shams Charania of The Athletic.",5,5,0,2022-01-23
-Matisse Thybulle,PHI,Philadelphia 76ers,"Sun, Jan 16, 2022",Out,Shoulder,The 76ers announced that Thybulle has a right shoulder strain and will be re-evaluated in a week.,5,5,0,2022-01-23
-Deandre Ayton,PHX,Phoenix Suns,"Fri, Jan 21, 2022",Out,Ankle,Ayton is out for Saturday's (Jan. 22) game against Indiana.,4,4,0,2022-01-23
-Frank Kaminsky,PHX,Phoenix Suns,"Sun, Nov 21, 2021",Out,Knee,The Suns announced that Kaminsky is out indefinitely with a stress reaction in his right knee.,4,4,0,2022-01-23
-Abdel Nader,PHX,Phoenix Suns,"Sat, Jan 15, 2022",Out,Knee,Nader has not appeared in a game since mid-November and no timetable has been announced for his return.,4,4,0,2022-01-23
-Dario Šarić,PHX,Phoenix Suns,"Wed, Jul 7, 2021",Out,Knee,The Suns announced that Sario has a torn ACL in his right knee.,4,4,0,2022-01-23
-Damian Lillard,POR,Portland Trail Blazers,"Thu, Jan 13, 2022",Out,Abdominal,The Trail Blazers announced Lillard underwent surgery and will be re-evaluated in six weeks.,6,6,0,2022-01-23
-Nassir Little,POR,Portland Trail Blazers,"Sat, Jan 22, 2022",Day To Day,Knee,The Trail Blazers have listed Little as PROBABLE for Sunday's game (Jan. 23) against the Raptors.,6,6,0,2022-01-23
-Larry Nance,POR,Portland Trail Blazers,"Sat, Jan 22, 2022",Out,Knee,The Trail Blazers have listed Nance Jr. as OUT for Sunday's game (Jan. 23) against the Raptors.,6,6,0,2022-01-23
-Norman Powell,POR,Portland Trail Blazers,"Sat, Jan 22, 2022",Out,Personal,The Trail Blazers have listed Powell as OUT for Sunday's game (Jan. 23) against the Raptors.,6,6,0,2022-01-23
-Dennis Smith,POR,Portland Trail Blazers,"Sat, Jan 22, 2022",Day To Day,Ankle,The Trail Blazers have listed Smith Jr. as PROBABLE for Sunday's game (Jan. 23) against the Raptors.,6,6,0,2022-01-23
-Cody Zeller,POR,Portland Trail Blazers,"Sat, Jan 22, 2022",Out,Knee,The Trail Blazers have listed Zeller as OUT for Sunday's game (Jan. 23) against the Raptors.,6,6,0,2022-01-23
-Zach Collins,SAS,San Antonio Spurs,"Sat, Jan 22, 2022",Out,Reconditioning,The Spurs have listed Collins as OUT for Sunday's game (Jan. 23) against the 76ers.,1,1,0,2022-01-23
-Khem Birch,TOR,Toronto Raptors,"Sat, Jan 22, 2022",Out,Nose,The Raptors have listed Birch as OUT for Sunday's game (Jan. 23) against the Trail Blazers.,3,2,1,2022-01-23
-Goran Dragić,TOR,Toronto Raptors,"Tue, Nov 30, 2021",Out,Personal,The Raptors announced that Dragic is dealing with a personal matter and there is no timetable for his return.,3,2,1,2022-01-23
-David Johnson,TOR,Toronto Raptors,"Fri, Jan 21, 2022",Out,Health and Safety Protocols,The Raptors placed Johnson in the league's health and safety protocols.,3,2,1,2022-01-23
-Bojan Bogdanović,UTA,Utah Jazz,"Sat, Jan 22, 2022",Day To Day,Finger,The Jazz have listed Bogdanovic as PROBABLE for Sunday's game (Jan. 23) against the Warriors.,5,5,0,2022-01-23
-Trent Forrest,UTA,Utah Jazz,"Sat, Jan 22, 2022",Day To Day,Hip,The Jazz have listed Forrest as QUESTIONABLE for Sunday's game (Jan. 23) against the Warriors.,5,5,0,2022-01-23
-Rudy Gobert,UTA,Utah Jazz,"Sat, Jan 22, 2022",Day To Day,Ankle,The Jazz have listed Gobert as QUESTIONABLE for Sunday's game (Jan. 23) against the Warriors.,5,5,0,2022-01-23
-Donovan Mitchell,UTA,Utah Jazz,"Tue, Jan 18, 2022",Out,Concussion,The Jazz annoucned that Mitchell is in the NBA's concussion protocol.,5,5,0,2022-01-23
-Hassan Whiteside,UTA,Utah Jazz,"Sat, Jan 22, 2022",Day To Day,Reconditioning,The Jazz have listed Whiteside as QUESTIONABLE for Sunday's game (Jan. 23) against the Warriors.,5,5,0,2022-01-23
+John Collins,ATL,Atlanta Hawks,"Thu, Mar 3, 2022",Out,Foot,Collins is out for Thursday's (Mar. 3) game against Chicago.,4,4,0,2022-03-04
+Onyeka Okongwu,ATL,Atlanta Hawks,"Wed, Mar 2, 2022",Out,Concussion,Okongwu is out for Thursday's (Mar. 3) game against Chicago.,4,4,0,2022-03-04
+Lou Williams,ATL,Atlanta Hawks,"Wed, Mar 2, 2022",Day To Day,Hip,Williams is probable for Thursday's (Mar. 3) game against Chicago.,4,4,0,2022-03-04
+Trae Young,ATL,Atlanta Hawks,"Wed, Mar 2, 2022",Day To Day,Ankle,Young is questionable for Thursday's (Mar. 3) game against Chicago.,4,4,0,2022-03-04
+Jaylen Brown,BOS,Boston Celtics,"Wed, Mar 2, 2022",Out,Ankle,Brown is out for Thursday's (Mar. 3) game against Memphis.,1,1,0,2022-03-04
+Andre Drummond,BKN,Brooklyn Nets,"Wed, Mar 2, 2022",Day To Day,Knee,Drummond is probable for Thursday's (Mar. 3) game against Miami.,4,4,0,2022-03-04
+Joe Harris,BKN,Brooklyn Nets,"Thu, Mar 3, 2022",Out For Season,Ankle,The Nets announced that Harris will miss the rest of the season as he recovers from ankle surgery.,4,4,0,2022-03-04
+Kyrie Irving,BKN,Brooklyn Nets,"Thu, Mar 3, 2022",Out,Ineligbile to play,Irving is out for Thursday's (Mar. 3) game against Miami.,4,4,0,2022-03-04
+Ben Simmons,BKN,Brooklyn Nets,"Sat, Feb 26, 2022",Out,Back,"Brooklyn has no set timetable for Simmons' return, according to Shams Charania of The Athletic.",4,4,0,2022-03-04
+James Bouknight,CHA,Charlotte Hornets,"Thu, Mar 3, 2022",Day To Day,Neck,Bouknight did not play in Wednesday's game (Mar. 2) against Cleveland.,3,3,0,2022-03-04
+Gordon Hayward,CHA,Charlotte Hornets,"Wed, Feb 9, 2022",Out,Ankle,Hayward is out indefinitely after undergoing an MRI on his left ankle.,3,3,0,2022-03-04
+Jalen McDaniels,CHA,Charlotte Hornets,"Thu, Mar 3, 2022",Day To Day,Ankle,McDaniels did not play in Wednesday's (Mar. 2) game against Cleveland.,3,3,0,2022-03-04
+Lonzo Ball,CHI,Chicago Bulls,"Thu, Jan 20, 2022",Out,Knee,The Bullls announced that Ball will undergo surgery on his left knee and is expected to return in 6-8 weeks.,3,3,0,2022-03-04
+Alex Caruso,CHI,Chicago Bulls,"Sat, Jan 22, 2022",Out,Wrist,The Bulls announced that Caruso will be re-evaluated in 6-8 weeks after he has surgery to repair his fractured right wrist.,3,3,0,2022-03-04
+Patrick Williams,CHI,Chicago Bulls,"Sat, Jan 29, 2022",Out,Left Wrist,"There is a chance Williams could return before the end of the regular season, according to a report from the Chicago Sun-Times.",3,3,0,2022-03-04
+Caris LeVert,CLE,Cleveland Cavaliers,"Thu, Feb 24, 2022",Out,Foot,The Cavs announced that LeVert will miss this next 1-2 weeks with a right foot sprain.,3,3,0,2022-03-04
+Rajon Rondo,CLE,Cleveland Cavaliers,"Thu, Mar 3, 2022",Day To Day,Toe,The Cavaliers have listed Rondo as DOUBTFUL for Friday's game (Mar. 4) against the 76ers.,3,3,0,2022-03-04
+Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",3,3,0,2022-03-04
+Trey Burke,DAL,Dallas Mavericks,"Wed, Mar 2, 2022",Day To Day,Shoulder,Burke did not play in Tuesday's game (Mar. 1).,6,6,0,2022-03-04
+Marquese Chriss,DAL,Dallas Mavericks,"Wed, Mar 2, 2022",Out,Knee,Chriss is out for Thursday's (Mar. 3) game against Golden State.,6,6,0,2022-03-04
+Tim Hardaway,DAL,Dallas Mavericks,"Tue, Jan 25, 2022",Out,Foot,The Mavericks announced that Hardaway Jr. suffered a fracture in his left foot.,6,6,0,2022-03-04
+Maxi Kleber,DAL,Dallas Mavericks,"Thu, Mar 3, 2022",Day To Day,Ankle,Kleber is questionable for Thursday's (Feb. 3) game against Golden State.,6,6,0,2022-03-04
+Frank Ntilikina,DAL,Dallas Mavericks,"Wed, Mar 2, 2022",Day To Day,Ankle,Ntilikina is questionable for Thursday's (Mar. 3) game against Golden State.,6,6,0,2022-03-04
+Theo Pinson,DAL,Dallas Mavericks,"Sat, Feb 26, 2022",Out,Finger,Pinson hasn't played since Dec. 8 against Detroit. There's no timetable set for his return.,6,6,0,2022-03-04
+Vlatko Čančar,DEN,Denver Nuggets,"Fri, Jan 7, 2022",Out,Foot,The Nuggets announced that Cancar had surgery on his foot and will be re-evaluated in 12 weeks.,4,4,0,2022-03-04
+Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,4,4,0,2022-03-04
+Zeke Nnaji,DEN,Denver Nuggets,"Thu, Mar 3, 2022",Day To Day,Knee,The Nuggets have listed Nnaji as QUESTIONABLE for Friday's game (Mar. 4) against the Rockets.,4,4,0,2022-03-04
+Michael Porter,DEN,Denver Nuggets,"Sun, Feb 27, 2022",Out,Back,"Porter Jr. has been cleared for on-court contact and is hoping to return sometime in March, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-03-04
+Marvin Bagley,DET,Detroit Pistons,"Wed, Mar 2, 2022",Day To Day,Ankle,Bagley III is doubtful for Thursday's (Mar. 3) game against Toronto.,3,3,0,2022-03-04
+Hamidou Diallo,DET,Detroit Pistons,"Wed, Mar 2, 2022",Day To Day,Ankle,Diallo is probable for Thursday's (Mar. 3) game against Toronto.,3,3,0,2022-03-04
+Frank Jackson,DET,Detroit Pistons,"Thu, Mar 3, 2022",Day To Day,Spine,Jackson is questionable for Thursday's (Mar. 3) game against Toronto.,3,3,0,2022-03-04
+Draymond Green,GSW,Golden State Warriors,"Mon, Feb 21, 2022",Out,Back,Green said he's hoping to return within 3-4 weeks.,6,6,0,2022-03-04
+Andre Iguodala,GSW,Golden State Warriors,"Sat, Feb 26, 2022",Out,Back,Iguodala has not played since Feb. 7 and no timetable has been announced for his return.,6,6,0,2022-03-04
+Damion Lee,GSW,Golden State Warriors,"Wed, Mar 2, 2022",Day To Day,Quad,Lee is questionable for Thursday's (Mar. 3) game against Dallas.,6,6,0,2022-03-04
+Moses Moody,GSW,Golden State Warriors,"Wed, Mar 2, 2022",Day To Day,Eye,Moody is probable for Thursday's (Mar. 3) game against Dallas.,6,6,0,2022-03-04
+Klay Thompson,GSW,Golden State Warriors,"Thu, Mar 3, 2022",Day To Day,Illness,Thompson is questionable for Thursday's (Mar. 3) game against Dallas.,6,6,0,2022-03-04
+James Wiseman,GSW,Golden State Warriors,"Mon, Nov 1, 2021",Out,Knee,"The Warriors announced that Wiseman has been cleared to participate in full team practices, but a timetable for his return to game action has not been determined.",6,6,0,2022-03-04
+Usman Garuba,HOU,Houston Rockets,"Wed, Jan 26, 2022",Out,Wrist,"Garuba will undergo surgery and will miss 6-8 weeks, according to Adrian Wojnarowski of ESPN>",2,2,0,2022-03-04
+Dennis Schröder,HOU,Houston Rockets,"Thu, Mar 3, 2022",Day To Day,Ankle,The Rockets have listed Schroder as QUESTIONABLE for Friday's game (Mar. 4) against the Nuggets.,2,2,0,2022-03-04
+Goga Bitadze,IND,Indiana Pacers,"Thu, Mar 3, 2022",Day To Day,Foot,The Pacers have listed Bitadze as QUESTIONABLE for Friday's game (Mar. 4) against the Pistons.,7,6,1,2022-03-04
+Chris Duarte,IND,Indiana Pacers,"Thu, Mar 3, 2022",Day To Day,Toe,The Pacers have listed Duarte as QUESTIONABLE for Friday's game (Mar. 4) against the Pistons.,7,6,1,2022-03-04
+T.J. McConnell,IND,Indiana Pacers,"Tue, Dec 7, 2021",Out,Wrist,The Pacers announced that McConnell will be re-evaluated in February.,7,6,1,2022-03-04
+Ricky Rubio,IND,Indiana Pacers,"Wed, Dec 29, 2021",Out For Season,Knee,"Rubio suffered a torn ACL in his left knee, according to Adrian Wojnarowski of ESPN.",7,6,1,2022-03-04
+Lance Stephenson,IND,Indiana Pacers,"Thu, Mar 3, 2022",Day To Day,Ankle,The Pacers have listed Stephenson as PROBABLE for Friday's game (Mar. 4) against the Pistons.,7,6,1,2022-03-04
+Myles Turner,IND,Indiana Pacers,"Wed, Feb 23, 2022",Out,Foot,The Pacers announced that Turner is a few weeks from returning to action.,7,6,1,2022-03-04
+T.J. Warren,IND,Indiana Pacers,"Sun, Jan 2, 2022",Out,Foot/Health and safety protocols,The Pacers placed Warren in the league's health and safety protocols.,7,6,1,2022-03-04
+Paul George,LAC,Los Angeles Clippers,"Tue, Jan 18, 2022",Out,Elbow,"George is going to be out a few more weeks as the team gives his right elbow more time to rest, according to Adrian Wojnarowski of ESPN.",5,5,0,2022-03-04
+Kawhi Leonard,LAC,Los Angeles Clippers,"Thu, Jan 6, 2022",Out,Knee,"Leonard is ahead of schedule on his ACL rehab and could return this season yet, according to Chris Haynes of Yahoo Sports.",5,5,0,2022-03-04
+Norman Powell,LAC,Los Angeles Clippers,"Sun, Feb 13, 2022",Out,Toe,The Clippers announced that Powell is out indefinitely.,5,5,0,2022-03-04
+Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",5,5,0,2022-03-04
+Jay Scrubb,LAC,Los Angeles Clippers,"Wed, Feb 9, 2022",Out For Season,Toe,"Scrubb will undergo season-ending surgery, according to Law Murray of The Athletic.",5,5,0,2022-03-04
+Avery Bradley,LAL,Los Angeles Lakers,"Wed, Mar 2, 2022",Day To Day,Knee,Bradley is questionable for Thursday's (Mar. 3) game against the Clippers.,5,5,0,2022-03-04
+Anthony Davis,LAL,Los Angeles Lakers,"Thu, Feb 17, 2022",Out,Foot,The Lakers announced Anthony Davis has a mid-foot sprain and will be re-evaluated in 4 weeks.,5,5,0,2022-03-04
+Talen Horton-Tucker,LAL,Los Angeles Lakers,"Wed, Mar 2, 2022",Day To Day,Ankle,Horton-Tucker is probable for Thursday's (Mar. 3) game against the Clippers.,5,5,0,2022-03-04
+LeBron James,LAL,Los Angeles Lakers,"Wed, Mar 2, 2022",Day To Day,Knee,James is questionable for Thursday's (Mar. 3) game against the Clippers.,5,5,0,2022-03-04
+Kendrick Nunn,LAL,Los Angeles Lakers,"Tue, Jan 18, 2022",Out,Knee,"Nunn suffered a setback as he tried to ramp-up activity on his knee, according to Matt Peralta of Lakersnation.com. There is no timetable for his return.",5,5,0,2022-03-04
+Dillon Brooks,MEM,Memphis Grizzlies,"Fri, Feb 25, 2022",Out,Ankle,Grizzlies coach Taylor Jenkins said Brooks is on track to return in early March.,3,3,0,2022-03-04
+John Konchar,MEM,Memphis Grizzlies,"Wed, Mar 2, 2022",Day To Day,Ankle,Konchar is questionable for Thursday's (Mar. 3) game against Boston.,3,3,0,2022-03-04
+Yves Pons,MEM,Memphis Grizzlies,"Sun, Feb 27, 2022",Out,Thigh,Pons hasn't played since Jan. 29 against Washington and there's been no recent update on his return.,3,3,0,2022-03-04
+Jimmy Butler,MIA,Miami Heat,"Thu, Mar 3, 2022",Day To Day,Toe,Butler is questionable for Thursday's (Mar. 3) game against Brooklyn.,7,7,0,2022-03-04
+Kyle Lowry,MIA,Miami Heat,"Thu, Mar 3, 2022",Out,Personal,Lowry is out for Thursday's (Mar. 3) game against Brooklyn.,7,7,0,2022-03-04
+Caleb Martin,MIA,Miami Heat,"Thu, Mar 3, 2022",Day To Day,Achilles,Martin is questionable for Thursday's (Mar. 3) game against Brooklyn.,7,7,0,2022-03-04
+Markieff Morris,MIA,Miami Heat,"Thu, Jan 27, 2022",Out,Reconditioning,Morris has not played in a few months an no timetable has been announced for his return.,7,7,0,2022-03-04
+Victor Oladipo,MIA,Miami Heat,"Thu, Sep 23, 2021",Out,Right Knee,"Oladipo has yet to be cleared for full-court work, according to David Aldridge of The Athletic.",7,7,0,2022-03-04
+Max Strus,MIA,Miami Heat,"Thu, Mar 3, 2022",Day To Day,Shoulder,Strus is questionable for Thursday's (Mar. 3) game against Brooklyn.,7,7,0,2022-03-04
+P.J. Tucker,MIA,Miami Heat,"Thu, Mar 3, 2022",Day To Day,Knee,Tucker is questionable for Thursday's (Mar. 3) game against Brooklyn.,7,7,0,2022-03-04
+Pat Connaughton,MIL,Milwaukee Bucks,"Sun, Feb 13, 2022",Out,Hand,"Connaughton will undergo surgery and is expected to return before the end of the regular season, according to Adrian Wojnarowski of ESPN.",3,3,0,2022-03-04
+George Hill,MIL,Milwaukee Bucks,"Sun, Feb 27, 2022",Out,Neck,Bucks coach Mike Budenholzer said Hill will miss at least another week.,3,3,0,2022-03-04
+Brook Lopez,MIL,Milwaukee Bucks,"Fri, Feb 25, 2022",Out,Back,"The Bucks announced that Lopez is starting to practice, but is a ways away from returning to action.",3,3,0,2022-03-04
+Anthony Edwards,MIN,Minnesota Timberwolves,"Thu, Mar 3, 2022",Out,Knee,The Timberwolves have listed Edwards as OUT for Friday's game (Mar. 4) against the Thunder.,3,3,0,2022-03-04
+Jarred Vanderbilt,MIN,Minnesota Timberwolves,"Thu, Mar 3, 2022",Day To Day,Quad,The Timberwolves have listed Vanderbilt as QUESTIONABLE for Friday's game (Mar. 4) against the Thunder.,3,3,0,2022-03-04
+McKinley Wright,MIN,Minnesota Timberwolves,"Tue, Mar 1, 2022",Out,Arm,The Timberwolves announced that Wright IV has been cleared for contact and will be re-evaluated in the next week or so.,3,3,0,2022-03-04
+Kira Lewis,NOP,New Orleans Pelicans,"Thu, Dec 9, 2021",Out For Season,Knee,The Pelicans announced that Lewis Jr. suffered a torn ACL and a grade 2 MCL sprain.,3,3,0,2022-03-04
+Larry Nance,NOP,New Orleans Pelicans,"Tue, Feb 8, 2022",Out,Knee,"Nance Jr. had setback from recovering from his knee injury and will be re-evaluated, according to Jay Allen of Rip City Radio 620. There is no timetable for his return.",3,3,0,2022-03-04
+Zion Williamson,NOP,New Orleans Pelicans,"Sat, Dec 11, 2021",Out,Foot,The Pelicans announced that Williamson suffered a setback in his recovery from a foot injury. There is no timetable for his return.,3,3,0,2022-03-04
+Quentin Grimes,NYK,New York Knicks,"Sat, Feb 26, 2022",Out,Knee,The Knicks announced that Grimes will be re-evaluated in two weeks.,2,2,0,2022-03-04
+Derrick Rose,NYK,New York Knicks,"Fri, Feb 25, 2022",Out,Ankle,The Knicks announced that Rose had a minor procedure on his right ankle. There is no timetable for his return.,2,2,0,2022-03-04
+Luguentz Dort,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out,Shoulder,Dort hasn't played since Feb. 12 against Chicago. A timetable for his return has not been announced.,8,8,0,2022-03-04
+Derrick Favors,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out,Back,The Thunder have listed Favors as OUT for Friday's game (Mar. 4) against the Timberwolves.,8,8,0,2022-03-04
+Josh Giddey,OKC,Oklahoma City Thunder,"Sun, Feb 27, 2022",Out,Hip,"Giddey is not expected to return to action any time soon as he deals with a right hip injury, according to Joe Mussatto of The Oklahoman.",8,8,0,2022-03-04
+Ty Jerome,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out,Hip,Jerome hasn't played since Feb. 14 against New York. A timetable for his return has not been announced.,8,8,0,2022-03-04
+Mike Muscala,OKC,Oklahoma City Thunder,"Wed, Feb 23, 2022",Out,Ankle,Thunder coach Mark Daigneault said there remains no timetable for Muscala's return.,8,8,0,2022-03-04
+Jeremiah Robinson-Earl,OKC,Oklahoma City Thunder,"Fri, Feb 4, 2022",Out,Foot,The Thunder announced that Robinson-Earl will miss at least six weeks with a fracture in his foot.,8,8,0,2022-03-04
+Aaron Wiggins,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out,Ankle,The Thunder have listed Wiggins as OUT for Friday's game (Mar. 4) against the Timberwolves.,8,8,0,2022-03-04
+Kenrich Williams,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out,Knee,Williams hasn't played since Feb. 14 against New York. A timetable for his return has not been announced.,8,8,0,2022-03-04
+Bol Bol,ORL,Orlando Magic,"Tue, Jan 18, 2022",Out,Foot,"Bol is having surgery on his foot and will be sidelined 8-12 weeks, according to Shams Charania of The Athletic.",3,3,0,2022-03-04
+Jonathan Isaac,ORL,Orlando Magic,"Mon, Oct 25, 2021",Out,Knee,"Isaac is making progress with his rehab but is still without a timetable to return, according to David Aldridge of The Athletic.",3,3,0,2022-03-04
+Moritz Wagner,ORL,Orlando Magic,"Thu, Feb 24, 2022",Out,Rib,Wagner hasn't played Feb. 6 against Boston. There's no update on his timetable to return.,3,3,0,2022-03-04
+Devin Booker,PHX,Phoenix Suns,"Wed, Mar 2, 2022",Out,Health and safety protocols,The Suns placed Booker in the league's health and safety protocols.,4,3,1,2022-03-04
+Frank Kaminsky,PHX,Phoenix Suns,"Fri, Jan 7, 2022",Out,Knee,"Kaminsky had surgery on his right knee and will be re-evaluated in eight weeks, according to Kellan Olson arizonasports.com.",4,3,1,2022-03-04
+Chris Paul,PHX,Phoenix Suns,"Sun, Feb 20, 2022",Out,Thumb,The Suns announced that Paul has a thumb fracture and will be re-evaluated in 6-8 weeks.,4,3,1,2022-03-04
+Dario Šarić,PHX,Phoenix Suns,"Wed, Jul 7, 2021",Out,Knee,The Suns announced that Sario has a torn ACL in his right knee.,4,3,1,2022-03-04
+Eric Bledsoe,POR,Portland Trail Blazers,"Sat, Feb 26, 2022",Out,Achilles,"Bledsoe is dealing with a left Achilles injury and does not appear close to returning to action, according to Trail Blazers' beat reporter Casey Holdahl.",7,7,0,2022-03-04
+Joe Ingles,POR,Portland Trail Blazers,"Mon, Jan 31, 2022",Out For Season,Knee,Ingles suffered a torn left ACL in Sunday's (Jan. 30) game against Minnesota.,7,7,0,2022-03-04
+Damian Lillard,POR,Portland Trail Blazers,"Sun, Feb 27, 2022",Out,Abdominal,Lillard will be reevaluated in 2-3 weeks after beginning reconditioning.,7,7,0,2022-03-04
+Nassir Little,POR,Portland Trail Blazers,"Mon, Jan 31, 2022",Out For Season,Shoulder,The Trail Blazers announced that Little will undergo surgery and miss the remainder of the season.,7,7,0,2022-03-04
+Marcos Louzada Silva,POR,Portland Trail Blazers,"Tue, Jan 25, 2022",Out,Kne,Louzada is dealing with a torn meniscus in his left knee. There is no timetable for his return.,7,7,0,2022-03-04
+Jusuf Nurkić,POR,Portland Trail Blazers,"Wed, Feb 23, 2022",Out,Foot,The Trail Blazers announced that Nurkic will miss at least four weeks.,7,7,0,2022-03-04
+Justise Winslow,POR,Portland Trail Blazers,"Thu, Mar 3, 2022",Day To Day,Achilles,Winslow did not play in Wednesday's game (Mar. 2) against the Suns.,7,7,0,2022-03-04
+Terence Davis,SAC,Sacramento Kings,"Thu, Feb 3, 2022",Out,Wrist,The Kings announced that Davis had surgery on his right wrist. He will be re-evaluated in three months.,2,2,0,2022-03-04
+Richaun Holmes,SAC,Sacramento Kings,"Thu, Mar 3, 2022",Day To Day,Back,Holmes is questionable for Thursday's (Mar. 3) game against San Antonio.,2,2,0,2022-03-04
+OG Anunoby,TOR,Toronto Raptors,"Thu, Mar 3, 2022",Out,Finger,"Anunoby is expected to miss at least two weeks before being re-evaluated, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-03-04
+Fred VanVleet,TOR,Toronto Raptors,"Wed, Mar 2, 2022",Day To Day,Knee,VanVleet is questionable for Thursday's (Mar. 3) game against Detroit.,4,4,0,2022-03-04
+D.J. Wilson,TOR,Toronto Raptors,"Wed, Mar 2, 2022",Out,Knee,Wilson is out for Thursday's (Mar. 3) game against Detroit.,4,4,0,2022-03-04
+Thaddeus Young,TOR,Toronto Raptors,"Thu, Mar 3, 2022",Day To Day,Illness,Young is questionable for Thursday's (Mar. 3) game against Detroit.,4,4,0,2022-03-04
+Jared Butler,UTA,Utah Jazz,"Thu, Mar 3, 2022",Day To Day,Ankle,The Jazz have listed Butler as QUESTIONABLE for Friday's game (Mar. 4) against the Pelicans.,1,1,0,2022-03-04
+Bradley Beal,WAS,Washington Wizards,"Tue, Feb 8, 2022",Out For Season,Wrist,"Beal will undergo season ending surgery on his left wrist, according to Adrian Wojnarowski of ESPN.",3,3,0,2022-03-04
+Vernon Carey,WAS,Washington Wizards,"Thu, Mar 3, 2022",Day To Day,Hip,The Wizards have listed Carey Jr. as DOUBTFUL for Friday's game (Mar. 4) against the Hawks.,3,3,0,2022-03-04
+Kristaps Porziņģis,WAS,Washington Wizards,"Thu, Feb 24, 2022",Out,Knee,Wizards coach Wes Unseld Jr. said there's still no timetable for Porzingis' return.,3,3,0,2022-03-04
