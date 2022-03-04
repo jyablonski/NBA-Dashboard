@@ -241,14 +241,14 @@ server <- function(input, output, session) {
   output$team_ratings_rank <- renderValueBox({
     valueBox(
       value = "Team Ratings", HTML(selected_team_rating_bans()$rating_text),
-      icon = icon("caret-up"), color = "purple"
+      icon = icon("caret-up"), color = "blue"
     )
   })
   
   output$team_defensive_ratings_rank <- renderValueBox({
     valueBox(
       value = "Team Defensive Metrics", HTML(selected_team_defensive_rating_bans()$rating_text),
-      icon = icon("caret-up"), color = "purple"
+      icon = icon("caret-up"), color = "blue"
     )
   })
   
@@ -261,6 +261,24 @@ server <- function(input, output, session) {
   output$schedule_table <- DT::renderDataTable(schedule, rownames = FALSE,
                                                options = list(pageLength = 10))
   
+  output$schedule_table <- DT::renderDataTable({
+    if ((input$select_schedule == "Tonight's Games") & (nrow(schedule_tonight) > 0)) {
+      datatable(schedule_tonight, rownames = FALSE,
+      options = list(pageLength = 10),
+      caption = htmltools::tags$caption(
+        style = 'caption-side: bottom;',
+        htmltools::em('Win % Predictions created via Logistic Regression ML Model')
+        )
+      )
+    }
+    else if (input$select_schedule == "Tonight's Games" & nrow(schedule_tonight) == 0) {
+      datatable(data.frame(`No Data` = "No Data Available for Tonight's Games"))
+      }
+    else {  #(input$select_schedule == "Future Schedule") {
+      datatable(schedule, rownames = FALSE,
+      options = list(pageLength = 10))
+    }
+  })
   
   output$game_types_output <- renderPlotly({
     game_types_plot(game_types)
