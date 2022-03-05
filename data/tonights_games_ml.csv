@@ -8,3 +8,9 @@ index,home_team,away_team,proper_date,home_team_rank,home_team_avg_pts_scored,ho
 7,Denver Nuggets,Houston Rockets,2022-03-04,11,110.4,107.8,0.581,0.8,2,29,108.5,118,0.242,0,2,0.799,0.201
 3,Chicago Bulls,Milwaukee Bucks,2022-03-04,7,112.5,110.8,0.619,0.6,2,8,113.7,110.2,0.603,0.6,2,0.527,0.473
 8,Phoenix Suns,New York Knicks,2022-03-04,1,113.7,105.6,0.806,0.8,0,23,105.1,107.3,0.403,0.1,2,0.749,0.251
+3,Dallas Mavericks,Sacramento Kings,2022-03-05,9,107,103.6,0.603,0.8,2,25,110,115.1,0.369,0.4,2,0.772,0.228
+1,Miami Heat,Philadelphia 76ers,2022-03-05,4,109.7,104.9,0.656,0.8,0,6,108.7,106.2,0.629,0.8,2,0.403,0.597
+2,Los Angeles Lakers,Golden State Warriors,2022-03-05,20,110.4,112.7,0.435,0.2,1,2,110.9,104.3,0.683,0.3,1,0.269,0.731
+4,Memphis Grizzlies,Orlando Magic,2022-03-05,3,113.8,109.2,0.672,0.7,1,29,103.9,111.7,0.25,0.4,2,0.827,0.173
+5,Minnesota Timberwolves,Portland Trail Blazers,2022-03-05,13,113.9,112.1,0.547,0.6,1,22,107.4,112.7,0.403,0.4,1,0.707,0.293
+0,Charlotte Hornets,San Antonio Spurs,2022-03-05,18,114.1,114.5,0.484,0.3,2,24,112.7,112.8,0.381,0.5,2,0.648,0.352
