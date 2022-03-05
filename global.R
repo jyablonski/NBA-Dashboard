@@ -220,7 +220,8 @@ aws_connect <- dbConnect(drv = RPostgres::Postgres(), dbname = Sys.getenv('aws_d
                          user = Sys.getenv('aws_user'), password = Sys.getenv('aws_pw'),
                          options = "-c search_path=ml_models")
 
-schedule_ml <- get_data('tonights_games_ml')
+schedule_ml <- get_data('tonights_games_ml') %>%
+  filter(proper_date == max(proper_date))
 
 dbDisconnect(aws_connect)
 

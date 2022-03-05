@@ -2,13 +2,14 @@ body_schedule <- dashboardBody(
   fluidRow(HTML(" Moneyline Odds for Today's Games provided by "),
             img(src = "draftkings.png", height = 70, width = 140), tags$a(href="https://www.espn.com/nba/schedule", "| Click here for National TV Schedule"),
            style='padding:10px;'),
-  fluidRow(selectInput('select_schedule', "Select a Schedule",
-                        choices = c("Tonight's Games",
-                                    "Future Schedule")),
-           style='padding:10px;'
-           ),
   fluidRow(
     box(
+      fluidRow(
+        column(2,
+               selectInput('select_schedule', "Select a Schedule",
+                           choices = c("Tonight's Games",
+                                       "Future Schedule")),
+        )),
       title = "Regular Season Game Type Analysis",
       status = "primary",
       solidHeader = TRUE,

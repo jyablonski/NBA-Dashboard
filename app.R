@@ -269,7 +269,9 @@ server <- function(input, output, session) {
         style = 'caption-side: bottom;',
         htmltools::em('Win % Predictions created via Logistic Regression ML Model')
         )
-      )
+      ) %>%
+        formatPercentage('Home Predicted Win %', 1) %>%
+        formatPercentage('Road Predicted Win %', 1)
     }
     else if (input$select_schedule == "Tonight's Games" & nrow(schedule_tonight) == 0) {
       datatable(data.frame(`No Data` = "No Data Available for Tonight's Games"))
