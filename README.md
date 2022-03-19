@@ -7,11 +7,12 @@
 
 ## ELT Data Pipeline Workflow
 
-![NBA Project Data Flow (8)](https://user-images.githubusercontent.com/16946556/147164308-086806fe-4491-48c8-80db-07a1c837f3bc.jpg)
+![NBA ELT Pipeline Data Flow 2 (2)](https://user-images.githubusercontent.com/16946556/159126985-fcf0b9d7-5563-418b-b65b-1219edce25b2.jpg)
 
 1. NBA Data is web scraped in Python on a Cron Schedule ran via ECS Fargate, and data is subsequently stored to source tables in a PostgreSQL Database.
 2. dbt Cloud executes data transformations in SQL on a Cron Schedule following the ECS Task, and also performs automated schema testing, quality checks, and data validation assertions primarily via [dbt_expectations](https://github.com/calogica/dbt-expectations).
-3. The Shiny Server is built & deployed to [shinyapps](https://www.shinyapps.io) and queries from the transformed SQL tables to display current stats, player metrics, gambling odds, and upcoming schedule data.
+3. An ML Pipeline is then run in Python via ECS Fargate to predict Team Win %s for Upcoming Games that night.
+4. The Shiny Server is built & deployed to [shinyapps](https://www.shinyapps.io) where it queries from the transformed SQL tables to display current stats, player metrics, gambling odds, and upcoming schedule data.
    * Any ELT Script failure or dbt Cloud Error / testing failure triggers an automatic email alert detailing the error(s).
    * **100%** of AWS Infrastructure is constructed via Terraform with the primary services being an ECR Repository, an RDS PostgreSQL DB, and an ECS Task to run the ELT Script, as well as all of the supporting architecture needed for those services (IAM Roles, Lifecycle Policies, Cloudwatch Logs, Security Groups, CIDR Block whitelisting, VPC/Subnets etc).
    * GitHub Actions are utilized to build CI/CD Workflows for:
@@ -27,6 +28,7 @@
 	* [Python Web Scrape](https://github.com/jyablonski/python_docker)
 	* [Terraform](https://github.com/jyablonski/aws_terraform/)
 	* [dbt](https://github.com/jyablonski/nba_elt_dbt)
+	* [MLflow](https://github.com/jyablonski/nba_elt_mlflow)
 	* [Airflow Proof of Concept](https://github.com/jyablonski/nba_elt_airflow)
 		* Ideally I would use this for workflow orchestration, but I cannot host a stable version of Airflow for free to my knowledge.
 		* This Repo utilizes a Docker template to work with Airflow locally, and I've created QA & Prod DAGs to resemble what a production Airflow workflow would look like for this project.
@@ -48,3 +50,5 @@
 	* SQLAlchemy
 	* Boto3
 	* PRAW
+	* NLTK
+	* twint
