@@ -16,10 +16,10 @@
    * Any ELT Script failure or dbt Cloud Error / testing failure triggers an automatic email alert detailing the error(s).
    * **100%** of AWS Infrastructure is constructed via Terraform with the primary services being an ECR Repository, an RDS PostgreSQL DB, and an ECS Task to run the ELT Script, as well as all of the supporting architecture needed for those services (IAM Roles, Lifecycle Policies, Cloudwatch Logs, Security Groups, CIDR Block whitelisting, VPC/Subnets etc).
    * GitHub Actions are utilized to build CI/CD Workflows for:
-   	*  Automated testing with Pytest & deployment to [Coveralls](https://coveralls.io/) for code coverage.
-   	*  The Web Scrape Script to construct the Docker Image & push to the private ECR Repository.
-   	*  The Shiny Server code to construct the Shiny Application & push to [shinyapps.io](https://www.shinyapps.io/).
-   	*  Terraform Cloud is used to store state & trigger Terraform Plan on any PR, and Terraform Apply after any PR Merge.
+     	*  Automated testing with Pytest & deployment to [Coveralls](https://coveralls.io/) for code coverage.
+     	*  The Web Scrape Script to construct the Docker Image & push to the private ECR Repository.
+     	*  The Shiny Server code to construct the Shiny Application & push to [shinyapps.io](https://www.shinyapps.io/).
+     	*  Terraform Cloud is used to store state & trigger Terraform Plan on any PR, and Terraform Apply after any PR Merge.
 
     * dbt Cloud offers a free CI Service that uses webhooks to trigger a [temporary build](https://docs.getdbt.com/docs/dbt-cloud/using-dbt-cloud/cloud-enabling-continuous-integration) of the project on any PR to the Project Repo to check for errors that might have been introduced in the proposed changes before they're applied to the Production branch.
 
