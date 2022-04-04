@@ -262,7 +262,7 @@ server <- function(input, output, session) {
                                                options = list(pageLength = 10))
   
   output$schedule_table <- DT::renderDataTable({
-    if ((input$select_schedule == "Tonight's Games") & (nrow(schedule_tonight) > 0)) {
+    if ((input$select_schedule == "Tonight's Games") & (nrow(schedule_ml) > 0)) { # use schedule_ml for tonight's games
       datatable(schedule_tonight, rownames = FALSE,
       options = list(pageLength = 10),
       caption = htmltools::tags$caption(
@@ -273,7 +273,7 @@ server <- function(input, output, session) {
         formatPercentage('Home Predicted Win %', 1) %>%
         formatPercentage('Road Predicted Win %', 1)
     }
-    else if (input$select_schedule == "Tonight's Games" & nrow(schedule_tonight) == 0) {
+    else if (input$select_schedule == "Tonight's Games" & nrow(schedule_ml) == 0) {
       datatable(data.frame(`No Data` = "No Data Available for Tonight's Games"))
       }
     else {  #(input$select_schedule == "Future Schedule") {

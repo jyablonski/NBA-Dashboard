@@ -1,31 +1,31 @@
 team,team_full,conference,wins,losses,games_played,win_pct,active_injuries,active_protocols,last_10
-PHX,Phoenix Suns,Western,52,13,65,0.8,4,1,7-3
-MEM,Memphis Grizzlies,Western,45,22,67,0.672,1,0,6-4
-MIA,Miami Heat,Eastern,44,22,66,0.667,1,0,8-2
-GSW,Golden State Warriors,Western,44,22,66,0.667,7,0,3-7
-UTA,Utah Jazz,Western,40,24,64,0.625,0,0,7-3
-PHI,Philadelphia 76ers,Eastern,40,24,64,0.625,1,0,8-2
-MIL,Milwaukee Bucks,Eastern,41,25,66,0.621,4,0,6-4
-DAL,Dallas Mavericks,Western,40,25,65,0.615,5,0,8-2
-DEN,Denver Nuggets,Western,39,26,65,0.6,4,0,9-1
-CHI,Chicago Bulls,Eastern,39,26,65,0.6,4,0,5-5
-BOS,Boston Celtics,Eastern,39,27,66,0.591,1,0,8-2
-CLE,Cleveland Cavaliers,Eastern,38,27,65,0.585,3,0,4-6
-MIN,Minnesota Timberwolves,Western,37,29,66,0.561,7,0,8-2
-TOR,Toronto Raptors,Eastern,34,30,64,0.531,2,0,3-7
-LAC,Los Angeles Clippers,Western,34,33,67,0.507,6,0,7-3
-BKN,Brooklyn Nets,Eastern,33,33,66,0.5,3,0,4-6
-CHA,Charlotte Hornets,Eastern,32,34,66,0.485,2,0,4-6
-ATL,Atlanta Hawks,Eastern,31,33,64,0.484,1,0,5-5
-WAS,Washington Wizards,Eastern,29,34,63,0.46,2,0,5-5
-LAL,Los Angeles Lakers,Western,28,36,64,0.438,3,0,2-8
-NOP,New Orleans Pelicans,Western,27,38,65,0.415,4,0,5-5
-NYK,New York Knicks,Eastern,27,38,65,0.415,5,0,3-7
-POR,Portland Trail Blazers,Western,25,39,64,0.391,8,0,4-6
-SAS,San Antonio Spurs,Western,25,40,65,0.385,3,0,5-5
-SAC,Sacramento Kings,Western,24,43,67,0.358,3,0,3-7
-IND,Indiana Pacers,Eastern,22,45,67,0.328,4,1,3-7
-OKC,Oklahoma City Thunder,Western,20,45,65,0.308,7,0,3-7
-DET,Detroit Pistons,Eastern,18,47,65,0.277,3,0,6-4
-HOU,Houston Rockets,Western,16,49,65,0.246,4,0,1-9
-ORL,Orlando Magic,Eastern,16,50,66,0.242,3,0,3-7
+PHX,Phoenix Suns,Western,62,16,78,0.795,5,0,8-2
+MEM,Memphis Grizzlies,Western,55,23,78,0.705,6,0,9-1
+MIA,Miami Heat,Eastern,51,28,79,0.646,4,0,6-4
+GSW,Golden State Warriors,Western,50,29,79,0.633,5,0,3-7
+BOS,Boston Celtics,Eastern,49,30,79,0.62,2,0,8-2
+DAL,Dallas Mavericks,Western,49,30,79,0.62,3,2,6-4
+MIL,Milwaukee Bucks,Eastern,48,30,78,0.615,1,0,6-4
+PHI,Philadelphia 76ers,Eastern,48,30,78,0.615,0,0,6-4
+DEN,Denver Nuggets,Western,47,32,79,0.595,5,0,6-4
+UTA,Utah Jazz,Western,46,32,78,0.59,2,0,4-6
+TOR,Toronto Raptors,Eastern,45,33,78,0.577,2,0,7-3
+CHI,Chicago Bulls,Eastern,45,33,78,0.577,1,0,4-6
+MIN,Minnesota Timberwolves,Western,45,34,79,0.57,2,0,6-4
+CLE,Cleveland Cavaliers,Eastern,43,36,79,0.544,4,0,4-6
+ATL,Atlanta Hawks,Eastern,41,37,78,0.526,2,0,7-3
+CHA,Charlotte Hornets,Eastern,40,38,78,0.513,0,0,7-3
+BKN,Brooklyn Nets,Eastern,40,38,78,0.513,3,1,5-5
+LAC,Los Angeles Clippers,Western,39,40,79,0.494,5,0,4-6
+NYK,New York Knicks,Eastern,35,44,79,0.443,4,0,6-4
+NOP,New Orleans Pelicans,Western,34,44,78,0.436,2,0,6-4
+WAS,Washington Wizards,Eastern,34,44,78,0.436,3,0,5-5
+SAS,San Antonio Spurs,Western,33,45,78,0.423,3,0,7-3
+LAL,Los Angeles Lakers,Western,31,47,78,0.397,2,0,2-8
+SAC,Sacramento Kings,Western,29,50,79,0.367,5,0,5-5
+POR,Portland Trail Blazers,Western,27,51,78,0.346,9,0,1-9
+IND,Indiana Pacers,Eastern,25,54,79,0.316,6,0,2-8
+OKC,Oklahoma City Thunder,Western,23,55,78,0.295,9,0,3-7
+DET,Detroit Pistons,Eastern,23,56,79,0.291,5,0,5-5
+ORL,Orlando Magic,Eastern,20,59,79,0.253,6,0,2-8
+HOU,Houston Rockets,Western,20,59,79,0.253,3,0,3-7

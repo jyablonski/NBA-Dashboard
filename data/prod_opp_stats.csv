@@ -1,31 +1,31 @@
 team,scrape_date,fg_percent_opp,threep_percent_opp,threep_made_opp,ppg_opp,fg_percent_rank,three_percent_rank,three_pm_rank,ppg_opp_rank,conference
-Milwaukee Bucks,2022-03-09,0.451,0.349,14.1,110.4,8th,14th,30th,16th,East
-Toronto Raptors,2022-03-09,0.462,0.353,12.3,107.3,18th,19th,15th,8th,East
-Boston Celtics,2022-03-09,0.432,0.338,11.7,104.1,1st,3rd,9th,3rd,East
-Indiana Pacers,2022-03-09,0.473,0.361,11.5,112.8,26th,24th,5th,25th,East
-Miami Heat,2022-03-09,0.443,0.341,13.1,104.6,4th,9th,26th,4th,East
-Philadelphia 76ers,2022-03-09,0.452,0.339,11.2,106.1,9th,5th,3rd,7th,East
-Brooklyn Nets,2022-03-09,0.455,0.34,12.3,112,14th,6th,16th,22nd,East
-Orlando Magic,2022-03-09,0.459,0.364,13,111.8,17th,28th,22nd,21st,East
-Charlotte Hornets,2022-03-09,0.463,0.357,13.9,114.8,21st,23rd,29th,28th,East
-Washington Wizards,2022-03-09,0.458,0.35,10.8,110.7,16th,17th,1st,17th,East
-Chicago Bulls,2022-03-09,0.467,0.364,11.6,111,23rd,26th,6th,18th,East
-New York Knicks,2022-03-09,0.446,0.349,13,107.3,5th,16th,24th,9th,East
-Detroit Pistons,2022-03-09,0.473,0.371,12.2,112.5,27th,30th,13th,23rd,East
-Atlanta Hawks,2022-03-09,0.468,0.363,13,111.8,24th,25th,23rd,20th,East
-Cleveland Cavaliers,2022-03-09,0.446,0.347,11.6,103.5,7th,13th,8th,1st,East
-Los Angeles Lakers,2022-03-09,0.462,0.349,12.6,112.8,19th,15th,19th,24th,West
-Los Angeles Clippers,2022-03-09,0.446,0.34,11.7,107.6,6th,8th,10th,11th,West
-Denver Nuggets,2022-03-09,0.465,0.339,11.6,108.3,22nd,4th,7th,12th,West
-Houston Rockets,2022-03-09,0.483,0.356,13.1,117.9,30th,22nd,25th,30th,West
-Oklahoma City Thunder,2022-03-09,0.453,0.347,13.4,109.8,12th,12th,27th,15th,West
-Utah Jazz,2022-03-09,0.453,0.344,12,107.6,11th,10th,12th,10th,West
-Dallas Mavericks,2022-03-09,0.457,0.34,10.8,103.7,15th,7th,2nd,2nd,West
-Portland Trail Blazers,2022-03-09,0.474,0.37,13.7,113.2,28th,29th,28th,27th,West
-Memphis Grizzlies,2022-03-09,0.453,0.353,12.4,109.3,10th,18th,17th,13th,West
-Phoenix Suns,2022-03-09,0.441,0.333,11.4,106.1,3rd,1st,4th,6th,West
-San Antonio Spurs,2022-03-09,0.468,0.356,11.7,112.9,25th,21st,11th,26th,West
-Sacramento Kings,2022-03-09,0.479,0.364,12.5,115.3,29th,27th,18th,29th,West
-New Orleans Pelicans,2022-03-09,0.463,0.356,12.7,109.5,20th,20th,20th,14th,West
-Minnesota Timberwolves,2022-03-09,0.454,0.347,12.9,111.8,13th,11th,21st,19th,West
-Golden State Warriors,2022-03-09,0.438,0.338,12.2,104.9,2nd,2nd,14th,5th,West
+Boston Celtics,2022-04-04,0.434,0.339,11.8,104.3,1st,1st,8th,1st,East
+Golden State Warriors,2022-04-04,0.439,0.34,12.2,105.5,2nd,4th,14th,5th,West
+Phoenix Suns,2022-04-04,0.444,0.339,11.6,107.1,3rd,2nd,5th,9th,West
+Miami Heat,2022-04-04,0.445,0.339,12.9,105.2,4th,3rd,21st,3rd,East
+New York Knicks,2022-04-04,0.448,0.343,12.7,106.9,5th,6th,19th,8th,East
+Cleveland Cavaliers,2022-04-04,0.452,0.351,11.6,105.2,6th,16th,4th,4th,East
+Los Angeles Clippers,2022-04-04,0.452,0.346,11.7,108.8,7th,9th,7th,11th,West
+Brooklyn Nets,2022-04-04,0.453,0.346,12.5,112.3,8th,10th,17th,21st,East
+Memphis Grizzlies,2022-04-04,0.453,0.35,12,109.2,9th,12th,12th,12th,West
+Utah Jazz,2022-04-04,0.455,0.35,12.2,107.9,10th,13th,15th,10th,West
+Oklahoma City Thunder,2022-04-04,0.455,0.351,13.7,111.3,11th,15th,27th,15th,West
+Milwaukee Bucks,2022-04-04,0.456,0.357,14.4,112,12th,20th,30th,18th,East
+Philadelphia 76ers,2022-04-04,0.457,0.345,11.3,106.8,13th,8th,3rd,6th,East
+Minnesota Timberwolves,2022-04-04,0.458,0.348,13.1,112.8,14th,11th,26th,23rd,West
+Orlando Magic,2022-04-04,0.458,0.362,13.1,112,15th,24th,25th,19th,East
+Dallas Mavericks,2022-04-04,0.458,0.341,11,104.8,16th,5th,1st,2nd,West
+Toronto Raptors,2022-04-04,0.461,0.352,12.3,106.9,17th,17th,16th,7th,East
+Washington Wizards,2022-04-04,0.464,0.357,11.2,111.7,18th,19th,2nd,17th,East
+Charlotte Hornets,2022-04-04,0.465,0.359,14,114.8,19th,21st,29th,27th,East
+San Antonio Spurs,2022-04-04,0.467,0.36,12,113,20th,22nd,13th,24th,West
+New Orleans Pelicans,2022-04-04,0.467,0.361,12.9,109.9,21st,23rd,23rd,14th,West
+Los Angeles Lakers,2022-04-04,0.469,0.352,12.6,114.8,22nd,18th,18th,26th,West
+Denver Nuggets,2022-04-04,0.469,0.344,11.8,109.9,23rd,7th,9th,13th,West
+Atlanta Hawks,2022-04-04,0.47,0.366,12.9,112.4,24th,27th,22nd,22nd,East
+Detroit Pistons,2022-04-04,0.471,0.363,11.8,112,25th,25th,10th,20th,East
+Chicago Bulls,2022-04-04,0.471,0.364,11.6,111.4,26th,26th,6th,16th,East
+Portland Trail Blazers,2022-04-04,0.479,0.372,13.8,115.1,27th,30th,28th,28th,West
+Sacramento Kings,2022-04-04,0.48,0.37,12.9,115.7,28th,28th,24th,29th,West
+Indiana Pacers,2022-04-04,0.48,0.37,11.9,114.3,29th,29th,11th,25th,East
+Houston Rockets,2022-04-04,0.483,0.351,12.7,118.1,30th,14th,20th,30th,West

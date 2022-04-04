@@ -221,7 +221,8 @@ aws_connect <- dbConnect(drv = RPostgres::Postgres(), dbname = Sys.getenv('aws_d
                          options = "-c search_path=ml_models")
 
 schedule_ml <- get_data('tonights_games_ml') %>%
-  filter(proper_date == max(proper_date))
+  filter(proper_date == Sys.Date())
+# proper_date == max(proper_date),
 
 dbDisconnect(aws_connect)
 
@@ -256,6 +257,7 @@ updated_date <- bans$last_updated_at[1]
 
 # basically - try to return data with ml predictions if it's there.
 # else return the schedule with odds no matter what
+# use schedule_ml for tonight's games, schedule_tonight 
 get_schedule_tonight <- function(schedule_df, schedule_df_ml){
   if ((nrow(schedule_df_ml) > 0) & (min(schedule_df$Date) == suppressWarnings(min(schedule_df_ml$proper_date)))){
     
@@ -268,8 +270,8 @@ get_schedule_tonight <- function(schedule_df, schedule_df_ml){
   }
   else {
     schedule_tonight <- schedule_df %>%
-      filter(Date == min(Date)) %>%
-      select(-home_team, -away_team)
+      select(-home_team, -away_team) %>%
+      filter(Date == Sys.Date())
   }
   
   return(schedule_tonight)
