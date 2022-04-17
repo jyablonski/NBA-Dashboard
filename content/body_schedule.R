@@ -33,7 +33,7 @@ body_schedule <- dashboardBody(
         column(4, 
                selectInput('select_choice', "Select a Plot",
                            choices = c('Strength of Schedule (as of Today)',
-                                       'Future Strength of Schedule',
+                                       # 'Future Strength of Schedule',
                                        'Team Comebacks Analysis',
                                        'Vegas Preseason Over/Under Odds'))
         )),
