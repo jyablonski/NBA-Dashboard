@@ -98,8 +98,8 @@ bans <- get_data('prod_bans') %>%
 
 contracts_value <- get_data('prod_contract_value_analysis') 
 
-future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
-  mutate(team = fct_reorder(team, pct_games_left_above_500))
+# future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
+#   mutate(team = fct_reorder(team, pct_games_left_above_500))
 
 most_recent_date <- get_data('prod_gamelogs') %>%
   select(date) %>%
@@ -174,17 +174,15 @@ reddit_data <- get_data('prod_reddit_comments') %>%
   mutate(Score = as.numeric(Score),
          URL = paste0("<a href='",URL,"'>",URL,"</a>"))
 
+rolling_avg <- get_data('prod_rolling_avg_stats')
+
 schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team_odds, `Road Team` = away_team_odds, `Average Team Rank` = avg_team_rank,
          home_team, away_team)
 
 social_media_bans <- get_data('prod_social_media_aggs')
 
-standings <- get_data('prod_standings') %>%
-  group_by(conference) %>%
-  arrange(desc(win_pct)) %>%
-  mutate(rank = get_ord_numbers(row_number())) %>%
-  ungroup()
+standings <- get_data('prod_standings')
 
 team_adv_stats <- get_data('prod_team_adv_stats')
 
@@ -318,6 +316,33 @@ top20_plot <- function(df){
 }
 # top20_plot(top_scorers)
 
+top20_plot_playoffs <- function(df){
+  p <- df %>%
+    filter(playoffs_games_played >= 1,
+           playoffs_avg_ppg >= 20) %>%
+    ggplot(aes(playoffs_avg_ppg, playoffs_ts_percent, fill = top5_candidates)) +
+    geom_point(size = 6, alpha = 0.7, pch = 21, color = 'black', aes(text = paste0(player, '<br>',
+                                                                                   team, '<br>', # (', Wins, '-', Losses, ')', '<br>',
+                                                                                   'PPG: ', round(playoffs_avg_ppg, 1), '<br>',
+                                                                                   'TS%: ', round(playoffs_ts_percent * 100, 1), '%',
+                                                                                   '<br>',
+                                                                                   'Games Played: ', playoffs_games_played))) +
+    scale_y_continuous(labels = scales::percent) + 
+    geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
+    annotate(geom = 'text', label = 'League Average TS%', x = max(df$playoffs_avg_ppg) * .95, y = league_average_ts * .98) +
+    scale_fill_manual(values = c('light blue', 'orange')) +
+    labs(title = 'Scoring Efficiency Tracker \n PPG vs TS% for all 20+ PPG Scorers in the NBA Playoffs',
+         x = 'Average Points per Game',
+         y = 'True Shooting Percentage',
+         fill = NULL) +
+    theme(legend.background = element_rect(color = "black"))
+  
+  ggplotly(p, tooltip = c('text')) %>%
+    layout(hoverlabel = list(bgcolor = "white"),
+           legend = list(x = .78, y = 0.1))
+  
+}
+
 # top20_plot_playoffs <- function(df){
 #   p <- df %>%
 #     ggplot(aes(avg_PTS, season_ts_percent, fill = Top5)) +
@@ -342,6 +367,74 @@ top20_plot <- function(df){
 #   
 # }
 # top20_plot_playoffs(top_20pt_scorersp)
+# player_analysis_choices <- c('PPG', 'Player Value Metric', 'TS%', 'Plus Minus')
+# count_choices <- c('Top 20', 'Bottom 20', 'Full List')
+player_analysis_team_choices <- unique(rolling_avg %>% select(full_team) %>% arrange(full_team) %>% distinct() %>% pull())
+
+player_analysis_plot_function <- function(df, plot_col, team_choice){
+  
+  if (plot_col == 'PPG'){
+    plot_col_filter <- 'ppg_differential'
+  }
+  else if (plot_col == 'Player Value Metric'){
+    plot_col_filter <- 'mvp_calc_differential'
+  }
+  else if (plot_col == 'Plus Minus'){
+    plot_col_filter <- 'plusminus_differential'
+  }
+  else {
+    plot_col_filter <- 'ts_differential'
+  }
+  
+  # if (count_choice == 'Top 20'){
+  #   count_choice_filter <- 20
+  # }
+  # else if (plot_col == 'Bottom 20'){
+  #   count_choice_filter <- -20
+  # }
+  # else {
+  #   count_choice_filter <- 1000
+  # }
+  
+  p <- df %>%
+    filter(full_team == !!team_choice) %>%
+    # slice_max(n = count_choice_filter, order_by = .data[[plot_col_filter]]) %>%
+    mutate(player = fct_reorder(player, .data[[plot_col_filter]])) %>%
+    ggplot(aes(.data[[plot_col_filter]], player, fill = .data[[plot_col_filter]] > 0)) +
+    geom_col(alpha = 0.4, color = 'black', aes(text = paste0(player, '<br>',
+                                                             'Rolling Average Stats', '<br>',
+                                                             'PPG: ', rolling_avg_pts, ' (', ppg_diff_rank, ' in differential)', '<br>',
+                                                             'Player Value Metric: ', rolling_avg_mvp_calc, ' (', mvp_calc_diff_rank, ' in differential)', '<br>',
+                                                             'TS%: ', rolling_avg_ts_percent * 100, '% (', ts_diff_rank, ' in differential)', '<br>',
+                                                             'Plus Minus: ', rolling_avg_plusminus, ' (', plusminus_diff_rank, ')', '<br>',
+                                                             '<br>',
+                                                             'Season Average Stats', '<br>',
+                                                             'PPG: ', season_avg_ppg, '<br>',
+                                                             'Player Value Metric: ', player_mvp_calc_adj, '<br>',
+                                                             'TS%: ', 100 * season_ts_percent, '%', '<br>',
+                                                             'Plus Minus: ', season_avg_plusminus
+                                                             )
+      )
+    ) +
+
+    labs(x = paste0('Player Rolling Average ', plot_col, ' Differential'),
+         y = 'Player',
+         title = paste0('Rolling Average ', plot_col, ' Last 10 Games'),
+         fill = NULL) +
+    theme(legend.position = 'none')
+  
+  
+  ggplotly(p, tooltip = c('text')) %>%
+    layout(hoverlabel = list(bgcolor = "white"))
+}
+
+# test_analysis_choice <- 'PPG'
+# test_count_choice <- 'Top 20'
+# 
+# player_analysis_plot_function(rolling_avg, test_analysis_choice, test_count_choice)
+
+df_prac <- rolling_avg %>%
+  slice_max(n = 20, order_by = ppg_differential)
 
 team_ppg_plot <- function(df){
   p <- df %>%
@@ -992,6 +1085,23 @@ game_event_plot <- function(df){
   
   
 }
+
+sentiment_analysis_header = htmltools::withTags(table(
+  class = 'display',
+  thead(
+    tr(
+      th(rowspan = 1, 'Scrape Date'),
+      th(rowspan = 1, 'User'),
+      th(rowspan = 1, 'Flair'),
+      th(rowspan = 1, 'Comment'),
+      th(colspan = 4, 'Sentiment Analysis'),
+      th(rowspan = 1, 'URL'),
+    ),
+    tr(
+      lapply(rep(c('Compound Sentiment Score', 'Pos', 'Neutral', 'Neg'), 1), th)
+    )
+  )
+))
 
 # df <- get_leading_times(pbp_event_df)
 # game_event_plot(pbp_event_df)

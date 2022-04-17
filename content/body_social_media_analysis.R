@@ -3,7 +3,7 @@ body_social_media_analysis <- dashboardBody(
     box(h4(paste0("Recent Social Media Comments & Posts as of ", today)),
         fluidRow(
           column(
-            box(HTML("Social Media Scraping from <br> <br>"),
+            box(HTML("Social Media Scraping <br> <br>"),
                 img(src = "reddit.png", height = 70, width = 100), img(src = "twitter.png", height = 70, width = 140),
                 width = 3),
             box(
