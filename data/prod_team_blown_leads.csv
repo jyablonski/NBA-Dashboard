@@ -1,31 +1,31 @@
-team,blown_leads_10pt,blown_lead_rank,team_comebacks_10pt,comeback_rank,net_comebacks,net_rank
-PHX,5,30th,16,2nd,11,1st
-DAL,8,24th,17,1st,9,2nd
-LAC,7,29th,13,7th,6,3rd
-OKC,9,19th,15,3rd,6,4th
-TOR,8,27th,14,5th,6,5th
-GSW,9,20th,14,4th,5,6th
-WAS,8,23rd,11,16th,3,7th
-MIA,11,13th,14,6th,3,8th
-MEM,8,25th,11,15th,3,9th
-MIL,10,17th,12,13th,2,10th
-PHI,11,14th,13,8th,2,11th
-CHA,8,26th,10,21st,2,12th
-BKN,11,11th,12,11th,1,13th
-BOS,9,18th,10,19th,1,14th
-NOP,9,22nd,10,18th,1,15th
-CHI,7,28th,8,23rd,1,16th
-ATL,11,10th,12,10th,1,17th
-SAC,12,8th,12,14th,0,18th
-MIN,10,15th,10,17th,0,19th
-LAL,14,6th,13,9th,-1,20th
-POR,9,21st,6,25th,-3,21st
-DEN,11,12th,8,24th,-3,22nd
-SAS,10,16th,6,26th,-4,23rd
-CLE,16,1st,12,12th,-4,24th
-ORL,15,5th,10,20th,-5,25th
-NYK,14,7th,9,22nd,-5,26th
-DET,12,9th,5,28th,-7,27th
-HOU,15,3rd,6,27th,-9,28th
-IND,16,2nd,5,29th,-11,29th
-UTA,15,4th,4,30th,-11,30th
+team,season_type,blown_leads_10pt,blown_lead_rank,team_comebacks_10pt,comeback_rank,net_comebacks,net_rank
+PHX,Regular Season,5,30th,17,2nd,12,1st
+DAL,Regular Season,8,27th,17,1st,9,2nd
+TOR,Regular Season,8,26th,16,3rd,8,3rd
+OKC,Regular Season,9,20th,16,4th,7,4th
+LAC,Regular Season,7,28th,13,9th,6,5th
+GSW,Regular Season,9,23rd,14,7th,5,6th
+MIA,Regular Season,11,14th,15,5th,4,7th
+WAS,Regular Season,9,24th,11,15th,2,8th
+BKN,Regular Season,11,13th,13,10th,2,9th
+MIL,Regular Season,10,18th,12,13th,2,10th
+NOP,Regular Season,9,22nd,10,20th,1,11th
+PHI,Regular Season,12,10th,13,8th,1,12th
+ATL,Regular Season,11,12th,12,11th,1,13th
+CHI,Regular Season,7,29th,8,24th,1,14th
+MEM,Regular Season,10,19th,11,16th,1,15th
+BOS,Regular Season,9,21st,10,21st,1,16th
+CHA,Regular Season,9,25th,10,18th,1,17th
+MIN,Regular Season,10,15th,10,22nd,0,18th
+SAC,Regular Season,12,8th,12,14th,0,19th
+LAL,Regular Season,14,7th,14,6th,0,20th
+DEN,Regular Season,12,9th,9,23rd,-3,21st
+ORL,Regular Season,15,5th,11,17th,-4,22nd
+POR,Regular Season,10,17th,6,25th,-4,23rd
+SAS,Regular Season,10,16th,6,26th,-4,24th
+NYK,Regular Season,15,6th,10,19th,-5,25th
+CLE,Regular Season,17,1st,12,12th,-5,26th
+DET,Regular Season,12,11th,5,29th,-7,27th
+HOU,Regular Season,16,3rd,6,27th,-10,28th
+IND,Regular Season,16,4th,5,30th,-11,29th
+UTA,Regular Season,16,2nd,5,28th,-11,30th

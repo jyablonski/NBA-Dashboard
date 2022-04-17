@@ -1,54 +1,28 @@
 date,day,proper_time,avg_team_rank,start_time,home_team,away_team,home_team_odds,away_team_odds
-2022-04-05,Tuesday  ,2022-04-05T07:00:00Z,21,7:00 PM,Orlando Magic,Cleveland Cavaliers,Orlando Magic,Cleveland Cavaliers
-2022-04-05,Tuesday  ,2022-04-05T07:00:00Z,17,7:00 PM,Indiana Pacers,Philadelphia 76ers,Indiana Pacers,Philadelphia 76ers
-2022-04-05,Tuesday  ,2022-04-05T07:30:00Z,9,7:30 PM,Miami Heat,Charlotte Hornets,Miami Heat,Charlotte Hornets
-2022-04-05,Tuesday  ,2022-04-05T07:30:00Z,13,7:30 PM,Toronto Raptors,Atlanta Hawks,Toronto Raptors,Atlanta Hawks
-2022-04-05,Tuesday  ,2022-04-05T07:30:00Z,23,7:30 PM,Brooklyn Nets,Houston Rockets,Brooklyn Nets,Houston Rockets
-2022-04-05,Tuesday  ,2022-04-05T08:00:00Z,26,8:00 PM,Oklahoma City Thunder,Portland Trail Blazers,Oklahoma City Thunder,Portland Trail Blazers
-2022-04-05,Tuesday  ,2022-04-05T08:00:00Z,9,8:00 PM,Chicago Bulls,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks
-2022-04-05,Tuesday  ,2022-04-05T08:00:00Z,17,8:00 PM,Minnesota Timberwolves,Washington Wizards,Minnesota Timberwolves,Washington Wizards
-2022-04-05,Tuesday  ,2022-04-05T09:00:00Z,6,9:00 PM,Utah Jazz,Memphis Grizzlies,Utah Jazz,Memphis Grizzlies
-2022-04-05,Tuesday  ,2022-04-05T09:00:00Z,15,9:00 PM,Denver Nuggets,San Antonio Spurs,Denver Nuggets,San Antonio Spurs
-2022-04-05,Tuesday  ,2022-04-05T10:00:00Z,22,10:00 PM,Sacramento Kings,New Orleans Pelicans,Sacramento Kings,New Orleans Pelicans
-2022-04-05,Tuesday  ,2022-04-05T10:30:00Z,12,10:30 PM,Phoenix Suns,Los Angeles Lakers,Phoenix Suns,Los Angeles Lakers
-2022-04-06,Wednesday,2022-04-06T07:00:00Z,17,7:00 PM,Detroit Pistons,Dallas Mavericks,Detroit Pistons,Dallas Mavericks
-2022-04-06,Wednesday,2022-04-06T07:30:00Z,18,7:30 PM,New York Knicks,Brooklyn Nets,New York Knicks,Brooklyn Nets
-2022-04-06,Wednesday,2022-04-06T08:00:00Z,18,8:00 PM,Atlanta Hawks,Washington Wizards,Atlanta Hawks,Washington Wizards
-2022-04-06,Wednesday,2022-04-06T08:00:00Z,8,8:00 PM,Chicago Bulls,Boston Celtics,Chicago Bulls,Boston Celtics
-2022-04-06,Wednesday,2022-04-06T09:00:00Z,18,9:00 PM,Utah Jazz,Oklahoma City Thunder,Utah Jazz,Oklahoma City Thunder
-2022-04-06,Wednesday,2022-04-06T10:00:00Z,9,10:00 PM,Los Angeles Clippers,Phoenix Suns,Los Angeles Clippers,Phoenix Suns
-2022-04-07,Thursday ,2022-04-07T07:00:00Z,22,7:00 PM,Charlotte Hornets,Orlando Magic,Charlotte Hornets,Orlando Magic
-2022-04-07,Thursday ,2022-04-07T07:30:00Z,6,7:30 PM,Milwaukee Bucks,Boston Celtics,Milwaukee Bucks,Boston Celtics
-2022-04-07,Thursday ,2022-04-07T07:30:00Z,9,7:30 PM,Toronto Raptors,Philadelphia 76ers,Toronto Raptors,Philadelphia 76ers
-2022-04-07,Thursday ,2022-04-07T08:00:00Z,22,8:00 PM,New Orleans Pelicans,Portland Trail Blazers,New Orleans Pelicans,Portland Trail Blazers
-2022-04-07,Thursday ,2022-04-07T08:00:00Z,17,8:00 PM,Minnesota Timberwolves,San Antonio Spurs,Minnesota Timberwolves,San Antonio Spurs
-2022-04-07,Thursday ,2022-04-07T09:00:00Z,5,9:00 PM,Denver Nuggets,Memphis Grizzlies,Denver Nuggets,Memphis Grizzlies
-2022-04-07,Thursday ,2022-04-07T10:00:00Z,13,10:00 PM,Golden State Warriors,Los Angeles Lakers,Golden State Warriors,Los Angeles Lakers
-2022-04-08,Friday   ,2022-04-08T07:00:00Z,17,7:00 PM,Detroit Pistons,Milwaukee Bucks,Detroit Pistons,Milwaukee Bucks
-2022-04-08,Friday   ,2022-04-08T07:00:00Z,20,7:00 PM,Washington Wizards,New York Knicks,Washington Wizards,New York Knicks
-2022-04-08,Friday   ,2022-04-08T07:30:00Z,15,7:30 PM,Brooklyn Nets,Cleveland Cavaliers,Brooklyn Nets,Cleveland Cavaliers
-2022-04-08,Friday   ,2022-04-08T07:30:00Z,20,7:30 PM,Toronto Raptors,Houston Rockets,Toronto Raptors,Houston Rockets
-2022-04-08,Friday   ,2022-04-08T08:00:00Z,14,8:00 PM,Chicago Bulls,Charlotte Hornets,Chicago Bulls,Charlotte Hornets
-2022-04-08,Friday   ,2022-04-08T08:00:00Z,9,8:00 PM,Miami Heat,Atlanta Hawks,Miami Heat,Atlanta Hawks
-2022-04-08,Friday   ,2022-04-08T08:30:00Z,15,8:30 PM,Dallas Mavericks,Portland Trail Blazers,Dallas Mavericks,Portland Trail Blazers
-2022-04-08,Friday   ,2022-04-08T09:30:00Z,5,9:30 PM,Utah Jazz,Phoenix Suns,Utah Jazz,Phoenix Suns
-2022-04-08,Friday   ,2022-04-08T10:30:00Z,25,10:30 PM,Los Angeles Lakers,Oklahoma City Thunder,Los Angeles Lakers,Oklahoma City Thunder
-2022-04-09,Saturday ,2022-04-09T08:00:00Z,17,8:00 PM,Philadelphia 76ers,Indiana Pacers,Philadelphia 76ers,Indiana Pacers
-2022-04-09,Saturday ,2022-04-09T08:00:00Z,13,8:00 PM,San Antonio Spurs,Golden State Warriors,San Antonio Spurs,Golden State Warriors
-2022-04-09,Saturday ,2022-04-09T08:00:00Z,11,8:00 PM,Memphis Grizzlies,New Orleans Pelicans,Memphis Grizzlies,New Orleans Pelicans
-2022-04-09,Saturday ,2022-04-09T08:00:00Z,21,8:00 PM,Los Angeles Clippers,Sacramento Kings,Los Angeles Clippers,Sacramento Kings
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,22,8:00 PM,Houston Rockets,Atlanta Hawks,Houston Rockets,Atlanta Hawks
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,3,8:00 PM,Memphis Grizzlies,Boston Celtics,Memphis Grizzlies,Boston Celtics
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,12,8:00 PM,Minnesota Timberwolves,Chicago Bulls,Minnesota Timberwolves,Chicago Bulls
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,18,8:00 PM,Philadelphia 76ers,Detroit Pistons,Philadelphia 76ers,Detroit Pistons
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,12,8:00 PM,New Orleans Pelicans,Golden State Warriors,New Orleans Pelicans,Golden State Warriors
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,21,8:00 PM,Brooklyn Nets,Indiana Pacers,Brooklyn Nets,Indiana Pacers
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,16,8:00 PM,Denver Nuggets,Los Angeles Lakers,Denver Nuggets,Los Angeles Lakers
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,16,8:00 PM,Orlando Magic,Miami Heat,Orlando Magic,Miami Heat
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,10,8:00 PM,Cleveland Cavaliers,Milwaukee Bucks,Cleveland Cavaliers,Milwaukee Bucks
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,22,8:00 PM,Los Angeles Clippers,Oklahoma City Thunder,Los Angeles Clippers,Oklahoma City Thunder
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,12,8:00 PM,Phoenix Suns,Sacramento Kings,Phoenix Suns,Sacramento Kings
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,14,8:00 PM,Dallas Mavericks,San Antonio Spurs,Dallas Mavericks,San Antonio Spurs
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,15,8:00 PM,New York Knicks,Toronto Raptors,New York Knicks,Toronto Raptors
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,18,8:00 PM,Charlotte Hornets,Washington Wizards,Charlotte Hornets,Washington Wizards
-2022-04-10,Sunday   ,2022-04-10T08:00:00Z,17,8:00 PM,Portland Trail Blazers,Utah Jazz,Portland Trail Blazers,Utah Jazz
+2022-04-17,Sunday   ,2022-04-17T01:00:00Z,10,1:00 PM,Miami Heat,Atlanta Hawks,Miami Heat (-275),Atlanta Hawks (+220)
+2022-04-17,Sunday   ,2022-04-17T03:30:00Z,10,3:30 PM,Boston Celtics,Brooklyn Nets,Boston Celtics (-170),Brooklyn Nets (+150)
+2022-04-17,Sunday   ,2022-04-17T06:30:00Z,10,6:30 PM,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks (-550),Chicago Bulls (+400)
+2022-04-17,Sunday   ,2022-04-17T09:00:00Z,10,9:00 PM,Phoenix Suns,New Orleans Pelicans,Phoenix Suns (-575),New Orleans Pelicans (+410)
+2022-04-18,Monday   ,2022-04-18T07:30:00Z,8,7:30 PM,Philadelphia 76ers,Toronto Raptors,Philadelphia 76ers,Toronto Raptors
+2022-04-18,Monday   ,2022-04-18T08:30:00Z,7,8:30 PM,Dallas Mavericks,Utah Jazz,Dallas Mavericks,Utah Jazz
+2022-04-18,Monday   ,2022-04-18T10:00:00Z,7,10:00 PM,Golden State Warriors,Denver Nuggets,Golden State Warriors,Denver Nuggets
+2022-04-19,Tuesday  ,2022-04-19T07:30:00Z,10,7:30 PM,Miami Heat,Atlanta Hawks,Miami Heat,Atlanta Hawks
+2022-04-19,Tuesday  ,2022-04-19T08:30:00Z,7,8:30 PM,Memphis Grizzlies,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves
+2022-04-19,Tuesday  ,2022-04-19T10:00:00Z,10,10:00 PM,Phoenix Suns,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans
+2022-04-20,Wednesday,2022-04-20T07:00:00Z,10,7:00 PM,Boston Celtics,Brooklyn Nets,Boston Celtics,Brooklyn Nets
+2022-04-20,Wednesday,2022-04-20T08:00:00Z,8,8:00 PM,Toronto Raptors,Philadelphia 76ers,Toronto Raptors,Philadelphia 76ers
+2022-04-20,Wednesday,2022-04-20T09:30:00Z,10,9:30 PM,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks,Chicago Bulls
+2022-04-21,Thursday ,2022-04-21T07:30:00Z,7,7:30 PM,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves,Memphis Grizzlies
+2022-04-21,Thursday ,2022-04-21T09:00:00Z,7,9:00 PM,Utah Jazz,Dallas Mavericks,Utah Jazz,Dallas Mavericks
+2022-04-21,Thursday ,2022-04-21T10:00:00Z,7,10:00 PM,Denver Nuggets,Golden State Warriors,Denver Nuggets,Golden State Warriors
+2022-04-22,Friday   ,2022-04-22T07:00:00Z,10,7:00 PM,Atlanta Hawks,Miami Heat,Atlanta Hawks,Miami Heat
+2022-04-22,Friday   ,2022-04-22T08:30:00Z,10,8:30 PM,Chicago Bulls,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks
+2022-04-22,Friday   ,2022-04-22T09:30:00Z,10,9:30 PM,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans,Phoenix Suns
+2022-04-23,Saturday ,2022-04-23T02:00:00Z,8,2:00 PM,Toronto Raptors,Philadelphia 76ers,Toronto Raptors,Philadelphia 76ers
+2022-04-23,Saturday ,2022-04-23T04:30:00Z,7,4:30 PM,Utah Jazz,Dallas Mavericks,Utah Jazz,Dallas Mavericks
+2022-04-23,Saturday ,2022-04-23T07:30:00Z,10,7:30 PM,Brooklyn Nets,Boston Celtics,Brooklyn Nets,Boston Celtics
+2022-04-23,Saturday ,2022-04-23T10:00:00Z,7,10:00 PM,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves,Memphis Grizzlies
+2022-04-24,Sunday   ,2022-04-24T01:00:00Z,10,1:00 PM,Chicago Bulls,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks
+2022-04-24,Sunday   ,2022-04-24T03:30:00Z,7,3:30 PM,Denver Nuggets,Golden State Warriors,Denver Nuggets,Golden State Warriors
+2022-04-24,Sunday   ,2022-04-24T07:00:00Z,10,7:00 PM,Atlanta Hawks,Miami Heat,Atlanta Hawks,Miami Heat
+2022-04-24,Sunday   ,2022-04-24T09:30:00Z,10,9:30 PM,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans,Phoenix Suns
