@@ -4,6 +4,7 @@ source('content/body_recent.R')
 source('content/body_team_plots.R')
 source('content/body_schedule.R')
 source('content/body_social_media_analysis.R')
+# source('content/body_player_analysis.R')
 source('content/body_about.R')
 
 ui <- fluidPage(
@@ -63,6 +64,10 @@ ui <- fluidPage(
                                                 header = dashboardHeader(disable = TRUE),
                                                 sidebar = dashboardSidebar(disable = TRUE),
                                                 body = body_social_media_analysis)),
+             # tabPanel("Player Analysis", dashboardPage(title = "Player Analysis",
+             #                                                 header = dashboardHeader(disable = TRUE),
+             #                                                 sidebar = dashboardSidebar(disable = TRUE),
+             #                                                 body = body_player_analysis)),
              tabPanel("About", dashboardPage(title = "About",
                                              header = dashboardHeader(disable = TRUE),
                                              sidebar = dashboardSidebar(disable = TRUE),
@@ -133,8 +138,14 @@ server <- function(input, output, session) {
   })
   
   output$top20_plot_output <- renderPlotly({
-    top20_plot(top_scorers)
+    if (input$select_ppg_plot_choice == 'Regular Season') {
+      top20_plot(top_scorers)
+    }
+    else {
+      top20_plot_playoffs(top_scorers)
+    }
   })
+  
   
   output$team_plot_output <- renderPlot({
     
@@ -252,6 +263,70 @@ server <- function(input, output, session) {
     )
   })
   
+  ###############################
+  #                             #
+  #    SOCIAL MEDIA ANALYSIS    #   
+  #                             #   
+  ###############################
+  
+  output$reddit_table <- DT::renderDataTable(reddit_data, rownames = FALSE,
+                                             options = list(pageLength = 25))
+  
+  output$twitter_table <- DT::renderDataTable(twitter_data, rownames = FALSE,
+                                              options = list(pageLength = 25))
+  
+  selected_social_media <- reactive({
+    if (input$select_social_media == 'Reddit Comments') {
+      reddit_data
+    }
+    else {
+      twitter_data
+    }
+  })
+  
+  output$bans_reddit <- renderValueBox({
+    valueBox(
+      value = social_media_bans$reddit_tot_comments[1], HTML(paste0("Total Reddit Comments Scraped <br> <br> ",
+                                                                    social_media_bans$reddit_pct_difference[1], "% difference from average")),
+      icon = icon("caret-up"), color = "blue"
+    )
+  })
+  
+  output$bans_twitter <- renderValueBox({
+    valueBox(
+      value = social_media_bans$twitter_tot_comments[1], HTML(paste0("Total Tweets Scraped <br> <br> ",
+                                                                     social_media_bans$twitter_pct_difference[1], "% difference from average")),
+      icon = icon("caret-up"), color = "blue"
+    )
+  })
+  
+  
+  
+  output$social_media_table <- DT::renderDataTable(datatable(selected_social_media(), rownames = FALSE,
+                                                   options = list(pageLength = 25),
+                                                   escape = FALSE) %>%
+                                                   # container = sentiment_analysis_header) %>%
+                                                     formatPercentage(c('Compound Sentiment Score',
+                                                                        'Pos',
+                                                                        'Neutral',
+                                                                        'Neg')
+                                                                      )
+  )
+
+  #############################
+  #                           #
+  #   PLAYER VALUE ANALYSIS   #   
+  #                           #   
+  #############################
+  
+  output$player_analysis_table <- renderPlotly({
+    player_analysis_plot_function(rolling_avg,
+                                  input$select_player_plot_choice,
+                                  # input$select_player_plot_count_choice,
+                                  input$select_player_plot_team_choice)
+  })
+  
+  
   ################
   #              #
   #   SCHEDULE   #   
@@ -290,9 +365,9 @@ server <- function(input, output, session) {
     if (input$select_choice == 'Vegas Preseason Over/Under Odds') {
       vegas_plot(preseason_odds)
     }
-    else if (input$select_choice == 'Future Strength of Schedule') {
-      future_schedule_analysis_plot(future_schedule_analysis)
-    }
+    # else if (input$select_choice == 'Future Strength of Schedule') {
+    #   future_schedule_analysis_plot(future_schedule_analysis)
+    # }
     else if (input$select_choice == 'Team Comebacks Analysis') {
       blown_leads_plot(team_blown_leads)
     }
@@ -300,51 +375,7 @@ server <- function(input, output, session) {
       advanced_sos_plot(past_schedule_analysis)
     }
   })
-  
-  ###############################
-  #                             #
-  #    SOCIAL MEDIA ANALYSIS    #   
-  #                             #   
-  ###############################
-  
-  output$reddit_table <- DT::renderDataTable(reddit_data, rownames = FALSE,
-                                               options = list(pageLength = 25))
-  
-  output$twitter_table <- DT::renderDataTable(twitter_data, rownames = FALSE,
-                                               options = list(pageLength = 25))
-  
-  selected_social_media <- reactive({
-    if (input$select_social_media == 'Reddit Comments') {
-      reddit_data
-    }
-    else {
-      twitter_data
-    }
-  })
-  
-  output$bans_reddit <- renderValueBox({
-    valueBox(
-      value = social_media_bans$reddit_tot_comments[1], HTML(paste0("Total Reddit Comments Scraped <br> <br> ",
-                                           social_media_bans$reddit_pct_difference[1], "% difference from average")),
-      icon = icon("caret-up"), color = "blue"
-    )
-  })
-  
-  output$bans_twitter <- renderValueBox({
-    valueBox(
-      value = social_media_bans$twitter_tot_comments[1], HTML(paste0("Total Tweets Scraped <br> <br> ",
-                                           social_media_bans$twitter_pct_difference[1], "% difference from average")),
-      icon = icon("caret-up"), color = "blue"
-    )
-  })
 
-  
-
-  output$social_media_table <- DT::renderDataTable(selected_social_media(), rownames = FALSE,
-                                                  options = list(pageLength = 25),
-                                                  escape = FALSE)
-  
-  
   ################
   #              #
   #    ABOUT     #   
