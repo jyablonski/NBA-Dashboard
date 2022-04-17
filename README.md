@@ -7,7 +7,7 @@
 
 ## ELT Data Pipeline Workflow
 
-![NBA ELT Pipeline Data Flow 2](https://user-images.githubusercontent.com/16946556/160479148-3bb291c2-b738-4763-bf80-43b5304f29b7.jpg)
+![NBA ELT Pipeline Data Flow 2 (2)](https://user-images.githubusercontent.com/16946556/163585391-1918308e-fb6a-4ea1-8f12-9b445f9c7f83.jpg)
 
 1. NBA Data is web scraped in Python on a Cron Schedule ran via ECS Fargate, and data is subsequently stored to source tables in a PostgreSQL Database.
 2. dbt Cloud executes data transformations in SQL on a Cron Schedule following the ECS Task, and also performs automated schema testing, quality checks, and data validation assertions primarily via [dbt_expectations](https://github.com/calogica/dbt-expectations).
@@ -29,9 +29,9 @@
 	* [Python Web Scrape](https://github.com/jyablonski/python_docker)
 	* [Terraform](https://github.com/jyablonski/aws_terraform/)
 	* [dbt](https://github.com/jyablonski/nba_elt_dbt)
-	* [MLflow](https://github.com/jyablonski/nba_elt_mlflow)
+	* [ML Pipeline](https://github.com/jyablonski/nba_elt_mlflow)
 	* [Airflow Proof of Concept](https://github.com/jyablonski/nba_elt_airflow)
-		* Ideally I would use this for workflow orchestration, but I cannot host a stable version of Airflow for free to my knowledge.
+		* Ideally I would use this for workflow orchestration, but I cannot host a stable version of Airflow for free.
 		* This Repo utilizes a Docker template to work with Airflow locally, and I've created Dev & Prod DAGs to resemble what a production Airflow workflow would look like for this project.
 
   
@@ -46,10 +46,12 @@
   
 * Main Python Packages Used
 
-	* Pandas
+	* pandas
 	* BeautifulSoup4
 	* SQLAlchemy
 	* Boto3
 	* PRAW
 	* NLTK
 	* twint
+	* scikit-learn
+	* pytest
