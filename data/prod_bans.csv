@@ -1,3 +1,3 @@
 upcoming_games,upcoming_game_date,location,tot_wins,games_played,avg_pts,last_yr_ppg,scrape_time,win_pct,league_ts_percent,last_updated_at,run_type,sum_active_protocols,sum_active_protocols_lastwk,protocols_differential,protocols_pct_diff,protocols_text
-4,2022-04-17,H,675,1230,110.62,112.1,2022-04-17T11:01:31Z,0.549,0.566,2022-04-17T15:06:54Z,PROD,0,2,2,100,2 Fewer Cases (100.0% Decrease) from 7 days ago
-4,2022-04-17,A,565,1230,110.62,112.1,2022-04-17T11:01:31Z,0.459,0.566,2022-04-17T15:06:54Z,PROD,0,2,2,100,2 Fewer Cases (100.0% Decrease) from 7 days ago
+3,2022-04-21,H,669,1230,110.62,112.1,2022-04-21T11:00:54Z,0.544,0.566,2022-04-21T21:22:39Z,DEV,0,1,1,100,1 Fewer Cases (100.0% Decrease) from 7 days ago
+3,2022-04-21,A,561,1230,110.62,112.1,2022-04-21T11:00:54Z,0.456,0.566,2022-04-21T21:22:39Z,DEV,0,1,1,100,1 Fewer Cases (100.0% Decrease) from 7 days ago
