@@ -1,5 +1,4 @@
 date,team,opponent,outcome,pts_scored,pts_scored_opp,mov,team_max_score,team_avg_score,pts_color,opp_pts_color,team_logo,opp_logo,new_loc
-2022-04-16,UTA,DAL,W,99,93,6,137,113.6,3,3,https://stats.nba.com/media/img/teams/logos/UTA_logo.svg,https://stats.nba.com/media/img/teams/logos/DAL_logo.svg,Vs.
-2022-04-16,GSW,DEN,W,123,107,16,138,111,2,0,https://stats.nba.com/media/img/teams/logos/GSW_logo.svg,https://stats.nba.com/media/img/teams/logos/DEN_logo.svg,Vs.
-2022-04-16,MIN,MEM,W,130,117,13,149,115.9,2,0,https://stats.nba.com/media/img/teams/logos/MIN_logo.svg,https://stats.nba.com/media/img/teams/logos/MEM_logo.svg,Vs.
-2022-04-16,PHI,TOR,W,131,111,20,144,109.9,2,0,https://stats.nba.com/media/img/teams/logos/PHI_logo.svg,https://stats.nba.com/media/img/teams/logos/TOR_logo.svg,Vs.
+2022-04-20,BOS,BKN,W,114,107,7,145,111.8,0,0,https://stats.nba.com/media/img/teams/logos/BOS_logo.svg,https://stats.nba.com/media/img/teams/logos/BKN_logo.svg,Vs.
+2022-04-20,CHI,MIL,W,114,110,4,135,111.6,0,0,https://stats.nba.com/media/img/teams/logos/CHI_logo.svg,https://stats.nba.com/media/img/teams/logos/MIL_logo.svg,Vs.
+2022-04-20,PHI,TOR,W,104,101,3,144,109.9,0,0,https://stats.nba.com/media/img/teams/logos/PHI_logo.svg,https://stats.nba.com/media/img/teams/logos/TOR_logo.svg,Vs.

@@ -21,7 +21,13 @@ body_schedule <- dashboardBody(
   ),
   fluidRow(
     box(
-      title = "Regular Season Game Type Analysis",
+      fluidRow(column(4,
+                      selectInput('select_game_types', "Select a Season Type",
+                                  choices = c('Regular Season',
+                                              'Playoffs')
+                      ),
+      )),
+      title = "Game Type Analysis",
       status = "primary",
       solidHeader = TRUE,
       collapsible = FALSE,

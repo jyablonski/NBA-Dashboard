@@ -1,20 +1,7 @@
 date,day,proper_time,avg_team_rank,start_time,home_team,away_team,home_team_odds,away_team_odds
-2022-04-17,Sunday   ,2022-04-17T01:00:00Z,10,1:00 PM,Miami Heat,Atlanta Hawks,Miami Heat (-275),Atlanta Hawks (+220)
-2022-04-17,Sunday   ,2022-04-17T03:30:00Z,10,3:30 PM,Boston Celtics,Brooklyn Nets,Boston Celtics (-170),Brooklyn Nets (+150)
-2022-04-17,Sunday   ,2022-04-17T06:30:00Z,10,6:30 PM,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks (-550),Chicago Bulls (+400)
-2022-04-17,Sunday   ,2022-04-17T09:00:00Z,10,9:00 PM,Phoenix Suns,New Orleans Pelicans,Phoenix Suns (-575),New Orleans Pelicans (+410)
-2022-04-18,Monday   ,2022-04-18T07:30:00Z,8,7:30 PM,Philadelphia 76ers,Toronto Raptors,Philadelphia 76ers,Toronto Raptors
-2022-04-18,Monday   ,2022-04-18T08:30:00Z,7,8:30 PM,Dallas Mavericks,Utah Jazz,Dallas Mavericks,Utah Jazz
-2022-04-18,Monday   ,2022-04-18T10:00:00Z,7,10:00 PM,Golden State Warriors,Denver Nuggets,Golden State Warriors,Denver Nuggets
-2022-04-19,Tuesday  ,2022-04-19T07:30:00Z,10,7:30 PM,Miami Heat,Atlanta Hawks,Miami Heat,Atlanta Hawks
-2022-04-19,Tuesday  ,2022-04-19T08:30:00Z,7,8:30 PM,Memphis Grizzlies,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves
-2022-04-19,Tuesday  ,2022-04-19T10:00:00Z,10,10:00 PM,Phoenix Suns,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans
-2022-04-20,Wednesday,2022-04-20T07:00:00Z,10,7:00 PM,Boston Celtics,Brooklyn Nets,Boston Celtics,Brooklyn Nets
-2022-04-20,Wednesday,2022-04-20T08:00:00Z,8,8:00 PM,Toronto Raptors,Philadelphia 76ers,Toronto Raptors,Philadelphia 76ers
-2022-04-20,Wednesday,2022-04-20T09:30:00Z,10,9:30 PM,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks,Chicago Bulls
-2022-04-21,Thursday ,2022-04-21T07:30:00Z,7,7:30 PM,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves,Memphis Grizzlies
-2022-04-21,Thursday ,2022-04-21T09:00:00Z,7,9:00 PM,Utah Jazz,Dallas Mavericks,Utah Jazz,Dallas Mavericks
-2022-04-21,Thursday ,2022-04-21T10:00:00Z,7,10:00 PM,Denver Nuggets,Golden State Warriors,Denver Nuggets,Golden State Warriors
+2022-04-21,Thursday ,2022-04-21T07:30:00Z,7,7:30 PM,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves (+105),Memphis Grizzlies (-125)
+2022-04-21,Thursday ,2022-04-21T09:00:00Z,7,9:00 PM,Utah Jazz,Dallas Mavericks,Utah Jazz (-275),Dallas Mavericks (+220)
+2022-04-21,Thursday ,2022-04-21T10:00:00Z,7,10:00 PM,Denver Nuggets,Golden State Warriors,Denver Nuggets (+110),Golden State Warriors (-130)
 2022-04-22,Friday   ,2022-04-22T07:00:00Z,10,7:00 PM,Atlanta Hawks,Miami Heat,Atlanta Hawks,Miami Heat
 2022-04-22,Friday   ,2022-04-22T08:30:00Z,10,8:30 PM,Chicago Bulls,Milwaukee Bucks,Chicago Bulls,Milwaukee Bucks
 2022-04-22,Friday   ,2022-04-22T09:30:00Z,10,9:30 PM,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans,Phoenix Suns
@@ -26,3 +13,7 @@ date,day,proper_time,avg_team_rank,start_time,home_team,away_team,home_team_odds
 2022-04-24,Sunday   ,2022-04-24T03:30:00Z,7,3:30 PM,Denver Nuggets,Golden State Warriors,Denver Nuggets,Golden State Warriors
 2022-04-24,Sunday   ,2022-04-24T07:00:00Z,10,7:00 PM,Atlanta Hawks,Miami Heat,Atlanta Hawks,Miami Heat
 2022-04-24,Sunday   ,2022-04-24T09:30:00Z,10,9:30 PM,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans,Phoenix Suns
+2022-04-25,Monday   ,2022-04-25T07:00:00Z,10,7:00 PM,Brooklyn Nets,Boston Celtics,Brooklyn Nets,Boston Celtics
+2022-04-25,Monday   ,2022-04-25T09:30:00Z,7,9:30 PM,Dallas Mavericks,Utah Jazz,Dallas Mavericks,Utah Jazz
+2022-04-26,Tuesday  ,2022-04-26T07:30:00Z,7,7:30 PM,Memphis Grizzlies,Minnesota Timberwolves,Memphis Grizzlies,Minnesota Timberwolves
+2022-04-26,Tuesday  ,2022-04-26T10:00:00Z,10,10:00 PM,Phoenix Suns,New Orleans Pelicans,Phoenix Suns,New Orleans Pelicans

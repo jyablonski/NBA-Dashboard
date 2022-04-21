@@ -358,7 +358,7 @@ server <- function(input, output, session) {
   })
   
   output$game_types_output <- renderPlotly({
-    game_types_plot(game_types)
+    game_types_plot(game_types, input$select_game_types)
   })
   
   output$schedule_plot_output <- renderPlotly({

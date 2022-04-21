@@ -107,7 +107,9 @@ most_recent_date <- get_data('prod_gamelogs') %>%
   distinct()
 
 game_types <- get_data('prod_game_types') %>%
-  mutate(pct_total = round(n / sum(n), 3))
+  group_by(type) %>%
+  mutate(pct_total = round(n / sum(n), 3)) %>%
+  ungroup()
 
 injuries <- get_data('prod_injuries') %>%
   select(Player = player, -team_acronym, Team = team, Date = date, Status = status, Injury = injury, Description = description)
@@ -564,8 +566,9 @@ regular_valuebox_function <- function(df){
   }
 }
 
-game_types_plot <- function(df){
+game_types_plot <- function(df, season_type){
   p <- df %>%
+    filter(type == season_type) %>%
     ggplot(aes(game_type, pct_total)) +
     geom_col(position = 'dodge', color = 'black', aes(text = paste0(game_type, 's account for ', round(pct_total * 100, 1), '% of all',
                                                    ' games played.', '<br>', 'Number of Observations: ', n, '<br>', '<br>',
