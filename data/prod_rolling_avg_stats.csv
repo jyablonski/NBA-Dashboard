@@ -1,605 +1,606 @@
 player,rolling_avg_pts,rolling_avg_ts_percent,rolling_avg_mvp_calc,rolling_avg_plusminus,team,full_team,season_avg_ppg,season_ts_percent,season_avg_plusminus,player_mvp_calc_adj,ppg_differential,ppg_diff_rank,ts_differential,ts_diff_rank,plusminus_differential,plusminus_diff_rank,mvp_calc_differential,mvp_calc_diff_rank
-Obi Toppin,20,0.698,31.2,6.2,NYK,New York Knicks,9,0.614,2.3,14.1,11,1st,0.084,73rd,3.9,54th,17.1,2nd
-Drew Eubanks,17.8,0.697,17.7,-15.7,POR,Portland Trail Blazers,7.7,0.638,-4.6,10.2,10.1,2nd,0.059,121st,-11.1,603rd,7.5,55th
-Jalen Green,26.1,0.589,31.2,0.9,HOU,Houston Rockets,17.3,0.547,-7.7,17.8,8.8,3rd,0.042,177th,8.6,2nd,13.4,11th
-Trendon Watford,16.4,0.567,19.3,-13.2,POR,Portland Trail Blazers,7.6,0.59,-7.3,7.05,8.8,4th,-0.023,398th,-5.9,575th,12.25,17th
-Damian Jones,16.6,0.766,22.9,-4.6,SAC,Sacramento Kings,8.1,0.701,-3.1,9.28,8.5,5th,0.065,107th,-1.5,455th,13.62,8th
-Oshae Brissett,17.1,0.576,23,-4.6,IND,Indiana Pacers,9.1,0.53,-3.3,12.7,8,6th,0.046,160th,-1.3,436th,10.3,30th
-Davion Mitchell,19.5,0.521,30.4,-5.8,SAC,Sacramento Kings,11.5,0.488,-3.6,16.9,8,7th,0.033,205th,-2.2,484th,13.5,10th
-Kevin Porter,23.5,0.592,36.6,-0.6,HOU,Houston Rockets,15.6,0.532,-4.6,20.7,7.9,8th,0.06,119th,4,53rd,15.9,4th
-Theo Maledon,14.8,0.572,25.6,4.2,OKC,Oklahoma City Thunder,7.1,0.5,-3.9,7.05,7.7,9th,0.072,92nd,8.1,6th,18.55,1st
-Jordan Poole,26,0.644,37.5,4.6,GSW,Golden State Warriors,18.5,0.598,4.2,26.8,7.5,10th,0.046,163rd,0.4,212nd,10.7,26th
-Anfernee Simons,24.8,0.606,25.5,-8.5,POR,Portland Trail Blazers,17.3,0.583,-1.5,18.04,7.5,11th,0.023,231st,-7,589th,7.46,57th
-Goga Bitadze,14.4,0.713,22.5,-3.1,IND,Indiana Pacers,7,0.595,-0.6,8.48,7.4,12th,0.118,44th,-2.5,501st,14.02,6th
-De'Aaron Fox,30.2,0.583,43.4,0.3,SAC,Sacramento Kings,23.2,0.549,-3.3,26.4,7,13th,0.034,201st,3.6,61st,17,3rd
-Isaiah Roby,17,0.661,26.1,-2.6,OKC,Oklahoma City Thunder,10.1,0.607,-4.1,10.88,6.9,14th,0.054,128th,1.5,142nd,15.22,5th
-Darius Bazley,17.4,0.592,15.5,-13.8,OKC,Oklahoma City Thunder,10.8,0.516,-6.8,14.4,6.6,15th,0.076,81st,-7,588th,1.1,319th
-Bruce Brown,15.3,0.682,26.6,-1.8,BKN,Brooklyn Nets,9,0.575,-0.4,16.7,6.3,16th,0.107,50th,-1.4,443rd,9.9,32nd
-Immanuel Quickley,17.5,0.541,33.1,6.2,NYK,New York Knicks,11.3,0.543,3.4,19.4,6.2,17th,-0.002,345th,2.8,86th,13.7,7th
-Klay Thompson,26.4,0.582,31.4,1.4,GSW,Golden State Warriors,20.4,0.547,2.1,20.7,6,18th,0.035,196th,-0.7,392nd,10.7,25th
-Devin Booker,32.7,0.65,43.3,5.4,PHX,Phoenix Suns,26.8,0.576,6.9,39.5,5.9,19th,0.074,90th,-1.5,451st,3.8,169th
-Tre Mann,16.3,0.511,14.8,-13.2,OKC,Oklahoma City Thunder,10.4,0.501,-4.6,10.56,5.9,20th,0.01,271st,-8.6,597th,4.24,151st
-Malik Monk,19.6,0.602,24.9,-1.9,LAL,Los Angeles Lakers,13.8,0.597,0.7,20.1,5.8,21st,0.005,294th,-2.6,506th,4.8,135th
-Nikola Jokic,32.9,0.696,51.4,2.8,DEN,Denver Nuggets,27.1,0.661,6,47.8,5.8,22nd,0.035,197th,-3.2,520th,3.6,175th
-Aleksej Pokusevski,13.3,0.545,25.3,2.6,OKC,Oklahoma City Thunder,7.6,0.485,-0.7,11.97,5.7,23rd,0.06,117th,3.3,69th,13.33,12th
-Keon Johnson,12.9,0.497,14.2,-12.2,POR,Portland Trail Blazers,7.2,0.455,-7.8,5.85,5.7,24th,0.042,176th,-4.4,549th,8.35,47th
-Ignas Brazdeikis,10.6,0.53,7.7,-12,ORL,Orlando Magic,5,0.52,-4.1,3.83,5.6,25th,0.01,272nd,-7.9,594th,3.87,167th
-Justise Winslow,11.2,0.431,21.8,1,POR,Portland Trail Blazers,5.7,0.479,0.6,8.78,5.5,26th,-0.048,457th,0.4,217th,13.02,14th
-Ben McLemore,15.4,0.683,14.6,-9.2,POR,Portland Trail Blazers,10.2,0.567,-5.5,9.5,5.2,27th,0.116,47th,-3.7,531st,5.1,114th
-Dwight Howard,11.2,0.639,13.1,-7.3,LAL,Los Angeles Lakers,6.2,0.657,-2.1,8.98,5,28th,-0.018,387th,-5.2,566th,4.12,157th
-Jalen Smith,14.2,0.604,19.3,-3.2,IND,Indiana Pacers,9.2,0.595,0.6,10.65,5,29th,0.009,276th,-3.8,534th,8.65,43rd
-Keldon Johnson,21.9,0.595,34,6.6,SAS,San Antonio Spurs,17,0.574,0.9,23.8,4.9,30th,0.021,239th,5.7,21st,10.2,31st
-Anthony Edwards,26,0.627,31.5,-4.7,MIN,Minnesota Timberwolves,21.3,0.561,2.6,30.9,4.7,31st,0.066,104th,-7.3,592nd,0.6,366th
-Deni Avdija,13,0.566,17.8,-5.9,WAS,Washington Wizards,8.4,0.536,-0.8,14.5,4.6,32nd,0.03,212nd,-5.1,560th,3.3,191st
-Kentavious Caldwell-Pope,17.8,0.63,21.2,-1,WAS,Washington Wizards,13.2,0.567,-3,17.2,4.6,33rd,0.063,111st,2,117th,4,163rd
-Juancho Hernangomez,7.8,0.594,15.7,6.4,UTA,Utah Jazz,3.3,0.542,-0.1,4.35,4.5,34th,0.052,145th,6.5,11th,11.35,19th
-Shai Gilgeous-Alexander,29,0.607,40.1,-6.7,OKC,Oklahoma City Thunder,24.5,0.558,-4.7,26.8,4.5,35th,0.049,154th,-2,473rd,13.3,13th
-Tre Jones,10.5,0.645,22.4,2.7,SAS,San Antonio Spurs,6,0.545,0,12.6,4.5,36th,0.1,57th,2.7,90th,9.8,33rd
-Killian Hayes,11.3,0.529,19.3,-5.4,DET,Detroit Pistons,6.9,0.461,-5.6,12.9,4.4,37th,0.068,99th,0.2,228th,6.4,80th
-Tyrese Maxey,21.8,0.722,32.8,7.9,PHI,Philadelphia 76ers,17.5,0.594,2.7,27.5,4.3,38th,0.128,41st,5.2,28th,5.3,107th
-Josh Christopher,12.2,0.542,17.4,-3.1,HOU,Houston Rockets,7.9,0.534,-3.7,10.2,4.3,39th,0.008,283rd,0.6,200th,7.2,61st
-Wendell Carter,19.2,0.626,28.9,2,ORL,Orlando Magic,15,0.601,-2.2,21.16,4.2,40th,0.025,227th,4.2,44th,7.74,53rd
-Jalen Brunson,20.4,0.605,31.9,5.7,DAL,Dallas Mavericks,16.3,0.583,2.9,26.2,4.1,41st,0.022,236th,2.8,85th,5.7,93rd
-Robert Covington,12.5,0.753,22.1,7.1,LAC,Los Angeles Clippers,8.5,0.571,0.5,17.4,4,42nd,0.182,23rd,6.6,10th,4.7,143rd
-Corey Kispert,12.2,0.632,17,0.6,WAS,Washington Wizards,8.2,0.586,0.5,12,4,43rd,0.046,162nd,0.1,236th,5,119th
-Bruno Fernando,6.9,0.664,9.8,0,HOU,Houston Rockets,2.9,0.671,-1.1,2.78,4,44th,-0.007,356th,1.1,167th,7.02,66th
-Alec Burks,15.6,0.655,28.2,7.8,NYK,New York Knicks,11.7,0.559,1.5,20.4,3.9,45th,0.096,62nd,6.3,13th,7.8,52nd
-Luguentz Dort,21.1,0.569,24.6,-3.2,OKC,Oklahoma City Thunder,17.2,0.541,-5.8,14.18,3.9,46th,0.028,217th,2.6,95th,10.42,28th
-Devin Vassell,16.2,0.585,25.2,1.6,SAS,San Antonio Spurs,12.3,0.54,0.7,19.7,3.9,47th,0.045,166th,0.9,175th,5.5,97th
-LeBron James,34.2,0.623,43.2,-5.7,LAL,Los Angeles Lakers,30.3,0.619,-2.1,33.76,3.9,48th,0.004,295th,-3.6,527th,9.44,35th
-Josh Giddey,16.3,0.522,26.3,-3.6,OKC,Oklahoma City Thunder,12.5,0.478,-5.5,15.96,3.8,49th,0.044,172nd,1.9,126th,10.34,29th
-Brook Lopez,16.2,0.581,21.5,1.5,MIL,Milwaukee Bucks,12.4,0.57,-0.5,12.75,3.8,50th,0.011,270th,2,122nd,8.75,42nd
-Vit Krejci,10,0.547,14.1,-8.8,OKC,Oklahoma City Thunder,6.2,0.529,-6,6.08,3.8,51st,0.018,248th,-2.8,514th,8.02,50th
-Josh Hart,18.7,0.542,21.1,-12.7,POR,Portland Trail Blazers,14.9,0.61,-3.7,17.1,3.8,52nd,-0.068,496th,-9,598th,4,161st
-Danilo Gallinari,15.4,0.537,20.5,2.5,ATL,Atlanta Hawks,11.7,0.579,1.6,17.5,3.7,53rd,-0.042,442nd,0.9,177th,3,208th
-Damian Lillard,27.7,0.576,32.3,-7.2,POR,Portland Trail Blazers,24,0.55,-1,25.58,3.7,54th,0.026,226th,-6.2,584th,6.72,73rd
-Lindy Waters,11.7,0.629,18,2.4,OKC,Oklahoma City Thunder,8,0.562,-1.6,8.7,3.7,55th,0.067,100th,4,51st,9.3,37th
-Russell Westbrook,22.2,0.591,30.1,-6.3,LAL,Los Angeles Lakers,18.5,0.512,-2.7,28.2,3.7,56th,0.079,79th,-3.6,528th,1.9,258th
-Marvin Bagley,14.9,0.595,18.4,-4.9,DET,Detroit Pistons,11.3,0.551,-2.8,11.25,3.6,57th,0.044,168th,-2.1,483rd,7.15,62nd
-Donte DiVincenzo,12.6,0.548,22,1.9,SAC,Sacramento Kings,9,0.51,-1.8,10.88,3.6,58th,0.038,190th,3.7,58th,11.12,21st
-Moses Brown,7.9,0.76,9.2,-5.1,CLE,Cleveland Cavaliers,4.3,0.612,-1.2,4.35,3.6,59th,0.148,34th,-3.9,539th,4.85,130th
-Rui Hachimura,14.8,0.521,19.2,-1.4,WAS,Washington Wizards,11.3,0.579,-3,10.35,3.5,60th,-0.058,476th,1.6,139th,8.85,41st
-Greg Brown,8.2,0.601,9.5,-8,POR,Portland Trail Blazers,4.7,0.517,-5,4.2,3.5,61st,0.084,72nd,-3,518th,5.3,106th
-Alperen Sengun,13,0.573,20,-4.7,HOU,Houston Rockets,9.6,0.552,-4.3,14.5,3.4,62nd,0.021,238th,-0.4,382nd,5.5,96th
-Trey Murphy,8.7,0.609,14.6,5,NOP,New Orleans Pelicans,5.4,0.558,0,7.45,3.3,63rd,0.051,151st,5,29th,7.15,63rd
-Bojan Bogdanovic,21.4,0.639,26,-0.4,UTA,Utah Jazz,18.1,0.598,2.8,22.7,3.3,64th,0.041,181st,-3.2,521st,3.3,190th
-Daniel Theis,11.5,0.604,19.7,6.7,BOS,Boston Celtics,8.2,0.595,-1.9,8.78,3.3,65th,0.009,274th,8.6,3rd,10.92,24th
-Joel Embiid,33.8,0.667,49,11.4,PHI,Philadelphia 76ers,30.6,0.616,5.4,45.9,3.2,66th,0.051,148th,6,15th,3.1,201st
-Ziaire Williams,11.2,0.58,17.7,3.8,MEM,Memphis Grizzlies,8.1,0.559,2,11.22,3.1,67th,0.021,237th,1.8,130th,6.48,78th
-Reggie Bullock,11.7,0.689,22.4,11,DAL,Dallas Mavericks,8.6,0.558,4,14.9,3.1,68th,0.131,39th,7,9th,7.5,56th
-Tyus Jones,11.8,0.519,26.3,6,MEM,Memphis Grizzlies,8.7,0.544,3.5,19.1,3.1,69th,-0.025,404th,2.5,99th,7.2,60th
-Isaiah Jackson,11.4,0.598,18.1,-0.5,IND,Indiana Pacers,8.3,0.607,-1.1,9.6,3.1,70th,-0.009,360th,0.6,198th,8.5,44th
-Kristaps Porzingis,23.2,0.586,36.4,1,WAS,Washington Wizards,20.2,0.577,0.6,22.8,3,71st,0.009,275th,0.4,215th,13.6,9th
-Thanasis Antetokounmpo,6.6,0.63,8.1,0,MIL,Milwaukee Bucks,3.6,0.577,-2.4,3.38,3,72nd,0.053,136th,2.4,102nd,4.72,140th
-Julius Randle,23.1,0.484,36.4,5.9,NYK,New York Knicks,20.1,0.509,-2.3,29.1,3,73rd,-0.025,406th,8.2,4th,7.3,58th
-Brandon Ingram,25.6,0.6,36.8,3.3,NOP,New Orleans Pelicans,22.7,0.554,2.2,25.82,2.9,74th,0.046,164th,1.1,164th,10.98,23rd
-Austin Reaves,10.2,0.497,17.6,-2.9,LAL,Los Angeles Lakers,7.3,0.6,0.9,11.34,2.9,75th,-0.103,546th,-3.8,537th,6.26,83rd
-Jimmy Butler,24.3,0.652,36.2,4.6,MIA,Miami Heat,21.4,0.592,4.3,29.27,2.9,76th,0.06,118th,0.3,222nd,6.93,68th
-Aaron Wiggins,11.2,0.497,9.9,-8.4,OKC,Oklahoma City Thunder,8.3,0.556,-4.7,7.28,2.9,77th,-0.059,478th,-3.7,532nd,2.62,224th
-CJ Elleby,8.7,0.534,9.4,-13.9,POR,Portland Trail Blazers,5.8,0.491,-6,6.3,2.9,78th,0.043,175th,-7.9,595th,3.1,198th
-Olivier Sarr,9.9,0.809,16.6,4,OKC,Oklahoma City Thunder,7,0.672,-1.3,7.58,2.9,79th,0.137,36th,5.3,26th,9.02,38th
-Josh Richardson,13.1,0.626,21.5,4.1,SAS,San Antonio Spurs,10.2,0.573,2.1,16.17,2.9,80th,0.053,139th,2,120th,5.33,103rd
-RJ Barrett,22.8,0.502,28.2,-0.7,NYK,New York Knicks,20,0.511,-2.1,24.8,2.8,81st,-0.009,361st,1.4,149th,3.4,185th
-Zach Collins,10.6,0.665,19.9,3.4,SAS,San Antonio Spurs,7.8,0.594,1.4,10.95,2.8,82nd,0.071,95th,2,118th,8.95,39th
-Rodney McGruder,8.2,0.522,10.5,-3.7,DET,Detroit Pistons,5.4,0.575,-1.1,5.78,2.8,83rd,-0.053,466th,-2.6,505th,4.72,141st
-Payton Pritchard,9,0.728,16.4,3.4,BOS,Boston Celtics,6.2,0.578,0.9,10.5,2.8,84th,0.15,33rd,2.5,100th,5.9,89th
-Lamar Stevens,8.9,0.556,13.3,1.4,CLE,Cleveland Cavaliers,6.1,0.544,-0.6,8.18,2.8,85th,0.012,264th,2,119th,5.12,113rd
-De'Anthony Melton,13.5,0.582,18.5,-1.5,MEM,Memphis Grizzlies,10.8,0.529,3,20.2,2.7,86th,0.053,142nd,-4.5,551st,-1.7,513rd
-Nassir Little,12.5,0.551,20.7,4.3,POR,Portland Trail Blazers,9.8,0.575,-0.5,11.78,2.7,87th,-0.024,400th,4.8,31st,8.92,40th
-Patrick Williams,11.6,0.69,13.8,-7.1,CHI,Chicago Bulls,9,0.637,-3.3,8.55,2.6,88th,0.053,137th,-3.8,535th,5.25,109th
-LaMelo Ball,22.7,0.584,38.7,2.7,CHA,Charlotte Hornets,20.1,0.554,1.3,34.5,2.6,89th,0.03,211st,1.4,150th,4.2,155th
-Kyle Kuzma,19.7,0.527,26,-6.6,WAS,Washington Wizards,17.1,0.547,-4.2,23.8,2.6,90th,-0.02,391st,-2.4,494th,2.2,242nd
-Jordan McLaughlin,6.4,0.814,13,0.3,MIN,Minnesota Timberwolves,3.8,0.535,0.6,9.57,2.6,91st,0.279,12th,-0.3,370th,3.43,183rd
-Anthony Gill,6.7,0.744,10.4,0.4,WAS,Washington Wizards,4.1,0.682,1.4,5.1,2.6,92nd,0.062,113rd,-1,416th,5.3,105th
-Andre Drummond,10.4,0.593,20.5,1.1,BKN,Brooklyn Nets,7.9,0.574,0.8,17.4,2.5,93rd,0.019,246th,0.3,223rd,3.1,200th
-Cade Cunningham,19.9,0.516,28.7,-3.1,DET,Detroit Pistons,17.4,0.504,-4.3,23.71,2.5,94th,0.012,261st,1.2,163rd,4.99,120th
-Aaron Gordon,17.5,0.636,26.3,4.7,DEN,Denver Nuggets,15,0.602,4.3,23.5,2.5,95th,0.034,203rd,0.4,216th,2.8,216th
-Xavier Tillman,7.3,0.552,15.4,3.7,MEM,Memphis Grizzlies,4.8,0.51,-0.5,6.98,2.5,96th,0.042,179th,4.2,42nd,8.42,46th
-Ish Smith,8.8,0.515,17.8,-4.5,WAS,Washington Wizards,6.3,0.466,-2.4,11.96,2.5,97th,0.049,155th,-2.1,478th,5.84,91st
-Terence Davis,12.8,0.569,19.9,1.6,SAC,Sacramento Kings,10.4,0.543,2,11.78,2.4,98th,0.026,222nd,-0.4,377th,8.12,48th
-Goran Dragic,9.9,0.518,19.2,4.5,BKN,Brooklyn Nets,7.5,0.474,0.3,11.25,2.4,99th,0.044,170th,4.2,43rd,7.95,51st
-Isaiah Livers,8.8,0.665,14.6,0.9,DET,Detroit Pistons,6.4,0.629,-0.5,7.73,2.4,100th,0.036,194th,1.4,147th,6.87,69th
-Ish Wainright,4.8,0.53,8.6,1.6,PHX,Phoenix Suns,2.4,0.494,0.9,3.53,2.4,101st,0.036,193rd,0.7,186th,5.07,116th
-Jericho Sims,4.6,0.727,14.9,6.5,NYK,New York Knicks,2.2,0.674,1.9,5.18,2.4,102nd,0.053,140th,4.6,36th,9.72,34th
-Mohamed Bamba,12.9,0.612,21.6,-1.4,ORL,Orlando Magic,10.6,0.581,-5.3,16.7,2.3,103rd,0.031,209th,3.9,56th,4.9,126th
-Moritz Wagner,11.3,0.59,15.5,-3.5,ORL,Orlando Magic,9,0.623,-2.4,10.72,2.3,104th,-0.033,424th,-1.1,422nd,4.78,136th
-Lauri Markkanen,17.1,0.648,22.5,2,CLE,Cleveland Cavaliers,14.8,0.582,2.8,19.98,2.3,105th,0.066,106th,-0.8,397th,2.52,227th
-Kyle Lowry,15.7,0.724,28.9,5,MIA,Miami Heat,13.4,0.6,4,25.94,2.3,106th,0.124,43rd,1,173rd,2.96,211st
-Dejounte Murray,23.4,0.559,39.3,0.4,SAS,San Antonio Spurs,21.1,0.533,0.8,40.3,2.3,107th,0.026,221st,-0.4,378th,-1,487th
-KZ Okpala,6,0.574,11.7,3.4,MIA,Miami Heat,3.7,0.521,0.3,4.88,2.3,108th,0.053,138th,3.1,73rd,6.82,71st
-Jaylen Brown,25.9,0.627,42.4,10.4,BOS,Boston Celtics,23.6,0.574,6.9,33.9,2.3,109th,0.053,135th,3.5,64th,8.5,45th
-Nemanja Bjelica,8.4,0.708,15.7,1,GSW,Golden State Warriors,6.1,0.573,2,12.6,2.3,110th,0.135,38th,-1,415th,3.1,199th
-Bones Hyland,12.4,0.633,21.3,1.1,DEN,Denver Nuggets,10.1,0.558,0.6,15.8,2.3,111st,0.075,85th,0.5,202nd,5.5,98th
-Buddy Hield,17.9,0.584,22.5,-7.1,IND,Indiana Pacers,15.6,0.549,-2,20.6,2.3,112nd,0.035,198th,-5.1,564th,1.9,259th
-Terry Taylor,11.9,0.633,11.3,-10.1,IND,Indiana Pacers,9.6,0.659,-3.5,9.53,2.3,113rd,-0.026,411st,-6.6,586th,1.77,267th
-Udoka Azubuike,6.9,0.702,11.8,3.1,UTA,Utah Jazz,4.7,0.743,0,5.33,2.2,114th,-0.041,441st,3.1,75th,6.47,79th
-Paul Reed,5.3,0.608,11.9,2.4,PHI,Philadelphia 76ers,3.1,0.568,-0.7,4.95,2.2,115th,0.04,183rd,3.1,76th,6.95,67th
-R.J. Hampton,9.8,0.554,11.1,-9.2,ORL,Orlando Magic,7.6,0.481,-6.5,8.93,2.2,116th,0.073,91st,-2.7,513rd,2.17,244th
-Darius Garland,23.9,0.578,40.6,6.2,CLE,Cleveland Cavaliers,21.7,0.576,5.5,36.3,2.2,117th,0.002,304th,0.7,187th,4.3,149th
-Pascal Siakam,25,0.52,40.6,-0.3,TOR,Toronto Raptors,22.8,0.565,3.7,36.7,2.2,118th,-0.045,451st,-4,540th,3.9,165th
-Tyrese Haliburton,17.5,0.634,34.4,-4.4,IND,Indiana Pacers,15.3,0.596,-4.2,28.3,2.2,119th,0.038,191st,-0.2,364th,6.1,86th
-Clint Capela,13.3,0.685,28,5.8,ATL,Atlanta Hawks,11.1,0.605,1.7,22.8,2.2,120th,0.08,78th,4.1,49th,5.2,110th
-Dwight Powell,10.8,0.725,20.6,8.3,DAL,Dallas Mavericks,8.7,0.724,0.9,14.1,2.1,121st,0.001,306th,7.4,7th,6.5,76th
-Sandro Mamukelashvili,5.8,0.985,6.7,-2.7,MIL,Milwaukee Bucks,3.8,0.618,-3.5,3.08,2,122nd,0.367,10th,0.8,181st,3.62,173rd
-Lance Stephenson,10.3,0.589,8.8,-12,IND,Indiana Pacers,8.3,0.536,-2.4,9.53,2,123rd,0.053,134th,-9.6,600th,-0.73,477th
-Precious Achiuwa,11.1,0.575,12.9,-3.1,TOR,Toronto Raptors,9.1,0.503,1.1,15,2,124th,0.072,94th,-4.2,544th,-2.1,526th
-Dorian Finney-Smith,13,0.772,24.8,8.4,DAL,Dallas Mavericks,11,0.604,3,19.4,2,125th,0.168,27th,5.4,25th,5.4,100th
-Admiral Schofield,5.7,0.502,4,-7.7,ORL,Orlando Magic,3.8,0.538,-3.4,3,1.9,126th,-0.036,428th,-4.3,546th,1,326th
-Norman Powell,20.9,0.675,22.7,-5.4,LAC,Los Angeles Clippers,19,0.603,-4.9,16.35,1.9,127th,0.072,93rd,-0.5,383rd,6.35,81st
-Malachi Flynn,6.2,0.437,10.4,-2.7,TOR,Toronto Raptors,4.3,0.488,-0.6,5.78,1.9,128th,-0.051,462nd,-2.1,482nd,4.62,146th
-Chuma Okeke,10.4,0.473,15.4,-5.4,ORL,Orlando Magic,8.6,0.5,-4.5,14.1,1.8,129th,-0.027,413rd,-0.9,408th,1.3,303rd
-DeMar DeRozan,29.7,0.558,33.6,-6.8,CHI,Chicago Bulls,27.9,0.59,1,37.2,1.8,130th,-0.032,422nd,-7.8,593rd,-3.6,555th
-Will Barton,16.5,0.58,25.4,1.6,DEN,Denver Nuggets,14.7,0.548,1.4,23.4,1.8,131st,0.032,208th,0.2,226th,2,254th
-Jared Butler,5.5,0.444,12.5,4,UTA,Utah Jazz,3.8,0.509,-0.4,4.8,1.7,132nd,-0.065,488th,4.4,40th,7.7,54th
-Tomas Satoransky,5.3,0.515,19.2,2.3,WAS,Washington Wizards,3.6,0.461,-3,6.47,1.7,133rd,0.054,133rd,5.3,27th,12.73,16th
-Wenyen Gabriel,7.1,0.645,12.7,3.9,LAL,Los Angeles Lakers,5.4,0.549,1.7,6.98,1.7,134th,0.096,61st,2.2,112nd,5.72,92nd
-Marcus Smart,13.8,0.527,25.5,6.1,BOS,Boston Celtics,12.1,0.541,6.2,26.5,1.7,135th,-0.014,370th,-0.1,359th,-1,484th
-Stanley Johnson,8.4,0.547,11.7,-3,LAL,Los Angeles Lakers,6.7,0.564,-1,8.7,1.7,136th,-0.017,385th,-2,474th,3,207th
-Justin Anderson,8.1,0.403,12.1,-5.8,IND,Indiana Pacers,6.4,0.493,-0.9,8.55,1.7,137th,-0.09,530th,-4.9,556th,3.55,179th
-Desmond Bane,19.9,0.689,34.2,13,MEM,Memphis Grizzlies,18.2,0.592,4.8,27.9,1.7,138th,0.097,60th,8.2,5th,6.3,82nd
-Dillon Brooks,20,0.528,27.7,5.7,MEM,Memphis Grizzlies,18.4,0.515,6.4,20.85,1.6,139th,0.013,259th,-0.7,393rd,6.85,70th
-Jusuf Nurkic,16.6,0.586,24.4,-3.1,POR,Portland Trail Blazers,15,0.586,0.2,19.6,1.6,140th,0,340th,-3.3,523rd,4.8,133rd
-Taurean Prince,8.9,0.535,10.4,-4.4,MIN,Minnesota Timberwolves,7.3,0.588,-0.1,10.9,1.6,141st,-0.053,468th,-4.3,545th,-0.5,462nd
-Larry Nance,8.6,0.581,14.1,-0.1,NOP,New Orleans Pelicans,7,0.59,-1.3,9.9,1.6,142nd,-0.009,359th,1.2,162nd,4.2,153rd
-Elijah Hughes,5.1,0.456,5,-7.6,POR,Portland Trail Blazers,3.5,0.426,-6.4,1.88,1.6,143rd,0.03,214th,-1.2,424th,3.12,197th
-Trey Lyles,12.1,0.557,16.1,-3.2,SAC,Sacramento Kings,10.5,0.588,-3.1,13.4,1.6,144th,-0.031,420th,-0.1,360th,2.7,222nd
-Max Strus,12.2,0.722,21.5,8.3,MIA,Miami Heat,10.6,0.614,2.5,15.4,1.6,145th,0.108,49th,5.8,19th,6.1,85th
-Daniel Gafford,10.9,0.749,14.8,-4.2,WAS,Washington Wizards,9.4,0.709,-2.9,14.4,1.5,146th,0.04,182nd,-1.3,438th,0.4,385th
-Saben Lee,7.1,0.458,14.3,-1.6,DET,Detroit Pistons,5.6,0.499,-2.2,8.33,1.5,147th,-0.041,440th,0.6,197th,5.97,88th
-Grant Williams,9.3,0.64,15.7,3.7,BOS,Boston Celtics,7.8,0.635,1.9,13.3,1.5,148th,0.005,289th,1.8,129th,2.4,232nd
-Keljin Blevins,4.6,0.319,4.4,-7.5,POR,Portland Trail Blazers,3.1,0.41,-6.7,1.13,1.5,149th,-0.091,531st,-0.8,403rd,3.27,192nd
-Joshua Primo,7.3,0.419,11.3,0.6,SAS,San Antonio Spurs,5.8,0.487,-1.6,6.45,1.5,150th,-0.068,495th,2.2,113rd,4.85,129th
-Luka Doncic,29.9,0.601,49.5,7.8,DAL,Dallas Mavericks,28.4,0.571,2.2,43.02,1.5,151st,0.03,213rd,5.6,22nd,6.48,77th
-Al Horford,11.7,0.752,31.2,11.2,BOS,Boston Celtics,10.2,0.574,5.6,24.5,1.5,152nd,0.178,25th,5.6,23rd,6.7,74th
-Christian Wood,19.4,0.687,28.3,-2,HOU,Houston Rockets,17.9,0.594,-6,24.1,1.5,153rd,0.093,63rd,4,50th,4.2,154th
-Lonzo Ball,14.4,0.626,25.8,-2.5,CHI,Chicago Bulls,13,0.575,2.3,19.8,1.4,154th,0.051,149th,-4.8,554th,6,87th
-John Konchar,6.2,0.444,13.5,0.6,MEM,Memphis Grizzlies,4.8,0.615,1.3,11.4,1.4,155th,-0.171,584th,-0.7,396th,2.1,250th
-Wayne Ellington,8.1,0.627,11.8,0.8,LAL,Los Angeles Lakers,6.7,0.593,-1.4,6.45,1.4,156th,0.034,200th,2.2,109th,5.35,102nd
-Chimezie Metu,10.2,0.555,13.4,-3.9,SAC,Sacramento Kings,8.9,0.546,-2.6,11.53,1.3,157th,0.009,278th,-1.3,430th,1.87,261st
-Sam Hauser,3.8,0.659,6.4,1.1,BOS,Boston Celtics,2.5,0.65,0,2.85,1.3,158th,0.009,273rd,1.1,169th,3.55,178th
-Duane Washington,11.2,0.546,13.3,-1.5,IND,Indiana Pacers,9.9,0.521,-2.6,8.63,1.3,159th,0.025,228th,1.1,165th,4.67,144th
-Denzel Valentine,4.2,0.581,6.2,-0.1,UTA,Utah Jazz,2.9,0.523,-1.1,2.85,1.3,160th,0.058,122nd,1,172nd,3.35,188th
-Jeremiah Robinson-Earl,8.8,0.588,12.3,-4.3,OKC,Oklahoma City Thunder,7.5,0.526,-4.9,7.43,1.3,161st,0.062,114th,0.6,195th,4.87,128th
-Nathan Knight,5,0.739,8.4,1.9,MIN,Minnesota Timberwolves,3.7,0.603,0.6,4.58,1.3,162nd,0.136,37th,1.3,151st,3.82,168th
-Luka Garza,7,0.637,10.2,0.2,DET,Detroit Pistons,5.8,0.535,-2,5.55,1.2,163rd,0.102,56th,2.2,111st,4.65,145th
-P.J. Washington,11.5,0.676,22.6,3.1,CHA,Charlotte Hornets,10.3,0.586,2.2,18.72,1.2,164th,0.09,65th,0.9,176th,3.88,166th
-Miles McBride,3.4,0.582,5.9,-0.2,NYK,New York Knicks,2.2,0.393,2.5,4.58,1.2,165th,0.189,19th,-2.7,509th,1.32,300th
-Georgios Kalaitzakis,7.8,0.642,4.4,-12.2,OKC,Oklahoma City Thunder,6.6,0.536,-10.3,2.48,1.2,166th,0.106,51st,-1.9,465th,1.92,257th
-Kenrich Williams,8.6,0.53,16.2,-2,OKC,Oklahoma City Thunder,7.4,0.532,0.5,10.5,1.2,167th,-0.002,344th,-2.5,500th,5.7,94th
-Santi Aldama,5.3,0.424,7.3,-2,MEM,Memphis Grizzlies,4.1,0.452,0.5,5.25,1.2,168th,-0.028,416th,-2.5,499th,2.05,252nd
-Taj Gibson,5.5,0.649,7.8,-3.7,NYK,New York Knicks,4.4,0.606,0.8,7.13,1.1,169th,0.043,173rd,-4.5,552nd,0.67,360th
-Maxi Kleber,8.1,0.553,13.8,1.1,DAL,Dallas Mavericks,7,0.537,2,12.47,1.1,170th,0.016,253rd,-0.9,409th,1.33,299th
-Talen Horton-Tucker,11.1,0.477,16.6,-2,LAL,Los Angeles Lakers,10,0.503,-1.5,13.73,1.1,171st,-0.026,410th,-0.5,389th,2.87,214th
-Timothe Luwawu-Cabarrot,5.5,0.511,9.4,2.6,ATL,Atlanta Hawks,4.4,0.556,-1,4.65,1.1,172nd,-0.045,449th,3.6,63rd,4.75,138th
-Wesley Matthews,6.2,0.556,9.6,0.2,MIL,Milwaukee Bucks,5.1,0.536,2.8,6.9,1.1,173rd,0.02,243rd,-2.6,504th,2.7,220th
-Bogdan Bogdanovic,16.2,0.585,27.4,7.5,ATL,Atlanta Hawks,15.1,0.562,3,22.65,1.1,174th,0.023,230th,4.5,37th,4.75,139th
-Markelle Fultz,11.9,0.495,20.9,-1.7,ORL,Orlando Magic,10.8,0.517,-2.1,14.18,1.1,175th,-0.022,397th,0.4,213rd,6.72,72nd
-Isaiah Hartenstein,9.4,0.681,21.3,6.9,LAC,Los Angeles Clippers,8.3,0.664,2.2,17.3,1.1,176th,0.017,250th,4.7,33rd,4,162nd
-Kira Lewis,6.9,0.571,10.5,0.1,NOP,New Orleans Pelicans,5.9,0.466,-4.5,5.18,1,177th,0.105,52nd,4.6,35th,5.32,104th
-Brandon Clarke,11.4,0.635,20.5,5.6,MEM,Memphis Grizzlies,10.4,0.66,2.8,18.24,1,178th,-0.025,407th,2.8,87th,2.26,237th
-Miles Bridges,21.1,0.621,26,-4.7,CHA,Charlotte Hornets,20.1,0.593,1.8,30.9,1,179th,0.028,219th,-6.5,585th,-4.9,572nd
-Lonnie Walker,13,0.499,17.6,0.3,SAS,San Antonio Spurs,12.1,0.512,-0.9,16.5,0.9,180th,-0.013,369th,1.2,159th,1.1,320th
-Usman Garuba,2.9,0.639,8.4,-0.1,HOU,Houston Rockets,2,0.51,1.4,5.18,0.9,181st,0.129,40th,-1.5,449th,3.22,195th
-Trevor Ariza,4.9,0.451,8.5,-1.9,LAL,Los Angeles Lakers,4,0.449,-2.3,5.25,0.9,182nd,0.002,303rd,0.4,214th,3.25,193rd
-Cameron Johnson,13.4,0.58,16.3,-2.9,PHX,Phoenix Suns,12.5,0.625,3.3,19.5,0.9,183rd,-0.045,452nd,-6.2,583rd,-3.2,544th
-Jamorko Pickett,4.7,0.49,7.8,-0.8,DET,Detroit Pistons,3.8,0.491,0,4.8,0.9,184th,-0.001,342nd,-0.8,404th,3,209th
-Keita Bates-Diop,6.6,0.59,8,-0.7,SAS,San Antonio Spurs,5.7,0.578,0.1,7.65,0.9,185th,0.012,265th,-0.8,401st,0.35,389th
-Ty Jerome,7.9,0.44,13.6,-3.4,OKC,Oklahoma City Thunder,7,0.486,-0.1,8.63,0.9,186th,-0.046,454th,-3.3,524th,4.97,121st
-Jake Layman,3.3,0.781,6.3,4.2,MIN,Minnesota Timberwolves,2.4,0.5,-0.3,2.55,0.9,187th,0.281,11th,4.5,38th,3.75,171st
-Danuel House,6.7,0.563,15.7,12.4,UTA,Utah Jazz,5.9,0.555,1.5,7.65,0.8,188th,0.008,280th,10.9,1st,8.05,49th
-Donovan Mitchell,26.7,0.528,30.8,-8.6,UTA,Utah Jazz,25.9,0.572,3.8,36.8,0.8,189th,-0.044,447th,-12.4,604th,-6,589th
-Quentin Grimes,6.9,0.472,10.2,-2.7,NYK,New York Knicks,6.1,0.565,-1.2,6.75,0.8,190th,-0.093,532nd,-1.5,447th,3.45,182nd
-PJ Dozier,6.2,0.45,8.9,-5,DEN,Denver Nuggets,5.4,0.463,-5.1,5.85,0.8,191st,-0.013,368th,0.1,237th,3.05,205th
-Kyrie Irving,28.2,0.614,41.1,4.7,BKN,Brooklyn Nets,27.4,0.592,4.2,30.45,0.8,192nd,0.022,235th,0.5,206th,10.65,27th
-Semi Ojeleye,4.1,0.678,4.7,-1.6,LAC,Los Angeles Clippers,3.3,0.438,-4.8,2.25,0.8,193rd,0.24,16th,3.2,70th,2.45,229th
-Leandro Bolmaro,2.2,0.356,6.1,3.8,MIN,Minnesota Timberwolves,1.4,0.419,0.1,2.1,0.8,194th,-0.063,487th,3.7,60th,4,164th
-Danny Green,6.7,0.485,15.6,5,PHI,Philadelphia 76ers,5.9,0.561,1.3,10.4,0.8,195th,-0.076,515th,3.7,59th,5.2,111st
-Mamadi Diakite,5,0.552,8.8,-1.6,OKC,Oklahoma City Thunder,4.3,0.54,-0.9,5.85,0.7,196th,0.012,263rd,-0.7,395th,2.95,212nd
-Braxton Key,7.9,0.56,16.2,2.7,DET,Detroit Pistons,7.2,0.508,2.5,11.18,0.7,197th,0.052,144th,0.2,233rd,5.02,118th
-Aaron Nesmith,4.5,0.49,7.7,0.9,BOS,Boston Celtics,3.8,0.507,0.4,4.13,0.7,198th,-0.017,384th,0.5,205th,3.57,176th
-Tony Snell,4.2,0.489,3.7,-4.5,NOP,New Orleans Pelicans,3.5,0.541,-2.2,3.53,0.7,199th,-0.052,464th,-2.3,489th,0.17,409th
-Kevin Knox,3.8,0.386,4.6,-0.9,ATL,Atlanta Hawks,3.1,0.491,-2.3,2.4,0.7,200th,-0.105,549th,1.4,145th,2.2,243rd
-Vlatko Cancar,4.8,0.637,9.2,3.3,DEN,Denver Nuggets,4.1,0.657,0.3,5.1,0.7,201st,-0.02,392nd,3,78th,4.1,159th
-Draymond Green,8.2,0.657,23.8,3.3,GSW,Golden State Warriors,7.5,0.582,3.8,17.93,0.7,202nd,0.075,86th,-0.5,385th,5.87,90th
-Eric Paschall,6.5,0.528,6.3,-4.5,UTA,Utah Jazz,5.8,0.612,-0.7,5.88,0.7,203rd,-0.084,522nd,-3.8,533rd,0.42,384th
-Malik Fitts,2.1,0.571,2.5,-1.6,BOS,Boston Celtics,1.4,0.553,-1.3,1.2,0.7,204th,0.018,247th,-0.3,372nd,1.3,301st
-Paul Millsap,4.1,0.464,5.8,-3.2,PHI,Philadelphia 76ers,3.5,0.458,-0.8,5.03,0.6,205th,0.006,286th,-2.4,497th,0.77,344th
-Willy Hernangomez,9.8,0.532,16.1,1.3,NOP,New Orleans Pelicans,9.2,0.584,-0.9,10.65,0.6,206th,-0.052,463rd,2.2,108th,5.45,99th
-Mitchell Robinson,9.1,0.682,21.1,0.9,NYK,New York Knicks,8.5,0.722,-1.1,17,0.6,207th,-0.04,435th,2,124th,4.1,160th
-Jerami Grant,19.8,0.606,27.1,1,DET,Detroit Pistons,19.2,0.556,-4.7,17.78,0.6,208th,0.05,152nd,5.7,20th,9.32,36th
-Luke Kornet,2.6,0.56,5.9,0.6,BOS,Boston Celtics,2,0.506,1.5,4.13,0.6,209th,0.054,132nd,-0.9,410th,1.77,268th
-Kyle Anderson,8.2,0.58,17.4,2.5,MEM,Memphis Grizzlies,7.6,0.506,0.9,16.6,0.6,210th,0.074,89th,1.6,137th,0.8,339th
-Jaylen Nowell,9.1,0.557,12.7,0.2,MIN,Minnesota Timberwolves,8.5,0.581,1.1,12.42,0.6,211st,-0.024,399th,-0.9,407th,0.28,396th
-Jalen Johnson,3,0.639,4.1,0.8,ATL,Atlanta Hawks,2.4,0.59,-0.9,1.95,0.6,212nd,0.049,156th,1.7,135th,2.15,246th
-Landry Shamet,8.8,0.544,8.3,-6.4,PHX,Phoenix Suns,8.3,0.55,2,12.7,0.5,213rd,-0.006,355th,-8.4,596th,-4.4,568th
-Delon Wright,4.9,0.585,16.9,6.3,ATL,Atlanta Hawks,4.4,0.576,0.8,12,0.5,214th,0.009,279th,5.5,24th,4.9,125th
-Giannis Antetokounmpo,30.4,0.641,48,7.4,MIL,Milwaukee Bucks,29.9,0.633,5.9,47.3,0.5,215th,0.008,281st,1.5,143rd,0.7,358th
-Tim Frazier,3.8,0.35,4.4,-7,CLE,Cleveland Cavaliers,3.3,0.398,-6.7,2.78,0.5,216th,-0.048,458th,-0.3,371st,1.62,275th
-Trent Forrest,3.8,0.443,10.8,3.3,UTA,Utah Jazz,3.3,0.554,1.3,6.51,0.5,217th,-0.111,554th,2,123rd,4.29,150th
-Jalen McDaniels,6.7,0.738,12.9,3.3,CHA,Charlotte Hornets,6.2,0.595,0.8,8.19,0.5,218th,0.143,35th,2.5,98th,4.71,142nd
-Ivica Zubac,10.8,0.679,20.3,2.7,LAC,Los Angeles Clippers,10.3,0.66,-1.7,16.9,0.5,219th,0.019,244th,4.4,41st,3.4,184th
-DeAndre Jordan,4.7,0.693,6.6,-3.3,PHI,Philadelphia 76ers,4.3,0.641,-3.1,5.25,0.4,220th,0.052,146th,-0.2,367th,1.35,295th
-Mike Conley,14.1,0.576,25.2,3.1,UTA,Utah Jazz,13.7,0.572,4.5,26.2,0.4,221st,0.004,296th,-1.4,441st,-1,486th
-Cory Joseph,8.4,0.585,14.3,-1.3,DET,Detroit Pistons,8,0.579,-3.1,12.84,0.4,222nd,0.006,285th,1.8,127th,1.46,287th
-Chris Boucher,9.8,0.632,15.1,0.5,TOR,Toronto Raptors,9.4,0.571,2.4,16.4,0.4,223rd,0.061,116th,-1.9,467th,-1.3,498th
-Kevin Durant,30.3,0.615,46.6,5.5,BKN,Brooklyn Nets,29.9,0.635,5.3,34.48,0.4,224th,-0.02,390th,0.2,225th,12.12,18th
-Joe Wieskamp,2.4,0.309,3.6,0,SAS,San Antonio Spurs,2,0.494,0,2.33,0.4,225th,-0.185,591st,0,270th,1.27,305th
-Rudy Gay,8.5,0.625,17.9,9.1,UTA,Utah Jazz,8.1,0.539,3.3,10.84,0.4,226th,0.086,69th,5.8,18th,7.06,65th
-Joe Harris,11.7,0.709,16.6,2.5,BKN,Brooklyn Nets,11.3,0.624,1.3,11.33,0.4,227th,0.085,70th,1.2,158th,5.27,108th
-Willie Cauley-Stein,2,0.519,4.7,1.4,PHI,Philadelphia 76ers,1.7,0.474,1.2,3.3,0.3,228th,0.045,167th,0.2,230th,1.4,291st
-Chris Paul,15,0.623,37.5,5,PHX,Phoenix Suns,14.7,0.581,7.1,36.75,0.3,229th,0.042,180th,-2.1,480th,0.75,348th
-Brodric Thomas,2.1,0.572,4.4,1,BOS,Boston Celtics,1.8,0.52,0.3,2.48,0.3,230th,0.052,143rd,0.7,191st,1.92,256th
-Isaac Bonga,1.1,0.542,1.2,-3,TOR,Toronto Raptors,0.8,0.363,-2.1,1.13,0.3,231st,0.179,24th,-0.9,411st,0.07,418th
-Udonis Haslem,2.8,0.557,3.8,-0.9,MIA,Miami Heat,2.5,0.495,-1.2,2.25,0.3,232nd,0.062,115th,0.3,221st,1.55,283rd
-Josh Okogie,3,0.512,5.6,0.9,MIN,Minnesota Timberwolves,2.7,0.526,0.8,4.05,0.3,233rd,-0.014,374th,0.1,239th,1.55,282nd
-Ayo Dosunmu,9.1,0.478,11.4,-5.5,CHI,Chicago Bulls,8.8,0.596,-2.6,14.2,0.3,234th,-0.118,561st,-2.9,516th,-2.8,538th
-Luke Kennard,12.2,0.565,19.5,6.2,LAC,Los Angeles Clippers,11.9,0.619,2.2,17.8,0.3,235th,-0.054,469th,4,52nd,1.7,270th
-Devon Dotson,2.7,0.751,4,-0.7,CHI,Chicago Bulls,2.4,0.538,-0.2,3.08,0.3,236th,0.213,17th,-0.5,390th,0.92,334th
-Shake Milton,8.5,0.759,14.8,0.5,PHI,Philadelphia 76ers,8.2,0.517,-0.1,10.69,0.3,237th,0.242,15th,0.6,201st,4.11,158th
-Rodney Hood,3.4,0.752,7.1,3.5,LAC,Los Angeles Clippers,3.1,0.493,0.2,4.13,0.3,238th,0.259,14th,3.3,68th,2.97,210th
-Isaiah Stewart,8.6,0.634,14.6,-4.5,DET,Detroit Pistons,8.3,0.549,-5.2,12.8,0.3,239th,0.085,71st,0.7,192nd,1.8,265th
-Petr Cornelie,1.4,0.53,2.2,0.4,DEN,Denver Nuggets,1.1,0.418,0.6,1.58,0.3,240th,0.112,48th,-0.2,363rd,0.62,364th
-Kai Jones,1.3,0.755,2.2,-0.3,CHA,Charlotte Hornets,1,0.628,-0.7,0.83,0.3,241st,0.127,42nd,0.4,211st,1.37,294th
-Nic Claxton,9,0.677,17.6,1.7,BKN,Brooklyn Nets,8.7,0.672,-0.6,11.03,0.3,242nd,0.005,293rd,2.3,106th,6.57,75th
-Jose Alvarado,6.4,0.553,12.1,-1.3,NOP,New Orleans Pelicans,6.1,0.52,2.6,10.94,0.3,243rd,0.033,207th,-3.9,538th,1.16,314th
-Naji Marshall,5.9,0.533,6.3,-4.1,NOP,New Orleans Pelicans,5.7,0.505,-0.9,6.55,0.2,244th,0.028,218th,-3.2,522nd,-0.25,448th
-Kevin Huerter,12.3,0.575,19.8,-0.1,ATL,Atlanta Hawks,12.1,0.57,2.3,19.3,0.2,245th,0.005,291st,-2.4,493rd,0.5,377th
-Marcus Garrett,1.3,0.287,5.2,1.3,MIA,Miami Heat,1.1,0.28,1.4,3.53,0.2,246th,0.007,284th,-0.1,357th,1.67,272nd
-Jahmi'us Ramsey,3.4,0.655,2.7,-2.7,SAC,Sacramento Kings,3.2,0.468,-1.1,2.48,0.2,247th,0.187,21st,-1.6,458th,0.22,402nd
-Gary Trent,18.5,0.532,24.1,2,TOR,Toronto Raptors,18.3,0.546,2.5,26.5,0.2,248th,-0.014,373rd,-0.5,387th,-2.4,530th
-Deandre Ayton,17.4,0.64,28.2,4.6,PHX,Phoenix Suns,17.2,0.656,5.9,23.35,0.2,249th,-0.016,377th,-1.3,439th,4.85,131st
-Jevon Carter,4.4,0.569,6.8,-6.6,MIL,Milwaukee Bucks,4.2,0.531,-0.9,7.2,0.2,250th,0.038,188th,-5.7,571st,-0.4,452nd
-Bol Bol,2.7,0.525,3.6,-0.2,DEN,Denver Nuggets,2.5,0.583,0.4,3.08,0.2,251st,-0.058,474th,-0.6,391st,0.52,371st
-Malcolm Brogdon,19.3,0.539,26.1,-6,IND,Indiana Pacers,19.1,0.557,0,22.35,0.2,252nd,-0.018,386th,-6,578th,3.75,170th
-Yves Pons,1.3,0.454,1.6,-2.5,MEM,Memphis Grizzlies,1.1,0.385,-2.5,0.9,0.2,253rd,0.069,97th,0,330th,0.7,359th
-Neemias Queta,3.4,0.437,5.5,-0.5,SAC,Sacramento Kings,3.2,0.495,-0.5,4.05,0.2,254th,-0.058,475th,0,262nd,1.45,288th
-Brandon Boston,6.9,0.465,11.3,1.6,LAC,Los Angeles Clippers,6.7,0.481,-0.8,7.13,0.2,255th,-0.016,379th,2.4,103rd,4.17,156th
-De'Andre Hunter,13.6,0.509,17.8,3.2,ATL,Atlanta Hawks,13.4,0.547,0.5,13.05,0.2,256th,-0.038,430th,2.7,88th,4.75,137th
-Kevin Love,13.8,0.62,18.9,-1,CLE,Cleveland Cavaliers,13.6,0.594,1.3,20.3,0.2,257th,0.026,225th,-2.3,487th,-1.4,501st
-Chris Chiozza,2.1,0.345,4.6,-1.8,GSW,Golden State Warriors,2,0.412,-1.4,3,0.1,258th,-0.067,492nd,-0.4,380th,1.6,279th
-Davon Reed,4.5,0.556,5.6,-5.4,DEN,Denver Nuggets,4.4,0.624,-0.5,5.78,0.1,259th,-0.068,494th,-4.9,557th,-0.18,445th
-Scottie Barnes,15.4,0.628,26.9,4,TOR,Toronto Raptors,15.3,0.552,0.8,25.5,0.1,260th,0.076,83rd,3.2,72nd,1.4,293rd
-Derrick Favors,5.4,0.582,9,-1.9,OKC,Oklahoma City Thunder,5.3,0.534,-3.7,5.93,0.1,261st,0.048,157th,1.8,128th,3.07,204th
-Dewayne Dedmon,6.4,0.601,8.9,-1.8,MIA,Miami Heat,6.3,0.632,0.7,11,0.1,262nd,-0.031,421st,-2.5,502nd,-2.1,525th
-Serge Ibaka,6.9,0.668,10.5,0.8,MIL,Milwaukee Bucks,6.8,0.579,-1,7.9,0.1,263rd,0.089,66th,1.8,131st,2.6,225th
-Myles Powell,1.3,0.466,1.4,-0.9,PHI,Philadelphia 76ers,1.2,0.364,-1.6,0.6,0.1,264th,0.102,55th,0.7,193rd,0.8,338th
-Kelly Olynyk,9.2,0.679,17.3,2.3,DET,Detroit Pistons,9.1,0.561,-1.8,11.18,0.1,265th,0.118,45th,4.1,47th,6.12,84th
-Kevin Pangos,1.7,0.216,2.8,-2.9,CLE,Cleveland Cavaliers,1.6,0.408,-1.4,2.03,0.1,266th,-0.192,592nd,-1.5,450th,0.77,343rd
-Tacko Fall,1.2,0.463,3.6,0.2,CLE,Cleveland Cavaliers,1.1,0.398,0.5,2.48,0.1,267th,0.065,108th,-0.3,373rd,1.12,318th
-Jemerrio Jones,2,0.75,0.5,-6.5,LAL,Los Angeles Lakers,2,0.667,-6.5,0.38,0,268th,0.083,76th,0,249th,0.12,411st
-Javin DeLaurier,0,NA,4.5,4,MIL,Milwaukee Bucks,0,NA,4,3.38,0,269th,NA,2nd,0,274th,1.12,315th
-Sam Dekker,0,NA,-2.5,-5,TOR,Toronto Raptors,0,NA,-5,-1.88,0,270th,NA,3rd,0,308th,-0.62,469th
-DeJon Jarreau,0,NA,1,2,IND,Indiana Pacers,0,NA,2,0.75,0,271st,NA,4th,0,277th,0.25,399th
-Jaime Echenique,0,NA,-0.5,-1,WAS,Washington Wizards,0,NA,-1,-0.38,0,272nd,NA,5th,0,283rd,-0.12,439th
-Jordan Bell,0,NA,3,1,CHI,Chicago Bulls,0,NA,1,2.25,0,273rd,NA,6th,0,326th,0.75,351st
-C.J. Miles,0,NA,-2.5,-5,BOS,Boston Celtics,0,NA,-5,-1.88,0,274th,NA,7th,0,314th,-0.62,471st
-Tyler Hall,0,NA,-2.5,-5,NYK,New York Knicks,0,NA,-5,-1.88,0,275th,NA,8th,0,311st,-0.62,470th
-McKinley Wright,1,1,0.9,-1.4,MIN,Minnesota Timberwolves,1,0.833,-1.4,0.68,0,276th,0.167,29th,0,267th,0.22,403rd
-Mac McClung,4,0.776,7,3.5,LAL,Los Angeles Lakers,4,0.621,3.5,5.25,0,277th,0.155,30th,0,251st,1.75,269th
-Sharife Cooper,0.5,0.4,-0.9,-3,ATL,Atlanta Hawks,0.5,0.25,-2.7,-0.45,0,278th,0.15,31st,-0.3,374th,-0.45,456th
-Norvel Pelle,2,0.75,-0.5,-6.3,UTA,Utah Jazz,2,0.6,-6.3,-0.38,0,279th,0.15,32nd,0,285th,-0.12,437th
-Carlik Jones,0.8,0.306,0.1,-4,DEN,Denver Nuggets,0.8,0.202,-4,0.08,0,280th,0.104,54th,0,317th,0.02,423rd
-Ade Murkey,0,NA,-0.5,-1,SAC,Sacramento Kings,0,NA,-1,-0.38,0,281st,NA,1st,0,284th,-0.12,438th
-Jayson Tatum,26.9,0.655,45.9,13.5,BOS,Boston Celtics,26.9,0.578,8.8,40.8,0,282nd,0.077,80th,4.7,32nd,5.1,115th
-Chaundee Brown,6.2,0.517,7.5,-4,ATL,Atlanta Hawks,6.2,0.447,-4,5.63,0,283rd,0.07,96th,0,244th,1.87,262nd
-James Ennis,4.1,0.622,6.4,0,DEN,Denver Nuggets,4.1,0.553,0,4.8,0,284th,0.069,98th,0,257th,1.6,278th
-Mike Muscala,8,0.696,11.4,-0.3,OKC,Oklahoma City Thunder,8,0.63,0.5,9.08,0,285th,0.066,105th,-0.8,398th,2.32,235th
-Brad Wanamaker,3.6,0.536,6.7,-3.4,WAS,Washington Wizards,3.6,0.472,-1.9,5.03,0,286th,0.064,110th,-1.5,456th,1.67,271st
-Louis King,4.5,0.501,5.6,-2.9,SAC,Sacramento Kings,4.5,0.438,-2.9,4.2,0,287th,0.063,112nd,0,264th,1.4,292nd
-Xavier Sneed,0.6,0.306,0.7,-0.7,UTA,Utah Jazz,0.6,0.25,-0.7,0.53,0,288th,0.056,124th,0,250th,0.17,410th
-Ryan Arcidiacono,1.6,0.722,1.8,-1.2,NYK,New York Knicks,1.6,0.667,-1.2,1.35,0,289th,0.055,127th,0,354th,0.45,381st
-Moses Wright,1.3,0.524,2,-1.8,DAL,Dallas Mavericks,1.3,0.47,-1.8,1.5,0,290th,0.054,131st,0,349th,0.5,375th
-Hassani Gravett,6.3,0.682,11,-0.3,ORL,Orlando Magic,6.3,0.629,-0.3,8.25,0,291st,0.053,141st,0,297th,2.75,218th
-Darren Collison,1.3,0.333,0.8,-4.7,LAL,Los Angeles Lakers,1.3,0.286,-4.7,0.6,0,292nd,0.047,158th,0,258th,0.2,406th
-Davis Bertans,5.6,0.577,9.9,1.1,DAL,Dallas Mavericks,5.6,0.531,0.5,6.56,0,293rd,0.046,161st,0.6,199th,3.34,189th
-Cassius Winston,2,0.593,2.5,-0.9,WAS,Washington Wizards,2,0.549,-0.9,1.88,0,294th,0.044,169th,0,247th,0.62,365th
-Langston Galloway,2,0.313,4,-1.7,MIL,Milwaukee Bucks,2,0.269,-1.7,3,0,295th,0.044,171st,0,280th,1,324th
-Tyler Johnson,2.8,0.468,6.6,-1,SAS,San Antonio Spurs,2.8,0.425,-1,4.95,0,296th,0.043,174th,0,253rd,1.65,273rd
-Anthony Davis,23.2,0.62,37.8,-3.8,LAL,Los Angeles Lakers,23.2,0.578,-2.3,26.63,0,297th,0.042,178th,-1.5,454th,11.17,20th
-Evan Mobley,15,0.587,25,0,CLE,Cleveland Cavaliers,15,0.549,1.4,25.6,0,298th,0.038,187th,-1.4,444th,-0.6,467th
-Reggie Perry,9.2,0.571,10.8,-7.8,POR,Portland Trail Blazers,9.2,0.537,-7.8,8.1,0,299th,0.034,204th,0,300th,2.7,221st
-Cameron Oliver,11.5,0.738,16.8,-1,ATL,Atlanta Hawks,11.5,0.705,-1,12.6,0,300th,0.033,206th,0,304th,4.2,152nd
-Emmanuel Mudiay,1.5,0.426,3,-3.5,SAC,Sacramento Kings,1.5,0.399,-3.5,2.25,0,301st,0.027,220th,0,355th,0.75,349th
-Nik Stauskas,2.3,0.564,3.8,2.3,BOS,Boston Celtics,2.3,0.541,2.3,2.85,0,302nd,0.023,234th,0,340th,0.95,330th
-Chandler Hutchison,0.7,0.712,1.8,2.5,PHX,Phoenix Suns,0.7,0.694,2.5,1.35,0,303rd,0.018,249th,0,331st,0.45,380th
-Devin Cannady,10,0.547,14.2,-2.2,ORL,Orlando Magic,10,0.531,-2.2,10.65,0,304th,0.016,255th,0,286th,3.55,177th
-Freddie Gillespie,2.3,0.433,5.2,-3.2,ORL,Orlando Magic,2.3,0.419,-3.2,3.9,0,305th,0.014,257th,0,269th,1.3,304th
-Cheick Diallo,3.7,0.53,0.3,-11,DET,Detroit Pistons,3.7,0.517,-11,0.23,0,306th,0.013,258th,0,241st,0.07,415th
-Kris Dunn,7.1,0.488,12.5,-6.9,POR,Portland Trail Blazers,7.1,0.482,-6.1,10.35,0,307th,0.006,288th,-0.8,399th,2.15,247th
-George King,0.3,0.089,-2.9,-6.8,DAL,Dallas Mavericks,0.3,0.085,-6.8,-2.18,0,308th,0.004,298th,0,319th,-0.72,476th
-Sekou Doumbouya,7,0.718,18,12,LAL,Los Angeles Lakers,7,0.717,12,13.5,0,309th,0.001,305th,0,307th,4.5,147th
-Anthony Lamb,0,0,3,2.5,SAS,San Antonio Spurs,0,0,2.5,2.25,0,310th,0,308th,0,327th,0.75,352nd
-Arnoldas Kulboka,0,0,-3,-6,CHA,Charlotte Hornets,0,0,-6,-2.25,0,311st,0,309th,0,240th,-0.75,478th
-Cassius Stanley,5.8,0.516,7.3,-1.9,DET,Detroit Pistons,5.8,0.516,-1.9,5.48,0,312nd,0,310th,0,246th,1.82,264th
-Tyrell Terry,1,1,0.5,-1,MEM,Memphis Grizzlies,1,1,-1,0.38,0,313rd,0,311st,0,248th,0.12,412nd
-Matt Ryan,3,0.3,6.5,3,BOS,Boston Celtics,3,0.3,3,4.88,0,314th,0,312nd,0,254th,1.62,274th
-Tre Scott,3,0.5,6.5,2,CLE,Cleveland Cavaliers,3,0.5,2,4.88,0,315th,0,313rd,0,255th,1.62,276th
-Jaysean Paige,0,0,-4.5,-10,DET,Detroit Pistons,0,0,-10,-3.38,0,316th,0,314th,0,256th,-1.12,491st
-Zylan Cheatham,0,0,-6.5,-13,UTA,Utah Jazz,0,0,-13,-4.88,0,317th,0,316th,0,261st,-1.62,509th
-Jaden Springer,1,1,0.8,-4,PHI,Philadelphia 76ers,1,1,-4,0.6,0,318th,0,317th,0,265th,0.2,405th
-DaQuan Jeffries,0.7,0.5,1,-1,MEM,Memphis Grizzlies,0.7,0.5,-1,0.75,0,319th,0,318th,0,268th,0.25,401st
-Shaquille Harrison,2,0.333,4.8,-2,BKN,Brooklyn Nets,2,0.333,-2,3.6,0,320th,0,319th,0,271st,1.2,308th
-Craig Sword,2,0.75,4.8,0.3,WAS,Washington Wizards,2,0.75,0.3,3.6,0,321st,0,320th,0,272nd,1.2,312nd
-Jon Teske,0,0,1,-1,MEM,Memphis Grizzlies,0,0,-1,0.75,0,322nd,0,321st,0,273rd,0.25,400th
-Damyean Dotson,2,0.5,4.5,2.5,NYK,New York Knicks,2,0.5,2.5,3.38,0,323rd,0,322nd,0,275th,1.12,316th
-Feron Hunt,0,0,1,-0.5,NYK,New York Knicks,0,0,-0.5,0.75,0,324th,0,323rd,0,278th,0.25,398th
-Emanuel Terry,0,0,-1.8,-6.3,PHX,Phoenix Suns,0,0,-6.3,-1.35,0,325th,0,324th,0,282nd,-0.45,454th
-David Johnson,0,0,-0.5,-1,TOR,Toronto Raptors,0,0,-1,-0.38,0,326th,0,325th,0,287th,-0.12,436th
-Jordan Goodwin,0,0,-1.8,-4,WAS,Washington Wizards,0,0,-4,-1.35,0,327th,0,326th,0,288th,-0.45,455th
-JaQuori McLaughlin,0,0,-0.4,-2.3,DAL,Dallas Mavericks,0,0,-2.3,-0.3,0,328th,0,327th,0,290th,-0.1,435th
-Matt Mooney,0,0,-2,-5,NYK,New York Knicks,0,0,-5,-1.5,0,329th,0,328th,0,292nd,-0.5,459th
-Scotty Hopson,4,0.5,0,-6,OKC,Oklahoma City Thunder,4,0.5,-6,0,0,330th,0,329th,0,302nd,0,429th
-Juwan Morgan,2.5,0.833,0,-8.5,BOS,Boston Celtics,2.5,0.833,-8.5,0,0,331st,0,330th,0,312nd,0,425th
-Malik Newman,8,0.68,9,1,CLE,Cleveland Cavaliers,8,0.68,1,6.75,0,332nd,0,331st,0,313rd,2.25,239th
-Nate Hinton,0,0,0.3,2,IND,Indiana Pacers,0,0,2,0.23,0,333rd,0,332nd,0,324th,0.07,417th
-Joe Johnson,2,1,-0.5,-5,BOS,Boston Celtics,2,1,-5,-0.38,0,334th,0,333rd,0,336th,-0.12,440th
-Cat Barber,0,0,3.8,3,ATL,Atlanta Hawks,0,0,3,2.85,0,335th,0,334th,0,343rd,0.95,333rd
-Jay Huff,0,0,3.4,3.8,LAL,Los Angeles Lakers,0,0,3.8,2.55,0,336th,0,335th,0,345th,0.85,336th
-M.J. Walker,0,0,3.3,-1.5,PHX,Phoenix Suns,0,0,-1.5,2.48,0,337th,0,336th,0,346th,0.82,337th
-Jarron Cumberland,0.7,0.5,3.2,3,POR,Portland Trail Blazers,0.7,0.5,3,2.4,0,338th,0,337th,0,347th,0.8,340th
-Scottie Lewis,0.5,0.568,1.3,-2,CHA,Charlotte Hornets,0.5,0.568,-2,0.98,0,339th,0,338th,0,350th,0.32,390th
-Ahmad Caver,2,1,3,2,IND,Indiana Pacers,2,1,2,2.25,0,340th,0,339th,0,356th,0.75,350th
-Michael Porter,9.9,0.415,19.9,6.4,DEN,Denver Nuggets,9.9,0.416,6.4,14.93,0,341st,-0.001,341st,0,323rd,4.97,122nd
-D.J. Wilson,7.5,0.772,11.1,-4,TOR,Toronto Raptors,7.5,0.773,-4,8.33,0,342nd,-0.001,343rd,0,296th,2.77,217th
-Gabriel Lundberg,4.3,0.38,14.8,6.7,PHX,Phoenix Suns,4.3,0.382,6.7,11.1,0,343rd,-0.002,346th,0,291st,3.7,172nd
-Cameron McGriff,4.7,0.466,10.7,2.7,POR,Portland Trail Blazers,4.7,0.47,2.7,8.03,0,344th,-0.004,351st,0,301st,2.67,223rd
-Marcos Louzada Silva,3.9,0.512,1.2,-9,POR,Portland Trail Blazers,3.9,0.517,-9,0.9,0,345th,-0.005,353rd,0,339th,0.3,394th
-Paul Watson,3.4,0.427,3.8,-6.2,OKC,Oklahoma City Thunder,3.4,0.432,-6.2,2.85,0,346th,-0.005,354th,0,341st,0.95,331st
-Melvin Frazier,10.7,0.305,-2.8,-30.7,OKC,Oklahoma City Thunder,10.7,0.313,-30.7,-2.1,0,347th,-0.008,357th,0,318th,-0.7,474th
-Justin Jackson,2.1,0.464,1.9,-1.9,PHX,Phoenix Suns,2.1,0.472,-1.9,1.43,0,348th,-0.008,358th,0,289th,0.47,378th
-Gabriel Deck,2.9,0.662,3.2,-2,OKC,Oklahoma City Thunder,2.9,0.672,-2,2.4,0,349th,-0.01,363rd,0,348th,0.8,341st
-Wes Iwundu,7.3,0.547,9.7,0,ATL,Atlanta Hawks,7.3,0.557,0,7.28,0,350th,-0.01,364th,0,306th,2.42,231st
-Paris Bass,3,0.424,4,1,PHX,Phoenix Suns,3,0.436,1,3,0,351st,-0.012,367th,0,279th,1,323rd
-Micah Potter,4,0.491,-0.3,-13.3,DET,Detroit Pistons,4,0.505,-13.3,-0.23,0,352nd,-0.014,371st,0,294th,-0.07,431st
-Daniel Oturu,3,0.533,1.2,-8,TOR,Toronto Raptors,3,0.549,-8,0.9,0,353rd,-0.016,378th,0,337th,0.3,395th
-Zavier Simpson,11,0.388,13.8,-23.8,OKC,Oklahoma City Thunder,11,0.406,-23.8,10.35,0,354th,-0.018,389th,0,332nd,3.45,181st
-Trevelin Queen,4.3,0.593,6.3,0.8,HOU,Houston Rockets,4.3,0.619,0.8,4.73,0,355th,-0.026,408th,0,259th,1.57,281st
-Jaylen Morris,0.7,0.101,2.8,2.7,SAS,San Antonio Spurs,0.7,0.129,2.7,2.1,0,356th,-0.028,415th,0,328th,0.7,357th
-Jeff Dowtin,2.4,0.324,3.9,-3.9,ORL,Orlando Magic,2.4,0.353,-3.9,2.93,0,357th,-0.029,418th,0,338th,0.97,328th
-B.J. Johnson,6.5,0.485,7.4,-3,ORL,Orlando Magic,6.5,0.52,-3,5.55,0,358th,-0.035,425th,0,245th,1.85,263rd
-Jordan Schakel,1.3,0.171,2.6,0.5,WAS,Washington Wizards,1.3,0.21,0.5,1.95,0,359th,-0.039,433rd,0,299th,0.65,363rd
-Xavier Moon,5.8,0.505,11.3,0.2,LAC,Los Angeles Clippers,5.8,0.545,0.2,8.48,0,360th,-0.04,434th,0,295th,2.82,215th
-Mason Jones,6.8,0.581,13,5.8,LAL,Los Angeles Lakers,6.8,0.625,5.8,9.75,0,361st,-0.044,446th,0,281st,3.25,194th
-Carsen Edwards,5.8,0.331,9.4,-3,DET,Detroit Pistons,5.8,0.378,-3,7.05,0,362nd,-0.047,456th,0,309th,2.35,234th
-Tyrone Wallace,2.8,0.333,3.1,-3,NOP,New Orleans Pelicans,2.8,0.383,-3,2.33,0,363rd,-0.05,460th,0,351st,0.77,345th
-Deividas Sirvydis,1,0.094,0.5,-9.3,DET,Detroit Pistons,1,0.15,-9.3,0.38,0,364th,-0.056,472nd,0,243rd,0.12,413rd
-Rayjon Tucker,4.2,0.813,9.1,-0.4,MIL,Milwaukee Bucks,4.2,0.869,-0.4,6.83,0,365th,-0.056,473rd,0,310th,2.27,236th
-Sam Merrill,4.2,0.425,4.5,-1.5,MEM,Memphis Grizzlies,4.2,0.485,-1.5,3.38,0,366th,-0.06,480th,0,276th,1.12,317th
-Victor Oladipo,12.4,0.546,17.3,-0.6,MIA,Miami Heat,12.4,0.608,-0.6,12.98,0,367th,-0.062,483rd,0,305th,4.32,148th
-Derrick Walton,6.3,0.277,19.2,-1,DET,Detroit Pistons,6.3,0.342,-1,14.4,0,368th,-0.065,489th,0,316th,4.8,134th
-Joel Ayayi,0.3,0.1,1.6,0.4,WAS,Washington Wizards,0.3,0.167,0.4,1.2,0,369th,-0.067,491st,0,352nd,0.4,386th
-Tremont Waters,3.3,0.288,5.7,-6.3,WAS,Washington Wizards,3.3,0.357,-6.3,4.28,0,370th,-0.069,498th,0,263rd,1.42,289th
-Marko Simonovic,1.9,0.358,2.7,0.3,CHI,Chicago Bulls,1.9,0.428,0.3,2.03,0,371st,-0.07,501st,0,335th,0.67,361st
-Gabe York,4,0.364,8.8,-2,IND,Indiana Pacers,4,0.435,-2,6.6,0,372nd,-0.071,503rd,0,315th,2.2,241st
-Frank Kaminsky,10.6,0.564,19.7,4.3,PHX,Phoenix Suns,10.6,0.635,4.3,14.78,0,373rd,-0.071,504th,0,321st,4.92,124th
-Jaylen Hoard,14.7,0.463,19.6,-12.4,OKC,Oklahoma City Thunder,14.7,0.536,-12.4,14.7,0,374th,-0.073,508th,0,320th,4.9,127th
-Vernon Carey,2.9,0.46,0.8,-6.3,WAS,Washington Wizards,2.9,0.534,-6.3,0.6,0,375th,-0.074,510th,0,266th,0.2,404th
-Aaron Henry,0.3,0.125,-1.1,-3.3,PHI,Philadelphia 76ers,0.3,0.2,-3.3,-0.83,0,376th,-0.075,511st,0,334th,-0.27,449th
-Shaq Buchanan,1,0.167,2,-1,MEM,Memphis Grizzlies,1,0.25,-1,1.5,0,377th,-0.083,521st,0,329th,0.5,373rd
-Jared Harper,7.4,0.565,13.9,1.4,NOP,New Orleans Pelicans,7.4,0.666,1.4,10.43,0,378th,-0.101,543rd,0,333rd,3.47,180th
-Wayne Selden,1.7,0.333,0.2,-4.3,NYK,New York Knicks,1.7,0.434,-4.3,0.15,0,379th,-0.101,544th,0,322nd,0.05,420th
-Aleem Ford,3,0.25,-0.3,-8.8,ORL,Orlando Magic,3,0.353,-8.8,-0.23,0,380th,-0.103,548th,0,293rd,-0.07,432nd
-Miye Oni,0.3,0.15,-0.3,-2.1,UTA,Utah Jazz,0.3,0.265,-2.3,-0.23,0,381st,-0.115,557th,0.2,229th,-0.07,433rd
-Chris Silva,2.6,0.523,3,-2.9,MIA,Miami Heat,2.6,0.641,-2.9,2.25,0,382nd,-0.118,560th,0,353rd,0.75,347th
-Eugene Omoruyi,1.8,0.394,3.8,0.8,DAL,Dallas Mavericks,1.8,0.518,0.8,2.85,0,383rd,-0.124,563rd,0,342nd,0.95,332nd
-Rob Edwards,1.5,0.25,-2,-7,OKC,Oklahoma City Thunder,1.5,0.375,-7,-1.5,0,384th,-0.125,564th,0,298th,-0.5,460th
-James Bouknight,4.6,0.31,7,0.3,CHA,Charlotte Hornets,4.6,0.459,-1.6,4.28,0,385th,-0.149,577th,1.9,125th,2.72,219th
-Amir Coffey,9,0.442,15.3,3.5,LAC,Los Angeles Clippers,9,0.598,-1,13.2,0,386th,-0.156,579th,4.5,39th,2.1,249th
-Brandon Knight,6.4,0.404,8.2,-1.2,DAL,Dallas Mavericks,6.4,0.561,-1.2,6.15,0,387th,-0.157,580th,0,325th,2.05,253rd
-Dakota Mathias,1,0.3,0.8,-1.8,MEM,Memphis Grizzlies,1,0.5,-1.8,0.6,0,388th,-0.2,596th,0,252nd,0.2,407th
-OG Anunoby,17,0.647,25.2,4.4,TOR,Toronto Raptors,17.1,0.548,2.9,20.03,-0.1,389th,0.099,58th,1.5,141st,5.17,112nd
-Jeremy Lamb,7.2,0.559,10.5,-2.3,SAC,Sacramento Kings,7.3,0.521,0.3,9.52,-0.1,390th,0.038,185th,-2.6,503rd,0.98,327th
-Isaiah Todd,1.6,0.334,1.7,-2.9,WAS,Washington Wizards,1.7,0.349,-2,1.65,-0.1,391st,-0.015,376th,-0.9,412nd,0.05,419th
-Markieff Morris,7.5,0.531,9.3,-0.3,MIA,Miami Heat,7.6,0.547,1.1,7.95,-0.1,392nd,-0.016,380th,-1.4,445th,1.35,297th
-Robert Woodard,0.5,0.219,2.4,0.9,SAC,Sacramento Kings,0.6,0.207,1.3,1.73,-0.1,393rd,0.012,262nd,-0.4,379th,0.67,362nd
-Collin Sexton,15.9,0.515,17.5,-1.6,CLE,Cleveland Cavaliers,16,0.526,-2.7,12.68,-0.1,394th,-0.011,366th,1.1,166th,4.82,132nd
-Gary Clark,2.6,0.477,5,0.7,NOP,New Orleans Pelicans,2.7,0.547,-0.5,3.75,-0.1,395th,-0.07,500th,1.2,160th,1.25,306th
-Justin Robinson,3,0.301,0.8,-7.3,DET,Detroit Pistons,3.1,0.404,-4.9,2.1,-0.1,396th,-0.103,547th,-2.4,491st,-1.3,497th
-Nerlens Noel,3.2,0.679,9.6,-4.7,NYK,New York Knicks,3.4,0.581,-2.7,7.35,-0.2,397th,0.098,59th,-2,476th,2.25,238th
-Frank Ntilikina,3.9,0.68,7.5,1.3,DAL,Dallas Mavericks,4.1,0.513,1.1,6.3,-0.2,398th,0.167,28th,0.2,224th,1.2,311st
-Theo Pinson,2.3,0.543,2.4,-1.3,DAL,Dallas Mavericks,2.5,0.553,-2.2,2.78,-0.2,399th,-0.01,362nd,0.9,179th,-0.38,451st
-Malik Beasley,11.9,0.595,13.6,-4.9,MIN,Minnesota Timberwolves,12.1,0.544,1,16.8,-0.2,400th,0.051,150th,-5.9,576th,-3.2,543rd
-Jaden McDaniels,9,0.586,15.2,0.4,MIN,Minnesota Timberwolves,9.2,0.552,0,14.5,-0.2,401st,0.034,199th,0.4,220th,0.7,354th
-Robert Williams,9.8,0.819,28.5,11,BOS,Boston Celtics,10,0.745,6.1,22.95,-0.2,402nd,0.074,87th,4.9,30th,5.55,95th
-Dean Wade,5.1,0.5,10.8,3.8,CLE,Cleveland Cavaliers,5.3,0.584,0.7,7.2,-0.2,403rd,-0.084,523rd,3.1,74th,3.6,174th
-Abdel Nader,2.2,0.36,4.8,0.4,PHX,Phoenix Suns,2.4,0.431,-0.1,3.45,-0.2,404th,-0.071,505th,0.5,203rd,1.35,296th
-Markus Howard,3.8,0.541,3.3,-2.6,DEN,Denver Nuggets,4.1,0.567,-0.4,3.45,-0.3,405th,-0.026,409th,-2.2,485th,-0.15,443rd
-Rajon Rondo,4.5,0.511,8.4,-7.9,CLE,Cleveland Cavaliers,4.8,0.494,-2.8,7.95,-0.3,406th,0.017,251st,-5.1,561st,0.45,379th
-Chris Duarte,12.8,0.568,12.5,-7.1,IND,Indiana Pacers,13.1,0.537,-1,13.81,-0.3,407th,0.031,210th,-6.1,581st,-1.31,499th
-Quinndary Weatherspoon,2.4,0.483,3.4,-0.2,GSW,Golden State Warriors,2.7,0.647,-0.9,2.63,-0.3,408th,-0.164,582nd,0.7,194th,0.77,342nd
-Cody Zeller,4.9,0.569,9.3,0.3,POR,Portland Trail Blazers,5.2,0.627,-1,6.15,-0.3,409th,-0.058,477th,1.3,155th,3.15,196th
-RJ Nembhard,0.7,0.274,0.6,-1.7,CLE,Cleveland Cavaliers,1.1,0.38,-0.5,1.65,-0.4,410th,-0.106,551st,-1.2,428th,-1.05,488th
-Alize Johnson,1.4,0.254,3.1,1,NOP,New Orleans Pelicans,1.8,0.474,-2,1.8,-0.4,411st,-0.22,598th,3,80th,1.3,302nd
-Lindell Wigginton,3.8,0.347,5.1,-2.7,MIL,Milwaukee Bucks,4.2,0.524,-2.5,3.9,-0.4,412nd,-0.177,586th,-0.2,365th,1.2,309th
-Otto Porter,7.8,0.511,18.6,7.1,GSW,Golden State Warriors,8.2,0.58,3.5,16.17,-0.4,413rd,-0.069,497th,3.6,62nd,2.43,230th
-Derrick Rose,11.6,0.478,19.2,-2.3,NYK,New York Knicks,12,0.541,3.5,16.13,-0.4,414th,-0.063,486th,-5.8,574th,3.07,203rd
-Jakob Poeltl,13.1,0.616,25,2.1,SAS,San Antonio Spurs,13.5,0.613,1.7,25.5,-0.4,415th,0.003,299th,0.4,209th,-0.5,463rd
-Daishen Nix,2.8,0.418,3.6,-3.2,HOU,Houston Rockets,3.2,0.48,-1.9,3.75,-0.4,416th,-0.062,484th,-1.3,434th,-0.15,444th
-Solomon Hill,0.2,0.071,4,1.8,ATL,Atlanta Hawks,0.6,0.2,3.2,3.98,-0.4,417th,-0.129,567th,-1.4,446th,0.02,422nd
-Haywood Highsmith,1.9,0.392,3.5,0.2,MIA,Miami Heat,2.3,0.446,-1.9,2.03,-0.4,418th,-0.054,470th,2.1,114th,1.47,286th
-Kenyon Martin,8.4,0.601,12.9,0,HOU,Houston Rockets,8.8,0.604,-3,11.8,-0.4,419th,-0.003,349th,3,81st,1.1,321st
-Trae Young,28,0.576,40.4,4.1,ATL,Atlanta Hawks,28.4,0.603,2.1,42,-0.4,420th,-0.027,414th,2,116th,-1.6,507th
-Devontae Cacok,2.6,0.676,5.4,-1.8,SAS,San Antonio Spurs,3.1,0.675,-0.1,5.03,-0.5,421st,0.001,307th,-1.7,462nd,0.37,388th
-Troy Brown,3.8,0.609,8.3,2.3,CHI,Chicago Bulls,4.3,0.525,-0.7,7.6,-0.5,422nd,0.084,75th,3,77th,0.7,355th
-Ed Davis,0.4,1.064,2.2,1.3,CLE,Cleveland Cavaliers,0.9,0.632,0.6,2.33,-0.5,423rd,0.432,9th,0.7,188th,-0.13,441st
-Damion Lee,6.9,0.566,10.9,1.1,GSW,Golden State Warriors,7.4,0.561,1.1,10.9,-0.5,424th,0.005,290th,0,303rd,0,428th
-Jarrett Culver,3,0.339,3.3,-4.2,MEM,Memphis Grizzlies,3.5,0.433,-0.5,4.35,-0.5,425th,-0.094,533rd,-3.7,530th,-1.05,489th
-Josh Green,4.3,0.457,8,1.2,DAL,Dallas Mavericks,4.8,0.578,1,9,-0.5,426th,-0.121,562nd,0.2,227th,-1,485th
-Eric Bledsoe,9.4,0.619,18.3,2.1,LAC,Los Angeles Clippers,9.9,0.514,-0.5,13.38,-0.5,427th,0.105,53rd,2.6,93rd,4.92,123rd
-Jay Scrubb,2.2,0.453,4,1.2,LAC,Los Angeles Clippers,2.7,0.486,0.7,3.3,-0.5,428th,-0.033,423rd,0.5,208th,0.7,356th
-Hamidou Diallo,10.4,0.523,14.7,-2.7,DET,Detroit Pistons,11,0.541,-3.6,12.6,-0.6,429th,-0.018,388th,0.9,178th,2.1,251st
-Keifer Sykes,5,0.435,7.3,-1,IND,Indiana Pacers,5.6,0.456,-2.2,5.7,-0.6,430th,-0.021,396th,1.2,161st,1.6,280th
-Jordan Nwora,7.3,0.47,7.6,-3.6,MIL,Milwaukee Bucks,7.9,0.506,-1.2,9.57,-0.6,431st,-0.036,427th,-2.4,492nd,-1.97,521st
-Javonte Smart,2.4,0.107,2.8,-4,MIA,Miami Heat,3,0.407,-2.5,3,-0.6,432nd,-0.3,601st,-1.5,452nd,-0.2,446th
-Greg Monroe,4.8,0.516,9,0.2,MIN,Minnesota Timberwolves,5.4,0.566,0.4,8.63,-0.6,433rd,-0.05,461st,-0.2,362nd,0.37,387th
-Mikal Bridges,13.6,0.572,19.5,0.3,PHX,Phoenix Suns,14.2,0.627,7,25.1,-0.6,434th,-0.055,471st,-6.7,587th,-5.6,584th
-Avery Bradley,5.8,0.636,5.5,-4.6,LAL,Los Angeles Lakers,6.4,0.55,-2.9,7.54,-0.6,435th,0.086,68th,-1.7,461st,-2.04,523rd
-Jaxson Hayes,8.7,0.499,13.4,-1.2,NOP,New Orleans Pelicans,9.3,0.679,0.3,14.1,-0.6,436th,-0.18,589th,-1.5,453rd,-0.7,475th
-Malcolm Hill,3.2,0.426,4.5,-1.5,CHI,Chicago Bulls,3.8,0.619,-1.6,3.98,-0.6,437th,-0.193,593rd,0.1,238th,0.52,370th
-Dylan Windler,1.6,0.431,3.7,-0.7,CLE,Cleveland Cavaliers,2.2,0.519,-0.2,3.15,-0.6,438th,-0.088,527th,-0.5,388th,0.55,368th
-Jock Landale,4.3,0.602,6.6,-0.8,SAS,San Antonio Spurs,4.9,0.597,-0.3,5.55,-0.6,439th,0.005,292nd,-0.5,384th,1.05,322nd
-Ja Morant,26.8,0.584,39.9,3,MEM,Memphis Grizzlies,27.4,0.575,3.3,32.8,-0.6,440th,0.009,277th,-0.3,369th,7.1,64th
-Charles Bassey,2.3,0.547,4.6,-1,PHI,Philadelphia 76ers,3,0.66,-1,4.28,-0.7,441st,-0.113,555th,0,344th,0.32,391st
-Bismack Biyombo,5.1,0.395,8.7,0.1,PHX,Phoenix Suns,5.8,0.596,1.4,8.25,-0.7,442nd,-0.201,597th,-1.3,431st,0.45,383rd
-Zeke Nnaji,5.9,0.683,8.6,-2.3,DEN,Denver Nuggets,6.6,0.629,-1.1,6.83,-0.7,443rd,0.054,130th,-1.2,423rd,1.77,266th
-Mychal Mulder,3.4,0.458,2.9,-4.5,MIA,Miami Heat,4.1,0.438,-3.2,2.7,-0.7,444th,0.02,241st,-1.3,433rd,0.2,408th
-Jordan Clarkson,15.3,0.59,23.8,5.7,UTA,Utah Jazz,16,0.532,4.6,23.3,-0.7,445th,0.058,123rd,1.1,168th,0.5,374th
-Gorgui Dieng,2.8,0.7,3.7,-1.5,ATL,Atlanta Hawks,3.5,0.624,-1.4,4.28,-0.7,446th,0.076,82nd,-0.1,358th,-0.58,464th
-Jarrett Allen,15.4,0.786,20.9,-3.7,CLE,Cleveland Cavaliers,16.1,0.698,2.4,21.52,-0.7,447th,0.088,67th,-6.1,582nd,-0.62,468th
-Franz Wagner,14.5,0.578,21.1,0.3,ORL,Orlando Magic,15.2,0.559,-3.1,20.6,-0.7,448th,0.019,245th,3.4,67th,0.5,376th
-Marquese Chriss,3.7,0.592,5.3,-2.2,DAL,Dallas Mavericks,4.5,0.518,-0.3,5.55,-0.8,449th,0.074,88th,-1.9,466th,-0.25,447th
-Tony Bradley,2.1,0.612,2.6,-0.7,CHI,Chicago Bulls,2.9,0.6,1.3,5.28,-0.8,450th,0.012,260th,-2,475th,-2.68,536th
-Jeff Green,9.5,0.694,14.3,2.5,DEN,Denver Nuggets,10.3,0.627,0.8,14.3,-0.8,451st,0.067,102nd,1.7,134th,0,427th
-Mason Plumlee,5.7,0.67,9.9,-4.3,CHA,Charlotte Hornets,6.5,0.603,0.1,16.1,-0.8,452nd,0.067,101st,-4.4,547th,-6.2,593rd
-Thomas Bryant,6.6,0.673,10.3,0.2,WAS,Washington Wizards,7.4,0.607,-2.8,7.73,-0.8,453rd,0.066,103rd,3,79th,2.57,226th
-Spencer Dinwiddie,12.9,0.6,18.8,-0.5,DAL,Dallas Mavericks,13.7,0.544,-0.7,22.6,-0.8,454th,0.056,125th,0.2,232nd,-3.8,560th
-Rudy Gobert,14.8,0.688,28.8,6,UTA,Utah Jazz,15.6,0.732,6,30.4,-0.8,455th,-0.044,448th,0,260th,-1.6,508th
-Day'Ron Sharpe,5.4,0.629,10.8,2.2,BKN,Brooklyn Nets,6.2,0.593,1.5,7.8,-0.8,456th,0.036,195th,0.7,189th,3,206th
-David Nwaba,4.3,0.578,4.8,-4.7,HOU,Houston Rockets,5.1,0.567,-2.5,6,-0.8,457th,0.011,268th,-2.2,486th,-1.2,494th
-Domantas Sabonis,18.1,0.615,29.1,-2.1,SAC,Sacramento Kings,18.9,0.636,-0.2,28.34,-0.8,458th,-0.021,393rd,-1.9,469th,0.76,346th
-Andrew Wiggins,16.4,0.589,22.9,3.6,GSW,Golden State Warriors,17.2,0.56,3.5,25.7,-0.8,459th,0.029,215th,0.1,234th,-2.8,539th
-Herbert Jones,8.6,0.538,17.5,1.3,NOP,New Orleans Pelicans,9.5,0.573,0.9,18,-0.9,460th,-0.035,426th,0.4,219th,-0.5,458th
-Nikola Vucevic,16.7,0.509,22.6,-5.8,CHI,Chicago Bulls,17.6,0.533,-0.7,28.7,-0.9,461st,-0.024,402nd,-5.1,562nd,-6.1,591st
-Killian Tillie,2.4,0.356,4,-1.2,MEM,Memphis Grizzlies,3.3,0.452,0.8,5.25,-0.9,462nd,-0.096,536th,-2,477th,-1.25,496th
-Isaiah Joe,2.7,0.42,4.3,1.5,PHI,Philadelphia 76ers,3.6,0.519,0.7,4.29,-0.9,463rd,-0.099,540th,0.8,183rd,0.01,424th
-Reggie Jackson,15.9,0.435,21.1,-3.8,LAC,Los Angeles Clippers,16.8,0.488,-1.1,23.7,-0.9,464th,-0.053,467th,-2.7,512nd,-2.6,534th
-CJ McCollum,21.2,0.473,30.6,-0.3,NOP,New Orleans Pelicans,22.1,0.553,-1.1,28.7,-0.9,465th,-0.08,520th,0.8,180th,1.9,260th
-Maurice Harkless,3.7,0.637,3.7,-3.8,SAC,Sacramento Kings,4.6,0.561,-1.9,5.18,-0.9,466th,0.076,84th,-1.9,470th,-1.48,503rd
-Boban Marjanovic,3.5,0.472,4.2,1.4,DAL,Dallas Mavericks,4.5,0.615,1.6,4.2,-1,467th,-0.143,573rd,-0.2,366th,0,426th
-Torrey Craig,5.6,0.568,6.5,-4.8,PHX,Phoenix Suns,6.6,0.557,-2.4,10,-1,468th,0.011,269th,-2.4,496th,-3.5,551st
-Tim Hardaway,13.2,0.566,18.8,3.5,DAL,Dallas Mavericks,14.2,0.52,0.9,15.45,-1,469th,0.046,165th,2.6,97th,3.35,186th
-D.J. Augustin,4.3,0.523,6.6,-1.8,LAL,Los Angeles Lakers,5.3,0.61,-3.2,4.99,-1,470th,-0.087,526th,1.4,148th,1.61,277th
-Justin Champagnie,1.3,0.597,2.4,-0.5,TOR,Toronto Raptors,2.3,0.571,1.4,3.53,-1,471st,0.026,224th,-1.9,471st,-1.13,492nd
-Gary Payton,6.1,0.676,14.3,3.3,GSW,Golden State Warriors,7.1,0.679,2.4,13.8,-1,472nd,-0.003,350th,0.9,174th,0.5,372nd
-Charlie Brown,0.4,0.258,0.5,-0.5,PHI,Philadelphia 76ers,1.4,0.346,-0.9,2.25,-1,473rd,-0.088,529th,0.4,210th,-1.75,514th
-Moses Moody,3.3,0.776,4.2,-2,GSW,Golden State Warriors,4.4,0.573,-0.6,4.35,-1.1,474th,0.203,18th,-1.4,442nd,-0.15,442nd
-Dennis Smith,4.5,0.477,13.5,0.1,POR,Portland Trail Blazers,5.6,0.474,-3.7,8.48,-1.1,475th,0.003,300th,3.8,57th,5.02,117th
-Jabari Parker,3.3,0.534,4.5,-0.6,BOS,Boston Celtics,4.4,0.632,-0.6,4.43,-1.1,476th,-0.098,539th,0,242nd,0.07,414th
-Patrick Beverley,8.1,0.518,17.1,-3.1,MIN,Minnesota Timberwolves,9.2,0.539,1.9,17.98,-1.1,477th,-0.021,394th,-5,559th,-0.88,481st
-Tyler Cook,2.3,0.492,2.9,-1.5,CHI,Chicago Bulls,3.4,0.643,-1.4,3.38,-1.1,478th,-0.151,578th,-0.1,361st,-0.48,457th
-Andre Iguodala,2.9,0.486,11.4,1.5,GSW,Golden State Warriors,4,0.478,3.4,10.95,-1.1,479th,0.008,282nd,-1.9,468th,0.45,382nd
-Elfrid Payton,1.9,0.291,3.2,-3.6,PHX,Phoenix Suns,3,0.397,-0.9,4.73,-1.1,480th,-0.106,552nd,-2.7,511st,-1.53,504th
-Bradley Beal,22,0.542,31,-4.4,WAS,Washington Wizards,23.2,0.539,-2.6,23.78,-1.2,481st,0.003,301st,-1.8,464th,7.22,59th
-Jaren Jackson,15.1,0.558,28,6.7,MEM,Memphis Grizzlies,16.3,0.535,4.6,27,-1.2,482nd,0.023,232nd,2.1,115th,1,325th
-Ricky Rubio,11.9,0.474,31.4,8.2,CLE,Cleveland Cavaliers,13.1,0.488,5.5,20.4,-1.2,483rd,-0.014,372nd,2.7,89th,11,22nd
-Nicolas Batum,7.1,0.657,13.9,-1.1,LAC,Los Angeles Clippers,8.3,0.608,-2.1,12.38,-1.2,484th,0.049,153rd,1,171st,1.52,284th
-DeMarcus Cousins,7.8,0.651,7.9,-5.2,DEN,Denver Nuggets,9,0.567,0.8,10.58,-1.2,485th,0.084,74th,-6,577th,-2.68,537th
-Alfonzo McKinnie,2.3,0.311,1.3,-4.1,CHI,Chicago Bulls,3.5,0.457,-3.2,2.4,-1.2,486th,-0.146,576th,-0.9,406th,-1.1,490th
-Josh Jackson,5.2,0.394,6.6,-1.4,SAC,Sacramento Kings,6.4,0.491,-3.1,6.3,-1.2,487th,-0.097,538th,1.7,133rd,0.3,393rd
-Naz Reid,7.1,0.576,7.5,-5,MIN,Minnesota Timberwolves,8.3,0.587,-1.2,12.3,-1.2,488th,-0.011,365th,-3.8,536th,-4.8,570th
-Doug McDermott,10,0.567,11.1,-2.3,SAS,San Antonio Spurs,11.3,0.592,-0.7,10.13,-1.3,489th,-0.025,405th,-1.6,459th,0.97,329th
-Stephen Curry,24.2,0.64,34.8,6.9,GSW,Golden State Warriors,25.5,0.602,7.7,38.3,-1.3,490th,0.038,189th,-0.8,400th,-3.5,552nd
-Thaddeus Young,4.9,0.575,12.7,3.7,TOR,Toronto Raptors,6.2,0.547,0.7,9.6,-1.3,491st,0.028,216th,3,82nd,3.1,202nd
-Austin Rivers,4.6,0.421,4.7,-4.4,DEN,Denver Nuggets,6,0.547,0.8,9.8,-1.4,492nd,-0.126,565th,-5.2,567th,-5.1,575th
-Sterling Brown,1.9,0.313,3.5,-1.2,DAL,Dallas Mavericks,3.3,0.495,0.7,4.73,-1.4,493rd,-0.182,590th,-1.9,472nd,-1.23,495th
-Juan Toscano-Anderson,2.7,0.834,5.1,-0.3,GSW,Golden State Warriors,4.1,0.561,0.8,8.7,-1.4,494th,0.273,13th,-1.1,418th,-3.6,554th
-Frank Jackson,9.2,0.444,13.9,2.9,DET,Detroit Pistons,10.6,0.53,-3.5,8.55,-1.4,495th,-0.086,524th,6.4,12th,5.35,101st
-Isaiah Thomas,7,0.516,9.5,0.1,CHA,Charlotte Hornets,8.4,0.516,-0.5,8.33,-1.4,496th,0,315th,0.6,196th,1.17,313rd
-Derrick Jones,4.2,0.617,5.8,-2.6,CHI,Chicago Bulls,5.6,0.633,0.8,7.5,-1.4,497th,-0.016,382nd,-3.4,525th,-1.7,511st
-Monte Morris,11.2,0.589,21,-1.6,DEN,Denver Nuggets,12.6,0.583,3.8,22.9,-1.4,498th,0.006,287th,-5.4,568th,-1.9,519th
-Jonathan Kuminga,7.9,0.62,11.8,-0.8,GSW,Golden State Warriors,9.3,0.6,0.4,12.5,-1.4,499th,0.02,242nd,-1.2,427th,-0.7,473rd
-Khem Birch,3,0.438,5.5,-0.7,TOR,Toronto Raptors,4.5,0.534,0.4,7.49,-1.5,500th,-0.096,535th,-1.1,421st,-1.99,522nd
-T.J. McConnell,7,0.48,16.4,-1.9,IND,Indiana Pacers,8.5,0.525,-2.7,13.05,-1.5,501st,-0.045,450th,0.8,184th,3.35,187th
-Romeo Langford,3,0.391,5.6,3.3,SAS,San Antonio Spurs,4.5,0.52,0.1,5.55,-1.5,502nd,-0.129,568th,3.2,71st,0.05,421st
-Kent Bazemore,1.9,0.398,1.8,-3.7,LAL,Los Angeles Lakers,3.4,0.451,-3,3.68,-1.5,503rd,-0.053,465th,-0.7,394th,-1.88,518th
-Lou Williams,4.8,0.433,8.6,1,ATL,Atlanta Hawks,6.3,0.5,0.3,8,-1.5,504th,-0.067,493rd,0.7,185th,0.6,367th
-Trey Burke,3.6,0.296,4.3,-1.5,DAL,Dallas Mavericks,5.1,0.475,-0.2,5.25,-1.5,505th,-0.179,588th,-1.3,435th,-0.95,483rd
-Tristan Thompson,4.5,0.467,7.8,-0.6,CHI,Chicago Bulls,6,0.541,-1.1,7.54,-1.5,506th,-0.074,509th,0.5,207th,0.26,397th
-Kessler Edwards,4.4,0.44,8.9,2.7,BKN,Brooklyn Nets,5.9,0.516,-1.4,6.68,-1.5,507th,-0.076,516th,4.1,45th,2.22,240th
-P.J. Tucker,6.1,0.619,14.3,2.3,MIA,Miami Heat,7.6,0.593,3.2,15.7,-1.5,508th,0.026,223rd,-0.9,413rd,-1.4,502nd
-Aaron Holiday,4.8,0.41,11.4,2.1,PHX,Phoenix Suns,6.3,0.544,-0.6,10.06,-1.5,509th,-0.134,571st,2.7,91st,1.34,298th
-Matisse Thybulle,4.2,0.711,13.7,3.6,PHI,Philadelphia 76ers,5.7,0.594,1.3,14,-1.5,510th,0.117,46th,2.3,105th,-0.3,450th
-Duncan Robinson,9.3,0.593,13.8,3,MIA,Miami Heat,10.9,0.573,1.3,15.6,-1.6,511st,0.02,240th,1.7,136th,-1.8,517th
-Matt Thomas,2.3,0.647,4.5,2.1,CHI,Chicago Bulls,3.9,0.564,0.8,4.43,-1.6,512nd,0.083,77th,1.3,152nd,0.07,416th
-Derrick White,11.6,0.641,20.7,5.6,BOS,Boston Celtics,13.2,0.549,2.7,24.5,-1.6,513rd,0.092,64th,2.9,83rd,-3.8,557th
-JT Thor,0.4,0.367,-0.2,-2,CHA,Charlotte Hornets,2,0.525,-0.2,3.08,-1.6,514th,-0.158,581st,-1.8,463rd,-3.28,546th
-Enes Freedom,2.1,0.544,3.7,-0.5,BOS,Boston Celtics,3.7,0.585,2,5.63,-1.6,515th,-0.041,439th,-2.5,498th,-1.93,520th
-Jae'Sean Tate,10.2,0.543,14.7,-1.8,HOU,Houston Rockets,11.8,0.567,-5.2,16.4,-1.6,516th,-0.024,401st,3.4,65th,-1.7,512nd
-Brandon Goodwin,3.2,0.539,-1,-8.7,CLE,Cleveland Cavaliers,4.8,0.501,-1.5,6.45,-1.6,517th,0.038,186th,-7.2,591st,-7.45,598th
-Hassan Whiteside,6.6,0.646,14.4,-0.3,UTA,Utah Jazz,8.2,0.662,3.4,16.56,-1.6,518th,-0.016,383rd,-3.7,529th,-2.16,528th
-Zach LaVine,22.7,0.579,25.3,-5.6,CHI,Chicago Bulls,24.4,0.606,-0.4,31.4,-1.7,519th,-0.027,412nd,-5.2,565th,-6.1,590th
-Dalano Banton,1.5,0.519,4.3,0.6,TOR,Toronto Raptors,3.2,0.463,0.5,6.43,-1.7,520th,0.056,126th,0.1,235th,-2.13,527th
-Gary Harris,9.3,0.587,14.4,3.8,ORL,Orlando Magic,11.1,0.571,-3.4,12.42,-1.8,521st,0.016,254th,7.2,8th,1.98,255th
-Tobias Harris,15.4,0.625,28.6,8.5,PHI,Philadelphia 76ers,17.2,0.566,2.5,27.1,-1.8,522nd,0.059,120th,6,16th,1.5,285th
-Blake Griffin,4.6,0.531,5.5,-3.1,BKN,Brooklyn Nets,6.4,0.52,-1.5,8.96,-1.8,523rd,0.011,267th,-1.6,457th,-3.46,550th
-Terry Rozier,17.5,0.524,25.9,-3.8,CHA,Charlotte Hornets,19.3,0.566,1,29.9,-1.8,524th,-0.042,444th,-4.8,555th,-4,562nd
-Myles Turner,11.1,0.507,16.5,-9.4,IND,Indiana Pacers,12.9,0.613,-0.3,17.1,-1.8,525th,-0.106,550th,-9.1,599th,-0.6,466th
-Paul George,22.5,0.553,40.6,7.2,LAC,Los Angeles Clippers,24.4,0.538,3.1,27.68,-1.9,526th,0.015,256th,4.1,46th,12.92,15th
-Cody Martin,5.8,0.644,11.6,-3.1,CHA,Charlotte Hornets,7.7,0.579,-0.4,15.4,-1.9,527th,0.065,109th,-2.7,510th,-3.8,556th
-Carmelo Anthony,11.4,0.502,12.7,-5.4,LAL,Los Angeles Lakers,13.3,0.579,-1.3,17.8,-1.9,528th,-0.077,517th,-4.1,542nd,-5.1,576th
-Omer Yurtseven,3.4,0.583,6.9,2.2,MIA,Miami Heat,5.3,0.546,1.1,8.08,-1.9,529th,0.037,192nd,1.1,170th,-1.18,493rd
-Javonte Green,5.2,0.536,9.9,-0.9,CHI,Chicago Bulls,7.2,0.637,0.3,12.94,-2,530th,-0.101,542nd,-1.2,426th,-3.04,542nd
-Joe Ingles,5.2,0.372,11.3,-1.7,UTA,Utah Jazz,7.2,0.551,3.9,11.7,-2,531st,-0.179,587th,-5.6,570th,-0.4,453rd
-Georges Niang,7.2,0.782,8.3,0.3,PHI,Philadelphia 76ers,9.2,0.594,1.1,13.1,-2,532nd,0.188,20th,-0.8,405th,-4.8,569th
-Terance Mann,8.8,0.625,17.9,5.5,LAC,Los Angeles Clippers,10.8,0.573,0.8,18,-2,533rd,0.052,147th,4.7,34th,-0.1,434th
-Nick Richards,1,0.422,0.2,-1.8,CHA,Charlotte Hornets,3,0.689,-2.2,2.7,-2,534th,-0.267,600th,0.4,218th,-2.5,532nd
-Yuta Watanabe,2.2,0.486,4,0.2,TOR,Toronto Raptors,4.3,0.524,-1.3,4.8,-2.1,535th,-0.038,431st,1.5,140th,-0.8,479th
-JaMychal Green,4.3,0.408,5.1,-5.9,DEN,Denver Nuggets,6.4,0.585,-1.3,10,-2.1,536th,-0.177,585th,-4.6,553rd,-4.9,571st
-Grayson Allen,9,0.632,12.4,1.2,MIL,Milwaukee Bucks,11.1,0.609,3.5,17.8,-2.1,537th,0.023,233rd,-2.3,490th,-5.4,581st
-Garrett Temple,3,0.42,6.3,0.5,NOP,New Orleans Pelicans,5.2,0.495,-5.5,5.76,-2.2,538th,-0.075,512nd,6,14th,0.54,369th
-Jrue Holiday,16.1,0.544,33.3,9,MIL,Milwaukee Bucks,18.3,0.593,6.4,33.9,-2.2,539th,-0.049,459th,2.6,96th,-0.6,465th
-Armoni Brooks,3.1,0.356,6.8,0.5,TOR,Toronto Raptors,5.3,0.483,-1.5,6.08,-2.2,540th,-0.127,566th,2,121st,0.72,353rd
-JaVale McGee,7,0.675,9.3,-3.4,PHX,Phoenix Suns,9.2,0.651,1.6,15,-2.2,541st,0.024,229th,-5,558th,-5.7,585th
-Jarred Vanderbilt,4.7,0.566,8,-2.9,MIN,Minnesota Timberwolves,6.9,0.612,2.2,16.6,-2.2,542nd,-0.046,455th,-5.1,563rd,-8.6,602nd
-Alex Len,3.8,0.562,6.4,-0.6,SAC,Sacramento Kings,6,0.577,-1.9,6.9,-2.2,543rd,-0.015,375th,1.3,153rd,-0.5,461st
-David Duke,2.5,0.498,3.8,-2.6,BKN,Brooklyn Nets,4.7,0.444,-0.5,6.23,-2.2,544th,0.054,129th,-2.1,481st,-2.43,531st
-Alex Caruso,5.2,0.394,16.5,-0.8,CHI,Chicago Bulls,7.4,0.526,2.7,14.03,-2.2,545th,-0.132,570th,-3.5,526th,2.47,228th
-Harrison Barnes,14.1,0.547,16.4,-4.4,SAC,Sacramento Kings,16.4,0.623,-4.9,19.8,-2.3,546th,-0.076,513rd,0.5,204th,-3.4,547th
-Terrence Ross,7.7,0.437,8.3,-4.2,ORL,Orlando Magic,10,0.515,-5.5,10.06,-2.3,547th,-0.078,518th,1.3,156th,-1.76,515th
-Skylar Mays,0.6,0.6,-0.1,-1.1,ATL,Atlanta Hawks,2.9,0.589,-1.9,2.4,-2.3,548th,0.011,266th,0.8,182nd,-2.5,533rd
-George Hill,3.9,0.456,7.6,0.1,MIL,Milwaukee Bucks,6.2,0.552,5.8,11.02,-2.3,549th,-0.096,534th,-5.7,573rd,-3.42,549th
-Kelan Martin,3.4,0.339,4,-2.6,BOS,Boston Celtics,5.7,0.484,-1.8,5.63,-2.3,550th,-0.145,574th,-0.8,402nd,-1.63,510th
-Caris LeVert,14.7,0.522,23.5,-2.2,CLE,Cleveland Cavaliers,17,0.525,-1.1,20.58,-2.3,551st,-0.003,348th,-1.1,420th,2.92,213rd
-Robin Lopez,4.8,0.53,7,-1.1,ORL,Orlando Magic,7.1,0.57,-1.8,7.05,-2.3,552nd,-0.04,437th,0.7,190th,-0.05,430th
-Evan Fournier,11.7,0.455,19.7,2.2,NYK,New York Knicks,14.1,0.554,-1.2,18.5,-2.4,553rd,-0.099,541st,3.4,66th,1.2,310th
-Brandon Williams,10.5,0.396,11.2,-16.8,POR,Portland Trail Blazers,12.9,0.476,-11.3,10.35,-2.4,554th,-0.08,519th,-5.5,569th,0.85,335th
-Jae Crowder,6.9,0.43,18.7,4.6,PHX,Phoenix Suns,9.4,0.541,5.9,20.3,-2.5,555th,-0.111,553rd,-1.3,432nd,-1.6,506th
-Garrison Mathews,7.5,0.499,11.6,-3.8,HOU,Houston Rockets,10,0.602,-3.3,12.54,-2.5,556th,-0.103,545th,-0.5,386th,-0.94,482nd
-Raul Neto,5,0.707,7.2,-2.5,WAS,Washington Wizards,7.5,0.538,-1.3,12.4,-2.5,557th,0.169,26th,-1.2,425th,-5.2,577th
-Caleb Martin,6.7,0.497,11.1,2.2,MIA,Miami Heat,9.2,0.611,2.6,13.73,-2.5,558th,-0.114,556th,-0.4,381st,-2.63,535th
-LaMarcus Aldridge,10.4,0.542,12.4,-5.3,BKN,Brooklyn Nets,12.9,0.602,0.7,13.95,-2.5,559th,-0.06,481st,-6,579th,-1.55,505th
-Kevon Looney,3.4,0.565,7,-2.3,GSW,Golden State Warriors,6,0.586,1.9,14.8,-2.6,560th,-0.021,395th,-4.2,543rd,-7.8,599th
-Royce O'Neale,4.8,0.378,5.6,-7.2,UTA,Utah Jazz,7.4,0.608,2.8,16.4,-2.6,561st,-0.23,599th,-10,601st,-10.8,603rd
-Jalen Suggs,9.1,0.394,14.7,-2.5,ORL,Orlando Magic,11.8,0.455,-4.3,12.53,-2.7,562nd,-0.061,482nd,1.8,132nd,2.17,245th
-Steven Adams,4.2,0.545,18.3,2.2,MEM,Memphis Grizzlies,6.9,0.561,4.6,20.4,-2.7,563rd,-0.016,381st,-2.4,495th,-2.1,524th
-Onyeka Okongwu,5.5,0.641,11.4,-0.3,ATL,Atlanta Hawks,8.2,0.714,2.3,12.23,-2.7,564th,-0.073,507th,-2.6,507th,-0.83,480th
-Cedi Osman,8,0.522,9.4,-3.8,CLE,Cleveland Cavaliers,10.7,0.562,-0.9,14.8,-2.7,565th,-0.04,436th,-2.9,517th,-5.4,580th
-Kyle Guy,1.2,0.196,-1,-4.8,MIA,Miami Heat,3.9,0.526,-2.5,3.15,-2.7,566th,-0.33,603rd,-2.3,488th,-4.15,565th
-Bam Adebayo,16.3,0.654,28.2,6.6,MIA,Miami Heat,19.1,0.608,5.4,25.84,-2.8,567th,0.046,159th,1.2,157th,2.36,233rd
-Saddiq Bey,13.3,0.47,17.4,-4.6,DET,Detroit Pistons,16.1,0.529,-6.1,20.4,-2.8,568th,-0.059,479th,1.5,144th,-3,541st
-Gabe Vincent,5.8,0.454,11.6,2.9,MIA,Miami Heat,8.7,0.551,1.5,15,-2.9,569th,-0.097,537th,1.4,146th,-3.4,548th
-Karl-Anthony Towns,21.7,0.637,28.2,-2,MIN,Minnesota Timberwolves,24.6,0.641,3.7,36.4,-2.9,570th,-0.004,352nd,-5.7,572nd,-8.2,601st
-Dennis Schroder,10.6,0.556,15.5,-4.9,HOU,Houston Rockets,13.5,0.539,-0.5,19.58,-2.9,571st,0.017,252nd,-4.4,550th,-4.08,563rd
-D'Angelo Russell,15.1,0.478,22.3,-7.5,MIN,Minnesota Timberwolves,18.1,0.544,3.2,30.18,-3,572nd,-0.066,490th,-10.7,602nd,-7.88,600th
-Cam Reddish,7.1,0.577,9.7,-2.1,NYK,New York Knicks,10.1,0.543,-4.4,8.48,-3,573rd,0.034,202nd,2.3,104th,1.22,307th
-Svi Mykhailiuk,1.6,0.31,2,0.2,TOR,Toronto Raptors,4.6,0.509,-1.4,4.88,-3,574th,-0.199,595th,1.6,138th,-2.88,540th
-Marcus Morris,12.3,0.461,14.9,-3.8,LAC,Los Angeles Clippers,15.4,0.549,-2.6,14.59,-3.1,575th,-0.088,528th,-1.2,429th,0.31,392nd
-Isaac Okoro,5.6,0.518,10.4,-1.7,CLE,Cleveland Cavaliers,8.8,0.589,1.5,14.7,-3.2,576th,-0.071,506th,-3.2,519th,-4.3,567th
-Justin Holiday,6.9,0.467,6.9,-8.9,SAC,Sacramento Kings,10.1,0.543,-2.8,13.6,-3.2,577th,-0.076,514th,-6.1,580th,-6.7,596th
-John Collins,12.9,0.493,17.5,-1.9,ATL,Atlanta Hawks,16.2,0.611,0.7,18.85,-3.3,578th,-0.118,559th,-2.6,508th,-1.35,500th
-Cameron Payne,7.4,0.463,13,-4.4,PHX,Phoenix Suns,10.8,0.5,2.6,16.97,-3.4,579th,-0.037,429th,-7,590th,-3.97,561st
-James Johnson,2.1,0.486,6.7,-2.3,BKN,Brooklyn Nets,5.5,0.515,-1,9.94,-3.4,580th,-0.029,417th,-1.3,440th,-3.24,545th
-Bobby Portis,11.1,0.529,18.9,2.3,MIL,Milwaukee Bucks,14.6,0.572,4.4,24.1,-3.5,581st,-0.043,445th,-2.1,479th,-5.2,579th
-Jonas Valanciunas,14.3,0.614,23.1,0.5,NOP,New Orleans Pelicans,17.8,0.617,0.9,26.9,-3.5,582nd,-0.003,347th,-0.4,375th,-3.8,559th
-Bryn Forbes,5.2,0.506,5.9,-2.3,DEN,Denver Nuggets,8.8,0.575,0.5,10.9,-3.6,583rd,-0.069,499th,-2.8,515th,-5,573rd
-James Harden,18.4,0.559,40.4,9,PHI,Philadelphia 76ers,22,0.583,3,39,-3.6,584th,-0.024,403rd,6,17th,1.4,290th
-DeAndre' Bembry,1.5,0.28,2.5,-4.6,MIL,Milwaukee Bucks,5.1,0.598,-0.2,8,-3.6,585th,-0.318,602nd,-4.4,548th,-5.5,582nd
-Khris Middleton,16.5,0.538,27.9,3.1,MIL,Milwaukee Bucks,20.1,0.576,4.6,31.7,-3.6,586th,-0.038,432nd,-1.5,448th,-3.8,558th
-Pat Connaughton,6.3,0.422,8.3,-4.5,MIL,Milwaukee Bucks,9.9,0.62,-0.4,14.9,-3.6,587th,-0.198,594th,-4.1,541st,-6.6,595th
-Furkan Korkmaz,4,0.334,8.1,3.4,PHI,Philadelphia 76ers,7.6,0.502,0.7,12.2,-3.6,588th,-0.168,583rd,2.7,92nd,-4.1,564th
-Cam Thomas,4.5,0.477,4.9,-3,BKN,Brooklyn Nets,8.5,0.519,-2.1,10.4,-4,589th,-0.042,443rd,-0.9,414th,-5.5,583rd
-Coby White,8.7,0.434,10.2,-2.3,CHI,Chicago Bulls,12.7,0.564,-0.6,16.02,-4,590th,-0.13,569th,-1.7,460th,-5.82,588th
-Eric Gordon,9.4,0.584,11.1,-0.2,HOU,Houston Rockets,13.4,0.614,-3.1,12.87,-4,591st,-0.03,419th,2.9,84th,-1.77,516th
-Seth Curry,10.8,0.529,16.2,2.5,BKN,Brooklyn Nets,15,0.615,3.5,22.37,-4.2,592nd,-0.086,525th,-1,417th,-6.17,592nd
-Kemba Walker,7.3,0.392,11.3,-4.7,NYK,New York Knicks,11.6,0.537,-4.9,11.93,-4.3,593rd,-0.145,575th,0.2,231st,-0.63,472nd
-Tyler Herro,16.3,0.521,25,3.2,MIA,Miami Heat,20.7,0.561,3.6,28.6,-4.4,594th,-0.04,438th,-0.4,376th,-3.6,553rd
-Gordon Hayward,11.4,0.508,19.9,1.8,CHA,Charlotte Hornets,15.9,0.57,-0.4,17.78,-4.5,595th,-0.062,485th,2.2,107th,2.12,248th
-Facundo Campazzo,0.5,0.082,4.1,0.9,DEN,Denver Nuggets,5.1,0.503,-3.2,10.39,-4.6,596th,-0.421,604th,4.1,48th,-6.29,594th
-Montrezl Harrell,8.4,0.72,15.3,3.8,CHA,Charlotte Hornets,13.2,0.68,1.2,20.3,-4.8,597th,0.04,184th,2.6,94th,-5,574th
-Kelly Oubre,10.1,0.563,14.8,1.9,CHA,Charlotte Hornets,15,0.559,-0.3,20,-4.9,598th,0.004,297th,2.2,110th,-5.2,578th
-Cole Anthony,11.3,0.448,17.5,-4.6,ORL,Orlando Magic,16.3,0.519,-3.5,23.23,-5,599th,-0.071,502nd,-1.1,419th,-5.73,586th
-Fred VanVleet,15.1,0.507,31.8,3,TOR,Toronto Raptors,20.3,0.552,3.3,34.1,-5.2,600th,-0.045,453rd,-0.3,368th,-2.3,529th
-Richaun Holmes,4.9,0.572,6.9,-1.7,SAC,Sacramento Kings,10.4,0.687,-3,11.1,-5.5,601st,-0.115,558th,1.3,154th,-4.2,566th
-Patty Mills,5.7,0.747,9.7,4,BKN,Brooklyn Nets,11.4,0.562,1.6,16.9,-5.7,602nd,0.185,22nd,2.4,101st,-7.2,597th
-Nickeil Alexander-Walker,4.4,0.477,8.7,2.2,UTA,Utah Jazz,10.6,0.475,-1.7,14.5,-6.2,603rd,0.002,302nd,3.9,55th,-5.8,587th
-Devonte' Graham,4.2,0.379,7.1,-0.8,NOP,New Orleans Pelicans,11.9,0.514,0.5,19.6,-7.7,604th,-0.135,572nd,-1.3,437th,-12.5,604th
+Luca Vildoza,0.7,0.375,1.4,-1.7,NA,NA,NA,NA,NA,NA,NA,1st,NA,2nd,NA,1st,NA,1st
+Obi Toppin,20,0.698,31.2,6.2,NYK,New York Knicks,9,0.614,2.3,14.1,11,2nd,0.084,82nd,3.9,49th,17.1,4th
+Drew Eubanks,17.8,0.697,17.7,-15.7,POR,Portland Trail Blazers,7.7,0.638,-4.6,10.2,10.1,3rd,0.059,118th,-11.1,601st,7.5,50th
+Trendon Watford,16.4,0.567,19.3,-13.2,POR,Portland Trail Blazers,7.6,0.59,-7.3,7.05,8.8,4th,-0.023,372nd,-5.9,558th,12.25,20th
+Jalen Green,26.1,0.589,31.2,0.9,HOU,Houston Rockets,17.3,0.547,-7.7,17.8,8.8,5th,0.042,162nd,8.6,2nd,13.4,14th
+Damian Jones,16.6,0.766,22.9,-4.6,SAC,Sacramento Kings,8.1,0.701,-3.1,9.28,8.5,6th,0.065,106th,-1.5,414th,13.62,11th
+Oshae Brissett,17.1,0.576,23,-4.6,IND,Indiana Pacers,9.1,0.53,-3.3,12.7,8,7th,0.046,148th,-1.3,400th,10.3,27th
+Davion Mitchell,19.5,0.521,30.4,-5.8,SAC,Sacramento Kings,11.5,0.488,-3.6,16.9,8,8th,0.033,182nd,-2.2,445th,13.5,13th
+Kevin Porter,23.5,0.592,36.6,-0.6,HOU,Houston Rockets,15.6,0.532,-4.6,20.7,7.9,9th,0.06,116th,4,45th,15.9,6th
+Theo Maledon,14.8,0.572,25.6,4.2,OKC,Oklahoma City Thunder,7.1,0.5,-3.9,7.05,7.7,10th,0.072,92nd,8.1,4th,18.55,2nd
+Anfernee Simons,24.8,0.606,25.5,-8.5,POR,Portland Trail Blazers,17.3,0.583,-1.5,18.04,7.5,11th,0.023,209th,-7,576th,7.46,51st
+Goga Bitadze,14.4,0.713,22.5,-3.1,IND,Indiana Pacers,7,0.595,-0.6,8.48,7.4,12th,0.118,53rd,-2.5,462nd,14.02,8th
+Nikola Jokic,34.4,0.673,50.1,0.4,DEN,Denver Nuggets,27.1,0.661,6,47.8,7.3,13th,0.012,242nd,-5.6,552nd,2.3,206th
+De'Aaron Fox,30.2,0.583,43.4,0.3,SAC,Sacramento Kings,23.2,0.549,-3.3,26.4,7,14th,0.034,178th,3.6,54th,17,5th
+Isaiah Roby,17,0.661,26.1,-2.6,OKC,Oklahoma City Thunder,10.1,0.607,-4.1,10.88,6.9,15th,0.054,124th,1.5,120th,15.22,7th
+Bruce Brown,15.6,0.624,26.8,-1.2,BKN,Brooklyn Nets,9,0.575,-0.4,16.7,6.6,16th,0.049,140th,-0.8,362nd,10.1,29th
+Darius Bazley,17.4,0.592,15.5,-13.8,OKC,Oklahoma City Thunder,10.8,0.516,-6.8,14.4,6.6,17th,0.076,88th,-7,574th,1.1,290th
+Jimmy Butler,27.9,0.62,46.5,9.1,MIA,Miami Heat,21.4,0.592,4.3,29.27,6.5,18th,0.028,195th,4.8,25th,17.23,3rd
+Immanuel Quickley,17.5,0.541,33.1,6.2,NYK,New York Knicks,11.3,0.543,3.4,19.4,6.2,19th,-0.002,316th,2.8,78th,13.7,10th
+Tre Mann,16.3,0.511,14.8,-13.2,OKC,Oklahoma City Thunder,10.4,0.501,-4.6,10.56,5.9,20th,0.01,249th,-8.6,589th,4.24,125th
+Malik Monk,19.6,0.602,24.9,-1.9,LAL,Los Angeles Lakers,13.8,0.597,0.7,20.1,5.8,21st,0.005,260th,-2.6,473rd,4.8,109th
+Aleksej Pokusevski,13.3,0.545,25.3,2.6,OKC,Oklahoma City Thunder,7.6,0.485,-0.7,11.97,5.7,22nd,0.06,117th,3.3,61st,13.33,15th
+Keon Johnson,12.9,0.497,14.2,-12.2,POR,Portland Trail Blazers,7.2,0.455,-7.8,5.85,5.7,23rd,0.042,164th,-4.4,530th,8.35,43rd
+Ignas Brazdeikis,10.6,0.53,7.7,-12,ORL,Orlando Magic,5,0.52,-4.1,3.83,5.6,24th,0.01,247th,-7.9,584th,3.87,141st
+Justise Winslow,11.2,0.431,21.8,1,POR,Portland Trail Blazers,5.7,0.479,0.6,8.78,5.5,25th,-0.048,439th,0.4,186th,13.02,17th
+Patrick Williams,14.4,0.607,12.3,-13.5,CHI,Chicago Bulls,9,0.637,-3.3,8.55,5.4,26th,-0.03,398th,-10.2,600th,3.75,144th
+Ben McLemore,15.4,0.683,14.6,-9.2,POR,Portland Trail Blazers,10.2,0.567,-5.5,9.5,5.2,27th,0.116,54th,-3.7,512nd,5.1,93rd
+Dwight Howard,11.2,0.639,13.1,-7.3,LAL,Los Angeles Lakers,6.2,0.657,-2.1,8.98,5,28th,-0.018,358th,-5.2,548th,4.12,130th
+Jalen Smith,14.2,0.604,19.3,-3.2,IND,Indiana Pacers,9.2,0.595,0.6,10.65,5,29th,0.009,251st,-3.8,515th,8.65,39th
+Keldon Johnson,21.9,0.595,34,6.6,SAS,San Antonio Spurs,17,0.574,0.9,23.8,4.9,30th,0.021,213rd,5.7,15th,10.2,28th
+Kentavious Caldwell-Pope,17.8,0.63,21.2,-1,WAS,Washington Wizards,13.2,0.567,-3,17.2,4.6,31st,0.063,110th,2,106th,4,138th
+Deni Avdija,13,0.566,17.8,-5.9,WAS,Washington Wizards,8.4,0.536,-0.8,14.5,4.6,32nd,0.03,188th,-5.1,547th,3.3,166th
+Shai Gilgeous-Alexander,29,0.607,40.1,-6.7,OKC,Oklahoma City Thunder,24.5,0.558,-4.7,26.8,4.5,33rd,0.049,141st,-2,439th,13.3,16th
+Tre Jones,10.5,0.645,22.4,2.7,SAS,San Antonio Spurs,6,0.545,0,12.6,4.5,34th,0.1,64th,2.7,79th,9.8,30th
+Killian Hayes,11.3,0.529,19.3,-5.4,DET,Detroit Pistons,6.9,0.461,-5.6,12.9,4.4,35th,0.068,99th,0.2,197th,6.4,66th
+Josh Christopher,12.2,0.542,17.4,-3.1,HOU,Houston Rockets,7.9,0.534,-3.7,10.2,4.3,36th,0.008,253rd,0.6,180th,7.2,55th
+Anthony Edwards,25.6,0.597,31.1,-3.3,MIN,Minnesota Timberwolves,21.3,0.561,2.6,30.9,4.3,37th,0.036,173rd,-5.9,559th,0.2,374th
+Wendell Carter,19.2,0.626,28.9,2,ORL,Orlando Magic,15,0.601,-2.2,21.16,4.2,38th,0.025,208th,4.2,37th,7.74,48th
+Bruno Fernando,6.9,0.664,9.8,0,HOU,Houston Rockets,2.9,0.671,-1.1,2.78,4,39th,-0.007,325th,1.1,147th,7.02,58th
+Corey Kispert,12.2,0.632,17,0.6,WAS,Washington Wizards,8.2,0.586,0.5,12,4,40th,0.046,149th,0.1,204th,5,96th
+Robert Covington,12.5,0.753,22.1,7.1,LAC,Los Angeles Clippers,8.5,0.571,0.5,17.4,4,41st,0.182,25th,6.6,10th,4.7,115th
+Devin Vassell,16.2,0.585,25.2,1.6,SAS,San Antonio Spurs,12.3,0.54,0.7,19.7,3.9,42nd,0.045,150th,0.9,156th,5.5,80th
+LeBron James,34.2,0.623,43.2,-5.7,LAL,Los Angeles Lakers,30.3,0.619,-2.1,33.76,3.9,43rd,0.004,262nd,-3.6,507th,9.44,32nd
+Luguentz Dort,21.1,0.569,24.6,-3.2,OKC,Oklahoma City Thunder,17.2,0.541,-5.8,14.18,3.9,44th,0.028,196th,2.6,85th,10.42,25th
+Alec Burks,15.6,0.655,28.2,7.8,NYK,New York Knicks,11.7,0.559,1.5,20.4,3.9,45th,0.096,66th,6.3,12th,7.8,47th
+Josh Giddey,16.3,0.522,26.3,-3.6,OKC,Oklahoma City Thunder,12.5,0.478,-5.5,15.96,3.8,46th,0.044,152nd,1.9,107th,10.34,26th
+Vit Krejci,10,0.547,14.1,-8.8,OKC,Oklahoma City Thunder,6.2,0.529,-6,6.08,3.8,47th,0.018,224th,-2.8,480th,8.02,45th
+Josh Hart,18.7,0.542,21.1,-12.7,POR,Portland Trail Blazers,14.9,0.61,-3.7,17.1,3.8,48th,-0.068,474th,-9,591st,4,139th
+De'Andre Hunter,17.2,0.569,17.3,-2.5,ATL,Atlanta Hawks,13.4,0.547,0.5,13.05,3.8,49th,0.022,210th,-3,490th,4.25,123rd
+Damian Lillard,27.7,0.576,32.3,-7.2,POR,Portland Trail Blazers,24,0.55,-1,25.58,3.7,50th,0.026,202nd,-6.2,567th,6.72,62nd
+Lindy Waters,11.7,0.629,18,2.4,OKC,Oklahoma City Thunder,8,0.562,-1.6,8.7,3.7,51st,0.067,101st,4,43rd,9.3,34th
+Russell Westbrook,22.2,0.591,30.1,-6.3,LAL,Los Angeles Lakers,18.5,0.512,-2.7,28.2,3.7,52nd,0.079,86th,-3.6,504th,1.9,226th
+Marcus Smart,15.8,0.542,30.2,3.7,BOS,Boston Celtics,12.1,0.541,6.2,26.5,3.7,53rd,0.001,274th,-2.5,463rd,3.7,148th
+Jalen Brunson,20,0.523,27.2,0.3,DAL,Dallas Mavericks,16.3,0.583,2.9,26.2,3.7,54th,-0.06,459th,-2.6,471st,1,297th
+Donte DiVincenzo,12.6,0.548,22,1.9,SAC,Sacramento Kings,9,0.51,-1.8,10.88,3.6,55th,0.038,171st,3.7,51st,11.12,23rd
+Marvin Bagley,14.9,0.595,18.4,-4.9,DET,Detroit Pistons,11.3,0.551,-2.8,11.25,3.6,56th,0.044,155th,-2.1,444th,7.15,56th
+Moses Brown,7.9,0.76,9.2,-5.1,CLE,Cleveland Cavaliers,4.3,0.612,-1.2,4.35,3.6,57th,0.148,39th,-3.9,519th,4.85,105th
+Rui Hachimura,14.8,0.521,19.2,-1.4,WAS,Washington Wizards,11.3,0.579,-3,10.35,3.5,58th,-0.058,453rd,1.6,116th,8.85,38th
+Greg Brown,8.2,0.601,9.5,-8,POR,Portland Trail Blazers,4.7,0.517,-5,4.2,3.5,59th,0.084,83rd,-3,488th,5.3,87th
+Pascal Siakam,26.3,0.569,40.3,-3.2,TOR,Toronto Raptors,22.8,0.565,3.7,36.7,3.5,60th,0.004,266th,-6.9,572nd,3.6,151st
+Alperen Sengun,13,0.573,20,-4.7,HOU,Houston Rockets,9.6,0.552,-4.3,14.5,3.4,61st,0.021,211st,-0.4,338th,5.5,81st
+Grant Williams,11.2,0.511,18,5.2,BOS,Boston Celtics,7.8,0.635,1.9,13.3,3.4,62nd,-0.124,550th,3.3,60th,4.7,114th
+Al Horford,13.4,0.645,30,6.2,BOS,Boston Celtics,10.2,0.574,5.6,24.5,3.2,63rd,0.071,94th,0.6,171st,5.5,79th
+Danny Green,9,0.726,12.3,0,PHI,Philadelphia 76ers,5.9,0.561,1.3,10.4,3.1,64th,0.165,30th,-1.3,399th,1.9,224th
+Isaiah Jackson,11.4,0.598,18.1,-0.5,IND,Indiana Pacers,8.3,0.607,-1.1,9.6,3.1,65th,-0.009,328th,0.6,175th,8.5,41st
+Julius Randle,23.1,0.484,36.4,5.9,NYK,New York Knicks,20.1,0.509,-2.3,29.1,3,66th,-0.025,381st,8.2,3rd,7.3,53rd
+Luka Doncic,31.4,0.586,45.8,1,DAL,Dallas Mavericks,28.4,0.571,2.2,43.02,3,67th,0.015,235th,-1.2,394th,2.78,188th
+Kristaps Porzingis,23.2,0.586,36.4,1,WAS,Washington Wizards,20.2,0.577,0.6,22.8,3,68th,0.009,250th,0.4,189th,13.6,12th
+Austin Reaves,10.2,0.497,17.6,-2.9,LAL,Los Angeles Lakers,7.3,0.6,0.9,11.34,2.9,69th,-0.103,531st,-3.8,516th,6.26,68th
+Olivier Sarr,9.9,0.809,16.6,4,OKC,Oklahoma City Thunder,7,0.672,-1.3,7.58,2.9,70th,0.137,44th,5.3,17th,9.02,35th
+Josh Richardson,13.1,0.626,21.5,4.1,SAS,San Antonio Spurs,10.2,0.573,2.1,16.17,2.9,71st,0.053,133rd,2,101st,5.33,84th
+CJ Elleby,8.7,0.534,9.4,-13.9,POR,Portland Trail Blazers,5.8,0.491,-6,6.3,2.9,72nd,0.043,158th,-7.9,583rd,3.1,175th
+Aaron Wiggins,11.2,0.497,9.9,-8.4,OKC,Oklahoma City Thunder,8.3,0.556,-4.7,7.28,2.9,73rd,-0.059,456th,-3.7,513rd,2.62,198th
+Lamar Stevens,8.9,0.556,13.3,1.4,CLE,Cleveland Cavaliers,6.1,0.544,-0.6,8.18,2.8,74th,0.012,238th,2,103rd,5.12,91st
+RJ Barrett,22.8,0.502,28.2,-0.7,NYK,New York Knicks,20,0.511,-2.1,24.8,2.8,75th,-0.009,329th,1.4,124th,3.4,159th
+Rodney McGruder,8.2,0.522,10.5,-3.7,DET,Detroit Pistons,5.4,0.575,-1.1,5.78,2.8,76th,-0.053,446th,-2.6,472nd,4.72,112nd
+Zach Collins,10.6,0.665,19.9,3.4,SAS,San Antonio Spurs,7.8,0.594,1.4,10.95,2.8,77th,0.071,93rd,2,105th,8.95,36th
+Jose Alvarado,8.8,0.614,10.6,-5.2,NOP,New Orleans Pelicans,6.1,0.52,2.6,10.94,2.7,78th,0.094,68th,-7.8,582nd,-0.34,419th
+Nassir Little,12.5,0.551,20.7,4.3,POR,Portland Trail Blazers,9.8,0.575,-0.5,11.78,2.7,79th,-0.024,376th,4.8,23rd,8.92,37th
+Kyle Kuzma,19.7,0.527,26,-6.6,WAS,Washington Wizards,17.1,0.547,-4.2,23.8,2.6,80th,-0.02,363rd,-2.4,459th,2.2,211st
+LaMelo Ball,22.7,0.584,38.7,2.7,CHA,Charlotte Hornets,20.1,0.554,1.3,34.5,2.6,81st,0.03,192nd,1.4,130th,4.2,127th
+Jordan McLaughlin,6.4,0.792,13.6,0.6,MIN,Minnesota Timberwolves,3.8,0.535,0.6,9.57,2.6,82nd,0.257,16th,0,217th,4.03,135th
+Anthony Gill,6.7,0.744,10.4,0.4,WAS,Washington Wizards,4.1,0.682,1.4,5.1,2.6,83rd,0.062,113rd,-1,380th,5.3,88th
+Chris Boucher,11.9,0.707,18.2,1.1,TOR,Toronto Raptors,9.4,0.571,2.4,16.4,2.5,84th,0.136,46th,-1.3,403rd,1.8,233rd
+Danilo Gallinari,14.2,0.554,15.7,-2.1,ATL,Atlanta Hawks,11.7,0.579,1.6,17.5,2.5,85th,-0.025,383rd,-3.7,511st,-1.8,481st
+Cade Cunningham,19.9,0.516,28.7,-3.1,DET,Detroit Pistons,17.4,0.504,-4.3,23.71,2.5,86th,0.012,239th,1.2,142nd,4.99,97th
+Ish Smith,8.8,0.515,17.8,-4.5,WAS,Washington Wizards,6.3,0.466,-2.4,11.96,2.5,87th,0.049,143rd,-2.1,440th,5.84,75th
+Isaiah Livers,8.8,0.665,14.6,0.9,DET,Detroit Pistons,6.4,0.629,-0.5,7.73,2.4,88th,0.036,175th,1.4,127th,6.87,60th
+Terence Davis,12.8,0.569,19.9,1.6,SAC,Sacramento Kings,10.4,0.543,2,11.78,2.4,89th,0.026,206th,-0.4,341st,8.12,44th
+Ish Wainright,4.8,0.529,10,4.3,PHX,Phoenix Suns,2.4,0.494,0.9,3.53,2.4,90th,0.035,176th,3.4,58th,6.47,64th
+Brandon Ingram,25.1,0.573,34.2,2.2,NOP,New Orleans Pelicans,22.7,0.554,2.2,25.82,2.4,91st,0.019,218th,0,210th,8.38,42nd
+Jericho Sims,4.6,0.727,14.9,6.5,NYK,New York Knicks,2.2,0.674,1.9,5.18,2.4,92nd,0.053,132nd,4.6,31st,9.72,31st
+Buddy Hield,17.9,0.584,22.5,-7.1,IND,Indiana Pacers,15.6,0.549,-2,20.6,2.3,93rd,0.035,177th,-5.1,546th,1.9,225th
+Lauri Markkanen,17.1,0.648,22.5,2,CLE,Cleveland Cavaliers,14.8,0.582,2.8,19.98,2.3,94th,0.066,103rd,-0.8,364th,2.52,200th
+KZ Okpala,6,0.574,11.7,3.4,MIA,Miami Heat,3.7,0.521,0.3,4.88,2.3,95th,0.053,130th,3.1,66th,6.82,61st
+Mohamed Bamba,12.9,0.612,21.6,-1.4,ORL,Orlando Magic,10.6,0.581,-5.3,16.7,2.3,96th,0.031,185th,3.9,48th,4.9,103rd
+Moritz Wagner,11.3,0.59,15.5,-3.5,ORL,Orlando Magic,9,0.623,-2.4,10.72,2.3,97th,-0.033,407th,-1.1,384th,4.78,111st
+Dejounte Murray,23.4,0.559,39.3,0.4,SAS,San Antonio Spurs,21.1,0.533,0.8,40.3,2.3,98th,0.026,205th,-0.4,339th,-1,449th
+Terry Taylor,11.9,0.633,11.3,-10.1,IND,Indiana Pacers,9.6,0.659,-3.5,9.53,2.3,99th,-0.026,388th,-6.6,571st,1.77,236th
+Udoka Azubuike,6.9,0.702,11.8,3.1,UTA,Utah Jazz,4.7,0.743,0,5.33,2.2,100th,-0.041,421st,3.1,67th,6.47,65th
+R.J. Hampton,9.8,0.554,11.1,-9.2,ORL,Orlando Magic,7.6,0.481,-6.5,8.93,2.2,101st,0.073,90th,-2.7,479th,2.17,212nd
+Darius Garland,23.9,0.578,40.6,6.2,CLE,Cleveland Cavaliers,21.7,0.576,5.5,36.3,2.2,102nd,0.002,272nd,0.7,161st,4.3,120th
+Tyrese Haliburton,17.5,0.634,34.4,-4.4,IND,Indiana Pacers,15.3,0.596,-4.2,28.3,2.2,103rd,0.038,169th,-0.2,330th,6.1,70th
+Reggie Bullock,10.8,0.542,16.3,0.4,DAL,Dallas Mavericks,8.6,0.558,4,14.9,2.2,104th,-0.016,351st,-3.6,503rd,1.4,263rd
+Giannis Antetokounmpo,32,0.559,49,5.9,MIL,Milwaukee Bucks,29.9,0.633,5.9,47.3,2.1,105th,-0.074,490th,0,237th,1.7,239th
+Lance Stephenson,10.3,0.589,8.8,-12,IND,Indiana Pacers,8.3,0.536,-2.4,9.53,2,106th,0.053,129th,-9.6,595th,-0.73,442nd
+Sandro Mamukelashvili,5.8,0.985,6.7,-2.7,MIL,Milwaukee Bucks,3.8,0.618,-3.5,3.08,2,107th,0.367,11th,0.8,159th,3.62,149th
+Norman Powell,20.9,0.675,22.7,-5.4,LAC,Los Angeles Clippers,19,0.603,-4.9,16.35,1.9,108th,0.072,91st,-0.5,347th,6.35,67th
+Admiral Schofield,5.7,0.502,4,-7.7,ORL,Orlando Magic,3.8,0.538,-3.4,3,1.9,109th,-0.036,412nd,-4.3,525th,1,294th
+Chuma Okeke,10.4,0.473,15.4,-5.4,ORL,Orlando Magic,8.6,0.5,-4.5,14.1,1.8,110th,-0.027,391st,-0.9,369th,1.3,269th
+Kevin Knox,4.9,0.468,5.9,-0.9,ATL,Atlanta Hawks,3.1,0.491,-2.3,2.4,1.8,111st,-0.023,375th,1.4,125th,3.5,154th
+Brandon Clarke,12.2,0.638,19.7,-0.8,MEM,Memphis Grizzlies,10.4,0.66,2.8,18.24,1.8,112nd,-0.022,371st,-3.6,506th,1.46,258th
+Precious Achiuwa,10.9,0.524,12.4,-4,TOR,Toronto Raptors,9.1,0.503,1.1,15,1.8,113rd,0.021,214th,-5.1,544th,-2.6,498th
+Tomas Satoransky,5.3,0.515,19.2,2.3,WAS,Washington Wizards,3.6,0.461,-3,6.47,1.7,114th,0.054,125th,5.3,18th,12.73,19th
+Stephen Curry,27.2,0.589,39,2.7,GSW,Golden State Warriors,25.5,0.602,7.7,38.3,1.7,115th,-0.013,340th,-5,543rd,0.7,329th
+Wenyen Gabriel,7.1,0.645,12.7,3.9,LAL,Los Angeles Lakers,5.4,0.549,1.7,6.98,1.7,116th,0.096,67th,2.2,91st,5.72,76th
+Aaron Gordon,16.7,0.632,25,1.4,DEN,Denver Nuggets,15,0.602,4.3,23.5,1.7,117th,0.03,189th,-2.9,486th,1.5,257th
+Stanley Johnson,8.4,0.547,11.7,-3,LAL,Los Angeles Lakers,6.7,0.564,-1,8.7,1.7,118th,-0.017,354th,-2,438th,3,182nd
+Justin Anderson,8.1,0.403,12.1,-5.8,IND,Indiana Pacers,6.4,0.493,-0.9,8.55,1.7,119th,-0.09,514th,-4.9,541st,3.55,152nd
+Jrue Holiday,19.9,0.465,34.9,1.9,MIL,Milwaukee Bucks,18.3,0.593,6.4,33.9,1.6,120th,-0.128,555th,-4.5,536th,1,298th
+Juancho Hernangomez,4.9,0.47,11.8,7.4,UTA,Utah Jazz,3.3,0.542,-0.1,4.35,1.6,121st,-0.072,485th,7.5,7th,7.45,52nd
+Trey Murphy,7,0.6,13,5.3,NOP,New Orleans Pelicans,5.4,0.558,0,7.45,1.6,122nd,0.042,165th,5.3,19th,5.55,78th
+Trey Lyles,12.1,0.557,16.1,-3.2,SAC,Sacramento Kings,10.5,0.588,-3.1,13.4,1.6,123rd,-0.031,400th,-0.1,326th,2.7,194th
+Elijah Hughes,5.1,0.456,5,-7.6,POR,Portland Trail Blazers,3.5,0.426,-6.4,1.88,1.6,124th,0.03,191st,-1.2,389th,3.12,174th
+Jusuf Nurkic,16.6,0.586,24.4,-3.1,POR,Portland Trail Blazers,15,0.586,0.2,19.6,1.6,125th,0,280th,-3.3,496th,4.8,108th
+Jared Butler,5.3,0.344,12.4,4.4,UTA,Utah Jazz,3.8,0.509,-0.4,4.8,1.5,126th,-0.165,575th,4.8,26th,7.6,49th
+Christian Wood,19.4,0.687,28.3,-2,HOU,Houston Rockets,17.9,0.594,-6,24.1,1.5,127th,0.093,72nd,4,42nd,4.2,126th
+Joshua Primo,7.3,0.419,11.3,0.6,SAS,San Antonio Spurs,5.8,0.487,-1.6,6.45,1.5,128th,-0.068,473rd,2.2,95th,4.85,106th
+Daniel Gafford,10.9,0.749,14.8,-4.2,WAS,Washington Wizards,9.4,0.709,-2.9,14.4,1.5,129th,0.04,167th,-1.3,395th,0.4,354th
+Saben Lee,7.1,0.458,14.3,-1.6,DET,Detroit Pistons,5.6,0.499,-2.2,8.33,1.5,130th,-0.041,422nd,0.6,177th,5.97,73rd
+Keljin Blevins,4.6,0.319,4.4,-7.5,POR,Portland Trail Blazers,3.1,0.41,-6.7,1.13,1.5,131st,-0.091,515th,-0.8,359th,3.27,167th
+Wayne Ellington,8.1,0.627,11.8,0.8,LAL,Los Angeles Lakers,6.7,0.593,-1.4,6.45,1.4,132nd,0.034,181st,2.2,93rd,5.35,83rd
+Lonzo Ball,14.4,0.626,25.8,-2.5,CHI,Chicago Bulls,13,0.575,2.3,19.8,1.4,133rd,0.051,138th,-4.8,540th,6,72nd
+Bogdan Bogdanovic,16.5,0.578,27.9,5.1,ATL,Atlanta Hawks,15.1,0.562,3,22.65,1.4,134th,0.016,233rd,2.1,99th,5.25,90th
+Nathan Knight,5,0.739,8.4,1.9,MIN,Minnesota Timberwolves,3.7,0.603,0.6,4.58,1.3,135th,0.136,45th,1.3,137th,3.82,142nd
+Delon Wright,5.7,0.552,17.3,7.6,ATL,Atlanta Hawks,4.4,0.576,0.8,12,1.3,136th,-0.024,380th,6.8,9th,5.3,86th
+Duane Washington,11.2,0.546,13.3,-1.5,IND,Indiana Pacers,9.9,0.521,-2.6,8.63,1.3,137th,0.025,207th,1.1,145th,4.67,116th
+Chimezie Metu,10.2,0.555,13.4,-3.9,SAC,Sacramento Kings,8.9,0.546,-2.6,11.53,1.3,138th,0.009,252nd,-1.3,397th,1.87,227th
+Jeremiah Robinson-Earl,8.8,0.588,12.3,-4.3,OKC,Oklahoma City Thunder,7.5,0.526,-4.9,7.43,1.3,139th,0.062,114th,0.6,173rd,4.87,104th
+Denzel Valentine,4.2,0.581,6.2,-0.1,UTA,Utah Jazz,2.9,0.523,-1.1,2.85,1.3,140th,0.058,119th,1,153rd,3.35,164th
+Tyrese Maxey,18.8,0.562,22.5,-4.2,PHI,Philadelphia 76ers,17.5,0.594,2.7,27.5,1.3,141st,-0.032,405th,-6.9,573rd,-5,548th
+Maxi Kleber,8.2,0.67,12.7,-1.4,DAL,Dallas Mavericks,7,0.537,2,12.47,1.2,142nd,0.133,47th,-3.4,498th,0.23,369th
+Sam Hauser,3.7,0.552,6.2,0.9,BOS,Boston Celtics,2.5,0.65,0,2.85,1.2,143rd,-0.098,523rd,0.9,157th,3.35,161st
+P.J. Washington,11.5,0.676,22.6,3.1,CHA,Charlotte Hornets,10.3,0.586,2.2,18.72,1.2,144th,0.09,76th,0.9,154th,3.88,140th
+Santi Aldama,5.3,0.424,7.3,-2,MEM,Memphis Grizzlies,4.1,0.452,0.5,5.25,1.2,145th,-0.028,392nd,-2.5,464th,2.05,220th
+Jae Crowder,10.6,0.596,15.3,-3.9,PHX,Phoenix Suns,9.4,0.541,5.9,20.3,1.2,146th,0.055,122nd,-9.8,598th,-5,549th
+Georgios Kalaitzakis,7.8,0.642,4.4,-12.2,OKC,Oklahoma City Thunder,6.6,0.536,-10.3,2.48,1.2,147th,0.106,57th,-1.9,431st,1.92,223rd
+Kenrich Williams,8.6,0.53,16.2,-2,OKC,Oklahoma City Thunder,7.4,0.532,0.5,10.5,1.2,148th,-0.002,315th,-2.5,461st,5.7,77th
+DeAndre Jordan,5.5,0.799,6.2,-6.1,PHI,Philadelphia 76ers,4.3,0.641,-3.1,5.25,1.2,149th,0.158,32nd,-3,489th,0.95,302nd
+Miles McBride,3.4,0.582,5.9,-0.2,NYK,New York Knicks,2.2,0.393,2.5,4.58,1.2,150th,0.189,23rd,-2.7,474th,1.32,267th
+Luka Garza,7,0.637,10.2,0.2,DET,Detroit Pistons,5.8,0.535,-2,5.55,1.2,151st,0.102,63rd,2.2,96th,4.65,117th
+Isaiah Hartenstein,9.4,0.681,21.3,6.9,LAC,Los Angeles Clippers,8.3,0.664,2.2,17.3,1.1,152nd,0.017,227th,4.7,29th,4,136th
+Taj Gibson,5.5,0.649,7.8,-3.7,NYK,New York Knicks,4.4,0.606,0.8,7.13,1.1,153rd,0.043,159th,-4.5,537th,0.67,332nd
+Talen Horton-Tucker,11.1,0.477,16.6,-2,LAL,Los Angeles Lakers,10,0.503,-1.5,13.73,1.1,154th,-0.026,386th,-0.5,349th,2.87,186th
+Markelle Fultz,11.9,0.495,20.9,-1.7,ORL,Orlando Magic,10.8,0.517,-2.1,14.18,1.1,155th,-0.022,369th,0.4,192nd,6.72,63rd
+Desmond Bane,19.2,0.621,30.6,9.3,MEM,Memphis Grizzlies,18.2,0.592,4.8,27.9,1,156th,0.029,194th,4.5,33rd,2.7,193rd
+Paul Reed,4.1,0.662,8.2,-1.6,PHI,Philadelphia 76ers,3.1,0.568,-0.7,4.95,1,157th,0.094,69th,-0.9,371st,3.25,170th
+Miles Bridges,21.1,0.621,26,-4.7,CHA,Charlotte Hornets,20.1,0.593,1.8,30.9,1,158th,0.028,197th,-6.5,569th,-4.9,546th
+Max Strus,11.6,0.571,21.5,6.2,MIA,Miami Heat,10.6,0.614,2.5,15.4,1,159th,-0.043,429th,3.7,53rd,6.1,71st
+Kira Lewis,6.9,0.571,10.5,0.1,NOP,New Orleans Pelicans,5.9,0.466,-4.5,5.18,1,160th,0.105,59th,4.6,30th,5.32,85th
+Usman Garuba,2.9,0.639,8.4,-0.1,HOU,Houston Rockets,2,0.51,1.4,5.18,0.9,161st,0.129,48th,-1.5,409th,3.22,171st
+Ty Jerome,7.9,0.44,13.6,-3.4,OKC,Oklahoma City Thunder,7,0.486,-0.1,8.63,0.9,162nd,-0.046,434th,-3.3,497th,4.97,99th
+Keita Bates-Diop,6.6,0.59,8,-0.7,SAS,San Antonio Spurs,5.7,0.578,0.1,7.65,0.9,163rd,0.012,241st,-0.8,361st,0.35,356th
+Kevon Looney,6.9,0.738,15.9,2.5,GSW,Golden State Warriors,6,0.586,1.9,14.8,0.9,164th,0.152,35th,0.6,176th,1.1,292nd
+Pat Connaughton,10.8,0.683,15.7,1.3,MIL,Milwaukee Bucks,9.9,0.62,-0.4,14.9,0.9,165th,0.063,111st,1.7,114th,0.8,313rd
+Andre Drummond,8.8,0.561,15.2,-1.1,BKN,Brooklyn Nets,7.9,0.574,0.8,17.4,0.9,166th,-0.013,341st,-1.9,429th,-2.2,489th
+Jake Layman,3.3,0.781,6.3,4.2,MIN,Minnesota Timberwolves,2.4,0.5,-0.3,2.55,0.9,167th,0.281,14th,4.5,34th,3.75,145th
+Lonnie Walker,13,0.499,17.6,0.3,SAS,San Antonio Spurs,12.1,0.512,-0.9,16.5,0.9,168th,-0.013,337th,1.2,141st,1.1,291st
+Trevor Ariza,4.9,0.451,8.5,-1.9,LAL,Los Angeles Lakers,4,0.449,-2.3,5.25,0.9,169th,0.002,273rd,0.4,191st,3.25,169th
+Bones Hyland,11,0.559,20.1,3,DEN,Denver Nuggets,10.1,0.558,0.6,15.8,0.9,170th,0.001,275th,2.4,88th,4.3,121st
+Jamorko Pickett,4.7,0.49,7.8,-0.8,DET,Detroit Pistons,3.8,0.491,0,4.8,0.9,171st,-0.001,313rd,-0.8,360th,3,181st
+Quentin Grimes,6.9,0.472,10.2,-2.7,NYK,New York Knicks,6.1,0.565,-1.2,6.75,0.8,172nd,-0.093,516th,-1.5,415th,3.45,157th
+Semi Ojeleye,4.1,0.678,4.7,-1.6,LAC,Los Angeles Clippers,3.3,0.438,-4.8,2.25,0.8,173rd,0.24,17th,3.2,63rd,2.45,201st
+Larry Nance,7.8,0.559,14.3,0.2,NOP,New Orleans Pelicans,7,0.59,-1.3,9.9,0.8,174th,-0.031,402nd,1.5,121st,4.4,119th
+PJ Dozier,6.2,0.45,8.9,-5,DEN,Denver Nuggets,5.4,0.463,-5.1,5.85,0.8,175th,-0.013,338th,0.1,208th,3.05,179th
+Leandro Bolmaro,2.2,0.356,6.1,3.8,MIN,Minnesota Timberwolves,1.4,0.419,0.1,2.1,0.8,176th,-0.063,467th,3.7,52nd,4,137th
+Vlatko Cancar,4.8,0.637,9.2,3.3,DEN,Denver Nuggets,4.1,0.657,0.3,5.1,0.7,177th,-0.02,361st,3,72nd,4.1,134th
+Braxton Key,7.9,0.56,16.2,2.7,DET,Detroit Pistons,7.2,0.508,2.5,11.18,0.7,178th,0.052,135th,0.2,195th,5.02,95th
+Danuel House,6.6,0.583,13.6,9.3,UTA,Utah Jazz,5.9,0.555,1.5,7.65,0.7,179th,0.028,198th,7.8,6th,5.95,74th
+Mamadi Diakite,5,0.552,8.8,-1.6,OKC,Oklahoma City Thunder,4.3,0.54,-0.9,5.85,0.7,180th,0.012,240th,-0.7,357th,2.95,184th
+Tony Snell,4.2,0.489,3.7,-4.5,NOP,New Orleans Pelicans,3.5,0.541,-2.2,3.53,0.7,181st,-0.052,443rd,-2.3,453rd,0.17,377th
+Nic Claxton,9.4,0.65,18.9,1.2,BKN,Brooklyn Nets,8.7,0.672,-0.6,11.03,0.7,182nd,-0.022,370th,1.8,112nd,7.87,46th
+Tyus Jones,9.3,0.509,19.4,1.3,MEM,Memphis Grizzlies,8.7,0.544,3.5,19.1,0.6,183rd,-0.035,411st,-2.2,446th,0.3,361st
+Jerami Grant,19.8,0.606,27.1,1,DET,Detroit Pistons,19.2,0.556,-4.7,17.78,0.6,184th,0.05,139th,5.7,14th,9.32,33rd
+Wesley Matthews,5.7,0.506,11,1.2,MIL,Milwaukee Bucks,5.1,0.536,2.8,6.9,0.6,185th,-0.03,399th,-1.6,420th,4.1,133rd
+Malik Fitts,2,0.875,4.5,2.7,BOS,Boston Celtics,1.4,0.553,-1.3,1.2,0.6,186th,0.322,13th,4,46th,3.3,165th
+Chris Paul,15.3,0.638,26,-1.1,PHX,Phoenix Suns,14.7,0.581,7.1,36.75,0.6,187th,0.057,120th,-8.2,587th,-10.75,599th
+Mitchell Robinson,9.1,0.682,21.1,0.9,NYK,New York Knicks,8.5,0.722,-1.1,17,0.6,188th,-0.04,418th,2,104th,4.1,132nd
+Jaylen Nowell,9.1,0.557,12.7,0.2,MIN,Minnesota Timberwolves,8.5,0.581,1.1,12.42,0.6,189th,-0.024,377th,-0.9,370th,0.28,364th
+Jaylen Brown,24.2,0.627,31.6,1.2,BOS,Boston Celtics,23.6,0.574,6.9,33.9,0.6,190th,0.053,131st,-5.7,556th,-2.3,490th
+Trent Forrest,3.8,0.443,10.8,3.3,UTA,Utah Jazz,3.3,0.554,1.3,6.51,0.5,191st,-0.111,541st,2,102nd,4.29,122nd
+Ivica Zubac,10.8,0.679,20.3,2.7,LAC,Los Angeles Clippers,10.3,0.66,-1.7,16.9,0.5,192nd,0.019,219th,4.4,35th,3.4,158th
+Jalen McDaniels,6.7,0.738,12.9,3.3,CHA,Charlotte Hornets,6.2,0.595,0.8,8.19,0.5,193rd,0.143,42nd,2.5,86th,4.71,113rd
+Bojan Bogdanovic,18.6,0.565,17.2,-9.4,UTA,Utah Jazz,18.1,0.598,2.8,22.7,0.5,194th,-0.033,406th,-12.2,603rd,-5.5,558th
+Tim Frazier,3.8,0.35,4.4,-7,CLE,Cleveland Cavaliers,3.3,0.398,-6.7,2.78,0.5,195th,-0.048,437th,-0.3,334th,1.62,245th
+Rudy Gay,8.5,0.625,17.9,9.1,UTA,Utah Jazz,8.1,0.539,3.3,10.84,0.4,196th,0.086,79th,5.8,13th,7.06,57th
+P.J. Tucker,8,0.557,16.5,3.7,MIA,Miami Heat,7.6,0.593,3.2,15.7,0.4,197th,-0.036,413rd,0.5,184th,0.8,314th
+Joe Wieskamp,2.4,0.309,3.6,0,SAS,San Antonio Spurs,2,0.494,0,2.33,0.4,198th,-0.185,580th,0,247th,1.27,273rd
+Luke Kornet,2.4,0.684,6,1.4,BOS,Boston Celtics,2,0.506,1.5,4.13,0.4,199th,0.178,27th,-0.1,327th,1.87,228th
+Joe Harris,11.7,0.709,16.6,2.5,BKN,Brooklyn Nets,11.3,0.624,1.3,11.33,0.4,200th,0.085,80th,1.2,140th,5.27,89th
+Cory Joseph,8.4,0.585,14.3,-1.3,DET,Detroit Pistons,8,0.579,-3.1,12.84,0.4,201st,0.006,257th,1.8,109th,1.46,259th
+Goran Dragic,7.9,0.482,15.5,3.4,BKN,Brooklyn Nets,7.5,0.474,0.3,11.25,0.4,202nd,0.008,254th,3.1,68th,4.25,124th
+Brodric Thomas,2.1,0.572,4.4,1,BOS,Boston Celtics,1.8,0.52,0.3,2.48,0.3,203rd,0.052,137th,0.7,168th,1.92,222nd
+Draymond Green,7.8,0.593,21,4,GSW,Golden State Warriors,7.5,0.582,3.8,17.93,0.3,204th,0.011,246th,0.2,201st,3.07,177th
+Jordan Clarkson,16.3,0.623,25.1,7.8,UTA,Utah Jazz,16,0.532,4.6,23.3,0.3,205th,0.091,74th,3.2,65th,1.8,232nd
+Rodney Hood,3.4,0.752,7.1,3.5,LAC,Los Angeles Clippers,3.1,0.493,0.2,4.13,0.3,206th,0.259,15th,3.3,62nd,2.97,183rd
+Patrick Beverley,9.5,0.515,20.6,-1.9,MIN,Minnesota Timberwolves,9.2,0.539,1.9,17.98,0.3,207th,-0.024,378th,-3.8,514th,2.62,197th
+Isaac Bonga,1.1,0.542,1.2,-3,TOR,Toronto Raptors,0.8,0.363,-2.1,1.13,0.3,208th,0.179,26th,-0.9,376th,0.07,384th
+Luke Kennard,12.2,0.565,19.5,6.2,LAC,Los Angeles Clippers,11.9,0.619,2.2,17.8,0.3,209th,-0.054,447th,4,44th,1.7,238th
+Udonis Haslem,2.8,0.557,3.8,-0.9,MIA,Miami Heat,2.5,0.495,-1.2,2.25,0.3,210th,0.062,115th,0.3,194th,1.55,254th
+Josh Okogie,3,0.512,5.6,0.9,MIN,Minnesota Timberwolves,2.7,0.526,0.8,4.05,0.3,211st,-0.014,344th,0.1,202nd,1.55,255th
+Devon Dotson,2.7,0.751,4,-0.7,CHI,Chicago Bulls,2.4,0.538,-0.2,3.08,0.3,212nd,0.213,21st,-0.5,345th,0.92,306th
+Petr Cornelie,1.4,0.53,2.2,0.4,DEN,Denver Nuggets,1.1,0.418,0.6,1.58,0.3,213rd,0.112,56th,-0.2,333rd,0.62,337th
+Kai Jones,1.3,0.755,2.2,-0.3,CHA,Charlotte Hornets,1,0.628,-0.7,0.83,0.3,214th,0.127,49th,0.4,188th,1.37,265th
+Willie Cauley-Stein,2,0.519,4.7,1.4,PHI,Philadelphia 76ers,1.7,0.474,1.2,3.3,0.3,215th,0.045,151st,0.2,198th,1.4,262nd
+Isaiah Stewart,8.6,0.634,14.6,-4.5,DET,Detroit Pistons,8.3,0.549,-5.2,12.8,0.3,216th,0.085,81st,0.7,164th,1.8,234th
+Yves Pons,1.3,0.454,1.6,-2.5,MEM,Memphis Grizzlies,1.1,0.385,-2.5,0.9,0.2,217th,0.069,97th,0,269th,0.7,327th
+Deandre Ayton,17.4,0.625,21.9,-1.3,PHX,Phoenix Suns,17.2,0.656,5.9,23.35,0.2,218th,-0.031,401st,-7.2,578th,-1.45,469th
+Jalen Johnson,2.6,0.472,3.6,0.8,ATL,Atlanta Hawks,2.4,0.59,-0.9,1.95,0.2,219th,-0.118,546th,1.7,113rd,1.65,242nd
+Thanasis Antetokounmpo,3.8,0.721,3.7,-1.3,MIL,Milwaukee Bucks,3.6,0.577,-2.4,3.38,0.2,220th,0.144,41st,1.1,146th,0.32,357th
+DeMarcus Cousins,9.2,0.658,11.2,-2.2,DEN,Denver Nuggets,9,0.567,0.8,10.58,0.2,221st,0.091,75th,-3,491st,0.62,336th
+Troy Brown,4.5,0.493,10,2.9,CHI,Chicago Bulls,4.3,0.525,-0.7,7.6,0.2,222nd,-0.032,403rd,3.6,55th,2.4,203rd
+Tony Bradley,3.1,0.677,4.7,1.2,CHI,Chicago Bulls,2.9,0.6,1.3,5.28,0.2,223rd,0.077,87th,-0.1,328th,-0.58,430th
+Neemias Queta,3.4,0.437,5.5,-0.5,SAC,Sacramento Kings,3.2,0.495,-0.5,4.05,0.2,224th,-0.058,451st,0,243rd,1.45,260th
+Bol Bol,2.7,0.525,3.6,-0.2,DEN,Denver Nuggets,2.5,0.583,0.4,3.08,0.2,225th,-0.058,450th,-0.6,353rd,0.52,342nd
+Haywood Highsmith,2.5,0.432,3.6,-0.3,MIA,Miami Heat,2.3,0.446,-1.9,2.03,0.2,226th,-0.014,342nd,1.6,117th,1.57,253rd
+Marcus Garrett,1.3,0.287,5.2,1.3,MIA,Miami Heat,1.1,0.28,1.4,3.53,0.2,227th,0.007,256th,-0.1,325th,1.67,241st
+Brandon Boston,6.9,0.465,11.3,1.6,LAC,Los Angeles Clippers,6.7,0.481,-0.8,7.13,0.2,228th,-0.016,352nd,2.4,87th,4.17,129th
+Jahmi'us Ramsey,3.4,0.655,2.7,-2.7,SAC,Sacramento Kings,3.2,0.468,-1.1,2.48,0.2,229th,0.187,24th,-1.6,421st,0.22,371st
+Malcolm Brogdon,19.3,0.539,26.1,-6,IND,Indiana Pacers,19.1,0.557,0,22.35,0.2,230th,-0.018,356th,-6,561st,3.75,146th
+Kevin Love,13.8,0.62,18.9,-1,CLE,Cleveland Cavaliers,13.6,0.594,1.3,20.3,0.2,231st,0.026,201st,-2.3,452nd,-1.4,466th
+Jaden Springer,1.1,0.583,1.9,-0.9,PHI,Philadelphia 76ers,1,1,-4,0.6,0.1,232nd,-0.417,605th,3.1,70th,1.3,268th
+Ayo Dosunmu,8.9,0.451,10.5,-6.3,CHI,Chicago Bulls,8.8,0.596,-2.6,14.2,0.1,233rd,-0.145,561st,-3.7,510th,-3.7,519th
+Chris Chiozza,2.1,0.345,4.6,-1.8,GSW,Golden State Warriors,2,0.412,-1.4,3,0.1,234th,-0.067,470th,-0.4,340th,1.6,250th
+Derrick Favors,5.4,0.582,9,-1.9,OKC,Oklahoma City Thunder,5.3,0.534,-3.7,5.93,0.1,235th,0.048,144th,1.8,111st,3.07,176th
+Myles Powell,1.3,0.466,1.4,-0.9,PHI,Philadelphia 76ers,1.2,0.364,-1.6,0.6,0.1,236th,0.102,62nd,0.7,166th,0.8,315th
+Kelly Olynyk,9.2,0.679,17.3,2.3,DET,Detroit Pistons,9.1,0.561,-1.8,11.18,0.1,237th,0.118,52nd,4.1,39th,6.12,69th
+Kevin Pangos,1.7,0.216,2.8,-2.9,CLE,Cleveland Cavaliers,1.6,0.408,-1.4,2.03,0.1,238th,-0.192,582nd,-1.5,416th,0.77,319th
+Davon Reed,4.5,0.556,5.6,-5.4,DEN,Denver Nuggets,4.4,0.624,-0.5,5.78,0.1,239th,-0.068,475th,-4.9,542nd,-0.18,414th
+Tacko Fall,1.2,0.463,3.6,0.2,CLE,Cleveland Cavaliers,1.1,0.398,0.5,2.48,0.1,240th,0.065,107th,-0.3,336th,1.12,287th
+Herbert Jones,9.6,0.594,17.1,-1.3,NOP,New Orleans Pelicans,9.5,0.573,0.9,18,0.1,241st,0.021,215th,-2.2,447th,-0.9,446th
+JaQuori McLaughlin,0,0,-0.4,-2.3,DAL,Dallas Mavericks,0,0,-2.3,-0.3,0,242nd,0,303rd,0,302nd,-0.1,402nd
+Javin DeLaurier,0,NA,4.5,4,MIL,Milwaukee Bucks,0,NA,4,3.38,0,243rd,NA,3rd,0,251st,1.12,285th
+Tyler Hall,0,NA,-2.5,-5,NYK,New York Knicks,0,NA,-5,-1.88,0,244th,NA,4th,0,314th,-0.62,435th
+Sam Dekker,0,NA,-2.5,-5,TOR,Toronto Raptors,0,NA,-5,-1.88,0,245th,NA,5th,0,315th,-0.62,436th
+Ade Murkey,0,NA,-0.5,-1,SAC,Sacramento Kings,0,NA,-1,-0.38,0,246th,NA,6th,0,305th,-0.12,408th
+DeJon Jarreau,0,NA,1,2,IND,Indiana Pacers,0,NA,2,0.75,0,247th,NA,7th,0,285th,0.25,367th
+Jordan Bell,0,NA,3,1,CHI,Chicago Bulls,0,NA,1,2.25,0,248th,NA,8th,0,266th,0.75,323rd
+C.J. Miles,0,NA,-2.5,-5,BOS,Boston Celtics,0,NA,-5,-1.88,0,249th,NA,9th,0,313rd,-0.62,433rd
+McKinley Wright,1,1,0.9,-1.4,MIN,Minnesota Timberwolves,1,0.833,-1.4,0.68,0,250th,0.167,29th,0,287th,0.22,370th
+Mac McClung,4,0.776,7,3.5,LAL,Los Angeles Lakers,4,0.621,3.5,5.25,0,251st,0.155,33rd,0,236th,1.75,237th
+Norvel Pelle,2,0.75,-0.5,-6.3,UTA,Utah Jazz,2,0.6,-6.3,-0.38,0,252nd,0.15,36th,0,306th,-0.12,409th
+Sharife Cooper,0.5,0.4,-0.9,-3,ATL,Atlanta Hawks,0.5,0.25,-2.7,-0.45,0,253rd,0.15,37th,-0.3,335th,-0.45,424th
+Carlik Jones,0.8,0.306,0.1,-4,DEN,Denver Nuggets,0.8,0.202,-4,0.08,0,254th,0.104,61st,0,298th,0.02,393rd
+Jemerrio Jones,2,0.75,0.5,-6.5,LAL,Los Angeles Lakers,2,0.667,-6.5,0.38,0,255th,0.083,84th,0,291st,0.12,380th
+Chaundee Brown,6.2,0.517,7.5,-4,ATL,Atlanta Hawks,6.2,0.447,-4,5.63,0,256th,0.07,96th,0,233rd,1.87,229th
+James Ennis,4.1,0.622,6.4,0,DEN,Denver Nuggets,4.1,0.553,0,4.8,0,257th,0.069,98th,0,241st,1.6,249th
+Mike Muscala,8,0.696,11.4,-0.3,OKC,Oklahoma City Thunder,8,0.63,0.5,9.08,0,258th,0.066,104th,-0.8,365th,2.32,205th
+Brad Wanamaker,3.6,0.536,6.7,-3.4,WAS,Washington Wizards,3.6,0.472,-1.9,5.03,0,259th,0.064,109th,-1.5,408th,1.67,240th
+Louis King,4.5,0.501,5.6,-2.9,SAC,Sacramento Kings,4.5,0.438,-2.9,4.2,0,260th,0.063,112nd,0,245th,1.4,264th
+Xavier Sneed,0.6,0.306,0.7,-0.7,UTA,Utah Jazz,0.6,0.25,-0.7,0.53,0,261st,0.056,121st,0,209th,0.17,378th
+Ryan Arcidiacono,1.6,0.722,1.8,-1.2,NYK,New York Knicks,1.6,0.667,-1.2,1.35,0,262nd,0.055,123rd,0,277th,0.45,348th
+Moses Wright,1.3,0.524,2,-1.8,DAL,Dallas Mavericks,1.3,0.47,-1.8,1.5,0,263rd,0.054,127th,0,275th,0.5,345th
+Hassani Gravett,6.3,0.682,11,-0.3,ORL,Orlando Magic,6.3,0.629,-0.3,8.25,0,264th,0.053,134th,0,225th,2.75,190th
+Darren Collison,1.3,0.333,0.8,-4.7,LAL,Los Angeles Lakers,1.3,0.286,-4.7,0.6,0,265th,0.047,145th,0,289th,0.2,373rd
+Cassius Winston,2,0.593,2.5,-0.9,WAS,Washington Wizards,2,0.549,-0.9,1.88,0,266th,0.044,153rd,0,273rd,0.62,338th
+Langston Galloway,2,0.313,4,-1.7,MIL,Milwaukee Bucks,2,0.269,-1.7,3,0,267th,0.044,157th,0,253rd,1,295th
+Tyler Johnson,2.8,0.468,6.6,-1,SAS,San Antonio Spurs,2.8,0.425,-1,4.95,0,268th,0.043,160th,0,238th,1.65,244th
+Anthony Davis,23.2,0.62,37.8,-3.8,LAL,Los Angeles Lakers,23.2,0.578,-2.3,26.63,0,269th,0.042,163rd,-1.5,410th,11.17,21st
+Evan Mobley,15,0.587,25,0,CLE,Cleveland Cavaliers,15,0.549,1.4,25.6,0,270th,0.038,172nd,-1.4,406th,-0.6,432nd
+Reggie Perry,9.2,0.571,10.8,-7.8,POR,Portland Trail Blazers,9.2,0.537,-7.8,8.1,0,271st,0.034,180th,0,226th,2.7,192nd
+Cameron Oliver,11.5,0.738,16.8,-1,ATL,Atlanta Hawks,11.5,0.705,-1,12.6,0,272nd,0.033,183rd,0,216th,4.2,128th
+Emmanuel Mudiay,1.5,0.426,3,-3.5,SAC,Sacramento Kings,1.5,0.399,-3.5,2.25,0,273rd,0.027,200th,0,267th,0.75,325th
+Clint Capela,11.1,0.626,23.2,2.3,ATL,Atlanta Hawks,11.1,0.605,1.7,22.8,0,274th,0.021,212nd,0.6,172nd,0.4,353rd
+Chandler Hutchison,0.7,0.712,1.8,2.5,PHX,Phoenix Suns,0.7,0.694,2.5,1.35,0,275th,0.018,222nd,0,278th,0.45,349th
+Devin Cannady,10,0.547,14.2,-2.2,ORL,Orlando Magic,10,0.531,-2.2,10.65,0,276th,0.016,231st,0,219th,3.55,153rd
+Freddie Gillespie,2.3,0.433,5.2,-3.2,ORL,Orlando Magic,2.3,0.419,-3.2,3.9,0,277th,0.014,236th,0,246th,1.3,272nd
+Cheick Diallo,3.7,0.53,0.3,-11,DET,Detroit Pistons,3.7,0.517,-11,0.23,0,278th,0.013,237th,0,296th,0.07,388th
+Kris Dunn,7.1,0.488,12.5,-6.9,POR,Portland Trail Blazers,7.1,0.482,-6.1,10.35,0,279th,0.006,258th,-0.8,366th,2.15,214th
+George King,0.3,0.089,-2.9,-6.8,DAL,Dallas Mavericks,0.3,0.085,-6.8,-2.18,0,280th,0.004,264th,0,317th,-0.72,441st
+Sekou Doumbouya,7,0.718,18,12,LAL,Los Angeles Lakers,7,0.717,12,13.5,0,281st,0.001,277th,0,215th,4.5,118th
+Zylan Cheatham,0,0,-6.5,-13,UTA,Utah Jazz,0,0,-13,-4.88,0,282nd,0,279th,0,321st,-1.62,474th
+Malik Newman,8,0.68,9,1,CLE,Cleveland Cavaliers,8,0.68,1,6.75,0,283rd,0,281st,0,230th,2.25,207th
+Cassius Stanley,5.8,0.516,7.3,-1.9,DET,Detroit Pistons,5.8,0.516,-1.9,5.48,0,284th,0,282nd,0,235th,1.82,231st
+Tre Scott,3,0.5,6.5,2,CLE,Cleveland Cavaliers,3,0.5,2,4.88,0,285th,0,283rd,0,239th,1.62,246th
+Matt Ryan,3,0.3,6.5,3,BOS,Boston Celtics,3,0.3,3,4.88,0,286th,0,284th,0,240th,1.62,247th
+Shaquille Harrison,2,0.333,4.8,-2,BKN,Brooklyn Nets,2,0.333,-2,3.6,0,287th,0,285th,0,248th,1.2,276th
+Craig Sword,2,0.75,4.8,0.3,WAS,Washington Wizards,2,0.75,0.3,3.6,0,288th,0,286th,0,249th,1.2,279th
+Damyean Dotson,2,0.5,4.5,2.5,NYK,New York Knicks,2,0.5,2.5,3.38,0,289th,0,287th,0,252nd,1.12,286th
+Cat Barber,0,0,3.8,3,ATL,Atlanta Hawks,0,0,3,2.85,0,290th,0,289th,0,258th,0.95,305th
+Jay Huff,0,0,3.4,3.8,LAL,Los Angeles Lakers,0,0,3.8,2.55,0,291st,0,290th,0,259th,0.85,310th
+M.J. Walker,0,0,3.3,-1.5,PHX,Phoenix Suns,0,0,-1.5,2.48,0,292nd,0,291st,0,260th,0.82,311st
+Jarron Cumberland,0.7,0.5,3.2,3,POR,Portland Trail Blazers,0.7,0.5,3,2.4,0,293rd,0,292nd,0,261st,0.8,312nd
+Ahmad Caver,2,1,3,2,IND,Indiana Pacers,2,1,2,2.25,0,294th,0,293rd,0,264th,0.75,321st
+Anthony Lamb,0,0,3,2.5,SAS,San Antonio Spurs,0,0,2.5,2.25,0,295th,0,294th,0,265th,0.75,322nd
+Scottie Lewis,0.5,0.568,1.3,-2,CHA,Charlotte Hornets,0.5,0.568,-2,0.98,0,296th,0,296th,0,280th,0.32,358th
+DaQuan Jeffries,0.7,0.5,1,-1,MEM,Memphis Grizzlies,0.7,0.5,-1,0.75,0,297th,0,297th,0,283rd,0.25,365th
+Jon Teske,0,0,1,-1,MEM,Memphis Grizzlies,0,0,-1,0.75,0,298th,0,298th,0,284th,0.25,366th
+Feron Hunt,0,0,1,-0.5,NYK,New York Knicks,0,0,-0.5,0.75,0,299th,0,299th,0,286th,0.25,368th
+Tyrell Terry,1,1,0.5,-1,MEM,Memphis Grizzlies,1,1,-1,0.38,0,300th,0,300th,0,292nd,0.12,381st
+Nate Hinton,0,0,0.3,2,IND,Indiana Pacers,0,0,2,0.23,0,301st,0,301st,0,295th,0.07,386th
+Scotty Hopson,4,0.5,0,-6,OKC,Oklahoma City Thunder,4,0.5,-6,0,0,302nd,0,302nd,0,299th,0,394th
+Jaime Echenique,0,NA,-0.5,-1,WAS,Washington Wizards,0,NA,-1,-0.38,0,303rd,NA,1st,0,307th,-0.12,410th
+David Johnson,0,0,-0.5,-1,TOR,Toronto Raptors,0,0,-1,-0.38,0,304th,0,304th,0,303rd,-0.12,406th
+Joe Johnson,2,1,-0.5,-5,BOS,Boston Celtics,2,1,-5,-0.38,0,305th,0,305th,0,304th,-0.12,407th
+Emanuel Terry,0,0,-1.8,-6.3,PHX,Phoenix Suns,0,0,-6.3,-1.35,0,306th,0,306th,0,309th,-0.45,422nd
+Jordan Goodwin,0,0,-1.8,-4,WAS,Washington Wizards,0,0,-4,-1.35,0,307th,0,307th,0,310th,-0.45,423rd
+Matt Mooney,0,0,-2,-5,NYK,New York Knicks,0,0,-5,-1.5,0,308th,0,308th,0,311st,-0.5,427th
+Arnoldas Kulboka,0,0,-3,-6,CHA,Charlotte Hornets,0,0,-6,-2.25,0,309th,0,309th,0,318th,-0.75,444th
+Jaysean Paige,0,0,-4.5,-10,DET,Detroit Pistons,0,0,-10,-3.38,0,310th,0,310th,0,320th,-1.12,452nd
+Michael Porter,9.9,0.415,19.9,6.4,DEN,Denver Nuggets,9.9,0.416,6.4,14.93,0,311st,-0.001,311st,0,211st,4.97,98th
+D.J. Wilson,7.5,0.772,11.1,-4,TOR,Toronto Raptors,7.5,0.773,-4,8.33,0,312nd,-0.001,312nd,0,224th,2.77,189th
+Gabriel Lundberg,4.3,0.38,14.8,6.7,PHX,Phoenix Suns,4.3,0.382,6.7,11.1,0,313rd,-0.002,314th,0,218th,3.7,147th
+Cameron McGriff,4.7,0.466,10.7,2.7,POR,Portland Trail Blazers,4.7,0.47,2.7,8.03,0,314th,-0.004,322nd,0,227th,2.67,196th
+Marcos Louzada Silva,3.9,0.512,1.2,-9,POR,Portland Trail Blazers,3.9,0.517,-9,0.9,0,315th,-0.005,323rd,0,281st,0.3,360th
+Paul Watson,3.4,0.427,3.8,-6.2,OKC,Oklahoma City Thunder,3.4,0.432,-6.2,2.85,0,316th,-0.005,324th,0,256th,0.95,303rd
+Melvin Frazier,10.7,0.305,-2.8,-30.7,OKC,Oklahoma City Thunder,10.7,0.313,-30.7,-2.1,0,317th,-0.008,326th,0,316th,-0.7,439th
+Justin Jackson,2.1,0.464,1.9,-1.9,PHX,Phoenix Suns,2.1,0.472,-1.9,1.43,0,318th,-0.008,327th,0,276th,0.47,347th
+Gabriel Deck,2.9,0.662,3.2,-2,OKC,Oklahoma City Thunder,2.9,0.672,-2,2.4,0,319th,-0.01,332nd,0,262nd,0.8,316th
+Wes Iwundu,7.3,0.547,9.7,0,ATL,Atlanta Hawks,7.3,0.557,0,7.28,0,320th,-0.01,333rd,0,228th,2.42,202nd
+Paris Bass,3,0.424,4,1,PHX,Phoenix Suns,3,0.436,1,3,0,321st,-0.012,335th,0,254th,1,296th
+Micah Potter,4,0.491,-0.3,-13.3,DET,Detroit Pistons,4,0.505,-13.3,-0.23,0,322nd,-0.014,345th,0,300th,-0.07,399th
+Daniel Oturu,3,0.533,1.2,-8,TOR,Toronto Raptors,3,0.549,-8,0.9,0,323rd,-0.016,350th,0,282nd,0.3,363rd
+Zavier Simpson,11,0.388,13.8,-23.8,OKC,Oklahoma City Thunder,11,0.406,-23.8,10.35,0,324th,-0.018,359th,0,221st,3.45,156th
+Trevelin Queen,4.3,0.593,6.3,0.8,HOU,Houston Rockets,4.3,0.619,0.8,4.73,0,325th,-0.026,389th,0,242nd,1.57,252nd
+Jaylen Morris,0.7,0.101,2.8,2.7,SAS,San Antonio Spurs,0.7,0.129,2.7,2.1,0,326th,-0.028,393rd,0,270th,0.7,328th
+Jeff Dowtin,2.4,0.324,3.9,-3.9,ORL,Orlando Magic,2.4,0.353,-3.9,2.93,0,327th,-0.029,394th,0,255th,0.97,301st
+B.J. Johnson,6.5,0.485,7.4,-3,ORL,Orlando Magic,6.5,0.52,-3,5.55,0,328th,-0.035,410th,0,234th,1.85,230th
+Jordan Schakel,1.3,0.171,2.6,0.5,WAS,Washington Wizards,1.3,0.21,0.5,1.95,0,329th,-0.039,416th,0,272nd,0.65,334th
+Xavier Moon,5.8,0.505,11.3,0.2,LAC,Los Angeles Clippers,5.8,0.545,0.2,8.48,0,330th,-0.04,420th,0,223rd,2.82,187th
+Mason Jones,6.8,0.581,13,5.8,LAL,Los Angeles Lakers,6.8,0.625,5.8,9.75,0,331st,-0.044,431st,0,222nd,3.25,168th
+Carsen Edwards,5.8,0.331,9.4,-3,DET,Detroit Pistons,5.8,0.378,-3,7.05,0,332nd,-0.047,436th,0,229th,2.35,204th
+Tyrone Wallace,2.8,0.333,3.1,-3,NOP,New Orleans Pelicans,2.8,0.383,-3,2.33,0,333rd,-0.05,442nd,0,263rd,0.77,318th
+Deividas Sirvydis,1,0.094,0.5,-9.3,DET,Detroit Pistons,1,0.15,-9.3,0.38,0,334th,-0.056,448th,0,293rd,0.12,382nd
+Sam Merrill,4.2,0.425,4.5,-1.5,MEM,Memphis Grizzlies,4.2,0.485,-1.5,3.38,0,335th,-0.06,457th,0,250th,1.12,284th
+Derrick Walton,6.3,0.277,19.2,-1,DET,Detroit Pistons,6.3,0.342,-1,14.4,0,336th,-0.065,468th,0,214th,4.8,110th
+Joel Ayayi,0.3,0.1,1.6,0.4,WAS,Washington Wizards,0.3,0.167,0.4,1.2,0,337th,-0.067,469th,0,279th,0.4,352nd
+Tremont Waters,3.3,0.288,5.7,-6.3,WAS,Washington Wizards,3.3,0.357,-6.3,4.28,0,338th,-0.069,477th,0,244th,1.42,261st
+Marko Simonovic,1.9,0.358,2.7,0.3,CHI,Chicago Bulls,1.9,0.428,0.3,2.03,0,339th,-0.07,478th,0,271st,0.67,333rd
+Frank Kaminsky,10.6,0.564,19.7,4.3,PHX,Phoenix Suns,10.6,0.635,4.3,14.78,0,340th,-0.071,482nd,0,212nd,4.92,100th
+Gabe York,4,0.364,8.8,-2,IND,Indiana Pacers,4,0.435,-2,6.6,0,341st,-0.071,484th,0,231st,2.2,210th
+Jaylen Hoard,14.7,0.463,19.6,-12.4,OKC,Oklahoma City Thunder,14.7,0.536,-12.4,14.7,0,342nd,-0.073,487th,0,213rd,4.9,102nd
+Vernon Carey,2.9,0.46,0.8,-6.3,WAS,Washington Wizards,2.9,0.534,-6.3,0.6,0,343rd,-0.074,489th,0,288th,0.2,372nd
+Aaron Henry,0.3,0.125,-1.1,-3.3,PHI,Philadelphia 76ers,0.3,0.2,-3.3,-0.83,0,344th,-0.075,492nd,0,308th,-0.27,417th
+Shaq Buchanan,1,0.167,2,-1,MEM,Memphis Grizzlies,1,0.25,-1,1.5,0,345th,-0.083,502nd,0,274th,0.5,343rd
+Wayne Selden,1.7,0.333,0.2,-4.3,NYK,New York Knicks,1.7,0.434,-4.3,0.15,0,346th,-0.101,527th,0,297th,0.05,391st
+Jared Harper,7.4,0.565,13.9,1.4,NOP,New Orleans Pelicans,7.4,0.666,1.4,10.43,0,347th,-0.101,528th,0,220th,3.47,155th
+Aleem Ford,3,0.25,-0.3,-8.8,ORL,Orlando Magic,3,0.353,-8.8,-0.23,0,348th,-0.103,532nd,0,301st,-0.07,401st
+Miye Oni,0.3,0.15,-0.3,-2.1,UTA,Utah Jazz,0.3,0.265,-2.3,-0.23,0,349th,-0.115,543rd,0.2,200th,-0.07,400th
+Chris Silva,2.6,0.523,3,-2.9,MIA,Miami Heat,2.6,0.641,-2.9,2.25,0,350th,-0.118,548th,0,268th,0.75,326th
+Eugene Omoruyi,1.8,0.394,3.8,0.8,DAL,Dallas Mavericks,1.8,0.518,0.8,2.85,0,351st,-0.124,549th,0,257th,0.95,304th
+Rob Edwards,1.5,0.25,-2,-7,OKC,Oklahoma City Thunder,1.5,0.375,-7,-1.5,0,352nd,-0.125,552nd,0,312nd,-0.5,429th
+James Bouknight,4.6,0.31,7,0.3,CHA,Charlotte Hornets,4.6,0.459,-1.6,4.28,0,353rd,-0.149,565th,1.9,108th,2.72,191st
+Amir Coffey,9,0.442,15.3,3.5,LAC,Los Angeles Clippers,9,0.598,-1,13.2,0,354th,-0.156,570th,4.5,32nd,2.1,216th
+Brandon Knight,6.4,0.404,8.2,-1.2,DAL,Dallas Mavericks,6.4,0.561,-1.2,6.15,0,355th,-0.157,571st,0,232nd,2.05,219th
+Dakota Mathias,1,0.3,0.8,-1.8,MEM,Memphis Grizzlies,1,0.5,-1.8,0.6,0,356th,-0.2,585th,0,290th,0.2,376th
+Robert Woodard,0.5,0.219,2.4,0.9,SAC,Sacramento Kings,0.6,0.207,1.3,1.73,-0.1,357th,0.012,243rd,-0.4,342nd,0.67,331st
+Jeremy Lamb,7.2,0.559,10.5,-2.3,SAC,Sacramento Kings,7.3,0.521,0.3,9.52,-0.1,358th,0.038,168th,-2.6,470th,0.98,299th
+Collin Sexton,15.9,0.515,17.5,-1.6,CLE,Cleveland Cavaliers,16,0.526,-2.7,12.68,-0.1,359th,-0.011,334th,1.1,144th,4.82,107th
+Isaiah Todd,1.6,0.334,1.7,-2.9,WAS,Washington Wizards,1.7,0.349,-2,1.65,-0.1,360th,-0.015,349th,-0.9,378th,0.05,389th
+Payton Pritchard,6.1,0.52,14.6,6,BOS,Boston Celtics,6.2,0.578,0.9,10.5,-0.1,361st,-0.058,449th,5.1,20th,4.1,131st
+Gary Clark,2.6,0.477,5,0.7,NOP,New Orleans Pelicans,2.7,0.547,-0.5,3.75,-0.1,362nd,-0.07,479th,1.2,139th,1.25,274th
+Justin Robinson,3,0.301,0.8,-7.3,DET,Detroit Pistons,3.1,0.404,-4.9,2.1,-0.1,363rd,-0.103,530th,-2.4,458th,-1.3,461st
+Nerlens Noel,3.2,0.679,9.6,-4.7,NYK,New York Knicks,3.4,0.581,-2.7,7.35,-0.2,364th,0.098,65th,-2,437th,2.25,208th
+Will Barton,14.5,0.536,19.9,-2.2,DEN,Denver Nuggets,14.7,0.548,1.4,23.4,-0.2,365th,-0.012,336th,-3.6,505th,-3.5,514th
+Monte Morris,12.4,0.58,20.1,-4.8,DEN,Denver Nuggets,12.6,0.583,3.8,22.9,-0.2,366th,-0.003,319th,-8.6,590th,-2.8,500th
+Abdel Nader,2.2,0.36,4.8,0.4,PHX,Phoenix Suns,2.4,0.431,-0.1,3.45,-0.2,367th,-0.071,480th,0.5,183rd,1.35,266th
+Theo Pinson,2.3,0.543,2.4,-1.3,DAL,Dallas Mavericks,2.5,0.553,-2.2,2.78,-0.2,368th,-0.01,330th,0.9,155th,-0.38,420th
+Paul Millsap,3.3,0.439,4.3,-2.9,PHI,Philadelphia 76ers,3.5,0.458,-0.8,5.03,-0.2,369th,-0.019,360th,-2.1,441st,-0.73,443rd
+Dean Wade,5.1,0.5,10.8,3.8,CLE,Cleveland Cavaliers,5.3,0.584,0.7,7.2,-0.2,370th,-0.084,504th,3.1,69th,3.6,150th
+Cody Zeller,4.9,0.569,9.3,0.3,POR,Portland Trail Blazers,5.2,0.627,-1,6.15,-0.3,371st,-0.058,452nd,1.3,138th,3.15,173rd
+Derrick Jones,5.3,0.664,6.3,-2.6,CHI,Chicago Bulls,5.6,0.633,0.8,7.5,-0.3,372nd,0.031,186th,-3.4,501st,-1.2,459th
+Chris Duarte,12.8,0.568,12.5,-7.1,IND,Indiana Pacers,13.1,0.537,-1,13.81,-0.3,373rd,0.031,184th,-6.1,566th,-1.31,462nd
+Xavier Tillman,4.5,0.665,4.3,-6.5,MEM,Memphis Grizzlies,4.8,0.51,-0.5,6.98,-0.3,374th,0.155,34th,-6,562nd,-2.68,499th
+Gabe Vincent,8.4,0.467,17.1,6.3,MIA,Miami Heat,8.7,0.551,1.5,15,-0.3,375th,-0.084,506th,4.8,24th,2.1,217th
+Rajon Rondo,4.5,0.511,8.4,-7.9,CLE,Cleveland Cavaliers,4.8,0.494,-2.8,7.95,-0.3,376th,0.017,225th,-5.1,545th,0.45,350th
+Markus Howard,3.8,0.541,3.3,-2.6,DEN,Denver Nuggets,4.1,0.567,-0.4,3.45,-0.3,377th,-0.026,385th,-2.2,448th,-0.15,413rd
+Quinndary Weatherspoon,2.4,0.483,3.4,-0.2,GSW,Golden State Warriors,2.7,0.647,-0.9,2.63,-0.3,378th,-0.164,574th,0.7,167th,0.77,317th
+Willy Hernangomez,8.9,0.49,14,-0.3,NOP,New Orleans Pelicans,9.2,0.584,-0.9,10.65,-0.3,379th,-0.094,517th,0.6,174th,3.35,163rd
+Derrick Rose,11.6,0.478,19.2,-2.3,NYK,New York Knicks,12,0.541,3.5,16.13,-0.4,380th,-0.063,466th,-5.8,557th,3.07,178th
+Jarrett Culver,3.1,0.391,2.4,-4.5,MEM,Memphis Grizzlies,3.5,0.433,-0.5,4.35,-0.4,381st,-0.042,425th,-4,520th,-1.95,485th
+Gary Payton,6.7,0.71,13.7,2.5,GSW,Golden State Warriors,7.1,0.679,2.4,13.8,-0.4,382nd,0.031,187th,0.1,203rd,-0.1,405th
+RJ Nembhard,0.7,0.274,0.6,-1.7,CLE,Cleveland Cavaliers,1.1,0.38,-0.5,1.65,-0.4,383rd,-0.106,533rd,-1.2,392nd,-1.05,450th
+Solomon Hill,0.2,0.071,4,1.8,ATL,Atlanta Hawks,0.6,0.2,3.2,3.98,-0.4,384th,-0.129,557th,-1.4,405th,0.02,392nd
+Alize Johnson,1.4,0.254,3.1,1,NOP,New Orleans Pelicans,1.8,0.474,-2,1.8,-0.4,385th,-0.22,590th,3,71st,1.3,271st
+Kenyon Martin,8.4,0.601,12.9,0,HOU,Houston Rockets,8.8,0.604,-3,11.8,-0.4,386th,-0.003,321st,3,74th,1.1,289th
+Daishen Nix,2.8,0.418,3.6,-3.2,HOU,Houston Rockets,3.2,0.48,-1.9,3.75,-0.4,387th,-0.062,463rd,-1.3,402nd,-0.15,412nd
+Gary Trent,17.9,0.485,22.6,-1.6,TOR,Toronto Raptors,18.3,0.546,2.5,26.5,-0.4,388th,-0.061,461st,-4.1,524th,-3.9,526th
+Jakob Poeltl,13.1,0.616,25,2.1,SAS,San Antonio Spurs,13.5,0.613,1.7,25.5,-0.4,389th,0.003,267th,0.4,193rd,-0.5,428th
+Lindell Wigginton,3.8,0.347,5.1,-2.7,MIL,Milwaukee Bucks,4.2,0.524,-2.5,3.9,-0.4,390th,-0.177,577th,-0.2,332nd,1.2,277th
+Devontae Cacok,2.6,0.676,5.4,-1.8,SAS,San Antonio Spurs,3.1,0.675,-0.1,5.03,-0.5,391st,0.001,276th,-1.7,424th,0.37,355th
+Eric Bledsoe,9.4,0.619,18.3,2.1,LAC,Los Angeles Clippers,9.9,0.514,-0.5,13.38,-0.5,392nd,0.105,60th,2.6,81st,4.92,101st
+Taurean Prince,6.8,0.435,7.4,-5.7,MIN,Minnesota Timberwolves,7.3,0.588,-0.1,10.9,-0.5,393rd,-0.153,568th,-5.6,553rd,-3.5,515th
+Dorian Finney-Smith,10.5,0.578,16.8,1,DAL,Dallas Mavericks,11,0.604,3,19.4,-0.5,394th,-0.026,390th,-2,436th,-2.6,497th
+Jay Scrubb,2.2,0.453,4,1.2,LAC,Los Angeles Clippers,2.7,0.486,0.7,3.3,-0.5,395th,-0.033,408th,0.5,181st,0.7,330th
+Kyrie Irving,26.9,0.609,41.6,3.7,BKN,Brooklyn Nets,27.4,0.592,4.2,30.45,-0.5,396th,0.017,226th,-0.5,348th,11.15,22nd
+Ed Davis,0.4,1.064,2.2,1.3,CLE,Cleveland Cavaliers,0.9,0.632,0.6,2.33,-0.5,397th,0.432,10th,0.7,170th,-0.13,411st
+Malcolm Hill,3.2,0.426,4.5,-1.5,CHI,Chicago Bulls,3.8,0.619,-1.6,3.98,-0.6,398th,-0.193,583rd,0.1,206th,0.52,341st
+Naji Marshall,5.1,0.744,5.9,-3.5,NOP,New Orleans Pelicans,5.7,0.505,-0.9,6.55,-0.6,399th,0.239,18th,-2.6,469th,-0.65,438th
+Javonte Smart,2.4,0.107,2.8,-4,MIA,Miami Heat,3,0.407,-2.5,3,-0.6,400th,-0.3,601st,-1.5,412nd,-0.2,415th
+Jock Landale,4.3,0.602,6.6,-0.8,SAS,San Antonio Spurs,4.9,0.597,-0.3,5.55,-0.6,401st,0.005,259th,-0.5,344th,1.05,293rd
+Keifer Sykes,5,0.435,7.3,-1,IND,Indiana Pacers,5.6,0.456,-2.2,5.7,-0.6,402nd,-0.021,365th,1.2,143rd,1.6,251st
+Dylan Windler,1.6,0.431,3.7,-0.7,CLE,Cleveland Cavaliers,2.2,0.519,-0.2,3.15,-0.6,403rd,-0.088,512nd,-0.5,343rd,0.55,340th
+Hamidou Diallo,10.4,0.523,14.7,-2.7,DET,Detroit Pistons,11,0.541,-3.6,12.6,-0.6,404th,-0.018,357th,0.9,158th,2.1,218th
+Avery Bradley,5.8,0.636,5.5,-4.6,LAL,Los Angeles Lakers,6.4,0.55,-2.9,7.54,-0.6,405th,0.086,78th,-1.7,425th,-2.04,487th
+Jaren Jackson,15.7,0.532,26.3,3.4,MEM,Memphis Grizzlies,16.3,0.535,4.6,27,-0.6,406th,-0.003,318th,-1.2,390th,-0.7,440th
+Zeke Nnaji,5.9,0.683,8.6,-2.3,DEN,Denver Nuggets,6.6,0.629,-1.1,6.83,-0.7,407th,0.054,128th,-1.2,393rd,1.77,235th
+Jarrett Allen,15.4,0.786,20.9,-3.7,CLE,Cleveland Cavaliers,16.1,0.698,2.4,21.52,-0.7,408th,0.088,77th,-6.1,564th,-0.62,434th
+Mychal Mulder,3.4,0.458,2.9,-4.5,MIA,Miami Heat,4.1,0.438,-3.2,2.7,-0.7,409th,0.02,216th,-1.3,396th,0.2,375th
+Franz Wagner,14.5,0.578,21.1,0.3,ORL,Orlando Magic,15.2,0.559,-3.1,20.6,-0.7,410th,0.019,217th,3.4,59th,0.5,344th
+Khem Birch,3.7,0.552,6.7,-0.1,TOR,Toronto Raptors,4.5,0.534,0.4,7.49,-0.8,411st,0.018,221st,-0.5,351st,-0.79,445th
+Rudy Gobert,14.8,0.735,24.6,3.1,UTA,Utah Jazz,15.6,0.732,6,30.4,-0.8,412nd,0.003,268th,-2.9,484th,-5.8,562nd
+Greg Monroe,4.6,0.57,9.1,0.5,MIN,Minnesota Timberwolves,5.4,0.566,0.4,8.63,-0.8,413rd,0.004,263rd,0.1,207th,0.47,346th
+Domantas Sabonis,18.1,0.615,29.1,-2.1,SAC,Sacramento Kings,18.9,0.636,-0.2,28.34,-0.8,414th,-0.021,366th,-1.9,432nd,0.76,320th
+Mason Plumlee,5.7,0.67,9.9,-4.3,CHA,Charlotte Hornets,6.5,0.603,0.1,16.1,-0.8,415th,0.067,102nd,-4.4,528th,-6.2,569th
+Kevin Durant,29.1,0.603,43.1,2.8,BKN,Brooklyn Nets,29.9,0.635,5.3,34.48,-0.8,416th,-0.032,404th,-2.5,466th,8.62,40th
+Day'Ron Sharpe,5.4,0.629,10.8,2.2,BKN,Brooklyn Nets,6.2,0.593,1.5,7.8,-0.8,417th,0.036,174th,0.7,169th,3,180th
+David Nwaba,4.3,0.578,4.8,-4.7,HOU,Houston Rockets,5.1,0.567,-2.5,6,-0.8,418th,0.011,245th,-2.2,449th,-1.2,458th
+Thomas Bryant,6.6,0.673,10.3,0.2,WAS,Washington Wizards,7.4,0.607,-2.8,7.73,-0.8,419th,0.066,105th,3,73rd,2.57,199th
+Maurice Harkless,3.7,0.637,3.7,-3.8,SAC,Sacramento Kings,4.6,0.561,-1.9,5.18,-0.9,420th,0.076,89th,-1.9,428th,-1.48,471st
+Scottie Barnes,14.4,0.57,24.1,0.2,TOR,Toronto Raptors,15.3,0.552,0.8,25.5,-0.9,421st,0.018,223rd,-0.6,355th,-1.4,465th
+Nik Stauskas,1.4,0.769,2.6,1.4,BOS,Boston Celtics,2.3,0.541,2.3,2.85,-0.9,422nd,0.228,19th,-0.9,373rd,-0.25,416th
+Ja Morant,26.5,0.545,46.7,5.4,MEM,Memphis Grizzlies,27.4,0.575,3.3,32.8,-0.9,423rd,-0.03,397th,2.1,98th,13.9,9th
+OG Anunoby,16.2,0.591,23.2,1.3,TOR,Toronto Raptors,17.1,0.548,2.9,20.03,-0.9,424th,0.043,161st,-1.6,419th,3.17,172nd
+Reggie Jackson,15.9,0.435,21.1,-3.8,LAC,Los Angeles Clippers,16.8,0.488,-1.1,23.7,-0.9,425th,-0.053,445th,-2.7,477th,-2.6,496th
+Killian Tillie,2.4,0.356,4,-1.2,MEM,Memphis Grizzlies,3.3,0.452,0.8,5.25,-0.9,426th,-0.096,519th,-2,434th,-1.25,460th
+Isaiah Joe,2.7,0.611,4.4,3,PHI,Philadelphia 76ers,3.6,0.519,0.7,4.29,-0.9,427th,0.092,73rd,2.3,89th,0.11,383rd
+Tim Hardaway,13.2,0.566,18.8,3.5,DAL,Dallas Mavericks,14.2,0.52,0.9,15.45,-1,428th,0.046,146th,2.6,82nd,3.35,162nd
+Thaddeus Young,5.2,0.566,14.7,5.4,TOR,Toronto Raptors,6.2,0.547,0.7,9.6,-1,429th,0.019,220th,4.7,27th,5.1,92nd
+D.J. Augustin,4.3,0.523,6.6,-1.8,LAL,Los Angeles Lakers,5.3,0.61,-3.2,4.99,-1,430th,-0.087,509th,1.4,131st,1.61,248th
+Charlie Brown,0.4,0.258,0.5,-0.5,PHI,Philadelphia 76ers,1.4,0.346,-0.9,2.25,-1,431st,-0.088,510th,0.4,190th,-1.75,478th
+Jayson Tatum,25.9,0.557,37.6,4.7,BOS,Boston Celtics,26.9,0.578,8.8,40.8,-1,432nd,-0.021,368th,-4.1,521st,-3.2,506th
+Gorgui Dieng,2.5,0.625,3.1,-1.5,ATL,Atlanta Hawks,3.5,0.624,-1.4,4.28,-1,433rd,0.001,278th,-0.1,322nd,-1.18,457th
+Markieff Morris,6.6,0.474,9.1,1,MIA,Miami Heat,7.6,0.547,1.1,7.95,-1,434th,-0.073,488th,-0.1,323rd,1.15,282nd
+Justin Champagnie,1.3,0.597,2.4,-0.5,TOR,Toronto Raptors,2.3,0.571,1.4,3.53,-1,435th,0.026,204th,-1.9,430th,-1.13,453rd
+Marquese Chriss,3.4,0.746,2.2,-4.2,DAL,Dallas Mavericks,4.5,0.518,-0.3,5.55,-1.1,436th,0.228,20th,-3.9,517th,-3.35,510th
+Jabari Parker,3.3,0.534,4.5,-0.6,BOS,Boston Celtics,4.4,0.632,-0.6,4.43,-1.1,437th,-0.098,522nd,0,294th,0.07,385th
+Dennis Smith,4.5,0.477,13.5,0.1,POR,Portland Trail Blazers,5.6,0.474,-3.7,8.48,-1.1,438th,0.003,271st,3.8,50th,5.02,94th
+Timothe Luwawu-Cabarrot,3.3,0.448,4.6,-0.5,ATL,Atlanta Hawks,4.4,0.556,-1,4.65,-1.1,439th,-0.108,538th,0.5,182nd,-0.05,397th
+Tyler Cook,2.3,0.492,2.9,-1.5,CHI,Chicago Bulls,3.4,0.643,-1.4,3.38,-1.1,440th,-0.151,567th,-0.1,324th,-0.48,425th
+Kyle Anderson,6.4,0.631,12.4,-1.8,MEM,Memphis Grizzlies,7.6,0.506,0.9,16.6,-1.2,441st,0.125,50th,-2.7,476th,-4.2,533rd
+Nicolas Batum,7.1,0.657,13.9,-1.1,LAC,Los Angeles Clippers,8.3,0.608,-2.1,12.38,-1.2,442nd,0.049,142nd,1,152nd,1.52,256th
+Ziaire Williams,6.9,0.539,7.4,-3.7,MEM,Memphis Grizzlies,8.1,0.559,2,11.22,-1.2,443rd,-0.02,364th,-5.7,555th,-3.82,525th
+Ricky Rubio,11.9,0.474,31.4,8.2,CLE,Cleveland Cavaliers,13.1,0.488,5.5,20.4,-1.2,444th,-0.014,346th,2.7,80th,11,24th
+Moses Moody,3.2,0.905,5.2,1.5,GSW,Golden State Warriors,4.4,0.573,-0.6,4.35,-1.2,445th,0.332,12th,2.1,100th,0.85,308th
+Alfonzo McKinnie,2.3,0.311,1.3,-4.1,CHI,Chicago Bulls,3.5,0.457,-3.2,2.4,-1.2,446th,-0.146,563rd,-0.9,372nd,-1.1,451st
+Jaden McDaniels,8,0.645,13.1,0.6,MIN,Minnesota Timberwolves,9.2,0.552,0,14.5,-1.2,447th,0.093,71st,0.6,178th,-1.4,468th
+Josh Jackson,5.2,0.394,6.6,-1.4,SAC,Sacramento Kings,6.4,0.491,-3.1,6.3,-1.2,448th,-0.097,521st,1.7,115th,0.3,362nd
+Bradley Beal,22,0.542,31,-4.4,WAS,Washington Wizards,23.2,0.539,-2.6,23.78,-1.2,449th,0.003,269th,-1.8,427th,7.22,54th
+Andre Iguodala,2.8,0.507,9.8,1.1,GSW,Golden State Warriors,4,0.478,3.4,10.95,-1.2,450th,0.029,193rd,-2.3,454th,-1.15,455th
+Donovan Mitchell,24.6,0.494,30.7,-7.4,UTA,Utah Jazz,25.9,0.572,3.8,36.8,-1.3,451st,-0.078,498th,-11.2,602nd,-6.1,568th
+Elfrid Payton,1.7,0.353,4.4,-1.5,PHX,Phoenix Suns,3,0.397,-0.9,4.73,-1.3,452nd,-0.044,430th,-0.6,354th,-0.33,418th
+Doug McDermott,10,0.567,11.1,-2.3,SAS,San Antonio Spurs,11.3,0.592,-0.7,10.13,-1.3,453rd,-0.025,384th,-1.6,417th,0.97,300th
+JaMychal Green,5.1,0.525,5.6,-5.4,DEN,Denver Nuggets,6.4,0.585,-1.3,10,-1.3,454th,-0.06,460th,-4.1,523rd,-4.4,539th
+Davis Bertans,4.3,0.548,7,1.2,DAL,Dallas Mavericks,5.6,0.531,0.5,6.56,-1.3,455th,0.017,228th,0.7,162nd,0.44,351st
+Juwan Morgan,1.2,0.55,-0.1,-4.4,BOS,Boston Celtics,2.5,0.833,-8.5,0,-1.3,456th,-0.283,597th,4.1,40th,-0.1,403rd
+Robert Williams,8.7,0.748,22.9,7.6,BOS,Boston Celtics,10,0.745,6.1,22.95,-1.3,457th,0.003,270th,1.5,119th,-0.05,395th
+Grayson Allen,9.7,0.509,14.2,-0.4,MIL,Milwaukee Bucks,11.1,0.609,3.5,17.8,-1.4,458th,-0.1,526th,-3.9,518th,-3.6,517th
+Isaiah Thomas,7,0.516,9.5,0.1,CHA,Charlotte Hornets,8.4,0.516,-0.5,8.33,-1.4,459th,0,295th,0.6,179th,1.17,280th
+Frank Jackson,9.2,0.444,13.9,2.9,DET,Detroit Pistons,10.6,0.53,-3.5,8.55,-1.4,460th,-0.086,508th,6.4,11th,5.35,82nd
+Austin Rivers,4.5,0.479,6.8,-1.9,DEN,Denver Nuggets,6,0.547,0.8,9.8,-1.5,461st,-0.068,472nd,-2.7,478th,-3,503rd
+Kessler Edwards,4.4,0.44,8.9,2.7,BKN,Brooklyn Nets,5.9,0.516,-1.4,6.68,-1.5,462nd,-0.076,495th,4.1,38th,2.22,209th
+Dalano Banton,1.7,0.66,2.9,-1.1,TOR,Toronto Raptors,3.2,0.463,0.5,6.43,-1.5,463rd,0.197,22nd,-1.6,418th,-3.53,516th
+Andrew Wiggins,15.7,0.545,26.6,6.4,GSW,Golden State Warriors,17.2,0.56,3.5,25.7,-1.5,464th,-0.015,347th,2.9,76th,0.9,307th
+Tobias Harris,15.7,0.549,22.5,-5.1,PHI,Philadelphia 76ers,17.2,0.566,2.5,27.1,-1.5,465th,-0.017,355th,-7.6,580th,-4.6,543rd
+Victor Oladipo,10.9,0.499,14.1,-4,MIA,Miami Heat,12.4,0.608,-0.6,12.98,-1.5,466th,-0.109,539th,-3.4,500th,1.12,288th
+T.J. McConnell,7,0.48,16.4,-1.9,IND,Indiana Pacers,8.5,0.525,-2.7,13.05,-1.5,467th,-0.045,433rd,0.8,160th,3.35,160th
+Charles Bassey,1.5,0.449,2.8,-2.2,PHI,Philadelphia 76ers,3,0.66,-1,4.28,-1.5,468th,-0.211,586th,-1.2,388th,-1.48,470th
+Romeo Langford,3,0.391,5.6,3.3,SAS,San Antonio Spurs,4.5,0.52,0.1,5.55,-1.5,469th,-0.129,556th,3.2,64th,0.05,390th
+Kent Bazemore,1.9,0.398,1.8,-3.7,LAL,Los Angeles Lakers,3.4,0.451,-3,3.68,-1.5,470th,-0.053,444th,-0.7,356th,-1.88,483rd
+Lou Williams,4.8,0.433,8.6,1,ATL,Atlanta Hawks,6.3,0.5,0.3,8,-1.5,471st,-0.067,471st,0.7,165th,0.6,339th
+Omer Yurtseven,3.7,0.652,6.7,1,MIA,Miami Heat,5.3,0.546,1.1,8.08,-1.6,472nd,0.106,58th,-0.1,329th,-1.38,463rd
+Klay Thompson,18.8,0.577,27.6,0.5,GSW,Golden State Warriors,20.4,0.547,2.1,20.7,-1.6,473rd,0.03,190th,-1.6,422nd,6.9,59th
+Brandon Goodwin,3.2,0.539,-1,-8.7,CLE,Cleveland Cavaliers,4.8,0.501,-1.5,6.45,-1.6,474th,0.038,170th,-7.2,577th,-7.45,579th
+Aaron Holiday,4.7,0.611,11.2,4.4,PHX,Phoenix Suns,6.3,0.544,-0.6,10.06,-1.6,475th,0.067,100th,5,21st,1.14,283rd
+Jae'Sean Tate,10.2,0.543,14.7,-1.8,HOU,Houston Rockets,11.8,0.567,-5.2,16.4,-1.6,476th,-0.024,379th,3.4,56th,-1.7,477th
+JT Thor,0.4,0.367,-0.2,-2,CHA,Charlotte Hornets,2,0.525,-0.2,3.08,-1.6,477th,-0.158,572nd,-1.8,426th,-3.28,509th
+Mikal Bridges,12.6,0.542,22,-1.1,PHX,Phoenix Suns,14.2,0.627,7,25.1,-1.6,478th,-0.085,507th,-8.1,585th,-3.1,504th
+Mike Conley,12.1,0.445,22.2,0,UTA,Utah Jazz,13.7,0.572,4.5,26.2,-1.6,479th,-0.127,553rd,-4.5,533rd,-4,527th
+Enes Freedom,2.1,0.544,3.7,-0.5,BOS,Boston Celtics,3.7,0.585,2,5.63,-1.6,480th,-0.041,423rd,-2.5,465th,-1.93,484th
+Matt Thomas,2.3,0.647,4.5,2.1,CHI,Chicago Bulls,3.9,0.564,0.8,4.43,-1.6,481st,0.083,85th,1.3,136th,0.07,387th
+Spencer Dinwiddie,12,0.57,17.8,0.3,DAL,Dallas Mavericks,13.7,0.544,-0.7,22.6,-1.7,482nd,0.026,203rd,1,148th,-4.8,545th
+Jordan Poole,16.8,0.564,25.9,4.2,GSW,Golden State Warriors,18.5,0.598,4.2,26.8,-1.7,483rd,-0.034,409th,0,319th,-0.9,447th
+Eric Paschall,4.1,0.658,4.7,-1.3,UTA,Utah Jazz,5.8,0.612,-0.7,5.88,-1.7,484th,0.046,147th,-0.6,352nd,-1.18,456th
+Sterling Brown,1.6,0.379,2.6,-2.4,DAL,Dallas Mavericks,3.3,0.495,0.7,4.73,-1.7,485th,-0.116,544th,-3.1,493rd,-2.13,488th
+Cameron Johnson,10.8,0.622,14.9,-1.1,PHX,Phoenix Suns,12.5,0.625,3.3,19.5,-1.7,486th,-0.003,320th,-4.4,532nd,-4.6,542nd
+D'Angelo Russell,16.4,0.53,26.4,-2.2,MIN,Minnesota Timberwolves,18.1,0.544,3.2,30.18,-1.7,487th,-0.014,343rd,-5.4,550th,-3.78,520th
+Juan Toscano-Anderson,2.3,0.71,5.3,1.8,GSW,Golden State Warriors,4.1,0.561,0.8,8.7,-1.8,488th,0.149,38th,1,149th,-3.4,511st
+Gary Harris,9.3,0.587,14.4,3.8,ORL,Orlando Magic,11.1,0.571,-3.4,12.42,-1.8,489th,0.016,230th,7.2,8th,1.98,221st
+Kyle Lowry,11.6,0.517,27.1,8.3,MIA,Miami Heat,13.4,0.6,4,25.94,-1.8,490th,-0.083,501st,4.3,36th,1.16,281st
+Terry Rozier,17.5,0.524,25.9,-3.8,CHA,Charlotte Hornets,19.3,0.566,1,29.9,-1.8,491st,-0.042,427th,-4.8,539th,-4,528th
+Kevin Huerter,10.3,0.525,15.5,-5.2,ATL,Atlanta Hawks,12.1,0.57,2.3,19.3,-1.8,492nd,-0.045,432nd,-7.5,579th,-3.8,524th
+Myles Turner,11.1,0.507,16.5,-9.4,IND,Indiana Pacers,12.9,0.613,-0.3,17.1,-1.8,493rd,-0.106,535th,-9.1,593rd,-0.6,431st
+Paul George,22.5,0.553,40.6,7.2,LAC,Los Angeles Clippers,24.4,0.538,3.1,27.68,-1.9,494th,0.015,234th,4.1,41st,12.92,18th
+Carmelo Anthony,11.4,0.502,12.7,-5.4,LAL,Los Angeles Lakers,13.3,0.579,-1.3,17.8,-1.9,495th,-0.077,497th,-4.1,522nd,-5.1,551st
+Nikola Vucevic,15.7,0.485,19.6,-10.7,CHI,Chicago Bulls,17.6,0.533,-0.7,28.7,-1.9,496th,-0.048,438th,-10,599th,-9.1,589th
+Bismack Biyombo,3.9,0.606,7.1,1.6,PHX,Phoenix Suns,5.8,0.596,1.4,8.25,-1.9,497th,0.01,248th,0.2,196th,-1.15,454th
+Blake Griffin,4.5,0.482,6.5,-1.7,BKN,Brooklyn Nets,6.4,0.52,-1.5,8.96,-1.9,498th,-0.038,415th,-0.2,331st,-2.46,493rd
+Jarred Vanderbilt,5,0.515,9.1,-3.9,MIN,Minnesota Timberwolves,6.9,0.612,2.2,16.6,-1.9,499th,-0.097,520th,-6.1,565th,-7.5,580th
+Cody Martin,5.8,0.644,11.6,-3.1,CHA,Charlotte Hornets,7.7,0.579,-0.4,15.4,-1.9,500th,0.065,108th,-2.7,475th,-3.8,523rd
+Otto Porter,6.2,0.557,16.8,7.4,GSW,Golden State Warriors,8.2,0.58,3.5,16.17,-2,501st,-0.023,374th,3.9,47th,0.63,335th
+Joe Ingles,5.2,0.372,11.3,-1.7,UTA,Utah Jazz,7.2,0.551,3.9,11.7,-2,502nd,-0.179,578th,-5.6,554th,-0.4,421st
+Nemanja Bjelica,4.1,0.467,7.7,-0.9,GSW,Golden State Warriors,6.1,0.573,2,12.6,-2,503rd,-0.106,534th,-2.9,482nd,-4.9,547th
+Nick Richards,1,0.422,0.2,-1.8,CHA,Charlotte Hornets,3,0.689,-2.2,2.7,-2,504th,-0.267,594th,0.4,187th,-2.5,494th
+Terance Mann,8.8,0.625,17.9,5.5,LAC,Los Angeles Clippers,10.8,0.573,0.8,18,-2,505th,0.052,136th,4.7,28th,-0.1,404th
+John Konchar,2.8,0.344,4.2,-7,MEM,Memphis Grizzlies,4.8,0.615,1.3,11.4,-2,506th,-0.271,595th,-8.3,588th,-7.2,576th
+CJ McCollum,20,0.436,27.3,-2.2,NOP,New Orleans Pelicans,22.1,0.553,-1.1,28.7,-2.1,507th,-0.117,545th,-1.1,383rd,-1.4,467th
+Garrett Temple,3,0.42,5.7,-0.1,NOP,New Orleans Pelicans,5.2,0.495,-5.5,5.76,-2.2,508th,-0.075,491st,5.4,16th,-0.06,398th
+Aaron Nesmith,1.6,0.377,1.6,-1.5,BOS,Boston Celtics,3.8,0.507,0.4,4.13,-2.2,509th,-0.13,558th,-1.9,433rd,-2.53,495th
+Boban Marjanovic,2.3,0.431,2.4,-0.1,DAL,Dallas Mavericks,4.5,0.615,1.6,4.2,-2.2,510th,-0.184,579th,-1.7,423rd,-1.8,482nd
+David Duke,2.5,0.498,3.8,-2.6,BKN,Brooklyn Nets,4.7,0.444,-0.5,6.23,-2.2,511st,0.054,126th,-2.1,443rd,-2.43,492nd
+Alex Len,3.8,0.562,6.4,-0.6,SAC,Sacramento Kings,6,0.577,-1.9,6.9,-2.2,512nd,-0.015,348th,1.3,135th,-0.5,426th
+Trey Burke,2.9,0.598,3.3,-2.2,DAL,Dallas Mavericks,5.1,0.475,-0.2,5.25,-2.2,513rd,0.123,51st,-2,435th,-1.95,486th
+Jevon Carter,2,0.531,8.5,7.2,MIL,Milwaukee Bucks,4.2,0.531,-0.9,7.2,-2.2,514th,0,288th,8.1,5th,1.3,270th
+Matisse Thybulle,3.4,0.734,5.2,-5.3,PHI,Philadelphia 76ers,5.7,0.594,1.3,14,-2.3,515th,0.14,43rd,-6.6,570th,-8.8,587th
+Harrison Barnes,14.1,0.547,16.4,-4.4,SAC,Sacramento Kings,16.4,0.623,-4.9,19.8,-2.3,516th,-0.076,496th,0.5,185th,-3.4,512nd
+Terrence Ross,7.7,0.437,8.3,-4.2,ORL,Orlando Magic,10,0.515,-5.5,10.06,-2.3,517th,-0.078,499th,1.3,134th,-1.76,479th
+Tristan Thompson,3.7,0.478,3.2,-4.7,CHI,Chicago Bulls,6,0.541,-1.1,7.54,-2.3,518th,-0.063,465th,-3.6,508th,-4.34,538th
+Royce O'Neale,5.1,0.484,3.9,-9.9,UTA,Utah Jazz,7.4,0.608,2.8,16.4,-2.3,519th,-0.124,551st,-12.7,604th,-12.5,603rd
+Kelan Martin,3.4,0.339,4,-2.6,BOS,Boston Celtics,5.7,0.484,-1.8,5.63,-2.3,520th,-0.145,560th,-0.8,358th,-1.63,475th
+Robin Lopez,4.8,0.53,7,-1.1,ORL,Orlando Magic,7.1,0.57,-1.8,7.05,-2.3,521st,-0.04,417th,0.7,163rd,-0.05,396th
+Caris LeVert,14.7,0.522,23.5,-2.2,CLE,Cleveland Cavaliers,17,0.525,-1.1,20.58,-2.3,522nd,-0.003,317th,-1.1,382nd,2.92,185th
+Skylar Mays,0.6,0.6,0.7,-0.6,ATL,Atlanta Hawks,2.9,0.589,-1.9,2.4,-2.3,523rd,0.011,244th,1.3,132nd,-1.7,476th
+Hassan Whiteside,5.8,0.562,13.3,-1,UTA,Utah Jazz,8.2,0.662,3.4,16.56,-2.4,524th,-0.1,525th,-4.4,529th,-3.26,508th
+Naz Reid,5.9,0.447,6.3,-3.8,MIN,Minnesota Timberwolves,8.3,0.587,-1.2,12.3,-2.4,525th,-0.14,559th,-2.6,468th,-6,567th
+Yuta Watanabe,1.9,0.336,3.3,-0.3,TOR,Toronto Raptors,4.3,0.524,-1.3,4.8,-2.4,526th,-0.188,581st,1,150th,-1.5,472nd
+Brandon Williams,10.5,0.396,11.2,-16.8,POR,Portland Trail Blazers,12.9,0.476,-11.3,10.35,-2.4,527th,-0.08,500th,-5.5,551st,0.85,309th
+Evan Fournier,11.7,0.455,19.7,2.2,NYK,New York Knicks,14.1,0.554,-1.2,18.5,-2.4,528th,-0.099,524th,3.4,57th,1.2,278th
+Bam Adebayo,16.6,0.701,29.6,6.8,MIA,Miami Heat,19.1,0.608,5.4,25.84,-2.5,529th,0.093,70th,1.4,128th,3.76,143rd
+Garrison Mathews,7.5,0.499,11.6,-3.8,HOU,Houston Rockets,10,0.602,-3.3,12.54,-2.5,530th,-0.103,529th,-0.5,350th,-0.94,448th
+Rayjon Tucker,1.7,0.634,2.8,-1.3,MIL,Milwaukee Bucks,4.2,0.869,-0.4,6.83,-2.5,531st,-0.235,591st,-0.9,377th,-4.03,529th
+LaMarcus Aldridge,10.4,0.542,12.4,-5.3,BKN,Brooklyn Nets,12.9,0.602,0.7,13.95,-2.5,532nd,-0.06,458th,-6,560th,-1.55,473rd
+Malik Beasley,9.6,0.518,8.5,-7.1,MIN,Minnesota Timberwolves,12.1,0.544,1,16.8,-2.5,533rd,-0.026,387th,-8.1,586th,-8.3,583rd
+Raul Neto,5,0.707,7.2,-2.5,WAS,Washington Wizards,7.5,0.538,-1.3,12.4,-2.5,534th,0.169,28th,-1.2,386th,-5.2,553rd
+DeMar DeRozan,25.3,0.542,26.9,-13.1,CHI,Chicago Bulls,27.9,0.59,1,37.2,-2.6,535th,-0.048,440th,-14.1,605th,-10.3,597th
+Seth Curry,12.4,0.592,18.1,0.6,BKN,Brooklyn Nets,15,0.615,3.5,22.37,-2.6,536th,-0.023,373rd,-2.9,487th,-4.27,535th
+Alex Caruso,4.7,0.37,16.7,-0.4,CHI,Chicago Bulls,7.4,0.526,2.7,14.03,-2.7,537th,-0.156,569th,-3.1,492nd,2.67,195th
+Cedi Osman,8,0.522,9.4,-3.8,CLE,Cleveland Cavaliers,10.7,0.562,-0.9,14.8,-2.7,538th,-0.04,419th,-2.9,483rd,-5.4,555th
+Malachi Flynn,1.6,0.197,2.9,-1.6,TOR,Toronto Raptors,4.3,0.488,-0.6,5.78,-2.7,539th,-0.291,600th,-1,379th,-2.88,501st
+Kyle Guy,1.2,0.196,-1,-4.8,MIA,Miami Heat,3.9,0.526,-2.5,3.15,-2.7,540th,-0.33,603rd,-2.3,450th,-4.15,532nd
+Jonathan Kuminga,6.6,0.587,6.7,-3.1,GSW,Golden State Warriors,9.3,0.6,0.4,12.5,-2.7,541st,-0.013,339th,-3.5,502nd,-5.8,563rd
+Jalen Suggs,9.1,0.394,14.7,-2.5,ORL,Orlando Magic,11.8,0.455,-4.3,12.53,-2.7,542nd,-0.061,462nd,1.8,110th,2.17,213rd
+Saddiq Bey,13.3,0.47,17.4,-4.6,DET,Detroit Pistons,16.1,0.529,-6.1,20.4,-2.8,543rd,-0.059,454th,1.5,123rd,-3,502nd
+JaVale McGee,6.4,0.605,9.1,-1.3,PHX,Phoenix Suns,9.2,0.651,1.6,15,-2.8,544th,-0.046,435th,-2.9,485th,-5.9,566th
+Javonte Green,4.3,0.384,9.5,-0.5,CHI,Chicago Bulls,7.2,0.637,0.3,12.94,-2.9,545th,-0.253,593rd,-0.8,368th,-3.44,513rd
+Karl-Anthony Towns,21.7,0.624,29.2,-1.5,MIN,Minnesota Timberwolves,24.6,0.641,3.7,36.4,-2.9,546th,-0.017,353rd,-5.2,549th,-7.2,575th
+Onyeka Okongwu,5.3,0.704,12.4,3.7,ATL,Atlanta Hawks,8.2,0.714,2.3,12.23,-2.9,547th,-0.01,331st,1.4,129th,0.17,379th
+Dennis Schroder,10.6,0.556,15.5,-4.9,HOU,Houston Rockets,13.5,0.539,-0.5,19.58,-2.9,548th,0.017,229th,-4.4,531st,-4.08,530th
+Frank Ntilikina,1.2,0.464,2,-1.8,DAL,Dallas Mavericks,4.1,0.513,1.1,6.3,-2.9,549th,-0.049,441st,-2.9,481st,-4.3,537th
+Coby White,9.7,0.456,8.8,-8.3,CHI,Chicago Bulls,12.7,0.564,-0.6,16.02,-3,550th,-0.108,537th,-7.7,581st,-7.22,577th
+Cam Reddish,7.1,0.577,9.7,-2.1,NYK,New York Knicks,10.1,0.543,-4.4,8.48,-3,551st,0.034,179th,2.3,90th,1.22,275th
+Serge Ibaka,3.7,0.461,4.7,-1.8,MIL,Milwaukee Bucks,6.8,0.579,-1,7.9,-3.1,552nd,-0.118,547th,-0.8,367th,-3.2,505th
+Marcus Morris,12.3,0.461,14.9,-3.8,LAC,Los Angeles Clippers,15.4,0.549,-2.6,14.59,-3.1,553rd,-0.088,511st,-1.2,387th,0.31,359th
+Bobby Portis,11.5,0.504,18.3,3,MIL,Milwaukee Bucks,14.6,0.572,4.4,24.1,-3.1,554th,-0.068,476th,-1.4,404th,-5.8,564th
+Isaac Okoro,5.6,0.518,10.4,-1.7,CLE,Cleveland Cavaliers,8.8,0.589,1.5,14.7,-3.2,555th,-0.071,483rd,-3.2,495th,-4.3,536th
+Justin Holiday,6.9,0.467,6.9,-8.9,SAC,Sacramento Kings,10.1,0.543,-2.8,13.6,-3.2,556th,-0.076,493rd,-6.1,563rd,-6.7,572nd
+Svi Mykhailiuk,1.3,0.219,0.8,-1.3,TOR,Toronto Raptors,4.6,0.509,-1.4,4.88,-3.3,557th,-0.29,599th,0.1,205th,-4.08,531st
+James Harden,18.7,0.59,28.9,-1.4,PHI,Philadelphia 76ers,22,0.583,3,39,-3.3,558th,0.007,255th,-4.4,526th,-10.1,596th
+James Johnson,2.1,0.486,6.7,-2.3,BKN,Brooklyn Nets,5.5,0.515,-1,9.94,-3.4,559th,-0.029,395th,-1.3,398th,-3.24,507th
+Jeff Green,6.9,0.643,10.7,-0.1,DEN,Denver Nuggets,10.3,0.627,0.8,14.3,-3.4,560th,0.016,232nd,-0.9,374th,-3.6,518th
+Shake Milton,4.7,0.588,8.3,1.5,PHI,Philadelphia 76ers,8.2,0.517,-0.1,10.69,-3.5,561st,0.071,95th,1.6,118th,-2.39,491st
+Devin Booker,23.3,0.581,28.2,-2.2,PHX,Phoenix Suns,26.8,0.576,6.9,39.5,-3.5,562nd,0.005,261st,-9.1,592nd,-11.3,602nd
+Dewayne Dedmon,2.8,0.523,4,-0.7,MIA,Miami Heat,6.3,0.632,0.7,11,-3.5,563rd,-0.109,540th,-1.4,407th,-7,574th
+Khris Middleton,16.5,0.538,27.9,3.1,MIL,Milwaukee Bucks,20.1,0.576,4.6,31.7,-3.6,564th,-0.038,414th,-1.5,411st,-3.8,522nd
+Steven Adams,3.3,0.477,12.3,1.2,MEM,Memphis Grizzlies,6.9,0.561,4.6,20.4,-3.6,565th,-0.084,505th,-3.4,499th,-8.1,581st
+Armoni Brooks,1.7,0.269,4.7,-0.1,TOR,Toronto Raptors,5.3,0.483,-1.5,6.08,-3.6,566th,-0.214,587th,1.4,126th,-1.38,464th
+Bryn Forbes,5.2,0.481,6.4,-1.8,DEN,Denver Nuggets,8.8,0.575,0.5,10.9,-3.6,567th,-0.094,518th,-2.3,451st,-4.5,540th
+DeAndre' Bembry,1.5,0.28,2.5,-4.6,MIL,Milwaukee Bucks,5.1,0.598,-0.2,8,-3.6,568th,-0.318,602nd,-4.4,527th,-5.5,556th
+George Hill,2.6,0.48,3.6,-3.8,MIL,Milwaukee Bucks,6.2,0.552,5.8,11.02,-3.6,569th,-0.072,486th,-9.6,596th,-7.42,578th
+Jaxson Hayes,5.7,0.517,6,-4.5,NOP,New Orleans Pelicans,9.3,0.679,0.3,14.1,-3.6,570th,-0.162,573rd,-4.8,538th,-8.1,582nd
+Torrey Craig,2.8,0.343,4.1,-3.6,PHX,Phoenix Suns,6.6,0.557,-2.4,10,-3.8,571st,-0.214,588th,-1.2,391st,-5.9,565th
+Jonas Valanciunas,13.9,0.597,21.3,-1.2,NOP,New Orleans Pelicans,17.8,0.617,0.9,26.9,-3.9,572nd,-0.02,362nd,-2.1,442nd,-5.6,560th
+Furkan Korkmaz,3.7,0.664,6.9,2.2,PHI,Philadelphia 76ers,7.6,0.502,0.7,12.2,-3.9,573rd,0.162,31st,1.5,122nd,-5.3,554th
+Brook Lopez,8.4,0.482,13.5,-3.7,MIL,Milwaukee Bucks,12.4,0.57,-0.5,12.75,-4,574th,-0.088,513rd,-3.2,494th,0.75,324th
+Eric Gordon,9.4,0.584,11.1,-0.2,HOU,Houston Rockets,13.4,0.614,-3.1,12.87,-4,575th,-0.03,396th,2.9,75th,-1.77,480th
+Cam Thomas,4.5,0.477,4.9,-3,BKN,Brooklyn Nets,8.5,0.519,-2.1,10.4,-4,576th,-0.042,426th,-0.9,375th,-5.5,557th
+Landry Shamet,4.2,0.467,6.3,-1.6,PHX,Phoenix Suns,8.3,0.55,2,12.7,-4.1,577th,-0.083,503rd,-3.6,509th,-6.4,571st
+Zach LaVine,20.2,0.564,22.8,-9.6,CHI,Chicago Bulls,24.4,0.606,-0.4,31.4,-4.2,578th,-0.042,424th,-9.2,594th,-8.6,586th
+Kemba Walker,7.3,0.392,11.3,-4.7,NYK,New York Knicks,11.6,0.537,-4.9,11.93,-4.3,579th,-0.145,562nd,0.2,199th,-0.63,437th
+Josh Green,0.5,0.306,0.4,-1.4,DAL,Dallas Mavericks,4.8,0.578,1,9,-4.3,580th,-0.272,596th,-2.4,460th,-8.6,585th
+Gordon Hayward,11.4,0.508,19.9,1.8,CHA,Charlotte Hornets,15.9,0.57,-0.4,17.78,-4.5,581st,-0.062,464th,2.2,94th,2.12,215th
+Patty Mills,6.8,0.709,10.6,4.4,BKN,Brooklyn Nets,11.4,0.562,1.6,16.9,-4.6,582nd,0.147,40th,2.8,77th,-6.3,570th
+Georges Niang,4.5,0.573,7.5,2.1,PHI,Philadelphia 76ers,9.2,0.594,1.1,13.1,-4.7,583rd,-0.021,367th,1,151st,-5.6,559th
+Dillon Brooks,13.7,0.368,22.5,6.1,MEM,Memphis Grizzlies,18.4,0.515,6.4,20.85,-4.7,584th,-0.147,564th,-0.3,337th,1.65,243rd
+Damion Lee,2.6,0.605,2.1,-3.4,GSW,Golden State Warriors,7.4,0.561,1.1,10.9,-4.8,585th,0.044,154th,-4.5,534th,-8.8,588th
+Facundo Campazzo,0.3,0.094,0.8,-1.1,DEN,Denver Nuggets,5.1,0.503,-3.2,10.39,-4.8,586th,-0.409,604th,2.1,97th,-9.59,592nd
+Montrezl Harrell,8.4,0.72,15.3,3.8,CHA,Charlotte Hornets,13.2,0.68,1.2,20.3,-4.8,587th,0.04,166th,2.6,84th,-5,550th
+Caleb Martin,4.4,0.44,4.6,-3.7,MIA,Miami Heat,9.2,0.611,2.6,13.73,-4.8,588th,-0.171,576th,-6.3,568th,-9.13,590th
+Daniel Theis,3.4,0.639,5,-2.4,BOS,Boston Celtics,8.2,0.595,-1.9,8.78,-4.8,589th,0.044,156th,-0.5,346th,-3.78,521st
+Kelly Oubre,10.1,0.563,14.8,1.9,CHA,Charlotte Hornets,15,0.559,-0.3,20,-4.9,590th,0.004,265th,2.2,92nd,-5.2,552nd
+Jordan Nwora,2.9,0.217,2.8,-3.5,MIL,Milwaukee Bucks,7.9,0.506,-1.2,9.57,-5,591st,-0.289,598th,-2.3,455th,-6.77,573rd
+Cole Anthony,11.3,0.448,17.5,-4.6,ORL,Orlando Magic,16.3,0.519,-3.5,23.23,-5,592nd,-0.071,481st,-1.1,381st,-5.73,561st
+De'Anthony Melton,5.6,0.331,10.6,0.6,MEM,Memphis Grizzlies,10.8,0.529,3,20.2,-5.2,593rd,-0.198,584th,-2.4,457th,-9.6,593rd
+Trae Young,23.2,0.527,30.7,-0.3,ATL,Atlanta Hawks,28.4,0.603,2.1,42,-5.2,594th,-0.076,494th,-2.4,456th,-11.3,601st
+Richaun Holmes,4.9,0.572,6.9,-1.7,SAC,Sacramento Kings,10.4,0.687,-3,11.1,-5.5,595th,-0.115,542nd,1.3,133rd,-4.2,534th
+Fred VanVleet,14.6,0.493,29.4,1.8,TOR,Toronto Raptors,20.3,0.552,3.3,34.1,-5.7,596th,-0.059,455th,-1.5,413rd,-4.7,544th
+Nickeil Alexander-Walker,4.9,0.59,10,3.2,UTA,Utah Jazz,10.6,0.475,-1.7,14.5,-5.7,597th,0.115,55th,4.9,22nd,-4.5,541st
+Dwight Powell,2.7,0.472,4.2,0.1,DAL,Dallas Mavericks,8.7,0.724,0.9,14.1,-6,598th,-0.252,592nd,-0.8,363rd,-9.9,595th
+Duncan Robinson,4.8,0.6,6.1,0,MIA,Miami Heat,10.9,0.573,1.3,15.6,-6.1,599th,0.027,199th,-1.3,401st,-9.5,591st
+Derrick White,6.8,0.442,16.1,5.3,BOS,Boston Celtics,13.2,0.549,2.7,24.5,-6.4,600th,-0.107,536th,2.6,83rd,-8.4,584th
+Cameron Payne,4.3,0.284,7.3,-1.9,PHX,Phoenix Suns,10.8,0.5,2.6,16.97,-6.5,601st,-0.216,589th,-4.5,535th,-9.67,594th
+Tyler Herro,14.1,0.518,17.8,-3.4,MIA,Miami Heat,20.7,0.561,3.6,28.6,-6.6,602nd,-0.043,428th,-7,575th,-10.8,600th
+Joel Embiid,23.6,0.591,31.1,2.8,PHI,Philadelphia 76ers,30.6,0.616,5.4,45.9,-7,603rd,-0.025,382nd,-2.6,467th,-14.8,605th
+John Collins,8.8,0.461,8.1,-9,ATL,Atlanta Hawks,16.2,0.611,0.7,18.85,-7.4,604th,-0.15,566th,-9.7,597th,-10.75,598th
+Devonte' Graham,4.1,0.386,6.2,-0.6,NOP,New Orleans Pelicans,11.9,0.514,0.5,19.6,-7.8,605th,-0.128,554th,-1.1,385th,-13.4,604th

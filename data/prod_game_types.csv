@@ -1,7 +1,7 @@
 game_type,type,n,explanation
-Clutch Game,Playoffs,3,5 points or less
-Blowout Game,Regular Season,593,more than 10 points
-Clutch Game,Regular Season,309,5 points or less
-10 pt Game,Playoffs,5,between 6 - 10 points
+10 pt Game,Playoffs,19,between 6 - 10 points
 10 pt Game,Regular Season,328,between 6 - 10 points
-Blowout Game,Playoffs,9,more than 10 points
+Blowout Game,Playoffs,36,more than 10 points
+Blowout Game,Regular Season,593,more than 10 points
+Clutch Game,Playoffs,19,5 points or less
+Clutch Game,Regular Season,309,5 points or less

@@ -707,7 +707,7 @@ vegas_plot <- function(df) {
 
 advanced_sos_plot <- function(df){
   p <- df %>%
-    ggplot(aes(pct_vs_below_500, team, fill = avg_win_pct_opp >= 0.5)) +
+    ggplot(aes(pct_vs_below_500, team, fill = avg_win_pct_opp >= 0.505)) +
     geom_col(aes(text = paste0(team, '<br>',
                                'Record: ', record, '<br>', 
                                'Team Win %: ', round(win_pct * 100, 1), '%', '<br>',
@@ -770,8 +770,10 @@ future_schedule_analysis_plot <- function(df){
 
 # future_schedule_analysis_plot(future_schedule_analysis)
 
-blown_leads_plot <- function(df){
+blown_leads_plot <- function(df, filter_type = 'Regular Season'){
   p <- df %>%
+    filter(season_type == filter_type) %>%
+    mutate(team = fct_reorder(team, net_comebacks)) %>%
     ggplot(aes(net_comebacks, team, fill = net_comebacks <= 0)) +
     geom_col(aes(text = paste0(team, '<br>',
                                '# of 10 pt Deficit Comebacks: ', team_comebacks_10pt, ' (', comeback_rank, ')', '<br>',
@@ -787,6 +789,8 @@ blown_leads_plot <- function(df){
   ggplotly(p, tooltip = c('text')) %>%
     layout(hoverlabel = list(bgcolor = "white"))
 }
+
+
 
 # blown_leads_plot(team_blown_leads)
 
