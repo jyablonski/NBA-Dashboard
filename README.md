@@ -7,7 +7,7 @@
 
 ## ELT Data Pipeline Workflow
 
-![NBA ELT Pipeline Data Flow 2 (2)](https://user-images.githubusercontent.com/16946556/163585391-1918308e-fb6a-4ea1-8f12-9b445f9c7f83.jpg)
+![NBA ELT Pipeline Data Flow 2 (5)](https://user-images.githubusercontent.com/16946556/169709299-6cbc6722-e15c-468a-8802-233ae46819f0.jpg)
 
 1. NBA Data is web scraped in Python on a Cron Schedule ran via ECS Fargate, and data is subsequently stored to source tables in a PostgreSQL Database.
 2. dbt Cloud executes data transformations in SQL on a Cron Schedule following the ECS Task, and also performs automated schema testing, quality checks, and data validation assertions primarily via [dbt_expectations](https://github.com/calogica/dbt-expectations).

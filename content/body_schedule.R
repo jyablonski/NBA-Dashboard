@@ -40,8 +40,9 @@ body_schedule <- dashboardBody(
                selectInput('select_choice', "Select a Plot",
                            choices = c('Strength of Schedule (as of Today)',
                                        # 'Future Strength of Schedule',
-                                       'Team Comebacks Analysis',
-                                       'Vegas Preseason Over/Under Odds'))
+                                       'Vegas Preseason Over/Under Odds',
+                                       'Team Comebacks Analysis (Regular Season)',
+                                       'Team Comebacks Analysis (Playoffs)'))
         )),
       title = "NBA Strength of Schedule Analysis",
       status = "primary",
