@@ -573,7 +573,8 @@ game_types_plot <- function(df, season_type){
     geom_col(position = 'dodge', color = 'black', aes(text = paste0(game_type, 's account for ', round(pct_total * 100, 1), '% of all',
                                                    ' games played.', '<br>', 'Number of Observations: ', n, '<br>', '<br>',
                                                    game_type, 's are defined as games that were decided by ', explanation))) +
-    scale_y_continuous(labels = percent_format()) +
+    scale_y_continuous(labels = percent_format(),
+                       limits = c(0, 0.5)) +
     labs(x = 'Game Type',
          y = 'Percent of Total Games',
          fill = NULL,
