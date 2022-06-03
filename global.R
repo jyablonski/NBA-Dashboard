@@ -101,11 +101,6 @@ contracts_value <- get_data('prod_contract_value_analysis')
 # future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
 #   mutate(team = fct_reorder(team, pct_games_left_above_500))
 
-most_recent_date <- get_data('prod_gamelogs') %>%
-  select(date) %>%
-  filter(date == max(date)) %>%
-  distinct()
-
 game_types <- get_data('prod_game_types') %>%
   group_by(type) %>%
   mutate(pct_total = round(n / sum(n), 3)) %>%
@@ -255,6 +250,9 @@ bans <- bans %>%
 league_average_ts <- bans$league_ts_percent[1]
 updated_date <- bans$last_updated_at[1]
 
+most_recent_date <- as_tibble(bans$most_recent_game[1]) %>%
+  rename(date = value)
+
 # basically - try to return data with ml predictions if it's there.
 # else return the schedule with odds no matter what
 # use schedule_ml for tonight's games, schedule_tonight 
@@ -371,7 +369,7 @@ top20_plot_playoffs <- function(df){
 # top20_plot_playoffs(top_20pt_scorersp)
 # player_analysis_choices <- c('PPG', 'Player Value Metric', 'TS%', 'Plus Minus')
 # count_choices <- c('Top 20', 'Bottom 20', 'Full List')
-player_analysis_team_choices <- unique(rolling_avg %>% select(full_team) %>% arrange(full_team) %>% distinct() %>% pull())
+# player_analysis_team_choices <- unique(rolling_avg %>% select(full_team) %>% arrange(full_team) %>% distinct() %>% pull())
 
 player_analysis_plot_function <- function(df, plot_col, team_choice){
   
