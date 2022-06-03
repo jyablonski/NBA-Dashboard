@@ -1,6 +1,6 @@
 team,season_type,blown_leads_10pt,blown_lead_rank,team_comebacks_10pt,comeback_rank,net_comebacks,net_rank
-GSW,Playoffs,0,30th,6,1st,6,1st
-BOS,Playoffs,2,7th,4,2nd,2,2nd
+GSW,Playoffs,1,12th,6,1st,5,1st
+BOS,Playoffs,2,7th,5,2nd,3,2nd
 ATL,Playoffs,0,30th,1,6th,1,3rd
 PHX,Playoffs,0,30th,1,7th,1,4th
 DAL,Playoffs,1,11th,2,4th,1,5th
@@ -31,17 +31,17 @@ NOP,Regular Season,9,24th,10,22nd,1,13th
 CHA,Regular Season,9,25th,10,21st,1,14th
 MEM,Regular Season,10,17th,11,16th,1,15th
 ATL,Regular Season,11,12th,12,11th,1,16th
-PHI,Regular Season,12,10th,13,9th,1,17th
+PHI,Regular Season,12,9th,13,9th,1,17th
 MIN,Regular Season,10,15th,10,19th,0,18th
-SAC,Regular Season,12,8th,12,12th,0,19th
+SAC,Regular Season,12,10th,12,12th,0,19th
 LAL,Regular Season,14,7th,14,6th,0,20th
-DEN,Regular Season,12,11th,9,23rd,-3,21st
+DEN,Regular Season,12,8th,9,23rd,-3,21st
 POR,Regular Season,10,18th,6,27th,-4,22nd
 SAS,Regular Season,10,19th,6,25th,-4,23rd
-ORL,Regular Season,15,5th,11,17th,-4,24th
+ORL,Regular Season,15,6th,11,17th,-4,24th
 CLE,Regular Season,17,1st,12,13th,-5,25th
-NYK,Regular Season,15,6th,10,18th,-5,26th
-DET,Regular Season,12,9th,5,30th,-7,27th
-HOU,Regular Season,16,4th,6,26th,-10,28th
-IND,Regular Season,16,2nd,5,29th,-11,29th
+NYK,Regular Season,15,5th,10,18th,-5,26th
+DET,Regular Season,12,11th,5,30th,-7,27th
+HOU,Regular Season,16,2nd,6,26th,-10,28th
+IND,Regular Season,16,4th,5,29th,-11,29th
 UTA,Regular Season,16,3rd,5,28th,-11,30th

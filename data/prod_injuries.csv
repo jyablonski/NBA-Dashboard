@@ -1,51 +1,46 @@
 player,team_acronym,team,date,status,injury,description,total_injuries,team_active_injuries,team_active_protocols,scrape_date
-Sam Hauser,BOS,Boston Celtics,"Sun, May 8, 2022",Out,Shoulder,"Hauser is expected to miss a few weeks, according to John Karalis the Boston Sports Journal.",1,1,0,2022-05-28
-Joe Harris,BKN,Brooklyn Nets,"Thu, Mar 3, 2022",Out For Season,Ankle,The Nets announced that Harris will miss the rest of the season as he recovers from ankle surgery.,2,2,0,2022-05-28
-Ben Simmons,BKN,Brooklyn Nets,"Sun, Apr 24, 2022",Out,Back,Simmons has not played this season.,2,2,0,2022-05-28
-Lonzo Ball,CHI,Chicago Bulls,"Wed, Apr 6, 2022",Out For Season,Knee,The Bulls announced that Ball won't return this season.,2,2,0,2022-05-28
-Zach LaVine,CHI,Chicago Bulls,"Tue, May 24, 2022",Out,Knee,The Bulls announced that LaVine underwent surgery on his left knee and is expected to make a full recovery.,2,2,0,2022-05-28
-Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",2,2,0,2022-05-28
-Dean Wade,CLE,Cleveland Cavaliers,"Mon, Mar 28, 2022",Out For Season,Knee,Wade underwent surgery and won't return this season.,2,2,0,2022-05-28
-Tim Hardaway,DAL,Dallas Mavericks,"Tue, Jan 25, 2022",Out,Foot,The Mavericks announced that Hardaway Jr. suffered a fracture in his left foot.,1,1,0,2022-05-28
-Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,2,2,0,2022-05-28
-Michael Porter,DEN,Denver Nuggets,"Sun, Feb 27, 2022",Out,Back,"Porter Jr. has been cleared for on-court contact and is hoping to return sometime in March, according to Adrian Wojnarowski of ESPN.",2,2,0,2022-05-28
-Hamidou Diallo,DET,Detroit Pistons,"Fri, Mar 25, 2022",Out For Season,Finger,The Pistons announced that Diallo will miss the rest of the season with a left index finger avulsion fracture.,2,2,0,2022-05-28
-Jerami Grant,DET,Detroit Pistons,"Mon, Mar 28, 2022",Out For Season,Calf,The Pistons announced that Grant will miss the rest of the season with a left calf strain.,2,2,0,2022-05-28
-Andre Iguodala,GSW,Golden State Warriors,"Fri, May 20, 2022",Out,Neck,The Warriors announced that Igoudala is showing progress and his status will be updated when he is cleared to re-join team practice activities.,4,4,0,2022-05-28
-Gary Payton,GSW,Golden State Warriors,"Fri, May 20, 2022",Out,Elbow,The Warriors announced that Payton II has resumed light individual on-court activities and will be re-evaluated in one week.,4,4,0,2022-05-28
-Otto Porter,GSW,Golden State Warriors,"Thu, May 26, 2022",Day To Day,Foot,Porter Jr. did not play in Thursday's (May 26) game against Dallas.,4,4,0,2022-05-28
-James Wiseman,GSW,Golden State Warriors,"Fri, Mar 25, 2022",Out For Season,Knee,The Warriors announced that Wiseman will miss the rest of the season as he recovers from a right knee injury.,4,4,0,2022-05-28
-Chris Duarte,IND,Indiana Pacers,"Mon, Apr 4, 2022",Out For Season,Toe,"Duarte will not play for the rest of the 2021-22 season, according to Scott Agness of Fieldhouse Files.",4,4,0,2022-05-28
-Ricky Rubio,IND,Indiana Pacers,"Wed, Dec 29, 2021",Out For Season,Knee,"Rubio suffered a torn ACL in his left knee, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-05-28
-Myles Turner,IND,Indiana Pacers,"Mon, Mar 28, 2022",Out For Season,Foot,"Turner will not return to game action this season, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-05-28
-T.J. Warren,IND,Indiana Pacers,"Thu, Mar 17, 2022",Out For Season,Foot,"Warren will not play for the Pacers this season, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-05-28
-Kawhi Leonard,LAC,Los Angeles Clippers,"Thu, Jan 6, 2022",Out,Knee,"Leonard is ahead of schedule on his ACL rehab and could return this season yet, according to Chris Haynes of Yahoo Sports.",3,3,0,2022-05-28
-Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",3,3,0,2022-05-28
-Jay Scrubb,LAC,Los Angeles Clippers,"Wed, Feb 9, 2022",Out For Season,Toe,"Scrubb will undergo season-ending surgery, according to Law Murray of The Athletic.",3,3,0,2022-05-28
-Kendrick Nunn,LAL,Los Angeles Lakers,"Tue, Jan 18, 2022",Out,Knee,"Nunn suffered a setback as he tried to ramp-up activity on his knee, according to Matt Peralta of Lakersnation.com. There is no timetable for his return.",1,1,0,2022-05-28
-Tyler Herro,MIA,Miami Heat,"Fri, May 27, 2022",Out,Groin,Herro is out for Friday's (May 27) game against Boston.,1,1,0,2022-05-28
-Khris Middleton,MIL,Milwaukee Bucks,"Thu, Apr 28, 2022",Out,Knee,"Middleton is expected to miss Milwaukee's second-round series against Boston, according to Shams Charania of The Athletic.",1,1,0,2022-05-28
-Kira Lewis,NOP,New Orleans Pelicans,"Thu, Dec 9, 2021",Out For Season,Knee,The Pelicans announced that Lewis Jr. suffered a torn ACL and a grade 2 MCL sprain.,1,1,0,2022-05-28
-Cam Reddish,NYK,New York Knicks,"Thu, Mar 10, 2022",Out For Season,Shoulder,The Knicks announced that Reddish will miss the rest of the season with an AC joint injury.,1,1,0,2022-05-28
-Darius Bazley,OKC,Oklahoma City Thunder,"Mon, Mar 28, 2022",Out For Season,Knee,Bazley is out for the season with a non-displaced tibial plateau fracture in his right knee according to Thunder Communications.,6,6,0,2022-05-28
-Luguentz Dort,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out For Season,Shoulder,Dort hasn't played since Feb. 12 against Chicago. A timetable for his return has not been announced.,6,6,0,2022-05-28
-Derrick Favors,OKC,Oklahoma City Thunder,"Thu, Mar 31, 2022",Out For Season,Back,Thunder coach Mark Daigneault said Favors won't return this season.,6,6,0,2022-05-28
-Shai Gilgeous-Alexander,OKC,Oklahoma City Thunder,"Mon, Mar 28, 2022",Out For Season,Ankle,Thunder coach Mark Daignault announced that Gilgeous-Alexander will miss the rest of the season.,6,6,0,2022-05-28
-Ty Jerome,OKC,Oklahoma City Thunder,"Tue, Mar 8, 2022",Out For Season,Hip,The Thunder announced that Jerome will miss the rest of the season.,6,6,0,2022-05-28
-Mike Muscala,OKC,Oklahoma City Thunder,"Tue, Mar 8, 2022",Out For Season,Ankle,The Thunder announced that Muscala will miss the rest of the season.,6,6,0,2022-05-28
-Bol Bol,ORL,Orlando Magic,"Tue, Jan 18, 2022",Out,Foot,"Bol is having surgery on his foot and will be sidelined 8-12 weeks, according to Shams Charania of The Athletic.",3,3,0,2022-05-28
-Jonathan Isaac,ORL,Orlando Magic,"Tue, Mar 15, 2022",Out For Season,Knee,The Magic announced that Isaac will miss the rest of the season.,3,3,0,2022-05-28
-Jalen Suggs,ORL,Orlando Magic,"Mon, May 2, 2022",Out,Ankle,The Magic announced that Suggs underwent surgery and is expected to be ready for the start of training camp.,3,3,0,2022-05-28
-Danny Green,PHI,Philadelphia 76ers,"Fri, May 13, 2022",Out,Knee,The 76ers announced that Green has a torn ACL and LCL in his left knee.,1,1,0,2022-05-28
-Dario Saric,PHX,Phoenix Suns,"Fri, May 6, 2022",Out,Knee,"Saric had surgery repair his right knee. There is no timetable for his return, according to Dave McMenamin of ESPN.",1,1,0,2022-05-28
-Eric Bledsoe,POR,Portland Trail Blazers,"Mon, Mar 28, 2022",Out For Season,Achilles,The Trail Blazers announced that Bledsoe won't return this season.,6,6,0,2022-05-28
-Joe Ingles,POR,Portland Trail Blazers,"Mon, Jan 31, 2022",Out For Season,Knee,Ingles suffered a torn left ACL in Sunday's (Jan. 30) game against Minnesota.,6,6,0,2022-05-28
-Damian Lillard,POR,Portland Trail Blazers,"Mon, Mar 21, 2022",Out For Season,Abdominal,"Lillard will not return this season, according to Shams Charania of The Athletic.",6,6,0,2022-05-28
-Nassir Little,POR,Portland Trail Blazers,"Mon, Jan 31, 2022",Out For Season,Shoulder,The Trail Blazers announced that Little will undergo surgery and miss the remainder of the season.,6,6,0,2022-05-28
-Jusuf Nurkic,POR,Portland Trail Blazers,"Mon, Mar 28, 2022",Out For Season,Foot,The Trail Blazers announced that Nurkic won't return this season.,6,6,0,2022-05-28
-Anfernee Simons,POR,Portland Trail Blazers,"Mon, Mar 28, 2022",Out For Season,Knee,The Trail Blazers announced that Simons won't return this season.,6,6,0,2022-05-28
-Terence Davis,SAC,Sacramento Kings,"Thu, Feb 3, 2022",Out,Wrist,The Kings announced that Davis had surgery on his right wrist. He will be re-evaluated in three months.,1,1,0,2022-05-28
-Doug McDermott,SAS,San Antonio Spurs,"Wed, Mar 16, 2022",Out For Season,Ankle,"McDermott will miss the rest of the season with a Grade 3 ankle sprain, according to Jeff McDonald of The San Antonio Express-News.",1,1,0,2022-05-28
-Udoka Azubuike,UTA,Utah Jazz,"Wed, Mar 16, 2022",Out,Ankle,Azubuike suffered a severe sprain and is expected to miss an extended period of time.,2,2,0,2022-05-28
-Trent Forrest,UTA,Utah Jazz,"Thu, Apr 7, 2022",Out,Foot Sprain,The Jazz announced that Forrest has a left midfoot ligament sprain and will be re-evaluated weekly.,2,2,0,2022-05-28
-Bradley Beal,WAS,Washington Wizards,"Tue, Feb 8, 2022",Out For Season,Wrist,"Beal will undergo season ending surgery on his left wrist, according to Adrian Wojnarowski of ESPN.",1,1,0,2022-05-28
+Joe Harris,BKN,Brooklyn Nets,"Thu, Mar 3, 2022",Out For Season,Ankle,The Nets announced that Harris will miss the rest of the season as he recovers from ankle surgery.,2,2,0,2022-06-03
+Ben Simmons,BKN,Brooklyn Nets,"Sun, Apr 24, 2022",Out,Back,Simmons has not played this season.,2,2,0,2022-06-03
+Lonzo Ball,CHI,Chicago Bulls,"Wed, Apr 6, 2022",Out For Season,Knee,The Bulls announced that Ball won't return this season.,2,2,0,2022-06-03
+Zach LaVine,CHI,Chicago Bulls,"Tue, May 24, 2022",Out,Knee,The Bulls announced that LaVine underwent surgery on his left knee and is expected to make a full recovery.,2,2,0,2022-06-03
+Collin Sexton,CLE,Cleveland Cavaliers,"Fri, Nov 19, 2021",Out For Season,Knee,"Sexton underwent surgery on a torn meniscus in his left knee and is expected to miss the rest of the season, according to Adrian Wojnarowski of ESPN.",2,2,0,2022-06-03
+Dean Wade,CLE,Cleveland Cavaliers,"Mon, Mar 28, 2022",Out For Season,Knee,Wade underwent surgery and won't return this season.,2,2,0,2022-06-03
+Tim Hardaway,DAL,Dallas Mavericks,"Tue, Jan 25, 2022",Out,Foot,The Mavericks announced that Hardaway Jr. suffered a fracture in his left foot.,1,1,0,2022-06-03
+Jamal Murray,DEN,Denver Nuggets,"Thu, Jul 22, 2021",Out,Knee,Murray is recovering from a torn ACL and no timetable has been announced for his return.,2,2,0,2022-06-03
+Michael Porter,DEN,Denver Nuggets,"Sun, Feb 27, 2022",Out,Back,"Porter Jr. has been cleared for on-court contact and is hoping to return sometime in March, according to Adrian Wojnarowski of ESPN.",2,2,0,2022-06-03
+Hamidou Diallo,DET,Detroit Pistons,"Fri, Mar 25, 2022",Out For Season,Finger,The Pistons announced that Diallo will miss the rest of the season with a left index finger avulsion fracture.,2,2,0,2022-06-03
+Jerami Grant,DET,Detroit Pistons,"Mon, Mar 28, 2022",Out For Season,Calf,The Pistons announced that Grant will miss the rest of the season with a left calf strain.,2,2,0,2022-06-03
+James Wiseman,GSW,Golden State Warriors,"Fri, Mar 25, 2022",Out For Season,Knee,The Warriors announced that Wiseman will miss the rest of the season as he recovers from a right knee injury.,1,1,0,2022-06-03
+Chris Duarte,IND,Indiana Pacers,"Mon, Apr 4, 2022",Out For Season,Toe,"Duarte will not play for the rest of the 2021-22 season, according to Scott Agness of Fieldhouse Files.",4,4,0,2022-06-03
+Ricky Rubio,IND,Indiana Pacers,"Wed, Dec 29, 2021",Out For Season,Knee,"Rubio suffered a torn ACL in his left knee, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-06-03
+Myles Turner,IND,Indiana Pacers,"Mon, Mar 28, 2022",Out For Season,Foot,"Turner will not return to game action this season, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-06-03
+T.J. Warren,IND,Indiana Pacers,"Thu, Mar 17, 2022",Out For Season,Foot,"Warren will not play for the Pacers this season, according to Adrian Wojnarowski of ESPN.",4,4,0,2022-06-03
+Kawhi Leonard,LAC,Los Angeles Clippers,"Thu, Jan 6, 2022",Out,Knee,"Leonard is ahead of schedule on his ACL rehab and could return this season yet, according to Chris Haynes of Yahoo Sports.",3,3,0,2022-06-03
+Jason Preston,LAC,Los Angeles Clippers,"Thu, Oct 7, 2021",Out,Foot,"Preston had right foot surgery and is expected to miss a significant part of the season, according to Adrian Wojnarowksi of ESPN.",3,3,0,2022-06-03
+Jay Scrubb,LAC,Los Angeles Clippers,"Wed, Feb 9, 2022",Out For Season,Toe,"Scrubb will undergo season-ending surgery, according to Law Murray of The Athletic.",3,3,0,2022-06-03
+Kendrick Nunn,LAL,Los Angeles Lakers,"Tue, Jan 18, 2022",Out,Knee,"Nunn suffered a setback as he tried to ramp-up activity on his knee, according to Matt Peralta of Lakersnation.com. There is no timetable for his return.",1,1,0,2022-06-03
+Khris Middleton,MIL,Milwaukee Bucks,"Thu, Apr 28, 2022",Out,Knee,"Middleton is expected to miss Milwaukee's second-round series against Boston, according to Shams Charania of The Athletic.",1,1,0,2022-06-03
+Kira Lewis,NOP,New Orleans Pelicans,"Thu, Dec 9, 2021",Out For Season,Knee,The Pelicans announced that Lewis Jr. suffered a torn ACL and a grade 2 MCL sprain.,1,1,0,2022-06-03
+Cam Reddish,NYK,New York Knicks,"Thu, Mar 10, 2022",Out For Season,Shoulder,The Knicks announced that Reddish will miss the rest of the season with an AC joint injury.,1,1,0,2022-06-03
+Darius Bazley,OKC,Oklahoma City Thunder,"Mon, Mar 28, 2022",Out For Season,Knee,Bazley is out for the season with a non-displaced tibial plateau fracture in his right knee according to Thunder Communications.,6,6,0,2022-06-03
+Luguentz Dort,OKC,Oklahoma City Thunder,"Thu, Mar 3, 2022",Out For Season,Shoulder,Dort hasn't played since Feb. 12 against Chicago. A timetable for his return has not been announced.,6,6,0,2022-06-03
+Derrick Favors,OKC,Oklahoma City Thunder,"Thu, Mar 31, 2022",Out For Season,Back,Thunder coach Mark Daigneault said Favors won't return this season.,6,6,0,2022-06-03
+Shai Gilgeous-Alexander,OKC,Oklahoma City Thunder,"Mon, Mar 28, 2022",Out For Season,Ankle,Thunder coach Mark Daignault announced that Gilgeous-Alexander will miss the rest of the season.,6,6,0,2022-06-03
+Ty Jerome,OKC,Oklahoma City Thunder,"Tue, Mar 8, 2022",Out For Season,Hip,The Thunder announced that Jerome will miss the rest of the season.,6,6,0,2022-06-03
+Mike Muscala,OKC,Oklahoma City Thunder,"Tue, Mar 8, 2022",Out For Season,Ankle,The Thunder announced that Muscala will miss the rest of the season.,6,6,0,2022-06-03
+Bol Bol,ORL,Orlando Magic,"Tue, Jan 18, 2022",Out,Foot,"Bol is having surgery on his foot and will be sidelined 8-12 weeks, according to Shams Charania of The Athletic.",3,3,0,2022-06-03
+Jonathan Isaac,ORL,Orlando Magic,"Tue, Mar 15, 2022",Out For Season,Knee,The Magic announced that Isaac will miss the rest of the season.,3,3,0,2022-06-03
+Jalen Suggs,ORL,Orlando Magic,"Mon, May 2, 2022",Out,Ankle,The Magic announced that Suggs underwent surgery and is expected to be ready for the start of training camp.,3,3,0,2022-06-03
+Danny Green,PHI,Philadelphia 76ers,"Fri, May 13, 2022",Out,Knee,The 76ers announced that Green has a torn ACL and LCL in his left knee.,1,1,0,2022-06-03
+Dario Saric,PHX,Phoenix Suns,"Fri, May 6, 2022",Out,Knee,"Saric had surgery repair his right knee. There is no timetable for his return, according to Dave McMenamin of ESPN.",1,1,0,2022-06-03
+Eric Bledsoe,POR,Portland Trail Blazers,"Mon, Mar 28, 2022",Out For Season,Achilles,The Trail Blazers announced that Bledsoe won't return this season.,6,6,0,2022-06-03
+Joe Ingles,POR,Portland Trail Blazers,"Mon, Jan 31, 2022",Out For Season,Knee,Ingles suffered a torn left ACL in Sunday's (Jan. 30) game against Minnesota.,6,6,0,2022-06-03
+Damian Lillard,POR,Portland Trail Blazers,"Mon, Mar 21, 2022",Out For Season,Abdominal,"Lillard will not return this season, according to Shams Charania of The Athletic.",6,6,0,2022-06-03
+Nassir Little,POR,Portland Trail Blazers,"Mon, Jan 31, 2022",Out For Season,Shoulder,The Trail Blazers announced that Little will undergo surgery and miss the remainder of the season.,6,6,0,2022-06-03
+Jusuf Nurkic,POR,Portland Trail Blazers,"Mon, Mar 28, 2022",Out For Season,Foot,The Trail Blazers announced that Nurkic won't return this season.,6,6,0,2022-06-03
+Anfernee Simons,POR,Portland Trail Blazers,"Mon, Mar 28, 2022",Out For Season,Knee,The Trail Blazers announced that Simons won't return this season.,6,6,0,2022-06-03
+Terence Davis,SAC,Sacramento Kings,"Thu, Feb 3, 2022",Out,Wrist,The Kings announced that Davis had surgery on his right wrist. He will be re-evaluated in three months.,1,1,0,2022-06-03
+Doug McDermott,SAS,San Antonio Spurs,"Wed, Mar 16, 2022",Out For Season,Ankle,"McDermott will miss the rest of the season with a Grade 3 ankle sprain, according to Jeff McDonald of The San Antonio Express-News.",1,1,0,2022-06-03
+Udoka Azubuike,UTA,Utah Jazz,"Wed, Mar 16, 2022",Out,Ankle,Azubuike suffered a severe sprain and is expected to miss an extended period of time.,2,2,0,2022-06-03
+Trent Forrest,UTA,Utah Jazz,"Thu, Apr 7, 2022",Out,Foot Sprain,The Jazz announced that Forrest has a left midfoot ligament sprain and will be re-evaluated weekly.,2,2,0,2022-06-03
+Bradley Beal,WAS,Washington Wizards,"Tue, Feb 8, 2022",Out For Season,Wrist,"Beal will undergo season ending surgery on his left wrist, according to Adrian Wojnarowski of ESPN.",1,1,0,2022-06-03
