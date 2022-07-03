@@ -163,13 +163,17 @@ recent_games_players <- get_data('prod_recent_games_players') %>%
   as_tibble()
 
 recent_games_teams <- get_data('prod_recent_games_teams') %>%
-  select(team_logo, team, outcome, pts_scored, new_loc, opp_logo, opponent, pts_scored_opp, pts_color, opp_pts_color, mov)
+  select(team_logo, team, outcome, pts_scored, max_team_lead, new_loc, opp_logo, opponent, pts_scored_opp, max_opponent_lead, 
+         pts_color, opp_pts_color, mov)
 
 reddit_data <- get_data('prod_reddit_comments') %>%
   select(`Scrape Date` = scrape_date, User = author, Flair = flair, Comment = comment, Score = score,
          `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(Score = as.numeric(Score),
          URL = paste0("<a href='",URL,"'>",URL,"</a>"))
+
+reddit_team_sentiment <- get_data('prod_reddit_sentiment_time_series') %>%
+  mutate(num_comments = as.numeric(num_comments))
 
 rolling_avg <- get_data('prod_rolling_avg_stats')
 
@@ -502,6 +506,13 @@ team_choices <- standings %>%
   distinct() %>%
   pull()
 
+team_choices_social <- standings %>%
+  arrange(team) %>%
+  select(team) %>%
+  distinct() %>%
+  pull()
+
+
 mov_plot <- function(df){
   cols <- c('W' = 'dark green', 'L' = 'red')
   p <- df %>%
@@ -584,6 +595,30 @@ game_types_plot <- function(df, season_type){
   ggplotly(p, tooltip = c('text')) %>%
     layout(legend = list(orientation = "h", x = 0.35, y = 1.03),
            hoverlabel = list(bgcolor = "white"))
+}
+
+reddit_sentiment_plot <- function(df, team_choice){
+  p <- df %>%
+    filter(team == team_choice) %>%
+    ggplot(aes(scrape_date, num_comments, fill = game_outcome)) +
+    geom_col(position = 'dodge', color = 'black', aes(text = paste0(scrape_date, "<br>",
+                                                                    "Total Comments: ", num_comments, "<br>",
+                                                                    "Compound Sentiment: ", avg_compound * 100, "%", "<br>",
+                                                                    "Avg Compound Sentiment: ", round(mean(avg_compound), 3) * 100, "%", "<br>",
+                                                                    "Previous day's Game Outcome: ", game_outcome)
+                                                      )) +
+    scale_x_date(date_breaks = "1 month", date_labels = "%B %Y") +
+    scale_fill_manual(values = c("#AA3929", "#878484", "#46b051")) +
+    labs(x = NULL,
+         y = '# of Comments',
+         fill = "Legend",
+         title = 'Reddit Comments Analysis using User Flairs') +
+    theme_jacob() +
+    theme(plot.title = element_text(hjust = 0.5), legend.position = 'top')
+  
+  
+  ggplotly(p, tooltip = c('text')) %>%
+    layout(hoverlabel = list(bgcolor = "white"))
 }
 
 contracts_dist_plot <- function(df){
@@ -842,8 +877,8 @@ team_gt_table <- function(df){
                      web_image(url = x, height = 45)
                    }) %>%
     cols_hide(columns = c(pts_color, opp_pts_color)) %>%
-    cols_label(team_logo = "", opp_logo = "", new_loc = "", pts_scored = "PTS SCORED",
-               pts_scored_opp = 'OPP. PTS', mov = 'MARGIN OF VICTORY') %>%
+    cols_label(team_logo = "", opp_logo = "", new_loc = "", pts_scored = "PTS", max_team_lead = "MAX LEAD",
+               pts_scored_opp = 'PTS', max_opponent_lead = "MAX LEAD", mov = 'MARGIN OF VICTORY') %>%
     tab_style(
       style = cell_fill(color = "#9362DA"),
       locations = cells_body(

@@ -1,605 +1,605 @@
 player,team,full_team,season_avg_ppg,playoffs_avg_ppg,season_ts_percent,playoffs_ts_percent,games_played,playoffs_games_played,ppg_rank,top20_scorers,player_mvp_calc_adj,games_missed,penalized_games_missed,top5_candidates,mvp_rank
 Nikola Jokic,DEN,Denver Nuggets,27.1,31,0.661,0.643,74,5,10,Top 20 Scorers,47.8,8,0,Top 5 MVP Candidate,1
-Giannis Antetokounmpo,MIL,Milwaukee Bucks,29.9,31.7,0.633,0.552,67,12,3,Top 20 Scorers,47.3,15,0,Top 5 MVP Candidate,2
+Giannis Antetokounmpo,MIL,Milwaukee Bucks,29.9,31.7,0.633,0.552,67,12,4,Top 20 Scorers,47.3,15,0,Top 5 MVP Candidate,2
 Joel Embiid,PHI,Philadelphia 76ers,30.6,23.6,0.616,0.59,68,10,1,Top 20 Scorers,45.9,14,0,Top 5 MVP Candidate,3
-Luka Doncic,DAL,Dallas Mavericks,28.4,31.7,0.571,0.577,65,15,6,Top 20 Scorers,43.02,17,1,Top 5 MVP Candidate,4
-Trae Young,ATL,Atlanta Hawks,28.4,15.4,0.603,0.461,76,5,5,Top 20 Scorers,42,6,0,Top 5 MVP Candidate,5
-Jayson Tatum,BOS,Boston Celtics,26.9,26.2,0.578,0.575,76,19,11,Top 20 Scorers,40.8,6,0,Other,6
+Luka Doncic,DAL,Dallas Mavericks,28.4,31.7,0.571,0.577,65,15,5,Top 20 Scorers,43.02,17,1,Top 5 MVP Candidate,4
+Trae Young,ATL,Atlanta Hawks,28.4,15.4,0.603,0.461,76,5,6,Top 20 Scorers,42,6,0,Top 5 MVP Candidate,5
+Jayson Tatum,BOS,Boston Celtics,26.9,25.6,0.578,0.562,76,24,11,Top 20 Scorers,40.8,6,0,Other,6
 Dejounte Murray,SAS,San Antonio Spurs,21.1,NA,0.533,NA,68,NA,31,Other,40.3,14,0,Other,7
 Devin Booker,PHX,Phoenix Suns,26.8,23.3,0.576,0.587,68,10,12,Top 20 Scorers,39.5,14,0,Other,8
 James Harden,PHI,Philadelphia 76ers,22,18.6,0.583,0.584,65,12,27,Other,39,17,1,Other,9
-Stephen Curry,GSW,Golden State Warriors,25.5,26.4,0.602,0.6,64,17,14,Top 20 Scorers,38.3,18,2,Other,10
+Stephen Curry,GSW,Golden State Warriors,25.5,27.4,0.602,0.606,64,22,14,Top 20 Scorers,38.3,18,2,Other,10
 DeMar DeRozan,CHI,Chicago Bulls,27.9,20.8,0.59,0.481,76,5,7,Top 20 Scorers,37.2,6,0,Other,11
 Donovan Mitchell,UTA,Utah Jazz,25.9,25.5,0.572,0.505,67,6,13,Top 20 Scorers,36.8,15,0,Other,12
-Chris Paul,PHX,Phoenix Suns,14.7,17.5,0.581,0.666,65,13,99,Other,36.75,17,1,Other,13
+Chris Paul,PHX,Phoenix Suns,14.7,17.5,0.581,0.666,65,13,97,Other,36.75,17,1,Other,13
 Pascal Siakam,TOR,Toronto Raptors,22.8,22.8,0.565,0.558,68,6,24,Other,36.7,14,0,Other,14
 Karl-Anthony Towns,MIN,Minnesota Timberwolves,24.6,21.8,0.641,0.642,74,6,15,Top 20 Scorers,36.4,8,0,Other,15
 Darius Garland,CLE,Cleveland Cavaliers,21.7,NA,0.576,NA,68,NA,28,Other,36.3,14,0,Other,16
-LaMelo Ball,CHA,Charlotte Hornets,20.1,NA,0.554,NA,75,NA,36,Other,34.5,7,0,Other,17
-Kevin Durant,BKN,Brooklyn Nets,29.9,26.3,0.635,0.526,55,4,4,Top 20 Scorers,34.48,27,11,Other,18
+LaMelo Ball,CHA,Charlotte Hornets,20.1,NA,0.554,NA,75,NA,38,Other,34.5,7,0,Other,17
+Kevin Durant,BKN,Brooklyn Nets,29.9,26.3,0.635,0.526,55,4,3,Top 20 Scorers,34.48,27,11,Other,18
 Fred VanVleet,TOR,Toronto Raptors,20.3,13.8,0.552,0.486,65,4,34,Other,34.1,17,1,Other,19
-Jaylen Brown,BOS,Boston Celtics,23.6,23,0.574,0.589,66,19,20,Top 20 Scorers,33.9,16,0,Other,21
+Jaylen Brown,BOS,Boston Celtics,23.6,23.1,0.574,0.581,66,24,20,Top 20 Scorers,33.9,16,0,Other,21
 Jrue Holiday,MIL,Milwaukee Bucks,18.3,19.1,0.593,0.461,67,12,50,Other,33.9,15,0,Other,20
 LeBron James,LAL,Los Angeles Lakers,30.3,NA,0.619,NA,56,NA,2,Top 20 Scorers,33.76,26,10,Other,22
 Ja Morant,MEM,Memphis Grizzlies,27.4,27.1,0.575,0.549,57,9,9,Top 20 Scorers,32.8,25,9,Other,23
 Khris Middleton,MIL,Milwaukee Bucks,20.1,14.5,0.576,0.573,66,2,37,Other,31.7,16,0,Other,24
-Zach LaVine,CHI,Chicago Bulls,24.4,19.3,0.606,0.553,67,4,18,Top 20 Scorers,31.4,15,0,Other,25
+Zach LaVine,CHI,Chicago Bulls,24.4,19.3,0.606,0.553,67,4,17,Top 20 Scorers,31.4,15,0,Other,25
 Anthony Edwards,MIN,Minnesota Timberwolves,21.3,25.2,0.561,0.604,72,6,30,Other,30.9,10,0,Other,26
-Miles Bridges,CHA,Charlotte Hornets,20.1,NA,0.593,NA,80,NA,38,Other,30.9,2,0,Other,27
+Miles Bridges,CHA,Charlotte Hornets,20.1,NA,0.593,NA,80,NA,39,Other,30.9,2,0,Other,27
 Kyrie Irving,BKN,Brooklyn Nets,27.4,21.3,0.592,0.588,29,4,8,Top 20 Scorers,30.45,53,37,Other,28
 Rudy Gobert,UTA,Utah Jazz,15.6,12,0.732,0.688,66,6,83,Other,30.4,16,0,Other,29
-D'Angelo Russell,MIN,Minnesota Timberwolves,18.1,12,0.544,0.455,65,6,53,Other,30.18,17,1,Other,30
+D'Angelo Russell,MIN,Minnesota Timberwolves,18.1,12,0.544,0.455,65,6,54,Other,30.18,17,1,Other,30
 Terry Rozier,CHA,Charlotte Hornets,19.3,NA,0.566,NA,73,NA,41,Other,29.9,9,0,Other,31
 Jimmy Butler,MIA,Miami Heat,21.4,27.4,0.592,0.604,57,17,29,Other,29.27,25,9,Other,32
-Julius Randle,NYK,New York Knicks,20.1,NA,0.509,NA,72,NA,39,Other,29.1,10,0,Other,33
+Julius Randle,NYK,New York Knicks,20.1,NA,0.509,NA,72,NA,36,Other,29.1,10,0,Other,33
 CJ McCollum,NOP,New Orleans Pelicans,22.1,22.2,0.553,0.487,62,6,26,Other,28.7,20,4,Other,35
 Nikola Vucevic,CHI,Chicago Bulls,17.6,19.4,0.533,0.52,73,5,57,Other,28.7,9,0,Other,34
 Tyler Herro,MIA,Miami Heat,20.7,12.6,0.561,0.49,66,15,32,Other,28.6,16,0,Other,36
 Domantas Sabonis,SAC,Sacramento Kings,18.9,NA,0.636,NA,62,NA,46,Other,28.34,20,4,Other,37
 Tyrese Haliburton,IND,Indiana Pacers,15.3,NA,0.596,NA,77,NA,85,Other,28.3,5,0,Other,38
-Russell Westbrook,LAL,Los Angeles Lakers,18.5,NA,0.512,NA,78,NA,47,Other,28.2,4,0,Other,39
+Russell Westbrook,LAL,Los Angeles Lakers,18.5,NA,0.512,NA,78,NA,48,Other,28.2,4,0,Other,39
 Desmond Bane,MEM,Memphis Grizzlies,18.2,18.8,0.592,0.641,76,12,52,Other,27.9,6,0,Other,40
-Paul George,LAC,Los Angeles Clippers,24.4,NA,0.538,NA,31,NA,17,Top 20 Scorers,27.68,51,35,Other,41
+Paul George,LAC,Los Angeles Clippers,24.4,NA,0.538,NA,31,NA,18,Top 20 Scorers,27.68,51,35,Other,41
 Tyrese Maxey,PHI,Philadelphia 76ers,17.5,20.8,0.594,0.61,75,12,58,Other,27.5,7,0,Other,42
 Tobias Harris,PHI,Philadelphia 76ers,17.2,16.9,0.566,0.591,73,12,62,Other,27.1,9,0,Other,43
-Jaren Jackson,MEM,Memphis Grizzlies,16.3,15.4,0.535,0.516,78,12,72,Other,27,4,0,Other,44
+Jaren Jackson,MEM,Memphis Grizzlies,16.3,15.4,0.535,0.516,78,12,74,Other,27,4,0,Other,44
 Jonas Valanciunas,NOP,New Orleans Pelicans,17.8,14.5,0.617,0.548,74,6,56,Other,26.9,8,0,Other,45
-Jordan Poole,GSW,Golden State Warriors,18.5,17.8,0.598,0.667,76,17,48,Other,26.8,6,0,Other,47
+Jordan Poole,GSW,Golden State Warriors,18.5,17,0.598,0.654,76,22,47,Other,26.8,6,0,Other,47
 Shai Gilgeous-Alexander,OKC,Oklahoma City Thunder,24.5,NA,0.558,NA,56,NA,16,Top 20 Scorers,26.8,26,10,Other,46
-Anthony Davis,LAL,Los Angeles Lakers,23.2,NA,0.578,NA,40,NA,23,Other,26.63,42,26,Other,48
+Anthony Davis,LAL,Los Angeles Lakers,23.2,NA,0.578,NA,40,NA,21,Other,26.63,42,26,Other,48
 Gary Trent,TOR,Toronto Raptors,18.3,15.3,0.546,0.509,70,6,51,Other,26.5,12,0,Other,49
-Marcus Smart,BOS,Boston Celtics,12.1,15.7,0.541,0.539,71,16,133,Other,26.5,11,0,Other,50
-De'Aaron Fox,SAC,Sacramento Kings,23.2,NA,0.549,NA,59,NA,21,Other,26.4,23,7,Other,51
-Jalen Brunson,DAL,Dallas Mavericks,16.3,21.6,0.583,0.553,79,18,73,Other,26.2,3,0,Other,53
-Mike Conley,UTA,Utah Jazz,13.7,9.2,0.572,0.432,72,6,106,Other,26.2,10,0,Other,52
+Marcus Smart,BOS,Boston Celtics,12.1,15.4,0.541,0.529,71,21,130,Other,26.5,11,0,Other,50
+De'Aaron Fox,SAC,Sacramento Kings,23.2,NA,0.549,NA,59,NA,22,Other,26.4,23,7,Other,51
+Jalen Brunson,DAL,Dallas Mavericks,16.3,21.6,0.583,0.553,79,18,72,Other,26.2,3,0,Other,53
+Mike Conley,UTA,Utah Jazz,13.7,9.2,0.572,0.432,72,6,105,Other,26.2,10,0,Other,52
 Kyle Lowry,MIA,Miami Heat,13.4,7.8,0.6,0.413,63,10,112,Other,25.94,19,3,Other,54
 Bam Adebayo,MIA,Miami Heat,19.1,14.8,0.608,0.638,56,18,43,Other,25.84,26,10,Other,55
 Brandon Ingram,NOP,New Orleans Pelicans,22.7,27,0.554,0.584,55,6,25,Other,25.82,27,11,Other,56
-Andrew Wiggins,GSW,Golden State Warriors,17.2,16.1,0.56,0.562,73,17,64,Other,25.7,9,0,Other,57
-Evan Mobley,CLE,Cleveland Cavaliers,15,NA,0.549,NA,69,NA,94,Other,25.6,13,0,Other,58
+Andrew Wiggins,GSW,Golden State Warriors,17.2,16.5,0.56,0.544,73,22,65,Other,25.7,9,0,Other,57
+Evan Mobley,CLE,Cleveland Cavaliers,15,NA,0.549,NA,69,NA,89,Other,25.6,13,0,Other,58
 Damian Lillard,POR,Portland Trail Blazers,24,NA,0.55,NA,29,NA,19,Top 20 Scorers,25.58,53,37,Other,59
-Scottie Barnes,TOR,Toronto Raptors,15.3,12.8,0.552,0.52,74,4,86,Other,25.5,8,0,Other,60
 Jakob Poeltl,SAS,San Antonio Spurs,13.5,NA,0.613,NA,68,NA,109,Other,25.5,14,0,Other,61
-Mikal Bridges,PHX,Phoenix Suns,14.2,13.3,0.627,0.572,82,13,102,Other,25.1,0,0,Other,62
+Scottie Barnes,TOR,Toronto Raptors,15.3,12.8,0.552,0.52,74,4,86,Other,25.5,8,0,Other,60
+Mikal Bridges,PHX,Phoenix Suns,14.2,13.3,0.627,0.572,82,13,101,Other,25.1,0,0,Other,62
 RJ Barrett,NYK,New York Knicks,20,NA,0.511,NA,70,NA,40,Other,24.8,12,0,Other,63
-Al Horford,BOS,Boston Celtics,10.2,12.7,0.574,0.656,69,18,177,Other,24.5,13,0,Other,65
-Derrick White,BOS,Boston Celtics,13.2,8.8,0.549,0.527,75,18,114,Other,24.5,7,0,Other,64
+Al Horford,BOS,Boston Celtics,10.2,12,0.574,0.663,69,23,177,Other,24.5,13,0,Other,65
+Derrick White,BOS,Boston Celtics,13.2,8.5,0.549,0.494,75,23,115,Other,24.5,7,0,Other,64
 Bobby Portis,MIL,Milwaukee Bucks,14.6,10.6,0.572,0.509,72,12,100,Other,24.1,10,0,Other,67
 Christian Wood,HOU,Houston Rockets,17.9,NA,0.594,NA,68,NA,55,Other,24.1,14,0,Other,66
 Keldon Johnson,SAS,San Antonio Spurs,17,NA,0.574,NA,75,NA,69,Other,23.8,7,0,Other,68
-Kyle Kuzma,WAS,Washington Wizards,17.1,NA,0.547,NA,66,NA,67,Other,23.8,16,0,Other,69
-Bradley Beal,WAS,Washington Wizards,23.2,NA,0.539,NA,40,NA,22,Other,23.78,42,26,Other,70
+Kyle Kuzma,WAS,Washington Wizards,17.1,NA,0.547,NA,66,NA,66,Other,23.8,16,0,Other,69
+Bradley Beal,WAS,Washington Wizards,23.2,NA,0.539,NA,40,NA,23,Other,23.78,42,26,Other,70
 Cade Cunningham,DET,Detroit Pistons,17.4,NA,0.504,NA,64,NA,59,Other,23.71,18,2,Other,71
 Reggie Jackson,LAC,Los Angeles Clippers,16.8,NA,0.488,NA,75,NA,70,Other,23.7,7,0,Other,72
-Aaron Gordon,DEN,Denver Nuggets,15,13.8,0.602,0.52,75,5,89,Other,23.5,7,0,Other,73
-Will Barton,DEN,Denver Nuggets,14.7,13.8,0.548,0.503,71,5,98,Other,23.4,11,0,Other,74
-Deandre Ayton,PHX,Phoenix Suns,17.2,17.9,0.656,0.653,58,13,63,Other,23.35,24,8,Other,75
-Jordan Clarkson,UTA,Utah Jazz,16,17.5,0.532,0.649,79,6,78,Other,23.3,3,0,Other,76
-Cole Anthony,ORL,Orlando Magic,16.3,NA,0.519,NA,65,NA,74,Other,23.23,17,1,Other,77
-Robert Williams,BOS,Boston Celtics,10,7.8,0.745,0.716,61,12,184,Other,22.95,21,5,Other,78
+Aaron Gordon,DEN,Denver Nuggets,15,13.8,0.602,0.52,75,5,92,Other,23.5,7,0,Other,73
+Will Barton,DEN,Denver Nuggets,14.7,13.8,0.548,0.503,71,5,99,Other,23.4,11,0,Other,74
+Deandre Ayton,PHX,Phoenix Suns,17.2,17.9,0.656,0.653,58,13,64,Other,23.35,24,8,Other,75
+Jordan Clarkson,UTA,Utah Jazz,16,17.5,0.532,0.649,79,6,79,Other,23.3,3,0,Other,76
+Cole Anthony,ORL,Orlando Magic,16.3,NA,0.519,NA,65,NA,73,Other,23.23,17,1,Other,77
+Robert Williams,BOS,Boston Celtics,10,7.7,0.745,0.725,61,17,184,Other,22.95,21,5,Other,78
 Monte Morris,DEN,Denver Nuggets,12.6,14,0.583,0.622,75,5,124,Other,22.9,7,0,Other,79
+Clint Capela,ATL,Atlanta Hawks,11.1,2,0.605,0.333,74,2,152,Other,22.8,8,0,Other,80
 Kristaps Porzingis,WAS,Washington Wizards,20.2,NA,0.577,NA,51,NA,35,Other,22.8,31,15,Other,81
-Clint Capela,ATL,Atlanta Hawks,11.1,2,0.605,0.333,74,2,150,Other,22.8,8,0,Other,80
-Bojan Bogdanovic,UTA,Utah Jazz,18.1,18,0.598,0.59,69,6,54,Other,22.7,13,0,Other,82
+Bojan Bogdanovic,UTA,Utah Jazz,18.1,18,0.598,0.59,69,6,53,Other,22.7,13,0,Other,82
 Bogdan Bogdanovic,ATL,Atlanta Hawks,15.1,14.3,0.562,0.534,63,4,88,Other,22.65,19,3,Other,83
-Spencer Dinwiddie,DAL,Dallas Mavericks,13.7,14.2,0.544,0.576,67,18,105,Other,22.6,15,0,Other,84
-Seth Curry,BKN,Brooklyn Nets,15,14.5,0.615,0.719,64,4,92,Other,22.37,18,2,Other,85
+Spencer Dinwiddie,DAL,Dallas Mavericks,13.7,14.2,0.544,0.576,67,18,106,Other,22.6,15,0,Other,84
+Seth Curry,BKN,Brooklyn Nets,15,14.5,0.615,0.719,64,4,93,Other,22.37,18,2,Other,85
 Malcolm Brogdon,IND,Indiana Pacers,19.1,NA,0.557,NA,36,NA,44,Other,22.35,46,30,Other,86
 Jarrett Allen,CLE,Cleveland Cavaliers,16.1,NA,0.698,NA,56,NA,77,Other,21.52,26,10,Other,87
-Wendell Carter,ORL,Orlando Magic,15,NA,0.601,NA,62,NA,93,Other,21.16,20,4,Other,88
+Wendell Carter,ORL,Orlando Magic,15,NA,0.601,NA,62,NA,94,Other,21.16,20,4,Other,88
 Dillon Brooks,MEM,Memphis Grizzlies,18.4,14.6,0.515,0.44,32,11,49,Other,20.85,50,34,Other,89
-Klay Thompson,GSW,Golden State Warriors,20.4,19.5,0.547,0.575,32,17,33,Other,20.7,50,34,Other,91
 Kevin Porter,HOU,Houston Rockets,15.6,NA,0.532,NA,61,NA,82,Other,20.7,21,5,Other,90
+Klay Thompson,GSW,Golden State Warriors,20.4,19,0.547,0.551,32,22,33,Other,20.7,50,34,Other,91
 Buddy Hield,IND,Indiana Pacers,15.6,NA,0.549,NA,81,NA,81,Other,20.6,1,0,Other,92
 Franz Wagner,ORL,Orlando Magic,15.2,NA,0.559,NA,79,NA,87,Other,20.6,3,0,Other,93
 Caris LeVert,CLE,Cleveland Cavaliers,17,NA,0.525,NA,58,NA,68,Other,20.58,24,8,Other,94
+Alec Burks,NYK,New York Knicks,11.7,NA,0.559,NA,81,NA,139,Other,20.4,1,0,Other,97
+Ricky Rubio,CLE,Cleveland Cavaliers,13.1,NA,0.488,NA,34,NA,118,Other,20.4,48,32,Other,95
 Saddiq Bey,DET,Detroit Pistons,16.1,NA,0.529,NA,82,NA,76,Other,20.4,0,0,Other,96
 Steven Adams,MEM,Memphis Grizzlies,6.9,3.4,0.561,0.464,76,7,303,Other,20.4,6,0,Other,98
-Alec Burks,NYK,New York Knicks,11.7,NA,0.559,NA,81,NA,139,Other,20.4,1,0,Other,97
-Ricky Rubio,CLE,Cleveland Cavaliers,13.1,NA,0.488,NA,34,NA,117,Other,20.4,48,32,Other,95
-Jae Crowder,PHX,Phoenix Suns,9.4,9.4,0.541,0.524,67,13,199,Other,20.3,15,0,Other,100
-Montrezl Harrell,CHA,Charlotte Hornets,13.2,NA,0.68,NA,71,NA,115,Other,20.3,11,0,Other,99
+Jae Crowder,PHX,Phoenix Suns,9.4,9.4,0.541,0.524,67,13,197,Other,20.3,15,0,Other,100
 Kevin Love,CLE,Cleveland Cavaliers,13.6,NA,0.594,NA,74,NA,107,Other,20.3,8,0,Other,101
-De'Anthony Melton,MEM,Memphis Grizzlies,10.8,5.6,0.529,0.419,73,10,161,Other,20.2,9,0,Other,102
+Montrezl Harrell,CHA,Charlotte Hornets,13.2,NA,0.68,NA,71,NA,116,Other,20.3,11,0,Other,99
+De'Anthony Melton,MEM,Memphis Grizzlies,10.8,5.6,0.529,0.419,73,10,160,Other,20.2,9,0,Other,102
 Malik Monk,LAL,Los Angeles Lakers,13.8,NA,0.597,NA,76,NA,104,Other,20.1,6,0,Other,103
-OG Anunoby,TOR,Toronto Raptors,17.1,17.3,0.548,0.584,48,6,66,Other,20.03,34,18,Other,104
-Kelly Oubre,CHA,Charlotte Hornets,15,NA,0.559,NA,76,NA,90,Other,20,6,0,Other,105
+OG Anunoby,TOR,Toronto Raptors,17.1,17.3,0.548,0.584,48,6,67,Other,20.03,34,18,Other,104
+Kelly Oubre,CHA,Charlotte Hornets,15,NA,0.559,NA,76,NA,91,Other,20,6,0,Other,105
 Lauri Markkanen,CLE,Cleveland Cavaliers,14.8,NA,0.582,NA,61,NA,96,Other,19.98,21,5,Other,106
-Lonzo Ball,CHI,Chicago Bulls,13,NA,0.575,NA,35,NA,119,Other,19.8,47,31,Other,107
 Harrison Barnes,SAC,Sacramento Kings,16.4,NA,0.623,NA,77,NA,71,Other,19.8,5,0,Other,108
+Lonzo Ball,CHI,Chicago Bulls,13,NA,0.575,NA,35,NA,119,Other,19.8,47,31,Other,107
 Devin Vassell,SAS,San Antonio Spurs,12.3,NA,0.54,NA,71,NA,129,Other,19.7,11,0,Other,109
-Jusuf Nurkic,POR,Portland Trail Blazers,15,NA,0.586,NA,56,NA,91,Other,19.6,26,10,Other,110
-Devonte' Graham,NOP,New Orleans Pelicans,11.9,4,0.514,0.558,76,6,135,Other,19.6,6,0,Other,111
+Devonte' Graham,NOP,New Orleans Pelicans,11.9,4,0.514,0.558,76,6,136,Other,19.6,6,0,Other,111
+Jusuf Nurkic,POR,Portland Trail Blazers,15,NA,0.586,NA,56,NA,90,Other,19.6,26,10,Other,110
 Dennis Schroder,HOU,Houston Rockets,13.5,NA,0.539,NA,64,NA,108,Other,19.58,18,2,Other,112
 Cameron Johnson,PHX,Phoenix Suns,12.5,10.8,0.625,0.619,66,13,125,Other,19.5,16,0,Other,113
+Dorian Finney-Smith,DAL,Dallas Mavericks,11,11.7,0.604,0.63,80,18,154,Other,19.4,2,0,Other,115
 Immanuel Quickley,NYK,New York Knicks,11.3,NA,0.543,NA,78,NA,145,Other,19.4,4,0,Other,114
-Dorian Finney-Smith,DAL,Dallas Mavericks,11,11.7,0.604,0.63,80,18,153,Other,19.4,2,0,Other,115
-Kevin Huerter,ATL,Atlanta Hawks,12.1,9.2,0.57,0.472,74,5,132,Other,19.3,8,0,Other,116
+Kevin Huerter,ATL,Atlanta Hawks,12.1,9.2,0.57,0.472,74,5,131,Other,19.3,8,0,Other,116
 Tyus Jones,MEM,Memphis Grizzlies,8.7,9.2,0.544,0.521,73,12,225,Other,19.1,9,0,Other,117
 John Collins,ATL,Atlanta Hawks,16.2,9.4,0.611,0.541,54,5,75,Other,18.85,28,12,Other,118
-P.J. Washington,CHA,Charlotte Hornets,10.3,NA,0.586,NA,65,NA,176,Other,18.72,17,1,Other,119
+P.J. Washington,CHA,Charlotte Hornets,10.3,NA,0.586,NA,65,NA,174,Other,18.72,17,1,Other,119
 Evan Fournier,NYK,New York Knicks,14.1,NA,0.554,NA,80,NA,103,Other,18.5,2,0,Other,120
-Brandon Clarke,MEM,Memphis Grizzlies,10.4,12.3,0.66,0.645,64,12,171,Other,18.24,18,2,Other,121
+Brandon Clarke,MEM,Memphis Grizzlies,10.4,12.3,0.66,0.645,64,12,172,Other,18.24,18,2,Other,121
 Anfernee Simons,POR,Portland Trail Blazers,17.3,NA,0.583,NA,57,NA,61,Other,18.04,25,9,Other,122
 Herbert Jones,NOP,New Orleans Pelicans,9.5,10.7,0.573,0.596,78,6,196,Other,18,4,0,Other,123
 Terance Mann,LAC,Los Angeles Clippers,10.8,NA,0.573,NA,81,NA,158,Other,18,1,0,Other,124
-Patrick Beverley,MIN,Minnesota Timberwolves,9.2,11,0.539,0.562,58,6,209,Other,17.98,24,8,Other,125
-Draymond Green,GSW,Golden State Warriors,7.5,8.4,0.582,0.547,46,17,274,Other,17.93,36,20,Other,126
-Grayson Allen,MIL,Milwaukee Bucks,11.1,8.3,0.609,0.576,66,12,152,Other,17.8,16,0,Other,130
-Jalen Green,HOU,Houston Rockets,17.3,NA,0.547,NA,67,NA,60,Other,17.8,15,0,Other,128
-Luke Kennard,LAC,Los Angeles Clippers,11.9,NA,0.619,NA,70,NA,136,Other,17.8,12,0,Other,127
+Patrick Beverley,MIN,Minnesota Timberwolves,9.2,11,0.539,0.562,58,6,203,Other,17.98,24,8,Other,125
+Draymond Green,GSW,Golden State Warriors,7.5,8,0.582,0.534,46,22,276,Other,17.93,36,20,Other,126
 Carmelo Anthony,LAL,Los Angeles Lakers,13.3,NA,0.579,NA,69,NA,113,Other,17.8,13,0,Other,129
-Jerami Grant,DET,Detroit Pistons,19.2,NA,0.556,NA,47,NA,42,Other,17.78,35,19,Other,132
+Grayson Allen,MIL,Milwaukee Bucks,11.1,8.3,0.609,0.576,66,12,150,Other,17.8,16,0,Other,130
+Jalen Green,HOU,Houston Rockets,17.3,NA,0.547,NA,67,NA,60,Other,17.8,15,0,Other,128
+Luke Kennard,LAC,Los Angeles Clippers,11.9,NA,0.619,NA,70,NA,135,Other,17.8,12,0,Other,127
 Gordon Hayward,CHA,Charlotte Hornets,15.9,NA,0.57,NA,49,NA,80,Other,17.78,33,17,Other,131
+Jerami Grant,DET,Detroit Pistons,19.2,NA,0.556,NA,47,NA,42,Other,17.78,35,19,Other,132
 Danilo Gallinari,ATL,Atlanta Hawks,11.7,10.2,0.579,0.512,66,5,140,Other,17.5,16,0,Other,133
-Robert Covington,LAC,Los Angeles Clippers,8.5,NA,0.571,NA,71,NA,235,Other,17.4,11,0,Other,134
 Andre Drummond,BKN,Brooklyn Nets,7.9,3.8,0.574,0.568,73,4,260,Other,17.4,9,0,Other,135
-Isaiah Hartenstein,LAC,Los Angeles Clippers,8.3,NA,0.664,NA,68,NA,238,Other,17.3,14,0,Other,136
-Kentavious Caldwell-Pope,WAS,Washington Wizards,13.2,NA,0.567,NA,77,NA,116,Other,17.2,5,0,Other,137
-Myles Turner,IND,Indiana Pacers,12.9,NA,0.613,NA,42,NA,122,Other,17.1,40,24,Other,138
+Robert Covington,LAC,Los Angeles Clippers,8.5,NA,0.571,NA,71,NA,234,Other,17.4,11,0,Other,134
+Isaiah Hartenstein,LAC,Los Angeles Clippers,8.3,NA,0.664,NA,68,NA,241,Other,17.3,14,0,Other,136
+Kentavious Caldwell-Pope,WAS,Washington Wizards,13.2,NA,0.567,NA,77,NA,114,Other,17.2,5,0,Other,137
 Josh Hart,POR,Portland Trail Blazers,14.9,NA,0.61,NA,54,NA,95,Other,17.1,28,12,Other,139
-Mitchell Robinson,NYK,New York Knicks,8.5,NA,0.722,NA,72,NA,233,Other,17,10,0,Other,140
-Cameron Payne,PHX,Phoenix Suns,10.8,4.2,0.5,0.352,58,13,160,Other,16.97,24,8,Other,141
-Davion Mitchell,SAC,Sacramento Kings,11.5,NA,0.488,NA,75,NA,143,Other,16.9,7,0,Other,144
-Patty Mills,BKN,Brooklyn Nets,11.4,6.3,0.562,0.781,81,4,144,Other,16.9,1,0,Other,143
+Myles Turner,IND,Indiana Pacers,12.9,NA,0.613,NA,42,NA,122,Other,17.1,40,24,Other,138
+Mitchell Robinson,NYK,New York Knicks,8.5,NA,0.722,NA,72,NA,235,Other,17,10,0,Other,140
+Cameron Payne,PHX,Phoenix Suns,10.8,4.2,0.5,0.352,58,13,157,Other,16.97,24,8,Other,141
+Davion Mitchell,SAC,Sacramento Kings,11.5,NA,0.488,NA,75,NA,142,Other,16.9,7,0,Other,144
 Ivica Zubac,LAC,Los Angeles Clippers,10.3,NA,0.66,NA,76,NA,175,Other,16.9,6,0,Other,142
-Malik Beasley,MIN,Minnesota Timberwolves,12.1,8.5,0.544,0.547,79,6,130,Other,16.8,3,0,Other,145
-Bruce Brown,BKN,Brooklyn Nets,9,14,0.575,0.676,72,4,217,Other,16.7,10,0,Other,147
-Mohamed Bamba,ORL,Orlando Magic,10.6,NA,0.581,NA,71,NA,166,Other,16.7,11,0,Other,146
+Patty Mills,BKN,Brooklyn Nets,11.4,6.3,0.562,0.781,81,4,144,Other,16.9,1,0,Other,143
+Malik Beasley,MIN,Minnesota Timberwolves,12.1,8.5,0.544,0.547,79,6,132,Other,16.8,3,0,Other,145
+Bruce Brown,BKN,Brooklyn Nets,9,14,0.575,0.676,72,4,219,Other,16.7,10,0,Other,147
+Mohamed Bamba,ORL,Orlando Magic,10.6,NA,0.581,NA,71,NA,167,Other,16.7,11,0,Other,146
 Jarred Vanderbilt,MIN,Minnesota Timberwolves,6.9,5.5,0.612,0.525,74,6,302,Other,16.6,8,0,Other,149
-Kyle Anderson,MEM,Memphis Grizzlies,7.6,6,0.506,0.611,69,12,270,Other,16.6,13,0,Other,148
-Hassan Whiteside,UTA,Utah Jazz,8.2,1.8,0.662,0.4,65,6,249,Other,16.56,17,1,Other,150
-Lonnie Walker,SAS,San Antonio Spurs,12.1,NA,0.512,NA,70,NA,131,Other,16.5,12,0,Other,151
-Royce O'Neale,UTA,Utah Jazz,7.4,6.2,0.608,0.516,77,6,283,Other,16.4,5,0,Other,152
-Chris Boucher,TOR,Toronto Raptors,9.4,11.2,0.571,0.722,80,6,197,Other,16.4,2,0,Other,153
+Kyle Anderson,MEM,Memphis Grizzlies,7.6,6,0.506,0.611,69,12,266,Other,16.6,13,0,Other,148
+Hassan Whiteside,UTA,Utah Jazz,8.2,1.8,0.662,0.4,65,6,248,Other,16.56,17,1,Other,150
+Lonnie Walker,SAS,San Antonio Spurs,12.1,NA,0.512,NA,70,NA,133,Other,16.5,12,0,Other,151
+Chris Boucher,TOR,Toronto Raptors,9.4,11.2,0.571,0.722,80,6,198,Other,16.4,2,0,Other,153
 Jae'Sean Tate,HOU,Houston Rockets,11.8,NA,0.567,NA,78,NA,137,Other,16.4,4,0,Other,154
+Royce O'Neale,UTA,Utah Jazz,7.4,6.2,0.608,0.516,77,6,280,Other,16.4,5,0,Other,152
 Norman Powell,LAC,Los Angeles Clippers,19,NA,0.603,NA,45,NA,45,Other,16.35,37,21,Other,155
-Otto Porter,GSW,Golden State Warriors,8.2,5.9,0.58,0.61,63,14,250,Other,16.17,19,3,Other,157
-Josh Richardson,SAS,San Antonio Spurs,10.2,NA,0.573,NA,65,NA,179,Other,16.17,17,1,Other,156
+Josh Richardson,SAS,San Antonio Spurs,10.2,NA,0.573,NA,65,NA,178,Other,16.17,17,1,Other,156
+Otto Porter,GSW,Golden State Warriors,8.2,5.4,0.58,0.63,63,19,246,Other,16.17,19,3,Other,157
 Derrick Rose,NYK,New York Knicks,12,NA,0.541,NA,26,NA,134,Other,16.13,56,40,Other,158
-Mason Plumlee,CHA,Charlotte Hornets,6.5,NA,0.603,NA,73,NA,313,Other,16.1,9,0,Other,159
+Mason Plumlee,CHA,Charlotte Hornets,6.5,NA,0.603,NA,73,NA,314,Other,16.1,9,0,Other,159
 Coby White,CHI,Chicago Bulls,12.7,8.4,0.564,0.445,61,5,123,Other,16.02,21,5,Other,160
 Josh Giddey,OKC,Oklahoma City Thunder,12.5,NA,0.478,NA,54,NA,126,Other,15.96,28,12,Other,161
-Bones Hyland,DEN,Denver Nuggets,10.1,9.2,0.558,0.546,69,5,183,Other,15.8,13,0,Other,162
-P.J. Tucker,MIA,Miami Heat,7.6,7.9,0.593,0.612,71,18,266,Other,15.7,11,0,Other,163
+Bones Hyland,DEN,Denver Nuggets,10.1,9.2,0.558,0.546,69,5,181,Other,15.8,13,0,Other,162
+P.J. Tucker,MIA,Miami Heat,7.6,7.9,0.593,0.612,71,18,272,Other,15.7,11,0,Other,163
 Duncan Robinson,MIA,Miami Heat,10.9,5.6,0.573,0.612,79,13,156,Other,15.6,3,0,Other,164
-Tim Hardaway,DAL,Dallas Mavericks,14.2,NA,0.52,NA,42,NA,101,Other,15.45,40,24,Other,165
-Cody Martin,CHA,Charlotte Hornets,7.7,NA,0.579,NA,71,NA,264,Other,15.4,11,0,Other,166
-Max Strus,MIA,Miami Heat,10.6,10.9,0.614,0.516,68,18,165,Other,15.4,14,0,Other,167
-JaVale McGee,PHX,Phoenix Suns,9.2,6.8,0.651,0.727,74,12,205,Other,15,8,0,Other,170
-Precious Achiuwa,TOR,Toronto Raptors,9.1,10.2,0.503,0.541,73,6,211,Other,15,9,0,Other,169
+Tim Hardaway,DAL,Dallas Mavericks,14.2,NA,0.52,NA,42,NA,102,Other,15.45,40,24,Other,165
+Cody Martin,CHA,Charlotte Hornets,7.7,NA,0.579,NA,71,NA,265,Other,15.4,11,0,Other,166
+Max Strus,MIA,Miami Heat,10.6,10.9,0.614,0.516,68,18,166,Other,15.4,14,0,Other,167
 Gabe Vincent,MIA,Miami Heat,8.7,8,0.551,0.515,68,18,227,Other,15,14,0,Other,168
-Michael Porter,DEN,Denver Nuggets,9.9,NA,0.416,NA,9,NA,189,Other,14.93,73,57,Other,171
+JaVale McGee,PHX,Phoenix Suns,9.2,6.8,0.651,0.727,74,12,206,Other,15,8,0,Other,170
+Precious Achiuwa,TOR,Toronto Raptors,9.1,10.2,0.503,0.541,73,6,210,Other,15,9,0,Other,169
+Michael Porter,DEN,Denver Nuggets,9.9,NA,0.416,NA,9,NA,191,Other,14.93,73,57,Other,171
+Pat Connaughton,MIL,Milwaukee Bucks,9.9,9.5,0.62,0.632,65,12,189,Other,14.9,17,1,Other,172
 Reggie Bullock,DAL,Dallas Mavericks,8.6,10.6,0.558,0.598,68,18,229,Other,14.9,14,0,Other,173
-Pat Connaughton,MIL,Milwaukee Bucks,9.9,9.5,0.62,0.632,65,12,192,Other,14.9,17,1,Other,172
-Kevon Looney,GSW,Golden State Warriors,6,5.9,0.586,0.648,82,17,341,Other,14.8,0,0,Other,175
 Cedi Osman,CLE,Cleveland Cavaliers,10.7,NA,0.562,NA,66,NA,162,Other,14.8,16,0,Other,174
-Frank Kaminsky,PHX,Phoenix Suns,10.6,NA,0.635,NA,9,NA,167,Other,14.78,73,57,Other,176
-Jaylen Hoard,OKC,Oklahoma City Thunder,14.7,NA,0.536,NA,7,NA,97,Other,14.7,75,59,Other,178
-Isaac Okoro,CLE,Cleveland Cavaliers,8.8,NA,0.589,NA,67,NA,221,Other,14.7,15,0,Other,177
+Kevon Looney,GSW,Golden State Warriors,6,5.8,0.586,0.662,82,22,341,Other,14.8,0,0,Other,175
+Frank Kaminsky,PHX,Phoenix Suns,10.6,NA,0.635,NA,9,NA,164,Other,14.78,73,57,Other,176
+Isaac Okoro,CLE,Cleveland Cavaliers,8.8,NA,0.589,NA,67,NA,223,Other,14.7,15,0,Other,177
+Jaylen Hoard,OKC,Oklahoma City Thunder,14.7,NA,0.536,NA,7,NA,98,Other,14.7,75,59,Other,178
 Marcus Morris,LAC,Los Angeles Clippers,15.4,NA,0.549,NA,54,NA,84,Other,14.59,28,12,Other,179
-Nickeil Alexander-Walker,UTA,Utah Jazz,10.6,5,0.475,1.025,65,1,168,Other,14.5,17,1,Other,180
+Alperen Sengun,HOU,Houston Rockets,9.6,NA,0.552,NA,72,NA,194,Other,14.5,10,0,Other,181
 Deni Avdija,WAS,Washington Wizards,8.4,NA,0.536,NA,82,NA,237,Other,14.5,0,0,Other,183
-Alperen Sengun,HOU,Houston Rockets,9.6,NA,0.552,NA,72,NA,195,Other,14.5,10,0,Other,181
-Jaden McDaniels,MIN,Minnesota Timberwolves,9.2,9.3,0.552,0.713,70,6,204,Other,14.5,12,0,Other,182
-Daniel Gafford,WAS,Washington Wizards,9.4,NA,0.709,NA,72,NA,198,Other,14.4,10,0,Other,185
-Darius Bazley,OKC,Oklahoma City Thunder,10.8,NA,0.516,NA,69,NA,157,Other,14.4,13,0,Other,186
+Jaden McDaniels,MIN,Minnesota Timberwolves,9.2,9.3,0.552,0.713,70,6,207,Other,14.5,12,0,Other,182
+Nickeil Alexander-Walker,UTA,Utah Jazz,10.6,5,0.475,1.025,65,1,168,Other,14.5,17,1,Other,180
+Daniel Gafford,WAS,Washington Wizards,9.4,NA,0.709,NA,72,NA,199,Other,14.4,10,0,Other,185
+Darius Bazley,OKC,Oklahoma City Thunder,10.8,NA,0.516,NA,69,NA,159,Other,14.4,13,0,Other,186
 Derrick Walton,DET,Detroit Pistons,6.3,NA,0.342,NA,3,NA,322,Other,14.4,79,63,Other,184
-Jeff Green,DEN,Denver Nuggets,10.3,3.8,0.627,0.495,75,5,174,Other,14.3,7,0,Other,187
-Ayo Dosunmu,CHI,Chicago Bulls,8.8,4,0.596,0.378,77,5,222,Other,14.2,5,0,Other,188
-Markelle Fultz,ORL,Orlando Magic,10.8,NA,0.517,NA,18,NA,159,Other,14.18,64,48,Other,189
-Luguentz Dort,OKC,Oklahoma City Thunder,17.2,NA,0.541,NA,51,NA,65,Other,14.18,31,15,Other,190
+Jeff Green,DEN,Denver Nuggets,10.3,3.8,0.627,0.495,75,5,176,Other,14.3,7,0,Other,187
+Ayo Dosunmu,CHI,Chicago Bulls,8.8,4,0.596,0.378,77,5,221,Other,14.2,5,0,Other,188
+Luguentz Dort,OKC,Oklahoma City Thunder,17.2,NA,0.541,NA,51,NA,63,Other,14.18,31,15,Other,190
+Markelle Fultz,ORL,Orlando Magic,10.8,NA,0.517,NA,18,NA,161,Other,14.18,64,48,Other,189
 Chuma Okeke,ORL,Orlando Magic,8.6,NA,0.5,NA,70,NA,230,Other,14.1,12,0,Other,192
-Jaxson Hayes,NOP,New Orleans Pelicans,9.3,5.8,0.679,0.586,70,6,200,Other,14.1,12,0,Other,194
-Obi Toppin,NYK,New York Knicks,9,NA,0.614,NA,72,NA,218,Other,14.1,10,0,Other,191
 Dwight Powell,DAL,Dallas Mavericks,8.7,3.2,0.724,0.643,82,18,226,Other,14.1,0,0,Other,193
-Alex Caruso,CHI,Chicago Bulls,7.4,6.3,0.526,0.543,41,4,281,Other,14.03,41,25,Other,195
-Matisse Thybulle,PHI,Philadelphia 76ers,5.7,3,0.594,0.533,66,9,361,Other,14,16,0,Other,196
+Jaxson Hayes,NOP,New Orleans Pelicans,9.3,5.8,0.679,0.586,70,6,201,Other,14.1,12,0,Other,194
+Obi Toppin,NYK,New York Knicks,9,NA,0.614,NA,72,NA,213,Other,14.1,10,0,Other,191
+Alex Caruso,CHI,Chicago Bulls,7.4,6.3,0.526,0.543,41,4,278,Other,14.03,41,25,Other,195
+Matisse Thybulle,PHI,Philadelphia 76ers,5.7,3,0.594,0.533,66,9,359,Other,14,16,0,Other,196
 LaMarcus Aldridge,BKN,Brooklyn Nets,12.9,NA,0.602,NA,47,NA,121,Other,13.95,35,19,Other,197
-Chris Duarte,IND,Indiana Pacers,13.1,NA,0.537,NA,55,NA,118,Other,13.81,27,11,Other,198
-Gary Payton,GSW,Golden State Warriors,7.1,6.1,0.679,0.842,71,7,295,Other,13.8,11,0,Other,199
+Chris Duarte,IND,Indiana Pacers,13.1,NA,0.537,NA,55,NA,117,Other,13.81,27,11,Other,198
+Gary Payton,GSW,Golden State Warriors,7.1,6.5,0.679,0.751,71,12,294,Other,13.8,11,0,Other,199
+Caleb Martin,MIA,Miami Heat,9.2,4.5,0.611,0.46,60,17,205,Other,13.73,22,6,Other,200
 Talen Horton-Tucker,LAL,Los Angeles Lakers,10,NA,0.503,NA,60,NA,186,Other,13.73,22,6,Other,201
-Caleb Martin,MIA,Miami Heat,9.2,4.5,0.611,0.46,60,17,206,Other,13.73,22,6,Other,200
-Justin Holiday,SAC,Sacramento Kings,10.1,NA,0.543,NA,74,NA,181,Other,13.6,8,0,Other,202
-Sekou Doumbouya,LAL,Los Angeles Lakers,7,NA,0.717,NA,2,NA,301,Other,13.5,80,64,Other,203
+Justin Holiday,SAC,Sacramento Kings,10.1,NA,0.543,NA,74,NA,180,Other,13.6,8,0,Other,202
+Sekou Doumbouya,LAL,Los Angeles Lakers,7,NA,0.717,NA,2,NA,297,Other,13.5,80,64,Other,203
 Trey Lyles,SAC,Sacramento Kings,10.5,NA,0.588,NA,75,NA,169,Other,13.4,7,0,Other,204
-Eric Bledsoe,LAC,Los Angeles Clippers,9.9,NA,0.514,NA,54,NA,190,Other,13.38,28,12,Other,205
-Grant Williams,BOS,Boston Celtics,7.8,9.6,0.635,0.586,77,19,262,Other,13.3,5,0,Other,206
-Amir Coffey,LAC,Los Angeles Clippers,9,NA,0.598,NA,69,NA,214,Other,13.2,13,0,Other,207
-Georges Niang,PHI,Philadelphia 76ers,9.2,4.8,0.594,0.593,76,12,202,Other,13.1,6,0,Other,208
+Eric Bledsoe,LAC,Los Angeles Clippers,9.9,NA,0.514,NA,54,NA,192,Other,13.38,28,12,Other,205
+Grant Williams,BOS,Boston Celtics,7.8,8.6,0.635,0.599,77,24,263,Other,13.3,5,0,Other,206
+Amir Coffey,LAC,Los Angeles Clippers,9,NA,0.598,NA,69,NA,218,Other,13.2,13,0,Other,207
+Georges Niang,PHI,Philadelphia 76ers,9.2,4.8,0.594,0.593,76,12,209,Other,13.1,6,0,Other,208
 De'Andre Hunter,ATL,Atlanta Hawks,13.4,21.2,0.547,0.673,53,5,110,Other,13.05,29,13,Other,209
-T.J. McConnell,IND,Indiana Pacers,8.5,NA,0.525,NA,27,NA,234,Other,13.05,55,39,Other,210
+T.J. McConnell,IND,Indiana Pacers,8.5,NA,0.525,NA,27,NA,233,Other,13.05,55,39,Other,210
 Victor Oladipo,MIA,Miami Heat,12.4,10.6,0.608,0.499,8,15,127,Other,12.98,74,58,Other,211
-Javonte Green,CHI,Chicago Bulls,7.2,1.4,0.637,0.196,65,5,291,Other,12.94,17,1,Other,212
+Javonte Green,CHI,Chicago Bulls,7.2,1.4,0.637,0.196,65,5,288,Other,12.94,17,1,Other,212
 Killian Hayes,DET,Detroit Pistons,6.9,NA,0.461,NA,66,NA,304,Other,12.9,16,0,Other,213
 Eric Gordon,HOU,Houston Rockets,13.4,NA,0.614,NA,57,NA,111,Other,12.87,25,9,Other,214
-Cory Joseph,DET,Detroit Pistons,8,NA,0.579,NA,65,NA,255,Other,12.84,17,1,Other,215
-Isaiah Stewart,DET,Detroit Pistons,8.3,NA,0.549,NA,71,NA,241,Other,12.8,11,0,Other,216
+Cory Joseph,DET,Detroit Pistons,8,NA,0.579,NA,65,NA,257,Other,12.84,17,1,Other,215
+Isaiah Stewart,DET,Detroit Pistons,8.3,NA,0.549,NA,71,NA,244,Other,12.8,11,0,Other,216
 Brook Lopez,MIL,Milwaukee Bucks,12.4,10.6,0.57,0.561,13,12,128,Other,12.75,69,53,Other,217
-Landry Shamet,PHX,Phoenix Suns,8.3,4.3,0.55,0.509,69,12,243,Other,12.7,13,0,Other,219
-Oshae Brissett,IND,Indiana Pacers,9.1,NA,0.53,NA,67,NA,210,Other,12.7,15,0,Other,218
-Collin Sexton,CLE,Cleveland Cavaliers,16,NA,0.526,NA,11,NA,79,Other,12.68,71,55,Other,220
+Landry Shamet,PHX,Phoenix Suns,8.3,4.3,0.55,0.509,69,12,239,Other,12.7,13,0,Other,219
+Oshae Brissett,IND,Indiana Pacers,9.1,NA,0.53,NA,67,NA,212,Other,12.7,15,0,Other,218
+Collin Sexton,CLE,Cleveland Cavaliers,16,NA,0.526,NA,11,NA,78,Other,12.68,71,55,Other,220
+Cameron Oliver,ATL,Atlanta Hawks,11.5,NA,0.705,NA,2,NA,143,Other,12.6,80,64,Other,221
 Hamidou Diallo,DET,Detroit Pistons,11,NA,0.541,NA,58,NA,155,Other,12.6,24,8,Other,223
-Nemanja Bjelica,GSW,Golden State Warriors,6.1,3.4,0.573,0.615,71,11,339,Other,12.6,11,0,Other,224
-Tre Jones,SAS,San Antonio Spurs,6,NA,0.545,NA,69,NA,342,Other,12.6,13,0,Other,222
-Cameron Oliver,ATL,Atlanta Hawks,11.5,NA,0.705,NA,2,NA,142,Other,12.6,80,64,Other,221
-Garrison Mathews,HOU,Houston Rockets,10,NA,0.602,NA,65,NA,187,Other,12.54,17,1,Other,225
+Nemanja Bjelica,GSW,Golden State Warriors,6.1,2.9,0.573,0.58,71,15,337,Other,12.6,11,0,Other,224
+Tre Jones,SAS,San Antonio Spurs,6,NA,0.545,NA,69,NA,340,Other,12.6,13,0,Other,222
+Garrison Mathews,HOU,Houston Rockets,10,NA,0.602,NA,65,NA,185,Other,12.54,17,1,Other,225
 Jalen Suggs,ORL,Orlando Magic,11.8,NA,0.455,NA,48,NA,138,Other,12.53,34,18,Other,226
-Jonathan Kuminga,GSW,Golden State Warriors,9.3,6.4,0.6,0.589,70,13,201,Other,12.5,12,0,Other,227
-Maxi Kleber,DAL,Dallas Mavericks,7,8.7,0.537,0.681,59,18,297,Other,12.47,23,7,Other,228
+Jonathan Kuminga,GSW,Golden State Warriors,9.3,5.2,0.6,0.581,70,16,200,Other,12.5,12,0,Other,227
+Maxi Kleber,DAL,Dallas Mavericks,7,8.7,0.537,0.681,59,18,298,Other,12.47,23,7,Other,228
 Gary Harris,ORL,Orlando Magic,11.1,NA,0.571,NA,61,NA,151,Other,12.42,21,5,Other,230
 Jaylen Nowell,MIN,Minnesota Timberwolves,8.5,6,0.581,0.3,62,1,232,Other,12.42,20,4,Other,229
-Raul Neto,WAS,Washington Wizards,7.5,NA,0.538,NA,70,NA,276,Other,12.4,12,0,Other,231
-Nicolas Batum,LAC,Los Angeles Clippers,8.3,NA,0.608,NA,59,NA,239,Other,12.38,23,7,Other,232
-Naz Reid,MIN,Minnesota Timberwolves,8.3,4.8,0.587,0.598,77,5,244,Other,12.3,5,0,Other,233
+Raul Neto,WAS,Washington Wizards,7.5,NA,0.538,NA,70,NA,273,Other,12.4,12,0,Other,231
+Nicolas Batum,LAC,Los Angeles Clippers,8.3,NA,0.608,NA,59,NA,240,Other,12.38,23,7,Other,232
+Naz Reid,MIN,Minnesota Timberwolves,8.3,4.8,0.587,0.598,77,5,242,Other,12.3,5,0,Other,233
 Onyeka Okongwu,ATL,Atlanta Hawks,8.2,5.2,0.714,0.637,48,5,247,Other,12.23,34,18,Other,234
-Furkan Korkmaz,PHI,Philadelphia 76ers,7.6,3.1,0.502,0.586,67,9,268,Other,12.2,15,0,Other,235
-Corey Kispert,WAS,Washington Wizards,8.2,NA,0.586,NA,77,NA,248,Other,12,5,0,Other,237
-Delon Wright,ATL,Atlanta Hawks,4.4,8.2,0.576,0.622,77,5,404,Other,12,5,0,Other,236
-Aleksej Pokusevski,OKC,Oklahoma City Thunder,7.6,NA,0.485,NA,61,NA,269,Other,11.97,21,5,Other,238
+Furkan Korkmaz,PHI,Philadelphia 76ers,7.6,3.1,0.502,0.586,67,9,271,Other,12.2,15,0,Other,235
+Corey Kispert,WAS,Washington Wizards,8.2,NA,0.586,NA,77,NA,250,Other,12,5,0,Other,237
+Delon Wright,ATL,Atlanta Hawks,4.4,8.2,0.576,0.622,77,5,409,Other,12,5,0,Other,236
+Aleksej Pokusevski,OKC,Oklahoma City Thunder,7.6,NA,0.485,NA,61,NA,267,Other,11.97,21,5,Other,238
 Ish Smith,WAS,Washington Wizards,6.3,NA,0.466,NA,65,NA,324,Other,11.96,17,1,Other,239
 Kemba Walker,NYK,New York Knicks,11.6,NA,0.537,NA,37,NA,141,Other,11.93,45,29,Other,240
-Kenyon Martin,HOU,Houston Rockets,8.8,NA,0.604,NA,79,NA,223,Other,11.8,3,0,Other,241
-Terence Davis,SAC,Sacramento Kings,10.4,NA,0.543,NA,30,NA,173,Other,11.78,52,36,Other,242
+Kenyon Martin,HOU,Houston Rockets,8.8,NA,0.604,NA,79,NA,224,Other,11.8,3,0,Other,241
 Nassir Little,POR,Portland Trail Blazers,9.8,NA,0.575,NA,42,NA,193,Other,11.78,40,24,Other,243
-Joe Ingles,UTA,Utah Jazz,7.2,NA,0.551,NA,45,NA,288,Other,11.7,37,21,Other,244
+Terence Davis,SAC,Sacramento Kings,10.4,NA,0.543,NA,30,NA,170,Other,11.78,52,36,Other,242
+Joe Ingles,UTA,Utah Jazz,7.2,NA,0.551,NA,45,NA,290,Other,11.7,37,21,Other,244
 Chimezie Metu,SAC,Sacramento Kings,8.9,NA,0.546,NA,60,NA,220,Other,11.53,22,6,Other,245
-John Konchar,MEM,Memphis Grizzlies,4.8,1.1,0.615,0.379,72,8,391,Other,11.4,10,0,Other,246
+John Konchar,MEM,Memphis Grizzlies,4.8,1.1,0.615,0.379,72,8,388,Other,11.4,10,0,Other,246
 Austin Reaves,LAL,Los Angeles Lakers,7.3,NA,0.6,NA,61,NA,285,Other,11.34,21,5,Other,247
-Joe Harris,BKN,Brooklyn Nets,11.3,NA,0.624,NA,14,NA,147,Other,11.33,68,52,Other,248
-Marvin Bagley,DET,Detroit Pistons,11.3,NA,0.551,NA,48,NA,146,Other,11.25,34,18,Other,250
-Goran Dragic,BKN,Brooklyn Nets,7.5,10.5,0.474,0.639,21,4,275,Other,11.25,61,45,Other,249
+Joe Harris,BKN,Brooklyn Nets,11.3,NA,0.624,NA,14,NA,146,Other,11.33,68,52,Other,248
+Goran Dragic,BKN,Brooklyn Nets,7.5,10.5,0.474,0.639,21,4,274,Other,11.25,61,45,Other,249
+Marvin Bagley,DET,Detroit Pistons,11.3,NA,0.551,NA,48,NA,149,Other,11.25,34,18,Other,250
 Ziaire Williams,MEM,Memphis Grizzlies,8.1,6.9,0.559,0.598,62,10,253,Other,11.22,20,4,Other,251
-Braxton Key,DET,Detroit Pistons,7.2,NA,0.508,NA,11,NA,290,Other,11.18,71,55,Other,252
-Kelly Olynyk,DET,Detroit Pistons,9.1,NA,0.561,NA,40,NA,212,Other,11.18,42,26,Other,253
-Gabriel Lundberg,PHX,Phoenix Suns,4.3,NA,0.382,NA,3,NA,417,Other,11.1,79,63,Other,255
-Richaun Holmes,SAC,Sacramento Kings,10.4,NA,0.687,NA,45,NA,172,Other,11.1,37,21,Other,254
+Braxton Key,DET,Detroit Pistons,7.2,NA,0.508,NA,11,NA,289,Other,11.18,71,55,Other,252
+Kelly Olynyk,DET,Detroit Pistons,9.1,NA,0.561,NA,40,NA,211,Other,11.18,42,26,Other,253
+Gabriel Lundberg,PHX,Phoenix Suns,4.3,NA,0.382,NA,3,NA,414,Other,11.1,79,63,Other,255
+Richaun Holmes,SAC,Sacramento Kings,10.4,NA,0.687,NA,45,NA,171,Other,11.1,37,21,Other,254
 Nic Claxton,BKN,Brooklyn Nets,8.7,10.5,0.672,0.624,47,4,228,Other,11.03,35,19,Other,256
-George Hill,MIL,Milwaukee Bucks,6.2,1,0.552,0.425,54,5,329,Other,11.02,28,12,Other,257
-Dewayne Dedmon,MIA,Miami Heat,6.3,3.8,0.632,0.527,67,14,326,Other,11,15,0,Other,258
-Andre Iguodala,GSW,Golden State Warriors,4,2.8,0.478,0.533,31,4,435,Other,10.95,51,35,Other,259
-Zach Collins,SAS,San Antonio Spurs,7.8,NA,0.594,NA,28,NA,263,Other,10.95,54,38,Other,260
-Jose Alvarado,NOP,New Orleans Pelicans,6.1,8,0.52,0.62,54,6,337,Other,10.94,28,12,Other,261
-Bryn Forbes,DEN,Denver Nuggets,8.8,4,0.575,0.581,75,5,224,Other,10.9,7,0,Other,263
-Taurean Prince,MIN,Minnesota Timberwolves,7.3,6,0.588,0.499,69,5,287,Other,10.9,13,0,Other,264
-Damion Lee,GSW,Golden State Warriors,7.4,2.5,0.561,0.495,63,13,282,Other,10.9,19,3,Other,262
+George Hill,MIL,Milwaukee Bucks,6.2,1,0.552,0.425,54,5,333,Other,11.02,28,12,Other,257
+Dewayne Dedmon,MIA,Miami Heat,6.3,3.8,0.632,0.527,67,14,325,Other,11,15,0,Other,258
+Andre Iguodala,GSW,Golden State Warriors,4,1.6,0.478,0.533,31,7,431,Other,10.95,51,35,Other,259
+Zach Collins,SAS,San Antonio Spurs,7.8,NA,0.594,NA,28,NA,262,Other,10.95,54,38,Other,260
+Jose Alvarado,NOP,New Orleans Pelicans,6.1,8,0.52,0.62,54,6,339,Other,10.94,28,12,Other,261
+Bryn Forbes,DEN,Denver Nuggets,8.8,4,0.575,0.581,75,5,222,Other,10.9,7,0,Other,263
+Damion Lee,GSW,Golden State Warriors,7.4,2,0.561,0.453,63,16,282,Other,10.9,19,3,Other,262
+Taurean Prince,MIN,Minnesota Timberwolves,7.3,6,0.588,0.499,69,5,284,Other,10.9,13,0,Other,264
 Donte DiVincenzo,SAC,Sacramento Kings,9,NA,0.51,NA,42,NA,215,Other,10.88,40,24,Other,266
-Isaiah Roby,OKC,Oklahoma City Thunder,10.1,NA,0.607,NA,45,NA,180,Other,10.88,37,21,Other,265
-Rudy Gay,UTA,Utah Jazz,8.1,NA,0.539,NA,55,NA,252,Other,10.84,27,11,Other,267
-Moritz Wagner,ORL,Orlando Magic,9,NA,0.623,NA,63,NA,213,Other,10.72,19,3,Other,268
-Shake Milton,PHI,Philadelphia 76ers,8.2,5,0.517,0.641,55,12,246,Other,10.69,27,11,Other,269
-Devin Cannady,ORL,Orlando Magic,10,NA,0.531,NA,5,NA,185,Other,10.65,77,61,Other,271
-Jalen Smith,IND,Indiana Pacers,9.2,NA,0.595,NA,51,NA,208,Other,10.65,31,15,Other,272
-Willy Hernangomez,NOP,New Orleans Pelicans,9.2,2,0.584,0.25,49,1,207,Other,10.65,33,17,Other,270
-DeMarcus Cousins,DEN,Denver Nuggets,9,10.6,0.567,0.744,48,5,219,Other,10.58,34,18,Other,273
-Tre Mann,OKC,Oklahoma City Thunder,10.4,NA,0.501,NA,60,NA,170,Other,10.56,22,6,Other,274
-Kenrich Williams,OKC,Oklahoma City Thunder,7.4,NA,0.532,NA,49,NA,278,Other,10.5,33,17,Other,275
-Payton Pritchard,BOS,Boston Celtics,6.2,5.6,0.578,0.604,71,19,328,Other,10.5,11,0,Other,276
-Jared Harper,NOP,New Orleans Pelicans,7.4,NA,0.666,NA,5,NA,280,Other,10.43,77,61,Other,277
-Danny Green,PHI,Philadelphia 76ers,5.9,8.6,0.561,0.576,62,12,346,Other,10.4,20,4,Other,279
+Isaiah Roby,OKC,Oklahoma City Thunder,10.1,NA,0.607,NA,45,NA,182,Other,10.88,37,21,Other,265
+Rudy Gay,UTA,Utah Jazz,8.1,NA,0.539,NA,55,NA,254,Other,10.84,27,11,Other,267
+Moritz Wagner,ORL,Orlando Magic,9,NA,0.623,NA,63,NA,216,Other,10.72,19,3,Other,268
+Shake Milton,PHI,Philadelphia 76ers,8.2,5,0.517,0.641,55,12,249,Other,10.69,27,11,Other,269
+Devin Cannady,ORL,Orlando Magic,10,NA,0.531,NA,5,NA,188,Other,10.65,77,61,Other,271
+Jalen Smith,IND,Indiana Pacers,9.2,NA,0.595,NA,51,NA,202,Other,10.65,31,15,Other,272
+Willy Hernangomez,NOP,New Orleans Pelicans,9.2,2,0.584,0.25,49,1,208,Other,10.65,33,17,Other,270
+DeMarcus Cousins,DEN,Denver Nuggets,9,10.6,0.567,0.744,48,5,214,Other,10.58,34,18,Other,273
+Tre Mann,OKC,Oklahoma City Thunder,10.4,NA,0.501,NA,60,NA,173,Other,10.56,22,6,Other,274
+Kenrich Williams,OKC,Oklahoma City Thunder,7.4,NA,0.532,NA,49,NA,283,Other,10.5,33,17,Other,275
+Payton Pritchard,BOS,Boston Celtics,6.2,4.8,0.578,0.545,71,24,335,Other,10.5,11,0,Other,276
+Jared Harper,NOP,New Orleans Pelicans,7.4,NA,0.666,NA,5,NA,279,Other,10.43,77,61,Other,277
 Cam Thomas,BKN,Brooklyn Nets,8.5,0,0.519,NA,67,1,231,Other,10.4,15,0,Other,278
-Facundo Campazzo,DEN,Denver Nuggets,5.1,0,0.503,0,65,4,382,Other,10.39,17,1,Other,280
-Zavier Simpson,OKC,Oklahoma City Thunder,11,NA,0.406,NA,4,NA,154,Other,10.35,78,62,Other,282
-Rui Hachimura,WAS,Washington Wizards,11.3,NA,0.579,NA,42,NA,148,Other,10.35,40,24,Other,281
+Danny Green,PHI,Philadelphia 76ers,5.9,8.6,0.561,0.576,62,12,345,Other,10.4,20,4,Other,279
+Facundo Campazzo,DEN,Denver Nuggets,5.1,0,0.503,0,65,4,384,Other,10.39,17,1,Other,280
 Brandon Williams,POR,Portland Trail Blazers,12.9,NA,0.476,NA,24,NA,120,Other,10.35,58,42,Other,284
-Kris Dunn,POR,Portland Trail Blazers,7.1,NA,0.482,NA,15,NA,294,Other,10.35,67,51,Other,283
+Kris Dunn,POR,Portland Trail Blazers,7.1,NA,0.482,NA,15,NA,295,Other,10.35,67,51,Other,283
+Rui Hachimura,WAS,Washington Wizards,11.3,NA,0.579,NA,42,NA,148,Other,10.35,40,24,Other,281
+Zavier Simpson,OKC,Oklahoma City Thunder,11,NA,0.406,NA,4,NA,153,Other,10.35,78,62,Other,282
+Drew Eubanks,POR,Portland Trail Blazers,7.7,NA,0.638,NA,71,NA,264,Other,10.2,11,0,Other,286
 Josh Christopher,HOU,Houston Rockets,7.9,NA,0.534,NA,74,NA,261,Other,10.2,8,0,Other,285
-Drew Eubanks,POR,Portland Trail Blazers,7.7,NA,0.638,NA,71,NA,265,Other,10.2,11,0,Other,286
-Doug McDermott,SAS,San Antonio Spurs,11.3,NA,0.592,NA,51,NA,149,Other,10.13,31,15,Other,287
-Aaron Holiday,PHX,Phoenix Suns,6.3,3.5,0.544,0.727,63,6,327,Other,10.06,19,3,Other,288
-Terrence Ross,ORL,Orlando Magic,10,NA,0.515,NA,63,NA,188,Other,10.06,19,3,Other,289
+Doug McDermott,SAS,San Antonio Spurs,11.3,NA,0.592,NA,51,NA,147,Other,10.13,31,15,Other,287
+Aaron Holiday,PHX,Phoenix Suns,6.3,3.5,0.544,0.727,63,6,326,Other,10.06,19,3,Other,288
+Terrence Ross,ORL,Orlando Magic,10,NA,0.515,NA,63,NA,187,Other,10.06,19,3,Other,289
 JaMychal Green,DEN,Denver Nuggets,6.4,4,0.585,0.524,67,5,319,Other,10,15,0,Other,291
 Torrey Craig,PHX,Phoenix Suns,6.6,2.2,0.557,0.437,78,9,310,Other,10,4,0,Other,290
 James Johnson,BKN,Brooklyn Nets,5.5,NA,0.515,NA,62,NA,367,Other,9.94,20,4,Other,292
-Larry Nance,NOP,New Orleans Pelicans,7,9.2,0.59,0.627,46,6,298,Other,9.9,36,20,Other,293
-Austin Rivers,DEN,Denver Nuggets,6,4.2,0.547,0.569,67,5,343,Other,9.8,15,0,Other,294
+Larry Nance,NOP,New Orleans Pelicans,7,9.2,0.59,0.627,46,6,296,Other,9.9,36,20,Other,293
+Austin Rivers,DEN,Denver Nuggets,6,4.2,0.547,0.569,67,5,342,Other,9.8,15,0,Other,294
 Mason Jones,LAL,Los Angeles Lakers,6.8,NA,0.625,NA,4,NA,305,Other,9.75,78,62,Other,295
-Thaddeus Young,TOR,Toronto Raptors,6.2,3.3,0.547,0.506,52,6,332,Other,9.6,30,14,Other,296
-Isaiah Jackson,IND,Indiana Pacers,8.3,NA,0.607,NA,36,NA,240,Other,9.6,46,30,Other,297
+Isaiah Jackson,IND,Indiana Pacers,8.3,NA,0.607,NA,36,NA,245,Other,9.6,46,30,Other,297
+Thaddeus Young,TOR,Toronto Raptors,6.2,3.3,0.547,0.506,52,6,330,Other,9.6,30,14,Other,296
+Jordan McLaughlin,MIN,Minnesota Timberwolves,3.8,6.2,0.535,0.826,62,5,439,Other,9.57,20,4,Other,299
 Jordan Nwora,MIL,Milwaukee Bucks,7.9,0.5,0.506,0.202,62,8,259,Other,9.57,20,4,Other,298
-Jordan McLaughlin,MIN,Minnesota Timberwolves,3.8,6.2,0.535,0.826,62,5,445,Other,9.57,20,4,Other,299
-Lance Stephenson,IND,Indiana Pacers,8.3,NA,0.536,NA,46,NA,242,Other,9.53,36,20,Other,300
-Terry Taylor,IND,Indiana Pacers,9.6,NA,0.659,NA,33,NA,194,Other,9.53,49,33,Other,301
+Lance Stephenson,IND,Indiana Pacers,8.3,NA,0.536,NA,46,NA,243,Other,9.53,36,20,Other,300
+Terry Taylor,IND,Indiana Pacers,9.6,NA,0.659,NA,33,NA,195,Other,9.53,49,33,Other,301
 Jeremy Lamb,SAC,Sacramento Kings,7.3,NA,0.521,NA,56,NA,286,Other,9.52,26,10,Other,302
-Ben McLemore,POR,Portland Trail Blazers,10.2,NA,0.567,NA,64,NA,178,Other,9.5,18,2,Other,303
-Damian Jones,SAC,Sacramento Kings,8.1,NA,0.701,NA,56,NA,254,Other,9.28,26,10,Other,304
-Mike Muscala,OKC,Oklahoma City Thunder,8,NA,0.63,NA,43,NA,256,Other,9.08,39,23,Other,305
-Josh Green,DAL,Dallas Mavericks,4.8,1.4,0.578,0.365,67,16,389,Other,9,15,0,Other,306
-Dwight Howard,LAL,Los Angeles Lakers,6.2,NA,0.657,NA,60,NA,330,Other,8.98,22,6,Other,307
+Ben McLemore,POR,Portland Trail Blazers,10.2,NA,0.567,NA,64,NA,179,Other,9.5,18,2,Other,303
+Damian Jones,SAC,Sacramento Kings,8.1,NA,0.701,NA,56,NA,252,Other,9.28,26,10,Other,304
+Mike Muscala,OKC,Oklahoma City Thunder,8,NA,0.63,NA,43,NA,258,Other,9.08,39,23,Other,305
+Josh Green,DAL,Dallas Mavericks,4.8,1.4,0.578,0.365,67,16,390,Other,9,15,0,Other,306
+Dwight Howard,LAL,Los Angeles Lakers,6.2,NA,0.657,NA,60,NA,328,Other,8.98,22,6,Other,307
 Blake Griffin,BKN,Brooklyn Nets,6.4,4,0.52,0.508,56,2,317,Other,8.96,26,10,Other,308
-R.J. Hampton,ORL,Orlando Magic,7.6,NA,0.481,NA,64,NA,271,Other,8.93,18,2,Other,309
-Daniel Theis,BOS,Boston Celtics,8.2,4.6,0.595,0.645,47,15,251,Other,8.78,35,19,Other,311
-Justise Winslow,POR,Portland Trail Blazers,5.7,NA,0.479,NA,48,NA,360,Other,8.78,34,18,Other,310
-Stanley Johnson,LAL,Los Angeles Lakers,6.7,NA,0.564,NA,48,NA,308,Other,8.7,34,18,Other,314
-Lindy Waters,OKC,Oklahoma City Thunder,8,NA,0.562,NA,25,NA,257,Other,8.7,57,41,Other,313
-Juan Toscano-Anderson,GSW,Golden State Warriors,4.1,1,0.561,0.533,73,11,426,Other,8.7,9,0,Other,312
-Duane Washington,IND,Indiana Pacers,9.9,NA,0.521,NA,48,NA,191,Other,8.63,34,18,Other,316
-Ty Jerome,OKC,Oklahoma City Thunder,7,NA,0.486,NA,48,NA,300,Other,8.63,34,18,Other,317
-Greg Monroe,MIN,Minnesota Timberwolves,5.4,2,0.566,0.4,14,2,372,Other,8.63,68,52,Other,315
+R.J. Hampton,ORL,Orlando Magic,7.6,NA,0.481,NA,64,NA,270,Other,8.93,18,2,Other,309
+Daniel Theis,BOS,Boston Celtics,8.2,4.3,0.595,0.633,47,16,251,Other,8.78,35,19,Other,311
+Justise Winslow,POR,Portland Trail Blazers,5.7,NA,0.479,NA,48,NA,358,Other,8.78,34,18,Other,310
+Juan Toscano-Anderson,GSW,Golden State Warriors,4.1,0.8,0.561,0.486,73,14,425,Other,8.7,9,0,Other,312
+Lindy Waters,OKC,Oklahoma City Thunder,8,NA,0.562,NA,25,NA,256,Other,8.7,57,41,Other,313
+Stanley Johnson,LAL,Los Angeles Lakers,6.7,NA,0.564,NA,48,NA,307,Other,8.7,34,18,Other,314
+Duane Washington,IND,Indiana Pacers,9.9,NA,0.521,NA,48,NA,190,Other,8.63,34,18,Other,316
+Greg Monroe,MIN,Minnesota Timberwolves,5.4,2,0.566,0.4,14,2,369,Other,8.63,68,52,Other,315
+Ty Jerome,OKC,Oklahoma City Thunder,7,NA,0.486,NA,48,NA,299,Other,8.63,34,18,Other,317
+Frank Jackson,DET,Detroit Pistons,10.6,NA,0.53,NA,53,NA,165,Other,8.55,29,13,Other,320
 Justin Anderson,IND,Indiana Pacers,6.4,NA,0.493,NA,16,NA,316,Other,8.55,66,50,Other,318
-Patrick Williams,CHI,Chicago Bulls,9,11.8,0.637,0.569,17,5,216,Other,8.55,65,49,Other,319
-Frank Jackson,DET,Detroit Pistons,10.6,NA,0.53,NA,53,NA,164,Other,8.55,29,13,Other,320
-Cam Reddish,NYK,New York Knicks,10.1,NA,0.543,NA,49,NA,182,Other,8.48,33,17,Other,321
-Goga Bitadze,IND,Indiana Pacers,7,NA,0.595,NA,50,NA,299,Other,8.48,32,16,Other,324
+Patrick Williams,CHI,Chicago Bulls,9,11.8,0.637,0.569,17,5,217,Other,8.55,65,49,Other,319
+Cam Reddish,NYK,New York Knicks,10.1,NA,0.543,NA,49,NA,183,Other,8.48,33,17,Other,321
+Dennis Smith,POR,Portland Trail Blazers,5.6,NA,0.474,NA,37,NA,366,Other,8.48,45,29,Other,323
+Goga Bitadze,IND,Indiana Pacers,7,NA,0.595,NA,50,NA,300,Other,8.48,32,16,Other,324
 Xavier Moon,LAC,Los Angeles Clippers,5.8,NA,0.545,NA,10,NA,356,Other,8.48,72,56,Other,322
-Dennis Smith,POR,Portland Trail Blazers,5.6,NA,0.474,NA,37,NA,363,Other,8.48,45,29,Other,323
-D.J. Wilson,TOR,Toronto Raptors,7.5,NA,0.773,NA,4,NA,273,Other,8.33,78,62,Other,326
+D.J. Wilson,TOR,Toronto Raptors,7.5,NA,0.773,NA,4,NA,277,Other,8.33,78,62,Other,326
 Isaiah Thomas,CHA,Charlotte Hornets,8.4,NA,0.516,NA,22,NA,236,Other,8.33,60,44,Other,325
-Saben Lee,DET,Detroit Pistons,5.6,NA,0.499,NA,37,NA,365,Other,8.33,45,29,Other,327
-Bismack Biyombo,PHX,Phoenix Suns,5.8,2.8,0.596,0.636,36,9,355,Other,8.25,46,30,Other,329
-Hassani Gravett,ORL,Orlando Magic,6.3,NA,0.629,NA,8,NA,325,Other,8.25,74,58,Other,328
-Jalen McDaniels,CHA,Charlotte Hornets,6.2,NA,0.595,NA,55,NA,331,Other,8.19,27,11,Other,330
+Saben Lee,DET,Detroit Pistons,5.6,NA,0.499,NA,37,NA,363,Other,8.33,45,29,Other,327
+Bismack Biyombo,PHX,Phoenix Suns,5.8,2.8,0.596,0.636,36,9,350,Other,8.25,46,30,Other,329
+Hassani Gravett,ORL,Orlando Magic,6.3,NA,0.629,NA,8,NA,323,Other,8.25,74,58,Other,328
+Jalen McDaniels,CHA,Charlotte Hornets,6.2,NA,0.595,NA,55,NA,334,Other,8.19,27,11,Other,330
 Lamar Stevens,CLE,Cleveland Cavaliers,6.1,NA,0.544,NA,63,NA,338,Other,8.18,19,3,Other,331
-Reggie Perry,POR,Portland Trail Blazers,9.2,NA,0.537,NA,10,NA,203,Other,8.1,72,56,Other,332
-Omer Yurtseven,MIA,Miami Heat,5.3,2.8,0.546,0.647,56,9,376,Other,8.08,26,10,Other,333
-Cameron McGriff,POR,Portland Trail Blazers,4.7,NA,0.47,NA,3,NA,395,Other,8.03,79,63,Other,334
-Lou Williams,ATL,Atlanta Hawks,6.3,NA,0.5,NA,56,NA,323,Other,8,26,10,Other,335
+Reggie Perry,POR,Portland Trail Blazers,9.2,NA,0.537,NA,10,NA,204,Other,8.1,72,56,Other,332
+Omer Yurtseven,MIA,Miami Heat,5.3,2.8,0.546,0.647,56,9,375,Other,8.08,26,10,Other,333
+Cameron McGriff,POR,Portland Trail Blazers,4.7,NA,0.47,NA,3,NA,392,Other,8.03,79,63,Other,334
 DeAndre' Bembry,MIL,Milwaukee Bucks,5.1,NA,0.598,NA,56,NA,383,Other,8,26,10,Other,336
+Lou Williams,ATL,Atlanta Hawks,6.3,NA,0.5,NA,56,NA,327,Other,8,26,10,Other,335
+Markieff Morris,MIA,Miami Heat,7.6,0,0.547,0,17,1,269,Other,7.95,65,49,Other,338
 Rajon Rondo,CLE,Cleveland Cavaliers,4.8,NA,0.494,NA,39,NA,387,Other,7.95,43,27,Other,337
-Markieff Morris,MIA,Miami Heat,7.6,0,0.547,0,17,1,267,Other,7.95,65,49,Other,338
 Serge Ibaka,MIL,Milwaukee Bucks,6.8,1.5,0.579,0.267,54,6,306,Other,7.9,28,12,Other,339
-Day'Ron Sharpe,BKN,Brooklyn Nets,6.2,0,0.593,NA,32,1,333,Other,7.8,50,34,Other,340
-Thomas Bryant,WAS,Washington Wizards,7.4,NA,0.607,NA,27,NA,279,Other,7.73,55,39,Other,342
+Day'Ron Sharpe,BKN,Brooklyn Nets,6.2,0,0.593,NA,32,1,329,Other,7.8,50,34,Other,340
 Isaiah Livers,DET,Detroit Pistons,6.4,NA,0.629,NA,19,NA,318,Other,7.73,63,47,Other,341
-Danuel House,UTA,Utah Jazz,5.9,4.3,0.555,0.509,42,6,345,Other,7.65,40,24,Other,344
-Keita Bates-Diop,SAS,San Antonio Spurs,5.7,NA,0.578,NA,59,NA,358,Other,7.65,23,7,Other,343
-Troy Brown,CHI,Chicago Bulls,4.3,4,0.525,0.353,66,3,413,Other,7.6,16,0,Other,345
-Olivier Sarr,OKC,Oklahoma City Thunder,7,NA,0.672,NA,22,NA,296,Other,7.58,60,44,Other,346
+Thomas Bryant,WAS,Washington Wizards,7.4,NA,0.607,NA,27,NA,281,Other,7.73,55,39,Other,342
+Danuel House,UTA,Utah Jazz,5.9,4.3,0.555,0.509,42,6,347,Other,7.65,40,24,Other,344
+Keita Bates-Diop,SAS,San Antonio Spurs,5.7,NA,0.578,NA,59,NA,360,Other,7.65,23,7,Other,343
+Troy Brown,CHI,Chicago Bulls,4.3,4,0.525,0.353,66,3,412,Other,7.6,16,0,Other,345
+Olivier Sarr,OKC,Oklahoma City Thunder,7,NA,0.672,NA,22,NA,301,Other,7.58,60,44,Other,346
+Avery Bradley,LAL,Los Angeles Lakers,6.4,NA,0.55,NA,62,NA,315,Other,7.54,20,4,Other,348
 Tristan Thompson,CHI,Chicago Bulls,6,0.8,0.541,0.4,57,5,344,Other,7.54,25,9,Other,347
-Avery Bradley,LAL,Los Angeles Lakers,6.4,NA,0.55,NA,62,NA,321,Other,7.54,20,4,Other,348
 Derrick Jones,CHI,Chicago Bulls,5.6,3.8,0.633,0.519,51,5,364,Other,7.5,31,15,Other,349
-Khem Birch,TOR,Toronto Raptors,4.5,3,0.534,0.563,55,6,403,Other,7.49,27,11,Other,350
-Trey Murphy,NOP,New Orleans Pelicans,5.4,5.2,0.558,0.64,62,6,371,Other,7.45,20,4,Other,351
-Jeremiah Robinson-Earl,OKC,Oklahoma City Thunder,7.5,NA,0.526,NA,49,NA,277,Other,7.43,33,17,Other,352
-Nerlens Noel,NYK,New York Knicks,3.4,NA,0.581,NA,25,NA,463,Other,7.35,57,41,Other,353
-Aaron Wiggins,OKC,Oklahoma City Thunder,8.3,NA,0.556,NA,50,NA,245,Other,7.28,32,16,Other,355
-Wes Iwundu,ATL,Atlanta Hawks,7.3,NA,0.557,NA,3,NA,284,Other,7.28,79,63,Other,354
+Khem Birch,TOR,Toronto Raptors,4.5,3,0.534,0.563,55,6,400,Other,7.49,27,11,Other,350
+Trey Murphy,NOP,New Orleans Pelicans,5.4,5.2,0.558,0.64,62,6,370,Other,7.45,20,4,Other,351
+Jeremiah Robinson-Earl,OKC,Oklahoma City Thunder,7.5,NA,0.526,NA,49,NA,275,Other,7.43,33,17,Other,352
+Nerlens Noel,NYK,New York Knicks,3.4,NA,0.581,NA,25,NA,462,Other,7.35,57,41,Other,353
+Aaron Wiggins,OKC,Oklahoma City Thunder,8.3,NA,0.556,NA,50,NA,238,Other,7.28,32,16,Other,355
+Wes Iwundu,ATL,Atlanta Hawks,7.3,NA,0.557,NA,3,NA,287,Other,7.28,79,63,Other,354
 Dean Wade,CLE,Cleveland Cavaliers,5.3,NA,0.584,NA,51,NA,377,Other,7.2,31,15,Other,357
-Jevon Carter,MIL,Milwaukee Bucks,4.2,2.1,0.531,0.578,66,11,418,Other,7.2,16,0,Other,356
-Taj Gibson,NYK,New York Knicks,4.4,NA,0.606,NA,52,NA,409,Other,7.13,30,14,Other,358
-Brandon Boston,LAC,Los Angeles Clippers,6.7,NA,0.481,NA,51,NA,307,Other,7.13,31,15,Other,359
-Trendon Watford,POR,Portland Trail Blazers,7.6,NA,0.59,NA,48,NA,272,Other,7.05,34,18,Other,363
-Theo Maledon,OKC,Oklahoma City Thunder,7.1,NA,0.5,NA,51,NA,292,Other,7.05,31,15,Other,362
-Robin Lopez,ORL,Orlando Magic,7.1,NA,0.57,NA,36,NA,293,Other,7.05,46,30,Other,360
+Jevon Carter,MIL,Milwaukee Bucks,4.2,2.1,0.531,0.578,66,11,420,Other,7.2,16,0,Other,356
+Brandon Boston,LAC,Los Angeles Clippers,6.7,NA,0.481,NA,51,NA,309,Other,7.13,31,15,Other,359
+Taj Gibson,NYK,New York Knicks,4.4,NA,0.606,NA,52,NA,405,Other,7.13,30,14,Other,358
 Carsen Edwards,DET,Detroit Pistons,5.8,NA,0.378,NA,4,NA,353,Other,7.05,78,62,Other,361
-Xavier Tillman,MEM,Memphis Grizzlies,4.8,4.4,0.51,0.724,53,9,390,Other,6.98,29,13,Other,364
-Wenyen Gabriel,LAL,Los Angeles Lakers,5.4,NA,0.549,NA,26,NA,370,Other,6.98,56,40,Other,365
-Wesley Matthews,MIL,Milwaukee Bucks,5.1,6.2,0.536,0.544,49,12,380,Other,6.9,33,17,Other,367
-Alex Len,SAC,Sacramento Kings,6,NA,0.577,NA,39,NA,340,Other,6.9,43,27,Other,366
-Zeke Nnaji,DEN,Denver Nuggets,6.6,1.5,0.629,1.5,41,2,311,Other,6.83,41,25,Other,369
-Rayjon Tucker,MIL,Milwaukee Bucks,4.2,0.3,0.869,0.333,5,8,419,Other,6.83,77,61,Other,368
+Robin Lopez,ORL,Orlando Magic,7.1,NA,0.57,NA,36,NA,292,Other,7.05,46,30,Other,360
+Theo Maledon,OKC,Oklahoma City Thunder,7.1,NA,0.5,NA,51,NA,293,Other,7.05,31,15,Other,362
+Trendon Watford,POR,Portland Trail Blazers,7.6,NA,0.59,NA,48,NA,268,Other,7.05,34,18,Other,363
+Wenyen Gabriel,LAL,Los Angeles Lakers,5.4,NA,0.549,NA,26,NA,371,Other,6.98,56,40,Other,365
+Xavier Tillman,MEM,Memphis Grizzlies,4.8,4.4,0.51,0.724,53,9,389,Other,6.98,29,13,Other,364
+Alex Len,SAC,Sacramento Kings,6,NA,0.577,NA,39,NA,343,Other,6.9,43,27,Other,366
+Wesley Matthews,MIL,Milwaukee Bucks,5.1,6.2,0.536,0.544,49,12,382,Other,6.9,33,17,Other,367
+Rayjon Tucker,MIL,Milwaukee Bucks,4.2,0.3,0.869,0.333,5,8,421,Other,6.83,77,61,Other,368
+Zeke Nnaji,DEN,Denver Nuggets,6.6,1.5,0.629,1.5,41,2,312,Other,6.83,41,25,Other,369
+Malik Newman,CLE,Cleveland Cavaliers,8,NA,0.68,NA,1,NA,255,Other,6.75,81,65,Other,371
 Quentin Grimes,NYK,New York Knicks,6.1,NA,0.565,NA,45,NA,336,Other,6.75,37,21,Other,370
-Malik Newman,CLE,Cleveland Cavaliers,8,NA,0.68,NA,1,NA,258,Other,6.75,81,65,Other,371
 Kessler Edwards,BKN,Brooklyn Nets,5.9,0,0.516,NA,48,2,348,Other,6.68,34,18,Other,372
-Gabe York,IND,Indiana Pacers,4,NA,0.435,NA,2,NA,431,Other,6.6,80,64,Other,373
-Davis Bertans,DAL,Dallas Mavericks,5.6,4.1,0.531,0.606,56,18,366,Other,6.56,26,10,Other,374
-Naji Marshall,NOP,New Orleans Pelicans,5.7,3,0.505,0.765,55,6,359,Other,6.55,27,11,Other,375
+Gabe York,IND,Indiana Pacers,4,NA,0.435,NA,2,NA,432,Other,6.6,80,64,Other,373
+Davis Bertans,DAL,Dallas Mavericks,5.6,4.1,0.531,0.606,56,18,362,Other,6.56,26,10,Other,374
+Naji Marshall,NOP,New Orleans Pelicans,5.7,3,0.505,0.765,55,6,357,Other,6.55,27,11,Other,375
 Trent Forrest,UTA,Utah Jazz,3.3,NA,0.554,NA,60,NA,467,Other,6.51,22,6,Other,376
 Tomas Satoransky,WAS,Washington Wizards,3.6,NA,0.461,NA,55,NA,452,Other,6.47,27,11,Other,377
-Brandon Goodwin,CLE,Cleveland Cavaliers,4.8,NA,0.501,NA,36,NA,388,Other,6.45,46,30,Other,379
-Wayne Ellington,LAL,Los Angeles Lakers,6.7,NA,0.593,NA,43,NA,309,Other,6.45,39,23,Other,378
-Joshua Primo,SAS,San Antonio Spurs,5.8,NA,0.487,NA,50,NA,352,Other,6.45,32,16,Other,380
-Dalano Banton,TOR,Toronto Raptors,3.2,1.8,0.463,0.754,64,4,471,Other,6.43,18,2,Other,381
-CJ Elleby,POR,Portland Trail Blazers,5.8,NA,0.491,NA,58,NA,351,Other,6.3,24,8,Other,383
+Brandon Goodwin,CLE,Cleveland Cavaliers,4.8,NA,0.501,NA,36,NA,391,Other,6.45,46,30,Other,379
+Joshua Primo,SAS,San Antonio Spurs,5.8,NA,0.487,NA,50,NA,351,Other,6.45,32,16,Other,380
+Wayne Ellington,LAL,Los Angeles Lakers,6.7,NA,0.593,NA,43,NA,308,Other,6.45,39,23,Other,378
+Dalano Banton,TOR,Toronto Raptors,3.2,1.8,0.463,0.754,64,4,474,Other,6.43,18,2,Other,381
+CJ Elleby,POR,Portland Trail Blazers,5.8,NA,0.491,NA,58,NA,355,Other,6.3,24,8,Other,383
+Frank Ntilikina,DAL,Dallas Mavericks,4.1,1.9,0.513,0.471,58,12,424,Other,6.3,24,8,Other,382
 Josh Jackson,SAC,Sacramento Kings,6.4,NA,0.491,NA,51,NA,320,Other,6.3,31,15,Other,384
-Frank Ntilikina,DAL,Dallas Mavericks,4.1,1.9,0.513,0.471,58,12,423,Other,6.3,24,8,Other,382
-David Duke,BKN,Brooklyn Nets,4.7,NA,0.444,NA,22,NA,393,Other,6.23,60,44,Other,385
-Brandon Knight,DAL,Dallas Mavericks,6.4,NA,0.561,NA,5,NA,315,Other,6.15,77,61,Other,386
-Cody Zeller,POR,Portland Trail Blazers,5.2,NA,0.627,NA,27,NA,378,Other,6.15,55,39,Other,387
-Armoni Brooks,TOR,Toronto Raptors,5.3,0,0.483,0,54,4,373,Other,6.08,28,12,Other,389
-Vit Krejci,OKC,Oklahoma City Thunder,6.2,NA,0.529,NA,30,NA,335,Other,6.08,52,36,Other,388
+David Duke,BKN,Brooklyn Nets,4.7,NA,0.444,NA,22,NA,395,Other,6.23,60,44,Other,385
+Brandon Knight,DAL,Dallas Mavericks,6.4,NA,0.561,NA,5,NA,321,Other,6.15,77,61,Other,386
+Cody Zeller,POR,Portland Trail Blazers,5.2,NA,0.627,NA,27,NA,379,Other,6.15,55,39,Other,387
+Armoni Brooks,TOR,Toronto Raptors,5.3,0,0.483,0,54,4,374,Other,6.08,28,12,Other,389
+Vit Krejci,OKC,Oklahoma City Thunder,6.2,NA,0.529,NA,30,NA,332,Other,6.08,52,36,Other,388
 David Nwaba,HOU,Houston Rockets,5.1,NA,0.567,NA,46,NA,381,Other,6,36,20,Other,390
-Derrick Favors,OKC,Oklahoma City Thunder,5.3,NA,0.534,NA,39,NA,375,Other,5.93,43,27,Other,391
+Derrick Favors,OKC,Oklahoma City Thunder,5.3,NA,0.534,NA,39,NA,373,Other,5.93,43,27,Other,391
 Eric Paschall,UTA,Utah Jazz,5.8,2,0.612,0.621,58,4,354,Other,5.88,24,8,Other,392
-Mamadi Diakite,OKC,Oklahoma City Thunder,4.3,NA,0.54,NA,13,NA,411,Other,5.85,69,53,Other,395
-Keon Johnson,POR,Portland Trail Blazers,7.2,NA,0.455,NA,37,NA,289,Other,5.85,45,29,Other,394
-PJ Dozier,DEN,Denver Nuggets,5.4,NA,0.463,NA,18,NA,368,Other,5.85,64,48,Other,393
-Davon Reed,DEN,Denver Nuggets,4.4,NA,0.624,NA,48,NA,407,Other,5.78,34,18,Other,396
-Rodney McGruder,DET,Detroit Pistons,5.4,NA,0.575,NA,51,NA,369,Other,5.78,31,15,Other,398
-Malachi Flynn,TOR,Toronto Raptors,4.3,0,0.488,0,44,6,412,Other,5.78,38,22,Other,397
-Garrett Temple,NOP,New Orleans Pelicans,5.2,0,0.495,NA,59,1,379,Other,5.76,23,7,Other,399
-Keifer Sykes,IND,Indiana Pacers,5.6,NA,0.456,NA,32,NA,362,Other,5.7,50,34,Other,400
-Kelan Martin,BOS,Boston Celtics,5.7,NA,0.484,NA,30,NA,357,Other,5.63,52,36,Other,402
-Chaundee Brown,ATL,Atlanta Hawks,6.2,NA,0.447,NA,5,NA,334,Other,5.63,77,61,Other,401
+Keon Johnson,POR,Portland Trail Blazers,7.2,NA,0.455,NA,37,NA,291,Other,5.85,45,29,Other,394
+Mamadi Diakite,OKC,Oklahoma City Thunder,4.3,NA,0.54,NA,13,NA,417,Other,5.85,69,53,Other,395
+PJ Dozier,DEN,Denver Nuggets,5.4,NA,0.463,NA,18,NA,372,Other,5.85,64,48,Other,393
+Davon Reed,DEN,Denver Nuggets,4.4,NA,0.624,NA,48,NA,404,Other,5.78,34,18,Other,396
+Malachi Flynn,TOR,Toronto Raptors,4.3,0,0.488,0,44,6,413,Other,5.78,38,22,Other,397
+Rodney McGruder,DET,Detroit Pistons,5.4,NA,0.575,NA,51,NA,368,Other,5.78,31,15,Other,398
+Garrett Temple,NOP,New Orleans Pelicans,5.2,0,0.495,NA,59,1,378,Other,5.76,23,7,Other,399
+Keifer Sykes,IND,Indiana Pacers,5.6,NA,0.456,NA,32,NA,365,Other,5.7,50,34,Other,400
+Chaundee Brown,ATL,Atlanta Hawks,6.2,NA,0.447,NA,5,NA,331,Other,5.63,77,61,Other,401
 Enes Freedom,BOS,Boston Celtics,3.7,NA,0.585,NA,35,NA,446,Other,5.63,47,31,Other,403
-Luka Garza,DET,Detroit Pistons,5.8,NA,0.535,NA,32,NA,349,Other,5.55,50,34,Other,405
-B.J. Johnson,ORL,Orlando Magic,6.5,NA,0.52,NA,4,NA,314,Other,5.55,78,62,Other,408
+Kelan Martin,BOS,Boston Celtics,5.7,NA,0.484,NA,30,NA,361,Other,5.63,52,36,Other,402
+B.J. Johnson,ORL,Orlando Magic,6.5,NA,0.52,NA,4,NA,313,Other,5.55,78,62,Other,408
 Jock Landale,SAS,San Antonio Spurs,4.9,NA,0.597,NA,54,NA,386,Other,5.55,28,12,Other,407
-Romeo Langford,SAS,San Antonio Spurs,4.5,NA,0.52,NA,48,NA,402,Other,5.55,34,18,Other,404
-Marquese Chriss,DAL,Dallas Mavericks,4.5,1.8,0.518,0.658,34,8,401,Other,5.55,48,32,Other,406
-Cassius Stanley,DET,Detroit Pistons,5.8,NA,0.516,NA,9,NA,350,Other,5.48,73,57,Other,409
-Udoka Azubuike,UTA,Utah Jazz,4.7,NA,0.743,NA,17,NA,392,Other,5.33,65,49,Other,410
-Tony Bradley,CHI,Chicago Bulls,2.9,5,0.6,1,56,2,490,Other,5.28,26,10,Other,411
-Killian Tillie,MEM,Memphis Grizzlies,3.3,NA,0.452,NA,36,NA,464,Other,5.25,46,30,Other,414
-DeAndre Jordan,PHI,Philadelphia 76ers,4.3,5,0.641,1,48,2,414,Other,5.25,34,18,Other,413
+Luka Garza,DET,Detroit Pistons,5.8,NA,0.535,NA,32,NA,349,Other,5.55,50,34,Other,405
+Marquese Chriss,DAL,Dallas Mavericks,4.5,1.8,0.518,0.658,34,8,399,Other,5.55,48,32,Other,406
+Romeo Langford,SAS,San Antonio Spurs,4.5,NA,0.52,NA,48,NA,403,Other,5.55,34,18,Other,404
+Cassius Stanley,DET,Detroit Pistons,5.8,NA,0.516,NA,9,NA,352,Other,5.48,73,57,Other,409
+Udoka Azubuike,UTA,Utah Jazz,4.7,NA,0.743,NA,17,NA,394,Other,5.33,65,49,Other,410
+Tony Bradley,CHI,Chicago Bulls,2.9,5,0.6,1,56,2,492,Other,5.28,26,10,Other,411
+DeAndre Jordan,PHI,Philadelphia 76ers,4.3,5,0.641,1,48,2,416,Other,5.25,34,18,Other,413
+Killian Tillie,MEM,Memphis Grizzlies,3.3,NA,0.452,NA,36,NA,465,Other,5.25,46,30,Other,414
 Mac McClung,LAL,Los Angeles Lakers,4,NA,0.621,NA,2,NA,430,Other,5.25,80,64,Other,412
+Santi Aldama,MEM,Memphis Grizzlies,4.1,NA,0.452,NA,32,NA,426,Other,5.25,50,34,Other,415
 Trevor Ariza,LAL,Los Angeles Lakers,4,NA,0.449,NA,24,NA,433,Other,5.25,58,42,Other,417
-Trey Burke,DAL,Dallas Mavericks,5.1,3.2,0.475,0.649,42,10,384,Other,5.25,40,24,Other,416
-Santi Aldama,MEM,Memphis Grizzlies,4.1,NA,0.452,NA,32,NA,422,Other,5.25,50,34,Other,415
-Usman Garuba,HOU,Houston Rockets,2,NA,0.51,NA,24,NA,523,Other,5.18,58,42,Other,421
-Maurice Harkless,SAC,Sacramento Kings,4.6,NA,0.561,NA,47,NA,396,Other,5.18,35,19,Other,419
-Jericho Sims,NYK,New York Knicks,2.2,NA,0.674,NA,41,NA,519,Other,5.18,41,25,Other,418
-Kira Lewis,NOP,New Orleans Pelicans,5.9,NA,0.466,NA,24,NA,347,Other,5.18,58,42,Other,420
-Anthony Gill,WAS,Washington Wizards,4.1,NA,0.682,NA,44,NA,424,Other,5.1,38,22,Other,423
-Vlatko Cancar,DEN,Denver Nuggets,4.1,2.5,0.657,0.833,15,2,427,Other,5.1,67,51,Other,422
-Brad Wanamaker,WAS,Washington Wizards,3.6,NA,0.472,NA,23,NA,451,Other,5.03,59,43,Other,425
-Paul Millsap,PHI,Philadelphia 76ers,3.5,0,0.458,NA,33,1,456,Other,5.03,49,33,Other,426
+Trey Burke,DAL,Dallas Mavericks,5.1,3.2,0.475,0.649,42,10,380,Other,5.25,40,24,Other,416
+Jericho Sims,NYK,New York Knicks,2.2,NA,0.674,NA,41,NA,520,Other,5.18,41,25,Other,418
+Kira Lewis,NOP,New Orleans Pelicans,5.9,NA,0.466,NA,24,NA,346,Other,5.18,58,42,Other,420
+Maurice Harkless,SAC,Sacramento Kings,4.6,NA,0.561,NA,47,NA,397,Other,5.18,35,19,Other,419
+Usman Garuba,HOU,Houston Rockets,2,NA,0.51,NA,24,NA,535,Other,5.18,58,42,Other,421
+Anthony Gill,WAS,Washington Wizards,4.1,NA,0.682,NA,44,NA,422,Other,5.1,38,22,Other,423
+Vlatko Cancar,DEN,Denver Nuggets,4.1,2.5,0.657,0.833,15,2,423,Other,5.1,67,51,Other,422
+Brad Wanamaker,WAS,Washington Wizards,3.6,NA,0.472,NA,23,NA,453,Other,5.03,59,43,Other,425
 Devontae Cacok,SAS,San Antonio Spurs,3.1,NA,0.675,NA,15,NA,476,Other,5.03,67,51,Other,424
-D.J. Augustin,LAL,Los Angeles Lakers,5.3,NA,0.61,NA,55,NA,374,Other,4.99,27,11,Other,427
+Paul Millsap,PHI,Philadelphia 76ers,3.5,0,0.458,NA,33,1,455,Other,5.03,49,33,Other,426
+D.J. Augustin,LAL,Los Angeles Lakers,5.3,NA,0.61,NA,55,NA,376,Other,4.99,27,11,Other,427
 Paul Reed,PHI,Philadelphia 76ers,3.1,3.7,0.568,0.563,38,12,477,Other,4.95,44,28,Other,428
-Tyler Johnson,SAS,San Antonio Spurs,2.8,NA,0.425,NA,6,NA,497,Other,4.95,76,60,Other,429
-Tre Scott,CLE,Cleveland Cavaliers,3,NA,0.5,NA,2,NA,482,Other,4.88,80,64,Other,432
-KZ Okpala,MIA,Miami Heat,3.7,NA,0.521,NA,21,NA,448,Other,4.88,61,45,Other,431
-Svi Mykhailiuk,TOR,Toronto Raptors,4.6,0.3,0.509,0.205,56,3,397,Other,4.88,26,10,Other,430
-Matt Ryan,BOS,Boston Celtics,3,NA,0.3,NA,1,NA,484,Other,4.88,81,65,Other,433
-Jamorko Pickett,DET,Detroit Pistons,3.8,NA,0.491,NA,13,NA,440,Other,4.8,69,53,Other,435
-Yuta Watanabe,TOR,Toronto Raptors,4.3,1,0.524,0.333,38,4,415,Other,4.8,44,28,Other,437
-James Ennis,DEN,Denver Nuggets,4.1,NA,0.553,NA,7,NA,428,Other,4.8,75,59,Other,436
-Jared Butler,UTA,Utah Jazz,3.8,0,0.509,0,42,1,443,Other,4.8,40,24,Other,434
-Sterling Brown,DAL,Dallas Mavericks,3.3,1.2,0.495,0.42,49,9,470,Other,4.73,33,17,Other,438
-Trevelin Queen,HOU,Houston Rockets,4.3,NA,0.619,NA,10,NA,410,Other,4.73,72,56,Other,440
-Elfrid Payton,PHX,Phoenix Suns,3,2,0.397,0.667,50,2,481,Other,4.73,32,16,Other,439
-Timothe Luwawu-Cabarrot,ATL,Atlanta Hawks,4.4,1.3,0.556,0.625,52,4,406,Other,4.65,30,14,Other,441
-Nathan Knight,MIN,Minnesota Timberwolves,3.7,NA,0.603,NA,37,NA,449,Other,4.58,45,29,Other,443
+Tyler Johnson,SAS,San Antonio Spurs,2.8,NA,0.425,NA,6,NA,496,Other,4.95,76,60,Other,429
+KZ Okpala,MIA,Miami Heat,3.7,NA,0.521,NA,21,NA,447,Other,4.88,61,45,Other,431
+Matt Ryan,BOS,Boston Celtics,3,NA,0.3,NA,1,NA,487,Other,4.88,81,65,Other,433
+Svi Mykhailiuk,TOR,Toronto Raptors,4.6,0.3,0.509,0.205,56,3,396,Other,4.88,26,10,Other,430
+Tre Scott,CLE,Cleveland Cavaliers,3,NA,0.5,NA,2,NA,484,Other,4.88,80,64,Other,432
+James Ennis,DEN,Denver Nuggets,4.1,NA,0.553,NA,7,NA,427,Other,4.8,75,59,Other,436
+Jamorko Pickett,DET,Detroit Pistons,3.8,NA,0.491,NA,13,NA,441,Other,4.8,69,53,Other,435
+Jared Butler,UTA,Utah Jazz,3.8,0,0.509,0,42,1,440,Other,4.8,40,24,Other,434
+Yuta Watanabe,TOR,Toronto Raptors,4.3,1,0.524,0.333,38,4,410,Other,4.8,44,28,Other,437
+Elfrid Payton,PHX,Phoenix Suns,3,2,0.397,0.667,50,2,485,Other,4.73,32,16,Other,439
+Sterling Brown,DAL,Dallas Mavericks,3.3,1.2,0.495,0.42,49,9,466,Other,4.73,33,17,Other,438
+Trevelin Queen,HOU,Houston Rockets,4.3,NA,0.619,NA,10,NA,415,Other,4.73,72,56,Other,440
+Timothe Luwawu-Cabarrot,ATL,Atlanta Hawks,4.4,1.3,0.556,0.625,52,4,408,Other,4.65,30,14,Other,441
 Miles McBride,NYK,New York Knicks,2.2,NA,0.393,NA,40,NA,518,Other,4.58,42,26,Other,442
-Jabari Parker,BOS,Boston Celtics,4.4,NA,0.632,NA,12,NA,408,Other,4.43,70,54,Other,444
-Matt Thomas,CHI,Chicago Bulls,3.9,NA,0.564,NA,41,NA,436,Other,4.43,41,25,Other,445
-Moses Brown,CLE,Cleveland Cavaliers,4.3,NA,0.612,NA,40,NA,416,Other,4.35,42,26,Other,448
-Moses Moody,GSW,Golden State Warriors,4.4,3.9,0.573,0.658,52,10,405,Other,4.35,30,14,Other,447
+Nathan Knight,MIN,Minnesota Timberwolves,3.7,NA,0.603,NA,37,NA,449,Other,4.58,45,29,Other,443
+Jabari Parker,BOS,Boston Celtics,4.4,NA,0.632,NA,12,NA,407,Other,4.43,70,54,Other,444
+Matt Thomas,CHI,Chicago Bulls,3.9,NA,0.564,NA,41,NA,437,Other,4.43,41,25,Other,445
 Jarrett Culver,MEM,Memphis Grizzlies,3.5,2.3,0.433,0.322,37,3,459,Other,4.35,45,29,Other,449
-Juancho Hernangomez,UTA,Utah Jazz,3.3,2.3,0.542,0.389,40,6,469,Other,4.35,42,26,Other,446
-Isaiah Joe,PHI,Philadelphia 76ers,3.6,0.7,0.519,0.5,55,7,450,Other,4.29,27,11,Other,450
-Tremont Waters,WAS,Washington Wizards,3.3,NA,0.357,NA,3,NA,468,Other,4.28,79,63,Other,453
+Juancho Hernangomez,UTA,Utah Jazz,3.3,2.3,0.542,0.389,40,6,470,Other,4.35,42,26,Other,446
+Moses Brown,CLE,Cleveland Cavaliers,4.3,NA,0.612,NA,40,NA,411,Other,4.35,42,26,Other,448
+Moses Moody,GSW,Golden State Warriors,4.4,3.2,0.573,0.669,52,13,406,Other,4.35,30,14,Other,447
+Isaiah Joe,PHI,Philadelphia 76ers,3.6,0.7,0.519,0.5,55,7,451,Other,4.29,27,11,Other,450
+Charles Bassey,PHI,Philadelphia 76ers,3,0.7,0.66,0.41,23,3,483,Other,4.28,59,43,Other,452
 Gorgui Dieng,ATL,Atlanta Hawks,3.5,1.5,0.624,0.615,44,2,457,Other,4.28,38,22,Other,451
 James Bouknight,CHA,Charlotte Hornets,4.6,NA,0.459,NA,31,NA,398,Other,4.28,51,35,Other,454
-Charles Bassey,PHI,Philadelphia 76ers,3,0.7,0.66,0.41,23,3,485,Other,4.28,59,43,Other,452
-Greg Brown,POR,Portland Trail Blazers,4.7,NA,0.517,NA,48,NA,394,Other,4.2,34,18,Other,455
-Louis King,SAC,Sacramento Kings,4.5,NA,0.438,NA,10,NA,399,Other,4.2,72,56,Other,456
-Boban Marjanovic,DAL,Dallas Mavericks,4.5,1.3,0.615,0.41,22,3,400,Other,4.2,60,44,Other,457
-Aaron Nesmith,BOS,Boston Celtics,3.8,0.5,0.507,0.227,52,10,439,Other,4.13,30,14,Other,458
+Tremont Waters,WAS,Washington Wizards,3.3,NA,0.357,NA,3,NA,464,Other,4.28,79,63,Other,453
+Boban Marjanovic,DAL,Dallas Mavericks,4.5,1.3,0.615,0.41,22,3,401,Other,4.2,60,44,Other,457
+Greg Brown,POR,Portland Trail Blazers,4.7,NA,0.517,NA,48,NA,393,Other,4.2,34,18,Other,455
+Louis King,SAC,Sacramento Kings,4.5,NA,0.438,NA,10,NA,402,Other,4.2,72,56,Other,456
+Aaron Nesmith,BOS,Boston Celtics,3.8,0.9,0.507,0.32,52,14,442,Other,4.13,30,14,Other,458
+Luke Kornet,BOS,Boston Celtics,2,0.7,0.506,0.875,15,10,525,Other,4.13,67,51,Other,460
 Rodney Hood,LAC,Los Angeles Clippers,3.1,NA,0.493,NA,52,NA,478,Other,4.13,30,14,Other,459
-Luke Kornet,BOS,Boston Celtics,2,0.3,0.506,0.5,15,7,526,Other,4.13,67,51,Other,460
-Neemias Queta,SAC,Sacramento Kings,3.2,NA,0.495,NA,14,NA,473,Other,4.05,68,52,Other,462
-Josh Okogie,MIN,Minnesota Timberwolves,2.7,0,0.526,NA,49,1,500,Other,4.05,33,17,Other,461
-Malcolm Hill,CHI,Chicago Bulls,3.8,NA,0.619,NA,19,NA,444,Other,3.98,63,47,Other,463
+Josh Okogie,MIN,Minnesota Timberwolves,2.7,0,0.526,NA,49,1,499,Other,4.05,33,17,Other,461
+Neemias Queta,SAC,Sacramento Kings,3.2,NA,0.495,NA,14,NA,472,Other,4.05,68,52,Other,462
+Malcolm Hill,CHI,Chicago Bulls,3.8,NA,0.619,NA,19,NA,443,Other,3.98,63,47,Other,463
 Solomon Hill,ATL,Atlanta Hawks,0.6,NA,0.2,NA,13,NA,573,Other,3.98,69,53,Other,464
-Freddie Gillespie,ORL,Orlando Magic,2.3,NA,0.419,NA,9,NA,515,Other,3.9,73,57,Other,466
-Lindell Wigginton,MIL,Milwaukee Bucks,4.2,NA,0.524,NA,19,NA,421,Other,3.9,63,47,Other,465
+Freddie Gillespie,ORL,Orlando Magic,2.3,NA,0.419,NA,9,NA,516,Other,3.9,73,57,Other,466
+Lindell Wigginton,MIL,Milwaukee Bucks,4.2,NA,0.524,NA,19,NA,418,Other,3.9,63,47,Other,465
 Ignas Brazdeikis,ORL,Orlando Magic,5,NA,0.52,NA,42,NA,385,Other,3.83,40,24,Other,467
-Daishen Nix,HOU,Houston Rockets,3.2,NA,0.48,NA,24,NA,472,Other,3.75,58,42,Other,469
-Gary Clark,NOP,New Orleans Pelicans,2.7,NA,0.547,NA,38,NA,498,Other,3.75,44,28,Other,468
-Kent Bazemore,LAL,Los Angeles Lakers,3.4,NA,0.451,NA,39,NA,462,Other,3.68,43,27,Other,470
-Craig Sword,WAS,Washington Wizards,2,NA,0.75,NA,3,NA,532,Other,3.6,79,63,Other,472
-Shaquille Harrison,BKN,Brooklyn Nets,2,NA,0.333,NA,2,NA,525,Other,3.6,80,64,Other,471
-Ish Wainright,PHX,Phoenix Suns,2.4,1.9,0.494,0.542,45,7,511,Other,3.53,37,21,Other,476
-Tony Snell,NOP,New Orleans Pelicans,3.5,NA,0.541,NA,53,NA,454,Other,3.53,29,13,Other,473
-Justin Champagnie,TOR,Toronto Raptors,2.3,NA,0.571,NA,36,NA,516,Other,3.53,46,30,Other,475
-Marcus Garrett,MIA,Miami Heat,1.1,NA,0.28,NA,12,NA,554,Other,3.53,70,54,Other,474
-Abdel Nader,PHX,Phoenix Suns,2.4,NA,0.431,NA,14,NA,513,Other,3.45,68,52,Other,478
-Markus Howard,DEN,Denver Nuggets,4.1,NA,0.567,NA,31,NA,429,Other,3.45,51,35,Other,477
-Sam Merrill,MEM,Memphis Grizzlies,4.2,NA,0.485,NA,6,NA,420,Other,3.38,76,60,Other,483
-Damyean Dotson,NYK,New York Knicks,2,NA,0.5,NA,2,NA,522,Other,3.38,80,64,Other,482
-Thanasis Antetokounmpo,MIL,Milwaukee Bucks,3.6,0.6,0.577,0.579,48,8,453,Other,3.38,34,18,Other,481
-Javin DeLaurier,MIL,Milwaukee Bucks,0,NA,NA,NA,1,NA,582,Other,3.38,81,65,Other,480
-Tyler Cook,CHI,Chicago Bulls,3.4,NA,0.643,NA,20,NA,460,Other,3.38,62,46,Other,479
-Willie Cauley-Stein,PHI,Philadelphia 76ers,1.7,NA,0.474,NA,20,NA,540,Other,3.3,62,46,Other,484
-Jay Scrubb,LAC,Los Angeles Clippers,2.7,NA,0.486,NA,18,NA,501,Other,3.3,64,48,Other,485
-Kyle Guy,MIA,Miami Heat,3.9,NA,0.526,NA,19,NA,437,Other,3.15,63,47,Other,487
-Dylan Windler,CLE,Cleveland Cavaliers,2.2,NA,0.519,NA,50,NA,520,Other,3.15,32,16,Other,486
-JT Thor,CHA,Charlotte Hornets,2,NA,0.525,NA,33,NA,530,Other,3.08,49,33,Other,489
+Daishen Nix,HOU,Houston Rockets,3.2,NA,0.48,NA,24,NA,473,Other,3.75,58,42,Other,469
+Gary Clark,NOP,New Orleans Pelicans,2.7,NA,0.547,NA,38,NA,501,Other,3.75,44,28,Other,468
+Kent Bazemore,LAL,Los Angeles Lakers,3.4,NA,0.451,NA,39,NA,460,Other,3.68,43,27,Other,470
+Craig Sword,WAS,Washington Wizards,2,NA,0.75,NA,3,NA,522,Other,3.6,79,63,Other,472
+Shaquille Harrison,BKN,Brooklyn Nets,2,NA,0.333,NA,2,NA,534,Other,3.6,80,64,Other,471
+Ish Wainright,PHX,Phoenix Suns,2.4,1.9,0.494,0.542,45,7,513,Other,3.53,37,21,Other,476
+Justin Champagnie,TOR,Toronto Raptors,2.3,NA,0.571,NA,36,NA,514,Other,3.53,46,30,Other,475
+Marcus Garrett,MIA,Miami Heat,1.1,NA,0.28,NA,12,NA,556,Other,3.53,70,54,Other,474
+Tony Snell,NOP,New Orleans Pelicans,3.5,NA,0.541,NA,53,NA,458,Other,3.53,29,13,Other,473
+Abdel Nader,PHX,Phoenix Suns,2.4,NA,0.431,NA,14,NA,510,Other,3.45,68,52,Other,478
+Markus Howard,DEN,Denver Nuggets,4.1,NA,0.567,NA,31,NA,428,Other,3.45,51,35,Other,477
+Damyean Dotson,NYK,New York Knicks,2,NA,0.5,NA,2,NA,532,Other,3.38,80,64,Other,482
+Javin DeLaurier,MIL,Milwaukee Bucks,0,NA,NA,NA,1,NA,592,Other,3.38,81,65,Other,480
+Sam Merrill,MEM,Memphis Grizzlies,4.2,NA,0.485,NA,6,NA,419,Other,3.38,76,60,Other,483
+Thanasis Antetokounmpo,MIL,Milwaukee Bucks,3.6,0.6,0.577,0.579,48,8,450,Other,3.38,34,18,Other,481
+Tyler Cook,CHI,Chicago Bulls,3.4,NA,0.643,NA,20,NA,461,Other,3.38,62,46,Other,479
+Jay Scrubb,LAC,Los Angeles Clippers,2.7,NA,0.486,NA,18,NA,498,Other,3.3,64,48,Other,485
+Willie Cauley-Stein,PHI,Philadelphia 76ers,1.7,NA,0.474,NA,20,NA,541,Other,3.3,62,46,Other,484
+Dylan Windler,CLE,Cleveland Cavaliers,2.2,NA,0.519,NA,50,NA,519,Other,3.15,32,16,Other,486
+Kyle Guy,MIA,Miami Heat,3.9,NA,0.526,NA,19,NA,436,Other,3.15,63,47,Other,487
 Bol Bol,DEN,Denver Nuggets,2.5,NA,0.583,NA,13,NA,503,Other,3.08,69,53,Other,491
-Sandro Mamukelashvili,MIL,Milwaukee Bucks,3.8,NA,0.618,NA,41,NA,442,Other,3.08,41,25,Other,490
-Devon Dotson,CHI,Chicago Bulls,2.4,NA,0.538,NA,12,NA,510,Other,3.08,70,54,Other,488
-Paris Bass,PHX,Phoenix Suns,3,NA,0.436,NA,2,NA,486,Other,3,80,64,Other,495
-Admiral Schofield,ORL,Orlando Magic,3.8,NA,0.538,NA,38,NA,441,Other,3,44,28,Other,493
-Javonte Smart,MIA,Miami Heat,3,NA,0.407,NA,17,NA,487,Other,3,65,49,Other,492
-Chris Chiozza,GSW,Golden State Warriors,2,NA,0.412,NA,34,NA,529,Other,3,48,32,Other,494
+Devon Dotson,CHI,Chicago Bulls,2.4,NA,0.538,NA,12,NA,508,Other,3.08,70,54,Other,488
+JT Thor,CHA,Charlotte Hornets,2,NA,0.525,NA,33,NA,527,Other,3.08,49,33,Other,489
+Sandro Mamukelashvili,MIL,Milwaukee Bucks,3.8,NA,0.618,NA,41,NA,445,Other,3.08,41,25,Other,490
+Admiral Schofield,ORL,Orlando Magic,3.8,NA,0.538,NA,38,NA,444,Other,3,44,28,Other,493
+Chris Chiozza,GSW,Golden State Warriors,2,NA,0.412,NA,34,NA,523,Other,3,48,32,Other,494
+Javonte Smart,MIA,Miami Heat,3,NA,0.407,NA,17,NA,482,Other,3,65,49,Other,492
 Langston Galloway,MIL,Milwaukee Bucks,2,NA,0.269,NA,7,NA,528,Other,3,75,59,Other,496
-Jeff Dowtin,ORL,Orlando Magic,2.4,NA,0.353,NA,8,NA,508,Other,2.93,74,58,Other,497
-Sam Hauser,BOS,Boston Celtics,2.5,0.7,0.65,0.532,26,3,504,Other,2.85,56,40,Other,503
-Paul Watson,OKC,Oklahoma City Thunder,3.4,NA,0.432,NA,9,NA,461,Other,2.85,73,57,Other,502
-Nik Stauskas,BOS,Boston Celtics,2.3,1.1,0.541,0.512,8,9,517,Other,2.85,74,58,Other,501
-Cat Barber,ATL,Atlanta Hawks,0,NA,0,NA,2,NA,594,Other,2.85,80,64,Other,500
+Paris Bass,PHX,Phoenix Suns,3,NA,0.436,NA,2,NA,488,Other,3,80,64,Other,495
+Jeff Dowtin,ORL,Orlando Magic,2.4,NA,0.353,NA,8,NA,509,Other,2.93,74,58,Other,497
+Cat Barber,ATL,Atlanta Hawks,0,NA,0,NA,2,NA,601,Other,2.85,80,64,Other,500
+Denzel Valentine,UTA,Utah Jazz,2.9,NA,0.523,NA,24,NA,494,Other,2.85,58,42,Other,498
 Eugene Omoruyi,DAL,Dallas Mavericks,1.8,NA,0.518,NA,4,NA,538,Other,2.85,78,62,Other,499
-Denzel Valentine,UTA,Utah Jazz,2.9,NA,0.523,NA,24,NA,493,Other,2.85,58,42,Other,498
-Bruno Fernando,HOU,Houston Rockets,2.9,NA,0.671,NA,30,NA,494,Other,2.78,52,36,Other,505
-Theo Pinson,DAL,Dallas Mavericks,2.5,NA,0.553,NA,19,NA,505,Other,2.78,63,47,Other,506
-Tim Frazier,CLE,Cleveland Cavaliers,3.3,NA,0.398,NA,12,NA,466,Other,2.78,70,54,Other,504
-Nick Richards,CHA,Charlotte Hornets,3,NA,0.689,NA,50,NA,489,Other,2.7,32,16,Other,508
-Mychal Mulder,MIA,Miami Heat,4.1,NA,0.438,NA,17,NA,425,Other,2.7,65,49,Other,507
-Quinndary Weatherspoon,GSW,Golden State Warriors,2.7,NA,0.647,NA,11,NA,499,Other,2.63,71,55,Other,509
-Jake Layman,MIN,Minnesota Timberwolves,2.4,NA,0.5,NA,34,NA,509,Other,2.55,48,32,Other,510
-Jay Huff,LAL,Los Angeles Lakers,0,NA,0,NA,4,NA,591,Other,2.55,78,62,Other,511
-Jahmi'us Ramsey,SAC,Sacramento Kings,3.2,NA,0.468,NA,19,NA,474,Other,2.48,63,47,Other,514
-Georgios Kalaitzakis,OKC,Oklahoma City Thunder,6.6,NA,0.536,NA,13,NA,312,Other,2.48,69,53,Other,513
+Nik Stauskas,BOS,Boston Celtics,2.3,1,0.541,0.472,8,13,517,Other,2.85,74,58,Other,501
+Paul Watson,OKC,Oklahoma City Thunder,3.4,NA,0.432,NA,9,NA,463,Other,2.85,73,57,Other,502
+Sam Hauser,BOS,Boston Celtics,2.5,0.7,0.65,0.512,26,7,504,Other,2.85,56,40,Other,503
+Bruno Fernando,HOU,Houston Rockets,2.9,NA,0.671,NA,30,NA,495,Other,2.78,52,36,Other,505
+Theo Pinson,DAL,Dallas Mavericks,2.5,NA,0.553,NA,19,NA,507,Other,2.78,63,47,Other,506
+Tim Frazier,CLE,Cleveland Cavaliers,3.3,NA,0.398,NA,12,NA,468,Other,2.78,70,54,Other,504
+Mychal Mulder,MIA,Miami Heat,4.1,NA,0.438,NA,17,NA,429,Other,2.7,65,49,Other,507
+Nick Richards,CHA,Charlotte Hornets,3,NA,0.689,NA,50,NA,486,Other,2.7,32,16,Other,508
+Quinndary Weatherspoon,GSW,Golden State Warriors,2.7,NA,0.647,NA,11,NA,500,Other,2.63,71,55,Other,509
+Jake Layman,MIN,Minnesota Timberwolves,2.4,NA,0.5,NA,34,NA,512,Other,2.55,48,32,Other,510
+Jay Huff,LAL,Los Angeles Lakers,0,NA,0,NA,4,NA,604,Other,2.55,78,62,Other,511
+Brodric Thomas,BOS,Boston Celtics,1.8,NA,0.52,NA,12,NA,537,Other,2.48,70,54,Other,512
+Georgios Kalaitzakis,OKC,Oklahoma City Thunder,6.6,NA,0.536,NA,13,NA,311,Other,2.48,69,53,Other,513
+Jahmi'us Ramsey,SAC,Sacramento Kings,3.2,NA,0.468,NA,19,NA,471,Other,2.48,63,47,Other,514
+M.J. Walker,PHX,Phoenix Suns,0,NA,0,NA,2,NA,595,Other,2.48,80,64,Other,515
 Tacko Fall,CLE,Cleveland Cavaliers,1.1,NA,0.398,NA,11,NA,555,Other,2.48,71,55,Other,516
-Brodric Thomas,BOS,Boston Celtics,1.8,NA,0.52,NA,12,NA,539,Other,2.48,70,54,Other,512
-M.J. Walker,PHX,Phoenix Suns,0,NA,0,NA,2,NA,590,Other,2.48,80,64,Other,515
-Kevin Knox,ATL,Atlanta Hawks,3.1,11,0.491,0.926,30,2,479,Other,2.4,52,36,Other,519
+Alfonzo McKinnie,CHI,Chicago Bulls,3.5,NA,0.457,NA,17,NA,456,Other,2.4,65,49,Other,518
 Gabriel Deck,OKC,Oklahoma City Thunder,2.9,NA,0.672,NA,7,NA,491,Other,2.4,75,59,Other,521
-Skylar Mays,ATL,Atlanta Hawks,2.9,1,0.589,1,28,2,492,Other,2.4,54,38,Other,520
-Alfonzo McKinnie,CHI,Chicago Bulls,3.5,NA,0.457,NA,17,NA,458,Other,2.4,65,49,Other,518
-Jarron Cumberland,POR,Portland Trail Blazers,0.7,NA,0.5,NA,3,NA,570,Other,2.4,79,63,Other,517
+Jarron Cumberland,POR,Portland Trail Blazers,0.7,NA,0.5,NA,3,NA,569,Other,2.4,79,63,Other,517
+Kevin Knox,ATL,Atlanta Hawks,3.1,11,0.491,0.926,30,2,479,Other,2.4,52,36,Other,519
+Skylar Mays,ATL,Atlanta Hawks,2.9,1,0.589,1,28,2,490,Other,2.4,54,38,Other,520
 Ed Davis,CLE,Cleveland Cavaliers,0.9,NA,0.632,NA,31,NA,566,Other,2.33,51,35,Other,522
-Joe Wieskamp,SAS,San Antonio Spurs,2,NA,0.494,NA,30,NA,533,Other,2.33,52,36,Other,524
-Tyrone Wallace,NOP,New Orleans Pelicans,2.8,NA,0.383,NA,6,NA,496,Other,2.33,76,60,Other,523
-Emmanuel Mudiay,SAC,Sacramento Kings,1.5,NA,0.399,NA,2,NA,545,Other,2.25,80,64,Other,528
-Ahmad Caver,IND,Indiana Pacers,2,NA,1,NA,1,NA,534,Other,2.25,81,65,Other,526
-Semi Ojeleye,LAC,Los Angeles Clippers,3.3,NA,0.438,NA,30,NA,465,Other,2.25,52,36,Other,529
+Joe Wieskamp,SAS,San Antonio Spurs,2,NA,0.494,NA,30,NA,524,Other,2.33,52,36,Other,524
+Tyrone Wallace,NOP,New Orleans Pelicans,2.8,NA,0.383,NA,6,NA,497,Other,2.33,76,60,Other,523
+Ahmad Caver,IND,Indiana Pacers,2,NA,1,NA,1,NA,531,Other,2.25,81,65,Other,526
+Anthony Lamb,SAS,San Antonio Spurs,0,NA,0,NA,2,NA,588,Other,2.25,80,64,Other,530
 Charlie Brown,PHI,Philadelphia 76ers,1.4,NA,0.346,NA,22,NA,549,Other,2.25,60,44,Other,525
-Udonis Haslem,MIA,Miami Heat,2.5,NA,0.495,NA,13,NA,507,Other,2.25,69,53,Other,532
 Chris Silva,MIA,Miami Heat,2.6,NA,0.641,NA,10,NA,502,Other,2.25,72,56,Other,531
-Anthony Lamb,SAS,San Antonio Spurs,0,NA,0,NA,2,NA,583,Other,2.25,80,64,Other,530
-Jordan Bell,CHI,Chicago Bulls,0,NA,NA,NA,1,NA,587,Other,2.25,81,65,Other,527
-Jaylen Morris,SAS,San Antonio Spurs,0.7,NA,0.129,NA,3,NA,572,Other,2.1,79,63,Other,535
+Emmanuel Mudiay,SAC,Sacramento Kings,1.5,NA,0.399,NA,2,NA,546,Other,2.25,80,64,Other,528
+Jordan Bell,CHI,Chicago Bulls,0,NA,NA,NA,1,NA,584,Other,2.25,81,65,Other,527
+Semi Ojeleye,LAC,Los Angeles Clippers,3.3,NA,0.438,NA,30,NA,469,Other,2.25,52,36,Other,529
+Udonis Haslem,MIA,Miami Heat,2.5,NA,0.495,NA,13,NA,506,Other,2.25,69,53,Other,532
+Jaylen Morris,SAS,San Antonio Spurs,0.7,NA,0.129,NA,3,NA,570,Other,2.1,79,63,Other,535
 Justin Robinson,DET,Detroit Pistons,3.1,NA,0.404,NA,25,NA,475,Other,2.1,57,41,Other,534
-Leandro Bolmaro,MIN,Minnesota Timberwolves,1.4,NA,0.419,NA,35,NA,548,Other,2.1,47,31,Other,533
-Haywood Highsmith,MIA,Miami Heat,2.3,1.1,0.446,0.643,19,8,514,Other,2.03,63,47,Other,536
-Kevin Pangos,CLE,Cleveland Cavaliers,1.6,NA,0.408,NA,25,NA,544,Other,2.03,57,41,Other,537
+Leandro Bolmaro,MIN,Minnesota Timberwolves,1.4,NA,0.419,NA,35,NA,547,Other,2.1,47,31,Other,533
+Haywood Highsmith,MIA,Miami Heat,2.3,1.1,0.446,0.643,19,8,515,Other,2.03,63,47,Other,536
+Kevin Pangos,CLE,Cleveland Cavaliers,1.6,NA,0.408,NA,25,NA,543,Other,2.03,57,41,Other,537
 Marko Simonovic,CHI,Chicago Bulls,1.9,NA,0.428,NA,9,NA,536,Other,2.03,73,57,Other,538
+Jalen Johnson,ATL,Atlanta Hawks,2.4,0,0.59,0,22,2,511,Other,1.95,60,44,Other,539
 Jordan Schakel,WAS,Washington Wizards,1.3,NA,0.21,NA,4,NA,550,Other,1.95,78,62,Other,540
-Jalen Johnson,ATL,Atlanta Hawks,2.4,0,0.59,0,22,2,512,Other,1.95,60,44,Other,539
-Elijah Hughes,POR,Portland Trail Blazers,3.5,NA,0.426,NA,36,NA,455,Other,1.88,46,30,Other,542
-Cassius Winston,WAS,Washington Wizards,2,NA,0.549,NA,7,NA,527,Other,1.88,75,59,Other,541
-Alize Johnson,NOP,New Orleans Pelicans,1.8,NA,0.474,NA,23,NA,537,Other,1.8,59,43,Other,543
+Cassius Winston,WAS,Washington Wizards,2,NA,0.549,NA,7,NA,530,Other,1.88,75,59,Other,541
+Elijah Hughes,POR,Portland Trail Blazers,3.5,NA,0.426,NA,36,NA,454,Other,1.88,46,30,Other,542
+Alize Johnson,NOP,New Orleans Pelicans,1.8,NA,0.474,NA,23,NA,539,Other,1.8,59,43,Other,543
 Robert Woodard,SAC,Sacramento Kings,0.6,NA,0.207,NA,12,NA,574,Other,1.73,70,54,Other,544
-RJ Nembhard,CLE,Cleveland Cavaliers,1.1,NA,0.38,NA,14,NA,557,Other,1.65,68,52,Other,546
-Isaiah Todd,WAS,Washington Wizards,1.7,NA,0.349,NA,12,NA,541,Other,1.65,70,54,Other,545
-Petr Cornelie,DEN,Denver Nuggets,1.1,NA,0.418,NA,13,NA,558,Other,1.58,69,53,Other,547
+Isaiah Todd,WAS,Washington Wizards,1.7,NA,0.349,NA,12,NA,542,Other,1.65,70,54,Other,545
+RJ Nembhard,CLE,Cleveland Cavaliers,1.1,NA,0.38,NA,14,NA,558,Other,1.65,68,52,Other,546
+Petr Cornelie,DEN,Denver Nuggets,1.1,NA,0.418,NA,13,NA,557,Other,1.58,69,53,Other,547
+Moses Wright,DAL,Dallas Mavericks,1.3,NA,0.47,NA,4,NA,551,Other,1.5,78,62,Other,548
 Shaq Buchanan,MEM,Memphis Grizzlies,1,NA,0.25,NA,2,NA,562,Other,1.5,80,64,Other,549
-Moses Wright,DAL,Dallas Mavericks,1.3,NA,0.47,NA,4,NA,552,Other,1.5,78,62,Other,548
 Justin Jackson,PHX,Phoenix Suns,2.1,NA,0.472,NA,7,NA,521,Other,1.43,75,59,Other,550
-Ryan Arcidiacono,NYK,New York Knicks,1.6,NA,0.667,NA,10,NA,543,Other,1.35,72,56,Other,551
-Chandler Hutchison,PHX,Phoenix Suns,0.7,NA,0.694,NA,6,NA,569,Other,1.35,76,60,Other,552
+Chandler Hutchison,PHX,Phoenix Suns,0.7,NA,0.694,NA,6,NA,571,Other,1.35,76,60,Other,552
+Ryan Arcidiacono,NYK,New York Knicks,1.6,NA,0.667,NA,10,NA,544,Other,1.35,72,56,Other,551
 Joel Ayayi,WAS,Washington Wizards,0.3,NA,0.167,NA,7,NA,581,Other,1.2,75,59,Other,553
-Malik Fitts,BOS,Boston Celtics,1.4,0.7,0.553,0.833,15,7,547,Other,1.2,67,51,Other,554
-Keljin Blevins,POR,Portland Trail Blazers,3.1,NA,0.41,NA,31,NA,480,Other,1.13,51,35,Other,556
+Malik Fitts,BOS,Boston Celtics,1.4,0.9,0.553,1,15,9,548,Other,1.2,67,51,Other,554
 Isaac Bonga,TOR,Toronto Raptors,0.8,2,0.363,1.136,15,1,568,Other,1.13,67,51,Other,555
-Scottie Lewis,CHA,Charlotte Hornets,0.5,NA,0.568,NA,2,NA,576,Other,0.98,80,64,Other,557
+Keljin Blevins,POR,Portland Trail Blazers,3.1,NA,0.41,NA,31,NA,480,Other,1.13,51,35,Other,556
+Scottie Lewis,CHA,Charlotte Hornets,0.5,NA,0.568,NA,2,NA,577,Other,0.98,80,64,Other,557
+Daniel Oturu,TOR,Toronto Raptors,3,NA,0.549,NA,3,NA,489,Other,0.9,79,63,Other,559
 Marcos Louzada Silva,POR,Portland Trail Blazers,3.9,NA,0.517,NA,9,NA,438,Other,0.9,73,57,Other,558
-Yves Pons,MEM,Memphis Grizzlies,1.1,NA,0.385,NA,12,NA,556,Other,0.9,70,54,Other,560
-Daniel Oturu,TOR,Toronto Raptors,3,NA,0.549,NA,3,NA,483,Other,0.9,79,63,Other,559
-Kai Jones,CHA,Charlotte Hornets,1,NA,0.628,NA,21,NA,559,Other,0.83,61,45,Other,561
-Feron Hunt,NYK,New York Knicks,0,NA,0,NA,2,NA,584,Other,0.75,80,64,Other,565
-Jon Teske,MEM,Memphis Grizzlies,0,NA,0,NA,3,NA,585,Other,0.75,79,63,Other,563
-DaQuan Jeffries,MEM,Memphis Grizzlies,0.7,NA,0.5,NA,3,NA,571,Other,0.75,79,63,Other,562
-DeJon Jarreau,IND,Indiana Pacers,0,NA,NA,NA,1,NA,586,Other,0.75,81,65,Other,564
+Yves Pons,MEM,Memphis Grizzlies,1.1,NA,0.385,NA,12,NA,554,Other,0.9,70,54,Other,560
+Kai Jones,CHA,Charlotte Hornets,1,NA,0.628,NA,21,NA,563,Other,0.83,61,45,Other,561
+DaQuan Jeffries,MEM,Memphis Grizzlies,0.7,NA,0.5,NA,3,NA,572,Other,0.75,79,63,Other,562
+DeJon Jarreau,IND,Indiana Pacers,0,NA,NA,NA,1,NA,598,Other,0.75,81,65,Other,564
+Feron Hunt,NYK,New York Knicks,0,NA,0,NA,2,NA,599,Other,0.75,80,64,Other,565
+Jon Teske,MEM,Memphis Grizzlies,0,NA,0,NA,3,NA,597,Other,0.75,79,63,Other,563
 McKinley Wright,MIN,Minnesota Timberwolves,1,NA,0.833,NA,5,NA,560,Other,0.68,77,61,Other,566
-Vernon Carey,WAS,Washington Wizards,2.9,NA,0.534,NA,7,NA,495,Other,0.6,75,59,Other,570
-Dakota Mathias,MEM,Memphis Grizzlies,1,NA,0.5,NA,6,NA,563,Other,0.6,76,60,Other,569
-Darren Collison,LAL,Los Angeles Lakers,1.3,NA,0.286,NA,3,NA,551,Other,0.6,79,63,Other,568
-Jaden Springer,PHI,Philadelphia 76ers,1,1.2,1,0.5,2,5,561,Other,0.6,80,64,Other,571
+Dakota Mathias,MEM,Memphis Grizzlies,1,NA,0.5,NA,6,NA,561,Other,0.6,76,60,Other,569
+Darren Collison,LAL,Los Angeles Lakers,1.3,NA,0.286,NA,3,NA,552,Other,0.6,79,63,Other,568
+Jaden Springer,PHI,Philadelphia 76ers,1,1.2,1,0.5,2,5,559,Other,0.6,80,64,Other,571
 Myles Powell,PHI,Philadelphia 76ers,1.2,NA,0.364,NA,11,NA,553,Other,0.6,71,55,Other,567
+Vernon Carey,WAS,Washington Wizards,2.9,NA,0.534,NA,7,NA,493,Other,0.6,75,59,Other,570
 Xavier Sneed,UTA,Utah Jazz,0.6,NA,0.25,NA,9,NA,575,Other,0.53,73,57,Other,572
-Jemerrio Jones,LAL,Los Angeles Lakers,2,NA,0.667,NA,2,NA,531,Other,0.38,80,64,Other,574
 Deividas Sirvydis,DET,Detroit Pistons,1,NA,0.15,NA,3,NA,565,Other,0.38,79,63,Other,575
+Jemerrio Jones,LAL,Los Angeles Lakers,2,NA,0.667,NA,2,NA,526,Other,0.38,80,64,Other,574
 Tyrell Terry,MEM,Memphis Grizzlies,1,NA,1,NA,2,NA,564,Other,0.38,80,64,Other,573
-Cheick Diallo,DET,Detroit Pistons,3.7,NA,0.517,NA,3,NA,447,Other,0.23,79,63,Other,577
-Nate Hinton,IND,Indiana Pacers,0,NA,0,NA,2,NA,588,Other,0.23,80,64,Other,576
-Wayne Selden,NYK,New York Knicks,1.7,NA,0.434,NA,3,NA,542,Other,0.15,79,63,Other,578
+Cheick Diallo,DET,Detroit Pistons,3.7,NA,0.517,NA,3,NA,448,Other,0.23,79,63,Other,577
+Nate Hinton,IND,Indiana Pacers,0,NA,0,NA,2,NA,600,Other,0.23,80,64,Other,576
+Wayne Selden,NYK,New York Knicks,1.7,NA,0.434,NA,3,NA,540,Other,0.15,79,63,Other,578
 Carlik Jones,DEN,Denver Nuggets,0.8,NA,0.202,NA,5,NA,567,Other,0.08,77,61,Other,579
-Juwan Morgan,BOS,Boston Celtics,2.5,0.2,0.833,0.266,2,6,506,Other,0,80,64,Other,580
-Scotty Hopson,OKC,Oklahoma City Thunder,4,NA,0.5,NA,1,NA,434,Other,0,81,65,Other,581
-Aleem Ford,ORL,Orlando Magic,3,NA,0.353,NA,4,NA,488,Other,-0.23,78,62,Other,583
+Juwan Morgan,BOS,Boston Celtics,2.5,0.1,0.833,0.266,2,9,505,Other,0,80,64,Other,580
+Scotty Hopson,OKC,Oklahoma City Thunder,4,NA,0.5,NA,1,NA,435,Other,0,81,65,Other,581
+Aleem Ford,ORL,Orlando Magic,3,NA,0.353,NA,4,NA,481,Other,-0.23,78,62,Other,583
+Micah Potter,DET,Detroit Pistons,4,NA,0.505,NA,3,NA,434,Other,-0.23,79,63,Other,584
 Miye Oni,UTA,Utah Jazz,0.3,NA,0.265,NA,16,NA,579,Other,-0.23,66,50,Other,582
-Micah Potter,DET,Detroit Pistons,4,NA,0.505,NA,3,NA,432,Other,-0.23,79,63,Other,584
-JaQuori McLaughlin,DAL,Dallas Mavericks,0,NA,0,NA,4,NA,592,Other,-0.3,78,62,Other,585
-Ade Murkey,SAC,Sacramento Kings,0,NA,NA,NA,1,NA,595,Other,-0.38,81,65,Other,587
-Jaime Echenique,WAS,Washington Wizards,0,NA,NA,NA,1,NA,596,Other,-0.38,81,65,Other,588
-Norvel Pelle,UTA,Utah Jazz,2,NA,0.6,NA,3,NA,535,Other,-0.38,79,63,Other,590
-David Johnson,TOR,Toronto Raptors,0,NA,0,NA,2,NA,593,Other,-0.38,80,64,Other,586
-Joe Johnson,BOS,Boston Celtics,2,NA,1,NA,1,NA,524,Other,-0.38,81,65,Other,589
-Sharife Cooper,ATL,Atlanta Hawks,0.5,NA,0.25,NA,13,NA,577,Other,-0.45,69,53,Other,591
+JaQuori McLaughlin,DAL,Dallas Mavericks,0,NA,0,NA,4,NA,602,Other,-0.3,78,62,Other,585
+Ade Murkey,SAC,Sacramento Kings,0,NA,NA,NA,1,NA,582,Other,-0.38,81,65,Other,587
+David Johnson,TOR,Toronto Raptors,0,NA,0,NA,2,NA,603,Other,-0.38,80,64,Other,586
+Jaime Echenique,WAS,Washington Wizards,0,NA,NA,NA,1,NA,583,Other,-0.38,81,65,Other,588
+Joe Johnson,BOS,Boston Celtics,2,NA,1,NA,1,NA,533,Other,-0.38,81,65,Other,589
+Norvel Pelle,UTA,Utah Jazz,2,NA,0.6,NA,3,NA,529,Other,-0.38,79,63,Other,590
+Sharife Cooper,ATL,Atlanta Hawks,0.5,NA,0.25,NA,13,NA,576,Other,-0.45,69,53,Other,591
 Aaron Henry,PHI,Philadelphia 76ers,0.3,NA,0.2,NA,6,NA,578,Other,-0.83,76,60,Other,592
-Jordan Goodwin,WAS,Washington Wizards,0,NA,0,NA,2,NA,598,Other,-1.35,80,64,Other,593
-Emanuel Terry,PHX,Phoenix Suns,0,NA,0,NA,3,NA,597,Other,-1.35,79,63,Other,594
-Matt Mooney,NYK,New York Knicks,0,NA,0,NA,1,NA,599,Other,-1.5,81,65,Other,596
-Rob Edwards,OKC,Oklahoma City Thunder,1.5,NA,0.375,NA,2,NA,546,Other,-1.5,80,64,Other,595
-Tyler Hall,NYK,New York Knicks,0,NA,NA,NA,1,NA,600,Other,-1.88,81,65,Other,599
-Sam Dekker,TOR,Toronto Raptors,0,NA,NA,NA,1,NA,602,Other,-1.88,81,65,Other,597
-C.J. Miles,BOS,Boston Celtics,0,NA,NA,NA,1,NA,601,Other,-1.88,81,65,Other,598
+Emanuel Terry,PHX,Phoenix Suns,0,NA,0,NA,3,NA,586,Other,-1.35,79,63,Other,594
+Jordan Goodwin,WAS,Washington Wizards,0,NA,0,NA,2,NA,585,Other,-1.35,80,64,Other,593
+Matt Mooney,NYK,New York Knicks,0,NA,0,NA,1,NA,587,Other,-1.5,81,65,Other,596
+Rob Edwards,OKC,Oklahoma City Thunder,1.5,NA,0.375,NA,2,NA,545,Other,-1.5,80,64,Other,595
+C.J. Miles,BOS,Boston Celtics,0,NA,NA,NA,1,NA,589,Other,-1.88,81,65,Other,598
+Sam Dekker,TOR,Toronto Raptors,0,NA,NA,NA,1,NA,590,Other,-1.88,81,65,Other,597
+Tyler Hall,NYK,New York Knicks,0,NA,NA,NA,1,NA,591,Other,-1.88,81,65,Other,599
 Melvin Frazier,OKC,Oklahoma City Thunder,10.7,NA,0.313,NA,3,NA,163,Other,-2.1,79,63,Other,600
 George King,DAL,Dallas Mavericks,0.3,NA,0.085,NA,4,NA,580,Other,-2.18,78,62,Other,601
-Arnoldas Kulboka,CHA,Charlotte Hornets,0,NA,0,NA,2,NA,589,Other,-2.25,80,64,Other,602
-Jaysean Paige,DET,Detroit Pistons,0,NA,0,NA,1,NA,604,Other,-3.38,81,65,Other,603
-Zylan Cheatham,UTA,Utah Jazz,0,NA,0,NA,1,NA,603,Other,-4.88,81,65,Other,604
+Arnoldas Kulboka,CHA,Charlotte Hornets,0,NA,0,NA,2,NA,596,Other,-2.25,80,64,Other,602
+Jaysean Paige,DET,Detroit Pistons,0,NA,0,NA,1,NA,594,Other,-3.38,81,65,Other,603
+Zylan Cheatham,UTA,Utah Jazz,0,NA,0,NA,1,NA,593,Other,-4.88,81,65,Other,604

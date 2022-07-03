@@ -38,6 +38,8 @@ body_about <- dashboardBody(
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/nba_elt_mlflow", "ML Pipeline"),
             tags$br(),
+            tags$a(href = "https://github.com/jyablonski/graphql_praq", "GraphQL API"),
+            tags$br(),
             h3("Developer"),
             "Jacob Yablonski | ",
             tags$a(href = "https://www.linkedin.com/in/jacobyablonski/", "LinkedIn"), "|",
