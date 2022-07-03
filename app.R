@@ -270,10 +270,10 @@ server <- function(input, output, session) {
   ###############################
   
   output$reddit_table <- DT::renderDataTable(reddit_data, rownames = FALSE,
-                                             options = list(pageLength = 25))
+                                             options = list(pageLength = 10))
   
   output$twitter_table <- DT::renderDataTable(twitter_data, rownames = FALSE,
-                                              options = list(pageLength = 25))
+                                              options = list(pageLength = 10))
   
   selected_social_media <- reactive({
     if (input$select_social_media == 'Reddit Comments') {
@@ -282,6 +282,10 @@ server <- function(input, output, session) {
     else {
       twitter_data
     }
+  })
+  
+  output$reddit_plot_output <- renderPlotly({
+    reddit_sentiment_plot(reddit_team_sentiment, input$select_team_social)
   })
   
   output$bans_reddit <- renderValueBox({
@@ -303,7 +307,7 @@ server <- function(input, output, session) {
   
   
   output$social_media_table <- DT::renderDataTable(datatable(selected_social_media(), rownames = FALSE,
-                                                   options = list(pageLength = 25),
+                                                   options = list(pageLength = 10),
                                                    escape = FALSE) %>%
                                                    # container = sentiment_analysis_header) %>%
                                                      formatPercentage(c('Compound Sentiment Score',

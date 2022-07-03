@@ -31,9 +31,7 @@
 	* [dbt](https://github.com/jyablonski/nba_elt_dbt)
 	* [ML Pipeline](https://github.com/jyablonski/nba_elt_mlflow)
 	* [Airflow Proof of Concept](https://github.com/jyablonski/nba_elt_airflow)
-		* Ideally I would use this for workflow orchestration, but I cannot host a stable version of Airflow for free.
-		* This Repo utilizes a Docker template to work with Airflow locally, and I've created Dev & Prod DAGs to resemble what a production Airflow workflow would look like for this project.
-
+	* [GraphQL API](https://github.com/jyablonski/graphql_praq)
   
 * Main R Packages Used
 
@@ -54,4 +52,5 @@
 	* NLTK
 	* twint
 	* scikit-learn
+	* MLFlow
 	* pytest

@@ -27,6 +27,20 @@ body_social_media_analysis <- dashboardBody(
       width = 12,
       DT::dataTableOutput("social_media_table")
     )
+  ),
+  box(
+    fluidRow(
+      column(2, 
+             selectInput('select_team_social', h3("Select a Team"),
+                         choices = team_choices_social,
+                         selected = "GSW"),
+      )),
+    title = "Reddit Sentiment Analysis",
+    status = "primary",
+    solidHeader = TRUE,
+    collapsible = FALSE,
+    width = 12,
+    plotlyOutput("reddit_plot_output", height = "600px")
   )
 )
 # fluidRow(
