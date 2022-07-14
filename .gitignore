@@ -14,3 +14,4 @@ archive.R
 NBA-Dashboard.Rcheck
 NBA-Dashboard_*.tar.gz
 # data/*
+data/
