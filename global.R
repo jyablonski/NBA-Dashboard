@@ -170,7 +170,8 @@ reddit_data <- get_data('prod_reddit_comments') %>%
   select(`Scrape Date` = scrape_date, User = author, Flair = flair, Comment = comment, Score = score,
          `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(Score = as.numeric(Score),
-         URL = paste0("<a href='",URL,"'>",URL,"</a>"))
+         URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
+  head(2000)
 
 reddit_team_sentiment <- get_data('prod_reddit_sentiment_time_series') %>%
   mutate(num_comments = as.numeric(num_comments))
@@ -209,7 +210,8 @@ transactions <- get_data('prod_transactions') %>%
 twitter_data <- get_data('prod_twitter_comments') %>%
   select(`Tweet Date` = created_at, User = username, Tweet = tweet, Likes = likes, Retweets = retweets,
          `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
-  mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>"))
+  mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
+  head(2000)
 
 dbDisconnect(aws_connect)
 
