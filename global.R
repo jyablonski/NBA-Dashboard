@@ -207,8 +207,8 @@ transactions <- get_data('prod_transactions') %>%
   select(Date = date, Transaction = transaction)
 
 twitter_data <- get_data('prod_twitter_comments') %>%
-  select(`Scrape Date` = scrape_date, User = username, Tweet = tweet, Likes = likes_count, Retweets = retweets_count,
-         Replies = replies_count, `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
+  select(`Tweet Date` = created_at, User = username, Tweet = tweet, Likes = likes, Retweets = retweets,
+         `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>"))
 
 dbDisconnect(aws_connect)
