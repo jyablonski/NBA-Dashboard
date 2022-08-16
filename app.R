@@ -273,7 +273,12 @@ server <- function(input, output, session) {
                                              options = list(pageLength = 10))
   
   output$twitter_table <- DT::renderDataTable(twitter_data, rownames = FALSE,
-                                              options = list(pageLength = 10))
+                                              options = list(pageLength = 10),
+                                              caption = htmltools::tags$caption(
+                                                style = 'caption-side: bottom;',
+                                                htmltools::em("Data collected from Twitter's API can include anything within the past 7 days.")
+                                              )
+  )
   
   selected_social_media <- reactive({
     if (input$select_social_media == 'Reddit Comments') {
