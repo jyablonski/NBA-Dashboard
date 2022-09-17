@@ -1,0 +1,10 @@
+version: '3'
+services:
+
+  latest:
+      build:
+          context: ..
+          dockerfile: docker/Dockerfile
+      image: jyablonski-shiny-test
+      ports: 
+        - 3838:3838
