@@ -7,7 +7,12 @@ Authors@R:
 Description: NBA Shiny Dashboard
 License: LGPL (>= 2.1)
 Imports: 
-    tidyverse,
+    dplyr,
+    ggplot2,
+    forcats,
+    stringr,
+    purrr,
+    tidyr,
     stringr,
     lubridate,
     extrafont,
