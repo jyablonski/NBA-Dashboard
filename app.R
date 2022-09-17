@@ -17,6 +17,7 @@ ui <- fluidPage(
   #                               href="favicon.ico", 
   #                               type="image/x-icon")
   #   )),
+  tags$head(includeScript("js/navbar.js")),
   tags$head(tags$link(rel="icon", type = "image/x-icon", href="favicon.ico")),
   tags$style(type = "text/css", ".selectize-input {background-color:#F0F0F0;
                       color:#000000;
@@ -64,6 +65,7 @@ ui <- fluidPage(
                                                 header = dashboardHeader(disable = TRUE),
                                                 sidebar = dashboardSidebar(disable = TRUE),
                                                 body = body_social_media_analysis)),
+             navbarMenu(title = "API"),
              # tabPanel("Player Analysis", dashboardPage(title = "Player Analysis",
              #                                                 header = dashboardHeader(disable = TRUE),
              #                                                 sidebar = dashboardSidebar(disable = TRUE),
@@ -289,8 +291,17 @@ server <- function(input, output, session) {
     }
   })
   
+  selected_reddit_plot <- reactive({
+    if (input$select_reddit_plot_choice == 'Reddit Comments') {
+      reddit_comment_plot(reddit_team_sentiment, input$select_team_social)
+    }
+    else {
+      reddit_sentiment_plot(reddit_team_sentiment, input$select_team_social)
+    }
+  })
+  
   output$reddit_plot_output <- renderPlotly({
-    reddit_sentiment_plot(reddit_team_sentiment, input$select_team_social)
+    selected_reddit_plot()
   })
   
   output$bans_reddit <- renderValueBox({

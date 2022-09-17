@@ -1,5 +1,9 @@
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(forcats)
 library(stringr)
+library(purrr)
+library(tidyr)
 library(lubridate)
 library(extrafont)
 library(ggrepel)
@@ -8,8 +12,8 @@ library(shiny)
 library(shinydashboard)
 library(plotly)
 library(DT)
-library(anytime)
-library(runner)
+# library(anytime)
+# library(runner)
 library(fs)
 library(scales)
 library(stringi)
@@ -19,9 +23,7 @@ library(DBI)
 library(gt)
 library(shinythemes)
 
-# call renv::restore() to build packages
 Sys.setenv (TZ="America/Chicago")
-#### AWS CONNECTION #####
 
 aws_connect <- dbConnect(drv = RPostgres::Postgres(), dbname = Sys.getenv('aws_db'),
                          host = Sys.getenv('aws_host'),
@@ -158,7 +160,7 @@ preseason_odds <- get_data('prod_preseason_odds') %>%
 recent_games_players <- get_data('prod_recent_games_players') %>%
   arrange(desc(pts)) %>%
   mutate(rank = row_number(),
-         player_new= map(player_new, ~gt::html(as.character(.x)))) %>%
+         player_new = map(player_new, ~gt::html(as.character(.x)))) %>%
   select(Rank = rank, player_logo, Player = player_new, pts, `TS%` = game_ts_percent, `+/-` = plusminus, Outcome = outcome, Salary = salary, pts_color, ts_color) %>%
   as_tibble()
 
@@ -599,7 +601,7 @@ game_types_plot <- function(df, season_type){
            hoverlabel = list(bgcolor = "white"))
 }
 
-reddit_sentiment_plot <- function(df, team_choice){
+reddit_comment_plot <- function(df, team_choice){
   p <- df %>%
     filter(team == team_choice) %>%
     ggplot(aes(scrape_date, num_comments, fill = game_outcome)) +
@@ -609,11 +611,11 @@ reddit_sentiment_plot <- function(df, team_choice){
                                                                     "Avg Compound Sentiment: ", round(mean(avg_compound), 3) * 100, "%", "<br>",
                                                                     "Previous day's Game Outcome: ", game_outcome)
                                                       )) +
-    scale_x_date(date_breaks = "1 month", date_labels = "%B %Y") +
+    scale_x_date(date_breaks = "3 month", date_labels = "%B %Y") +
     scale_fill_manual(values = c("#AA3929", "#878484", "#46b051")) +
     labs(x = NULL,
          y = '# of Comments',
-         fill = "Legend",
+         fill = "Game Legend",
          title = 'Reddit Comments Analysis using User Flairs') +
     theme_jacob() +
     theme(plot.title = element_text(hjust = 0.5), legend.position = 'top')
@@ -622,6 +624,31 @@ reddit_sentiment_plot <- function(df, team_choice){
   ggplotly(p, tooltip = c('text')) %>%
     layout(hoverlabel = list(bgcolor = "white"))
 }
+
+reddit_sentiment_plot <- function(df, team_choice){
+  p <- df %>%
+    filter(team == team_choice) %>%
+    ggplot(aes(scrape_date, avg_compound, fill = game_outcome)) +
+    geom_col(position = 'dodge', color = 'black', aes(text = paste0(scrape_date, "<br>",
+                                                                    "Total Comments: ", num_comments, "<br>",
+                                                                    "Compound Sentiment: ", avg_compound * 100, "%", "<br>",
+                                                                    "Avg Compound Sentiment: ", round(mean(avg_compound), 3) * 100, "%", "<br>",
+                                                                    "Previous day's Game Outcome: ", game_outcome)
+    )) +
+    scale_x_date(date_breaks = "3 month", date_labels = "%B %Y") +
+    scale_fill_manual(values = c("#AA3929", "#878484", "#46b051")) +
+    labs(x = NULL,
+         y = 'Average Sentiment Score',
+         fill = "Game Legend",
+         title = 'Reddit Sentiment Analysis using User Flairs') +
+    theme_jacob() +
+    theme(plot.title = element_text(hjust = 0.5), legend.position = 'top')
+  
+  
+  ggplotly(p, tooltip = c('text')) %>%
+    layout(hoverlabel = list(bgcolor = "white"))
+}
+
 
 contracts_dist_plot <- function(df){
   df %>%
