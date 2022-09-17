@@ -12,7 +12,8 @@
 1. NBA Data is web scraped in Python on a Cron Schedule ran via ECS Fargate, and data is subsequently stored to source tables in a PostgreSQL Database.
 2. dbt Cloud executes data transformations in SQL on a Cron Schedule following the ECS Task, and also performs automated schema testing, quality checks, and data validation assertions primarily via [dbt_expectations](https://github.com/calogica/dbt-expectations).
 3. An ML Pipeline is then run in Python via ECS Fargate to predict Team Win %s for Upcoming Games that night.
-4. The Shiny Server is built & deployed to [shinyapps](https://www.shinyapps.io) where it queries from the transformed SQL tables to display current stats, player metrics, gambling odds, and upcoming schedule data.
+4. AWS Step Functions is used as an orchestration tool to run all 3 tasks in sequence.
+5. The Shiny Server is built & deployed to [shinyapps](https://www.shinyapps.io) where it queries from the transformed SQL tables to display current stats, player metrics, gambling odds, and upcoming schedule data.
    * Any ELT Script failure or dbt Cloud Error / testing failure triggers an automatic email alert detailing the error(s).
    * **100%** of AWS Infrastructure is constructed via Terraform with the primary services being an ECR Repository, an RDS PostgreSQL DB, and an ECS Task to run the ELT Script, as well as all of the supporting architecture needed for those services (IAM Roles, Lifecycle Policies, Cloudwatch Logs, Security Groups, CIDR Block whitelisting, VPC/Subnets etc).
    * GitHub Actions are utilized to build CI/CD Workflows for:
