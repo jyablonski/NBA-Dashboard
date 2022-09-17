@@ -15,3 +15,5 @@ NBA-Dashboard.Rcheck
 NBA-Dashboard_*.tar.gz
 # data/*
 data/
+.vscode
+jacobs_notes.md
