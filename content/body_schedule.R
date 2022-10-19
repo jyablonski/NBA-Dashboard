@@ -21,12 +21,12 @@ body_schedule <- dashboardBody(
   ),
   fluidRow(
     box(
-      fluidRow(column(4,
-                      selectInput('select_game_types', "Select a Season Type",
-                                  choices = c('Regular Season',
-                                              'Playoffs')
-                      ),
-      )),
+      # fluidRow(column(4,
+      #                 selectInput('select_game_types', "Select a Season Type",
+      #                             choices = c('Regular Season',
+      #                                         'Playoffs')
+                      # ),
+      # )),
       title = "Game Type Analysis",
       status = "primary",
       solidHeader = TRUE,
@@ -41,8 +41,8 @@ body_schedule <- dashboardBody(
                            choices = c('Strength of Schedule (as of Today)',
                                        # 'Future Strength of Schedule',
                                        'Vegas Preseason Over/Under Odds',
-                                       'Team Comebacks Analysis (Regular Season)',
-                                       'Team Comebacks Analysis (Playoffs)'))
+                                       'Team Comebacks Analysis (Regular Season)'))
+                                       # 'Team Comebacks Analysis (Playoffs)'))
         )),
       title = "NBA Strength of Schedule Analysis",
       status = "primary",

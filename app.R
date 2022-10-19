@@ -44,7 +44,7 @@ ui <- fluidPage(
   border-right-color:#666666;
   border-top-color:#666666;
   }")),
-  navbarPage(' 2021-22 NBA Season Dashboard',
+  navbarPage(' 2022-23 NBA Season Dashboard',
              tabPanel("Overview", dashboardPage(title = "Overview",
                                                 header = dashboardHeader(disable = TRUE),
                                                 sidebar = dashboardSidebar(disable = TRUE),
@@ -140,12 +140,12 @@ server <- function(input, output, session) {
   })
   
   output$top20_plot_output <- renderPlotly({
-    if (input$select_ppg_plot_choice == 'Regular Season') {
-      top20_plot(top_scorers)
-    }
-    else {
-      top20_plot_playoffs(top_scorers)
-    }
+    # if (input$select_ppg_plot_choice == 'Regular Season') {
+    #   top20_plot(top_scorers)
+    # }
+    # else {
+    top20_plot_playoffs(top_scorers)
+    # }
   })
   
   
@@ -357,28 +357,37 @@ server <- function(input, output, session) {
                                                options = list(pageLength = 10))
   
   output$schedule_table <- DT::renderDataTable({
-    if ((input$select_schedule == "Tonight's Games") & (nrow(schedule_ml) > 0)) { # use schedule_ml for tonight's games
-      datatable(schedule_tonight, rownames = FALSE,
-      options = list(pageLength = 10),
+    if ((input$select_schedule == "Tonight's Games") & (("Home Predicted Win %" %in% names(schedule_tonight)))) {
+      # render_gt(schedule_gt_table(schedule))
+      datatable(
+        schedule_tonight, rownames = FALSE,
+        options = list(pageLength = 10,
+                       columnDefs = list(list(visible=FALSE, targets = c(5, 6, 8, 9, 11, 12)))),
       caption = htmltools::tags$caption(
         style = 'caption-side: bottom;',
-        htmltools::em('Win % Predictions created via Logistic Regression ML Model')
+        htmltools::em('Win % Predictions created via Logistic Regression ML Model | Green Cell Coloring indicates great Odds Value')
         )
       ) %>%
         formatPercentage('Home Predicted Win %', 1) %>%
-        formatPercentage('Road Predicted Win %', 1)
+        formatPercentage('Road Predicted Win %', 1) %>%
+        formatStyle("Road Team", valueColumns = "away_is_great_value", backgroundColor = styleEqual(c(1), c('#4BD33A'))) %>%
+        formatStyle("Home Team", valueColumns = "home_is_great_value", backgroundColor = styleEqual(c(1), c('#4BD33A')))
+    }
+    else if (input$select_schedule == "Tonight's Games" & (!("Home Predicted Win %" %in% names(schedule_tonight))) & (nrow(schedule_tonight) > 0)) {
+      datatable(schedule_tonight, rownames = FALSE,
+                options = list(pageLength = 10))
     }
     else if (input$select_schedule == "Tonight's Games" & nrow(schedule_ml) == 0) {
       datatable(data.frame(`No Data` = "No Data Available for Tonight's Games"))
       }
-    else {  #(input$select_schedule == "Future Schedule") {
+    else { # if the ml pipeline failed for whatever reason just do this.
       datatable(schedule, rownames = FALSE,
       options = list(pageLength = 10))
     }
   })
   
   output$game_types_output <- renderPlotly({
-    game_types_plot(game_types, input$select_game_types)
+    game_types_plot(game_types) #input$select_game_types)
   })
   
   output$schedule_plot_output <- renderPlotly({
@@ -391,9 +400,9 @@ server <- function(input, output, session) {
     else if (input$select_choice == 'Team Comebacks Analysis (Regular Season)') {
       blown_leads_plot(team_blown_leads)
     }
-    else if (input$select_choice == 'Team Comebacks Analysis (Playoffs)') {
-      blown_leads_plot(team_blown_leads, 'Playoffs')
-    }
+    # else if (input$select_choice == 'Team Comebacks Analysis (Playoffs)') {
+    #   blown_leads_plot(team_blown_leads, 'Playoffs')
+    # }
     else {
       advanced_sos_plot(past_schedule_analysis)
     }
