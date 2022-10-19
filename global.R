@@ -182,7 +182,7 @@ rolling_avg <- get_data('prod_rolling_avg_stats')
 
 schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team_odds, `Road Team` = away_team_odds, `Average Team Rank` = avg_team_rank,
-         home_team, away_team)
+         home_team, away_team) #home_moneyline_raw, home_team_logo, away_moneyline_raw, away_team_logo
 
 social_media_bans <- get_data('prod_social_media_aggs')
 
@@ -271,6 +271,18 @@ get_schedule_tonight <- function(schedule_df, schedule_df_ml){
       left_join(schedule_df_ml %>% select(home_team, Date = proper_date, home_team_predicted_win_pct, away_team_predicted_win_pct)) %>%
       filter(Date == min(Date)) %>%
       select(-home_team, -away_team) %>%
+      mutate(
+        home_is_great_value = case_when(
+          ((home_moneyline_raw >= -130 | home_moneyline_raw >= 200) & home_team_predicted_win_pct >= 0.55) |
+            (home_moneyline_raw >= 170 & home_team_predicted_win_pct >= 0.50) ~ 1,
+          TRUE ~ 0
+        ),
+        away_is_great_value = case_when(
+          ((away_moneyline_raw >= -130 | away_moneyline_raw >= 200) & away_team_predicted_win_pct >= 0.55) |
+            (away_moneyline_raw >= 170 & away_team_predicted_win_pct >= 0.50) ~ 1,
+          TRUE ~ 0
+        )
+      ) %>%
       rename(`Home Predicted Win %` = home_team_predicted_win_pct, `Road Predicted Win %` = away_team_predicted_win_pct)
     
   }
@@ -579,7 +591,7 @@ regular_valuebox_function <- function(df){
   }
 }
 
-game_types_plot <- function(df, season_type){
+game_types_plot <- function(df, season_type = "Regular Season"){
   p <- df %>%
     filter(type == season_type) %>%
     ggplot(aes(game_type, pct_total)) +
@@ -897,14 +909,29 @@ team_gt_table <- function(df){
   df %>%
     gt() %>%
     gt_theme_538() %>%
-    text_transform(locations = cells_body(c(team_logo)),
-                   fn = function(x) {
-                     web_image(url = x, height = 45)
-                   }) %>%
-    text_transform(locations = cells_body(c(opp_logo)),
-                   fn = function(x) {
-                     web_image(url = x, height = 45)
-                   }) %>%
+    text_transform(
+      locations = cells_body(columns = team_logo),
+      fn = function(x) {
+        local_image(
+          filename = df$team_logo,
+          height = 45
+        )}) %>%
+    text_transform(
+      locations = cells_body(columns = opp_logo),
+      fn = function(x) {
+        local_image(
+          filename = df$opp_logo,
+          height = 45
+        )}) %>%
+    # https://stats.nba.com/media/img/teams/logos/BOS_logo.svg
+    # text_transform(locations = cells_body(c(team_logo)),
+    #                fn = function(x) {
+    #                  web_image(url = x, height = 45)
+    #                }) %>%
+    # text_transform(locations = cells_body(c(opp_logo)),
+    #                fn = function(x) {
+    #                  web_image(url = x, height = 45)
+    #                }) %>%
     cols_hide(columns = c(pts_color, opp_pts_color)) %>%
     cols_label(team_logo = "", opp_logo = "", new_loc = "", pts_scored = "PTS", max_team_lead = "MAX LEAD",
                pts_scored_opp = 'PTS', max_opponent_lead = "MAX LEAD", mov = 'MARGIN OF VICTORY') %>%
@@ -1004,7 +1031,42 @@ player_gt_table <- function(df){
     )
   
 }
-# player_gt_table(recent_games_players)
+
+schedule_gt_table <- function(df){
+  df %>%
+    gt() %>%
+    gt_theme_538() %>%
+    text_transform(locations = cells_body(c(team_logo_home)),
+                   fn = function(x) {
+                     web_image(url = x, height = 45)
+                   }) %>%
+    text_transform(locations = cells_body(c(team_logo_away)),
+                   fn = function(x) {
+                     web_image(url = x, height = 45)
+                   }) %>%
+    cols_hide(columns = c(home_is_great_value, away_is_great_value)) %>%
+    cols_label(Date = "DATE", `Start Time (EST)` = "START TIME (EST)", team_logo_home = "", `Home Team` = 'Home Team',
+              `Home Predicted Win %` = "Home Predicted Win %", team_logo_away = "",
+               `Road Team` = 'Road Team', `Road Predicted Win %` = "Road Predicted Win %", `Average Team Rank` = 'Average Team Rank') %>%
+    tab_style(
+      style = cell_fill(color = "#9362DA"),
+      locations = cells_body(
+        columns = c(`Home Team`),
+        rows = home_is_great_value == 1)) %>%
+    tab_style(
+      style = cell_fill(color = "#9362DA"),
+      locations = cells_body(
+        columns = c(`Road Team`),
+        rows = away_is_great_value == 1)) %>%
+    tab_header(
+      title = md("Upcoming Schedule"),
+      subtitle = paste0(bans$upcoming_games[1],  " Upcoming Games on ", format(most_recent_date$date, "%A, %B %d"))) %>%
+    opt_align_table_header(align = "center") %>%
+    cols_align(
+      align = "center",
+      columns = everything()
+    )
+}
 
 # pbp choices
 pbp_games_yesterday <- unique(pbp_data$game_description)
@@ -1173,5 +1235,43 @@ sentiment_analysis_header = htmltools::withTags(table(
   )
 ))
 
-# df <- get_leading_times(pbp_event_df)
-# game_event_plot(pbp_event_df)
+# test dataframe
+# schedule_tonight <- tibble(
+#   Date = c('2022-09-30', '2022-09-30', '2022-09-30'),
+#   `Start Time (EST)` = c('6:30pm', '7:30pm', '8:30pm'),
+#   `Home Team` = c('Golden State Warriors (-230)', 'Atlanta Hawks (-310)', 'Boston Celtics (-170)'),
+#   `Road Team` = c('Brooklyn Nets (+170)', 'Chicago Bulls (+340)', 'Los Angeles Lakers (+170)'),
+#   `Average Team Rank` = c(2.5, 4.5, 6),
+#   home_moneyline_raw = c(-230, -310, -170),
+#   home_team_logo = c('aaa', 'bbb', 'ccc'),
+#   home_team_predicted_win_pct = c(.449, .73, .76),
+#   away_moneyline_raw = c(170, 340, 170),
+#   away_team_logo = c('xxx', 'yyy', 'zzz'),
+#   away_team_predicted_win_pct = c(.76, .499, .501)
+# ) %>%
+#   mutate(
+#     home_is_great_value = case_when(
+#       ((home_moneyline_raw >= -130 | home_moneyline_raw >= 200) & home_team_predicted_win_pct >= 0.55) |
+#         (home_moneyline_raw >= 170 & home_team_predicted_win_pct >= 0.50) ~ 1,
+#       TRUE ~ 0
+#     ),
+#     away_is_great_value = case_when(
+#       ((away_moneyline_raw >= -130 | away_moneyline_raw >= 200) & away_team_predicted_win_pct >= 0.55) |
+#         (away_moneyline_raw >= 170 & away_team_predicted_win_pct >= 0.50) ~ 1,
+#       TRUE ~ 0
+#     )
+#   ) %>%
+#   rename(`Home Predicted Win %` = home_team_predicted_win_pct, `Road Predicted Win %` = away_team_predicted_win_pct)
+# 
+# datatable(schedule_tonight, rownames = FALSE,
+#           options = list(pageLength = 10,
+#                          columnDefs = list(list(visible=FALSE, targets = c(5, 6, 8, 9, 11, 12)))),
+#           caption = htmltools::tags$caption(
+#             style = 'caption-side: bottom;',
+#             htmltools::em('Win % Predictions created via Logistic Regression ML Model')
+#           )
+# ) %>%
+#   formatPercentage('Home Predicted Win %', 1) %>%
+#   formatPercentage('Road Predicted Win %', 1) %>%
+#   formatStyle("Road Team", valueColumns = "away_is_great_value", backgroundColor = styleEqual(c(1), c('#4BD33A'))) %>%
+#   formatStyle("Home Team", valueColumns = "home_is_great_value", backgroundColor = styleEqual(c(1), c('#4BD33A')))

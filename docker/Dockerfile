@@ -43,6 +43,7 @@ COPY .Renviron ./.Renviron
 COPY logos ./logos
 COPY www ./www
 COPY renv/activate.R renv/activate.R
+COPY js/navbar.js ./js/navbar.js
 
 # expose port
 EXPOSE 3838

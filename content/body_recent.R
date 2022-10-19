@@ -4,11 +4,11 @@ body_recent <- dashboardBody(
     tags$style(type = "text/css", ".legend li { float: left; margin-right: 10px; position: relative; }"),
     tags$style(type = "text/css", ".legend span { border: 1px solid #ccc; float: left; width: 30px; height: 15px;
                    margin-right: 5px; margin-top: 1px; position: relative;"),
-    tags$style(type = "text/css", ".legend .pos1 { background-color: #9362DA; }"),
-    tags$style(type = "text/css", ".legend .pos2 { background-color: #3fb7d9; }"),
-    tags$style(type = "text/css", ".legend .pos3 { background-color: #e04848; }"),
-    tags$style(type = "text/css", ".legend .pos4 { background-color: #4BD33A; }"),
-    tags$style(type = "text/css", ".legend .pos5 { background-color: #FFFFFF; }"),
+    tags$style(type = "text/css", ".legend .pos1 { background-color: #9362DA; }"), # purple
+    tags$style(type = "text/css", ".legend .pos2 { background-color: #3fb7d9; }"), # blue
+    tags$style(type = "text/css", ".legend .pos3 { background-color: #e04848; }"), # red
+    tags$style(type = "text/css", ".legend .pos4 { background-color: #4BD33A; }"), # green
+    tags$style(type = "text/css", ".legend .pos5 { background-color: #FFFFFF; }"), # white (clear)
     #tags$style(type = "text/css", ".legend .pos6 { background-color: #FF0000; }"),
     tags$style(type = "text/css", ".legend .neg1 { background-color: #3fb7d9; }"),
     tags$style(type = "text/css", ".legend .neg2 { background-color: #FF0000; }"),
