@@ -303,7 +303,8 @@ schedule_tonight <- get_schedule_tonight(schedule, schedule_ml)
 schedule <- schedule %>%
   mutate(Date = as.character(Date)) %>%
   anti_join(schedule_tonight %>% select(Date)) %>%
-  select(-home_team, -away_team)
+  select(-home_team, -away_team) %>%
+  arrange(Date)
 
 # use this to test
 # schedule_tonight = data.frame()

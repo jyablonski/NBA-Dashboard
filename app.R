@@ -362,7 +362,7 @@ server <- function(input, output, session) {
       datatable(
         schedule_tonight, rownames = FALSE,
         options = list(pageLength = 10,
-                       columnDefs = list(list(visible=FALSE, targets = c(5, 6, 8, 9, 11, 12)))),
+                       columnDefs = list(list(visible=FALSE, targets = c(5, 6, 7, 8, 11, 12)))),
       caption = htmltools::tags$caption(
         style = 'caption-side: bottom;',
         htmltools::em('Win % Predictions created via Logistic Regression ML Model | Green Cell Coloring indicates great Odds Value')
