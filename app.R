@@ -144,7 +144,7 @@ server <- function(input, output, session) {
     #   top20_plot(top_scorers)
     # }
     # else {
-    top20_plot_playoffs(top_scorers)
+    top20_plot(top_scorers)
     # }
   })
   

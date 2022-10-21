@@ -182,7 +182,7 @@ rolling_avg <- get_data('prod_rolling_avg_stats')
 
 schedule <- get_data('prod_schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team_odds, `Road Team` = away_team_odds, `Average Team Rank` = avg_team_rank,
-         home_team, away_team) #home_moneyline_raw, home_team_logo, away_moneyline_raw, away_team_logo
+         home_team, away_team, home_moneyline_raw, home_team_logo, away_moneyline_raw, away_team_logo)
 
 social_media_bans <- get_data('prod_social_media_aggs')
 
@@ -268,6 +268,7 @@ get_schedule_tonight <- function(schedule_df, schedule_df_ml){
   if ((nrow(schedule_df_ml) > 0) & (min(schedule_df$Date) == suppressWarnings(min(schedule_df_ml$proper_date)))){
     
     schedule_tonight <- schedule_df %>%
+      mutate(Date = as.character(Date)) %>%
       left_join(schedule_df_ml %>% select(home_team, Date = proper_date, home_team_predicted_win_pct, away_team_predicted_win_pct)) %>%
       filter(Date == min(Date)) %>%
       select(-home_team, -away_team) %>%
@@ -300,6 +301,7 @@ schedule_tonight <- get_schedule_tonight(schedule, schedule_ml)
 # bby2 <- get_schedule_tonight(schedule, schedule_ml_test)
 
 schedule <- schedule %>%
+  mutate(Date = as.character(Date)) %>%
   anti_join(schedule_tonight %>% select(Date)) %>%
   select(-home_team, -away_team)
 
