@@ -546,7 +546,7 @@ mov_plot <- function(df){
     scale_fill_manual(values = cols) +
     labs(x = NULL,
          y = 'Margin of Victory',
-         title = paste0(df$full_team[1], ' Game Log History \n 2021-22 NBA Season'),
+         title = paste0(df$full_team[1], ' Game Log History \n 2022-23 NBA Season'),
          fill = 'Outcome')
   
   
@@ -606,7 +606,7 @@ game_types_plot <- function(df, season_type = "Regular Season"){
     labs(x = 'Game Type',
          y = 'Percent of Total Games',
          fill = NULL,
-         title = 'Game Type Distribution for 2021-22 NBA Season') +
+         title = 'Game Type Distribution for 2022-23 NBA Season') +
     theme_jacob() +
     theme(plot.title = element_text(hjust = 0.5), legend.position = 'top')
   
@@ -677,7 +677,7 @@ contracts_dist_plot <- function(df){
     scale_x_continuous(limits = c(0, 250)) +
     labs(x = 'Number of Contracts',
          y = NULL,
-         title = 'Distribution of Contracts in the 2021-22 NBA Season') +
+         title = 'Distribution of Contracts in the 2022-23 NBA Season') +
     theme_minimal(base_size=10, base_family="Gill Sans MT") %+replace% 
     theme(
       panel.grid.minor = element_blank(),
@@ -702,7 +702,7 @@ value_plot <- function(df){
     scale_y_continuous(limits = c(-5, 55, breaks = c(-5, 5, 15, 25, 35, 45, 55))) +
     labs(y = 'Player Value Metric',
          x = 'Salary',
-         title = 'What are the least & most valuable contracts in the 2021-22 NBA Season ?',
+         title = 'What are the least & most valuable contracts in the 2022-23 NBA Season ?',
          fill = 'Legend') +
     scale_fill_manual(values=c("red", "green", "grey70", 'purple'))
   
@@ -773,7 +773,7 @@ vegas_plot <- function(df) {
              x = max(df$wins_differential) * .30, y = 5.5, size = 4.5) +
     labs(x = 'Predicted Wins Differential',
          y = NULL,
-         title = paste0('Vegas Preseason Over / Under Odds Tracker for the 2021-22 NBA Season')) +
+         title = paste0('Vegas Preseason Over / Under Odds Tracker for the 2022-23 NBA Season')) +
     theme_jacob() +
     theme(legend.position = 'none', plot.title = element_text(hjust = 0.5))
   
@@ -807,7 +807,7 @@ advanced_sos_plot <- function(df){
              x = max(df$pct_vs_below_500) * .95, y = 16) +
     labs(x = '% of Games Played vs Below .500 Teams',
          y = NULL,
-         title = paste0('Team Strength of Schedule for the 2021-22 NBA Season')) +
+         title = paste0('Team Strength of Schedule for the 2022-23 NBA Season')) +
     theme_jacob() +
     theme(legend.position = 'none')
   
@@ -837,7 +837,7 @@ future_schedule_analysis_plot <- function(df){
              x = max(df$pct_games_left_above_500) * .985, y = 4, size = 3) +
     labs(x = '% of Games Left vs Above .500 Teams',
          y = NULL,
-         title = paste0('Future Strength of Schedule for the 2021-22 NBA Season')) +
+         title = paste0('Future Strength of Schedule for the 2022-23 NBA Season')) +
     theme_jacob() +
     theme(legend.position = 'none')
   
