@@ -48,7 +48,7 @@ body_about <- dashboardBody(
             tags$a(href = "https://github.com/jyablonski", "GitHub"),
             tags$br(),
             tags$br(),
-            h5("Version: 1.4.2"),
+            h5("Version: 1.4.3"),
             width = 12,
             style = "padding-left: 20px; padding-right: 20px; padding-bottom: 40px; margin-top: -15px;"
           ),
