@@ -302,8 +302,8 @@ schedule_tonight <- get_schedule_tonight(schedule, schedule_ml)
 
 schedule <- schedule %>%
   mutate(Date = as.character(Date)) %>%
-  anti_join(schedule_tonight %>% select(Date)) %>%
-  select(-home_team, -away_team) %>%
+  anti_join(schedule_tonight %>% select(Date) %>% mutate(Date = as.character(Date))) %>%
+  select(-home_team, -away_team, -home_moneyline_raw, -away_moneyline_raw, -home_team_logo, -away_team_logo) %>%
   arrange(Date)
 
 # use this to test
