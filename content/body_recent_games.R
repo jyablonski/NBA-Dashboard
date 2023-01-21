@@ -20,11 +20,12 @@ body_recent <- dashboardBody(
     #valueBoxOutput("recent_games_played", width = 6),
   #),
   fluidRow(
-    box(column(width = 12, gt_output("top_15"))),
-    box(column(width = 12, gt_output("recent_team_wins")))
+    box(column(width = 12, gt_output("top_15")), width = 4),
+    box(column(width = 12, gt_output("recent_team_wins")), width = 4),
+    box(column(width = 12, gt_output("injury_report")), width = 4)
   ),
   fluidRow(
-    column(width = 6,
+    column(width = 4,
     div(
       tags$h5("Table Cell Coloring for Player Averages", style = "margin-left: 10px;"),
       tags$ul(class = "legend",
@@ -37,7 +38,7 @@ body_recent <- dashboardBody(
               tags$br()
       )
       )),
-    column(width = 6,
+    column(width = 4,
     div(
       tags$h5("Table Cell Coloring for Team Averages", style = "margin-left: 10px;"),
       tags$ul(class = "legend",
