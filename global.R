@@ -111,6 +111,12 @@ game_types <- get_data('prod_game_types') %>%
 injuries <- get_data('prod_injuries') %>%
   select(Player = player, -team_acronym, Team = team, Date = date, Status = status, Injury = injury, Description = description)
 
+injury_tracker <- get_data('prod_injury_tracker') %>%
+  mutate(player = map(player, ~gt::html(as.character(.x)))) %>%
+  select(player_logo, Player = player, Status = status, `Continuous Games Missed` = continuous_games_missed,
+         `Average PPG` = season_avg_ppg, `Average TS%` = season_ts_percent, `Average +/-` = season_avg_plusminus,
+         `MVP Score` = player_mvp_calc_avg, player_logo)
+
 mov <- get_data('prod_mov') %>%
   mutate(date = as.Date(date),
          win_int = case_when(outcome == 'W' ~ 1,
@@ -176,6 +182,7 @@ reddit_data <- get_data('prod_reddit_comments') %>%
   head(2000)
 
 reddit_team_sentiment <- get_data('prod_reddit_sentiment_time_series') %>%
+  filter(scrape_date >= '2022-10-01') %>%
   mutate(num_comments = as.numeric(num_comments))
 
 rolling_avg <- get_data('prod_rolling_avg_stats')
@@ -893,17 +900,17 @@ gt_theme_538 <- function(data,...) {
     )  %>% 
     tab_options(
       column_labels.background.color = "white",
-      table.border.top.width = px(3),
+      table.border.top.width = px(2),
        table.border.top.color = "#ffffff",
       table.border.bottom.color = "#ffffff",
       table.border.bottom.width = px(3),
-      column_labels.border.top.width = px(3),
+      column_labels.border.top.width = px(2),
       column_labels.border.top.color = "#ffffff",
-      column_labels.border.bottom.width = px(3),
+      column_labels.border.bottom.width = px(2),
       column_labels.border.bottom.color = "black",
-      data_row.padding = px(3),
+      data_row.padding = px(2),
       source_notes.font.size = 12,
-      table.font.size = 16,
+      table.font.size = 13,
       heading.align = "left",
       ...
     ) 
@@ -937,7 +944,7 @@ team_gt_table <- function(df){
     #                }) %>%
     cols_hide(columns = c(pts_color, opp_pts_color)) %>%
     cols_label(team_logo = "", opp_logo = "", new_loc = "", pts_scored = "PTS", max_team_lead = "MAX LEAD",
-               pts_scored_opp = 'PTS', max_opponent_lead = "MAX LEAD", mov = 'MARGIN OF VICTORY') %>%
+               pts_scored_opp = 'PTS', max_opponent_lead = "MAX LEAD", mov = 'MARGIN OF VICTORY', opponent = "OPP") %>%
     tab_style(
       style = cell_fill(color = "#9362DA"),
       locations = cells_body(
@@ -1027,6 +1034,35 @@ player_gt_table <- function(df){
     tab_header(
       title = md("Top Performers by **Points** Scored"),
       subtitle = paste0("From ", length(pbp_games_yesterday), " Games Played on ", format(most_recent_date$date, "%A, %B %d"))) %>%
+    opt_align_table_header(align = "center") %>%
+    cols_align(
+      align = "center",
+      columns = everything()
+    )
+  
+}
+
+injured_players_gt_table <- function(df){
+  df %>%
+    gt() %>%
+    gt_theme_538() %>%
+    text_transform(
+      locations = cells_body(c(player_logo)),
+      fn = function(x){
+        web_image(url = x, height = 34)
+      }
+    ) %>%
+    # cols_hide(columns = c(pts_color, ts_color)) %>%
+    cols_label(player_logo = "") %>%
+    opt_table_font(
+      font = list(
+        google_font("Chivo"),
+        default_fonts()
+      )) %>%
+    fmt_percent(columns = c(`Average TS%`)) %>%
+    tab_header(
+      title = md("Injury Report"),
+      subtitle = paste0("")) %>%
     opt_align_table_header(align = "center") %>%
     cols_align(
       align = "center",

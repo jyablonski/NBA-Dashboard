@@ -1,6 +1,6 @@
 source('global.R')
-source('content/body_standings.R')
-source('content/body_recent.R')
+source('content/body_overview.R')
+source('content/body_recent_games.R')
 source('content/body_team_plots.R')
 source('content/body_schedule.R')
 source('content/body_social_media_analysis.R')
@@ -175,6 +175,8 @@ server <- function(input, output, session) {
     
                                        
   output$recent_team_wins <- render_gt(team_gt_table(recent_games_teams))
+  
+  output$injury_report <- render_gt(injured_players_gt_table(injury_tracker))
 
 
   ################
