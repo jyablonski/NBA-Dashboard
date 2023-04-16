@@ -381,7 +381,7 @@ top20_plot_playoffs <- function(df){
 #                                                                                    'Playoff TS%: ', round(season_ts_percent * 100, 1),
 #                                                                                    '%', '<br>',
 #                                                                                    'Playoff Games Played: ', GP_p))) +
-#     scale_y_continuous(labels = scales::percent) + 
+#     scale_y_continuous(labels = scales::percent) +
 #     geom_hline(aes(yintercept = league_average_ts), alpha = 0.8, linetype = "dashed") +
 #     annotate(geom = 'text', label = 'League Average TS%', x = max(df$avg_PTS) * .95, y = league_average_ts * .95) +
 #     scale_fill_manual(values = c('light blue', 'orange')) +
@@ -390,11 +390,11 @@ top20_plot_playoffs <- function(df){
 #          y = 'True Shooting Percentage',
 #          fill = NULL) +
 #     theme(legend.background = element_rect(color = "black"))
-#   
+# 
 #   ggplotly(p, tooltip = c('text')) %>%
 #     layout(hoverlabel = list(bgcolor = "white"),
 #            legend = list(x = .78, y = 0.85))
-#   
+# 
 # }
 # top20_plot_playoffs(top_20pt_scorersp)
 # player_analysis_choices <- c('PPG', 'Player Value Metric', 'TS%', 'Plus Minus')

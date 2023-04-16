@@ -140,12 +140,12 @@ server <- function(input, output, session) {
   })
   
   output$top20_plot_output <- renderPlotly({
-    # if (input$select_ppg_plot_choice == 'Regular Season') {
-    #   top20_plot(top_scorers)
-    # }
-    # else {
-    top20_plot(top_scorers)
-    # }
+    if (input$select_ppg_plot_choice == 'Regular Season') {
+      top20_plot(top_scorers)
+    }
+    else {
+      top20_plot_playoffs(top_scorers)
+    }
   })
   
   
