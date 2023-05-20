@@ -79,16 +79,16 @@ ui <- fluidPage(
 # Server Logic
 server <- function(input, output, session) {
   
-  # 43200000
-  sourceData <- reactive({
-    invalidateLater(60000, session)
-    
-    twitter_data <- get_data('twitter_comments') %>%
-      select(`Tweet Date` = created_at, User = username, Tweet = tweet, Likes = likes, Retweets = retweets,
-             `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
-      mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
-      head(2000)
-  })
+  # 2023-05-20 - this was to update the data every 24 hrs if i moved over to hosting on ec2.  but shiny fucking sucks balls so lmao
+  # sourceData <- reactive({
+  #   invalidateLater(60000, session)
+  #   
+  #   twitter_data <- get_data('twitter_comments') %>%
+  #     select(`Tweet Date` = created_at, User = username, Tweet = tweet, Likes = likes, Retweets = retweets,
+  #            `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
+  #     mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
+  #     head(2000)
+  # })
   
   ################
   #              #
