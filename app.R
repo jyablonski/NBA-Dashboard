@@ -79,6 +79,17 @@ ui <- fluidPage(
 # Server Logic
 server <- function(input, output, session) {
   
+  # 43200000
+  sourceData <- reactive({
+    invalidateLater(60000, session)
+    
+    twitter_data <- get_data('twitter_comments') %>%
+      select(`Tweet Date` = created_at, User = username, Tweet = tweet, Likes = likes, Retweets = retweets,
+             `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
+      mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
+      head(2000)
+  })
+  
   ################
   #              #
   #   OVERVIEW   #   
@@ -119,13 +130,42 @@ server <- function(input, output, session) {
     )
   })
   
+  selected_east_standings <- reactive({
+    if (input$time_slider == max(standings_rollup$date)) {
+      east_standings
+    }
+    # the date filter logic is bc the table is created from game days, so on thanksgiving and allstar break
+    # when there's no games then the filter removes all data.  this logic is used to grab the most recent data
+    # incase the date falls on one of these non gamedays.
+    else {
+      standings_rollup %>%
+        filter(date <= input$time_slider, conference == 'Eastern') %>%
+        filter(date == max(date)) %>%
+        arrange(desc(running_total_win_pct)) %>%
+        select(Seed = rank, Team = team, Wins = running_total_wins, Losses = running_total_losses, Record = record_as_of_date)
+    }
+  })
   
-  output$east_standings_table <- DT::renderDataTable(east_standings, rownames = FALSE, 
+  selected_west_standings <- reactive({
+    if (input$time_slider == max(standings_rollup$date)) {
+      west_standings
+    }
+    else {
+      standings_rollup %>%
+        filter(date <= input$time_slider, conference == 'Western') %>%
+        filter(date == max(date)) %>% 
+        arrange(desc(running_total_win_pct)) %>%
+        select(Seed = rank, Team = team, Wins = running_total_wins, Losses = running_total_losses, Record = record_as_of_date)
+    }
+  })
+  
+  output$east_standings_table <- DT::renderDataTable(selected_east_standings(), rownames = FALSE, 
                                                      options = list(searching = FALSE,
                                                                     pageLength = 15,
                                                                     lengthChange = FALSE, info = FALSE,
                                                                     paging = FALSE))
-  output$west_standings_table <- DT::renderDataTable(west_standings, rownames = FALSE,
+  
+  output$west_standings_table <- DT::renderDataTable(selected_west_standings(), rownames = FALSE,
                                                      options = list(searching = FALSE,
                                                                     pageLength = 15, 
                                                                     lengthChange = FALSE, info = FALSE,
@@ -140,10 +180,11 @@ server <- function(input, output, session) {
   })
   
   output$top20_plot_output <- renderPlotly({
-    if (input$select_ppg_plot_choice == 'Regular Season') {
+    if (season_type_feature_flag$is_playoffs == FALSE) {
       top20_plot(top_scorers)
-    }
-    else {
+    } else if (input$select_ppg_plot_choice == 'Regular Season') {
+      top20_plot(top_scorers)
+    } else {
       top20_plot_playoffs(top_scorers)
     }
   })

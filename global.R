@@ -93,31 +93,32 @@ get_ord_numbers <- function(df){
 
 # write_csv(contracts_value, 'data/prod_contract_value_analysis.csv')
 # Loading in Data 
-bans <- get_data('prod_bans') %>%
+bans <- get_data('bans') %>%
   mutate(record = paste0(tot_wins[1], ' - ', tot_wins[2]),
          pct_change = round((avg_pts - last_yr_ppg) / avg_pts, 3) * 100,                      # time comes in UTC format
          last_updated_at = strftime(last_updated_at, format = '%B %d, %Y - %I:%M %p CST')) # this formats into CST for me
 
-contracts_value <- get_data('prod_contract_value_analysis') 
+contracts_value <- get_data('contract_value_analysis') 
 
-# future_schedule_analysis <- get_data('prod_future_schedule_analysis') %>%
+# future_schedule_analysis <- get_data('future_schedule_analysis') %>%
 #   mutate(team = fct_reorder(team, pct_games_left_above_500))
+season_type_feature_flag <- get_data('shiny_feature_flags')
 
-game_types <- get_data('prod_game_types') %>%
+game_types <- get_data('game_types') %>%
   group_by(type) %>%
   mutate(pct_total = round(n / sum(n), 3)) %>%
   ungroup()
 
-injuries <- get_data('prod_injuries') %>%
+injuries <- get_data('injuries') %>%
   select(Player = player, -team_acronym, Team = team, Date = date, Status = status, Injury = injury, Description = description)
 
-injury_tracker <- get_data('prod_injury_tracker') %>%
+injury_tracker <- get_data('injury_tracker') %>%
   mutate(player = map(player, ~gt::html(as.character(.x)))) %>%
   select(player_logo, Player = player, Status = status, `Continuous Games Missed` = continuous_games_missed,
          `Average PPG` = season_avg_ppg, `Average TS%` = season_ts_percent, `Average +/-` = season_avg_plusminus,
          `MVP Score` = player_mvp_calc_avg, player_logo)
 
-mov <- get_data('prod_mov') %>%
+mov <- get_data('mov') %>%
   mutate(date = as.Date(date),
          win_int = case_when(outcome == 'W' ~ 1,
                              TRUE ~ 0),
@@ -131,22 +132,22 @@ mov <- get_data('prod_mov') %>%
   ungroup() %>%
   select(-win_int, -loss_int, -win_record, -loss_record)
 
-opp_stats <- get_data('prod_opp_stats') %>%
+opp_stats <- get_data('opp_stats') %>%
   mutate(rating_text = paste0('Opponent FG%: ', fg_percent_opp * 100, '%', ' (', fg_percent_rank, ')', '<br>',
                               'Opponent 3P%: ', threep_percent_opp * 100, '%', ' (', three_percent_rank, ')', '<br>',
                               'Opponent PPG: ', ppg_opp, ' (', ppg_opp_rank, ')'))
 
-past_schedule_analysis <- get_data('prod_past_schedule_analysis') %>%
+past_schedule_analysis <- get_data('past_schedule_analysis') %>%
   mutate(team = fct_reorder(team, pct_vs_below_500))
 
 # this makes it so the game winning shot will show instead of 'end of 4th quarter' text on plot
-pbp_data_end <- get_data('prod_pbp') %>%
+pbp_data_end <- get_data('pbp') %>%
   filter(time_remaining_final == 0.00) %>%
   group_by(game_description) %>%
   slice(1) %>%
   ungroup()
 
-pbp_data <- get_data('prod_pbp') %>%
+pbp_data <- get_data('pbp') %>%
   filter(time_remaining_final != 0.00) %>%
   rbind(pbp_data_end) %>%
   mutate(leading_team_text = case_when(scoring_team == leading_team & leading_team != 'TIE' ~ 'Leading',
@@ -160,63 +161,65 @@ pbp_data <- get_data('prod_pbp') %>%
 
 rm(pbp_data_end)
 
-preseason_odds <- get_data('prod_preseason_odds') %>%
+preseason_odds <- get_data('preseason_odds') %>%
   mutate(team = fct_reorder(team, wins_differential))
 
-recent_games_players <- get_data('prod_recent_games_players') %>%
+recent_games_players <- get_data('recent_games_players') %>%
   arrange(desc(pts)) %>%
   mutate(rank = row_number(),
          player_new = map(player_new, ~gt::html(as.character(.x)))) %>%
   select(Rank = rank, player_logo, Player = player_new, pts, `TS%` = game_ts_percent, `+/-` = plusminus, Outcome = outcome, Salary = salary, pts_color, ts_color) %>%
   as_tibble()
 
-recent_games_teams <- get_data('prod_recent_games_teams') %>%
+recent_games_teams <- get_data('recent_games_teams') %>%
   select(team_logo, team, outcome, pts_scored, max_team_lead, new_loc, opp_logo, opponent, pts_scored_opp, max_opponent_lead, 
          pts_color, opp_pts_color, mov)
 
-reddit_data <- get_data('prod_reddit_comments') %>%
+reddit_data <- get_data('reddit_comments') %>%
   select(`Scrape Date` = scrape_date, User = author, Flair = flair, Comment = comment, Score = score,
          `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(Score = as.numeric(Score),
          URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
   head(2000)
 
-reddit_team_sentiment <- get_data('prod_reddit_sentiment_time_series') %>%
+reddit_team_sentiment <- get_data('reddit_sentiment_time_series') %>%
   filter(scrape_date >= '2022-10-01') %>%
   mutate(num_comments = as.numeric(num_comments))
 
-rolling_avg <- get_data('prod_rolling_avg_stats')
+rolling_avg <- get_data('rolling_avg_stats')
 
-schedule <- get_data('prod_schedule') %>%
+schedule <- get_data('schedule') %>%
   select(Date = date, `Start Time (EST)` = start_time, `Home Team` = home_team_odds, `Road Team` = away_team_odds, `Average Team Rank` = avg_team_rank,
          home_team, away_team, home_moneyline_raw, home_team_logo, away_moneyline_raw, away_team_logo)
 
-social_media_bans <- get_data('prod_social_media_aggs')
+social_media_bans <- get_data('social_media_aggs')
 
-standings <- get_data('prod_standings')
+standings <- get_data('standings')
 
-team_adv_stats <- get_data('prod_team_adv_stats')
+standings_rollup <- get_data('team_record_daily_rollup')
 
-team_blown_leads <- get_data('prod_team_blown_leads') %>%
+team_adv_stats <- get_data('team_adv_stats')
+
+team_blown_leads <- get_data('team_blown_leads') %>%
   mutate(net_comebacks = as.numeric(net_comebacks),
          team = fct_reorder(team, net_comebacks))
 
-team_contract_analysis <- get_data('prod_team_contracts_analysis') %>%
+team_contract_analysis <- get_data('team_contracts_analysis') %>%
   mutate(team = fct_reorder(team, team_pct_salary_earned))
 
-team_ratings <- get_data('prod_team_ratings')
+team_ratings <- get_data('team_ratings')
 
 team_ratings_bans <- team_ratings %>%
   mutate(rating_text = paste0('Offensive Rating: ', ortg, ' (', ortg_rank, ')', '<br>',
                               'Defensive Rating: ', drtg, ' (', drtg_rank, ')', '<br>',
                               'Net Rating: ', nrtg, ' (', nrtg_rank, ')'))
 
-top_scorers <- get_data('prod_scorers')
+top_scorers <- get_data('scorers')
 
-transactions <- get_data('prod_transactions') %>%
+transactions <- get_data('transactions') %>%
   select(Date = date, Transaction = transaction)
 
-twitter_data <- get_data('prod_twitter_comments') %>%
+twitter_data <- get_data('twitter_comments') %>%
   select(`Tweet Date` = created_at, User = username, Tweet = tweet, Likes = likes, Retweets = retweets,
          `Compound Sentiment Score` = compound, Pos = pos, Neutral = neu, Neg = neg, URL = url) %>%
   mutate(URL = paste0("<a href='",URL,"'>",URL,"</a>")) %>%
