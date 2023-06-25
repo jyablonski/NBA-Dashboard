@@ -1277,6 +1277,8 @@ sentiment_analysis_header = htmltools::withTags(table(
   )
 ))
 
+gc()
+
 # test dataframe
 # schedule_tonight <- tibble(
 #   Date = c('2022-09-30', '2022-09-30', '2022-09-30'),

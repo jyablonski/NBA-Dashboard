@@ -5,7 +5,7 @@ body_about <- dashboardBody(
         box(
           title = div("About this Project", style = "padding-left: 20px", class = "h2"),
           column(
-            "This dashboard shows up to date information about the 2021-2022 NBA Season.",
+            "This dashboard shows up to date information about the 2022-23 NBA Season.",
             tags$br(),
             tags$br(),
             h3("Data"),
@@ -37,8 +37,6 @@ body_about <- dashboardBody(
             tags$a(href = "https://github.com/jyablonski/nba_elt_airflow", "Airflow Proof of Concept"),
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/nba_elt_mlflow", "ML Pipeline"),
-            tags$br(),
-            tags$a(href = "https://github.com/jyablonski/graphql_praq", "GraphQL API"),
             tags$br(),
             tags$a(href = "https://github.com/jyablonski/nba_elt_rest_api", "REST API"),
             tags$br(),

@@ -1,0 +1,8 @@
+version: '3'
+services:
+
+  latest:
+      build:
+          context: ..
+          dockerfile: docker/Dockerfile
+      image: ${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}
