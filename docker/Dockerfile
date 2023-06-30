@@ -35,11 +35,11 @@ WORKDIR /home/appuser
 USER appuser
 
 # copy necessary files
+# COPY .Renviron ./.Renviron
+# COPY data ./data
 COPY content ./content
-COPY data ./data
 COPY app.R ./app.R
 COPY global.R ./global.R
-COPY .Renviron ./.Renviron
 COPY logos ./logos
 COPY www ./www
 COPY renv/activate.R renv/activate.R
