@@ -183,12 +183,12 @@ server <- function(input, output, session) {
   
   output$top20_plot_output <- renderPlotly({
     gc()
-    if (season_type_feature_flag$is_playoffs == FALSE) {
+    if (is_playoffs_feature_flag == 0) {
       top20_plot(top_scorers)
-    } else if (input$select_ppg_plot_choice == 'Regular Season') {
-      top20_plot(top_scorers)
-    } else {
+    } else if (is_playoffs_feature_flag == 1 & input$select_ppg_plot_choice == 'Playoffs') {
       top20_plot_playoffs(top_scorers)
+    } else {
+      top20_plot(top_scorers)
     }
   })
   
