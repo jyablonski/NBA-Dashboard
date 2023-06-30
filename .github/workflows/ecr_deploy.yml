@@ -8,6 +8,7 @@ on:
 env:
   IAM_ROLE: ${{ secrets.IAM_ROLE }}
   AWS_REGION : "us-east-1"
+  ECR_REPO : ${{ secrets.ECR_REPO }}
 
 # permission can be added at job level or workflow level    
 permissions:
