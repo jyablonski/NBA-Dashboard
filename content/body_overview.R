@@ -1,4 +1,4 @@
-if (season_type_feature_flag$is_playoffs == TRUE) {
+if (is_playoffs_feature_flag == 1) {
   body_standings <- dashboardBody(
     fluidRow(
       box(h4(paste0("Key Figures & Standings as of ", today)),

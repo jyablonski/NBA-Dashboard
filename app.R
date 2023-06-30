@@ -131,6 +131,7 @@ server <- function(input, output, session) {
   })
   
   selected_east_standings <- reactive({
+    gc()
     if (input$time_slider == max(standings_rollup$date)) {
       east_standings
     }
@@ -147,6 +148,7 @@ server <- function(input, output, session) {
   })
   
   selected_west_standings <- reactive({
+    gc()
     if (input$time_slider == max(standings_rollup$date)) {
       west_standings
     }
@@ -180,18 +182,19 @@ server <- function(input, output, session) {
   })
   
   output$top20_plot_output <- renderPlotly({
-    if (season_type_feature_flag$is_playoffs == FALSE) {
+    gc()
+    if (is_playoffs_feature_flag == 0) {
       top20_plot(top_scorers)
-    } else if (input$select_ppg_plot_choice == 'Regular Season') {
-      top20_plot(top_scorers)
-    } else {
+    } else if (is_playoffs_feature_flag == 1 & input$select_ppg_plot_choice == 'Playoffs') {
       top20_plot_playoffs(top_scorers)
+    } else {
+      top20_plot(top_scorers)
     }
   })
   
   
   output$team_plot_output <- renderPlot({
-    
+    gc()
     team_ratings_plot(team_ratings)
   })
   
@@ -203,11 +206,13 @@ server <- function(input, output, session) {
   ################
   
   selected_game_event <- reactive({
+    gc()
     pbp_data %>%
       filter(game_description == input$select_game)
   })
   
   output$yesterday_event_output <- renderPlotly({
+    gc()
     game_event_plot(selected_game_event()) 
   })
   
@@ -227,6 +232,7 @@ server <- function(input, output, session) {
   ################
   
   selected_team_transactions <- reactive({
+    gc()
     transactions %>%
       filter(str_detect(Transaction, input$select_team)) %>%
       arrange(desc(Date))
@@ -236,16 +242,19 @@ server <- function(input, output, session) {
   
   
   selected_team_ppg <- reactive({
+    gc()
     top_scorers %>%
       filter(full_team == input$select_team)
   })
   
   output$team_ppg_plot_output <- renderPlotly({
+    gc()
     team_ppg_plot(selected_team_ppg()) 
   })
   
   
   selected_team_mov <- reactive({
+    gc()
     mov %>%
       filter(full_team == input$select_team)
   })
@@ -253,10 +262,12 @@ server <- function(input, output, session) {
   
   output$team_mov_output <- renderPlotly({
     # df <- selected_team()
+    gc()
     mov_plot(selected_team_mov())
   })
   
   selected_team_injury <- reactive({
+    gc()
     injuries %>%
       filter(Team == input$select_team)
   })
@@ -268,16 +279,19 @@ server <- function(input, output, session) {
                                                             paging = FALSE))
   
   selected_team_bans <- reactive({
+    gc()
     standings %>%
       filter(team_full == input$select_team)
   })
   
   selected_team_rating_bans <- reactive({
+    gc()
     team_ratings_bans %>%
       filter(team == input$select_team)
   })
   
   selected_team_defensive_rating_bans <- reactive({
+    gc()
     opp_stats %>%
       filter(team == input$select_team)
   })
@@ -326,6 +340,7 @@ server <- function(input, output, session) {
   )
   
   selected_social_media <- reactive({
+    gc()
     if (input$select_social_media == 'Reddit Comments') {
       reddit_data
     }
@@ -335,6 +350,7 @@ server <- function(input, output, session) {
   })
   
   selected_reddit_plot <- reactive({
+    gc()
     if (input$select_reddit_plot_choice == 'Reddit Comments') {
       reddit_comment_plot(reddit_team_sentiment, input$select_team_social)
     }
@@ -400,6 +416,7 @@ server <- function(input, output, session) {
                                                options = list(pageLength = 10))
   
   output$schedule_table <- DT::renderDataTable({
+    gc()
     if ((input$select_schedule == "Tonight's Games") & (("Home Predicted Win %" %in% names(schedule_tonight)))) {
       # render_gt(schedule_gt_table(schedule))
       datatable(
@@ -434,6 +451,7 @@ server <- function(input, output, session) {
   })
   
   output$schedule_plot_output <- renderPlotly({
+    gc()
     if (input$select_choice == 'Vegas Preseason Over/Under Odds') {
       vegas_plot(preseason_odds)
     }

@@ -18,12 +18,12 @@ bump-major:
 
 .PHONY: docker-build
 docker-build:
-	docker-compose -f docker/docker-compose.yml build
+	docker compose -f docker/docker-compose-local.yml build
 
-.PHONY: docker-run
-docker-run:
-	docker-compose -f docker/docker-compose.yml up -d
+.PHONY: up
+up:
+	docker compose -f docker/docker-compose-local.yml up -d
 
-.PHONY: docker-down
-docker-down:
-	docker-compose -f docker/docker-compose.yml down
+.PHONY: down
+down:
+	docker compose -f docker/docker-compose-local.yml down

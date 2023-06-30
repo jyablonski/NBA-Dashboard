@@ -102,7 +102,10 @@ contracts_value <- get_data('contract_value_analysis')
 
 # future_schedule_analysis <- get_data('future_schedule_analysis') %>%
 #   mutate(team = fct_reorder(team, pct_games_left_above_500))
-season_type_feature_flag <- get_data('shiny_feature_flags')
+is_playoffs_feature_flag <- get_data('feature_flags') %>%
+  filter(flag == 'playoffs') %>%
+  select(is_enabled) %>%
+  pull()
 
 game_types <- get_data('game_types') %>%
   group_by(type) %>%
@@ -1276,6 +1279,8 @@ sentiment_analysis_header = htmltools::withTags(table(
     )
   )
 ))
+
+gc()
 
 # test dataframe
 # schedule_tonight <- tibble(
