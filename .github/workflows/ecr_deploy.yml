@@ -25,6 +25,23 @@ jobs:
       uses: actions/checkout@v2
       if: github.ref == 'refs/heads/main'
 
+    - name: Create and populate .Renviron file
+      env:
+        AWS_HOST: ${{ secrets.AWS_HOST }}
+        AWS_PORT: ${{ secrets.AWS_PORT }}
+        AWS_PW: ${{ secrets.AWS_PW }}
+        AWS_USER: ${{ secrets.AWS_USER }}
+        AWS_DB: ${{ secrets.AWS_DB }}
+      run: |
+        touch .Renviron
+        echo aws_host="$AWS_HOST" >> .Renviron
+        echo aws_port="$AWS_PORT" >> .Renviron
+        echo aws_pw="$AWS_PW" >> .Renviron
+        echo aws_user="$AWS_USER" >> .Renviron
+        echo aws_db="$AWS_DB" >> .Renviron
+      shell: bash
+
+
     - name: configure aws credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
